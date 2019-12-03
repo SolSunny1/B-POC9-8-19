@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Last meeting with the Investment Team --></help>
+    <label><!-- Date of Last Meeting with Inv. Team --></label>
+    <name>Date_of_Last_Meeting_with_Investment_Tea__c</name>
+</CustomFieldTranslation>

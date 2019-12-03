@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Risk-Return --></label>
+    <name>Risk_Return__c</name>
+    <picklistValues>
+        <masterLabel>Core Plus</masterLabel>
+        <translation><!-- Core Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit</masterLabel>
+        <translation><!-- Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunistic</masterLabel>
+        <translation><!-- Opportunistic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value Add</masterLabel>
+        <translation><!-- Value Add --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

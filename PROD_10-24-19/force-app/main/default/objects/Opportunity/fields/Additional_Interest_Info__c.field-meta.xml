@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Interest_Info__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this field to help identify the status of the Opportunity from the perspective of PMT.</inlineHelpText>
+    <label>Status (Tracker)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>High Priority Prospect</fullName>
+                <default>false</default>
+                <label>High Priority Prospect</label>
+            </value>
+            <value>
+                <fullName>Executed NDA</fullName>
+                <default>false</default>
+                <label>Executed NDA</label>
+            </value>
+            <value>
+                <fullName>Held initial call/meeting</fullName>
+                <default>false</default>
+                <label>Held initial call/meeting</label>
+            </value>
+            <value>
+                <fullName>Commercial diligence</fullName>
+                <default>false</default>
+                <label>Commercial diligence</label>
+            </value>
+            <value>
+                <fullName>IC Approved</fullName>
+                <default>false</default>
+                <label>IC Approved</label>
+            </value>
+            <value>
+                <fullName>Legal diligence</fullName>
+                <default>false</default>
+                <label>Legal diligence</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Request for Proposal</fullName>
+                <default>false</default>
+                <label>Request for Proposal</label>
+            </value>
+            <value>
+                <fullName>Tracking</fullName>
+                <default>false</default>
+                <label>Tracking</label>
+            </value>
+            <value>
+                <fullName>Due Diligence</fullName>
+                <default>false</default>
+                <label>Due Diligence</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Soft Declines</fullName>
+                <default>false</default>
+                <label>Soft Declines</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

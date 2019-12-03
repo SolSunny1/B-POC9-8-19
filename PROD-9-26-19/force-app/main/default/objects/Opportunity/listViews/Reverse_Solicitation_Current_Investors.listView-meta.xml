@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reverse_Solicitation_Current_Investors</fullName>
+    <columns>Intial_Source_of_Contact__c</columns>
+    <columns>Country__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Consultant__c</columns>
+    <columns>Date_of_Last_Meeting_with_Investment_Tea__c</columns>
+    <columns>Data_Room_Access_Provided__c</columns>
+    <columns>Data_Room_Last_Accessed__c</columns>
+    <columns>Topup__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reporting_Country_Region__c</field>
+        <operation>equals</operation>
+        <value>Europe</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>7,8</value>
+    </filters>
+    <label>Reverse Solicitation - Current Investors</label>
+    <sharedTo>
+        <role>PFG</role>
+        <role>PFG_CRM</role>
+        <role>PFG_Exec</role>
+        <role>SMP</role>
+    </sharedTo>
+</ListView>

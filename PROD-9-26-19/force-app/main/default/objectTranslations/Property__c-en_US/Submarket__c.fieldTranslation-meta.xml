@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Submarket --></label>
+    <name>Submarket__c</name>
+    <picklistValues>
+        <masterLabel>Airport</masterLabel>
+        <translation><!-- Airport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airport Way</masterLabel>
+        <translation><!-- Airport Way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airport West</masterLabel>
+        <translation><!-- Airport West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airport West &amp; Meadowlands</masterLabel>
+        <translation><!-- Airport West &amp; Meadowlands --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airport/I-20W</masterLabel>
+        <translation><!-- Airport/I-20W --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allentown</masterLabel>
+        <translation><!-- Allentown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ann Arbor</masterLabel>
+        <translation><!-- Ann Arbor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arlington</masterLabel>
+        <translation><!-- Arlington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlanta</masterLabel>
+        <translation><!-- Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlanta - NE Submarket</masterLabel>
+        <translation><!-- Atlanta - NE Submarket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlanta - Northeast</masterLabel>
+        <translation><!-- Atlanta - Northeast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aurora</masterLabel>
+        <translation><!-- Aurora --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BWI/Marley Neck</masterLabel>
+        <translation><!-- BWI/Marley Neck --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baltimore</masterLabel>
+        <translation><!-- Baltimore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baltimore (Cecil County)</masterLabel>
+        <translation><!-- Baltimore (Cecil County) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baltimore East</masterLabel>
+        <translation><!-- Baltimore East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baltimore/ Washington</masterLabel>
+        <translation><!-- Baltimore/ Washington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baltimore/Washington</masterLabel>
+        <translation><!-- Baltimore/Washington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baodi</masterLabel>
+        <translation><!-- Baodi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Barcelona</masterLabel>
+        <translation><!-- Barcelona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bavaria</masterLabel>
+        <translation><!-- Bavaria --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bayport</masterLabel>
+        <translation><!-- Bayport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beavercreek</masterLabel>
+        <translation><!-- Beavercreek --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Berlin</masterLabel>
+        <translation><!-- Berlin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Birmingham</masterLabel>
+        <translation><!-- Birmingham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bordeaux</masterLabel>
+        <translation><!-- Bordeaux --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bowling Green and Ontario, Canada</masterLabel>
+        <translation><!-- Bowling Green and Ontario, Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bremen, Bremerhaven</masterLabel>
+        <translation><!-- Bremen, Bremerhaven --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bridgeport</masterLabel>
+        <translation><!-- Bridgeport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brooklyn Park, MN</masterLabel>
+        <translation><!-- Brooklyn Park, MN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brooklyn park</masterLabel>
+        <translation><!-- Brooklyn park --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broward</masterLabel>
+        <translation><!-- Broward --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brunswicks</masterLabel>
+        <translation><!-- Brunswicks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bucks County</masterLabel>
+        <translation><!-- Bucks County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>California</masterLabel>
+        <translation><!-- California --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carlisle, PA</masterLabel>
+        <translation><!-- Carlisle, PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cassano</masterLabel>
+        <translation><!-- Cassano --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cenral PA</masterLabel>
+        <translation><!-- Cenral PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Denver</masterLabel>
+        <translation><!-- Central Denver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central DuPage</masterLabel>
+        <translation><!-- Central DuPage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Florida - Ft Pierce</masterLabel>
+        <translation><!-- Central Florida - Ft Pierce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Maryland and Northern Virginia</masterLabel>
+        <translation><!-- Central Maryland and Northern Virginia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Mexico</masterLabel>
+        <translation><!-- Central Mexico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central NJ</masterLabel>
+        <translation><!-- Central NJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central New Jersey</masterLabel>
+        <translation><!-- Central New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central PA</masterLabel>
+        <translation><!-- Central PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Valley</masterLabel>
+        <translation><!-- Central Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Charlotte</masterLabel>
+        <translation><!-- Charlotte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chengdu</masterLabel>
+        <translation><!-- Chengdu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chicago</masterLabel>
+        <translation><!-- Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cincinnati</masterLabel>
+        <translation><!-- Cincinnati --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cincinnati (Monroe)</masterLabel>
+        <translation><!-- Cincinnati (Monroe) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cincinnati (N. Kentucy)</masterLabel>
+        <translation><!-- Cincinnati (N. Kentucy) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cincinnati - Park South at Richwood</masterLabel>
+        <translation><!-- Cincinnati - Park South at Richwood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleveland</masterLabel>
+        <translation><!-- Cleveland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbia, SC</masterLabel>
+        <translation><!-- Columbia, SC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbus</masterLabel>
+        <translation><!-- Columbus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbus, GA</masterLabel>
+        <translation><!-- Columbus, GA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbus, OH and Dallas</masterLabel>
+        <translation><!-- Columbus, OH and Dallas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbus, Ohio &amp; Fort Worth, TX</masterLabel>
+        <translation><!-- Columbus, Ohio &amp; Fort Worth, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corona</masterLabel>
+        <translation><!-- Corona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Covington, Tennessee</masterLabel>
+        <translation><!-- Covington, Tennessee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cumberland County</masterLabel>
+        <translation><!-- Cumberland County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DFW</masterLabel>
+        <translation><!-- DFW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DFW &amp; GSW</masterLabel>
+        <translation><!-- DFW &amp; GSW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DFW/GSW/South Stemmons</masterLabel>
+        <translation><!-- DFW/GSW/South Stemmons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dallas</masterLabel>
+        <translation><!-- Dallas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dallas Tx</masterLabel>
+        <translation><!-- Dallas Tx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dallas, Tx</masterLabel>
+        <translation><!-- Dallas, Tx --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denver</masterLabel>
+        <translation><!-- Denver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doral Market</masterLabel>
+        <translation><!-- Doral Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dublin</masterLabel>
+        <translation><!-- Dublin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duesseldorf</masterLabel>
+        <translation><!-- Duesseldorf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dulles Corridor</masterLabel>
+        <translation><!-- Dulles Corridor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duncan South Carolina</masterLabel>
+        <translation><!-- Duncan South Carolina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dunkirk, NY</masterLabel>
+        <translation><!-- Dunkirk, NY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dupage County</masterLabel>
+        <translation><!-- Dupage County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Durham</masterLabel>
+        <translation><!-- Durham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Atlanta</masterLabel>
+        <translation><!-- East Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Hillsborough</masterLabel>
+        <translation><!-- East Hillsborough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Indianapolis</masterLabel>
+        <translation><!-- East Indianapolis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Los Angeles</masterLabel>
+        <translation><!-- East Los Angeles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Tampa</masterLabel>
+        <translation><!-- East Tampa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Valley</masterLabel>
+        <translation><!-- East Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern PA</masterLabel>
+        <translation><!-- Eastern PA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern Pennsylvania</masterLabel>
+        <translation><!-- Eastern Pennsylvania --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edina</masterLabel>
+        <translation><!-- Edina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Elkridge</masterLabel>
+        <translation><!-- Elkridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exit 8A</masterLabel>
+        <translation><!-- Exit 8A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forsyth County</masterLabel>
+        <translation><!-- Forsyth County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fort Lauderdale</masterLabel>
+        <translation><!-- Fort Lauderdale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frankfurt</masterLabel>
+        <translation><!-- Frankfurt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gijon</masterLabel>
+        <translation><!-- Gijon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Great Southwest</masterLabel>
+        <translation><!-- Great Southwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Groveland</masterLabel>
+        <translation><!-- Groveland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guangzhou</masterLabel>
+        <translation><!-- Guangzhou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hamburg</masterLabel>
+        <translation><!-- Hamburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hamilton Mill Business Center - NE Atlanta</masterLabel>
+        <translation><!-- Hamilton Mill Business Center - NE Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harford County</masterLabel>
+        <translation><!-- Harford County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harrisburg</masterLabel>
+        <translation><!-- Harrisburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hawthorne</masterLabel>
+        <translation><!-- Hawthorne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hialeah</masterLabel>
+        <translation><!-- Hialeah --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Houma, LA</masterLabel>
+        <translation><!-- Houma, LA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Houston</masterLabel>
+        <translation><!-- Houston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-20 W</masterLabel>
+        <translation><!-- I-20 W --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-20 West</masterLabel>
+        <translation><!-- I-20 West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-20W</masterLabel>
+        <translation><!-- I-20W --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-20W/Fulton</masterLabel>
+        <translation><!-- I-20W/Fulton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-20W/NE Atlanta</masterLabel>
+        <translation><!-- I-20W/NE Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-55</masterLabel>
+        <translation><!-- I-55 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-75 South</masterLabel>
+        <translation><!-- I-75 South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-80</masterLabel>
+        <translation><!-- I-80 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-85</masterLabel>
+        <translation><!-- I-85 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-88</masterLabel>
+        <translation><!-- I-88 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I-90 Corridor</masterLabel>
+        <translation><!-- I-90 Corridor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IE East</masterLabel>
+        <translation><!-- IE East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IE West</masterLabel>
+        <translation><!-- IE West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IEW, West OC</masterLabel>
+        <translation><!-- IEW, West OC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Imperial County</masterLabel>
+        <translation><!-- Imperial County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis</masterLabel>
+        <translation><!-- Indianapolis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis (20 Miles West)</masterLabel>
+        <translation><!-- Indianapolis (20 Miles West) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis (Plainfield)</masterLabel>
+        <translation><!-- Indianapolis (Plainfield) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis - South submarket</masterLabel>
+        <translation><!-- Indianapolis - South submarket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indianapolis Southwest / Plainfield</masterLabel>
+        <translation><!-- Indianapolis Southwest / Plainfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inland Empire</masterLabel>
+        <translation><!-- Inland Empire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inland Empire East</masterLabel>
+        <translation><!-- Inland Empire East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inland Empire West</masterLabel>
+        <translation><!-- Inland Empire West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inland Empire West Market</masterLabel>
+        <translation><!-- Inland Empire West Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interchange City</masterLabel>
+        <translation><!-- Interchange City --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Irvine</masterLabel>
+        <translation><!-- Irvine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jacksonville</masterLabel>
+        <translation><!-- Jacksonville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Johnson County</masterLabel>
+        <translation><!-- Johnson County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Juarez</masterLabel>
+        <translation><!-- Juarez --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kane</masterLabel>
+        <translation><!-- Kane --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kearny, New Jersey</masterLabel>
+        <translation><!-- Kearny, New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kent</masterLabel>
+        <translation><!-- Kent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kent Valley</masterLabel>
+        <translation><!-- Kent Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>King County</masterLabel>
+        <translation><!-- King County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Bisbal del Penedes &amp; Alovera</masterLabel>
+        <translation><!-- La Bisbal del Penedes &amp; Alovera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lake County</masterLabel>
+        <translation><!-- Lake County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Landover</masterLabel>
+        <translation><!-- Landover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Las Vegas</masterLabel>
+        <translation><!-- Las Vegas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lebanon Ind /NW Indy</masterLabel>
+        <translation><!-- Lebanon Ind /NW Indy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lehigh Valley</masterLabel>
+        <translation><!-- Lehigh Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leipzig Area</masterLabel>
+        <translation><!-- Leipzig Area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lexington, KY</masterLabel>
+        <translation><!-- Lexington, KY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lille</masterLabel>
+        <translation><!-- Lille --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Livonia, MI</masterLabel>
+        <translation><!-- Livonia, MI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>London</masterLabel>
+        <translation><!-- London --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Louisville</masterLabel>
+        <translation><!-- Louisville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lousiville</masterLabel>
+        <translation><!-- Lousiville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lutterworth</masterLabel>
+        <translation><!-- Lutterworth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lyon</masterLabel>
+        <translation><!-- Lyon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Madrid</masterLabel>
+        <translation><!-- Madrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mannheim</masterLabel>
+        <translation><!-- Mannheim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marseille</masterLabel>
+        <translation><!-- Marseille --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maryland/Virginia/West Virginia</masterLabel>
+        <translation><!-- Maryland/Virginia/West Virginia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meadowlands</masterLabel>
+        <translation><!-- Meadowlands --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meadowlands Submarket</masterLabel>
+        <translation><!-- Meadowlands Submarket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medley</masterLabel>
+        <translation><!-- Medley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Memphis</masterLabel>
+        <translation><!-- Memphis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Memphis (Nashville)</masterLabel>
+        <translation><!-- Memphis (Nashville) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mesa</masterLabel>
+        <translation><!-- Mesa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metro Chicago</masterLabel>
+        <translation><!-- Metro Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metro East</masterLabel>
+        <translation><!-- Metro East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid-Atlantic</masterLabel>
+        <translation><!-- Mid-Atlantic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid-Counties</masterLabel>
+        <translation><!-- Mid-Counties --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Middleville</masterLabel>
+        <translation><!-- Middleville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midlands</masterLabel>
+        <translation><!-- Midlands --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milan</masterLabel>
+        <translation><!-- Milan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milton Keynes</masterLabel>
+        <translation><!-- Milton Keynes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Milwaukie</masterLabel>
+        <translation><!-- Milwaukie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minneapolis/St. Paul</masterLabel>
+        <translation><!-- Minneapolis/St. Paul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monroe</masterLabel>
+        <translation><!-- Monroe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montgomery County</masterLabel>
+        <translation><!-- Montgomery County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Munich - Augsburg</masterLabel>
+        <translation><!-- Munich - Augsburg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NE Atlanta</masterLabel>
+        <translation><!-- NE Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NE Columbus</masterLabel>
+        <translation><!-- NE Columbus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NE Dallas</masterLabel>
+        <translation><!-- NE Dallas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NE Dallas/Ft. Worth</masterLabel>
+        <translation><!-- NE Dallas/Ft. Worth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NE Houston</masterLabel>
+        <translation><!-- NE Houston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NE/North Central</masterLabel>
+        <translation><!-- NE/North Central --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NJ Turnpike</masterLabel>
+        <translation><!-- NJ Turnpike --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW Atlanta</masterLabel>
+        <translation><!-- NW Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW Houston</masterLabel>
+        <translation><!-- NW Houston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW Los Angeles</masterLabel>
+        <translation><!-- NW Los Angeles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW Minneapolis</masterLabel>
+        <translation><!-- NW Minneapolis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW Orange</masterLabel>
+        <translation><!-- NW Orange --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW Twin Cities</masterLabel>
+        <translation><!-- NW Twin Cities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nashville</masterLabel>
+        <translation><!-- Nashville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Jersey</masterLabel>
+        <translation><!-- New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North</masterLabel>
+        <translation><!-- North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Atlanta</masterLabel>
+        <translation><!-- North Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Charlotte</masterLabel>
+        <translation><!-- North Charlotte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Chicago</masterLabel>
+        <translation><!-- North Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North County San Diego</masterLabel>
+        <translation><!-- North County San Diego --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Dallas</masterLabel>
+        <translation><!-- North Dallas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North East</masterLabel>
+        <translation><!-- North East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Houston</masterLabel>
+        <translation><!-- North Houston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North I-75</masterLabel>
+        <translation><!-- North I-75 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Jacksonville</masterLabel>
+        <translation><!-- North Jacksonville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Las Vegas</masterLabel>
+        <translation><!-- North Las Vegas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Miami Beach</masterLabel>
+        <translation><!-- North Miami Beach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North San Diego</masterLabel>
+        <translation><!-- North San Diego --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North West</masterLabel>
+        <translation><!-- North West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North-East</masterLabel>
+        <translation><!-- North-East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North-Rhine-Westphalia</masterLabel>
+        <translation><!-- North-Rhine-Westphalia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northampton</masterLabel>
+        <translation><!-- Northampton --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northeast</masterLabel>
+        <translation><!-- Northeast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northeast Atlanta</masterLabel>
+        <translation><!-- Northeast Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northeast New Jersey</masterLabel>
+        <translation><!-- Northeast New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northeast Submarket</masterLabel>
+        <translation><!-- Northeast Submarket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northeast/I-85</masterLabel>
+        <translation><!-- Northeast/I-85 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern Cincinnati</masterLabel>
+        <translation><!-- Northern Cincinnati --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern Hesse</masterLabel>
+        <translation><!-- Northern Hesse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern KY, Monroe</masterLabel>
+        <translation><!-- Northern KY, Monroe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern Kentucky</masterLabel>
+        <translation><!-- Northern Kentucky --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern New Jersey</masterLabel>
+        <translation><!-- Northern New Jersey --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern Virginia</masterLabel>
+        <translation><!-- Northern Virginia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northwest</masterLabel>
+        <translation><!-- Northwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northwest &amp; I-20 West</masterLabel>
+        <translation><!-- Northwest &amp; I-20 West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noth Stemmons / Valwood</masterLabel>
+        <translation><!-- Noth Stemmons / Valwood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Novi</masterLabel>
+        <translation><!-- Novi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O&#39;Hare</masterLabel>
+        <translation><!-- O&apos;Hare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oahu, Hawaii</masterLabel>
+        <translation><!-- Oahu, Hawaii --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oaks</masterLabel>
+        <translation><!-- Oaks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ocean Way</masterLabel>
+        <translation><!-- Ocean Way --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Orange County</masterLabel>
+        <translation><!-- Orange County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paris</masterLabel>
+        <translation><!-- Paris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Park West</masterLabel>
+        <translation><!-- Park West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parma</masterLabel>
+        <translation><!-- Parma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pennsylvania</masterLabel>
+        <translation><!-- Pennsylvania --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peoria</masterLabel>
+        <translation><!-- Peoria --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Philadelphia</masterLabel>
+        <translation><!-- Philadelphia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phoenix</masterLabel>
+        <translation><!-- Phoenix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Piacenza</masterLabel>
+        <translation><!-- Piacenza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plainfield</masterLabel>
+        <translation><!-- Plainfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plainfield West</masterLabel>
+        <translation><!-- Plainfield West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Polk County</masterLabel>
+        <translation><!-- Polk County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Port</masterLabel>
+        <translation><!-- Port --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portland and Tualatin</masterLabel>
+        <translation><!-- Portland and Tualatin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Redmond /Marymoor</masterLabel>
+        <translation><!-- Redmond /Marymoor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rhine Main</masterLabel>
+        <translation><!-- Rhine Main --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Richmond</masterLabel>
+        <translation><!-- Richmond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Richwood</masterLabel>
+        <translation><!-- Richwood --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Route 1 Corridor</masterLabel>
+        <translation><!-- Route 1 Corridor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Route 1/BWI</masterLabel>
+        <translation><!-- Route 1/BWI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Route 1/BWI Area</masterLabel>
+        <translation><!-- Route 1/BWI Area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Route 128 North</masterLabel>
+        <translation><!-- Route 128 North --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SE Columbus</masterLabel>
+        <translation><!-- SE Columbus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SE Denver</masterLabel>
+        <translation><!-- SE Denver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SE Orange County</masterLabel>
+        <translation><!-- SE Orange County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SW Charlotte</masterLabel>
+        <translation><!-- SW Charlotte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SW Chicago</masterLabel>
+        <translation><!-- SW Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SW Los Angeles</masterLabel>
+        <translation><!-- SW Los Angeles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SW Minneapolis/St. Paul</masterLabel>
+        <translation><!-- SW Minneapolis/St. Paul --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SW Phoenix</masterLabel>
+        <translation><!-- SW Phoenix --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SW Twin Cities</masterLabel>
+        <translation><!-- SW Twin Cities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salt Lake City, Utah</masterLabel>
+        <translation><!-- Salt Lake City, Utah --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Antonio</masterLabel>
+        <translation><!-- San Antonio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Antonio, TX</masterLabel>
+        <translation><!-- San Antonio, TX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Diego</masterLabel>
+        <translation><!-- San Diego --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Fernando Valley</masterLabel>
+        <translation><!-- San Fernando Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Francisco</masterLabel>
+        <translation><!-- San Francisco --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Francisco &amp; Oakland</masterLabel>
+        <translation><!-- San Francisco &amp; Oakland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Gabriel Valley</masterLabel>
+        <translation><!-- San Gabriel Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Savannah</masterLabel>
+        <translation><!-- Savannah --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schertz</masterLabel>
+        <translation><!-- Schertz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seattle</masterLabel>
+        <translation><!-- Seattle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shanghai</masterLabel>
+        <translation><!-- Shanghai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shelby Township</masterLabel>
+        <translation><!-- Shelby Township --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South</masterLabel>
+        <translation><!-- South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South &amp; NE Atlanta</masterLabel>
+        <translation><!-- South &amp; NE Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Atlanta</masterLabel>
+        <translation><!-- South Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Bay</masterLabel>
+        <translation><!-- South Bay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Bay/IE West</masterLabel>
+        <translation><!-- South Bay/IE West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Broward</masterLabel>
+        <translation><!-- South Broward --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Carolina</masterLabel>
+        <translation><!-- South Carolina --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Charlotte</masterLabel>
+        <translation><!-- South Charlotte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Chicago</masterLabel>
+        <translation><!-- South Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Dallas</masterLabel>
+        <translation><!-- South Dallas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South East</masterLabel>
+        <translation><!-- South East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Florida</masterLabel>
+        <translation><!-- South Florida --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Fort Worth Industrial Market</masterLabel>
+        <translation><!-- South Fort Worth Industrial Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Indy</masterLabel>
+        <translation><!-- South Indy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Orange County</masterLabel>
+        <translation><!-- South Orange County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Stemmons</masterLabel>
+        <translation><!-- South Stemmons --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South-East</masterLabel>
+        <translation><!-- South-East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South-West</masterLabel>
+        <translation><!-- South-West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SouthEast</masterLabel>
+        <translation><!-- SouthEast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southeast Houston</masterLabel>
+        <translation><!-- Southeast Houston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southeast Louisville</masterLabel>
+        <translation><!-- Southeast Louisville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southeast WI</masterLabel>
+        <translation><!-- Southeast WI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southeast/Port</masterLabel>
+        <translation><!-- Southeast/Port --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern California</masterLabel>
+        <translation><!-- Southern California --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern Indiana</masterLabel>
+        <translation><!-- Southern Indiana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern NJ</masterLabel>
+        <translation><!-- Southern NJ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Springfield</masterLabel>
+        <translation><!-- Springfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St Charles County</masterLabel>
+        <translation><!-- St Charles County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St Louis/Missouri</masterLabel>
+        <translation><!-- St Louis/Missouri --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Charles County</masterLabel>
+        <translation><!-- St. Charles County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St. Louis</masterLabel>
+        <translation><!-- St. Louis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stoke-on-Trent</masterLabel>
+        <translation><!-- Stoke-on-Trent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strasbourg</masterLabel>
+        <translation><!-- Strasbourg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stratford Ranch-Perris</masterLabel>
+        <translation><!-- Stratford Ranch-Perris --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sumner</masterLabel>
+        <translation><!-- Sumner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suzhou</masterLabel>
+        <translation><!-- Suzhou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tacoma</masterLabel>
+        <translation><!-- Tacoma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tampa</masterLabel>
+        <translation><!-- Tampa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tempe</masterLabel>
+        <translation><!-- Tempe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thoroughbred Jurupa Valley</masterLabel>
+        <translation><!-- Thoroughbred Jurupa Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tianjin</masterLabel>
+        <translation><!-- Tianjin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toulouse</masterLabel>
+        <translation><!-- Toulouse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Troy</masterLabel>
+        <translation><!-- Troy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Twin Cities</masterLabel>
+        <translation><!-- Twin Cities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Marlboro</masterLabel>
+        <translation><!-- Upper Marlboro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Venezia</masterLabel>
+        <translation><!-- Venezia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ventura County</masterLabel>
+        <translation><!-- Ventura County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verona</masterLabel>
+        <translation><!-- Verona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vista</masterLabel>
+        <translation><!-- Vista --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warren County</masterLabel>
+        <translation><!-- Warren County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Washington</masterLabel>
+        <translation><!-- Washington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Washington DC</masterLabel>
+        <translation><!-- Washington DC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wendlingen</masterLabel>
+        <translation><!-- Wendlingen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Atlanta</masterLabel>
+        <translation><!-- West Atlanta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Atlanta and Nashville</masterLabel>
+        <translation><!-- West Atlanta and Nashville --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Chester / Tri County</masterLabel>
+        <translation><!-- West Chester / Tri County --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Chicago</masterLabel>
+        <translation><!-- West Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Los Angeles</masterLabel>
+        <translation><!-- West Los Angeles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Palm Beach</masterLabel>
+        <translation><!-- West Palm Beach --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Valley</masterLabel>
+        <translation><!-- West Valley --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Whitestown (Indianapolis)</masterLabel>
+        <translation><!-- Whitestown (Indianapolis) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wilson</masterLabel>
+        <translation><!-- Wilson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wilson Commerce Center</masterLabel>
+        <translation><!-- Wilson Commerce Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wisconsin</masterLabel>
+        <translation><!-- Wisconsin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Worcester Township</masterLabel>
+        <translation><!-- Worcester Township --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wuhan</masterLabel>
+        <translation><!-- Wuhan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yangtze River Delta</masterLabel>
+        <translation><!-- Yangtze River Delta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zaragoza</masterLabel>
+        <translation><!-- Zaragoza --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

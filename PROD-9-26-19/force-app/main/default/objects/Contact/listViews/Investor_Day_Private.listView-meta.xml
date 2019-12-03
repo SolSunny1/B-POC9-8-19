@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Day_Private</fullName>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Public_Investor_Day_Invitee_Type__c</columns>
+    <columns>Public_Investor_Day_Meetings__c</columns>
+    <columns>IR_Relationship_Notes__c</columns>
+    <columns>Public_Investor_Day_Comments__c</columns>
+    <columns>Public_Investor_Day_Attended_Last_Event__c</columns>
+    <columns>Private_Investor_Day_Invitee_Type__c</columns>
+    <columns>Private_Investor_Day_Fund_Meetings__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Public_Investor_Day_Invitee_Type__c</field>
+        <operation>equals</operation>
+        <value>Internal</value>
+    </filters>
+    <label>Investor Day - Public</label>
+    <sharedTo>
+        <role>BAM</role>
+        <role>PFG</role>
+        <role>PFG_CRM</role>
+        <role>PFG_Exec</role>
+        <role>SMP</role>
+    </sharedTo>
+</ListView>

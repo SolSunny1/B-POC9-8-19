@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PREQIN_link__c</fullName>
+    <description>URL for the Prequin account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>URL for the Prequin account</inlineHelpText>
+    <label>PREQIN link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

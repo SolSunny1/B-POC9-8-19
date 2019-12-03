@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If an Investor sells their Commitment, please enter the date the Commitment was Transferred to the new Investor. --></help>
+    <label><!-- Date Transferred --></label>
+    <name>PFG_Date_Transferred__c</name>
+</CustomFieldTranslation>

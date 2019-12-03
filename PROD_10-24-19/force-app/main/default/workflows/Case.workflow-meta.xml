@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Case_Approved_for_Promotion</fullName>
+        <description>Case Approved for Promotion</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_assignment_notification</fullName>
+        <description>Case assignment notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Secondary_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_TransferredPSG</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_assignment_notification1</fullName>
+        <description>Case assignment notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>marija.cekanovic@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_TransferredPSG</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_assignment_notification2</fullName>
+        <description>Case assignment notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Third_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_TransferredPSG_I</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_assignment_notification3</fullName>
+        <description>Case assignment notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Subject_Matter_Expert__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_TransferredPSG_II</template>
+    </alerts>
+    <alerts>
+        <fullName>Due_Date_Third_Owner</fullName>
+        <description>Due Date Third Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Third_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_Due_Date_notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Due_Date_secondary_owner</fullName>
+        <description>Due Date_secondary_owner</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Secondary_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_Due_Date_notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Due_date_subject_matter_expert</fullName>
+        <description>Due date Subject Matter Expert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Subject_Matter_Expert__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_Due_Date_notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Alert_when_Case_Type_equals_RFP_DDQ</fullName>
+        <description>Email Alert when Case Type equals RFP/DDQ</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>carly.hamilton@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/RFP_DDQ_Case_PSG</template>
+    </alerts>
+    <alerts>
+        <fullName>Investor_Request_Case_Complete</fullName>
+        <description>Investor Request Case Complete</description>
+        <protected>false</protected>
+        <recipients>
+            <field>User__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PFG_Archive/Investor_Request_Case_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Rejection_of_Promotion</fullName>
+        <description>Rejection of Promotion</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Case_Rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Change_Status_to_Read_For_Promotion</fullName>
+        <field>Status</field>
+        <literalValue>Ready for promotion</literalValue>
+        <name>Change Status to Read For Promotion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Case Due Date notification- Subject Matter Expert</fullName>
+        <actions>
+            <name>Due_date_subject_matter_expert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>RecordType.Name =&quot;PSG Inquiries&quot; &amp;&amp;   TEXT(Status) &lt;&gt; &quot;Complete&quot; &amp;&amp;  Subject_Matter_Expert__c  &lt;&gt; NULL &amp;&amp;  Subject_Matter_Expert__r.Case_Due_Date_Notification__c = true &amp;&amp; Subject_Matter_Expert__c  &lt;&gt;  Third_Owner__c &amp;&amp; Subject_Matter_Expert__c  &lt;&gt;  Secondary_Owner__c &amp;&amp; Due_Date__c &gt; DATEVALUE(CreatedDate) +1</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Case.Due_Date__c</offsetFromField>
+            <timeLength>-2</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Case Due Date notification- secondary owner</fullName>
+        <active>true</active>
+        <description>Send email notification to case owners 2 days before due date</description>
+        <formula>RecordType.Name =&quot;PSG Inquiries&quot; &amp;&amp;   TEXT(Status) &lt;&gt; &quot;Complete&quot; &amp;&amp;  Secondary_Owner__c &lt;&gt; NULL &amp;&amp;  Secondary_Owner__r.Case_Due_Date_Notification__c = true &amp;&amp;    Due_Date__c &gt; DATEVALUE(CreatedDate) +1</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Due_Date_secondary_owner</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Due_Date__c</offsetFromField>
+            <timeLength>-2</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Case Due Date notification- third owner</fullName>
+        <actions>
+            <name>Due_Date_Third_Owner</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>send notification to third owner on the case</description>
+        <formula>RecordType.Name =&quot;PSG Inquiries&quot; &amp;&amp;   TEXT(Status) &lt;&gt; &quot;Complete&quot; &amp;&amp;  Third_Owner__c &lt;&gt; NULL &amp;&amp;  Third_Owner__r.Case_Due_Date_Notification__c = true &amp;&amp; Third_Owner__c &lt;&gt; Secondary_Owner__c &amp;&amp; Third_Owner__c &lt;&gt;  Subject_Matter_Expert__c &amp;&amp; Due_Date__c &gt; DATEVALUE(CreatedDate) +1</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>Case.Due_Date__c</offsetFromField>
+            <timeLength>-2</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>RFP%2FDDQ Case PSG</fullName>
+        <actions>
+            <name>Email_Alert_when_Case_Type_equals_RFP_DDQ</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Salesforce alert email when RFP/DDQ Case is opened</description>
+        <formula>AND(
+ISCHANGED(Case_Type__c ),
+TEXT(Case_Type__c ) = &quot;RFP/DDQ&quot;
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Secondary Owner</fullName>
+        <actions>
+            <name>Case_assignment_notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Notify secondary owner when case assigned</description>
+        <formula>ISCHANGED(Secondary_Owner__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Subject Matter Expert</fullName>
+        <actions>
+            <name>Case_assignment_notification3</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Notify Subject Matter Expert when case assigned</description>
+        <formula>ISCHANGED(Subject_Matter_Expert__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Third Owner</fullName>
+        <actions>
+            <name>Case_assignment_notification2</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Notify secondary owner when case assigned</description>
+        <formula>ISCHANGED( Third_Owner__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Promote_Changes_to_Production</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>This case has been Approved and can be promoted to Production.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Promote Changes to Production</subject>
+    </tasks>
+</Workflow>

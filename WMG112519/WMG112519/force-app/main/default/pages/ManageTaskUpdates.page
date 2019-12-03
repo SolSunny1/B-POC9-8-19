@@ -1,0 +1,120 @@
+<apex:page StandardController="Task_Updates__c" Extensions="ManageTaskUpdateExtension">
+<apex:form >
+<apex:pageblock >
+<apex:pageBlockButtons location="top">
+<apex:commandButton value="Save" action="{!OverRideSave}" />
+<apex:commandButton value="Clone" action="{!CloneRec}" />
+<apex:commandButton value="Done" action="{!Cancel}"  />
+</apex:pageBlockButtons>
+<apex:pageBlockSection title="Enter Keywords" columns="1" id="newKeywords" collapsible="false" showHeader="false">
+<apex:messages style="color:red;"/>
+<apex:InputField label="Name" style="width: 400px;margin-left:10px;" id="txtName" value="{!Task_Updates__c.Name}"  />
+<apex:InputField label="Active" style="width: 20px;margin-left:10px;" id="txtActive" value="{!Task_Updates__c.Active__c}"  />
+
+<apex:pageBlocksectionItem >
+<apex:outputLabel value="Task Field to Match"></apex:outputLabel>
+<apex:actionregion >
+<apex:selectList id="TaskFields" value="{!Task_Updates__c.Task_Field__c}" size="1">
+<apex:selectOptions value="{!TaskFields}"/>
+<apex:actionsupport event="onchange" rerender="TaskFieldValue" />
+</apex:selectList>
+</apex:actionregion>
+</apex:pageBlocksectionItem>
+
+<apex:selectList label="Task Field Value" id="TaskFieldValue" value="{!Task_Updates__c.Task_Value__c}" size="1">
+<apex:selectOptions value="{!TasksPickListValues}"/>
+</apex:selectList>
+
+<apex:pageBlocksectionItem >
+<apex:outputLabel value="Object To Update"></apex:outputLabel>
+<apex:actionregion >
+<apex:selectList id="ObjectToUpdate" value="{!Task_Updates__c.Object_To_Update__c}" size="1">
+<apex:selectOptions value="{!ObjectList}"/>
+<apex:actionsupport event="onchange" action="{!ResetChildValues}" rerender="FieldToUpdate,ChildObjectToUpdate, ChildFieldToUpdate" />
+</apex:selectList>
+</apex:actionregion>
+</apex:pageBlocksectionItem>
+
+<apex:selectList label="Field To Update" id="FieldToUpdate" value="{!Task_Updates__c.Field_To_Update__c}" size="1" disabled="{!ShowFieldToUpdate}" >
+<apex:selectOptions value="{!ObjectFieldList}"/>
+<apex:actionsupport event="onchange" action="{!ResetChildValues}" rerender="ChildObjectToUpdate, ChildFieldToUpdate" />
+</apex:selectList>
+
+<apex:pageBlocksectionItem >
+<apex:outputLabel value="Relationship Object"></apex:outputLabel>
+<apex:actionregion >
+<apex:selectList value="{!Task_Updates__c.Child_Object__c}" size="1" id="ChildObjectToUpdate" disabled="{!ShowRelationshipObj}">
+<apex:selectOptions value="{!RelationshipObjects }" />
+<apex:actionsupport event="onchange"  rerender="ChildFieldToUpdate" />
+</apex:selectList>
+</apex:actionregion>
+</apex:pageBlocksectionItem>
+
+<apex:selectList label="Relationship Field " id="ChildFieldToUpdate" value="{!Task_Updates__c.Child_Field__c}" size="1" disabled="{!ShowRelationshipObjField}">
+<apex:selectOptions value="{!Relationshipfields}"/>
+</apex:selectList>
+
+
+</apex:pageBlockSection>
+</apex:pageblock>
+
+<apex:pageBlock >
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+
+<td class="pbTitle">
+<!--  
+<img src="/s.gif" alt="" width="12" height="1" class="minWidth" title="" style="margin-right: 0.25em;" />
+<img src="/s.gif" alt="Mortgage" class="relatedListIcon" title="Mortgage" />
+-->
+<h3 id="j_id0_j_id1_a06c0000000ojQr_00NE00000024PAM_title">Task Updates</h3></td>
+
+
+</tr>
+</tbody>
+</table>
+
+<apex:outputpanel id="KeywordList" >
+<table class="list" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+    <tr class="headerRow">
+    
+    <th class="actionColumn" scope="col">Action</th>
+     <th  scope="col" class=" zen-deemphasize">Name</th>
+    <th scope="col" class=" zen-deemphasize">Active</th>
+     <th scope="col" class=" zen-deemphasize">Task Field</th>
+    <th scope="col" class=" zen-deemphasize">Task Value</th>
+    <th scope="col" class=" zen-deemphasize">Update Object</th>
+    <th scope="col" class=" zen-deemphasize">Update Field</th>
+    <th scope="col" class=" zen-deemphasize">Child Object</th>
+    <th scope="col" class=" zen-deemphasize">Child Field</th>
+    
+    </tr>
+    
+    <apex:repeat value="{!TaskUpdateList}" var="tul" >
+        <!-- ListRow -->
+        <tr class="dataRow even first" onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}" onmouseout="if (window.hiOff){hiOff(this);}" onmouseover="if (window.hiOn){hiOn(this);}">
+        <td class="actionColumn">
+        <apex:outputLink onclick="window.location('/apex/ManageTaskUpdates?id={!tul.id}');" value="/apex/ManageTaskUpdates?id={!tul.id}" styleclass="actionLink"><apex:outputText value="Edit"/></apex:outputLink>&nbsp;&#124;&nbsp;
+        <apex:outputLink onclick="return confirm('Are you sure?');" value="{!URLFOR($Action.Task_Updates__c.Delete,tul.Id ,[retURL='/apex/ManageTaskUpdates?id='&objID])}" styleclass="actionLink">
+        <apex:outputText value="Del"/>
+        </apex:outputLink>
+        </td>
+        <td scope="row" class=" dataCell">{!tul.Name}</td>
+        <td scope="row" class=" dataCell">{!tul.Active__c}</td>
+        <td scope="row" class=" dataCell">{!tul.Task_Field__c}</td>
+        <td scope="row" class=" dataCell">{!tul.Task_Value__c}</td>
+        <td class=" dataCell  ">{!tul.Object_To_Update__c}</td>
+        <td class=" dataCell  ">{!tul.Field_To_Update__c}</td>
+        <td class=" dataCell  ">{!tul.Child_Object__c}</td>
+        <td class=" dataCell  ">{!tul.Child_Field__c}</td>
+        </tr>
+   </apex:repeat>
+</tbody>
+</table>
+</apex:outputpanel>
+</apex:pageBlock>
+
+</apex:form>
+</apex:page>

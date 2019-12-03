@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identify the investment sleeve the investor will be in.  If a specific Fund sleeve is not available, please contact your system admin. --></help>
+    <label><!-- Sleeve --></label>
+    <name>Sleeve__c</name>
+    <picklistValues>
+        <masterLabel>1 (Europe)</masterLabel>
+        <translation><!-- 1 (Europe) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1-A (Europe)</masterLabel>
+        <translation><!-- 1-A (Europe) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation><!-- A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A(CR)</masterLabel>
+        <translation><!-- A(CR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A(ER)</masterLabel>
+        <translation><!-- A(ER) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B</masterLabel>
+        <translation><!-- B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C</masterLabel>
+        <translation><!-- C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C(ER)</masterLabel>
+        <translation><!-- C(ER) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CR</masterLabel>
+        <translation><!-- CR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D</masterLabel>
+        <translation><!-- D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D(CR)</masterLabel>
+        <translation><!-- D(CR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EU</masterLabel>
+        <translation><!-- EU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Main</masterLabel>
+        <translation><!-- Main --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parallel</masterLabel>
+        <translation><!-- Parallel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US</masterLabel>
+        <translation><!-- US --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

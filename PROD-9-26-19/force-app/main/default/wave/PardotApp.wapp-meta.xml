@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Pardot dashboards for business-to-business marketing analytics</description>
+    <folder>PardotApp</folder>
+    <masterLabel>B2B Marketing Analytics (Pardot )</masterLabel>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>AllInternalUsers</sharedTo>
+        <sharedToType>Organization</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>calexander@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>jennifer.grzech@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>k.halligan@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>palwasha.salehy@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

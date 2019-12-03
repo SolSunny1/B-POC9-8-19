@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Current_Commitment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up total of &quot;Current Commitment - USD&quot; where Source of Capital is &quot;Limited Partner&quot; or &quot;Operating Partners&quot;.</inlineHelpText>
+    <label>External Current Commitment</label>
+    <summarizedField>Investor_Position__c.Current_Commitments_USD__c</summarizedField>
+    <summaryFilterItems>
+        <field>Investor_Position__c.Source_of_Capital__c</field>
+        <operation>equals</operation>
+        <value>Limited Partners, Operating Partner</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Investor_Position__c.Is_Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Investor_Position__c.Investment_Vehicle__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

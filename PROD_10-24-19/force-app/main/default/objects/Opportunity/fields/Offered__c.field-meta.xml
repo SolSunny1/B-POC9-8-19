@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offered__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(not(ISPICKVAL(StageName, &quot;1 - Identified as Prospect&quot;)),(not(ISPICKVAL(StageName, &quot;01 - BIM Inactive&quot;))),not(isblank( LastActivityDate )))</formula>
+    <label>Offered</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- LPAC Status --></label>
+    <name>LPAC_Status__c</name>
+    <picklistValues>
+        <masterLabel>Member Primary</masterLabel>
+        <translation><!-- Member Primary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Member Secondary</masterLabel>
+        <translation><!-- Member Secondary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Observer</masterLabel>
+        <translation><!-- Observer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

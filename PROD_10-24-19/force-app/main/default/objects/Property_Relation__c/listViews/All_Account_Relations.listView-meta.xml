@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Account_Relations</fullName>
+    <columns>NAME</columns>
+    <columns>Property__c</columns>
+    <columns>Account__c</columns>
+    <columns>Property_Relation_Details__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Lease_State__c</columns>
+    <columns>Retroactive_workflows__c</columns>
+    <columns>SubType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Property_Relation__c.Account_Relation</value>
+    </filters>
+    <label>All Account Relations</label>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Number_of_Meetings__c</fullName>
+    <description>roll up of PFG Meetings of all time - sum of the number of Meetings on a PFG Opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>roll up of PFG Meetings of all time - sum of the number of Meetings on a PFG Opportunity</inlineHelpText>
+    <label>PFG Number of Meetings</label>
+    <summarizedField>Opportunity.PFG_Number_of_Meetings__c</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.PFG_Number_of_Meetings__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

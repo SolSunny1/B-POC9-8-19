@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubStrategy__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Strategy</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Strategy__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Sub_Strategy</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Capital Structure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Convertible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Fixed Income</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Index</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Statistical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Volatility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Asset Backed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Multi Strategy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Sovereign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Developed Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Emerging Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>North America</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Chemical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Financials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Generalist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Industrials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>TMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Activist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Distressed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Merger Arbitrage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Special Situations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Commodities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>CTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Currencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Discretionary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Systematic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative</controllingFieldValue>
+            <valueName>*No sub-strategy</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

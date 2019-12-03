@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intralinks_Folder_Name_Final__c</fullName>
+    <description>the Final folder name as import back in from Intralinks</description>
+    <externalId>false</externalId>
+    <inlineHelpText>the Final folder name as import back in from Intralinks</inlineHelpText>
+    <label>Intralinks Folder Name - Final</label>
+    <length>60</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_be_a_Meeting</fullName>
+    <active>false</active>
+    <description>Tasks should not be meetings</description>
+    <errorConditionFormula>ISNEW() &amp;&amp; ISPICKVAL(Type, &quot;Meeting&quot;)</errorConditionFormula>
+    <errorMessage>Meetings need to be entered as an Event not a Task. Cancel this Task and create an Event instead.</errorMessage>
+</ValidationRule>

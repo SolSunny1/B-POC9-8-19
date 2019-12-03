@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Intralinks Folder Name, once it has been finalized, import the value into this field.  This will help with Intralinks Integration.  There is a 60 Character limit in Intralinks. --></help>
+    <label><!-- zzIntralinks Folder Name - Final --></label>
+    <name>Intralinks_Folder_Name__c</name>
+</CustomFieldTranslation>

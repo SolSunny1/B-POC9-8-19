@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll-Up Summary (COUNT Campaign Member) if Attended is in the Status --></help>
+    <label><!-- Total Attendance --></label>
+    <name>Total_Attendance__c</name>
+</CustomFieldTranslation>

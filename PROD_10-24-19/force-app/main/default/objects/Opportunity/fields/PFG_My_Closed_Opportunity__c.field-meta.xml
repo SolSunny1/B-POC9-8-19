@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_My_Closed_Opportunity__c</fullName>
+    <description>Use this to help with Dashboards showing &quot;My Closed Commitments&quot;</description>
+    <externalId>false</externalId>
+    <formula>Closed_by_CRM__c =  $User.Full_name__c ||  Closed_by_Secondary_CRM__c  =  $User.Full_name__c ||  Closed_by_Consultant_CRM__c = $User.Full_name__c</formula>
+    <inlineHelpText>Use this to help with Dashboards showing &quot;My Closed Commitments&quot;</inlineHelpText>
+    <label>PFG My Closed Opportunity</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

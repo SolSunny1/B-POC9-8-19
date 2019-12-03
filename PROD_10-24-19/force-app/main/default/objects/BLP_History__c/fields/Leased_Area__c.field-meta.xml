@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leased_Area__c</fullName>
+    <description>Area (in building&#39;s unit of measure) leased by the customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Area (in building&#39;s unit of measure) leased by the customer</inlineHelpText>
+    <label>Leased Area</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

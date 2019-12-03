@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extensions_Taken__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Fund&#39;s additional extension from its term (ie. from 10 years to 12)</inlineHelpText>
+    <label>Extensions Taken</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

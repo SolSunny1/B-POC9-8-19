@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intralinks_Folder_Name__c</fullName>
+    <description>The Intralinks Investor Folder Name after it has been scrubbed and finalized</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Intralinks Folder Name, once it has been finalized, import the value into this field.  This will help with Intralinks Integration.  There is a 60 Character limit in Intralinks.</inlineHelpText>
+    <label>zzIntralinks Folder Name - Final</label>
+    <length>60</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

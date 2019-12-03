@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Discount provided for an LPs participation in a number of private funds.  Temporary program to encourage investors to cross over investments to other platforms. --></help>
+    <label><!-- Loyalty Fee Discount --></label>
+    <name>Loyalty_Fee_Discount__c</name>
+</CustomFieldTranslation>

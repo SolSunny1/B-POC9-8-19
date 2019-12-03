@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_CRM_Primary_Lead__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>PFG Primary Lead or in the case of split coverage, this would indicate Real Estate coverage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Primary Lead or in the case of split coverage, this would indicate Real Estate coverage.</inlineHelpText>
+    <label>Real Estate Lead</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>PFG_Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

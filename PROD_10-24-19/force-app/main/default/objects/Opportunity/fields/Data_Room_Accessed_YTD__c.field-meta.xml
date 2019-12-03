@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Room_Accessed_YTD__c</fullName>
+    <description>ticks if the last access has been this year</description>
+    <externalId>false</externalId>
+    <formula>IF( YEAR( Data_Room_Last_Accessed__c  ) = YEAR(TODAY()), TRUE, FALSE)</formula>
+    <inlineHelpText>ticks if the last access has been this year</inlineHelpText>
+    <label>Data Room Accessed YTD</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

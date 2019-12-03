@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>PSG Inquiries - IR Team</name>
+    <queueMembers>
+        <users>
+            <user>ali.herold@brookfield.com</user>
+            <user>amanda@brookfield.com</user>
+            <user>chris.mcmanama@brookfield.com</user>
+            <user>christine.bilyk@brookfield.com</user>
+            <user>clair.pong@brookfield.com</user>
+            <user>calexander@brookfield.com</user>
+            <user>jillian.boeni@brookfield.com</user>
+            <user>luc.marrie@brookfield.com</user>
+            <user>mitch.jones@brookfield.com</user>
+            <user>noelle.williams@brookfield.com</user>
+            <user>tim.blaxton@brookfield.com</user>
+            <user>tim.pollard@brookfield.com</user>
+            <user>tonya.myers@brookfield.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

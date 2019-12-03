@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Bring Contract fields to Activities {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Bring Contract fields to Activities</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>ContactRequestFlow</processType>
+    <screens>
+        <name>Activity_and_Contact_IDs_Screen</name>
+        <label>Activity and Contact IDs Screen</label>
+        <locationX>243</locationX>
+        <locationY>104</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>YourActivityID</name>
+            <fieldText>&lt;p&gt;Your Activity ID is : {!ActivityID} &lt;/p&gt;&lt;p&gt;Your Contact ID is : {!WhoID}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Activity_and_Contact_IDs_Screen</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <description>Stores the ID number of the NameID (WhoID) that triggered the flow from the Task/Event.</description>
+        <name>ActivityID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Stores the ID number of the NameID (WhoID) that associated with the task/event</description>
+        <name>WhoID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

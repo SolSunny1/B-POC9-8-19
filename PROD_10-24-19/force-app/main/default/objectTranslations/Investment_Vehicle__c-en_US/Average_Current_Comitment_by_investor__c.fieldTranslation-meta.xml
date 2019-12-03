@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Calculated automatically based on the Number of Current Investors and the total Current Commitments - USD. --></help>
+    <label><!-- Avg Current Commitment by Investor --></label>
+    <name>Average_Current_Comitment_by_investor__c</name>
+</CustomFieldTranslation>

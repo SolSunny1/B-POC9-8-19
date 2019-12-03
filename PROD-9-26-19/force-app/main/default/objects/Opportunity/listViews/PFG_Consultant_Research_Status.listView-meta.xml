@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Consultant_Research_Status</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Research_Status__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>Consultant_CRM__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>PFG Consultant Research Status</label>
+    <sharedTo>
+        <group>PFG_Consultant_CRM</group>
+    </sharedTo>
+</ListView>

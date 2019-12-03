@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation><!-- Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation><!-- Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dead</masterLabel>
+        <translation><!-- Dead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Potential</masterLabel>
+        <translation><!-- Potential --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preliminary</masterLabel>
+        <translation><!-- Preliminary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signed</masterLabel>
+        <translation><!-- Signed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

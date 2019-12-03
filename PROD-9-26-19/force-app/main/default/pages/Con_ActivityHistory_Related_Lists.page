@@ -1,0 +1,102 @@
+<!-------------------------------------------          VF Page to show Activity Related List for PFG Platform Profile Users           --------------------------------------------------------------------------->
+
+<apex:page standardController="Contact" Extensions="Activity_Controller_From_Con">
+
+<!----------------------------------------------------------          Jquery Script to open links in New Window           --------------------------------------------------------------------------------------->
+<apex:includeScript value="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
+<script >
+$j = jQuery.noConflict();
+$j(document).ready(function() {
+$j('a').attr("target","_blank");
+});
+</script > 
+
+<!--------------------------------------------------          ACTIVITY HISTORY RELATED LIST WHEN Share_with_PFG_Platform = TRUE --------------------------------------------------------------------------------->
+<!-- The following line of code is NOT Used due to Page refresh within iframe window -->
+<!--  <apex:relatedList list="ActivityHistories" subject="{!$CurrentPage.parameters.relatedId}" rendered="{!Contact.Share_with_PFG_Platform__c==True}"/>  -->
+
+
+
+<apex:form >
+<apex:pageBlock rendered="{!Contact.Share_with_PFG_Platform__c==True}">
+ <div align="center" draggable="false" >
+ <apex:commandButton title="Log a Call" value="Log a Call" onclick="window.open('/00T/e?who_id={!Contact.Id}','_blank','width=1200,height=600,location=no,resizable=yes,toolbar=no,status=no,menubar=no,scrollbars=1', 1)"/>
+ </div>           
+            <apex:pageBlockTable value="{!HistoryList}" var="row">
+            <apex:column style="width:50%">
+            <apex:facet name="header">Subject</apex:facet> 
+            <apex:outputLink rendered="{!IF((row.isTask==True && row.showLink==True),True,False)}" value="{!URLFOR($Action.Task.View, row.Aid)}">{!row.Subject}</apex:outputLink> 
+            <apex:outputLink rendered="{!IF((row.isTask==False && row.showLink==True),True,False)}" value="{!URLFOR($Action.Event.View, row.Aid)}">{!row.Subject}</apex:outputLink> 
+            <apex:outputText rendered="{!row.showLink==False}" value="{!row.Subject}"/>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Name</apex:facet>   
+            <apex:outputText value="{!row.WhoName}"/> 
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Task</apex:facet>
+            <div align="center" draggable="false" >
+            <apex:outputText value="{!IF(!row.isTask==False, '✔', '')}"/>            
+            </div>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Due Date</apex:facet>   
+            <apex:outputText value="{0,date,MM'/'dd'/'yyyy}">
+            <apex:param value="{!row.ActivityDate}" /> 
+            </apex:outputText>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Status</apex:facet>   
+            <apex:outputText value="{!row.status}"/>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Assigned To</apex:facet>
+            <apex:outputText value="{!row.AssignedToName}"/>    
+            </apex:column>
+            </apex:pageBlockTable>   
+            </apex:pageBlock>
+</apex:form>
+
+
+<!--------------------------------------------------          ACTIVITY HISTORY RELATED LIST WHEN Share_with_PFG_Platform = FALSE --------------------------------------------------------------------------------->
+
+<apex:form >
+<apex:pageBlock rendered="{!Contact.Share_with_PFG_Platform__c==False}">
+ <div align="center" draggable="false" >
+ <apex:commandButton title="Log a Call" value="Log a Call" onclick="window.open('/00T/e?who_id={!Contact.Id}','_blank','width=1200,height=600,location=no,resizable=yes,toolbar=no,status=no,menubar=no,scrollbars=1', 1)"/>
+ </div>           
+            <apex:pageBlockTable value="{!HistoryListPFORM}" var="row">
+            <apex:column style="width:50%">
+            <apex:facet name="header">Subject</apex:facet> 
+            <apex:outputLink rendered="{!row.isTask==True}" value="{!URLFOR($Action.Task.View, row.Aid)}">{!row.Subject}</apex:outputLink> 
+            <apex:outputLink rendered="{!row.isTask==False}" value="{!URLFOR($Action.Event.View, row.Aid)}">{!row.Subject}</apex:outputLink> 
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Name</apex:facet>   
+            <apex:outputText value="{!row.WhoName}"/> 
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Task</apex:facet>
+            <div align="center" draggable="false" >
+            <apex:outputText value="{!IF(!row.isTask==False, '✔', '')}"/>            
+            </div>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Due Date</apex:facet>   
+            <apex:outputText value="{0,date,MM'/'dd'/'yyyy}">
+            <apex:param value="{!row.ActivityDate}" /> 
+            </apex:outputText>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Status</apex:facet>   
+            <apex:outputText value="{!row.status}"/>
+            </apex:column>
+            <apex:column style="width:10%">
+            <apex:facet name="header">Assigned To</apex:facet>
+            <apex:outputText value="{!row.AssignedToName}"/>    
+            </apex:column>
+            </apex:pageBlockTable>   
+            </apex:pageBlock>
+</apex:form>
+
+</apex:page>

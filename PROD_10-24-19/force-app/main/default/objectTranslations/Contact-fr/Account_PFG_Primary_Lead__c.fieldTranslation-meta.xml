@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copy of Account PFG Primary Field to help with Data Maintenance --></help>
+    <label><!-- Account PFG Primary Lead --></label>
+    <name>Account_PFG_Primary_Lead__c</name>
+</CustomFieldTranslation>

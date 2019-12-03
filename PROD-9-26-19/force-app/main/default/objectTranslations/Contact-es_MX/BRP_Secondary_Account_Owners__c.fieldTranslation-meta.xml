@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BRP Secondary Account Owners --></label>
+    <name>BRP_Secondary_Account_Owners__c</name>
+    <picklistValues>
+        <masterLabel>Alan</masterLabel>
+        <translation><!-- Alan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andrew</masterLabel>
+        <translation><!-- Andrew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bryce</masterLabel>
+        <translation><!-- Bryce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Daniel</masterLabel>
+        <translation><!-- Daniel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Faisal</masterLabel>
+        <translation><!-- Faisal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jack</masterLabel>
+        <translation><!-- Jack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Julie</masterLabel>
+        <translation><!-- Julie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maxime</masterLabel>
+        <translation><!-- Maxime --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michael</masterLabel>
+        <translation><!-- Michael --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nicolas</masterLabel>
+        <translation><!-- Nicolas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nizar</masterLabel>
+        <translation><!-- Nizar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ross</masterLabel>
+        <translation><!-- Ross --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steven</masterLabel>
+        <translation><!-- Steven --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taylor</masterLabel>
+        <translation><!-- Taylor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tony</masterLabel>
+        <translation><!-- Tony --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vanessa</masterLabel>
+        <translation><!-- Vanessa --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

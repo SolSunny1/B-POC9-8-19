@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>DO NOT USE New Investor Account record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DO NOT USE New Investor Account record</inlineHelpText>
+    <label>xAccount</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Investor Positions (Account)</relationshipLabel>
+    <relationshipName>Investor_Positions1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

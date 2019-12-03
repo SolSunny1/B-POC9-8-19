@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Subscriber Type --></label>
+    <name>Subscriber_Type__c</name>
+    <picklistValues>
+        <masterLabel>Corporation</masterLabel>
+        <translation><!-- Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial Institution</masterLabel>
+        <translation><!-- Financial Institution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Partnership</masterLabel>
+        <translation><!-- General Partnership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limited Liability Company</masterLabel>
+        <translation><!-- Limited Liability Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limited Partnership</masterLabel>
+        <translation><!-- Limited Partnership --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pension Plan</masterLabel>
+        <translation><!-- Pension Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trust</masterLabel>
+        <translation><!-- Trust --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

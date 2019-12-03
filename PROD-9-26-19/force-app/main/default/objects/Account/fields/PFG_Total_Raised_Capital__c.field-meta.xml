@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Total_Raised_Capital__c</fullName>
+    <description>Provide an aggregated amount for all Brookfield private funds the Account is invested in</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide an aggregated amount for all Brookfield private funds the Account is invested in</inlineHelpText>
+    <label>Private Funds Total Committed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

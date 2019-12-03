@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Brazil_Leads</fullName>
+    <columns>Idea_Name__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Deal_Nature__c</columns>
+    <columns>Idea_Comments__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Office_Country__c</field>
+        <operation>equals</operation>
+        <value>Brazil</value>
+    </filters>
+    <label>BFIN Brazil Leads</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

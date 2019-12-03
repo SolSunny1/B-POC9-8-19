@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Tours__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Tours</label>
+    <summaryFilterItems>
+        <field>CampaignMember.Site_Tour__c</field>
+        <operation>notEqual</operation>
+        <value/>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>CampaignMember.Site_Tour_Completed__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Day_Private_CDN</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Private_Investor_Day_Invitee_Type__c</columns>
+    <columns>Private_Investor_Day_Invited_by__c</columns>
+    <columns>Private_Investor_Day_Fund_Meetings__c</columns>
+    <columns>Public_Investor_Day_Invite_Sent_From__c</columns>
+    <columns>Private_Investor_Day_Comments__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Private_Investor_Day_Invitee_Type__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Private_Investor_Day_Invitee_Type__c</field>
+        <operation>equals</operation>
+        <value>Investor,Prospect</value>
+    </filters>
+    <filters>
+        <field>Private_Investor_Day_Invited_by__c</field>
+        <operation>contains</operation>
+        <value>Marco,Keith,Eric</value>
+    </filters>
+    <label>Investor Day - Private-CDN</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

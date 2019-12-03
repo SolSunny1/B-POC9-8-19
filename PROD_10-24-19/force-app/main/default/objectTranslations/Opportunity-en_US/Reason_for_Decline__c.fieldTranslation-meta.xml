@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Reason the Opportunity was lost --></help>
+    <label><!-- Reason for Decline --></label>
+    <name>Reason_for_Decline__c</name>
+    <picklistValues>
+        <masterLabel>Brookfield - Legal</masterLabel>
+        <translation><!-- Brookfield - Legal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield - Management Team</masterLabel>
+        <translation><!-- Brookfield - Management Team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield - Structure</masterLabel>
+        <translation><!-- Brookfield - Structure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield - Track Record/Returns</masterLabel>
+        <translation><!-- Brookfield - Track Record/Returns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield Allocation Limit</masterLabel>
+        <translation><!-- Brookfield Allocation Limit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Counterparty Not Interested</masterLabel>
+        <translation><!-- Counterparty Not Interested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit Quality</masterLabel>
+        <translation><!-- Credit Quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deferred</masterLabel>
+        <translation><!-- Deferred --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Did not Bid</masterLabel>
+        <translation><!-- Did not Bid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Did not proceed</masterLabel>
+        <translation><!-- Did not proceed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fees</masterLabel>
+        <translation><!-- Fees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fund Size</masterLabel>
+        <translation><!-- Fund Size --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invested with Competitor</masterLabel>
+        <translation><!-- Invested with Competitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Issue with Manager</masterLabel>
+        <translation><!-- Issue with Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Capital/Allocation</masterLabel>
+        <translation><!-- No Capital/Allocation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Interest</masterLabel>
+        <translation><!-- No Interest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operational Expertise</masterLabel>
+        <translation><!-- Operational Expertise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation><!-- Price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product structure</masterLabel>
+        <translation><!-- Product structure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Re-Invest with existing Fund Mgrs</masterLabel>
+        <translation><!-- Re-Invest with existing Fund Mgrs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sector</masterLabel>
+        <translation><!-- Sector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategy</masterLabel>
+        <translation><!-- Strategy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategy - Asset mix/Geo/Cap Target</masterLabel>
+        <translation><!-- Strategy - Asset mix/Geo/Cap Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategy - Investment Method</masterLabel>
+        <translation><!-- Strategy - Investment Method --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategy - Target Returns</masterLabel>
+        <translation><!-- Strategy - Target Returns --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategy - Tax</masterLabel>
+        <translation><!-- Strategy - Tax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tax Issues</masterLabel>
+        <translation><!-- Tax Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Terms and Conditions</masterLabel>
+        <translation><!-- Terms and Conditions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing</masterLabel>
+        <translation><!-- Timing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Track Record</masterLabel>
+        <translation><!-- Track Record --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncompetitive Price</masterLabel>
+        <translation><!-- Uncompetitive Price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volatility</masterLabel>
+        <translation><!-- Volatility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>fernando.margueirat@brookfield.com</contactEmail>
+    <label>SQL Server for Reporting</label>
+    <oauthConfig>
+        <callbackUrl>https://www.brookfield.com</callbackUrl>
+        <consumerKey>3MVG9iTxZANhwHQsTSs2vvcnD91z0eFqx.QqHQcq7DJTb1OyWg3Drg1PABiSPWLG8dBdy__uD5lKT.kJTz5aU</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

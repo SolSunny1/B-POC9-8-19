@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Displays ZoomInfo Has Moved data point. Denotes whether the lead/contact has moved from the current company. Values are Yes, Uncertain, No. --></help>
+    <label><!-- Person Has Moved --></label>
+    <name>zisf__Person_Has_Moved__c</name>
+</CustomFieldTranslation>

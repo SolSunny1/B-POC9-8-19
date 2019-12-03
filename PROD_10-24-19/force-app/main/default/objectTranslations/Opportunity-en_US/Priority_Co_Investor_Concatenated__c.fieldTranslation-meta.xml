@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Concatenated value of priority co-investor and investment vehicle name --></help>
+    <label><!-- Priority Co-Investor Concatenated --></label>
+    <name>Priority_Co_Investor_Concatenated__c</name>
+</CustomFieldTranslation>

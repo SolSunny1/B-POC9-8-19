@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- ECI Partner - Effectively Connected Income - investors elect this for tax purposes --></help>
+    <label><!-- ECI Partner --></label>
+    <name>ECI_Partner__c</name>
+</CustomFieldTranslation>

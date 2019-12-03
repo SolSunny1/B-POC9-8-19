@@ -1,0 +1,117 @@
+<apex:page tabStyle="Account" Controller="manageServiceLevelDefaultsExtension">
+
+<apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" />
+<apex:includeScript value="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js" />
+<script type='text/javascript'>
+    j$=jQuery.noConflict(); 
+</script>
+   
+  <apex:form id="Defaultsform" >
+     
+      <apex:sectionHeader subtitle="Service Levels by Tier" title="Manage Service Frequency Defaults For {!$User.FirstName & ' ' & $User.LastName}"/>
+      <apex:outputpanel id="ApexMsgs">
+        <apex:messages style="color:red;font-weight:bold;" />
+      </apex:outputpanel>
+      
+      <apex:actionStatus startText="Saving..." stopText="" id="actionStatus"  startstyle="color:blue;font-size:14px" onstart="hideMsgs()" onstop="showMsgs()"/>
+      <apex:pageBlock title="Service Level Defaults">
+          <apex:pageBlockButtons >
+              <apex:commandButton value="Save" action="{!OverrideSave}" status="actionStatus" rerender="ApexMsgs" />
+              <apex:commandButton value="Cancel" action="{!cancel}"/>
+          </apex:pageBlockButtons>
+           
+         <div id="MainSection" >
+          <apex:pageBlockSection title="Relationship Calls/Year" columns="1">
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier A Relationship Calls Year" for="tierARelationship" />
+                <apex:inputText value="{!Tier_A_Relationship_Calls_Year}" id="tierARelationship" />
+             </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier B Relationship Calls Year" for="tierBRelationship" />
+                <apex:inputText value="{!Tier_B_Relationship_Calls_Year}" id="tierBRelationship" />
+             </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier C Relationship Calls Year" for="tierCRelationship" />
+                <apex:inputText value="{!Tier_C_Relationship_Calls_Year}" id="tierCRelationship" />
+             </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier D Relationship Calls Year" for="tierDRelationship" />
+                <apex:inputText value="{!Tier_D_Relationship_Calls_Year}" id="tierDRelationship" />
+             </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier E Relationship Calls Year" for="tierERelationship" />
+                <apex:inputText value="{!Tier_E_Relationship_Calls_Year}" id="tierERelationship" />
+             </apex:pageBlockSectionItem>
+               
+          
+          </apex:pageBlockSection>
+          <apex:pageBlockSection title="In-Person Meetings/Year" columns="1">
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier A In Person Meetings Year" for="tierAPerson" />
+                <apex:inputText value="{!Tier_A_In_Person_Meetings_Year}" id="tierAPerson" />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier B In Person Meetings Year" for="tierBPerson" />
+                <apex:inputText value="{!Tier_B_In_Person_Meetings_Year}" id="tierBPerson" />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier C In Person Meetings Year" for="tierCPerson" />
+                <apex:inputText value="{!Tier_C_In_Person_Meetings_Year}" id="tierCPerson" />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier D In Person Meetings Year" for="tierDPerson" />
+                <apex:inputText value="{!Tier_D_In_Person_Meetings_Year}" id="tierDPerson" />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier E In Person Meetings Year" for="tierEPerson" />
+                <apex:inputText value="{!Tier_E_In_Person_Meetings_Year}" id="tierEPerson" />
+            </apex:pageBlockSectionItem>
+               
+          
+          </apex:pageBlockSection>
+          <apex:pageBlockSection title="Portfolio Reviews/Year" columns="1">
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier A Portfolio Review Year" for="tierAPortfolio" />
+                <apex:inputText value="{!Tier_A_Portfolio_Review_Year}" id="tierAPortfolio"   />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier B Portfolio Review Year" for="tierBPortfolio" />
+                <apex:inputText value="{!Tier_B_Portfolio_Review_Year}" id="tierBPortfolio"   />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier C Portfolio Review Year" for="tierCPortfolio" />
+                <apex:inputText value="{!Tier_C_Portfolio_Review_Year}" id="tierCPortfolio"   />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier D Portfolio Review Year" for="tierDPortfolio" />
+                <apex:inputText value="{!Tier_D_Portfolio_Review_Year}" id="tierDPortfolio"   />
+            </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Tier E Portfolio Review Year" for="tierEPortfolio" />
+                <apex:inputText value="{!Tier_E_Portfolio_Review_Year}" id="tierEPortfolio"   />
+            </apex:pageBlockSectionItem>
+                
+          </apex:pageBlockSection>
+          <apex:pageBlockSection title="Alert Settings">
+          <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Number of Days Ahead On Target" for="NumDaysAheadTarget" />
+               <apex:inputText value="{!Num_Days_Ahead_On_Target}"  id="NumDaysAheadTarget" />
+            </apex:pageBlockSectionItem>
+              <apex:pageBlockSectionItem >
+                <apex:outputlabel value="Number of Days Ahead On Overdue" for="NumDaysAheadOverdue" />
+               <apex:inputText value="{!Num_Days_Ahead_Overdue}"    id="NumDaysAheadOverdue" />
+            </apex:pageBlockSectionItem>  
+                
+                
+          
+          </apex:pageBlockSection>
+        </div>
+      
+      </apex:pageBlock>
+      <script>
+        j$('#MainSection :input').each(function() { j$(this).val(parseInt( j$(this).val())) });
+        
+        
+      </script>
+  </apex:form>
+</apex:page>

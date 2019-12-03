@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Real Estate --></label>
+    <name>Real_Estate__c</name>
+    <picklistValues>
+        <masterLabel>Development Land</masterLabel>
+        <translation><!-- Development Land --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Care</masterLabel>
+        <translation><!-- Health Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitality</masterLabel>
+        <translation><!-- Hospitality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hotel</masterLabel>
+        <translation><!-- Hotel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial</masterLabel>
+        <translation><!-- Industrial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logistics</masterLabel>
+        <translation><!-- Logistics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Master Residential Development</masterLabel>
+        <translation><!-- Master Residential Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi-Family - For Rent</masterLabel>
+        <translation><!-- Multi-Family - For Rent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi-Family - For Sale</masterLabel>
+        <translation><!-- Multi-Family - For Sale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office</masterLabel>
+        <translation><!-- Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parking</masterLabel>
+        <translation><!-- Parking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Housing</masterLabel>
+        <translation><!-- Senior Housing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Storage</masterLabel>
+        <translation><!-- Storage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

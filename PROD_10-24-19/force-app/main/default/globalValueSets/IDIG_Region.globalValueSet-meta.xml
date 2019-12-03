@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EU - China</fullName>
+        <default>false</default>
+        <label>EU - China</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - France</fullName>
+        <default>false</default>
+        <label>EU - France</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - Germany</fullName>
+        <default>false</default>
+        <label>EU - Germany</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - Hungary</fullName>
+        <default>false</default>
+        <label>EU - Hungary</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - Italy</fullName>
+        <default>false</default>
+        <label>EU - Italy</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - Netherlands</fullName>
+        <default>false</default>
+        <label>EU - Netherlands</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - Spain</fullName>
+        <default>false</default>
+        <label>EU - Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - United Kingdom</fullName>
+        <default>false</default>
+        <label>EU - United Kingdom</label>
+    </customValue>
+    <customValue>
+        <fullName>NA - Central Northeast</fullName>
+        <default>false</default>
+        <label>NA - Central Northeast</label>
+    </customValue>
+    <customValue>
+        <fullName>NA - Midwest</fullName>
+        <default>false</default>
+        <label>NA - Midwest</label>
+    </customValue>
+    <customValue>
+        <fullName>NA - Southeast</fullName>
+        <default>false</default>
+        <label>NA - Southeast</label>
+    </customValue>
+    <customValue>
+        <fullName>NA - Texas</fullName>
+        <default>false</default>
+        <label>NA - Texas</label>
+    </customValue>
+    <customValue>
+        <fullName>NA - West</fullName>
+        <default>false</default>
+        <label>NA - West</label>
+    </customValue>
+    <masterLabel>IDIG Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

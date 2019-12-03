@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source of Capital --></label>
+    <name>Source_of_Capital__c</name>
+    <picklistValues>
+        <masterLabel>BAM Employees</masterLabel>
+        <translation><!-- BAM Employees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cross Commitment</masterLabel>
+        <translation><!-- Cross Commitment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External</masterLabel>
+        <translation><!-- External --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal</masterLabel>
+        <translation><!-- Internal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limited Partners</masterLabel>
+        <translation><!-- Limited Partners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operating Partner</masterLabel>
+        <translation><!-- Operating Partner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Principals</masterLabel>
+        <translation><!-- Principals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seed</masterLabel>
+        <translation><!-- Seed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sponsors</masterLabel>
+        <translation><!-- Sponsors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sub-Investor</masterLabel>
+        <translation><!-- Sub-Investor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

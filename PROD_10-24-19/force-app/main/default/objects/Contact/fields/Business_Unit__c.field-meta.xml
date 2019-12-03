@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <description>Defines which Business Unit&#39;s lists to show in the dependent picklist</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select your Business Unit to view the appropriate Marketing List options</inlineHelpText>
+    <label>Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BAC</fullName>
+                <default>false</default>
+                <label>BAC</label>
+            </value>
+            <value>
+                <fullName>BAM</fullName>
+                <default>false</default>
+                <label>BAM</label>
+            </value>
+            <value>
+                <fullName>BAM Compliance</fullName>
+                <default>false</default>
+                <label>BAM Compliance</label>
+            </value>
+            <value>
+                <fullName>BAM Finance</fullName>
+                <default>false</default>
+                <label>BAM Finance</label>
+            </value>
+            <value>
+                <fullName>BFIN</fullName>
+                <default>false</default>
+                <label>BFIN</label>
+            </value>
+            <value>
+                <fullName>BIG</fullName>
+                <default>false</default>
+                <label>BIG</label>
+            </value>
+            <value>
+                <fullName>BLP</fullName>
+                <default>false</default>
+                <label>BLP</label>
+            </value>
+            <value>
+                <fullName>BPEG</fullName>
+                <default>false</default>
+                <label>BPEG</label>
+            </value>
+            <value>
+                <fullName>BPFG</fullName>
+                <default>false</default>
+                <label>BPFG</label>
+            </value>
+            <value>
+                <fullName>BPG</fullName>
+                <default>false</default>
+                <label>BPG</label>
+            </value>
+            <value>
+                <fullName>BCO</fullName>
+                <default>false</default>
+                <label>BCO</label>
+            </value>
+            <value>
+                <fullName>BPY</fullName>
+                <default>false</default>
+                <label>BPY</label>
+            </value>
+            <value>
+                <fullName>BRP</fullName>
+                <default>false</default>
+                <label>BRP</label>
+            </value>
+            <value>
+                <fullName>PFG</fullName>
+                <default>false</default>
+                <label>PFG</label>
+            </value>
+            <value>
+                <fullName>BIM</fullName>
+                <default>false</default>
+                <label>PSG &quot;BIM&quot;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

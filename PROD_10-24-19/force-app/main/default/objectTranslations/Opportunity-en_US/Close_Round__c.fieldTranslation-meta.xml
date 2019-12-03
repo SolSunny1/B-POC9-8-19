@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Close Round --></label>
+    <name>Close_Round__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation><!-- 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10</masterLabel>
+        <translation><!-- 10 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1B</masterLabel>
+        <translation><!-- 1B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1C</masterLabel>
+        <translation><!-- 1C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1D</masterLabel>
+        <translation><!-- 1D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1E</masterLabel>
+        <translation><!-- 1E --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1F</masterLabel>
+        <translation><!-- 1F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1G</masterLabel>
+        <translation><!-- 1G --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1H</masterLabel>
+        <translation><!-- 1H --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2</masterLabel>
+        <translation><!-- 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3</masterLabel>
+        <translation><!-- 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4</masterLabel>
+        <translation><!-- 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5</masterLabel>
+        <translation><!-- 5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6</masterLabel>
+        <translation><!-- 6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7</masterLabel>
+        <translation><!-- 7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8</masterLabel>
+        <translation><!-- 8 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>9</masterLabel>
+        <translation><!-- 9 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

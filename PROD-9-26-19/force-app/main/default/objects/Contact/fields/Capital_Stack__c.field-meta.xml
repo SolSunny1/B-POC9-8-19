@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capital_Stack__c</fullName>
+    <externalId>false</externalId>
+    <label>Capital Stack</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equity</fullName>
+                <default>false</default>
+                <label>Equity</label>
+            </value>
+            <value>
+                <fullName>Preferred Equity</fullName>
+                <default>false</default>
+                <label>Preferred Equity</label>
+            </value>
+            <value>
+                <fullName>Senior Debt</fullName>
+                <default>false</default>
+                <label>Senior Debt</label>
+            </value>
+            <value>
+                <fullName>Mezz Debt</fullName>
+                <default>false</default>
+                <label>Mezz Debt</label>
+            </value>
+            <value>
+                <fullName>Construction Debt</fullName>
+                <default>false</default>
+                <label>Construction Debt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

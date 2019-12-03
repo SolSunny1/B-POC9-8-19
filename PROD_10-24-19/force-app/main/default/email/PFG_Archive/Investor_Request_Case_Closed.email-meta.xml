@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Investor Request Case Closed</name>
+    <style>freeForm</style>
+    <subject>Investor Request Case Closed</subject>
+    <textOnly>Hi {!Case.User__c},
+
+The case, {!Case.Subject} for {!Case.Contact} of {!Case.Account} has been completed by {!Case.OwnerFullName}.
+
+If you have any questions or concerns please reach to {!Case.OwnerFullName} for more details.
+
+Case Link: {!Case.Link}
+
+Thanks,
+
+Salesforce Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

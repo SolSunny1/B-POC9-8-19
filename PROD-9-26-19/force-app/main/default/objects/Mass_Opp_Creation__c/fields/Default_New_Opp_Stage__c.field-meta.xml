@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_New_Opp_Stage__c</fullName>
+    <defaultValue>&#39;1 - Identified as Prospect&#39;</defaultValue>
+    <description>Default new Opportunity Stage [BF-5]</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default new Opportunity Stage</inlineHelpText>
+    <label>Default New Opp Stage</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

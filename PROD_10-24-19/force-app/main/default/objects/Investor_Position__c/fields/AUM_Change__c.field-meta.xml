@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUM_Change__c</fullName>
+    <description>Data Type	Formula	 	 
+IF(Old_AUM_Value__c &lt;Total_AUM__c , IMAGE (&quot;/servlet/servlet.FileDownload?file=0152a0000004ya6&quot;, &quot;Higher&quot;),
+IF(Old_AUM_Value__c &gt; Total_AUM__c, IMAGE (&quot;/servlet/servlet.FileDownload?file=0152a0000004ya1&quot;, &quot;Less &quot;),
+IF(Old_AUM_Value__c = Total_AUM__c, IMAGE (&quot;/servlet/servlet.FileDownload?file=0152a0000004yaB&quot;, &quot;No Change&quot;),
+IF(Old_AUM_Value__c = 0, IMAGE (&quot;/servlet/servlet.FileDownload?file=0152a0000004yaB&quot;, &quot;New&quot;),
+&quot;New&quot;))))</description>
+    <externalId>false</externalId>
+    <formula>IF(Old_AUM_Value__c &lt;Total_AUM__c , IMAGE (&quot;/servlet/servlet.FileDownload?file=0150b000002EJNz&quot;, &quot;Higher&quot;),
+IF(Old_AUM_Value__c &gt; Total_AUM__c, IMAGE (&quot;/servlet/servlet.FileDownload?file=0150b000002EJNy&quot;, &quot;Less &quot;),
+IF(Old_AUM_Value__c = Total_AUM__c, IMAGE (&quot;/servlet/servlet.FileDownload?file=0150b000002EJO0&quot;, &quot;No Change&quot;),
+IF(ISBLANK(Old_AUM_Value__c) , IMAGE (&quot;/servlet/servlet.FileDownload?file=0150b000002EJO0&quot;, &quot;New&quot;),
+&quot;New&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Arrow up = Total AUM had gone up between last upload and most recent upload.
+Arrow down = Total AUM has gone down between last upload and most recent upload.
+Equals = Total AUM has remained the same between last upload and most recent upload or is new</inlineHelpText>
+    <label>AUM Change</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAM_Finance_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>BAM_Finance__c</fields>
+    <fields>Jurisdiction__c</fields>
+    <fields>US_Canada_Europe_UK_Region__c</fields>
+    <fields>City_State_Country__c</fields>
+    <fields>OwnerId</fields>
+    <label>BAM Finance Compact Layout</label>
+</CompactLayout>

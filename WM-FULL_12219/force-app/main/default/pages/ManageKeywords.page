@@ -1,0 +1,143 @@
+<apex:page Controller="ManageKeywordExtension" tabstyle="Keyword__c" Action="{!Init}">
+<apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"/>
+<script type="text/javascript">
+
+var $j = jQuery.noConflict();
+
+function HideFields ()
+{
+	
+	if ($j('select[id$=TypeField]').val() == '' )
+		$j('input[id$=FieldId]').parent().parent().hide();
+	else
+		$j('input[id$=FieldId]').parent().parent().show();
+}
+function ShowFields ()
+{
+	$j('input[id$=FieldId]').parent().parent().show();
+}
+$j(document).ready(
+function() 
+{
+	HideFields ();
+}
+);
+</script>
+
+
+<apex:form >
+<apex:sectionHeader title="Manage Keywords" subtitle="{!ContactName}" ></apex:sectionHeader>
+<apex:pageblock >
+<apex:pageBlockButtons location="top">
+<apex:commandButton id="SaveBtn" value="{!IF(isEditMode=true,'Save', 'Add')}" action="{!OverRideSave}" status="actionStatus" rerender="SaveBtn, ErrorMsgs, KeywordList,TypeField, DataSection" oncomplete="HideFields ()"  />
+<apex:commandButton value="Done" action="{!Cancel}"  />
+</apex:pageBlockButtons>
+<apex:messages id="ErrorMsgs" style="color:red;"/>
+<apex:actionStatus startText="Processing..." stopText="" id="actionStatus"  startstyle="color:blue;font-size:14px"/>
+<apex:pageBlockSection title="Enter Keywords" columns="1" id="newKeywords" collapsible="false" showHeader="false">
+
+<apex:pageBlockSectionItem >
+
+<apex:outputLabel value="Type"></apex:outputLabel>
+<apex:actionRegion >
+<apex:InputField id="TypeField" value="{!keywordObj.Type__c}" required="false"> 
+<apex:actionSupport event="onchange"  rerender="DataSection, FieldId" action="{!ClearValues}" oncomplete="HideFields ()"  />
+</apex:InputField>
+</apex:actionRegion>
+</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+
+<apex:pageBlockSection columns="1" id="DataSection" collapsible="false" showHeader="false">
+
+<apex:pageBlockSectionItem >
+<apex:outputLabel value="Keyword"></apex:outputLabel>
+<apex:InputText value="{!keywordObj.Name}" style="width: 400px;" id="FieldId" >
+        <c:AutoComplete objectname="Keyword__c" input_id="{!$Component.FieldId}" numberOfResultsToDisplay="20" wildcardBefore="false" filterField="Type__c" filterValue="{!keywordObj.Type__c}"/>
+</apex:InputText>
+
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem rendered="{!keywordObj.Type__c='Text'}">
+<apex:outputLabel value="Value"></apex:outputLabel>
+<apex:InputField style="width: 400px;" id="textValue" value="{!contactKeyword.Value_Text__c}"  />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem rendered="{!keywordObj.Type__c='Date'}">
+<apex:outputLabel value="Value"></apex:outputLabel>
+<apex:InputField label="Value" style="width: 400px;" id="dateValue" value="{!contactKeyword.Value_Date__c}"  />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem rendered="{!keywordObj.Type__c='Number'}">
+<apex:outputLabel value="Value"></apex:outputLabel>
+<apex:InputField label="Value" style="width: 400px;" id="numberValue" value="{!contactKeyword.Value_Number__c}"   />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem rendered="{!keywordObj.Type__c='Currency'}">
+<apex:outputLabel value="Value"></apex:outputLabel>
+<apex:InputField label="Value" style="width: 400px;" id="currencyValue" value="{!contactKeyword.Value_Currency__c}"   />
+</apex:pageBlockSectionItem>
+
+<apex:Inputtext label="Comments" style="width: 400px" id="FieldComments" value="{!contactKeyword.Comments__c}" rendered="{!not(ISBLANK(keywordObj.Type__c))}"/>
+</apex:pageBlockSection>
+<apex:commandLink action="{!ClearData}" value="Clear" id="theCommandLink" rerender="DataSection,TypeField"/>
+</apex:pageblock>
+
+
+
+<apex:pageBlock >
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+
+<td class="pbTitle">
+<!--  
+<img src="/s.gif" alt="" width="12" height="1" class="minWidth" title="" style="margin-right: 0.25em;" />
+<img src="/s.gif" alt="Mortgage" class="relatedListIcon" title="Mortgage" />
+-->
+<h3 id="j_id0_j_id1_a06c0000000ojQr_00NE00000024PAM_title">Contact Keywords</h3></td>
+
+
+</tr>
+</tbody>
+</table>
+
+<apex:outputpanel id="KeywordList" >
+<table class="list" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+    <tr class="headerRow">
+    <th class="actionColumn" scope="col">Action</th>
+    <th scope="col" class=" zen-deemphasize">Keyword</th>
+     <th scope="col" class=" zen-deemphasize">Value</th>
+    <th scope="col" class=" zen-deemphasize">Comments</th>
+    <th scope="col" class=" zen-deemphasize">Created By</th>
+    <th scope="col" class=" zen-deemphasize">Created Date</th>
+    
+    </tr>
+    
+ 	<apex:repeat value="{!contactKeywords}" var="ck" >
+		<!-- ListRow -->
+		<tr class="dataRow even first" onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}" onmouseout="if (window.hiOff){hiOff(this);}" onmouseover="if (window.hiOn){hiOn(this);}">
+		<td class="actionColumn">
+		<a href="javascript:EditKeyWord('{!ck.id}');" class="actionLink" title="Edit - {!ck.Keyword__c}" >Edit</a>&nbsp;&#124;&nbsp;
+		<apex:outputLink onclick="return confirm('Are you sure?');" value="{!URLFOR($Action.Contact_Keyword__c.Delete,ck.Id ,[retURL='apex/ManageKeywords?id='&ContactID])}" styleclass="actionLink">
+    	<apex:outputText value="Del"/>
+		</apex:outputLink>
+		</td>
+		<td scope="row" class=" dataCell  "><a href="/{!ck.Keyword__c}" >{!ck.Keyword__r.Name}</a></td>
+	    <td scope="row" class=" dataCell  ">{!ck.Value__c}</td>
+		<td scope="row" class=" dataCell  ">{!ck.Comments__c}</td>
+		<td class=" dataCell  ">{!ck.CreatedBy.Name}</td>
+		<td class=" dataCell  "><c:Locale_Formatted_DateTime date_time_value="{!ck.CreatedDate}" /></td>
+		</tr>
+   </apex:repeat>
+</tbody>
+</table>
+</apex:outputpanel>
+</apex:pageBlock>
+<apex:actionFunction action="{!DeleteContactKeyWord}" name="DeleteKeyWord" reRender="KeywordList" >
+<apex:param name="SelectedKeyword" value="" assignTo="{!SelectedRec}"/>
+</apex:actionFunction>
+<apex:actionFunction action="{!EditContactKeyWord}" name="EditKeyWord" reRender="DataSection, TypeField , SaveBtn, DisplayFields" immediate="false" oncomplete="ShowFields ()" >
+<apex:param name="SelectedKeyword" value="" assignTo="{!SelectedRec}"/>
+</apex:actionFunction>
+
+</apex:form>
+
+</apex:page>

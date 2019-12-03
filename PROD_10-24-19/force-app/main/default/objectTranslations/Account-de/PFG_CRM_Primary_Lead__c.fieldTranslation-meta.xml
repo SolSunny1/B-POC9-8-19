@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Primary Lead or in the case of split coverage, this would indicate Real Estate coverage. --></help>
+    <label><!-- Real Estate Lead --></label>
+    <name>PFG_CRM_Primary_Lead__c</name>
+    <relationshipLabel><!-- Accounts (Real Estate Lead) --></relationshipLabel>
+</CustomFieldTranslation>

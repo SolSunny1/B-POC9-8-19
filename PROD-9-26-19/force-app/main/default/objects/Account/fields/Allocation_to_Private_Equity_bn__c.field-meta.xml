@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allocation_to_Private_Equity_bn__c</fullName>
+    <description>Information pulled from Preqin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Information pulled from Preqin</inlineHelpText>
+    <label>Allocation to Private Equity ($bn)</label>
+    <precision>13</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

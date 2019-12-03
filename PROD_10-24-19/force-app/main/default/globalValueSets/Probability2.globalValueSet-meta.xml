@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>0%: Declined</fullName>
+        <default>false</default>
+        <label>0%</label>
+    </customValue>
+    <customValue>
+        <fullName>10%: Unknown likelihood and soft declines</fullName>
+        <default>false</default>
+        <label>10%</label>
+    </customValue>
+    <customValue>
+        <fullName>25%: Unlikely</fullName>
+        <default>false</default>
+        <label>25%</label>
+    </customValue>
+    <customValue>
+        <fullName>35%: In process</fullName>
+        <default>false</default>
+        <label>35%</label>
+    </customValue>
+    <customValue>
+        <fullName>50%: Somewhat likely</fullName>
+        <default>false</default>
+        <label>50%</label>
+    </customValue>
+    <customValue>
+        <fullName>75%: Very likely</fullName>
+        <default>false</default>
+        <label>75%</label>
+    </customValue>
+    <customValue>
+        <fullName>100%: Committed</fullName>
+        <default>false</default>
+        <label>100%</label>
+    </customValue>
+    <masterLabel>Probability</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

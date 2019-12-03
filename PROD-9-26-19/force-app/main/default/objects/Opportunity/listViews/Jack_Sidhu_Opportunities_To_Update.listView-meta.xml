@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jack_Sidhu_Opportunities_To_Update</fullName>
+    <columns>Investment_Vehicle__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Probability_Picklist__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>contains</operation>
+        <value>BPREP,BPREP Australia,VAMF III,BID (EURO),BSREP III,BCP V,BSIP,BSREF</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>contains</operation>
+        <value>Sidhu</value>
+    </filters>
+    <filters>
+        <field>Probability_Picklist__c</field>
+        <operation>equals</operation>
+        <value>10%: Unknown likelihood and soft declines,25%: Unlikely,50%: Somewhat likely</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <label>Jack Sidhu Opportunities (To Update)</label>
+    <sharedTo>
+        <role>PFG</role>
+        <role>PFG_APAC</role>
+        <role>PFG_APAC_CRM</role>
+        <role>PFG_APAC_Support</role>
+        <role>PFG_CRM</role>
+        <role>PFG_CanAm</role>
+        <role>PFG_CanAm_CRM</role>
+        <role>PFG_CanAm_Support</role>
+        <role>PFG_EMEA</role>
+        <role>PFG_EMEA_CRM</role>
+        <role>PFG_EMEA_Support</role>
+        <role>PFG_Exec</role>
+        <role>PFG_Platforms</role>
+        <role>PFG_Salesforce_Support</role>
+        <role>PFG_Salesforce_Support_Team</role>
+        <role>PFG_Team</role>
+    </sharedTo>
+</ListView>

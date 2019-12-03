@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Management Fee Base - Post Inv Period --></label>
+    <name>Mgmt_Fee_Base_Post_Investment_Period__c</name>
+    <picklistValues>
+        <masterLabel>Committed Capital</masterLabel>
+        <translation><!-- Committed Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invested Capital</masterLabel>
+        <translation><!-- Invested Capital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Total Commitment (Funded &amp; Unfunded)</masterLabel>
+        <translation><!-- Total Commitment (Funded &amp; Unfunded) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uninvested Capital</masterLabel>
+        <translation><!-- Uninvested Capital --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

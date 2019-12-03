@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up from most recent Investor Position records totalling the Equity Invested before without the Subscription Facility Amount (short term loan). --></help>
+    <label><!-- Equity Invested - Before Sub --></label>
+    <name>Equity_Invested_Before_Sub__c</name>
+</CustomFieldTranslation>

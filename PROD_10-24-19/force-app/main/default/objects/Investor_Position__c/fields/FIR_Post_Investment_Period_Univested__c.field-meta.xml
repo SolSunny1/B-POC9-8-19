@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIR_Post_Investment_Period_Univested__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Fund Investor Rate for the duration of the fund on the amount uninvested post-investment period.
+
+Fund Investment Rate is the rate given to investors based on discounts, etc. Different than Fund Headline Rate</inlineHelpText>
+    <label>FIR - Post Investment Period - Univested</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

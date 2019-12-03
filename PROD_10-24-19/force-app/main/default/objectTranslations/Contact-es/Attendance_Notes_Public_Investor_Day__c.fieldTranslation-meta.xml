@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- notes regarding their attendance for Public Investor Day --></help>
+    <label><!-- IR Day 2017 Status --></label>
+    <name>Attendance_Notes_Public_Investor_Day__c</name>
+</CustomFieldTranslation>

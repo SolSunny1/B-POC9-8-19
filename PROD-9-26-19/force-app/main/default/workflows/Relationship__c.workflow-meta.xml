@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Business_Unit_Update</fullName>
+        <field>Business_Unit_Rel__c</field>
+        <literalValue>BFIN</literalValue>
+        <name>Business Unit Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update Relationship BU Field</fullName>
+        <actions>
+            <name>Business_Unit_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>BEGINS( Related_To_Account__r.Name, &quot;Brookfield Financial&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

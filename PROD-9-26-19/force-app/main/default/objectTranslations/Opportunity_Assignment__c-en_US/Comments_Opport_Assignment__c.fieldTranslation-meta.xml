@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the reason why the Opportunity Assignment Is not approved --></help>
+    <label><!-- Comments (Opport Assignment) --></label>
+    <name>Comments_Opport_Assignment__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Depth__c</fullName>
+    <externalId>false</externalId>
+    <label>Depth</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Coverage Manager</fullName>
+                <default>false</default>
+                <label>Coverage Manager</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
+            </value>
+            <value>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+                <label>Secondary</label>
+            </value>
+            <value>
+                <fullName>Personal</fullName>
+                <default>false</default>
+                <label>Personal</label>
+            </value>
+            <value>
+                <fullName>Former Employee</fullName>
+                <default>false</default>
+                <label>Former Employee</label>
+            </value>
+            <value>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+                <label>Board Member</label>
+            </value>
+            <value>
+                <fullName>Chairman</fullName>
+                <default>false</default>
+                <label>Chairman</label>
+            </value>
+            <value>
+                <fullName>Co-Chair</fullName>
+                <default>false</default>
+                <label>Co-Chair</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Trustee</fullName>
+                <default>false</default>
+                <label>Trustee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

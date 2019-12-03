@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Has an existing Brookfield Private Fund Investment in another platform. --></help>
+    <label><!-- Crossover Investor --></label>
+    <name>Crossover_Investor__c</name>
+</CustomFieldTranslation>

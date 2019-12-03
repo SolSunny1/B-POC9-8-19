@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Meeting Request Email to Support team</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>PSG Meeting Request Submission</name>
+    <style>none</style>
+    <subject>{!Meeting_Request__c.Request_Type__c} Request with {!Meeting_Request__c.Client_Name__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  AUM__c = 0.00, IMAGE(&quot;/servlet/servlet.FileDownload?file=0150b000002EGJ6&quot;, &quot;Redeemed&quot;),
+IF ( AUM__c &gt; 1, IMAGE(&quot;/servlet/servlet.FileDownload?file=0150b000002EGJ4&quot;, &quot;In Progress&quot;),
+IF(ISBLANK( AUM__c ), IMAGE(&quot;/servlet/servlet.FileDownload?file=0150b000002EGJ5&quot;, &quot;Missing&quot;), 
+
+IMAGE(&quot;/servlet/servlet.FileDownload?file=0150b000002EGJ5&quot;, &quot;0150b000002EGJ5&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>PFG indicator based on AUM $ redeemed or still in progress</inlineHelpText>
+    <label>Investment Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

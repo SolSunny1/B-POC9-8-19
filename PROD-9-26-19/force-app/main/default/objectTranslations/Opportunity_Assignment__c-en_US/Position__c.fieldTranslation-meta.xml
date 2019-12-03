@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please select whether this CRM is primary or secondary in this opportunity. (NOTE: should the split be 50/50 select the opportunity owner as the &quot;primary&quot; in the split.) --></help>
+    <label><!-- Opportunity Owner Priority --></label>
+    <name>Position__c</name>
+    <picklistValues>
+        <masterLabel>Additional (3rd)</masterLabel>
+        <translation><!-- Additional (3rd) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Additional (4th)</masterLabel>
+        <translation><!-- Additional (4th) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary (1st)</masterLabel>
+        <translation><!-- Primary (1st) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secondary (2nd)</masterLabel>
+        <translation><!-- Secondary (2nd) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

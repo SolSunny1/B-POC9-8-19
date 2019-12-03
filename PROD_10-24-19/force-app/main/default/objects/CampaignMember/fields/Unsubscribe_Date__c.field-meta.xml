@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unsubscribe_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>Contact.Date_of_unsubscribe__c</formula>
+    <inlineHelpText>Pulled from the Contact Record</inlineHelpText>
+    <label>Unsubscribe Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

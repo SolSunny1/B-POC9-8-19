@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( 
+Status__c , 
+&quot;Funded&quot;, IMAGE (&quot;/resource/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&quot;, &quot;Funded&quot;), 
+&quot;Awarded&quot;, IMAGE (&quot;/resource/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/accept.png&quot;, &quot;Awarded&quot;), 
+&quot;&quot;, IMAGE (&quot;/resource/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/flag_1.png&quot;, &quot;Active&quot;), 
+&quot;Inactive&quot;, IMAGE (&quot;/servlet/servlet.FileDownload?file=0150b000002EJNx&quot;, &quot;Inactive&quot;), 
+&quot;Closed&quot;, IMAGE (&quot;/resource/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&quot;, &quot;Closed&quot;), 
+&quot;Retired / Inactive&quot;, IMAGE (&quot;/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/exclamation.png&quot;, &quot;Retired&quot;), 
+&quot;Discontinued&quot;, IMAGE (&quot;/servlet/servlet.FileDownload?file=0150b000002EJNx&quot;, &quot;Discontinued&quot;), 
+&quot;Fully Divested&quot;, IMAGE (&quot;/resource/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/exclamation.png&quot;, &quot;Divested&quot;), 
+IMAGE (&quot;/resource/1494353630000/GraphicsPackNew/fatcow/farmfresh/16/flag_green.png&quot;, &quot;Null&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Vehicle Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

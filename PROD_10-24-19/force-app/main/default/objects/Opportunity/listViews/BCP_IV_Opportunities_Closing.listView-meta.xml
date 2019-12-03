@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCP_IV_Opportunities_Closing</fullName>
+    <columns>Priority__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Anticipated_Close_Date_Tracker__c</columns>
+    <columns>General_Update__c</columns>
+    <columns>Min_Amount__c</columns>
+    <columns>Max_Amount__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Anticipated_Close_Tracker__c</columns>
+    <columns>Close_Details_Tracker__c</columns>
+    <columns>Legal_Update__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BCP IV Co-Invest (Project Athena)</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <label>Common for Editing Opportunities</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

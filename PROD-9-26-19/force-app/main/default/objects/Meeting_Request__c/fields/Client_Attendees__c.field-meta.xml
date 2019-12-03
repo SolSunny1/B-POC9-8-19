@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Attendees__c</fullName>
+    <description>Names of the client contacts who will be at the meeting.  Will be mapped to the event after date has been finalized.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Names of the client contacts who will be at the meeting.  Will be mapped to the event after date has been finalized.</inlineHelpText>
+    <label>Client Attendees</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

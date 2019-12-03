@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Meeting_Request</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Meeting Request</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/a2V/e?CF00N330000030BZ6={!Opportunity.Name}</url>
+</WebLink>

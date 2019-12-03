@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_CRM_Secondary_Lead__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Secondary Lead or in the case of split coverage, this would indicate Private Equity/Credit coverage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Secondary Lead or in the case of split coverage, this would indicate Private Equity/Credit coverage.</inlineHelpText>
+    <label>Secondary</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Accounts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

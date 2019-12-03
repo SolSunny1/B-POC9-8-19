@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_BAM_Shareholder_RU_Filter__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Is_Active__c = false, ISPICKVAL(Ticker__c, &#39;BAM&#39;),  RecordType.Name =&#39;Listed Issuers&#39;), 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>No of BAM Shareholder</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

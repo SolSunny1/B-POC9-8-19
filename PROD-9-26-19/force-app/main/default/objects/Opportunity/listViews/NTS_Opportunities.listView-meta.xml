@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTS_Opportunities</fullName>
+    <columns>Priority__c</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>General_Update__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>contains</operation>
+        <value>NTS</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <label>NTS Opportunities</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

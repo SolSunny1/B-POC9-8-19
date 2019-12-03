@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Events__c</fullName>
+    <description>List of the regular events that PFG hosts</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of the regular events that PFG hosts.  Additions should be requested to the Marketing team.</inlineHelpText>
+    <label>PFG Events</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australia Seminar</fullName>
+                <default>false</default>
+                <label>Australia Seminar</label>
+            </value>
+            <value>
+                <fullName>Copenhagen Seminar</fullName>
+                <default>false</default>
+                <label>Copenhagen Seminar</label>
+            </value>
+            <value>
+                <fullName>Investor Conference</fullName>
+                <default>false</default>
+                <label>Investor Conference</label>
+            </value>
+            <value>
+                <fullName>Investor Day Dinner</fullName>
+                <default>false</default>
+                <label>Investor Day Dinner</label>
+            </value>
+            <value>
+                <fullName>LA Seminar</fullName>
+                <default>false</default>
+                <label>LA Seminar</label>
+            </value>
+            <value>
+                <fullName>London Breakfast Seminar</fullName>
+                <default>false</default>
+                <label>London Breakfast Seminar</label>
+            </value>
+            <value>
+                <fullName>Seoul Seminar</fullName>
+                <default>false</default>
+                <label>Seoul Seminar</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Tokyo Seminar</fullName>
+                <default>false</default>
+                <label>Tokyo Seminar</label>
+            </value>
+            <value>
+                <fullName>Zurich Seminar</fullName>
+                <default>false</default>
+                <label>Zurich Seminar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

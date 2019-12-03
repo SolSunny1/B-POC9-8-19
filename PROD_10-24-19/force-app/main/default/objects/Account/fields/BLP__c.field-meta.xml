@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BLP__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Platform Customer - Customer of 2 or more Brookfield property groups
+Existing Customer - Current BLP customer
+Legacy Customer - Former customer of IDI/Gazeley/Verde
+Prospect - Potential customer (engaged)
+Occupier - Potential customer (not engaged)</inlineHelpText>
+    <label>BLP Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>5 - Platform Customer</fullName>
+                <default>false</default>
+                <label>5 - Platform Customer</label>
+            </value>
+            <value>
+                <fullName>4 - Existing Customer</fullName>
+                <default>false</default>
+                <label>4 - Existing Customer</label>
+            </value>
+            <value>
+                <fullName>3 - Legacy Customer</fullName>
+                <default>false</default>
+                <label>3 - Legacy Customer</label>
+            </value>
+            <value>
+                <fullName>2 - Prospect</fullName>
+                <default>false</default>
+                <label>2 - Prospect</label>
+            </value>
+            <value>
+                <fullName>1 - Occupier</fullName>
+                <default>false</default>
+                <label>1 - Occupier</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

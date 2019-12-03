@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Add_ons__c</fullName>
+    <description>For Projects - the &quot;System Add&#39;ons&quot; column within the report</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the type of system or the actual name of system for this project.</inlineHelpText>
+    <label>System Add-ons</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

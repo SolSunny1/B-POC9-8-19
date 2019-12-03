@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG BCOF Opportunities</fullName>
+    <description>PSG BCOF Opportunities</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>1 - Identified as Prospect %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>10 - Inactive%2FOn Hold %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2 - Initiated General Contact %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 - Fund Meeting%2FDiscussions Held %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - In Due Diligence %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 - Short Listed %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - Seeking IC Approval %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 - Approved %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8 - Closed%2FFunded %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>9 - Declined %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Business</layout>
+        <sections>
+            <label><!-- Busines Unit --></label>
+            <section>Busines Unit</section>
+        </sections>
+        <sections>
+            <label><!-- Case details --></label>
+            <section>Case details</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- Busines Unit --></label>
+            <section>Busines Unit</section>
+        </sections>
+        <sections>
+            <label><!-- Salesforce User Licence Info --></label>
+            <section>Salesforce User Licence Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Case Layout</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Investor Requests</layout>
+        <sections>
+            <label><!-- Case details --></label>
+            <section>Case details</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Select this if you have aan idea that you would like us to build --></description>
+        <label><!-- Enhancement request --></label>
+        <name>Enhancement_request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Requests --></label>
+        <name>Investor_Requests</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PSG investor inquiries pulled into Salesforce via Email to Case --></description>
+        <label><!-- PSG Inquiries --></label>
+        <name>PSG_Inquiries</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this if you are making a quick change to PROD. Add to Promotion parent --></description>
+        <label><!-- Quick Change --></label>
+        <name>Quick_Change</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select this for a help ticket --></description>
+        <label><!-- Support --></label>
+        <name>Support</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Old cases --></description>
+        <label><!-- 2016 --></label>
+        <name>X2016</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Data loading or change to an existing or a new report or dashboard --></description>
+        <label><!-- Data User Report Dashboard --></label>
+        <name>data_user_report_dashboard</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must select a Business Unit to save this record. --></errorMessage>
+        <name>Must_Select_a_Business_Unit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type must be populated. --></errorMessage>
+        <name>Request_Type_Require_on_Close</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- EditInExcel --></label>
+        <name>Apttus_XApps__EditInExcel</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- This case has been Approved and can be promoted to Production. --></description>
+        <name>Promote_Changes_to_Production</name>
+        <subject><!-- Promote Changes to Production --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

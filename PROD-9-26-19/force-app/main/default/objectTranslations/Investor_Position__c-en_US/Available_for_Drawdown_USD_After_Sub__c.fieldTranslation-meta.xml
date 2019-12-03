@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Imported field of the Amount Available for Drawdown including the Subscription Facility Amount(short term loan). --></help>
+    <label><!-- Available for Drawdown - After Sub --></label>
+    <name>Available_for_Drawdown_USD_After_Sub__c</name>
+</CustomFieldTranslation>

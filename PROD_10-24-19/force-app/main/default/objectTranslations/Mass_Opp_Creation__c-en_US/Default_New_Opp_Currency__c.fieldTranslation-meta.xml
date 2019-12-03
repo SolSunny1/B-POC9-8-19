@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Default New Opportunity Currency --></help>
+    <label><!-- Default New Opp Currency --></label>
+    <name>Default_New_Opp_Currency__c</name>
+</CustomFieldTranslation>

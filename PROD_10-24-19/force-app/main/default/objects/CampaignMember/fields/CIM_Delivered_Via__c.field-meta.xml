@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CIM_Delivered_Via__c</fullName>
+    <externalId>false</externalId>
+    <label>CIM Delivered Via</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Courier</fullName>
+                <default>false</default>
+                <label>Courier</label>
+            </value>
+            <value>
+                <fullName>VDR</fullName>
+                <default>false</default>
+                <label>VDR</label>
+            </value>
+            <value>
+                <fullName>In Person</fullName>
+                <default>false</default>
+                <label>In Person</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

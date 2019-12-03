@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Co_Investment_Comments__c</fullName>
+    <description>A text field where we can add investment restrictions or additional color on preferences</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Add investment restrictions or additional color on preferences</inlineHelpText>
+    <label>Co-Investment Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

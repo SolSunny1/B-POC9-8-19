@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the type of system or the actual name of system for this project. --></help>
+    <label><!-- System Add-ons --></label>
+    <name>System_Add_ons__c</name>
+</CustomFieldTranslation>

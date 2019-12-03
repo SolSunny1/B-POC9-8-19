@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Settlement Price --></label>
+    <name>Settlement_Price__c</name>
+    <picklistValues>
+        <masterLabel>Day-ahead Market</masterLabel>
+        <translation><!-- Day-ahead Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real-time Market</masterLabel>
+        <translation><!-- Real-time Market --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

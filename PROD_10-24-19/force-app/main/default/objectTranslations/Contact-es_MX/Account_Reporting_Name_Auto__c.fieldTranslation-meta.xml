@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- to help trigger the workflow to populate the text field --></help>
+    <label><!-- Account Reporting Name Auto --></label>
+    <name>Account_Reporting_Name_Auto__c</name>
+</CustomFieldTranslation>

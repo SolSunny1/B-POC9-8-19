@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investment Experience Type --></label>
+    <name>Investment_Experience_Type__c</name>
+    <picklistValues>
+        <masterLabel>Private Securities</masterLabel>
+        <translation><!-- Private Securities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public &amp; Private Securities</masterLabel>
+        <translation><!-- Public &amp; Private Securities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public securities</masterLabel>
+        <translation><!-- Public securities --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

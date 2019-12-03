@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Top_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>Preqin_Top_Lists__c</columns>
+    <columns>IRDP__c</columns>
+    <columns>PFG_Priority_Account__c</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Preqin_Top_Lists__c</field>
+        <operation>includes</operation>
+        <value>Top Foundations</value>
+    </filters>
+    <filters>
+        <field>PARENT_NAME</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </filters>
+    <label>PFG Top Accounts</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

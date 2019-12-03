@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Infrastructure --></label>
+    <name>Infrastructure__c</name>
+    <picklistValues>
+        <masterLabel>Communications - Cable Networks</masterLabel>
+        <translation><!-- Communications - Cable Networks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communications - Towers and Transmission</masterLabel>
+        <translation><!-- Communications - Towers and Transmission --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social - Education</masterLabel>
+        <translation><!-- Social - Education --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social - Health Care</masterLabel>
+        <translation><!-- Social - Health Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social - Justice</masterLabel>
+        <translation><!-- Social - Justice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social - Long-Term Care</masterLabel>
+        <translation><!-- Social - Long-Term Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social - Public Housing</masterLabel>
+        <translation><!-- Social - Public Housing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Airports</masterLabel>
+        <translation><!-- Transportation - Airports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Bridges</masterLabel>
+        <translation><!-- Transportation - Bridges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Highways</masterLabel>
+        <translation><!-- Transportation - Highways --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Ports</masterLabel>
+        <translation><!-- Transportation - Ports --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Rail</masterLabel>
+        <translation><!-- Transportation - Rail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Toll Roads</masterLabel>
+        <translation><!-- Transportation - Toll Roads --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation - Tunnels</masterLabel>
+        <translation><!-- Transportation - Tunnels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Conventional Energy</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Conventional Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Energy Distribution</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Energy Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Energy Storage</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Energy Storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Energy Transmission</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Energy Transmission --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Renewable Energy</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Renewable Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Street Lighting</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Street Lighting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities &amp; Energy - Water/Wastewater</masterLabel>
+        <translation><!-- Utilities &amp; Energy - Water/Wastewater --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

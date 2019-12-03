@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Committed_Capital_USD__c</fullName>
+    <description>= Sum contributions from investor children – sum redemption from investor children</description>
+    <externalId>false</externalId>
+    <inlineHelpText>PSG rollup from Child records</inlineHelpText>
+    <label>Committed Capital (USD)</label>
+    <summarizedField>Investor_Position__c.Redemption_USD__c</summarizedField>
+    <summaryFilterItems>
+        <field>Investor_Position__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Child PSG Investor Positions</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Investor_Position__c.Investment_Vehicle__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

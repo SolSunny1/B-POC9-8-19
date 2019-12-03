@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Opp Record Type Id for Input filtering and opportunity creation --></help>
+    <label><!-- Opp Record Type ID --></label>
+    <name>Opp_Record_Type_ID__c</name>
+</CustomFieldTranslation>

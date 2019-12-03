@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactName__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SS: 3-6-19: renamed Label and API : to Contact Name (Contact_Name__c) from  Public Official&#39;s Full Name	(Public_Official_s_Full_Name__c)	--Lookup(Contact)</description>
+    <externalId>false</externalId>
+    <label>Contact Name</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Pardot Activities</relationshipLabel>
+    <relationshipName>Pardot_Activities</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

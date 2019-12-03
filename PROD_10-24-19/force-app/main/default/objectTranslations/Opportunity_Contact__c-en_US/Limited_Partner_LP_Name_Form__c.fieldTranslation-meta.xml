@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- text field created to populate the LP name of the contact in Eform --></help>
+    <label><!-- Limited Partner (LP) Name - Form --></label>
+    <name>Limited_Partner_LP_Name_Form__c</name>
+</CustomFieldTranslation>

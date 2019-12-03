@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Date_Transferred__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If an Investor sells their Commitment, please enter the date the Commitment was Transferred to the new Investor.</inlineHelpText>
+    <label>Date Transferred</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

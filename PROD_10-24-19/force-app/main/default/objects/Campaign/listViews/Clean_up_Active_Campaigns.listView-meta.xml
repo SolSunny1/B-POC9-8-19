@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clean_up_Active_Campaigns</fullName>
+    <columns>CAMPAIGN.RECORDTYPE</columns>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>Deal_Type__c</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.LAST_UPDATE</columns>
+    <columns>Deal_Team__c</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>contains</operation>
+        <value>Linda</value>
+    </filters>
+    <label>Clean up Active Campaigns</label>
+    <sharedTo>
+        <roleAndSubordinates>BIM</roleAndSubordinates>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

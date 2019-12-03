@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Portfolio Manager --></label>
+    <lookupFilter>
+        <errorMessage><!-- PM Candidate does not exist or is not a PM Candidate. --></errorMessage>
+        <informationalMessage><!-- You can only associate PM Candidate to an Analyst. Search results only display PM Candidates. --></informationalMessage>
+    </lookupFilter>
+    <name>Portfolio_Manager__c</name>
+    <relationshipLabel><!-- Analyst --></relationshipLabel>
+</CustomFieldTranslation>

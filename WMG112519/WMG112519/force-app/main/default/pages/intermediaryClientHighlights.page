@@ -1,0 +1,115 @@
+<apex:page standardController="Account" docType="html-5.0">  
+	<!-- // To Do to make this a generic component
+	// Make it into a component (not really re-usable, but to allow for sf1 card usage)
+	// Put styles into a standard RK static resource
+	// Potentially take visualstrap unmanaged and merge changes into that
+	
+	 -->
+   <style>
+   .visualstrap h2 {
+   		font-size: 16px !important;
+   }
+   .visualstrap .well {
+   		margin-bottom: 5px !important;
+   }
+
+   </style>
+   
+
+   <vs:importvisualstrap />  
+   <vs:visualstrapblock >  
+     
+     
+       <vs:panel type="primary" title="Summary">  
+	       <vs:row >  
+	       
+	        <vs:column type="col-md-3">  
+	           <vs:well style="text-align:center">  
+	             <vs:row >  
+	               <vs:column type="col-md-4" style="font-size:36px;">  
+	                   <vs:glyph icon="stats" />              
+	                 </vs:column>  
+	               <vs:column type="col-md-8">                  
+	                 <h2 style="font-size:18px;">$<apex:outputText value="{0, number, 000,000}"><apex:param value="{!Account.SalesConnect__Current_Assets__c}" />
+	 					</apex:outputText>
+	                 </h2>  
+	                 <p class="text-muted infolabel">Current Assets
+	                 </p>              
+	               </vs:column>  
+	             </vs:row>  
+	           </vs:well>  
+	         </vs:column>  
+	       
+	         <vs:column type="col-md-3">  
+	             
+	             <vs:well style="text-align:center">                
+	               <vs:row >  
+	                 <vs:column type="col-md-4" style="font-size:36px;color:green;">  
+	                   <vs:glyph icon="arrow-up" />              
+	                 </vs:column>  
+	                 <vs:column type="col-md-8">                  
+	                   <h2 style="color:green;">
+	                     $<apex:outputText value="{0, number, 000,000}"><apex:param value="{!Account.SalesConnect__YTD_Sales__c}" />
+	 					</apex:outputText> 
+	                   </h2>  
+	                   <p class="text-muted infolabel">YTD Sales</p>              
+	                 </vs:column>  
+	               </vs:row>                
+	             </vs:well>  
+	              
+	         </vs:column>  
+	           <vs:column type="col-md-3">  
+	             
+	             <vs:well style="text-align:center">                
+	               <vs:row >  
+	                 <vs:column type="col-md-4" style="font-size:36px;color:red;">  
+	                   <vs:glyph icon="arrow-down" />              
+	                 </vs:column>  
+	                 <vs:column type="col-md-8">                  
+	                   <h2 style="color:red;">
+	                     $<apex:outputText value="{0, number, 000,000}"><apex:param value="{!Account.SalesConnect__YTD_Redemptions__c}" />
+	 					</apex:outputText> 
+	                   </h2>  
+	                   <p class="text-muted infolabel">YTD Redemptions</p>              
+	                 </vs:column>  
+	               </vs:row>                
+	             </vs:well>  
+	              
+	         </vs:column>  
+	         
+	        <vs:column type="col-md-3">  
+	             
+	             <vs:well style="text-align:center">                
+	               <vs:row >  
+	                 <vs:column type="col-md-4" style="font-size:36px">  
+	                   <vs:glyph icon="sort" />              
+	                 </vs:column>  
+	                 <vs:column type="col-md-8">                  
+	                   <h2>
+	                     $<apex:outputText value="{0, number, 000,000}"><apex:param value="{!Account.YTD_Net_Sales__c}" /> 
+	 					</apex:outputText> 
+	                   </h2>  
+	                   <p class="text-muted infolabel">YTD Net Sales</p>              
+	                 </vs:column>  
+	               </vs:row>                
+	             </vs:well>  
+	              
+	         </vs:column>  
+	           
+	      
+      
+	         
+	           
+	       </vs:row>  
+	     </vs:panel>
+   
+   
+       
+   </vs:visualstrapblock>
+   
+   
+
+    
+     
+     
+ </apex:page>

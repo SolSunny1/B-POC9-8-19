@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>paperscovt20abstractlinedigitalwhit</masterLabel>
+    <relationships>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Test_and_Draft_App</name>
+        </insightsApplication>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>papers.co-vt20-abstract-line-digital-white-bw-pattern-29-wallpaper.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

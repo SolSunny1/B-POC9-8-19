@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_ID__c</fullName>
+    <description>to pull the Name ID</description>
+    <externalId>false</externalId>
+    <formula>WhoId</formula>
+    <inlineHelpText>to pull the Name ID</inlineHelpText>
+    <label>Name ID</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Imported field of Current Commitments in the Fund in USD. 
+
+Current commitment is how much has been currently invested + available for drawdown. --></help>
+    <label><!-- Current Commitments - USD --></label>
+    <name>Current_Commitments_USD__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Expenses2__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Expenses</label>
+    <summarizedField>Expenses__c.Invoiced_Amount__c</summarizedField>
+    <summaryForeignKey>Expenses__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

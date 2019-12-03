@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>To determine the top bids and winner</inlineHelpText>
+    <label>Bid Round Results</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Selected Purchaser</fullName>
+                <default>false</default>
+                <label>Selected Purchaser</label>
+            </value>
+            <value>
+                <fullName>Shortlisted Bid</fullName>
+                <default>false</default>
+                <label>Shortlisted Bid</label>
+            </value>
+            <value>
+                <fullName>Rejected Bid</fullName>
+                <default>false</default>
+                <label>Rejected Bid</label>
+            </value>
+            <value>
+                <fullName>Top Buyers</fullName>
+                <default>false</default>
+                <label>Top Buyers</label>
+            </value>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Tier 3</fullName>
+                <default>false</default>
+                <label>Tier 3</label>
+            </value>
+            <value>
+                <fullName>Will Not Bid</fullName>
+                <default>false</default>
+                <label>Will Not Bid</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

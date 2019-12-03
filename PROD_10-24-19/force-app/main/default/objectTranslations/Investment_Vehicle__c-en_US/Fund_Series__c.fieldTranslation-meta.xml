@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Fund Family Series Previously &quot;Mandate - Series Family&quot; --></help>
+    <label><!-- Fund Series --></label>
+    <name>Fund_Series__c</name>
+    <picklistValues>
+        <masterLabel>AG</masterLabel>
+        <translation><!-- AG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBCP</masterLabel>
+        <translation><!-- BBCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBRF</masterLabel>
+        <translation><!-- BBRF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBTF</masterLabel>
+        <translation><!-- BBTF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCOF</masterLabel>
+        <translation><!-- BCOF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP</masterLabel>
+        <translation><!-- BCP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BGTF</masterLabel>
+        <translation><!-- BGTF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BID (EURO)</masterLabel>
+        <translation><!-- BID (EURO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BID (USD)</masterLabel>
+        <translation><!-- BID (USD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF</masterLabel>
+        <translation><!-- BIF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BOZ</masterLabel>
+        <translation><!-- BOZ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPREP</masterLabel>
+        <translation><!-- BPREP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPREPA</masterLabel>
+        <translation><!-- BPREPA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BREF</masterLabel>
+        <translation><!-- BREF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BREOF</masterLabel>
+        <translation><!-- BREOF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSIP</masterLabel>
+        <translation><!-- BSIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREF</masterLabel>
+        <translation><!-- BSREF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP</masterLabel>
+        <translation><!-- BSREP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bridge</masterLabel>
+        <translation><!-- Bridge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CDN Office</masterLabel>
+        <translation><!-- CDN Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbia</masterLabel>
+        <translation><!-- Columbia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DTLA</masterLabel>
+        <translation><!-- DTLA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GGP</masterLabel>
+        <translation><!-- GGP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>India RE</masterLabel>
+        <translation><!-- India RE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kotak</masterLabel>
+        <translation><!-- Kotak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peninsula</masterLabel>
+        <translation><!-- Peninsula --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peru</masterLabel>
+        <translation><!-- Peru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RETIP</masterLabel>
+        <translation><!-- RETIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spec Opps</masterLabel>
+        <translation><!-- Spec Opps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thayer</masterLabel>
+        <translation><!-- Thayer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timber</masterLabel>
+        <translation><!-- Timber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transelec</masterLabel>
+        <translation><!-- Transelec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U.S Office</masterLabel>
+        <translation><!-- U.S Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAMF</masterLabel>
+        <translation><!-- VAMF --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

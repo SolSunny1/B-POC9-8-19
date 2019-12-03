@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Opportunity_list</fullName>
+    <availability>online</availability>
+    <description>to have the button on the Tab of the Brookfield Opportunities tab</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Opportunity</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/setup/ui/recordtypeselect.jsp?ent=Opportunity&amp;retURL=%2F006%2Fo&amp;save_new_url=%2F006%2Fe%3FretURL%3D%252F006%252Fo</url>
+</WebLink>

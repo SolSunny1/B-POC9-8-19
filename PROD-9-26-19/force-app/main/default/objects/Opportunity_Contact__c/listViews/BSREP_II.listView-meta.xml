@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSREP_II</fullName>
+    <columns>Investor_Opportunity__c</columns>
+    <columns>NAME</columns>
+    <columns>Role__c</columns>
+    <columns>Main_Contact__c</columns>
+    <columns>LPAC__c</columns>
+    <columns>Notes__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Conference_Call__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investor_Opportunity__c</field>
+        <operation>contains</operation>
+        <value>BSREP II</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>BSREP II</label>
+</ListView>

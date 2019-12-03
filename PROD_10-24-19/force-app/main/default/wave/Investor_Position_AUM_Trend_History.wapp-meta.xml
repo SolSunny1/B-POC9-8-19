@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/10.png</assetIcon>
+    <folder>Investor_Position_AUM_Trend_History</folder>
+    <masterLabel>Investor Position AUM Trend History</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>palwasha.salehy@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__Trending_Analytics</templateOrigin>
+    <templateVersion>1.0</templateVersion>
+</WaveApplication>

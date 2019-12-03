@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brookfield_Business_Group__c</fullName>
+    <description>Brookfield Business Groups. This field is used for Data management and related to different global action page layouts 
+This field refers to Salesforce User profile =Business group.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select your associated business group</inlineHelpText>
+    <label>Brookfield Business Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BAC</fullName>
+                <default>false</default>
+                <label>BAC</label>
+            </value>
+            <value>
+                <fullName>BAM</fullName>
+                <default>false</default>
+                <label>BAM</label>
+            </value>
+            <value>
+                <fullName>BAM Finance</fullName>
+                <default>false</default>
+                <label>BAM Finance</label>
+            </value>
+            <value>
+                <fullName>BBP</fullName>
+                <default>false</default>
+                <label>BBP</label>
+            </value>
+            <value>
+                <fullName>BBU</fullName>
+                <default>false</default>
+                <label>BBU</label>
+            </value>
+            <value>
+                <fullName>BFIN</fullName>
+                <default>false</default>
+                <label>BFIN</label>
+            </value>
+            <value>
+                <fullName>BIG</fullName>
+                <default>false</default>
+                <label>BIG</label>
+            </value>
+            <value>
+                <fullName>BPG</fullName>
+                <default>false</default>
+                <label>BPG</label>
+            </value>
+            <value>
+                <fullName>BPO</fullName>
+                <default>false</default>
+                <label>BPO</label>
+            </value>
+            <value>
+                <fullName>BRP</fullName>
+                <default>false</default>
+                <label>BRP</label>
+            </value>
+            <value>
+                <fullName>BTG</fullName>
+                <default>false</default>
+                <label>BTG</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>IDI</fullName>
+                <default>false</default>
+                <label>IDI</label>
+            </value>
+            <value>
+                <fullName>IDI Gazely</fullName>
+                <default>false</default>
+                <label>IDI Gazely</label>
+            </value>
+            <value>
+                <fullName>PFG</fullName>
+                <default>false</default>
+                <label>PFG</label>
+            </value>
+            <value>
+                <fullName>PSG</fullName>
+                <default>false</default>
+                <label>PSG</label>
+            </value>
+            <value>
+                <fullName>TSG</fullName>
+                <default>false</default>
+                <label>TSG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

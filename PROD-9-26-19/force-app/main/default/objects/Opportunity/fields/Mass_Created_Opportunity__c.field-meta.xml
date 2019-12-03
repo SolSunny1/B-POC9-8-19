@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Created_Opportunity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set to true if this opportunity was created by the mass opportunity creation tool [BF-4]</description>
+    <externalId>false</externalId>
+    <label>Mass Created Opportunity?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

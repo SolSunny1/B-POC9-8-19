@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes_Changed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checks true when Notes have been updated after meeting occurred.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checks true when Notes have been updated after meeting occurred.</inlineHelpText>
+    <label>Notes Changed</label>
+    <type>Checkbox</type>
+</CustomField>

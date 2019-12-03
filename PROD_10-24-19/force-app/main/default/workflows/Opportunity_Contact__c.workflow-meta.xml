@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_when_Email_Changes_on_Opportunity_Contact</fullName>
+        <description>Alert when Email Changes on Opportunity Contact</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ana.puric@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dan.richards@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joe.cavicchia@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joshy.john@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mohammad.quzmar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>System_Emails/Email_Change_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>InvestorContactName</fullName>
+        <field>Name</field>
+        <formula>left(Contact__r.FirstName + &#39; &#39; +  Contact__r.LastName + &#39; - &#39; +  Investor_Opportunity__r.Name, 80)</formula>
+        <name>InvestorContactName</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_Invitee_Type_for_Investor_Day</fullName>
+        <description>When the Opportunity Contact says Invite to investor day, update the Invitee Type to be Investor.</description>
+        <field>Private_Investor_Day_Invitee_Type__c</field>
+        <literalValue>Investor</literalValue>
+        <name>PFG Update Invitee Type for Investor Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <targetObject>Contact__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Email_Previous_Value</fullName>
+        <field>Email_Previous_Value__c</field>
+        <formula>PRIORVALUE(Email_Address__c)</formula>
+        <name>Update Email Previous Value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Email_change_Date</fullName>
+        <description>Populate the email change date when the email changes</description>
+        <field>Email_Change_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Update Email change Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Email_change_DateOpContact</fullName>
+        <field>Email_Change_Date__c</field>
+        <formula>Contact__r.Email_Change_Date__c</formula>
+        <name>Update Email change Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Invited_By</fullName>
+        <field>Invited_By_Private_Funds__c</field>
+        <formula>Investor_Opportunity__r.Owner.Full_name__c</formula>
+        <name>Update Invited By</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <targetObject>Contact__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sent_from_Fields</fullName>
+        <field>Invite_Sent_From_Private_Investor_Day__c</field>
+        <formula>Investor_Opportunity__r.Owner.Full_name__c</formula>
+        <name>Update Sent from Fields</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <targetObject>Contact__c</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>InvestorContactName</fullName>
+        <actions>
+            <name>InvestorContactName</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>change Investor Contact Name after the record is created</description>
+        <formula>True</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Investor Day - update from Opp Contact</fullName>
+        <actions>
+            <name>PFG_Update_Invitee_Type_for_Investor_Day</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Invited_By</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Sent_from_Fields</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity_Contact__c.Investor_Day__c</field>
+            <operation>equals</operation>
+            <value>Invite</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Private_Investor_Day_Invitee_Type__c</field>
+            <operation>notEqual</operation>
+            <value>Investor,Removed,Internal</value>
+        </criteriaItems>
+        <description>When an Opportunity contact is created and the Invite to Investor Day field is populated, update the contact</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Notify if Email Changes</fullName>
+        <actions>
+            <name>Update_Email_Previous_Value</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Email_change_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Email_Address__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

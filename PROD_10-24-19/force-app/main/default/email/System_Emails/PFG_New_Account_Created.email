@@ -1,0 +1,10 @@
+New Account,  {!Account.Name} has been created by {!User.Username}.
+
+Created by: {!Account.CreatedBy}.
+Created Date: {!Account.CreatedDate}.
+Alias: {!Account.Alias__c}.
+Country : {!Account.BillingCountry}.
+Investor Type : {!Account.Investor_Type__c}.
+QI Status Notes : {!Account.QI_Status_Notes__c}.
+
+Company Background : {!Account.Company_Background__c}.

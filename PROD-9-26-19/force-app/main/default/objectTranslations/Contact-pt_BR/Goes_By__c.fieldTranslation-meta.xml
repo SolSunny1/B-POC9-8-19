@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Other names the Contact is known to use --></help>
+    <label><!-- Goes By --></label>
+    <name>Goes_By__c</name>
+</CustomFieldTranslation>

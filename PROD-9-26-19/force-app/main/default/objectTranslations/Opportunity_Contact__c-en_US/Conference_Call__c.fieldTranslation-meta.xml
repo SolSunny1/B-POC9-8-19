@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Invite this contact to Fund Quarterly Performance Conference Calls? --></help>
+    <label><!-- Conference Call --></label>
+    <name>Conference_Call__c</name>
+</CustomFieldTranslation>

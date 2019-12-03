@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Old_Inactive_Vehicle_Name__c</fullName>
+    <description>This field is used unique identifier to archive old Investor Positions. This field is updated with record ID &quot;PSG Deactivated Investment Vehicle&quot; and been used in sharing rule to ensure only system admin have access to the old investor position.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Copy and Paste Investment Vehicle Name here before you change it to &quot; OLD INACTIVE VEHICLE&quot;Do not delete&quot; field</inlineHelpText>
+    <label>Old Inactive Vehicle Name</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

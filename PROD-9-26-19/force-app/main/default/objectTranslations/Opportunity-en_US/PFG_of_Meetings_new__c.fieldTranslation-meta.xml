@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- PFG total # of meetings for review --></help>
+    <label><!-- PFG # of Meetings All time new --></label>
+    <name>PFG_of_Meetings_new__c</name>
+</CustomFieldTranslation>

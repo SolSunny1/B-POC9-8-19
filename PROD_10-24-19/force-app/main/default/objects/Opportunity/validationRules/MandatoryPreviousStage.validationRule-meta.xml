@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MandatoryPreviousStage</fullName>
+    <active>true</active>
+    <description>Mandatory field is the stage selected is &quot;Declined&quot;</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL( StageName , &quot;9 - Declined&quot;)),
+ISPICKVAL ( Previous_Stage_before_close__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Previous_Stage_before_close__c</errorDisplayField>
+    <errorMessage>Please select a value from the pick list to complete the close process.</errorMessage>
+</ValidationRule>

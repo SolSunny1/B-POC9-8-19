@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>PFG Event Alert with link</name>
+    <style>freeForm</style>
+    <subject>An Event Related to {!Opportunity.Name} is due today</subject>
+    <textOnly>Click here to add notes: http://{!Event.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

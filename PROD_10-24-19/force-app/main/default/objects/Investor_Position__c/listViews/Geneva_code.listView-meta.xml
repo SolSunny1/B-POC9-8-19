@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geneva_code</fullName>
+    <columns>NAME</columns>
+    <columns>Geneva_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Geneva_Code__c</field>
+        <operation>startsWith</operation>
+        <value>2.</value>
+    </filters>
+    <label>Geneva code</label>
+</ListView>

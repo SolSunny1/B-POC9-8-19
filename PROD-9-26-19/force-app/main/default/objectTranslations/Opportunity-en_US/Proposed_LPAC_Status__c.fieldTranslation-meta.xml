@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Will they be part of the Limited Partner Advisory Committee? --></help>
+    <label><!-- Proposed LPAC Status --></label>
+    <name>Proposed_LPAC_Status__c</name>
+    <picklistValues>
+        <masterLabel>Member</masterLabel>
+        <translation><!-- Member --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Observer</masterLabel>
+        <translation><!-- Observer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested</masterLabel>
+        <translation><!-- Requested --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

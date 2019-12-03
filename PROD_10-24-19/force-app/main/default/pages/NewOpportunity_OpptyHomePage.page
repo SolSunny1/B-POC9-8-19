@@ -1,0 +1,13 @@
+<apex:page standardController="Opportunity">
+    <script type="text/javascript">
+        var preFilledURL = 
+            "/setup/ui/recordtypeselect.jsp?" + 
+            "ent=Opportunity&" + 
+            "opp9={!day(TODAY())}/{!month(TODAY())}/{!year(TODAY())+1}&" + 
+            "nooverride=1&" + 
+            "retURL=/006/o&" + 
+            "save_new_url=%2F006%2Fe%3FretURL%3D%252F";
+                
+        window.top.location.href = preFilledURL;
+    </script>
+</apex:page>

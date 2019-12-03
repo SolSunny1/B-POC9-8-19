@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Autopopulated Field. --></help>
+    <label><!-- BIP Shareholder Status --></label>
+    <name>BIP_Shareholder_Status__c</name>
+</CustomFieldTranslation>

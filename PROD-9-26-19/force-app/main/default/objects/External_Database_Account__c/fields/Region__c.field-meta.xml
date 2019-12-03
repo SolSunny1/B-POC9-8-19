@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( Country__c ),&quot;None&quot;,
+
+if(and( 
+ Country__c =&quot;United States&quot;, 
+Contains(&quot;IO:IL:IN:KS:MI:MN:MO:ND:NE:OH:OK:SD:WI&quot;,State__c )),&quot;US-Central&quot;, 
+
+if(and( 
+Country__c =&quot;United States&quot;, 
+Contains(&quot;DC:DE:MD:NJ:PA:VA:WV&quot;,State__c )),&quot;US-Mid-Atlantic&quot;, 
+
+if(and( 
+Country__c =&quot;United States&quot;, 
+Contains(&quot;CT:MA:ME:NH:NY:RI:VT&quot;,State__c )),&quot;US-Northeast&quot;, 
+
+if(and( 
+Country__c  =&quot;United States&quot;, 
+Contains(&quot;AL:AK:AR:FL:GE:KY:LA:MI:NC:SC:TN:TX&quot;,State__c )),&quot;US-South&quot;, 
+
+if(and( 
+Country__c =&quot;United States&quot;, 
+Contains(&quot;AK:AZ:CA:CO:HI:ID:MT:NM:NM:NV:OR:UT:WA:WY&quot;,State__c )),&quot;US-West&quot;, 
+
+
+if(and( 
+Country__c =&quot;Canada&quot;, 
+Contains(&quot;British Columbia:Alberta:Saskatchewan:Manitoba&quot;,State__c )),&quot;Western Canada&quot;, 
+
+if(and( 
+Country__c =&quot;Canada&quot;, 
+Contains(&quot;Ontario:Quebec&quot;,State__c )),&quot;Central Canada&quot;, 
+
+if(and( 
+Country__c =&quot;Canada&quot;, 
+Contains(&quot;New Brunswick:Prince Edward Island:Nova Scotia:Newfoundland&quot;,State__c )),&quot;Atlantic Canada&quot;, 
+
+if(and( 
+Country__c =&quot;Canada&quot;, 
+Contains(&quot;Yukon:Northwest Territories:Nunavut&quot;,State__c )),&quot;Northern Canada&quot;, 
+
+if( 
+Contains(&quot;Iceland:Norway:Sweden:Denmark:Finland&quot;,Country__c  ), &quot;Northern Europe&quot;, 
+
+if( 
+Contains(&quot;Germany:Netherlands:Belgium:Luxembourg:Austria:Switzerland:France&quot;,Country__c  ), &quot;Western Europe&quot;, 
+
+if( 
+Contains(&quot;Estonia:Latvia:Lithuania:Belarus:Poland:Ukraine:Czech Republic:Slovakia:Moldova:Romania:Hungary:Slovenia:Croatia:Bosnia:Serbia:Bulgaria:Montenegro:Kosovo:Macedonia:Albania&quot;,Country__c ), &quot;Eastern Europe&quot;, 
+
+if( 
+Contains(&quot;Portugal:Spain:Italy:Malta:Greece:Cyprus&quot;,Country__c ), &quot;Southern Europe&quot;, 
+
+if( 
+Contains(&quot;United Kingdom:Scotland:Wales:Ireland&quot;, Country__c ), &quot;United Kingdom&quot;, 
+
+ Country__c )))))))))))))))</formula>
+    <label>Region</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

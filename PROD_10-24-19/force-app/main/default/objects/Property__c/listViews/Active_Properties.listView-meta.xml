@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Properties</fullName>
+    <columns>NAME</columns>
+    <columns>IDIG_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>IDIG_Region__c</field>
+        <operation>notContain</operation>
+        <value>EU -</value>
+    </filters>
+    <label>Active Properties</label>
+</ListView>

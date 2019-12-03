@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Contact Filter Fields --></label>
+        <name>MC4SF__Contact_Filter_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Alternative Funds</layout>
+        <sections>
+            <label><!-- Assistance Details --></label>
+            <section>Assistance Details</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM Finance</layout>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM_PSG_PFG_ContactLayout</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Event Details --></label>
+            <section>Public Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BFIN_ContactLayout</layout>
+        <sections>
+            <label><!-- Asset Class --></label>
+            <section>Asset Class</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Profile --></label>
+            <section>Investment Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Mailchimp --></label>
+            <section>Mailchimp</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing List --></label>
+            <section>Marketing List</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Business Development</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Marge/Delete Notes --></label>
+            <section>Contact Marge/Delete Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Zoominfo --></label>
+            <section>Zoominfo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Contact Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Marge/Delete Notes --></label>
+            <section>Contact Marge/Delete Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Zoominfo --></label>
+            <section>Zoominfo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield_ContactLayout_Executive</layout>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield_CorpDev_ContactLayout</layout>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Communications</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot --></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Event Details --></label>
+            <section>Public Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Users</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot --></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG_Platform_Contact_Pagelayout</layout>
+        <sections>
+            <label><!-- Activity History --></label>
+            <section>Activity History</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Open Activity --></label>
+            <section>Open Activity</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot --></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Pardot</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot --></label>
+            <section>Pardot</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Admin Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Event Details --></label>
+            <section>Public Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission BAC ContactLayout</layout>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission BLP Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission PFG CRM Contact Layout</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission PFG_ContactLayout</layout>
+        <sections>
+            <label><!-- Contact Role and Coverage --></label>
+            <section>Contact Role and Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Status --></label>
+            <section>Contact Status</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Information --></label>
+            <section>Internal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Lists and Email Preferences --></label>
+            <section>Marketing Lists and Email Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Investor Day Comments --></label>
+            <section>Private Investor Day Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Public Event Details --></label>
+            <section>Public Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Public Investor Day Comments --></label>
+            <section>Public Investor Day Comments</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_Opportunity_PFG</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please enter BIM Marketing Lead --></errorMessage>
+        <name>Enter_BIM_Marketing_Lead_for_contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is Required field. --></errorMessage>
+        <name>FirstName_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When a Merge or to be discussed is selected force Merge Notes to be populated. --></errorMessage>
+        <name>Merge_Requests</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You DO NOT have privilege to modify this Contact record. Please contact your Administrator for further details. --></errorMessage>
+        <name>PSG_ALTS_Contacts</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- EditInExcel --></label>
+        <name>Apttus_XApps__EditInExcel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Inquisium_Survey --></label>
+        <name>INQ__Send_Inquisium_Survey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_detail --></label>
+        <name>MC4SF__MailChimp_Subscriptions_detail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions_list --></label>
+        <name>MC4SF__MailChimp_Subscriptions_list</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Lead --></label>
+        <name>New_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Opportunity_Contact --></label>
+        <name>New_Opportunity_Contact</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PFG_All_Investor_Conference_Invitees --></label>
+        <name>PFG_All_Investor_Conference_Invitees</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PFG_My_Investor_Conference_Invitees --></label>
+        <name>PFG_My_Investor_Conference_Invitees</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export_vCard_in_PDF --></label>
+        <name>SmartvCard__Export_vCard_in_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateCSV --></label>
+        <name>SmartvCard__GenerateCSV</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_vCard --></label>
+        <name>SmartvCard__Generate_vCard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_vCard_3_0 --></label>
+        <name>SmartvCard__Generate_vCard_3_0</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_vCards --></label>
+        <name>SmartvCard__Generate_vCards</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_EchoSign --></label>
+        <name>echosign_dev1__Send_to_EchoSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_SMS --></label>
+        <name>et4ae5__Send_ExactTarget_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks>
+</CustomObjectTranslation>

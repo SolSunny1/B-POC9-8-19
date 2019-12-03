@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SS: created to link manager and candidate and career history</description>
+    <externalId>false</externalId>
+    <label>Manager</label>
+    <referenceTo>Candidates__c</referenceTo>
+    <relationshipLabel>Candidates (Manager)</relationshipLabel>
+    <relationshipName>ManagerCandidates</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

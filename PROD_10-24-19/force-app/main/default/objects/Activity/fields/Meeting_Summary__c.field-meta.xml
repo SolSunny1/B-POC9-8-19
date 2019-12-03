@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Summary__c</fullName>
+    <description>Brief summary of the meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Brief summary of the meeting only 255 characters.</inlineHelpText>
+    <label>Summary Notes</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,202 @@
+<apex:page id="pgeId" standardController="campaign" extensions="UpdateMembers" tabstyle="campaign" title="{!campaign.Name}">  
+  <apex:outputpanel >
+        <apex:actionstatus id="actStatusId">
+            <apex:facet name="start">
+                <div class="waitingSearchDiv" id="el_loading" style="background-color: #DCD6D6;
+                       height: 100%;opacity:0.65;width:100%;"> 
+                    <div class="waitingHolder" style="top: 74.2px; width: 91px;">
+                        <img class="waitingImage" src="/img/loading.gif" title="Please Wait..." />
+                        <span class="waitingDescription">Please Wait...</span>
+                    </div>
+                </div>
+            </apex:facet>
+        </apex:actionstatus>
+    </apex:outputpanel>
+  <apex:form id="frm">
+ 
+  <apex:sectionHeader subtitle="{!campaign.Name}"/>
+  <div class="ptBreadcrumb">&nbsp;&nbsp;&nbsp;<a href="/{!campaign.Id}">Back to Campaign: {!campaign.Name}</a></div><br></br>
+    <apex:pageBlock title="Campaign Members Update" id="pgeBlock">
+   <script type="text/javascript">
+    function replaceEnter(evt){
+      var e = evt || window.event;
+      if (e.keyCode == 13 && e.target.id.indexOf("sthi")==-1){
+        var allElements = document.getElementsByTagName('*');
+        for (var i = 0; i < allElements.length; i++){
+          if (allElements[i].id.indexOf("idGo") !=-1){
+            allElements[i].click();
+          }
+        }
+        return false;
+      }else{
+        return true;
+      }
+    }
+    document.onkeypress = replaceEnter;
+   
+       function updateField() {
+        
+           if(document.getElementById('pgeId:frm:pgeBlock:idPsection2:idisStatusUpdate').checked || document.getElementById('pgeId:frm:pgeBlock:idPsection2:idisBidProbabilityUpdate').checked || document.getElementById('pgeId:frm:pgeBlock:idPsection2:idisDateCASignedUpdate').checked || document.getElementById('pgeId:frm:pgeBlock:idPsection2:idisDateCIMSentUpdate').checked)
+           {
+            
+           }else
+           {
+             alert('Use checkbox to update the field');
+             return false;
+           } 
+           
+      }
+   
+        function confirmDisbaled(value) {
+        for(var i = 0;document.getElementById('pgeId:frm:pgeBlock:idsMemberTable:tableId:'+i+':cCheckId')!=null;i++)
+            document.getElementById('pgeId:frm:pgeBlock:idsMemberTable:tableId:'+i+':cCheckId').checked = value; 
+            aDeselectItem(value);
+      }
+</script>
+
+      <apex:pageBlockButtons >
+                    
+            <apex:actionFunction name="aDeselectItem" action="{!doDeselectItem}" rerender="idsMemberTable" status="actStatusId" >
+            <apex:param name="contextItem" value="" assignTo="{!contextItem}"/>
+        </apex:actionFunction>
+          <apex:commandButton action="{!updateMassCampaignMembers}" value="Save" status="actStatusId" />
+        <apex:commandButton action="{!cancel}" value="Cancel"/>
+      </apex:pageBlockButtons>
+      <apex:pageMessages />
+<apex:pageBlockSection title="Search Campaign Members" columns="2"  id="idPsection1">
+             <apex:outputText value="Search by Account(s) or contact(s), separate multiples by comma"/>
+             <apex:inputText value="{!strName}"/>
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Covering_Professional__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objSearchCampMember.Covering_Professional__c}"/>
+            </apex:pageBlockSectionItem>
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Status.label}"/>
+             <apex:pageBlockSectionItem >
+      <apex:selectList multiselect="false" size="1" value="{!objSearchCampMember.status}">
+                <apex:selectOptions value="{!CampaignMemberStatus}"/>
+             </apex:selectList>
+             </apex:pageBlockSectionItem>
+             <!--apex:pageBlockSectionItem --><!--apex:inputField value="{!objSearchCampMember.Status}"/--><!--/apex:pageBlockSectionItem-->
+             <apex:commandButton id="idGo" action="{!searchbyName}"  value="Go" rerender="idsMemberTable"  status="actStatusId" />
+            
+</apex:pageBlockSection>
+<apex:pageBlockSection title="Fields to update" columns="3" id="idPsection2">
+ <apex:outputText value="{!$ObjectType.CampaignMember.fields.Status.label}"/>
+ <apex:pageBlockSectionItem >
+      <apex:selectList multiselect="false" size="1" value="{!objCampMember.status}">
+                <apex:selectOptions value="{!CampaignMemberStatus}"/>
+            </apex:selectList>
+             </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isStatusUpdate}" id="idisStatusUpdate"/>
+            <apex:outputText value="{!$ObjectType.CampaignMember.fields.Bid_Probability__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Bid_Probability__c}"/>
+             </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isBidProbabilityUpdate}" id="idisBidProbabilityUpdate" />
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Date_CA_Signed__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Date_CA_Signed__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isDateCASignedUpdate}" id="idisDateCASignedUpdate"  />
+            
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Date_CIM_Sent__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Date_CIM_Sent__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isDateCIMSentUpdate}" id="idisDateCIMSentUpdate"/>
+            
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Covering_Professional__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Covering_Professional__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isCoveringProfessional}" id="idisCoveringProfessional"/>
+            
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Date_Presentation_Completed__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Date_Presentation_Completed__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isDatePresentationCompleted}" id="idisDatePresentationCompleted"/>
+            
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Data_Room_Access_Granted__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Data_Room_Access_Granted__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isDataRoomAccessGranted}" id="idisDataRoomAccessGranted"/>
+            
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Site_Tour__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Site_Tour__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isSiteTour}" id="idisSiteTour"/>
+            
+             <apex:outputText value="{!$ObjectType.CampaignMember.fields.Date_Flyer_Sent__c.label}"/>
+             <apex:pageBlockSectionItem >
+            <apex:inputField value="{!objCampMember.Date_Flyer_Sent__c}"/>
+            </apex:pageBlockSectionItem>
+            <apex:inputCheckbox value="{!isDateFlyerSent}" id="idisDateFlyerSent"/>
+            
+            <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+            <apex:commandbutton value="Update"  action="{!updateTable}" rerender="idsMemberTable" status="actStatusId"></apex:commandbutton>
+      </apex:pageBlockSection>
+      <apex:pageBlockSection title="Campaign members - page #{!pageNo}" columns="1" id="idsMemberTable">
+       <apex:panelGrid columns="2">
+        <apex:outputText style="font-weight: bold" value="Records :"/>
+        <apex:outputText style="font-weight: bold" value="{!recordDetails} of {!totalCount}"/>
+        </apex:panelGrid>
+         <apex:pageMessages />
+        
+          <apex:pageBlockTable value="{!lstCampaignMembers}" var="c" id="tableId">
+       
+                <apex:column >
+                     <apex:facet name="header">
+                    <apex:inputCheckBox value="{!allCheckboxes}"  onchange="confirmDisbaled(this.checked)"  id="chkId">
+                    
+                  </apex:inputCheckBox>
+                </apex:facet>
+                    <apex:inputCheckbox value="{!c.isCheck}"  id="cCheckId"/>
+                </apex:column> 
+                
+                <apex:column headerValue="Company"><apex:outputField value="{!c.objCampaignMember.contact.AccountId}"/></apex:column>
+                <apex:column headerValue="Name">
+                    <a href="{!URLFOR('/' + c.objCampaignMember.Id)}" id="lookup{!c.objCampaignMember.contact.id}opp4" onblur="LookupHoverDetail.getHover('lookup{!c.objCampaignMember.contact.id}opp4').hide();" onfocus="LookupHoverDetail.getHover('lookup{!c.objCampaignMember.contact.id}opp4', '/{!c.objCampaignMember.contact.id}/m?retURL=/{!c.objCampaignMember.contact.id}&isAjaxRequest=1').show();" onmouseout="LookupHoverDetail.getHover('lookup{!c.objCampaignMember.contact.id}opp4').hide();" onmouseover="LookupHoverDetail.getHover('lookup{!c.objCampaignMember.contact.id}opp4', '/{!c.objCampaignMember.contact.id}/m?retURL=/{!c.objCampaignMember.contact.id}&isAjaxRequest=1').show();">
+                        {!c.objCampaignMember.contact.Name}
+                    </a>
+                 </apex:column>
+                
+                <apex:column headerValue="Primary" rendered="{!state='bfin2'}"><apex:inputField value="{!c.objCampaignMember.Primary_Contact_for_Offering__c}"/></apex:column>
+                
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Covering_Professional__c.label}"><apex:inputField value="{!c.objCampaignMember.Covering_Professional__c}"/></apex:column>
+
+              <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Status.label}">
+              <apex:selectList value="{!c.objCampaignMember.Status}" multiselect="false" size="1">
+                <apex:selectOptions value="{!CampaignMemberStatus}"/>
+            </apex:selectList></apex:column>
+            
+            <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Status_Highlights__c.label}" rendered="{!state='bfin2'}"><apex:inputField id="sthi" value="{!c.objCampaignMember.Status_Highlights__c}" style="width:100%; height: 20px; min-width: 200px"/></apex:column>
+                                                
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Bid_Probability__c.label}" rendered="{!state='bfin2'}"><apex:inputField value="{!c.objCampaignMember.Bid_Probability__c}"/></apex:column>
+                
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Date_CA_Signed__c.label}" rendered="{!state='bfin1'}"><apex:inputField value="{!c.objCampaignMember.Date_CA_Signed__c}"/></apex:column>
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Date_CIM_Sent__c.label}" rendered="{!state='bfin1'}"><apex:inputField value="{!c.objCampaignMember.Date_CIM_Sent__c}"/></apex:column>
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Data_Room_Access_Granted__c.label}" rendered="{!state='bfin1'}"><apex:inputField value="{!c.objCampaignMember.Data_Room_Access_Granted__c}"/></apex:column>
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Date_Presentation_Completed__c.label}" rendered="{!state='bfin1'}"><apex:inputField value="{!c.objCampaignMember.Date_Presentation_Completed__c}"/></apex:column>
+                <apex:column headerValue="{!$ObjectType.CampaignMember.fields.Site_Tour__c.label}" rendered="{!state='bfin1'}"><apex:inputField value="{!c.objCampaignMember.Site_Tour__c}"/></apex:column>
+                <!--apex:column headerValue="{!$ObjectType.CampaignMember.fields.Date_Flyer_Sent__c.label}" rendered="{!state='bfin1'}"><apex:inputField value="{!c.objCampaignMember.Date_Flyer_Sent__c}"/--><!--/apex:column-->
+                
+        </apex:pageBlockTable>
+        <apex:panelGrid columns="4">
+    <apex:commandbutton action="{!first}" disabled="{!firstDisable}" value="First" status="actStatusId" rerender="idsMemberTable"></apex:commandbutton>
+    <apex:commandbutton action="{!previous}" value="Previous" disabled="{!PreviousDisable}" status="actStatusId" rerender="idsMemberTable"></apex:commandbutton>
+    <apex:commandbutton action="{!next}" value="Next" disabled="{!nextDisable}" status="actStatusId" rerender="idsMemberTable"></apex:commandbutton>
+    <apex:commandbutton action="{!last}" value="Last" disabled="{!lastDisable}" status="actStatusId" rerender="idsMemberTable"></apex:commandbutton>
+
+    </apex:panelGrid>
+    
+      </apex:pageBlockSection>
+      
+    </apex:pageBlock>
+
+    
+
+  </apex:form>
+</apex:page>

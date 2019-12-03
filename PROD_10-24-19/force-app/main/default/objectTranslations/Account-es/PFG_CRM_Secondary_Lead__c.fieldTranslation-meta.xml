@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Secondary Lead or in the case of split coverage, this would indicate Private Equity/Credit coverage. --></help>
+    <label><!-- Secondary --></label>
+    <name>PFG_CRM_Secondary_Lead__c</name>
+    <relationshipLabel><!-- Accounts (Secondary) --></relationshipLabel>
+</CustomFieldTranslation>

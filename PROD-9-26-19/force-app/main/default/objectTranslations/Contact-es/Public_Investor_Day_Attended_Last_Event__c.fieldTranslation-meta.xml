@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field was previously called Attended Last Event-Public Investor Day. --></help>
+    <label><!-- IR Day 2018 Status --></label>
+    <name>Public_Investor_Day_Attended_Last_Event__c</name>
+    <picklistValues>
+        <masterLabel>Accepted</masterLabel>
+        <translation><!-- Accepted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined</masterLabel>
+        <translation><!-- Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No -  2017</masterLabel>
+        <translation><!-- No -  2017 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No -  2018</masterLabel>
+        <translation><!-- No -  2018 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No -  2019</masterLabel>
+        <translation><!-- No -  2019 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No - 2015</masterLabel>
+        <translation><!-- No - 2015 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No - 2016</masterLabel>
+        <translation><!-- No - 2016 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Response</masterLabel>
+        <translation><!-- No Response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Show</masterLabel>
+        <translation><!-- No Show --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Walk-in</masterLabel>
+        <translation><!-- Walk-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - 2015</masterLabel>
+        <translation><!-- Yes - 2015 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - 2016</masterLabel>
+        <translation><!-- Yes - 2016 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - 2017</masterLabel>
+        <translation><!-- Yes - 2017 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - 2018</masterLabel>
+        <translation><!-- Yes - 2018 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes - 2019</masterLabel>
+        <translation><!-- Yes - 2019 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

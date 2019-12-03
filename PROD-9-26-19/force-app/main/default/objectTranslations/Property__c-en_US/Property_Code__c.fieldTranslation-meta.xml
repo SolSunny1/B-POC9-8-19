@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the external system (e.g. Yardi) ID --></help>
+    <label><!-- Property Code --></label>
+    <name>Property_Code__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IRDP_Tracker</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Alias__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>IRDP__c</columns>
+    <columns>PFG_CRM_Primary_Lead__c</columns>
+    <columns>BIM_Primary_Mktg_Rep__c</columns>
+    <columns>BIM_Funds_Invested_In__c</columns>
+    <columns>Under_Consideration__c</columns>
+    <columns>Private_Funds_Invested_in__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IRDP__c</field>
+        <operation>equals</operation>
+        <value>1,2</value>
+    </filters>
+    <filters>
+        <field>PSG_Alts_Accounts__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>IRDP Tracker</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Exec</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Platforms</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support_Team</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Team</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>MakeLeaseStateCurrent</fullName>
+        <description>Update Lease State field to Current</description>
+        <field>Lease_State__c</field>
+        <literalValue>Current</literalValue>
+        <name>MakeLeaseStateCurrent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MakeLeaseStateFuture</fullName>
+        <description>Update Lease State to Future</description>
+        <field>Lease_State__c</field>
+        <literalValue>Future</literalValue>
+        <name>MakeLeaseStateFuture</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MakeLeaseStatePast</fullName>
+        <description>Update Lease State to Past</description>
+        <field>Lease_State__c</field>
+        <literalValue>Past</literalValue>
+        <name>MakeLeaseStatePast</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Property_Relation_Details</fullName>
+        <field>Property_Relation_Details__c</field>
+        <formula>Account__r.Name + &#39; &#39; +  Property__r.Name</formula>
+        <name>Populate Property Relation Details</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Property_Relation_Unset_Prpty_Reltn_Name</fullName>
+        <description>Unset Update Property Relation Name Checkbox</description>
+        <field>Update_Property_Name__c</field>
+        <literalValue>0</literalValue>
+        <name>Property Relation Unset Prpty Reltn Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Property_Relation_Update_Name</fullName>
+        <field>Name</field>
+        <formula>Property__r.Name &amp; &quot;-&quot; &amp;  Account__r.Name</formula>
+        <name>Property Relation Update Name (Account)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Property_Relation_Update_Name_Contact</fullName>
+        <field>Name</field>
+        <formula>Contact__r.FirstName &amp; &quot; &quot; &amp; Contact__r.LastName  &amp; &quot;-&quot; &amp;  Account__r.Name</formula>
+        <name>Property Relation Update Name (Contact)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Populate Property Relation Details</fullName>
+        <actions>
+            <name>Populate_Property_Relation_Details</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Property_Relation__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Account Relation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Property_Relation__c.Lease_State__c</field>
+            <operation>equals</operation>
+            <value>Current,Future</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Property_Relation__c.SubType__c</field>
+            <operation>equals</operation>
+            <value>Tenant</value>
+        </criteriaItems>
+        <description>This workflow updates Property Relation Details field with &quot;Account Name&quot; + &quot;Property Name&quot;.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Property Relation Update Name %28Account Relation%29</fullName>
+        <actions>
+            <name>Property_Relation_Unset_Prpty_Reltn_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Property_Relation_Update_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the Property Relation Name with &quot;Property-Account&quot;</description>
+        <formula>AND (    RecordType.Name = &quot;Account Relation&quot;,   OR (     ISNEW(),     ISCHANGED( Account__c ),     ISCHANGED( Property__c ),     Update_Property_Name__c = True   ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Property Relation Update Name %28Contact Relation%29</fullName>
+        <actions>
+            <name>Property_Relation_Unset_Prpty_Reltn_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Property_Relation_Update_Name_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the Property Relation Name with &quot;Contact Name-Account&quot;</description>
+        <formula>AND (    RecordType.Name = &quot;Contact Relation&quot;,   OR (     ISNEW(),     ISCHANGED(  Contact__c  ),     ISCHANGED( Property__c ),     Update_Property_Name__c = True   ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PropertyRelationCurrent</fullName>
+        <actions>
+            <name>MakeLeaseStateCurrent</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2) AND (3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>Property_Relation__c.Start_Date__c</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Property_Relation__c.Start_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Property_Relation__c.End_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Property_Relation__c.End_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>This workflow updates the Lease State Field to Current based on Lease Start and End Dates.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PropertyRelationEndDateInFuture</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Property_Relation__c.End_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <description>This workflow updates Lease State field to Past after the End Date.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>MakeLeaseStatePast</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Property_Relation__c.End_Date__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>PropertyRelationEndDateInPast</fullName>
+        <actions>
+            <name>MakeLeaseStatePast</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Lease State Based on Lease End Date.</description>
+        <formula>AND(ISCHANGED(End_Date__c), End_Date__c &lt; TODAY())</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PropertyRelationStartDayInFuture</fullName>
+        <actions>
+            <name>MakeLeaseStateFuture</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Property_Relation__c.Start_Date__c</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <description>This workflows updates Lease State to Future or Current based on Lease Start and End Dates.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>MakeLeaseStateCurrent</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Property_Relation__c.Start_Date__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

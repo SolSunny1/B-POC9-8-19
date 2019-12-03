@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EU_Coverage_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Merge_Delete_Note__c</columns>
+    <columns>Account_Classification__c</columns>
+    <columns>Last_Activity_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Classification__c</field>
+        <operation>includes</operation>
+        <value>BFIN EU Tier 1,BFIN EU Tier 2,BFIN EU Tier 3</value>
+    </filters>
+    <filters>
+        <field>PSG_Alts_Accounts__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>EU Coverage Accounts</label>
+    <sharedTo>
+        <group>BFIN_Canadian_Coverage</group>
+        <role>C_Suite</role>
+    </sharedTo>
+</ListView>

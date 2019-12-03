@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_Region__c</fullName>
+    <defaultValue>$Profile.Id</defaultValue>
+    <description>This field is used for BRP sharing rules.and reporting filters to separate BRP business regions and data access.</description>
+    <externalId>false</externalId>
+    <label>BRP Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BRP_USA</fullName>
+                <default>true</default>
+                <label>BRP USA</label>
+            </value>
+            <value>
+                <fullName>New England</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New England</label>
+            </value>
+            <value>
+                <fullName>PJM and West</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PJM and West</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

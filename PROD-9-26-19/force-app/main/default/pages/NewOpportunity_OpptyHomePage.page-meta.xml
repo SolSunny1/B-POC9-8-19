@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>35.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Default Close Date value when &quot;New&quot; button is clicked on Oppty. Home Page</description>
+    <label>NewOpportunity_OpptyHomePage</label>
+</ApexPage>

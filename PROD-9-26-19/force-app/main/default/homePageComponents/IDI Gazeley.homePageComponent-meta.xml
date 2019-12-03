@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>Property_Enquiries_by_Key_Accounts</links>
+    <links>Property_Enquiries_by_Accounts</links>
+    <links>Property_Enquiries_by_Region_Property</links>
+    <links>Property_Enquiries_Report_by_Account_SFDC</links>
+    <links>Property_Enquiries_Report_by_Property_SFDC</links>
+    <links>IDIG_Most_Recent_Activity</links>
+    <links>IDIG_Activities_Last_30_Days</links>
+    <links>IDIG_No_Activities_Last_30_Days</links>
+    <links>Stakeholders_by_Property_Relation</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

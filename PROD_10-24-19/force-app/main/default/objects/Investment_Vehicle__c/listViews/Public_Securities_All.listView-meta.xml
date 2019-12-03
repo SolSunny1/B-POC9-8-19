@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Securities_All</fullName>
+    <columns>RECORDTYPE</columns>
+    <columns>Close_Year__c</columns>
+    <columns>NAME</columns>
+    <columns>Long_Name__c</columns>
+    <columns>Contributions_USD__c</columns>
+    <columns>BIM_Strategy__c</columns>
+    <columns>Vehicle_Type__c</columns>
+    <columns>Platform__c</columns>
+    <columns>Market_Value_AUM_Quarter__c</columns>
+    <columns>Management_Fee_Annualized_BIM__c</columns>
+    <columns>Estimated_Annualized_Fee__c</columns>
+    <columns>Number_of_Institutional_Investors__c</columns>
+    <columns>Seed_Capital__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investment_Vehicle__c.Public_Securities,Investment_Vehicle__c.Credit_Opportunities</value>
+    </filters>
+    <label>Public Securities - All</label>
+</ListView>

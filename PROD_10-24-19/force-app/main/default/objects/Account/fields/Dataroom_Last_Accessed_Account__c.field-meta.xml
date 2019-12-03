@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dataroom_Last_Accessed_Account__c</fullName>
+    <description>Rolled up max date from opportunities</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rolled up max date from opportunities</inlineHelpText>
+    <label>Dataroom Last Accessed (Account)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

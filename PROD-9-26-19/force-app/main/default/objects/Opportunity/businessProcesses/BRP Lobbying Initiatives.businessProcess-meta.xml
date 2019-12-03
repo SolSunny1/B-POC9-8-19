@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP Lobbying Initiatives</fullName>
+    <description>Brookfield Renewable Energy Partners</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Identified as Priority</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initiated Contact</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Meeting Held</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Position Recieved</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

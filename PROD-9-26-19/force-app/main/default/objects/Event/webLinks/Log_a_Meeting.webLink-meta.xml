@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_a_Meeting</fullName>
+    <availability>online</availability>
+    <description>Create a meeting for an Opportunity</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Log a Meeting</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/00U/e?Subject=&quot;Meeting&quot;&amp;what_id={!Opportunity.Id}</url>
+</WebLink>

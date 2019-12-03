@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total_Contributions__c  - Total_Redemptions__c --></help>
+    <label><!-- YTD Net Commitments --></label>
+    <name>Committed_Capital__c</name>
+</CustomFieldTranslation>

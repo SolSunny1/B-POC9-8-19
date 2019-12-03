@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product Type --></label>
+    <name>Product_Type__c</name>
+    <picklistValues>
+        <masterLabel>Block</masterLabel>
+        <translation><!-- Block --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed Shape</masterLabel>
+        <translation><!-- Fixed Shape --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full requirements</masterLabel>
+        <translation><!-- Full requirements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load Following Energy</masterLabel>
+        <translation><!-- Load Following Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Options</masterLabel>
+        <translation><!-- Options --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unit Contingent</masterLabel>
+        <translation><!-- Unit Contingent --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

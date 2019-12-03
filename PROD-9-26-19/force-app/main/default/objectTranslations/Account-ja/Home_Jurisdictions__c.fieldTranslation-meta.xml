@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Home Jurisdictions --></label>
+    <name>Home_Jurisdictions__c</name>
+    <picklistValues>
+        <masterLabel>Asia</masterLabel>
+        <translation><!-- Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Australia</masterLabel>
+        <translation><!-- Australia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brazil</masterLabel>
+        <translation><!-- Brazil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada</masterLabel>
+        <translation><!-- Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Europe</masterLabel>
+        <translation><!-- Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>India</masterLabel>
+        <translation><!-- India --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japan</masterLabel>
+        <translation><!-- Japan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LATAM</masterLabel>
+        <translation><!-- LATAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Middle East</masterLabel>
+        <translation><!-- Middle East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Singapore</masterLabel>
+        <translation><!-- Singapore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spain</masterLabel>
+        <translation><!-- Spain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UK</masterLabel>
+        <translation><!-- UK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US</masterLabel>
+        <translation><!-- US --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

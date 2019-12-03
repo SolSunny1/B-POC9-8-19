@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Co_Investment_Fields</fullName>
+    <active>true</active>
+    <errorConditionFormula>INCLUDES(PFG_General_Investing_Interest__c, &quot;Co-Investments&quot;) &amp;&amp; Contains($UserRole.Name, &quot;PFG&quot;)&amp;&amp;  
+(ISBLANK( Business_Group__c) ||
+(includes( Business_Group__c, &quot;Real Estate&quot;) &amp;&amp; ISBLANK( Sector__c)) ||  
+ISBLANK( Co_Investment_Geography__c) ||   
+ISBLANK( TEXT(Bite_Size__c)) ||  
+ISBLANK( TEXT(Decision_Making__c))||
+ISBLANK( Business_Group__c ))</errorConditionFormula>
+    <errorDisplayField>PFG_General_Investing_Interest__c</errorDisplayField>
+    <errorMessage>When Co-investment is selected Business Group, Real Estate Sector (if Real Estate is selected), Strategy, Co-investment Geography, Bite Size and Decision Making fields need to be filled in.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_to_ID__c</fullName>
+    <description>to monitor what an activity is tracked against</description>
+    <externalId>false</externalId>
+    <formula>WhatId</formula>
+    <inlineHelpText>to monitor what an activity is tracked against</inlineHelpText>
+    <label>Related to ID</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

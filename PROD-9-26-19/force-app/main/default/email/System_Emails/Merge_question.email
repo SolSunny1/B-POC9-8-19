@@ -1,0 +1,10 @@
+Hello, 
+<br>
+I’d like to merge the following record https://na57.salesforce.com/{!Account.Id}{!Contact.Id}  . {!Contact.Merge_Delete_Note__c}{!Account.Status_Notes__c}{!Account.Merge_Delete_Note__c}. <br>
+<br>
+
+Please confirm that this record can be merged with the others indicated and advise on which record should be the master. Additionally, please provide specific instructions for any fields relevant to your group where there is a discrepancy across records.
+ <br>
+<br>
+Thanks, <br>
+{!Contact.LastModifiedBy}{!Account.LastModifiedBy}

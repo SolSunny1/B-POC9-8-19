@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>DST_Account_Billing_City</fullName>
+        <field>BillingCity</field>
+        <formula>SalesConnect__City__c</formula>
+        <name>DST Account Billing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Account_Billing_State</fullName>
+        <field>BillingState</field>
+        <formula>SalesConnect__State__c</formula>
+        <name>DST Account Billing State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Account_Billing_Street</fullName>
+        <field>BillingStreet</field>
+        <formula>SalesConnect__Street__c</formula>
+        <name>DST Account Billing Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Account_CRD</fullName>
+        <description>Update the custom account CRD field with the DST CRD</description>
+        <field>CRD_Number__c</field>
+        <formula>SalesConnect__CRD_Number__c</formula>
+        <name>DST Account CRD</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Account_Phone</fullName>
+        <description>Update the native account phone field with the DST phone</description>
+        <field>Phone</field>
+        <formula>SalesConnect__Phone__c</formula>
+        <name>DST Account Phone</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DTS_Account_Billing_Zip</fullName>
+        <field>BillingPostalCode</field>
+        <formula>SalesConnect__Zip_Code__c</formula>
+        <name>DTS Account Billing Zip</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Relationship_Status_Updated</fullName>
+        <field>Relationship_Status_Updated__c</field>
+        <formula>TODAY ()</formula>
+        <name>Relationship Status Updated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_In_Person_Meetings_Year</fullName>
+        <field>In_Person_Meetings_Year__c</field>
+        <formula>Case( Text( Tier__c), 
+&#39;A&#39;, $Setup.Service_Level_Defaults__c.Tier_A_In_Person_Meetings_Year__c , 
+&#39;B&#39;, $Setup.Service_Level_Defaults__c.Tier_B_In_Person_Meetings_Year__c , 
+&#39;C&#39;, $Setup.Service_Level_Defaults__c.Tier_C_In_Person_Meetings_Year__c , 
+&#39;D&#39;, $Setup.Service_Level_Defaults__c.Tier_D_In_Person_Meetings_Year__c , 
+&#39;E&#39;, $Setup.Service_Level_Defaults__c.Tier_E_In_Person_Meetings_Year__c , 
+$Setup.Service_Level_Defaults__c.Tier_E_In_Person_Meetings_Year__c)</formula>
+        <name>Set In-Person Meetings/Year</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Relationship_Calls_per_Year</fullName>
+        <field>Relationship_Calls_Year__c</field>
+        <formula>Case( Text( Tier__c), 
+&#39;A&#39;, $Setup.Service_Level_Defaults__c.Tier_A_Relationship_Calls_Year__c , 
+&#39;B&#39;, $Setup.Service_Level_Defaults__c.Tier_B_Relationship_Calls_Year__c , 
+&#39;C&#39;, $Setup.Service_Level_Defaults__c.Tier_C_Relationship_Calls_Year__c , 
+&#39;D&#39;, $Setup.Service_Level_Defaults__c.Tier_D_Relationship_Calls_Year__c , 
+&#39;E&#39;, $Setup.Service_Level_Defaults__c.Tier_E_Relationship_Calls_Year__c , 
+$Setup.Service_Level_Defaults__c.Tier_E_Relationship_Calls_Year__c)</formula>
+        <name>Set Relationship Calls per Year</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Account_RT_to_firm</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>SalesConnect__SalesConnect_Firm</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Update Account RT to firm</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_account_rt_to_office</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>SalesConnect__SalesConnect_Office</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>update account rt to office</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>DST Overlay - Address</fullName>
+        <actions>
+            <name>DST_Account_Billing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Account_Billing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Account_Billing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DTS_Account_Billing_Zip</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR  (  AND  (  ISNEW(),  ISBLANK(SalesConnect__CRD_Number__c) = FALSE  ),  AND  (  OR  (  ISCHANGED(SalesConnect__Street__c),  ISCHANGED(SalesConnect__City__c ),  ISCHANGED(SalesConnect__State__c),  ISCHANGED(SalesConnect__Zip_Code__c)  ),  AND  (  ISBLANK (SalesConnect__Street__c) = False,  ISBLANK(SalesConnect__City__c) = False,  ISBLANK(SalesConnect__State__c) = False,  ISBLANK(SalesConnect__Zip_Code__c) = False  )  )  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DST Overlay - CRD</fullName>
+        <actions>
+            <name>DST_Account_CRD</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR(AND(ISNEW(), ISBLANK(SalesConnect__CRD_Number__c) = FALSE), AND( ISCHANGED( SalesConnect__CRD_Number__c ),  ISBLANK( SalesConnect__CRD_Number__c) = FALSE))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DST Overlay - Phone</fullName>
+        <actions>
+            <name>DST_Account_Phone</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR( AND(ISNEW(), ISBLANK(SalesConnect__CRD_Number__c) = FALSE), AND( ISCHANGED( SalesConnect__Phone__c ) , ( ISBLANK ( SalesConnect__Phone__c) = False)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Data Migration Account Update</fullName>
+        <actions>
+            <name>DST_Account_Billing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Account_Billing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Account_Billing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Account_CRD</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Account_Phone</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DTS_Account_Billing_Zip</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>1 time update of account records</description>
+        <formula>1=1</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Account RT to firm</fullName>
+        <actions>
+            <name>Update_Account_RT_to_firm</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.SalesConnect__SalesConnect_Record_Type__c</field>
+            <operation>equals</operation>
+            <value>SalesConnect Firm</value>
+        </criteriaItems>
+        <description>update the account record type based on information in theSalesConnect record type field</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Account RT to office</fullName>
+        <actions>
+            <name>update_account_rt_to_office</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.SalesConnect__SalesConnect_Record_Type__c</field>
+            <operation>equals</operation>
+            <value>SalesConnect Office</value>
+        </criteriaItems>
+        <description>Update account record type based on Salesconnect Record Type field</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update the Communication Tempo When Tier Is Changed</fullName>
+        <actions>
+            <name>Set_In_Person_Meetings_Year</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Relationship_Calls_per_Year</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(Tier__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update when the Relationship Status is Changed</fullName>
+        <actions>
+            <name>Relationship_Status_Updated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Time stamps the &quot;Relationship Status Updated&quot; field with the current time any time the Relationship Status field is changed</description>
+        <formula>ISCHANGED( Relationship_Status__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

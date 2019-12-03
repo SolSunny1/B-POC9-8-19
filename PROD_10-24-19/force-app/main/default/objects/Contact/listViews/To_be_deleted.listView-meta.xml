@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_be_deleted</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Merge_Delete_Note__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Image__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Merge_Delete_Note__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>equals</operation>
+        <value>To Be Confirmed,To Be Deleted,To Be Merged</value>
+    </filters>
+    <label>To be deactivated</label>
+    <sharedTo>
+        <group>Sys_Admin_Support</group>
+    </sharedTo>
+</ListView>

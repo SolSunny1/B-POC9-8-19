@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Funds_Marketing</fullName>
+    <columns>Sponsors__c</columns>
+    <columns>NAME</columns>
+    <columns>Vehicle_Type__c</columns>
+    <columns>In_Marketing__c</columns>
+    <columns>Status__c</columns>
+    <columns>Platform__c</columns>
+    <columns>Fund_Launch_Date__c</columns>
+    <columns>Vintage_Year__c</columns>
+    <columns>Initial_Closing_Date__c</columns>
+    <columns>External_Target_Capital__c</columns>
+    <columns>Internal_Capital__c</columns>
+    <columns>Total_Target_Capital__c</columns>
+    <columns>Historical_Commitment_US__c</columns>
+    <columns>Number_of_Current_Investments__c</columns>
+    <columns>Number_of_Current_Investors__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>contains</operation>
+        <value>Pre-Marketing,Marketing,Product Development</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investment_Vehicle__c.Fund_Internal</value>
+    </filters>
+    <filters>
+        <field>Vehicle_Type__c</field>
+        <operation>notEqual</operation>
+        <value>General Overview</value>
+    </filters>
+    <label>Private Funds - Marketing</label>
+</ListView>

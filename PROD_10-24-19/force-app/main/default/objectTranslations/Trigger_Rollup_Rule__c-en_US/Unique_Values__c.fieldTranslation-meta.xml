@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Should values be added once? Only applies to delimited list type rollups. --></help>
+    <label><!-- Unique Values --></label>
+    <name>Unique_Values__c</name>
+</CustomFieldTranslation>

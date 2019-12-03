@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Legal Entity --></label>
+    <name>Legal_Entity__c</name>
+    <picklistValues>
+        <masterLabel>BFREG LP</masterLabel>
+        <translation><!-- BFREG LP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFREG NY</masterLabel>
+        <translation><!-- BFREG NY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFREGG</masterLabel>
+        <translation><!-- BFREGG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFREL</masterLabel>
+        <translation><!-- BFREL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFS LP</masterLabel>
+        <translation><!-- BFS LP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFS US</masterLabel>
+        <translation><!-- BFS US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPAL</masterLabel>
+        <translation><!-- BPAL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

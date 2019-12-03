@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Workflow field that copies from the Formula so that the text can be searchable. --></help>
+    <label><!-- Alias Text --></label>
+    <name>Alias_Text__c</name>
+</CustomFieldTranslation>

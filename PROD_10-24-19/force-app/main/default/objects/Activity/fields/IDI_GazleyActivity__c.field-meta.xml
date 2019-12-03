@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDI_GazleyActivity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This will tell us whether the activity is created by IDI Gazley User or Not</description>
+    <externalId>false</externalId>
+    <label>IDI Gazeley Activity</label>
+    <type>Checkbox</type>
+</CustomField>

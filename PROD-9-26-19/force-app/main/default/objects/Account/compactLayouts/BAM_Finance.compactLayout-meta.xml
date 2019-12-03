@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAM_Finance</fullName>
+    <fields>Name</fields>
+    <fields>BAM_Finance__c</fields>
+    <fields>Phone</fields>
+    <fields>Industry</fields>
+    <fields>Type</fields>
+    <fields>Jurisdiction__c</fields>
+    <fields>OwnerId</fields>
+    <fields>CreatedById</fields>
+    <fields>Mailing_Address__c</fields>
+    <fields>LastModifiedById</fields>
+    <label>BAM General</label>
+</CompactLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Mapped from MMD --></help>
+    <label><!-- Investment types for new mgrs --></label>
+    <name>Investment_types_for_new_mgrs__c</name>
+</CustomFieldTranslation>

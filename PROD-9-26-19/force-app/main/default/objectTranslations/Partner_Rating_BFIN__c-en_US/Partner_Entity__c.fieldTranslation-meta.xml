@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Partner Entity --></label>
+    <name>Partner_Entity__c</name>
+    <picklistValues>
+        <masterLabel>Design Firm</masterLabel>
+        <translation><!-- Design Firm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EPC Contractor</masterLabel>
+        <translation><!-- EPC Contractor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Engineering Firm</masterLabel>
+        <translation><!-- Engineering Firm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equipment Supplier</masterLabel>
+        <translation><!-- Equipment Supplier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equity Investor</masterLabel>
+        <translation><!-- Equity Investor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facilities Maintenance Provider</masterLabel>
+        <translation><!-- Facilities Maintenance Provider --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial Advisor</masterLabel>
+        <translation><!-- Financial Advisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Advisor</masterLabel>
+        <translation><!-- Insurance Advisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Advisor</masterLabel>
+        <translation><!-- Legal Advisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lender</masterLabel>
+        <translation><!-- Lender --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Model Auditor</masterLabel>
+        <translation><!-- Model Auditor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Advisor</masterLabel>
+        <translation><!-- Technical Advisor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

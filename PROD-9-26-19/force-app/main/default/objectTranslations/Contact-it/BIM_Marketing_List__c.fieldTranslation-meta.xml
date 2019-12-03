@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PSG Marketing List --></label>
+    <name>BIM_Marketing_List__c</name>
+    <picklistValues>
+        <masterLabel>Equities</masterLabel>
+        <translation><!-- Equities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed Income</masterLabel>
+        <translation><!-- Fixed Income --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hedge Funds</masterLabel>
+        <translation><!-- Hedge Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holiday Card</masterLabel>
+        <translation><!-- Holiday Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Assets</masterLabel>
+        <translation><!-- Real Assets --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

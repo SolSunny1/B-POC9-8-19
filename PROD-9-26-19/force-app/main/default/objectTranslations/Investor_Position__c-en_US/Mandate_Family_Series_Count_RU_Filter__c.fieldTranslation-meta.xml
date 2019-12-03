@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Mandate_Family_Series_Count_RU_Filter --></label>
+    <name>Mandate_Family_Series_Count_RU_Filter__c</name>
+</CustomFieldTranslation>

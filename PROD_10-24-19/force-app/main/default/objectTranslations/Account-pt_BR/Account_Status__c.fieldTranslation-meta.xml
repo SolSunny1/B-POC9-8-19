@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If &quot;To Be Deleted&quot; is selected, all related Activities, Contacts, etc. will also be deleted.  If &quot;To Be Merged&quot; is selected, Activities, Contacts, etc. will reside under the merged Account. --></help>
+    <label><!-- Status --></label>
+    <name>Account_Status__c</name>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation><!-- Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inactive</masterLabel>
+        <translation><!-- Inactive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out of Business</masterLabel>
+        <translation><!-- Out of Business --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>To Be Merged</masterLabel>
+        <translation><!-- To Be Merged --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>To be discussed</masterLabel>
+        <translation><!-- To be discussed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

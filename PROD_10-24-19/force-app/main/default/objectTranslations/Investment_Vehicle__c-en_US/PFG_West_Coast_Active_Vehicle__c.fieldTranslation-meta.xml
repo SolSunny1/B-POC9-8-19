@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- New field for tracking active vehicles for west coast reporting --></help>
+    <label><!-- PFG West Coast Active Vehicle --></label>
+    <name>PFG_West_Coast_Active_Vehicle__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Has_Consultant_Research_Req</fullName>
+    <active>true</active>
+    <description>When a CRM moves the Stage of an Opportunity to Approved, Has Consultant can not be = to &quot;Research Required&quot;.   - Added during Consultant Project by Cloud Theory.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Has_Consultant__c ,&quot;Research Required&quot;),ISPICKVAL(StageName,&quot;7: Approved&quot;), RecordType.DeveloperName =&quot;PFG&quot;)</errorConditionFormula>
+    <errorDisplayField>Has_Consultant__c</errorDisplayField>
+    <errorMessage>You must set the Has Consultant? field to either &quot;Yes&quot; or &quot;No&quot; to save the record.</errorMessage>
+</ValidationRule>

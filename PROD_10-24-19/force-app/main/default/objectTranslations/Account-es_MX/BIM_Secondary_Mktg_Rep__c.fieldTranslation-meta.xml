@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PSG Secondary Mktg Rep --></label>
+    <name>BIM_Secondary_Mktg_Rep__c</name>
+    <relationshipLabel><!-- Accounts (PSG Secondary Mktg Rep) --></relationshipLabel>
+</CustomFieldTranslation>

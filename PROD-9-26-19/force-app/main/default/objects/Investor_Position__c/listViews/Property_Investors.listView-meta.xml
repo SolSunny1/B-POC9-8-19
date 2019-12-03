@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Investors</fullName>
+    <columns>NAME</columns>
+    <columns>Legal_Name__c</columns>
+    <columns>Alias__c</columns>
+    <columns>Current_Commitments_USD__c</columns>
+    <columns>Country_Region__c</columns>
+    <columns>Available_for_Drawdown_USD_After_Sub__c</columns>
+    <columns>Available_for_Drawdown_USD_Before_Sub__c</columns>
+    <columns>Available_for_Drawdown_Subfacility_Amt__c</columns>
+    <columns>As_of__c</columns>
+    <columns>Re_up_investor_same_platform__c</columns>
+    <columns>Re_up_investor_same_series__c</columns>
+    <columns>Historical_Commitment_US__c</columns>
+    <columns>Parent_Account_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investor_Position__c.Fund_Internal</value>
+    </filters>
+    <filters>
+        <field>Platform__c</field>
+        <operation>equals</operation>
+        <value>Property</value>
+    </filters>
+    <filters>
+        <field>As_of_Last_quater_text__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <label>Property Investors</label>
+    <sharedTo>
+        <group>Investment_Vehicles_Managers</group>
+        <roleAndSubordinates>BAM</roleAndSubordinates>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

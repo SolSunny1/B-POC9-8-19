@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the fund meetings that the contact will attend.  Request PFG Admin to add a new value. --></help>
+    <label><!-- Fund Meetings-Private Investor Day --></label>
+    <name>Private_Investor_Day_Fund_Meetings__c</name>
+    <picklistValues>
+        <masterLabel>AF II</masterLabel>
+        <translation><!-- AF II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP III</masterLabel>
+        <translation><!-- BCP III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP III LPAC</masterLabel>
+        <translation><!-- BCP III LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP IV</masterLabel>
+        <translation><!-- BCP IV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP IV LPAC</masterLabel>
+        <translation><!-- BCP IV LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP V</masterLabel>
+        <translation><!-- BCP V --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP V LPAC</masterLabel>
+        <translation><!-- BCP V LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BID (EURO)</masterLabel>
+        <translation><!-- BID (EURO) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BID (EURO) LPAC</masterLabel>
+        <translation><!-- BID (EURO) LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BID (USD)</masterLabel>
+        <translation><!-- BID (USD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BID (USD) LPAC</masterLabel>
+        <translation><!-- BID (USD) LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF I</masterLabel>
+        <translation><!-- BIF I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF I LPAC</masterLabel>
+        <translation><!-- BIF I LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF II</masterLabel>
+        <translation><!-- BIF II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF II LPAC</masterLabel>
+        <translation><!-- BIF II LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF III</masterLabel>
+        <translation><!-- BIF III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF III LPAC</masterLabel>
+        <translation><!-- BIF III LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF IV</masterLabel>
+        <translation><!-- BIF IV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF IV LPAC</masterLabel>
+        <translation><!-- BIF IV LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPREP</masterLabel>
+        <translation><!-- BPREP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPREP Au</masterLabel>
+        <translation><!-- BPREP Au --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPREP Au LPAC</masterLabel>
+        <translation><!-- BPREP Au LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPREP LPAC</masterLabel>
+        <translation><!-- BPREP LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BREF V</masterLabel>
+        <translation><!-- BREF V --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BREF V LPAC</masterLabel>
+        <translation><!-- BREF V LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSIP</masterLabel>
+        <translation><!-- BSIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSIP LPAC</masterLabel>
+        <translation><!-- BSIP LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREF</masterLabel>
+        <translation><!-- BSREF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREF LPAC</masterLabel>
+        <translation><!-- BSREF LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP I</masterLabel>
+        <translation><!-- BSREP I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP I LPAC</masterLabel>
+        <translation><!-- BSREP I LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP II</masterLabel>
+        <translation><!-- BSREP II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP II LPAC</masterLabel>
+        <translation><!-- BSREP II LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP III</masterLabel>
+        <translation><!-- BSREP III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP III LPAC</masterLabel>
+        <translation><!-- BSREP III LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thayer V</masterLabel>
+        <translation><!-- Thayer V --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thayer VI</masterLabel>
+        <translation><!-- Thayer VI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAMF II</masterLabel>
+        <translation><!-- VAMF II --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAMF II LPAC</masterLabel>
+        <translation><!-- VAMF II LPAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAMF III</masterLabel>
+        <translation><!-- VAMF III --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VAMF III LPAC</masterLabel>
+        <translation><!-- VAMF III LPAC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

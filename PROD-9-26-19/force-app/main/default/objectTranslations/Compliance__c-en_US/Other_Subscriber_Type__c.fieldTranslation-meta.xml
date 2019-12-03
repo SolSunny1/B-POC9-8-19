@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Populate when Other is selected in the Subscriber Type field. --></help>
+    <label><!-- Other Subscriber Type --></label>
+    <name>Other_Subscriber_Type__c</name>
+</CustomFieldTranslation>

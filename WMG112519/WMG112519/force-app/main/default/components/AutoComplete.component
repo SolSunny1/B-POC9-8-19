@@ -1,0 +1,76 @@
+<apex:component controller="AutocompleteController">
+
+
+<apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"/>
+<apex:includeScript value="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"/>
+<apex:stylesheet value="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"/>
+
+<style>
+.autoCompleteBoxScrolling {display:none !important;}
+.ui-autocomplete{font-size:12px;}
+
+</style>
+
+<apex:attribute name="objectname" description="The object name you want to search in." type="String" required="true"/>
+<apex:attribute name="input_id" description="The ID for the Autocomplete List Textbox." type="String" required="true"/>
+<apex:attribute name="numberOfResultsToDisplay" description="The number of results to return for the autocomplete." type="String" default="10" />
+<apex:attribute name="wildcardBefore" description="If set to true it will look for the sequence throughout the name, if set to false it will only display results that start with the sequence" type="String" default="true"/>
+<apex:attribute name="filterField" description="The filter to apply to search" type="String" required="false" />
+<apex:attribute name="filterValue" description="The filter to apply to search" type="String" required="false" />
+
+<script type="text/javascript">
+var $auc = jQuery.noConflict();
+
+
+$auc(document).ready(function() {
+
+    AutoCompleteInputElement = function(){};
+    $auc(escape_colon('{!input_id}')).attr('onchange','');
+    
+    var objectname;
+    var input_id;
+    var numberOfResultsToDisplay;
+    var wildcardBefore;
+    
+    $auc(escape_colon('{!input_id}')).autocomplete({
+        minLength: 1,
+        source: function(request, response) {
+            queryTerm = request.term;
+            AutocompleteController.searchObject("{!objectname}", request.term, "{!numberOfResultsToDisplay}", "{!wildcardBefore}", "{!filterField}","{!filterValue}",  function(result, event){
+                if(event.type == 'exception') {
+                    alert(event.message);
+                } else {
+                    sObjects = result;
+                    response(sObjects);
+            }
+        });
+    },
+        focus: function( event, ui ) {
+            $auc(escape_colon('{!input_id}')).val( ui.item.Name );
+            return false;
+        },
+        select: function( event, ui ) {
+            $auc(escape_colon('{!input_id}')).val( ui.item.Name );
+            $auc(escape_colon('{!input_id}_lkid')).val( ui.item.Id );
+            $auc(escape_colon('{!input_id}_lkold')).val( ui.item.Name );
+            $auc(escape_colon('{!input_id}_mod')).val( '1' );
+            return false;
+        }
+    })
+    .data( "uiAutocomplete" )._renderItem = function( ul, item ) {
+        var entry = "<a>" + item.Name.replace( new RegExp( "(" + queryTerm + ")" , 'gi' ), '<b>$1</b>' );
+        entry = entry + "</a>";
+
+        return $auc( "<li></li>" )
+        .data( "item.autocomplete", item )
+        .append( entry )
+        .appendTo( ul );
+    };
+});
+
+function escape_colon(salesforceId) {
+return '#' + salesforceId.replace(/:/g,'\\:');
+}
+
+</script>
+</apex:component>

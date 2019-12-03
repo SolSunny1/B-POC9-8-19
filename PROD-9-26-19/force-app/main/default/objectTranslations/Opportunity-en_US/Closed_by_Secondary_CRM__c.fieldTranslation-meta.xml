@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- to track the secondary CRM that closed the commitment --></help>
+    <label><!-- Closed by Secondary CRM --></label>
+    <name>Closed_by_Secondary_CRM__c</name>
+</CustomFieldTranslation>

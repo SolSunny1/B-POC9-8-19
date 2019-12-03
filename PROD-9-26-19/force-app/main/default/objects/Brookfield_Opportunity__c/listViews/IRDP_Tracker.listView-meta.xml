@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IRDP_Tracker</fullName>
+    <columns>Opportunity__c</columns>
+    <columns>Account__c</columns>
+    <columns>Brookfield_Owner__c</columns>
+    <columns>Last_Opportunity_Update__c</columns>
+    <columns>Stage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fund_Deal__c</field>
+        <operation>equals</operation>
+        <value>IRDP</value>
+    </filters>
+    <label>IRDP Tracker</label>
+    <sharedTo>
+        <group>Brookfield_Executive</group>
+    </sharedTo>
+</ListView>

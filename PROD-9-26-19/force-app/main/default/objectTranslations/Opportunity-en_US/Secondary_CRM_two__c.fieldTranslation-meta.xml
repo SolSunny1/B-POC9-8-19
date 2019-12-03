@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Product Specialist assisting with the fund (Formerly Secondary CRM 2) --></help>
+    <label><!-- Product Specialist --></label>
+    <name>Secondary_CRM_two__c</name>
+    <relationshipLabel><!-- Opportunities (Product Specialist) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FHR_Investment_Period_Invested__c</fullName>
+    <description>FHR - Investment Period - Invested</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fund Headline Rate based on amount actually invested.
+
+Fund Headline Rate is the actual advertised rate for the particular fund before discounts and incentives.</inlineHelpText>
+    <label>FHR - Inv Period - Invested</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

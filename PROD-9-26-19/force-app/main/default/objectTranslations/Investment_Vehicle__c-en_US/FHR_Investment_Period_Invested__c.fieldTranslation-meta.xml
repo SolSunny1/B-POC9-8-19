@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Fund Headline Rate based on amount actually invested.
+
+Fund Headline Rate is the actual advertised rate for the particular fund before discounts and incentives. --></help>
+    <label><!-- FHR - Inv Period - Invested --></label>
+    <name>FHR_Investment_Period_Invested__c</name>
+</CustomFieldTranslation>

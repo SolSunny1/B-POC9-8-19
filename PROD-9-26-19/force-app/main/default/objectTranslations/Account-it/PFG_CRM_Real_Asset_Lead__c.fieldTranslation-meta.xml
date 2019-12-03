@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- In the case of split coverage, this would indicate Real Asset (except Real Estate) coverage. --></help>
+    <label><!-- Real Asset/Infra Lead --></label>
+    <name>PFG_CRM_Real_Asset_Lead__c</name>
+    <relationshipLabel><!-- Accounts (Real Asset/Infra Lead) --></relationshipLabel>
+</CustomFieldTranslation>

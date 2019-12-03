@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_CRM_two__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Product Specialist assisting with the fund (Formerly Secondary CRM 2)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product Specialist assisting with the fund (Formerly Secondary CRM 2)</inlineHelpText>
+    <label>Product Specialist</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Opportunities3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

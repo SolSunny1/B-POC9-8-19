@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BLP_IsMyAccount__c</fullName>
+    <externalId>false</externalId>
+    <formula>BLP_Owner__r.Id =  $User.Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BLP_IsMyAccount</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

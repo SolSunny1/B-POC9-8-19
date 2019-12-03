@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Other_Activity_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>jaro.harvan.bfin@gmail.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Other Activity Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Change owner to SFUpdater</fullName>
+        <actions>
+            <name>Other_Activity_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Brookfield_Activity__c.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>00540000002nvoGAAQ</value>
+        </criteriaItems>
+        <description>Change the owner to  salesforce auto updater to follow sharing rules</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Case Added</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>New Case Added to the Queue</name>
+    <style>freeForm</style>
+    <subject>New Case Added the Queue</subject>
+    <textOnly>Hello,
+
+There has been new Case added to Salesforce. Click the link below to go directly to the Case.
+
+Case Number: {!Case.CaseNumber}
+Case Subject: {!Case.Subject}
+Opportunity: {!Case.Opportunity__c}
+Primary CRM: {!Case.User__c}
+Case Type: {!Case.Type}
+Case Due Date: {!Case.Anticipated_Completion_Date__c}
+Case Description: {!Case.Description}
+
+Case Link: {!Case.Link}
+
+Thanks,
+
+Salesforce Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

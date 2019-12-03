@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Full fail</masterLabel>
+        <translation><!-- Full fail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parent</masterLabel>
+        <translation><!-- Parent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partial Fail</masterLabel>
+        <translation><!-- Partial Fail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prep for promotion</masterLabel>
+        <translation><!-- Prep for promotion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promoted</masterLabel>
+        <translation><!-- Promoted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requirements Gathering</masterLabel>
+        <translation><!-- Requirements Gathering --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

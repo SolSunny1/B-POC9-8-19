@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCP_Priority_Program</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>PFG_CRM_Primary_Lead__c</columns>
+    <columns>PFG_CRM_Secondary_Lead__c</columns>
+    <columns>SMP_Primary__c</columns>
+    <columns>BCP_Relationship_Importance__c</columns>
+    <columns>BCP_Relationship_Notes__c</columns>
+    <columns>Investor__c</columns>
+    <columns>Private_Funds_Invested_in__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BCP_Relationship_Importance__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>PSG_Alts_Accounts__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>BCP Priority Program</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Exec</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Platforms</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support_Team</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Team</roleAndSubordinates>
+    </sharedTo>
+</ListView>

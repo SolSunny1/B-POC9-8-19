@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_KYCs</fullName>
+    <columns>NAME</columns>
+    <columns>Prospect_Name__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Date_of_first_contact_has_past_30_days__c</columns>
+    <columns>Date_of_Last_Activity__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Compliance__c.BIM</value>
+    </filters>
+    <filters>
+        <field>Prospect_Name__c</field>
+        <operation>notEqual</operation>
+        <value>Test</value>
+    </filters>
+    <label>PSG KYCs</label>
+    <sharedTo>
+        <role>BIM</role>
+        <role>BIM_Exec</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG</fullName>
+    <active>true</active>
+    <description>PSG Campaigns</description>
+    <label>PSG</label>
+    <picklistValues>
+        <picklist>Bid_Probability__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CIM_Delivered_Via__c</picklist>
+        <values>
+            <fullName>Courier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VDR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fund_Meetings_Private_Investor_Day__c</picklist>
+        <values>
+            <fullName>AF II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCP III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCP III LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCP IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCP IV LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCP V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCP V LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BID %28EURO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BID %28USD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BID %28USD%29 LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIF I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIF I LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIF II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIF II LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIF III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIF III LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BPREP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BPREP Au</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BPREP LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BREF V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BREF V LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREF LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREP I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREP I LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREP II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREP II LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREP III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSREP III LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thayer V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thayer VI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAMF II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAMF II LPAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAMF III</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Potential_Size_of_Commitment__c</picklist>
+        <values>
+            <fullName>%24250MM - %24500MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24500MM - %241%2C000MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2450MM - %24250MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3C%3D %2450MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3E%3D %241%2C000MM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier__c</picklist>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>et4ae5__Activity__c</picklist>
+        <values>
+            <fullName>Clicked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard Bounce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Bounce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsubscribed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

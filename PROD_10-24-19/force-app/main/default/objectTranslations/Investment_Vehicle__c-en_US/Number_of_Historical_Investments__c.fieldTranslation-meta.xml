@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up of 3rd Party Investor Position records representing the total number of commitments made in this fund including wound down and sold off commitments. --></help>
+    <label><!-- Number of Historical Commitments --></label>
+    <name>Number_of_Historical_Investments__c</name>
+</CustomFieldTranslation>

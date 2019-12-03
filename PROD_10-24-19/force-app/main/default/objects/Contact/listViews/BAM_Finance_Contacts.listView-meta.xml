@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAM_Finance_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PARENT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>Business_Phone__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Secondary_Email__c</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>Real_Estate__c</columns>
+    <columns>CONTACT.DO_NOT_CALL</columns>
+    <columns>BAM_Primary_Contact__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BAM_Finance__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>BAM Finance  Contacts</label>
+    <sharedTo>
+        <roleAndSubordinates>BAM_Finance</roleAndSubordinates>
+    </sharedTo>
+</ListView>

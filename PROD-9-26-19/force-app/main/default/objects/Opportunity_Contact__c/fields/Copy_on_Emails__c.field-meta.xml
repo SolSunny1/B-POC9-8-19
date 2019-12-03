@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_on_Emails__c</fullName>
+    <description>When sending emails, is this contact in the To or CC field?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When sending emails, is this contact in the To or CC field?  Also helps determine the Primary contact name for written communication.</inlineHelpText>
+    <label>Copy on Emails</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>To</fullName>
+                <default>false</default>
+                <label>To</label>
+            </value>
+            <value>
+                <fullName>CC</fullName>
+                <default>false</default>
+                <label>CC</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

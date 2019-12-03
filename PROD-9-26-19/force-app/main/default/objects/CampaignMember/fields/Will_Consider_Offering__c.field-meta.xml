@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Will_Consider_Offering__c</fullName>
+    <description>“Will Consider Offering:”, Is formula Sum Total of “Interest Level”=High? According to this report, yes, although I believe this is pretty specific to this report. “Interest Level” is same as  “Bid_Probability__c”</description>
+    <externalId>false</externalId>
+    <formula>IF(  ISPICKVAL(Bid_Probability__c, &quot;High&quot;) ,1,0)</formula>
+    <inlineHelpText>For reporting checks if the Bid_Probability = High</inlineHelpText>
+    <label>Will Consider Offering</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

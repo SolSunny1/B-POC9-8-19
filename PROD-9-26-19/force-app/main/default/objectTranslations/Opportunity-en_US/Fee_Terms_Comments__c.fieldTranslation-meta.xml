@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Placeholder for comments as it relates to investor side letter information and other special circumstances. --></help>
+    <label><!-- Fee Terms Comments --></label>
+    <name>Fee_Terms_Comments__c</name>
+</CustomFieldTranslation>

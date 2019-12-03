@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Expense Type --></label>
+    <name>Expense_Type__c</name>
+    <picklistValues>
+        <masterLabel>Administrative</masterLabel>
+        <translation><!-- Administrative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legislative</masterLabel>
+        <translation><!-- Legislative --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

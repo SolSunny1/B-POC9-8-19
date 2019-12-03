@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIM_Relationship_Importance__c</fullName>
+    <externalId>false</externalId>
+    <label>PSG Relationship Importance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 - Not Currently Investing</fullName>
+                <default>false</default>
+                <label>0 - Not Currently Investing</label>
+            </value>
+            <value>
+                <fullName>1 - Strategic</fullName>
+                <default>false</default>
+                <label>1 - Strategic</label>
+            </value>
+            <value>
+                <fullName>2 - High</fullName>
+                <default>false</default>
+                <label>2 - High</label>
+            </value>
+            <value>
+                <fullName>3 - Neutral</fullName>
+                <default>false</default>
+                <label>3 - Neutral</label>
+            </value>
+            <value>
+                <fullName>4 - Low</fullName>
+                <default>false</default>
+                <label>4 - Low</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

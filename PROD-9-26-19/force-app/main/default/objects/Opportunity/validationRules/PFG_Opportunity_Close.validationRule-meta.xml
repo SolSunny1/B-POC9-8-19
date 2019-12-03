@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Opportunity_Close</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR( 
+ISPICKVAL(StageName, &#39;8: Closed&#39;), 
+ISPICKVAL(PRIORVALUE(StageName),&quot;8: Closed&quot;)), 
+
+
+$Profile.Name &lt;&gt; &#39;System Administrator&#39;, 
+$Profile.Name &lt;&gt; &#39;System Administrator_PFG&#39;, 
+OR(ISCHANGED(AccountId), 
+ISCHANGED(CloseDate), 
+ISCHANGED(Estimated_Close__c), 
+ISCHANGED( OwnerId ), 
+ISCHANGED( Secondary_CRM__c ), 
+ISCHANGED( Investment_Vehicle__c ), 
+ISCHANGED( Amount ), 
+ISCHANGED(Probability_Picklist__c), 
+ISCHANGED( Classification__c), 
+ISCHANGED (Closed_by_Secondary_CRM__c), 
+ISCHANGED( Closed_by_CRM__c), 
+ISCHANGED (Closed_by_Consultant_CRM__c ), 
+ISCHANGED ( Closed_by_Consultant__c), 
+ISCHANGED( Secondary_CRM_two__c ), 
+ISCHANGED( StageName )))</errorConditionFormula>
+    <errorMessage>The opportunity is closed - the data in this record is now locked. Please contact the PFG Support Team for assistance.</errorMessage>
+</ValidationRule>

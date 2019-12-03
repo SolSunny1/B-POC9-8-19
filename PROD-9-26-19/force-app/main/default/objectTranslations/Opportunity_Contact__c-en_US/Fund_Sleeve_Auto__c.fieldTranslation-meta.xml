@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copy from Opportunity record --></help>
+    <label><!-- Fund Sleeve --></label>
+    <name>Fund_Sleeve_Auto__c</name>
+</CustomFieldTranslation>

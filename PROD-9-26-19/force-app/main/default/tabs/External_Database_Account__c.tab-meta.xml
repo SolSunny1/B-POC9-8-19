@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Direct import of data from external databases to view all prospects and related information.
+MMD and Preqin are the initial data sources.</description>
+    <motif>Custom39: Telescope</motif>
+</CustomTab>

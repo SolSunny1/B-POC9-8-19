@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>National Account Opportunity Layout</layout>
+        <sections>
+            <label><!-- CSP Information --></label>
+            <section>CSP Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- CSP Information --></label>
+            <section>CSP Information</section>
+        </sections>
+        <sections>
+            <label><!-- Seismic --></label>
+            <section>Seismic</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

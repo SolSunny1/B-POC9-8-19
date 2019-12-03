@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Mgmt_Case_Percent_No_Estimated_Fee</fullName>
+    <active>true</active>
+    <description>If BFIN Mgmt Case % is greater than 0, a BFIN Estimated Fee must be entered.</description>
+    <errorConditionFormula>AND(BFIN_Mgmt_Case__c &gt; 0,
+ISBLANK(BFIN_Estimated_Fee__c))</errorConditionFormula>
+    <errorMessage>If BFIN Mgmt Case is greater than 0, a BFIN Estimated Fee must be entered.</errorMessage>
+</ValidationRule>

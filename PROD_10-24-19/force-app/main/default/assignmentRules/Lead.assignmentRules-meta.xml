@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Renewable Hub Rules</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>BRP_NA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Region__c</field>
+                <operation>equals</operation>
+                <value>North America</value>
+            </criteriaItems>
+            <template>System_Emails/LeadsNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>BRP_EU</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Region__c</field>
+                <operation>equals</operation>
+                <value>Europe</value>
+            </criteriaItems>
+            <template>System_Emails/LeadsWebtoLeademailresponseSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>BRP_OTHER</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Region__c</field>
+                <operation>equals</operation>
+                <value>Other</value>
+            </criteriaItems>
+            <template>System_Emails/LeadsNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>BRP_OTHER</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Region__c</field>
+                <operation>equals</operation>
+                <value>Asia</value>
+            </criteriaItems>
+            <template>System_Emails/LeadsNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>BRP_OTHER</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Region__c</field>
+                <operation>equals</operation>
+                <value>South America</value>
+            </criteriaItems>
+            <template>System_Emails/LeadsNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

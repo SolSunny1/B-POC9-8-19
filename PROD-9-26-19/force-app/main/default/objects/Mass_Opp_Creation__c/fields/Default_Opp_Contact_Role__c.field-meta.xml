@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Opp_Contact_Role__c</fullName>
+    <defaultValue>&#39;Influencer&#39;</defaultValue>
+    <description>Default Opp Contact Role [BF-5]</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default Opp Contact Role</inlineHelpText>
+    <label>Default Opp Contact Role</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

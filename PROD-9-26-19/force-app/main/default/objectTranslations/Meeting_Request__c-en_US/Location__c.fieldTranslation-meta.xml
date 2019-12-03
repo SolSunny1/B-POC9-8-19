@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- the location of the meeting. Will map to the event once the date has been finalized --></help>
+    <label><!-- Location --></label>
+    <name>Location__c</name>
+    <picklistValues>
+        <masterLabel>Conference Call</masterLabel>
+        <translation><!-- Conference Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Offsite</masterLabel>
+        <translation><!-- Offsite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite: Boston</masterLabel>
+        <translation><!-- Onsite: Boston --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite: Chicago</masterLabel>
+        <translation><!-- Onsite: Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite: New York</masterLabel>
+        <translation><!-- Onsite: New York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite: Toronto</masterLabel>
+        <translation><!-- Onsite: Toronto --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

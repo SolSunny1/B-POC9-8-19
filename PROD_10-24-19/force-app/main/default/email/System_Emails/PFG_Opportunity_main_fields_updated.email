@@ -1,0 +1,13 @@
+The Opportunity {!Opportunity.Name} has been updated by
+{!User.Username}.
+
+Opportunity Owner: {!Opportunity.OwnerFullName}.
+Opportunity Amount changed to {!Opportunity.Amount}.
+Stage changed to {!Opportunity.StageName}.
+Estimated Close Date: {!Opportunity.CloseDate}.
+
+Tracker fields for reference:
+Min Amount: {!Opportunity.Min_Amount__c}
+Max Amount: {!Opportunity.Max_Amount__c}
+Priority: {!Opportunity.Priority__c}
+Anticipated Close Date: {!Opportunity.Anticipated_Close_Date_Tracker__c}

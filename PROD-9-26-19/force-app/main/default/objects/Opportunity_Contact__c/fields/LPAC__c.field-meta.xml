@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LPAC__c</fullName>
+    <description>Is the Investor a Member of the Limited Partner Advisory Committee?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is the Investor a Member of the Limited Partner Advisory Committee?</inlineHelpText>
+    <label>LPAC</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Member Primary</fullName>
+                <default>false</default>
+                <label>Member Primary</label>
+            </value>
+            <value>
+                <fullName>Member Secondary</fullName>
+                <default>false</default>
+                <label>Member Secondary</label>
+            </value>
+            <value>
+                <fullName>Observer Primary</fullName>
+                <default>false</default>
+                <label>Observer Primary</label>
+            </value>
+            <value>
+                <fullName>Observer Secondary</fullName>
+                <default>false</default>
+                <label>Observer Secondary</label>
+            </value>
+            <value>
+                <fullName>Back up</fullName>
+                <default>false</default>
+                <label>Back up</label>
+            </value>
+            <value>
+                <fullName>Requested</fullName>
+                <default>false</default>
+                <label>Requested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

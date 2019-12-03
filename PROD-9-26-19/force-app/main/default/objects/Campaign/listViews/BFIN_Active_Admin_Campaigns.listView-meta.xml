@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Active_Admin_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.LAST_UPDATE</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CAMPAIGN.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>equals</operation>
+        <value>Admin,Announcements,Event,Christmas Card,Wine List,Other</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign.BFIN_Traditional</value>
+    </filters>
+    <label>BFIN Active Admin Campaigns</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

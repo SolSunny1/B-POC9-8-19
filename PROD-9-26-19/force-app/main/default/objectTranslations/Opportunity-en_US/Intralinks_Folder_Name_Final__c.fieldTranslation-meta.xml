@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- the Final folder name as import back in from Intralinks --></help>
+    <label><!-- Intralinks Folder Name - Final --></label>
+    <name>Intralinks_Folder_Name_Final__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Asset Region --></label>
+    <name>Asset_Region__c</name>
+    <picklistValues>
+        <masterLabel>Arizona</masterLabel>
+        <translation><!-- Arizona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>California</masterLabel>
+        <translation><!-- California --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Louisiana</masterLabel>
+        <translation><!-- Louisiana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MISO</masterLabel>
+        <translation><!-- MISO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minnesota</masterLabel>
+        <translation><!-- Minnesota --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New England</masterLabel>
+        <translation><!-- New England --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New York</masterLabel>
+        <translation><!-- New York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PJM</masterLabel>
+        <translation><!-- PJM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROW</masterLabel>
+        <translation><!-- ROW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South East</masterLabel>
+        <translation><!-- South East --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

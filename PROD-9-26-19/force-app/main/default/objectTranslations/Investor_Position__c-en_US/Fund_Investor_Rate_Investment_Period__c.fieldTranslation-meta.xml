@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Fund Investor Rate based on amount committed
+
+Fund Investment Rate is the rate given to investors based on discounts, etc. Different than Fund Headline Rate --></help>
+    <label><!-- FIR - Investment Period - Committed --></label>
+    <name>Fund_Investor_Rate_Investment_Period__c</name>
+</CustomFieldTranslation>

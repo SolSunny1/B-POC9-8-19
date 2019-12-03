@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Account_Summary__c</fullName>
+    <description>Secure field only visible to BEMI</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Secure field only visible to BEMI</inlineHelpText>
+    <label>Public Account Summary</label>
+    <length>1500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

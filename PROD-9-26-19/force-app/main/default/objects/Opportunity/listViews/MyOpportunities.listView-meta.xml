@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>PPM_Last_Sent__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>Discretionary_Client__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BCP IV,BID,BIF III,BSREP II,Agriculture Fund II,VAMF III</value>
+    </filters>
+    <label>My Opportunities - Active</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

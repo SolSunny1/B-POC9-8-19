@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Opportunity_Changes</fullName>
+        <description>Opportunity Changes - Theo</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>theodore.buchsbaum@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_Opportunity_Changes</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Changes_Caroline</fullName>
+        <description>Opportunity Changes - Caroline</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>caroline.fitzpatrick@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_Opportunity_Changes</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Changes_Scott</fullName>
+        <description>Opportunity Changes - Scott</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>scott.meller@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_Opportunity_Changes</template>
+    </alerts>
+    <alerts>
+        <fullName>PFG_Opportunity_Closed_Notification</fullName>
+        <description>PFG - Opportunity Closed Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>joshy.john@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mohammad.quzmar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_Opportunity_Closed_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>PFG_Opportunity_main_fields_updated</fullName>
+        <description>PFG - Opportunity main fields updated</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>joshy.john@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mohammad.quzmar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_Opportunity_main_fields_updated</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>BAM_Finance_Oppty_name_field</fullName>
+        <field>Name</field>
+        <formula>Deals__r.Name  &amp; &quot;_&quot; &amp; Account.Name</formula>
+        <name>BAM Finance Oppty name field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BFIN_Mgmt_Case_100</fullName>
+        <field>BFIN_Mgmt_Case__c</field>
+        <formula>1</formula>
+        <name>BFIN Mgmt Case 100%</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Check_Private_Checkbox_on_Opportunity</fullName>
+        <field>Private__c</field>
+        <literalValue>1</literalValue>
+        <name>Check Private Checkbox on Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Date_Update</fullName>
+        <field>CloseDate</field>
+        <formula>TODAY()+ 365</formula>
+        <name>Close Date Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OpportunityName_PFG_BIM</fullName>
+        <field>Name</field>
+        <formula>if(and(not(isblank(Legal_Name__c)),  not(isblank(Parent_Opportunity__c ))),Left (Investment_Vehicle__r.Name &amp; &quot;-&quot;&amp; Legal_Name__c,80),Left(Investment_Vehicle__r.Name &amp;&quot; - &quot; &amp; Account.Name,80))</formula>
+        <name>OpportunityName_PFG_PSG</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Auto_Set_Probability_to_0</fullName>
+        <description>Auto set Probability to 0 % when opportunity stage is set to &quot;Firm Decline&quot;</description>
+        <field>Probability_Picklist__c</field>
+        <literalValue>0%: Declined</literalValue>
+        <name>Opportunity: Auto Set Probability to 0 %</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Auto_Set_Probability_to_100</fullName>
+        <description>Auto set Probability to 100% when opportunity is set to the &quot;8: Closed&quot; Stage.</description>
+        <field>Probability_Picklist__c</field>
+        <literalValue>100%: Committed</literalValue>
+        <name>Opportunity: Auto Set Probability to 100</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Final_Amount</fullName>
+        <field>Opportunity_Final_Amount__c</field>
+        <formula>(Investment_Vehicle__r.Name) +&quot; - &quot;+&quot;$&quot;+text(  Amount/1000000 )+&quot;M&quot;</formula>
+        <name>Opportunity Final Amount</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Research_Update_Opp_Name</fullName>
+        <field>Name</field>
+        <formula>&quot;(R)&quot;&amp; &quot; &quot;&amp;Investment_Vehicle__r.Name &amp; &quot; &quot; &amp;&quot;-&quot;&amp; &quot; &quot; &amp; Account.Name</formula>
+        <name>PFG Research: Update Opp Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Alias_Text</fullName>
+        <field>Alias_Text__c</field>
+        <formula>Account.Alias__c</formula>
+        <name>Populate Alias Text</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_LPAC_Status_Text</fullName>
+        <field>LPAC_Status_Text__c</field>
+        <formula>Investment_Vehicle__r.Name  +&quot; - &quot; +  TEXT(Proposed_LPAC_Status__c)</formula>
+        <name>Populate LPAC Status Text</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Prior_Value</fullName>
+        <field>Stage_Prior_Value__c</field>
+        <formula>text(priorvalue( StageName ))</formula>
+        <name>Stage Prior Value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Uncheck_Private_Checkbox_on_Opportunity</fullName>
+        <field>Private__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Private Checkbox on Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdatePSGResearchUniqueOppsNameDuplicate</fullName>
+        <field>Unique_Opportunity_Name__c</field>
+        <formula>if(and(not(isblank(Legal_Name__c)), not(isblank(Parent_Opportunity__c ))),
+	Left(&quot;(R): &quot; &amp; Investment_Vehicle__r.Name &amp; &quot;-&quot;&amp; Legal_Name__c,80),
+	Left(&quot;(R): &quot; &amp; Investment_Vehicle__r.Name &amp;&quot; - &quot; &amp; Account.Name,80))&amp; TEXT(Now())</formula>
+        <name>UpdatePSGResearchUniqueOppsNameDuplicate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Account_Name_on_Opportunity</fullName>
+        <field>Investor_Account_Name__c</field>
+        <formula>Account.Name</formula>
+        <name>Update Account Name on Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_BRP_Opportunity</fullName>
+        <description>To update that BRP Opportunity name with the Account name and the Asset of interest</description>
+        <field>Name</field>
+        <formula>Account.Name + &quot; - &quot;+  Brookfield_Asset_of_Interest__r.Name + &quot; - &quot; +  TEXT( CloseDate)</formula>
+        <name>Update BRP Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Closed_by_CRM</fullName>
+        <field>Closed_by_CRM__c</field>
+        <formula>Owner.FirstName + &#39; &#39; + Owner.LastName</formula>
+        <name>Update Closed by CRM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Closed_by_Consultant</fullName>
+        <field>Closed_by_Consultant__c</field>
+        <formula>Consultant__r.Name</formula>
+        <name>Update Closed by Consultant</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Closed_by_Consultant_CRM</fullName>
+        <field>Closed_by_Consultant_CRM__c</field>
+        <formula>Consultant_CRM__r.FirstName + &#39; &#39; +  Consultant_CRM__r.LastName</formula>
+        <name>Update Closed by Consultant CRM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Deal_Sheet_Comments_Date_Updated</fullName>
+        <description>Update &quot;Deal Sheet Comments Date Updated&quot; field with today&#39;s date</description>
+        <field>Deal_Sheet_Comments_Date_Updated__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Deal Sheet Comments Date Updated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Investor_Account_Name</fullName>
+        <field>Investor_Account_Name__c</field>
+        <formula>Account.Name</formula>
+        <name>Update Investor Account Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Name_wR_Vehicle_act</fullName>
+        <description>SS: created to populate opportunity name start with (R) and followed by Vehicle and Legal Name/Account name</description>
+        <field>Name</field>
+        <formula>if(and(not(isblank(Legal_Name__c)), not(isblank(Parent_Opportunity__c ))),
+	Left (&quot;(R): &quot; &amp; Investment_Vehicle__r.Name &amp; &quot;-&quot;&amp; Legal_Name__c,80),
+	Left(&quot;(R): &quot; &amp; Investment_Vehicle__r.Name &amp;&quot; - &quot; &amp; Account.Name,80))</formula>
+        <name>Update Name wR+Vehicle - act</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Opp_Highlight_Date</fullName>
+        <field>Opportunity_Highlight_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Opp Highlight Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Opportunity_Name</fullName>
+        <field>Name</field>
+        <formula>Account.Name  &amp; &quot; - &quot; &amp;  Name</formula>
+        <name>Update Opportunity Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Opportunity_Name_BRP_Lobby</fullName>
+        <field>Name</field>
+        <formula>Account.Name&amp; &quot; - &quot;&amp;  Bill_Number__c  &amp;&quot; - &quot; &amp; Jurisdiction__c</formula>
+        <name>Update Opportunity Name BRP Lobby</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Oppty_Stage_to_Invoiced</fullName>
+        <field>StageName</field>
+        <literalValue>Invoiced</literalValue>
+        <name>Update Oppty. Stage to Invoiced</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_PFG_DateFirst_investment</fullName>
+        <field>PFG_Date_First_Investment__c</field>
+        <formula>CloseDate</formula>
+        <name>Update PFG DateFirst investment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_PSG_Research_Unique_Opps_Name</fullName>
+        <description>SS: -29-19: PSG Research Opportunity unique name  for duplicate opportunity.</description>
+        <field>Unique_Opportunity_Name__c</field>
+        <formula>if(and(not(isblank(Legal_Name__c)), not(isblank(Parent_Opportunity__c ))),
+	Left (&quot;(R): &quot; &amp; Investment_Vehicle__r.Name &amp; &quot;-&quot;&amp; Legal_Name__c,80),
+	Left(&quot;(R): &quot; &amp; Investment_Vehicle__r.Name &amp;&quot; - &quot; &amp; Account.Name,80))</formula>
+        <name>Update PSG Research Unique Opps Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Source_of_Capital_to_Bam_Employee</fullName>
+        <field>Source_of_Capital__c</field>
+        <literalValue>BAM Employees</literalValue>
+        <name>Update Source of Capital to Bam Employee</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Source_of_Capital_to_Limited_Part</fullName>
+        <description>Update source of capital to limited partners when Account does not contain &quot;Brookfield</description>
+        <field>Source_of_Capital__c</field>
+        <literalValue>Limited Partners</literalValue>
+        <name>Update Source of Capital to Limited Part</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Source_of_Capital_to_Sponsors</fullName>
+        <description>Update Source of capital to &quot;Sponsors&quot; if the Account name Contains &quot;Brookfield&quot;.</description>
+        <field>Source_of_Capital__c</field>
+        <literalValue>Sponsors</literalValue>
+        <name>Update Source of Capital to Sponsors</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Unique_Name</fullName>
+        <field>Unique_Opportunity_Name__c</field>
+        <formula>if(and(not(isblank(Legal_Name__c)), not(isblank(Parent_Opportunity__c ))),Left (Investment_Vehicle__r.Name &amp; &quot;-&quot;&amp; Legal_Name__c,80),Left(Investment_Vehicle__r.Name &amp;&quot; - &quot; &amp; Account.Name,80))</formula>
+        <name>Update Unique Opportunity Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Unique_Opportunity_Name_Duplicate</fullName>
+        <field>Unique_Opportunity_Name__c</field>
+        <formula>if(and(not(isblank(Legal_Name__c)), not(isblank(Parent_Opportunity__c ))),Left (Investment_Vehicle__r.Name &amp; &quot;-&quot;&amp; Legal_Name__c,80),Left(Investment_Vehicle__r.Name &amp;&quot; - &quot; &amp; Account.Name,80))&amp; TEXT(Now())</formula>
+        <name>Update Unique Opportunity Name Duplicate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_account_country</fullName>
+        <field>Country_Text__c</field>
+        <formula>Account.BillingCountry</formula>
+        <name>Update account country</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_closed_by_secondary_crm</fullName>
+        <description>Populate the Closed by Secondary CRM</description>
+        <field>Closed_by_Secondary_CRM__c</field>
+        <formula>Secondary_CRM__r.FirstName  + &#39; &#39; +  Secondary_CRM__r.LastName</formula>
+        <name>Update closed by secondary crm</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BAM Finance Oppty name</fullName>
+        <actions>
+            <name>BAM_Finance_Oppty_name_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BAM_Finance</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Deal Sheet Comments Updated</fullName>
+        <actions>
+            <name>Update_Deal_Sheet_Comments_Date_Updated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Deal_Sheet_Comments__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Deal Sheet Comments Updated_Oppty%2E Creation</fullName>
+        <actions>
+            <name>Update_Deal_Sheet_Comments_Date_Updated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Deal_Sheet_Comments__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Default Opportunity to Private for M%26A</fullName>
+        <actions>
+            <name>Check_Private_Checkbox_on_Opportunity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Deal_Type__c</field>
+            <operation>equals</operation>
+            <value>M&amp;A</value>
+        </criteriaItems>
+        <description>Default the Opportunity to Private if M&amp;A is selected in Deal Type.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Oppty%2E Stage to Invoiced</fullName>
+        <actions>
+            <name>Update_Oppty_Stage_to_Invoiced</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Invoice_Sent__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Update Oppty. Stage to Invoiced when Invoiced Sent Date Field is entered.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN Rev Mgmt Case 100%25 Field Update</fullName>
+        <actions>
+            <name>BFIN_Mgmt_Case_100</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN General,BFIN Infrastructure</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Preferred Bidder,Firm,Invoiced,Closed - Mandate Completed,Construction,OIM/Asset Management</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Name</fullName>
+        <actions>
+            <name>Update_Investor_Account_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Opportunity_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Private__c = False &amp;&amp; 
+NOT(CONTAINS( Name ,  Account.Name )) &amp;&amp;
+NOT(CONTAINS( RecordType.Name  , &quot;BFIN&quot;)) &amp;&amp; 
+NOT(CONTAINS(  RecordType.Name  , &quot;BAM_Finance&quot;))&amp;&amp; 
+NOT(CONTAINS(  RecordType.Name  , &quot;PFG&quot;)) &amp;&amp; 
+NOT(CONTAINS(  RecordType.Name  , &quot;PSG&quot;)) &amp;&amp; 
+NOT(CONTAINS(  RecordType.Name  , &quot;Credit Opportunities&quot;))&amp;&amp;  NOT(ISPICKVAL( Deal_Type__c , &quot;M&amp;A&quot;))
+
+
+/*****original formula*****
+NOT(CONTAINS( Name ,  Account.Name )) &amp;&amp;  Private__c = False &amp;&amp; NOT(CONTAINS( RecordTypeId , &quot;BFIN&quot;)) 
+&amp;&amp; NOT(CONTAINS(  RecordType.Name  , &quot;BAM_Finance&quot;))&amp;&amp; NOT(CONTAINS(  RecordType.Name  , &quot;PFG&quot;)) &amp;&amp; NOT(CONTAINS(  RecordType.Name  , &quot;BIM&quot;)) &amp;&amp; NOT(CONTAINS(  RecordType.Name  , &quot;Credit Opportunities&quot;))&amp;&amp;  NOT(ISPICKVAL( Deal_Type__c , &quot;M&amp;A&quot;) */</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Name BRP</fullName>
+        <actions>
+            <name>Update_BRP_Opportunity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BRP Comm Dev</value>
+        </criteriaItems>
+        <description>To update the opportunity name of BRP Opportunities</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Name BRP Lobby</fullName>
+        <actions>
+            <name>Update_Opportunity_Name_BRP_Lobby</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BRP Lobby</value>
+        </criteriaItems>
+        <description>Update Opportunity name</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity%3A Update Custom Probability Field to 0%25</fullName>
+        <actions>
+            <name>Opportunity_Auto_Set_Probability_to_0</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Firm Decline</value>
+        </criteriaItems>
+        <description>Auto set Probability to 0% when opp stage is set to &quot;Firm Decline&quot;</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity%3A Update Custom Probability Field to 100%25</fullName>
+        <actions>
+            <name>Opportunity_Auto_Set_Probability_to_100</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>8: Closed</value>
+        </criteriaItems>
+        <description>Auto set Probability to 100% when opp stage is set to &quot;8: Closed&quot;</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>OpportunityName_PFG_PSG</fullName>
+        <actions>
+            <name>OpportunityName_PFG_BIM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Unique_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG,PSG Credit Opportunities</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Duplicate__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>OpportunityName_PFG_PSG_Duplicate</fullName>
+        <actions>
+            <name>OpportunityName_PFG_BIM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Unique_Opportunity_Name_Duplicate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG,PSG Credit Opportunities,PFG Credit Opportunities</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Duplicate__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>OpportunityName_PFG_Research_Opty</fullName>
+        <actions>
+            <name>PFG_Research_Update_Opp_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG Research Opportunity</value>
+        </criteriaItems>
+        <description>SS: 3-15-19 created to populate opportunity name for PFG Research Opportunity record type.  (Copy of Opportunity Name PFG PSG). Just adding &quot;(R)&quot; in front of the name.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>OpportunityName_PSG_Research_Opps_Duplicate</fullName>
+        <actions>
+            <name>UpdatePSGResearchUniqueOppsNameDuplicate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Name_wR_Vehicle_act</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG Research Opportunity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Duplicate__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>OpportunityName_PSG_Research_Opty</fullName>
+        <actions>
+            <name>Update_Name_wR_Vehicle_act</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_PSG_Research_Unique_Opps_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG Research Opportunity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Duplicate__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>SS: 3-15-19 created to populate opportunity name for PSG Research Opportunity record type.  (Copy of Opportunity Name PFG PSG). Just adding &quot;(R)&quot; in front of the name.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG - Opportunity Closed Notification</fullName>
+        <actions>
+            <name>PFG_Opportunity_Closed_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Final_Opportunity_Close__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG - Opportunity main fields updated</fullName>
+        <actions>
+            <name>PFG_Opportunity_main_fields_updated</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND( RecordType.DeveloperName=&quot;PFG&quot;,  OR( ISCHANGED( Amount ) , ISCHANGED( StageName )))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Closed by Consultant CRM</fullName>
+        <actions>
+            <name>Update_Closed_by_Consultant_CRM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>8: Closed</value>
+        </criteriaItems>
+        <description>Update &quot;Closed by Consultant CRM&quot; field for PFG Opportunities when they are closed with the value from Consultant CRM</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Closed by Secondary CRM</fullName>
+        <actions>
+            <name>Update_closed_by_secondary_crm</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>8: Closed</value>
+        </criteriaItems>
+        <description>Update &quot;Closed by Secondary CRM&quot; field for PFG Opportunities when they are closed with the value from Secondary CRM</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Populate Opportunity Alias From Account</fullName>
+        <actions>
+            <name>Populate_Alias_Text</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Alias__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Stage - Prior Value</fullName>
+        <active>true</active>
+        <formula>and(ischanged( StageName), not(isblank(text(StageName))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Update Closed by CRM</fullName>
+        <actions>
+            <name>Update_Closed_by_CRM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>8: Closed</value>
+        </criteriaItems>
+        <description>Update &quot;Closed by CRM&quot; field for PFG Opportunities after they are closed with the same value from Opportunity Owner.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Update Closed by Consultant</fullName>
+        <actions>
+            <name>Update_Closed_by_Consultant</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>8: Closed</value>
+        </criteriaItems>
+        <description>Update &quot;Closed by Consultant&quot; field for PFG Opportunities that are closed with Consultant field value.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Update Source of Capital to BAM Employees</fullName>
+        <actions>
+            <name>Update_Source_of_Capital_to_Bam_Employee</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>contains</operation>
+            <value>Employee Investments</value>
+        </criteriaItems>
+        <description>Update Source of Capital to &quot;BAM Employees&quot; on PFG Opportunity when it is created and if the Account name contains &quot;Employee Investments&quot;.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Update Source of Capital to Limited Partners</fullName>
+        <actions>
+            <name>Update_Source_of_Capital_to_Limited_Part</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>notContain</operation>
+            <value>Brookfield</value>
+        </criteriaItems>
+        <description>Update Source of Capital to &quot;Limited Partners&quot; on PFG Opportunity when it is created and if the Account name does NOT contain &quot;Brookfield&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Update Source of Capital to Sponsors</fullName>
+        <actions>
+            <name>Update_Source_of_Capital_to_Sponsors</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>contains</operation>
+            <value>Brookfield</value>
+        </criteriaItems>
+        <description>Update Source of Capital to &quot;Sponsors&quot; on PFG Opportunity when it is created and if the Account name contains &quot;Brookfield&quot;.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Account name on Opportunity</fullName>
+        <actions>
+            <name>Update_Account_Name_on_Opportunity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Legal_Name__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate LPAC Status Text</fullName>
+        <actions>
+            <name>Populate_LPAC_Status_Text</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.Probability</field>
+            <operation>greaterOrEqual</operation>
+            <value>40</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Proposed_LPAC_Status__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <description>to help with account roll up.  Combines the Investment Vehicle Name and the LPAC Status</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Opportunity Investment Summary</fullName>
+        <actions>
+            <name>Opportunity_Final_Amount</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>greaterOrEqual</operation>
+            <value>CAD 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG,PSG</value>
+        </criteriaItems>
+        <description>to help with account roll up.  Combines the Investment Vehicle Name and the Amount</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate from Account country</fullName>
+        <actions>
+            <name>Update_account_country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Country_Text__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stage - Prior Value</fullName>
+        <actions>
+            <name>Stage_Prior_Value</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>and(ischanged( StageName), not(isblank(text(StageName))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Opportunity Highlight Date</fullName>
+        <actions>
+            <name>Update_Opp_Highlight_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>If Highlight Date not entered set to today</description>
+        <formula>OR(AND(ISNEW(),NOT(ISBLANK(Opportunity_Highlights__c))),  AND(ISCHANGED(Opportunity_Highlights__c) ,NOT(ISCHANGED( Opportunity_Highlight_Date__c ))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update PFG DateFirst investment</fullName>
+        <actions>
+            <name>Update_PFG_DateFirst_investment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Classification__c</field>
+            <operation>equals</operation>
+            <value>First</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.IsWon</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Date of the first investment made with PFG</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>ZZ PFG Update Close Date</fullName>
+        <actions>
+            <name>Close_Date_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Update close date to plus one year if close date is blank or if close date is today</description>
+        <formula>NOT(Mass_Created_Opportunity__c) &amp;&amp; ( CloseDate = TODAY()  ||  ( CloseDate =  DATE(  YEAR( TODAY() ),  CASE(  MONTH( TODAY() ),  1,3,  2,3,  3,3,  4,6,  5,6,  6,6,  7,9,  8,9,  9,9,  10,12,  11,12,  12,12,  null),  CASE(  MONTH( TODAY() ),  1,31,  2,31,  3,31,  4,30,  5,30,  6,30,  7,30,  8,30,  9,30,  10,31,  11,31,  12,31,  null  )  ) ) )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

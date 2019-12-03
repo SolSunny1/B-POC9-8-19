@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Investor_Day_Fund_Meetings__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the fund meetings that the contact will attend.  Request PFG Admin to add a new value.</inlineHelpText>
+    <label>Fund Meetings-Private Investor Day</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AF II</fullName>
+                <default>false</default>
+                <label>AF II</label>
+            </value>
+            <value>
+                <fullName>BCP III</fullName>
+                <default>false</default>
+                <label>BCP III</label>
+            </value>
+            <value>
+                <fullName>BCP III LPAC</fullName>
+                <default>false</default>
+                <label>BCP III LPAC</label>
+            </value>
+            <value>
+                <fullName>BCP IV</fullName>
+                <default>false</default>
+                <label>BCP IV</label>
+            </value>
+            <value>
+                <fullName>BCP IV LPAC</fullName>
+                <default>false</default>
+                <label>BCP IV LPAC</label>
+            </value>
+            <value>
+                <fullName>BCP V</fullName>
+                <default>false</default>
+                <label>BCP V</label>
+            </value>
+            <value>
+                <fullName>BCP V LPAC</fullName>
+                <default>false</default>
+                <label>BCP V LPAC</label>
+            </value>
+            <value>
+                <fullName>BID (EURO)</fullName>
+                <default>false</default>
+                <label>BID (EURO)</label>
+            </value>
+            <value>
+                <fullName>BID (EURO) LPAC</fullName>
+                <default>false</default>
+                <label>BID (EURO) LPAC</label>
+            </value>
+            <value>
+                <fullName>BID (USD)</fullName>
+                <default>false</default>
+                <label>BID (USD)</label>
+            </value>
+            <value>
+                <fullName>BID (USD) LPAC</fullName>
+                <default>false</default>
+                <label>BID (USD) LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF I</fullName>
+                <default>false</default>
+                <label>BIF I</label>
+            </value>
+            <value>
+                <fullName>BIF II</fullName>
+                <default>false</default>
+                <label>BIF II</label>
+            </value>
+            <value>
+                <fullName>BIF III</fullName>
+                <default>false</default>
+                <label>BIF III</label>
+            </value>
+            <value>
+                <fullName>BIF III LPAC</fullName>
+                <default>false</default>
+                <label>BIF III LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF II LPAC</fullName>
+                <default>false</default>
+                <label>BIF II LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF I LPAC</fullName>
+                <default>false</default>
+                <label>BIF I LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF IV</fullName>
+                <default>false</default>
+                <label>BIF IV</label>
+            </value>
+            <value>
+                <fullName>BIF IV LPAC</fullName>
+                <default>false</default>
+                <label>BIF IV LPAC</label>
+            </value>
+            <value>
+                <fullName>BPREP</fullName>
+                <default>false</default>
+                <label>BPREP</label>
+            </value>
+            <value>
+                <fullName>BPREP Au</fullName>
+                <default>false</default>
+                <label>BPREP Au</label>
+            </value>
+            <value>
+                <fullName>BPREP Au LPAC</fullName>
+                <default>false</default>
+                <label>BPREP Au LPAC</label>
+            </value>
+            <value>
+                <fullName>BPREP LPAC</fullName>
+                <default>false</default>
+                <label>BPREP LPAC</label>
+            </value>
+            <value>
+                <fullName>BREF V</fullName>
+                <default>false</default>
+                <label>BREF V</label>
+            </value>
+            <value>
+                <fullName>BREF V LPAC</fullName>
+                <default>false</default>
+                <label>BREF V LPAC</label>
+            </value>
+            <value>
+                <fullName>BSIP</fullName>
+                <default>false</default>
+                <label>BSIP</label>
+            </value>
+            <value>
+                <fullName>BSIP LPAC</fullName>
+                <default>false</default>
+                <label>BSIP LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREF</fullName>
+                <default>false</default>
+                <label>BSREF</label>
+            </value>
+            <value>
+                <fullName>BSREF LPAC</fullName>
+                <default>false</default>
+                <label>BSREF LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP I</fullName>
+                <default>false</default>
+                <label>BSREP I</label>
+            </value>
+            <value>
+                <fullName>BSREP II</fullName>
+                <default>false</default>
+                <label>BSREP II</label>
+            </value>
+            <value>
+                <fullName>BSREP III</fullName>
+                <default>false</default>
+                <label>BSREP III</label>
+            </value>
+            <value>
+                <fullName>BSREP III LPAC</fullName>
+                <default>false</default>
+                <label>BSREP III LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP II LPAC</fullName>
+                <default>false</default>
+                <label>BSREP II LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP I LPAC</fullName>
+                <default>false</default>
+                <label>BSREP I LPAC</label>
+            </value>
+            <value>
+                <fullName>Thayer V</fullName>
+                <default>false</default>
+                <label>Thayer V</label>
+            </value>
+            <value>
+                <fullName>Thayer VI</fullName>
+                <default>false</default>
+                <label>Thayer VI</label>
+            </value>
+            <value>
+                <fullName>VAMF II</fullName>
+                <default>false</default>
+                <label>VAMF II</label>
+            </value>
+            <value>
+                <fullName>VAMF III</fullName>
+                <default>false</default>
+                <label>VAMF III</label>
+            </value>
+            <value>
+                <fullName>VAMF III LPAC</fullName>
+                <default>false</default>
+                <label>VAMF III LPAC</label>
+            </value>
+            <value>
+                <fullName>VAMF II LPAC</fullName>
+                <default>false</default>
+                <label>VAMF II LPAC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

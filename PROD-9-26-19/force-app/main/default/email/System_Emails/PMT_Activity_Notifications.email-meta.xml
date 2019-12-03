@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>PMT Activity Notifications</name>
+    <style>freeForm</style>
+    <subject>Meeting Notes Update for {!Opportunity.Name}</subject>
+    <textOnly>Meeting Date: {!Event.ActivityDate}
+Opportunity: {!Opportunity.Name}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Assigned: {!Event.Owner_Name__c}
+Contact: {!Contact.FirstName} {!Contact.LastName}
+Location: {!Event.Location}
+Subject: {!Event.Subject}
+Internal Participants: {!Event.Internal_Participants__c}
+External Participants: {!Event.Additional_Investor_Participants__c}
+
+Notes:
+{!Event.Description}
+
+Opportunity Link: {!Opportunity.Link}
+Meeting Link: {!Event.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

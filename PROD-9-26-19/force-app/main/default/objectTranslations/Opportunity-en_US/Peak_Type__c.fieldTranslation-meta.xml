@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Peak Type --></label>
+    <name>Peak_Type__c</name>
+    <picklistValues>
+        <masterLabel>2x16</masterLabel>
+        <translation><!-- 2x16 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5x16</masterLabel>
+        <translation><!-- 5x16 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7x24</masterLabel>
+        <translation><!-- 7x24 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7x8</masterLabel>
+        <translation><!-- 7x8 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

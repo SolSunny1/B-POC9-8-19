@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIF_III_Investors_Reup</fullName>
+    <columns>Parent_Opportunity_Record__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Legal_Name__c</columns>
+    <columns>Classification__c</columns>
+    <columns>OpportunityRecordIDCaseInsensitive__c</columns>
+    <columns>Fee_Terms_Comments__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Sleeve__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>Proposed_LPAC_Status__c</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BIF III</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>8</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>4/15/2016</value>
+    </filters>
+    <filters>
+        <field>Classification__c</field>
+        <operation>equals</operation>
+        <value>Re-Up Series,Re-Up Platform</value>
+    </filters>
+    <label>BIF III Investors - Reup</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

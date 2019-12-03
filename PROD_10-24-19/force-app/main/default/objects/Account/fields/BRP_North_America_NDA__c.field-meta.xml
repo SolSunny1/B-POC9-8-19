@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_North_America_NDA__c</fullName>
+    <externalId>false</externalId>
+    <formula>BRP_North_America_NDA_End__c &gt; TODAY()</formula>
+    <label>BRP North America NDA</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

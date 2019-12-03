@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject__c</fullName>
+    <description>Nature of the meeting - will eventually be mapped to the Subject line of an Event record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Nature of the meeting - will eventually be mapped to the Subject line of an Event record</inlineHelpText>
+    <label>Subject</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Due Diligence</fullName>
+                <default>false</default>
+                <label>Due Diligence</label>
+            </value>
+            <value>
+                <fullName>Performance Update</fullName>
+                <default>false</default>
+                <label>Performance Update</label>
+            </value>
+            <value>
+                <fullName>Product Pitch</fullName>
+                <default>false</default>
+                <label>Product Pitch</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

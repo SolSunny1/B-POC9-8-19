@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of the regular events that PFG hosts.  Additions should be requested to the Marketing team. --></help>
+    <label><!-- PFG Events --></label>
+    <name>PFG_Events__c</name>
+    <picklistValues>
+        <masterLabel>Australia Seminar</masterLabel>
+        <translation><!-- Australia Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copenhagen Seminar</masterLabel>
+        <translation><!-- Copenhagen Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor Conference</masterLabel>
+        <translation><!-- Investor Conference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor Day Dinner</masterLabel>
+        <translation><!-- Investor Day Dinner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA Seminar</masterLabel>
+        <translation><!-- LA Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>London Breakfast Seminar</masterLabel>
+        <translation><!-- London Breakfast Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seoul Seminar</masterLabel>
+        <translation><!-- Seoul Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation><!-- Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tokyo Seminar</masterLabel>
+        <translation><!-- Tokyo Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zurich Seminar</masterLabel>
+        <translation><!-- Zurich Seminar --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

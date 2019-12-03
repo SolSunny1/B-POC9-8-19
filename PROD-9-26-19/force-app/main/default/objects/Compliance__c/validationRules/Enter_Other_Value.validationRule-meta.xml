@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_Other_Value</fullName>
+    <active>true</active>
+    <errorConditionFormula>if(AND(ISBLANK( Other__c ),ISPICKVAL( Legal_Structure_of_Offeree__c,&quot;Other&quot;)),True,False)</errorConditionFormula>
+    <errorDisplayField>Other__c</errorDisplayField>
+    <errorMessage>Enter Value for Other</errorMessage>
+</ValidationRule>

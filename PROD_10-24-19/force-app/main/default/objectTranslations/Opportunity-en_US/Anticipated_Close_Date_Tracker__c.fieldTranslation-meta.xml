@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Standardize the dates to either be end of the month or end of the quarter.  Once the date is known, ensure this field is updated so we know when the closes are going to happen.  Eventually this should match the Estimated Close Date. --></help>
+    <label><!-- Anticipated Close Date (Tracker) --></label>
+    <name>Anticipated_Close_Date_Tracker__c</name>
+</CustomFieldTranslation>

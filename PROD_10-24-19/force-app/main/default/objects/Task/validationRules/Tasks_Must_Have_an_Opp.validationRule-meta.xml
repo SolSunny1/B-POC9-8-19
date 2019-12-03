@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tasks_Must_Have_an_Opp</fullName>
+    <active>true</active>
+    <description>Exception for Cases.</description>
+    <errorConditionFormula>AND ($Profile.Name &lt;&gt; &quot;System Administrator&quot;, 
+     CONTAINS( Owner:User.UserRole.Name, &quot;PFG&quot;), 
+     left(WhatId, 3)=&quot;001&quot;
+  )</errorConditionFormula>
+    <errorDisplayField>WhatId</errorDisplayField>
+    <errorMessage>Your Activity needs to be associated with an Opportunity or Private Activity</errorMessage>
+</ValidationRule>

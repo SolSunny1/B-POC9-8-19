@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Occupied</masterLabel>
+        <translation><!-- Occupied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Acquisition</masterLabel>
+        <translation><!-- Pre-Acquisition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Under Construction</masterLabel>
+        <translation><!-- Under Construction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vacant</masterLabel>
+        <translation><!-- Vacant --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

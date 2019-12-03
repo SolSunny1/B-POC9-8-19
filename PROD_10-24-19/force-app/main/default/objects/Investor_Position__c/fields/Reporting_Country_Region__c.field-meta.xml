@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Country_Region__c</fullName>
+    <description>Country/Region grouping for Investor Profile reporting</description>
+    <externalId>false</externalId>
+    <formula>Opportunity_Name__r.Reporting_Country_Region_Process_Builder__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Country/Region grouping for Investor Profile reporting</inlineHelpText>
+    <label>Reporting Country/Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Bob_White_Contacts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>PFG_CRM_Lead__c</columns>
+    <columns>PFG_Asset_Mix_Coverage__c</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>Private_Investor_Day_Invitee_Type__c</columns>
+    <columns>Private_Investor_Day_Fund_Meetings__c</columns>
+    <columns>PFG_Key_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>PFG - Bob White Contacts</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

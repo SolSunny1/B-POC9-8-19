@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- formula to tick box if there is data in the Date of Last Meeting with Investment Team or Number of meetings fields --></help>
+    <label><!-- PFG Meeting Held auto --></label>
+    <name>PFG_Meeting_Held_auto__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Opportunity_Record__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this is checked, this should removed from Intralinks and EFront Queries</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this is checked, this should removed from Intralinks and EFront Queries</inlineHelpText>
+    <label>Parent Opportunity Record</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

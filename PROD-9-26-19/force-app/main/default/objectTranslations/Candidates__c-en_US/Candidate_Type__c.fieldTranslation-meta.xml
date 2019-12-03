@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Candidate Type --></label>
+    <name>Candidate_Type__c</name>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal</masterLabel>
+        <translation><!-- Legal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management</masterLabel>
+        <translation><!-- Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operations</masterLabel>
+        <translation><!-- Operations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research</masterLabel>
+        <translation><!-- Research --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk</masterLabel>
+        <translation><!-- Risk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sourcer</masterLabel>
+        <translation><!-- Sourcer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trader</masterLabel>
+        <translation><!-- Trader --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Investors</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>BAM_Team_Member_Name__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>BIF_III_Investor_Number__c</columns>
+    <columns>Legal_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Employee Investments</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Employee Investors</label>
+    <sharedTo>
+        <group>Investment_Vehicles_Managers</group>
+        <group>PFG_Support_Group</group>
+    </sharedTo>
+</ListView>

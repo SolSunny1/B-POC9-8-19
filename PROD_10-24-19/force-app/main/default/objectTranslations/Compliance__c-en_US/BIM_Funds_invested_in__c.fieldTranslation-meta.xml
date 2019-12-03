@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- System will auto-populate value from corresponding account field: &quot; PSG Funds Invested In&quot; --></help>
+    <label><!-- PSG Funds invested in --></label>
+    <name>BIM_Funds_invested_in__c</name>
+</CustomFieldTranslation>

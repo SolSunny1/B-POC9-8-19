@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jurisdiction__c</fullName>
+    <externalId>false</externalId>
+    <label>Jurisdiction</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canada - ON</fullName>
+                <default>false</default>
+                <label>Canada - ON</label>
+            </value>
+            <value>
+                <fullName>Canada - QC</fullName>
+                <default>false</default>
+                <label>Canada - QC</label>
+            </value>
+            <value>
+                <fullName>Canada - BC</fullName>
+                <default>false</default>
+                <label>Canada - BC</label>
+            </value>
+            <value>
+                <fullName>Canada - Federal</fullName>
+                <default>false</default>
+                <label>Canada - Federal</label>
+            </value>
+            <value>
+                <fullName>US - CA/AZ</fullName>
+                <default>false</default>
+                <label>US - California/Arizona</label>
+            </value>
+            <value>
+                <fullName>US - CT</fullName>
+                <default>false</default>
+                <label>US - Connecticut</label>
+            </value>
+            <value>
+                <fullName>US - MA</fullName>
+                <default>false</default>
+                <label>US - Massachusetts</label>
+            </value>
+            <value>
+                <fullName>US - NY</fullName>
+                <default>false</default>
+                <label>US - New York</label>
+            </value>
+            <value>
+                <fullName>US - NE</fullName>
+                <default>false</default>
+                <label>US - New England</label>
+            </value>
+            <value>
+                <fullName>US - ME</fullName>
+                <default>false</default>
+                <label>US - Maine</label>
+            </value>
+            <value>
+                <fullName>US - Federal</fullName>
+                <default>false</default>
+                <label>US - Federal</label>
+            </value>
+            <value>
+                <fullName>ROW</fullName>
+                <default>false</default>
+                <label>ROW</label>
+            </value>
+            <value>
+                <fullName>MISO/PJM/Louisianna/TVA</fullName>
+                <default>false</default>
+                <label>MISO/PJM/Louisianna/TVA</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+                <label>Brazil</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

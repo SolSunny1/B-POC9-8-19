@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select your associated business group --></help>
+    <label><!-- Brookfield Business Group --></label>
+    <name>Brookfield_Business_Group__c</name>
+    <picklistValues>
+        <masterLabel>BAC</masterLabel>
+        <translation><!-- BAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAM</masterLabel>
+        <translation><!-- BAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAM Finance</masterLabel>
+        <translation><!-- BAM Finance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBP</masterLabel>
+        <translation><!-- BBP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBU</masterLabel>
+        <translation><!-- BBU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN</masterLabel>
+        <translation><!-- BFIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIG</masterLabel>
+        <translation><!-- BIG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPG</masterLabel>
+        <translation><!-- BPG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPO</masterLabel>
+        <translation><!-- BPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRP</masterLabel>
+        <translation><!-- BRP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BTG</masterLabel>
+        <translation><!-- BTG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance</masterLabel>
+        <translation><!-- Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IDI</masterLabel>
+        <translation><!-- IDI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IDI Gazely</masterLabel>
+        <translation><!-- IDI Gazely --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFG</masterLabel>
+        <translation><!-- PFG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSG</masterLabel>
+        <translation><!-- PSG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSG</masterLabel>
+        <translation><!-- TSG --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

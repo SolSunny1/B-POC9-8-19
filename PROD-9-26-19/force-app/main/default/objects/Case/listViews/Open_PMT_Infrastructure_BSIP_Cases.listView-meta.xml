@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_PMT_Infrastructure_BSIP_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Client__c</columns>
+    <columns>Investment_Vehicle__c</columns>
+    <columns>Next_step__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Investor_Requests</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>contains</operation>
+        <value>BSIP</value>
+    </filters>
+    <label>Open PMT Infrastructure BSIP Cases</label>
+    <sharedTo>
+        <group>BSIP_PMT</group>
+        <group>PMT_Infrastructure</group>
+        <role>PMT_Infrastructure_Team</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_Comments__c</fullName>
+    <description>Details if fee base, headline rates etc are different from the standard ones</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Details if fee base, headline rates etc are different from the standard ones</inlineHelpText>
+    <label>Fee - Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

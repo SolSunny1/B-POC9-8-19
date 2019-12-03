@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Developer notes, list of items to mode with change sets vs manual, dial in conference line.... --></help>
+    <label><!-- Promotion Details --></label>
+    <name>Promotion_Details__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_Stage_before_close__c</fullName>
+    <description>Mandatory field if the stage selected is &quot;Declined&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mandatory field if the stage selected is &quot;Declined&quot;</inlineHelpText>
+    <label>Previous Stage Before Decline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - Identified as Prospect</fullName>
+                <default>false</default>
+                <label>1 - Identified as Prospect</label>
+            </value>
+            <value>
+                <fullName>2 - Initiated General Contact</fullName>
+                <default>false</default>
+                <label>2 - Initiated General Contact</label>
+            </value>
+            <value>
+                <fullName>3 - Fund Meeting/Discussions Held</fullName>
+                <default>false</default>
+                <label>3 - Fund Meeting/Discussions Held</label>
+            </value>
+            <value>
+                <fullName>4 - In Commercial Due Diligence</fullName>
+                <default>false</default>
+                <label>4 - In Commercial Due Diligence</label>
+            </value>
+            <value>
+                <fullName>5 - Seeking IC Approval</fullName>
+                <default>false</default>
+                <label>5 - Seeking IC Approval</label>
+            </value>
+            <value>
+                <fullName>6 - In Legal Due Diligence</fullName>
+                <default>false</default>
+                <label>6 - In Legal Due Diligence</label>
+            </value>
+            <value>
+                <fullName>7 - Approved</fullName>
+                <default>false</default>
+                <label>7 - Approved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

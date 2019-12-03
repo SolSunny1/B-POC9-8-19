@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A synopsis of the nature of the relationship with the BIF Investment team. --></help>
+    <label><!-- BIF Relationship Notes --></label>
+    <name>BIF_Relationship_Notes__c</name>
+</CustomFieldTranslation>

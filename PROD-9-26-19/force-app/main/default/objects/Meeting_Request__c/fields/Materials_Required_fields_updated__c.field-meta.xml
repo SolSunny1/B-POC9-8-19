@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Materials_Required_fields_updated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>for workflow to update if materials fields have changed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>for workflow to update if materials fields have changed</inlineHelpText>
+    <label>Materials Required fields updated</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

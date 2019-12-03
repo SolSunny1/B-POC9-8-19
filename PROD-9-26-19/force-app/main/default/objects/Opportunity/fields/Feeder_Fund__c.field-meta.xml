@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feeder_Fund__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Opportunity is financed from a Feeder Fund</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Opportunity is financed from a Feeder Fund</inlineHelpText>
+    <label>Feeder Fund</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

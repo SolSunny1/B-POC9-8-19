@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIG_Tracker</fullName>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Alias__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>SMP_Primary__c</columns>
+    <columns>SMP_Secondary__c</columns>
+    <columns>Date_of_Last_Meeting_with_Investment_Tea__c</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>SIG Overview</value>
+    </filters>
+    <label>SIG Tracker</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

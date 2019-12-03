@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MyOpportunitiesWon</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>PPM_Last_Sent__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>Discretionary_Client__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PFG_My_Closed_Opportunity__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Opportunities - Won</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

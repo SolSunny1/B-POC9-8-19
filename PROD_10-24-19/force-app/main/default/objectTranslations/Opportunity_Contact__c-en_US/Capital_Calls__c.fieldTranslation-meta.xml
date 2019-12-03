@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How the Investor would like to receive Capital Call notices. --></help>
+    <label><!-- Capital Calls --></label>
+    <name>Capital_Calls__c</name>
+    <picklistValues>
+        <masterLabel>Alert</masterLabel>
+        <translation><!-- Alert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email and Alert</masterLabel>
+        <translation><!-- Email and Alert --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

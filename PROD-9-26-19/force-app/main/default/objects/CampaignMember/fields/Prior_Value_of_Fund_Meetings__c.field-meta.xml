@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_Value_of_Fund_Meetings__c</fullName>
+    <description>Prior Value of Fund Meetings-Private Investor Day Pick-list</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Prior Value of Fund Meetings-Private Investor Day Pick-list</inlineHelpText>
+    <label>Prior Value of Fund Meetings</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

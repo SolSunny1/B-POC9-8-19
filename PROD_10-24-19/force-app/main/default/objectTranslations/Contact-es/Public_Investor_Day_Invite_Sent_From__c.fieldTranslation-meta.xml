@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Invite Sent From-Public Investor Day --></label>
+    <name>Public_Investor_Day_Invite_Sent_From__c</name>
+    <relationshipLabel><!-- Contacts (Invite Sent From-Public Investor Day) --></relationshipLabel>
+</CustomFieldTranslation>

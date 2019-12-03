@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- roll up helper field counting the number of PSG Events --></help>
+    <label><!-- Number of PSG Events --></label>
+    <name>Number_of_PSG_Events__c</name>
+</CustomFieldTranslation>

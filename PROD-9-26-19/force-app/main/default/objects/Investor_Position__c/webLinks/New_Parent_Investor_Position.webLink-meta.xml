@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Parent_Investor_Position</fullName>
+    <availability>online</availability>
+    <description>Will auto populate Investment Vehicle and Investor Position Account for parent investor position record type.</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Parent Investor Position</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/a0t/e?RecordType=01233000000MIBMAA4
+&amp;Name=&quot;Parent&quot;
+&amp;00N33000003Bww2=1
+&amp;CF00N33000003BsUR={!Opportunity.Investment_Vehicle__c}
+&amp;CF00N33000003BsUR_lkid={!Opportunity.Investment_VehicleId__c}
+&amp;CF00N33000002zsZ6={!Opportunity.Account}
+&amp;CF00N33000002zsZ6_lkid={!Opportunity.AccountId}
+&amp;CF00N33000003BsZm={!Opportunity.Name}
+&amp;CF00N33000003BsZm_lkid={!Opportunity.Id}</url>
+</WebLink>

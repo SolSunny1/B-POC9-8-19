@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_Equal_Meeting_Time</fullName>
+    <active>false</active>
+    <errorConditionFormula>(Final_Date_and_Time_of_Meeting_End__c  -  Final_Date_and_Time_of_Meeting__c )*24*60 &lt;&gt; Duration_of_Meeting__c</errorConditionFormula>
+    <errorDisplayField>Duration_of_Meeting__c</errorDisplayField>
+    <errorMessage>Duration of meeting field must be equal to Meeting Start and End Time duration in minutes.</errorMessage>
+</ValidationRule>

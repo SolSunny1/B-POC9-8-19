@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Filter_Key_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Default Filter for Key Contacts, set to true to default filter to enabled [BF-5]</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default Filter for Key Contacts, set to true to default filter to enabled</inlineHelpText>
+    <label>Default Filter Key Contact</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

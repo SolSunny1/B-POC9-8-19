@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Position_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>New Investor Account record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>New Investor Account record</inlineHelpText>
+    <label>Investor Position Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Investor Positions (All)</relationshipLabel>
+    <relationshipName>Investor_Positions2</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

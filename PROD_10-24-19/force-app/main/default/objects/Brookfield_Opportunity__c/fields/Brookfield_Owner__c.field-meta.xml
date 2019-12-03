@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brookfield_Owner__c</fullName>
+    <description>to pull the owner of the Opportunity</description>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Owner.Full_name__c</formula>
+    <inlineHelpText>to pull the owner of the Opportunity</inlineHelpText>
+    <label>Brookfield Owner</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up field to list all the PSG funds --></help>
+    <label><!-- PSG Funds Invested In --></label>
+    <name>BIM_Funds_Invested_In__c</name>
+</CustomFieldTranslation>

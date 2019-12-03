@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Primary__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SS: Updated Label and created rollup helper to bring value from Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field (CRM Primary) is auto-populated from corresponding Account field: &quot;Real Estate Lead&quot;</inlineHelpText>
+    <label>Real Estate Lead</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>KYC_Forms</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

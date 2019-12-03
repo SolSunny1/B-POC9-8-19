@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Co_Investor__c</fullName>
+    <description>Pulled from the Opportunity record.</description>
+    <externalId>false</externalId>
+    <formula>Opportunity_Name__r.Priority_Co_Investor__c</formula>
+    <inlineHelpText>Pulled from the Opportunity record.  To update this field, please update the Opportunity record.</inlineHelpText>
+    <label>Priority Co-Investor</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

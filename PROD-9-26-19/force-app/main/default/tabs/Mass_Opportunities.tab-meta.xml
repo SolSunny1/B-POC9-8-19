@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Mass Opportunities Module</description>
+    <label>Mass Opportunities</label>
+    <motif>Custom16: Bank</motif>
+    <page>Mass_Opportunity_Creator</page>
+</CustomTab>

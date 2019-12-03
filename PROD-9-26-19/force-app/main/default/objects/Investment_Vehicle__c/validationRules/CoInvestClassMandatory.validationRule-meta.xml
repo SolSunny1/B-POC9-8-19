@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoInvestClassMandatory</fullName>
+    <active>false</active>
+    <description>If Co-Invest picklist value is selected in the Vehicle Type, the Co-Invest field is mandatory.</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(Vehicle_Type__c, &quot;Co-Invest&quot;)),
+ISPICKVAL (Co_Invest_Classification__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Co_Invest_Classification__c</errorDisplayField>
+    <errorMessage>Please select a value for this field as Co-Invest has been selected as a Vehicle Type.</errorMessage>
+</ValidationRule>

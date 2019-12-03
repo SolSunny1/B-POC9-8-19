@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Click this checkbox if you wish to exclude this Idea from the Ideas/Deal Leads Report --></help>
+    <label><!-- Exclude from Ideas Report --></label>
+    <name>Exclude_from_Ideas_Report__c</name>
+</CustomFieldTranslation>

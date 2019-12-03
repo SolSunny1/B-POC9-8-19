@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Sub_Products__c</fullName>
+    <description>BAM Finance</description>
+    <externalId>false</externalId>
+    <label>Active Sub-Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RE Development</fullName>
+                <default>false</default>
+                <label>RE Development</label>
+            </value>
+            <value>
+                <fullName>Multifamily</fullName>
+                <default>false</default>
+                <label>Multifamily</label>
+            </value>
+            <value>
+                <fullName>Greenfield Devt</fullName>
+                <default>false</default>
+                <label>Greenfield Devt</label>
+            </value>
+            <value>
+                <fullName>Long term fixed rate</fullName>
+                <default>false</default>
+                <label>Long term fixed rate</label>
+            </value>
+            <value>
+                <fullName>Long term swaps</fullName>
+                <default>false</default>
+                <label>Long term swaps</label>
+            </value>
+            <value>
+                <fullName>Sub-IG</fullName>
+                <default>false</default>
+                <label>Sub-IG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industrial_Buyers_List_Toronto</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Industrial Buyers List Toronto</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL_OPT_OUT</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>notEqual</operation>
+        <value>To Be Deleted,No Longer w/ Company,Retired / Inactive</value>
+    </filters>
+    <label>BFIN Industrial Buyers List Toronto</label>
+    <sharedTo>
+        <group>BFIN_Brokerage</group>
+    </sharedTo>
+</ListView>

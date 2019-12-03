@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GT_30_Days__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TODAY() - Account__r.LastActivityDate  &gt; 30, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>&gt; 30 Days</label>
+    <type>Checkbox</type>
+</CustomField>

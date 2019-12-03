@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Career History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Career History</value>
+    </caseValues>
+    <layouts>
+        <layout>Career History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- End Date cannot be before Start Date. --></errorMessage>
+        <name>EndDate_Cannot_Be_Before_StartDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End Date is required when Current field is not checked. --></errorMessage>
+        <name>EndDate_Required_whn_Current_Not_Checked</name>
+    </validationRules>
+</CustomObjectTranslation>

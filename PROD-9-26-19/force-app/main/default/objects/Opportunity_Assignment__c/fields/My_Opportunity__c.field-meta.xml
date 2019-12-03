@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Opportunity__c</fullName>
+    <description>to help the CRMs view their assignments</description>
+    <externalId>false</externalId>
+    <formula>OR(Opportunity_Related_to__r.Owner.Id  =  $User.Id, Opportunity_Related_to__r.Secondary_CRM__r.Id  =  $User.Id,  Opportunity_Related_to__r.Consultant_CRM__r.Id =  $User.Id)</formula>
+    <inlineHelpText>to help the CRMs view their approvals</inlineHelpText>
+    <label>My Opportunity</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

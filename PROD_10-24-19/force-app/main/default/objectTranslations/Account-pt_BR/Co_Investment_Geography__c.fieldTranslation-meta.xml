@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Co-Investment Geography the Account has investing interest --></help>
+    <label><!-- Co-Investment Geography --></label>
+    <name>Co_Investment_Geography__c</name>
+    <picklistValues>
+        <masterLabel>Asia</masterLabel>
+        <translation><!-- Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Australia</masterLabel>
+        <translation><!-- Australia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada</masterLabel>
+        <translation><!-- Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Europe</masterLabel>
+        <translation><!-- Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global</masterLabel>
+        <translation><!-- Global --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Middle East</masterLabel>
+        <translation><!-- Middle East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South America</masterLabel>
+        <translation><!-- South America --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>United States</masterLabel>
+        <translation><!-- United States --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

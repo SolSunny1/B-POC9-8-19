@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- General Sub-Status --></label>
+    <name>GeneralSubStatus__c</name>
+    <picklistValues>
+        <masterLabel>Assessments</masterLabel>
+        <translation><!-- Assessments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BH Stopped Process</masterLabel>
+        <translation><!-- BH Stopped Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Behavioral</masterLabel>
+        <translation><!-- Behavioral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Candidate Stopped Process</masterLabel>
+        <translation><!-- Candidate Stopped Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coffee/Intro Call</masterLabel>
+        <translation><!-- Coffee/Intro Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intro Call</masterLabel>
+        <translation><!-- Intro Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Negotiations</masterLabel>
+        <translation><!-- Negotiations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No process</masterLabel>
+        <translation><!-- No process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Process</masterLabel>
+        <translation><!-- Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reference Check</masterLabel>
+        <translation><!-- Reference Check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Case Studies</masterLabel>
+        <translation><!-- Risk Case Studies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sample</masterLabel>
+        <translation><!-- Sample --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Who</masterLabel>
+        <translation><!-- Who --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

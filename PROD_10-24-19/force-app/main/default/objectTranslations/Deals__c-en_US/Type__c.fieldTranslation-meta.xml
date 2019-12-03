@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Balance Sheet Loan</masterLabel>
+        <translation><!-- Balance Sheet Loan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Common Equity</masterLabel>
+        <translation><!-- Common Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debt Advisory</masterLabel>
+        <translation><!-- Debt Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development Loan</masterLabel>
+        <translation><!-- Development Loan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loan/Bond Underwriting</masterLabel>
+        <translation><!-- Loan/Bond Underwriting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;A Advisory</masterLabel>
+        <translation><!-- M&amp;A Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pref Equity</masterLabel>
+        <translation><!-- Pref Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Bonds</masterLabel>
+        <translation><!-- Public Bonds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RCF/Capex Loan</masterLabel>
+        <translation><!-- RCF/Capex Loan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USPP</masterLabel>
+        <translation><!-- USPP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

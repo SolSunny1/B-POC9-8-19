@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Commitment_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.DeveloperName = &quot;Fund_Internal&quot; &amp;&amp;  isblank(Current_Commitments_USD__c )</errorConditionFormula>
+    <errorDisplayField>Current_Commitments_USD__c</errorDisplayField>
+    <errorMessage>Current Commitments needs a value.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERISA_del_del__c</fullName>
+    <externalId>false</externalId>
+    <formula>00N33000002zsZ6.00N33000003BsUr</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is populated from the Account record.  To update this field, update the Account record.  Note that all other related Opportunities and Investor Position records will updated as well.</inlineHelpText>
+    <label>ERISA</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check to see if the Opportunity is active.  If the Investment vehicle is In marketing and the Probability is &gt;=30% and is not Won. --></help>
+    <label><!-- Active Opportunity --></label>
+    <name>Active_Opportunity__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Known as, alias or other common name for the account --></help>
+    <label><!-- Alternate Name --></label>
+    <name>Alias__c</name>
+</CustomFieldTranslation>

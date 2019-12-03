@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PSG Strategy --></label>
+    <name>BIM_Strategy__c</name>
+    <picklistValues>
+        <masterLabel>Credit</masterLabel>
+        <translation><!-- Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diversified Real Assets</masterLabel>
+        <translation><!-- Diversified Real Assets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy Infrastructure</masterLabel>
+        <translation><!-- Energy Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Overview</masterLabel>
+        <translation><!-- General Overview --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Infrastructure</masterLabel>
+        <translation><!-- Global Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Infrastructure Long/Short</masterLabel>
+        <translation><!-- Global Infrastructure Long/Short --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Real Estate</masterLabel>
+        <translation><!-- Global Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global Renewables</masterLabel>
+        <translation><!-- Global Renewables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Asset Debt</masterLabel>
+        <translation><!-- Real Asset Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Assets Hybrid</masterLabel>
+        <translation><!-- Real Assets Hybrid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U.S. Real Estate</masterLabel>
+        <translation><!-- U.S. Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wells Street</masterLabel>
+        <translation><!-- Wells Street --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

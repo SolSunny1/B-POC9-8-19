@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sending the Welcome Letter for BIF III</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Welcome Email BIF III</name>
+    <style>none</style>
+    <subject>Welcome to Brookfield Infrastructure Fund III</subject>
+    <textOnly>On behalf of the broader infrastructure team, I would like to welcome you as an investor in the Brookfield Infrastructure Fund III (BIF III). For your interest, we have attached a Welcome Package which includes a summary of the Fund’s seed assets and general Fund administrative information including sample notices, a sample quarterly report and contact information.  Please let us know if you have any questions and we would be happy to assist.
+Fund information is generally provided to you through the BIF III Portal, hosted by Intralinks. As part of your subscription to the Fund, you have provided your contact information, including a list of individuals you would like to have access to the portal.  We have attached this list, as entered into our system, and kindly ask that you review the contact details provided to confirm that it is complete and accurate, or make amendments as needed in the attached excel form (“Investor Contact List – Change Request Form”). This will ensure that the portal reflects your current contact information and that the appropriate members of your team are notified of Fund updates. Amended contact details should be returned to bif.inquiries@brookfield.com. 
+Unless otherwise instructed, we have provided Intralinks access to all those listed in the attached. We encourage you to activate your Intralinks accounts as soon as feasible to ensure all Fund communications are received, including the upcoming first capital call notice. Further information on Intralinks can be found in the Welcome Package. 
+We would also like to bring to your attention that the first capital call notice for the Fund will be sent out within the coming days to call capital for Isagen, one of BIF III’s seed investments. The notice will be sent out via Intralinks and you will receive an email notification from Intralinks once it has been posted. 
+We look forward to working with you and strengthening our relationship in the coming years. Should you have any questions, please don’t hesitate to contact any of the team members. 
+Kind regards,
+Michael
+
+
+Michael Botha
+Senior Vice President
+ 
+Brookfield Infrastructure Group
+T 416.359.7871</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

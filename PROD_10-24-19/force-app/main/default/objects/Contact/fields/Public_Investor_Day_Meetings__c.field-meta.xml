@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Investor_Day_Meetings__c</fullName>
+    <externalId>false</externalId>
+    <label>Meetings-Public Investor Day</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BAM</fullName>
+                <default>false</default>
+                <label>BAM</label>
+            </value>
+            <value>
+                <fullName>BIP</fullName>
+                <default>false</default>
+                <label>BIP</label>
+            </value>
+            <value>
+                <fullName>BPY</fullName>
+                <default>false</default>
+                <label>BPY</label>
+            </value>
+            <value>
+                <fullName>BEP</fullName>
+                <default>false</default>
+                <label>BEP</label>
+            </value>
+            <value>
+                <fullName>BBU</fullName>
+                <default>false</default>
+                <label>BBU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

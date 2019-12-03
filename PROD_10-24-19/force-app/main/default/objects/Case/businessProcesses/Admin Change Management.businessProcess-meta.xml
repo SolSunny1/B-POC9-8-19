@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin Change Management</fullName>
+    <description>to be used only by those users who have access to adjust the meta data</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Ready for promotion</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Ready for testing</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Waiting On User</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Experience_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Investment Experience Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Public securities</fullName>
+                <default>false</default>
+                <label>Public securities</label>
+            </value>
+            <value>
+                <fullName>Private Securities</fullName>
+                <default>false</default>
+                <label>Private Securities</label>
+            </value>
+            <value>
+                <fullName>Public &amp; Private Securities</fullName>
+                <default>false</default>
+                <label>Public &amp; Private Securities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

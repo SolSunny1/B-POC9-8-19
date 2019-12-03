@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG_Rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(StageName) = &quot;4 - Buy Rated‐ Short List (PSG)&quot;, &quot;Buy-Short List&quot;,
+    IF ( TEXT(StageName) = &quot;5 - Buy Rated‐ Long List (PSG)&quot;, &quot;Buy-Long List&quot;,
+       IF ( TEXT(StageName) = &quot;6 - On Hold (PSG)&quot;, &quot;On Hold&quot;,
+       &quot;&quot;
+       )
+    )
+)</formula>
+    <label>PSG Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

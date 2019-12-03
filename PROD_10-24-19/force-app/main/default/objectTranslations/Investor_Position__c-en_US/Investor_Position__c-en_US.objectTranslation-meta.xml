@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investor Position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investor Positions</value>
+    </caseValues>
+    <layouts>
+        <layout>BAM Investor Position Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG CRM Investor Position Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Name --></label>
+            <section>Name</section>
+        </sections>
+        <sections>
+            <label><!-- Position --></label>
+            <section>Position</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Investor Position Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Name --></label>
+            <section>Name</section>
+        </sections>
+        <sections>
+            <label><!-- Position --></label>
+            <section>Position</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Child Investor Position</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Investor Position Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Total AUM and Investment Status --></label>
+            <section>Total AUM and Investment Status</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This Record type is used for archiving inactive investor positions. System Admin Access only --></description>
+        <label><!-- Archived and Deactivated Investment Vehicle --></label>
+        <name>Archived_and_Deactivated_Investment_Vehicle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PSG Child records --></description>
+        <label><!-- Child PSG Investor Positions --></label>
+        <name>Child_PSG_Investor_Positions</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Credit Opportunities investors --></description>
+        <label><!-- Credit Opportunities --></label>
+        <name>Credit_Opportunities</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PFG Funds / Mandates --></description>
+        <label><!-- Fund Internal --></label>
+        <name>Fund_Internal</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- BAM Listed Issuers --></description>
+        <label><!-- Listed Issuers --></label>
+        <name>Listed_Issuers</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PFG Other Fundraising --></label>
+        <name>PFG_Other_Fundraising</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Fold older PSG records (Pre-ParentChild setup) --></description>
+        <label><!-- PSG Deactivated --></label>
+        <name>PSG_Deactivated</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PSG Strategy --></description>
+        <label><!-- Parent Public Securities --></label>
+        <name>Public_Securities</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Current Commitments needs a value. --></errorMessage>
+        <name>Current_Commitment_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Child_Investor_Position --></label>
+        <name>New_Child_Investor_Position</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Parent_Investor_Position --></label>
+        <name>New_Parent_Investor_Position</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Active_Investor_Positions --></label>
+        <name>View_Active_Investor_Positions</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invited_By_Private_Funds__c</fullName>
+    <description>Hidden from the page layout, this field is used for Integration with CVENT</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hidden from the page layout, this field is used for Integration with CVENT</inlineHelpText>
+    <label>Invite Sent From - CVENT TEXT</label>
+    <length>200</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

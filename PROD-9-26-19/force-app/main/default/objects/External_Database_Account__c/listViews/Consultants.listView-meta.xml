@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultants</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Firm_Name__c</columns>
+    <columns>Salesforce_Account__c</columns>
+    <columns>Region__c</columns>
+    <columns>Category__c</columns>
+    <columns>Funds_under_Mgmt_mn_USD__c</columns>
+    <columns>General_Consultants__c</columns>
+    <columns>Real_Estate_Consultants__c</columns>
+    <columns>Private_Equity_Consultants__c</columns>
+    <columns>Private_Debt_Consultants__c</columns>
+    <columns>Infrastructure_Consultants__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>General_Consultants__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Real_Estate_Consultants__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Private_Equity_Consultants__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Infrastructure_Consultants__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Private_Debt_Consultants__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Consultants</label>
+</ListView>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hi&nbsp;{!Case.User__c},<div><br></div><div>The case,&nbsp;{!Case.Subject} for&nbsp;{!Case.Contact} of&nbsp;{!Case.Account} has been completed by&nbsp;{!Case.OwnerFullName}.</div><div><br></div><div>If you have any questions or concerns please reach to&nbsp;{!Case.OwnerFullName} for more details.</div><div><br></div><div>Case Link:&nbsp;{!Case.Link}</div><div><br></div><div>Thanks,</div><div><br></div><div>Salesforce Team</div>]]></td>
+</tr>
+</table>

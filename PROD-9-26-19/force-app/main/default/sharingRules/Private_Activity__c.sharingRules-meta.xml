@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>PSG_P</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PSG P</label>
+        <sharedTo>
+            <role>BIM</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>PSG</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>BRP</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BRP</label>
+        <sharedTo>
+            <group>BRP</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>BRP</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PSG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PSG</label>
+        <sharedTo>
+            <roleAndSubordinates>BIM</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>BIM</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

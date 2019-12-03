@@ -1,0 +1,8 @@
+<apex:page standardController="Property__c" showHeader="false" sidebar="false">
+<style type="text/css" media="all">
+body{margin: 0; padding: 0;}
+</style>
+<table style="margin: 5px auto;"><tr><td>
+<p style="text-indent: -2em; padding-left: 2em;"></p>
+</td></tr></table>
+</apex:page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PSG Alts Account Type --></label>
+    <name>PSG_Alts_Account_Type__c</name>
+    <picklistValues>
+        <masterLabel>Fund</masterLabel>
+        <translation><!-- Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor</masterLabel>
+        <translation><!-- Investor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Platform</masterLabel>
+        <translation><!-- Platform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Provider</masterLabel>
+        <translation><!-- Service Provider --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

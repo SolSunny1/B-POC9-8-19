@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- PFG Active Funds for Investor Profile --></help>
+    <label><!-- PFG Investment Vehicle Active --></label>
+    <name>PFG_Investment_Vehicle_Active__c</name>
+</CustomFieldTranslation>

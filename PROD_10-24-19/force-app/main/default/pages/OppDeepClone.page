@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity" extensions="OppDeepClone" tabStyle="Opportunity" sidebar="false">
+    <flow:interview name="OppDeepClone" interview="{!myFlow}" finishLocation="{!FinishPage}">
+        <apex:param name="varOppID" value="{!OppId}"/>
+    </flow:interview>    
+</apex:page>

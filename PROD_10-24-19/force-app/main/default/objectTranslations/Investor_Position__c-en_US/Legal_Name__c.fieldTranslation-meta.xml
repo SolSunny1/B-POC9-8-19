@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the Subscribers name from Subscription Agreement.  Will have to be manually entered in by Fund team upon close. --></help>
+    <label><!-- Legal Name --></label>
+    <name>Legal_Name__c</name>
+</CustomFieldTranslation>

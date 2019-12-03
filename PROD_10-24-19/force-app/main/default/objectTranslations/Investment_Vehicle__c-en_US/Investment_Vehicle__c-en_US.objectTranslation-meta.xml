@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investment Vehicle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investment Vehicles</value>
+    </caseValues>
+    <layouts>
+        <layout>Archived</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG CRM Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Fundraising Details --></label>
+            <section>Fundraising Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Fundraising Details --></label>
+            <section>Fundraising Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Report Links --></label>
+            <section>Report Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- PSG Parent Investor Position Active --></label>
+            <section>PSG Parent Investor Position Active</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Read Only Investment Vehicle</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fundraising Details --></label>
+            <section>Fundraising Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Vehicle Status --></label>
+            <section>Investment Vehicle Status</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Commitment Opportunity --></label>
+        <name>New_PFG_Opportunity</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This Record type is used for archiving inactive investor positions. System Admin Access only --></description>
+        <label><!-- Archived and Deactivated Investment Vehicle --></label>
+        <name>Archived_and_Deactivated_Investment_Vehicle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Credit Opportunities --></label>
+        <name>Credit_Opportunities</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Non Brookfield Funds --></description>
+        <label><!-- Fund External --></label>
+        <name>Fund_External</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PFG Funds / Mandates --></description>
+        <label><!-- Fund Internal --></label>
+        <name>Fund_Internal</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for inactive investment vehicle. it has been used in filters and assigned to read only pagelayout --></description>
+        <label><!-- Inactive Record Type --></label>
+        <name>Inactive_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- BAM Listed Issuers --></description>
+        <label><!-- Listed Issuers --></label>
+        <name>Listed_Issuers</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Archived - Deactivated Investment Vehicle --></label>
+        <name>PSG_Archived_Deactivated_Investment_Vehicle</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PSG Strategy --></description>
+        <label><!-- Public Securities --></label>
+        <name>Public_Securities</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select a value for this field as Co-Invest has been selected as a Vehicle Type. --></errorMessage>
+        <name>CoInvestClassMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The related fund can only be specified for Co-Invest Vehicle Types --></errorMessage>
+        <name>Related_Fund_Restricted</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Commitment_Opportunity_Classic --></label>
+        <name>Add_Commitment_Opportunity_Classic</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CRM_Tracker --></label>
+        <name>CRM_Tracker</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conference_Call_Invitees --></label>
+        <name>Conference_Call_Invitees</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EFront_Investran_On_boarding_Template --></label>
+        <name>EFront_Investran_On_boarding_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_in_Excel --></label>
+        <name>Edit_in_Excel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Intralinks_On_boarding_Template --></label>
+        <name>Intralinks_On_boarding_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Meetings_by_Investment_Vehicle --></label>
+        <name>Meetings_by_Investment_Vehicle</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Campaign --></label>
+        <name>New_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opportunity_Contacts_for_Investment_Vehicle --></label>
+        <name>Opportunity_Contacts_for_Investment_Vehicle</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PFG_Fund_Investors --></label>
+        <name>PFG_Fund_Investors</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SeismicButton_05458027590960417 --></label>
+        <name>SeismicButton_05458027590960417</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Welcome_Letter_Contacts --></label>
+        <name>Welcome_Letter_Contacts</name>
+    </webLinks>
+</CustomObjectTranslation>

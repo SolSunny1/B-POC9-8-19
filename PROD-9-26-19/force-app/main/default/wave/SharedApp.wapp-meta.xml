@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used by all groups. any thing save in this app will be available across Org</description>
+    <folder>SharedApp</folder>
+    <masterLabel>Public Shared App</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>integration@00d40000000n3x4eak.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>james.willey@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>joe.cavicchia@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

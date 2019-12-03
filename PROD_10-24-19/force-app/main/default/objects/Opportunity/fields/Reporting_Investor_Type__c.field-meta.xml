@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Investor_Type__c</fullName>
+    <description>Investor Type for Investor Profile reporting</description>
+    <externalId>false</externalId>
+    <formula>if( 
+ispickval(Account.Investor_Type__c,&quot;Placement Agent&quot;),&quot;Other&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Advisor/Gatekeeper&quot;),&quot;Other&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Asset Manager&quot;),&quot;Financial&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Bank / Financial Institution&quot;),&quot;Financial&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Consultant&quot;),&quot;Financial&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Corporate Pension&quot;),&quot;Private Pension&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Distributor&quot;),&quot;Other&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Endowment / Foundation&quot;),&quot;Endowment / Foundation&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;High Net Worth / Family Office&quot;),&quot;Private Wealth / High Net Worth&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;FO Organization&quot;),&quot;Private Wealth / High Net Worth&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;FO Service Provider&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Fund of Funds&quot;),&quot;Other&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Government / Sovereign Wealth&quot;),&quot;Government / Sovereign Wealth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Hedge Fund&quot;),&quot;Other&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Hospitals / Health Care&quot;),&quot;Endowment/Foundation&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Insurance&quot;),&quot;Insurance&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Labor Organization&quot;),&quot;Public Pension / Superannuation&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Multi Family Office&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Single Family Office&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Mutual Pension Fund&quot;),&quot;Public Pension / Superannuation&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Private Equity&quot;),&quot;Other&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Private Pension&quot;),&quot;Private Pension&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Public Pension&quot;),&quot;Public Pension / Superannuation&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;RIA / Wealth Manager&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Sovereign&quot;),&quot;Government / Sovereign Wealth&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Sub-Advisor&quot;),&quot;Other&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Superannuation&quot;),&quot;Public Pension / Superannuation&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Taft-Hartley&quot;),&quot;Private Pension&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;High Net Worth / Family Office&quot;),&quot;Private Wealth / High Net Worth&quot;, 
+if( 
+ispickval(Account.Investor_Type__c,&quot;Private Bank / Wirehouse&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Private Bank&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Family Office&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;UHNW&quot;),&quot;Private Wealth / High Net Worth&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Religious Orgs&quot;),&quot;Other&quot;,
+if( 
+ispickval(Account.Investor_Type__c,&quot;Other&quot;),&quot;Other&quot;,&quot;&quot; 
+)))))))))))))))))))))))))))))))))))</formula>
+    <inlineHelpText>Investor Type for Investor Profile reporting</inlineHelpText>
+    <label>Reporting Investor Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

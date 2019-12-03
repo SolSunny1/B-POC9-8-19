@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summary_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+  CASE(Status__c, 
+    &quot;Green&quot;, &quot;/img/samples/flag_green.gif&quot;,
+    &quot;Amber&quot;, &quot;/img/samples/flag_yellow.gif&quot;,
+    &quot;Red&quot;, &quot;/img/samples/flag_red.gif&quot;, 
+    &quot;/s.gif&quot;
+  ), 
+  &quot;/img/samples/flag_green.gif&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_List__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Marketing Lists that this contact should be a member of.</inlineHelpText>
+    <label>Marketing List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AB Retail Buyers List</fullName>
+                <default>false</default>
+                <label>AB Retail Buyers List</label>
+            </value>
+            <value>
+                <fullName>Asia Buyers List</fullName>
+                <default>false</default>
+                <label>Asia Buyers List</label>
+            </value>
+            <value>
+                <fullName>BC Retail Buyers List</fullName>
+                <default>false</default>
+                <label>BC Retail Buyers List</label>
+            </value>
+            <value>
+                <fullName>BRA Existing Properties</fullName>
+                <default>false</default>
+                <label>BRA Existing Properties</label>
+            </value>
+            <value>
+                <fullName>BRA Greenfield Assets</fullName>
+                <default>false</default>
+                <label>BRA Greenfield Assets</label>
+            </value>
+            <value>
+                <fullName>BRA Hotel Operators</fullName>
+                <default>false</default>
+                <label>BRA Hotel Operators</label>
+            </value>
+            <value>
+                <fullName>BRA MCMV</fullName>
+                <default>false</default>
+                <label>BRA MCMV</label>
+            </value>
+            <value>
+                <fullName>BRA Porto Maravilha</fullName>
+                <default>false</default>
+                <label>BRA Porto Maravilha</label>
+            </value>
+            <value>
+                <fullName>BRA RJ Prime Regions</fullName>
+                <default>false</default>
+                <label>BRA RJ Prime Regions</label>
+            </value>
+            <value>
+                <fullName>BRA Shopping Center Managers</fullName>
+                <default>false</default>
+                <label>BRA Shopping Center Managers</label>
+            </value>
+            <value>
+                <fullName>BRA SP Prime Regions</fullName>
+                <default>false</default>
+                <label>BRA SP Prime Regions</label>
+            </value>
+            <value>
+                <fullName>Calgary List</fullName>
+                <default>false</default>
+                <label>Calgary List</label>
+            </value>
+            <value>
+                <fullName>Canada Office Investors List</fullName>
+                <default>false</default>
+                <label>Canada Office Investors List</label>
+            </value>
+            <value>
+                <fullName>CASL Consent</fullName>
+                <default>false</default>
+                <label>CASL Consent</label>
+            </value>
+            <value>
+                <fullName>India Client Reception</fullName>
+                <default>false</default>
+                <label>India Client Reception</label>
+            </value>
+            <value>
+                <fullName>Industrial Buyers List Toronto</fullName>
+                <default>false</default>
+                <label>Industrial Buyers List Toronto</label>
+            </value>
+            <value>
+                <fullName>Maritime Retail Buyers List</fullName>
+                <default>false</default>
+                <label>Maritime Retail Buyers List</label>
+            </value>
+            <value>
+                <fullName>Medical Office</fullName>
+                <default>false</default>
+                <label>Medical Office</label>
+            </value>
+            <value>
+                <fullName>DO NOT USE – Montreal Buyers List</fullName>
+                <default>false</default>
+                <label>DO NOT USE – Montreal Buyers List</label>
+            </value>
+            <value>
+                <fullName>Montreal Client Reception Invite EN</fullName>
+                <default>false</default>
+                <label>Montreal Client Reception Invite EN</label>
+            </value>
+            <value>
+                <fullName>Montreal Client Reception Invite FR</fullName>
+                <default>false</default>
+                <label>Montreal Client Reception Invite FR</label>
+            </value>
+            <value>
+                <fullName>NYC Client Event</fullName>
+                <default>false</default>
+                <label>NYC Client Event</label>
+            </value>
+            <value>
+                <fullName>NYC Offering</fullName>
+                <default>false</default>
+                <label>NYC Offering</label>
+            </value>
+            <value>
+                <fullName>Office Buyers List Toronto</fullName>
+                <default>false</default>
+                <label>Office Buyers List Toronto</label>
+            </value>
+            <value>
+                <fullName>Ontario Retail Buyers List</fullName>
+                <default>false</default>
+                <label>Ontario Retail Buyers List</label>
+            </value>
+            <value>
+                <fullName>Residential Developers List</fullName>
+                <default>false</default>
+                <label>Residential Developers List</label>
+            </value>
+            <value>
+                <fullName>Seniors Buyers List Canada Excl. QC</fullName>
+                <default>false</default>
+                <label>Seniors Buyers List Canada Excl. QC</label>
+            </value>
+            <value>
+                <fullName>Seniors Buyers List Europe</fullName>
+                <default>false</default>
+                <label>Seniors Buyers List Europe</label>
+            </value>
+            <value>
+                <fullName>Seniors Buyers List Industry Advisors</fullName>
+                <default>false</default>
+                <label>Seniors Buyers List Industry Advisors</label>
+            </value>
+            <value>
+                <fullName>Seniors Buyers List Non Seniors Housing</fullName>
+                <default>false</default>
+                <label>Seniors Buyers List Non Seniors Housing</label>
+            </value>
+            <value>
+                <fullName>Seniors Buyers List Quebec</fullName>
+                <default>false</default>
+                <label>Seniors Buyers List Quebec</label>
+            </value>
+            <value>
+                <fullName>Seniors Buyers List US</fullName>
+                <default>false</default>
+                <label>Seniors Buyers List US</label>
+            </value>
+            <value>
+                <fullName>Seoul Office Market</fullName>
+                <default>false</default>
+                <label>Seoul Office Market</label>
+            </value>
+            <value>
+                <fullName>Toronto Client Reception</fullName>
+                <default>false</default>
+                <label>Toronto Client Reception</label>
+            </value>
+            <value>
+                <fullName>Urban Retail Buyers List</fullName>
+                <default>false</default>
+                <label>Urban Retail Buyers List</label>
+            </value>
+            <value>
+                <fullName>US Core Office Buyers List</fullName>
+                <default>false</default>
+                <label>US Core Office Buyers List</label>
+            </value>
+            <value>
+                <fullName>Wine List (Outside Toronto)</fullName>
+                <default>false</default>
+                <label>Wine List (Outside Toronto)</label>
+            </value>
+            <value>
+                <fullName>Wine List Calgary</fullName>
+                <default>false</default>
+                <label>Wine List Calgary</label>
+            </value>
+            <value>
+                <fullName>Wine List Montreal</fullName>
+                <default>false</default>
+                <label>Wine List Montreal</label>
+            </value>
+            <value>
+                <fullName>Wine List Toronto</fullName>
+                <default>false</default>
+                <label>Wine List Toronto</label>
+            </value>
+            <value>
+                <fullName>Montreal Buyers List</fullName>
+                <default>false</default>
+                <label>Montreal Buyers List</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

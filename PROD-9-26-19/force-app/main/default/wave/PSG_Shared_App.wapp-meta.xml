@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/18.png</assetIcon>
+    <description>This App is used to share dashboard and lens&quot; Reports with PSG team members.</description>
+    <folder>PSG_Shared_App</folder>
+    <masterLabel>PSG Shared App</masterLabel>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>calexander@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>jennifer.grzech@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>joe.cavicchia@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>k.halligan@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>palwasha.salehy@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>snehal.solanki@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__Waterfall</templateOrigin>
+    <templateVersion>1.0</templateVersion>
+</WaveApplication>

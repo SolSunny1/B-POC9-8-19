@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Summary of the terms i.e. Fees are 1% of total commitments. 
+Carry Percentage.
+Waterfall. --></help>
+    <label><!-- Fund Terms (Summary) --></label>
+    <name>Fund_Terms_Summary__c</name>
+</CustomFieldTranslation>

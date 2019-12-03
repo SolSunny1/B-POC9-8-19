@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Institution</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>IB_Revenue__c</columns>
+    <columns>IB_Revenue_3_Years__c</columns>
+    <columns>RCF_Lending__c</columns>
+    <columns>Asset_Lending__c</columns>
+    <columns>Bridge_Lending__c</columns>
+    <columns>Current_Status__c</columns>
+    <columns>Current_Activities__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Classification__c</field>
+        <operation>includes</operation>
+        <value>Key Institution</value>
+    </filters>
+    <label>Key Institution</label>
+    <sharedTo>
+        <group>Brookfield_Executive</group>
+    </sharedTo>
+</ListView>

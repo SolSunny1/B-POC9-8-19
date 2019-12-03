@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_of_Open_Opportunities__c</fullName>
+    <externalId>false</externalId>
+    <label>BFIN # of Open Opportunities</label>
+    <summaryFilterItems>
+        <field>Opportunity.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>BFIN General, BFIN Infrastructure</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>Tracking, Pitch, Mandate Pending, Teamed, Request for Information (RFI), Request for Qualification (RFQ), Request for Proposal (RFP), Mandate Signed, Preferred Proponent, Conditional, Firm, On Hold</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

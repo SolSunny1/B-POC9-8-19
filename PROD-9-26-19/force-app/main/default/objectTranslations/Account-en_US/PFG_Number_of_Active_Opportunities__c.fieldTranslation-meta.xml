@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Rolls up active opportunity from Opportunities --></help>
+    <label><!-- PFG # of Active Opportunities --></label>
+    <name>PFG_Number_of_Active_Opportunities__c</name>
+</CustomFieldTranslation>

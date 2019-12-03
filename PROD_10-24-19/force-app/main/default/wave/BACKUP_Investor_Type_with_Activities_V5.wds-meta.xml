@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>My_Backup_App_Palwasha</application>
+    <description>Created from the BACKUP:Investor Type with Activities V5 recipe.</description>
+    <masterLabel>Investor Type with Activities V5</masterLabel>
+</WaveDataset>

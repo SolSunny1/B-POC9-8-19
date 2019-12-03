@@ -1,0 +1,19 @@
+<p style="font-size: 7.5pt; font-family: Arial, sans-serif; color: #7f7f7f;">
+<b>{!User.Name}</b> <br />
+ {!User.Title}<br />
+<br />
+{!User.CompanyName}<br />
+{!User.Department}<br />
+{!User.Phone}<br />
+{!User.Email}
+ <br />
+<br />
+<a href="http://www.brookfield.com/privatefunds" target="_blank">brookfield.com/privatefunds</a>
+<br />
+<br />
+<i>
+The undersigned is an associated person of a registered investment adviser. View important disclosures and information about our e-mail&nbsp;<a href="https://www.brookfield.com/Private-Funds-Brookfield-Email-Disclaimer" target="_blank">here</a>.</i>
+
+</p>
+<br />
+<br />

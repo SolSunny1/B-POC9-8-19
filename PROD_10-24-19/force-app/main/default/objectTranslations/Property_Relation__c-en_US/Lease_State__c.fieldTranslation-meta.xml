@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is automatically updated by Workflows. --></help>
+    <label><!-- Lease State --></label>
+    <name>Lease_State__c</name>
+    <picklistValues>
+        <masterLabel>Current</masterLabel>
+        <translation><!-- Current --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Future</masterLabel>
+        <translation><!-- Future --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Past</masterLabel>
+        <translation><!-- Past --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

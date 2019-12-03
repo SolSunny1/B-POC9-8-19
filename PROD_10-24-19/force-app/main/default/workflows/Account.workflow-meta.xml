@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_alert_when_PFG_Investor_Account_Name_is_changed</fullName>
+        <ccEmails>dlbamteam_pfgsf@brookfield.com</ccEmails>
+        <description>Email alert when PFG Investor Account Name is changed</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_Investor_Account_Name_Changed</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_alert_when_new_PFG_account_is_cretaed</fullName>
+        <description>Email alert when new PFG account is cretaed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>dan.richards@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joe.cavicchia@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joshy.john@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mohammad.quzmar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_New_Account_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_groups</fullName>
+        <ccEmails>dlbamteam_pfgsf@brookfield.com</ccEmails>
+        <description>Email to groups</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jillian.boeni@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joe.cavicchia@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joshy.john@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>linda.northwood@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>palwasha.salehy@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Merge_question</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>BFIN_Account_Checkbox</fullName>
+        <field>BFIN_Account__c</field>
+        <literalValue>1</literalValue>
+        <name>BFIN Account Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>KYC_Pre_Qualified</fullName>
+        <description>To populate &quot;Pre-Qualified&quot; field in Account with &quot;Yes&quot; when a new compliance form is created (helper field in Account: PFG Compliance KYC (roll up count of compliance forms)</description>
+        <field>Pre_Qualified__c</field>
+        <literalValue>Yes</literalValue>
+        <name>KYC Pre-Qualified</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PSG_Alt_checkbox</fullName>
+        <field>PSG_Alts_Accounts__c</field>
+        <literalValue>1</literalValue>
+        <name>PSG Alt checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Account status for merge</fullName>
+        <actions>
+            <name>Email_to_groups</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Account_Status__c</field>
+            <operation>equals</operation>
+            <value>To be discussed,To Be Merged</value>
+        </criteriaItems>
+        <description>Workflow to kick off message to data group</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN Account</fullName>
+        <actions>
+            <name>BFIN_Account_Checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.BFIN_of_Opportunitites__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </criteriaItems>
+        <description>Identifier of BFIN Account</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Investor Account Name changed</fullName>
+        <actions>
+            <name>Email_alert_when_PFG_Investor_Account_Name_is_changed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Email alert sent when PFG Investor Account name changed</description>
+        <formula>and(NOT(ISBLANK( Private_Funds_Invested_in__c )),ISCHANGED( Name  ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG New Account Created</fullName>
+        <actions>
+            <name>Email_alert_when_new_PFG_account_is_cretaed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Account.Investor_Type__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PFG_CRM_Primary_Lead__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PFG_CRM_Real_Asset_Lead__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PFG_CRM_Secondary_Lead__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PFG_General_Investing_Interest__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.PFG_Relationship_Type__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Email alert sent when new PFG account is created</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Pre Qualified - KYC</fullName>
+        <actions>
+            <name>KYC_Pre_Qualified</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.PFG_Compliance_KYC__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <description>To populate &quot;Pre-Qualified&quot; field in Account with &quot;Yes&quot; when a new compliance form is created (helper field in Account: PFG Compliance KYC (roll up count of compliance forms)</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PSG Alternative funds</fullName>
+        <actions>
+            <name>PSG_Alt_checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>PSG ALT</value>
+        </criteriaItems>
+        <description>PSG alternative funds check box when alternative funds user creates an account.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update PSG Relationship</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.BIM_Total_AUM__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.BIM_Total_AUM__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>updates the pick list value when aum is greater than 0</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Regions --></label>
+    <name>Sub_Regions__c</name>
+    <picklistValues>
+        <masterLabel>Benelux</masterLabel>
+        <translation><!-- Benelux --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brazil</masterLabel>
+        <translation><!-- Brazil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chile</masterLabel>
+        <translation><!-- Chile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>China</masterLabel>
+        <translation><!-- China --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Colombia</masterLabel>
+        <translation><!-- Colombia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dubai</masterLabel>
+        <translation><!-- Dubai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>France</masterLabel>
+        <translation><!-- France --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Germany</masterLabel>
+        <translation><!-- Germany --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ireland</masterLabel>
+        <translation><!-- Ireland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italy</masterLabel>
+        <translation><!-- Italy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japan</masterLabel>
+        <translation><!-- Japan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mexico</masterLabel>
+        <translation><!-- Mexico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Zealand</masterLabel>
+        <translation><!-- New Zealand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peru</masterLabel>
+        <translation><!-- Peru --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spain</masterLabel>
+        <translation><!-- Spain --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

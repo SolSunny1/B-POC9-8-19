@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investor Day --></label>
+    <name>Investor_Day__c</name>
+    <picklistValues>
+        <masterLabel>Call Only</masterLabel>
+        <translation><!-- Call Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invite</masterLabel>
+        <translation><!-- Invite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remove</masterLabel>
+        <translation><!-- Remove --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update</masterLabel>
+        <translation><!-- Update --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

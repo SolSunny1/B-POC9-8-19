@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MC4SF__MailChimp_Subscriptions</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>MailChimp Subscriptions</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+try { 
+	var personContactId = sforce.apex.execute(&quot;MC4SF.Util&quot;, &quot;getPersonContactId&quot;, {accountId: &#39;{!Account.Id}&#39;}); 
+	if (personContactId == &#39;&#39;) {
+		alert(&#39;This feature is only applicable to Person Accounts.&#39;);
+	} else {
+		top.location.href = &#39;/apex/MC4SF__SubscriptionsContact?id=&#39; + personContactId;
+	}
+} catch (error) { 
+	if (error.faultcode == &#39;sf:INSUFFICIENT_ACCESS&#39;) { 
+		alert(&#39;You do not have permission to perform this function.&#39;); 
+	} else { 
+		alert(error); 
+	} 
+}</url>
+</WebLink>

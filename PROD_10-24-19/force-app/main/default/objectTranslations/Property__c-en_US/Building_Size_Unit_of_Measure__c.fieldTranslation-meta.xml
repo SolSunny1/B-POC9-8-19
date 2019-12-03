@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Building Size Unit of Measure --></label>
+    <name>Building_Size_Unit_of_Measure__c</name>
+    <picklistValues>
+        <masterLabel>Sq. footage</masterLabel>
+        <translation><!-- Sq. footage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sq. meters</masterLabel>
+        <translation><!-- Sq. meters --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

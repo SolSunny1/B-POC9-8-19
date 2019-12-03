@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIM_Relationship_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( 
+    Prospect_Name__r.PSG_Relationship_Type__c =&quot;Client&quot;,&quot;Client&quot;, 
+    if( 
+        Prospect_Name__r.PSG_Relationship_Type__c = &quot;Former Client&quot;,&quot;Former Client&quot;, 
+        if( 
+            Prospect_Name__r.PSG_Relationship_Type__c = &quot;Prospect&quot;,&quot;Prospect&quot;, &quot;&quot; 
+         )
+     )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PSG Relationship Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

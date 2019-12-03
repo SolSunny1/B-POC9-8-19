@@ -1,0 +1,5 @@
+The opportunity for {!Opportunity.Name} has been updated by {!User.Username} to Closed/Confirmed.
+
+Amount: {!Opportunity.Amount}
+
+Opportunity Owner: {!Opportunity.OwnerFullName}

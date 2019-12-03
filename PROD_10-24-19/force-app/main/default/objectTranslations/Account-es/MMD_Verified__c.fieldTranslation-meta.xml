@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- check to see if the account was verified by CRM team --></help>
+    <label><!-- MMD Verified --></label>
+    <name>MMD_Verified__c</name>
+</CustomFieldTranslation>

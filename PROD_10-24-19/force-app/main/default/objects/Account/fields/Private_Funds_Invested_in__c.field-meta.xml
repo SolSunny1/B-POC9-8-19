@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Funds_Invested_in__c</fullName>
+    <description>Roll up for All Private Funds Invested</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up for All Private Funds Invested</inlineHelpText>
+    <label>Private Funds Invested in</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

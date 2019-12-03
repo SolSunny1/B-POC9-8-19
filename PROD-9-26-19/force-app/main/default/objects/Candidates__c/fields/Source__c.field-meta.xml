@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BH</fullName>
+                <default>false</default>
+                <label>BH</label>
+            </value>
+            <value>
+                <fullName>Brookfield</fullName>
+                <default>false</default>
+                <label>Brookfield</label>
+            </value>
+            <value>
+                <fullName>Prime Broker</fullName>
+                <default>false</default>
+                <label>Prime Broker</label>
+            </value>
+            <value>
+                <fullName>Recruiter</fullName>
+                <default>false</default>
+                <label>Recruiter</label>
+            </value>
+            <value>
+                <fullName>Sell Side</fullName>
+                <default>false</default>
+                <label>Sell Side</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Candidate</fullName>
+                <default>false</default>
+                <label>Other Candidate</label>
+            </value>
+            <value>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>External Referral</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Word of Mouth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

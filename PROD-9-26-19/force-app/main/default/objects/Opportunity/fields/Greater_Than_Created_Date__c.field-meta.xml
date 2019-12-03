@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Greater_Than_Created_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATEVALUE(CreatedDate)  &gt;=  Investment_Vehicle__r.Last_Closed_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Greater Than Created Date</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

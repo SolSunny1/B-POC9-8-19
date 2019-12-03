@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Calculated to identify if Brookfield Affiliate or Third Party. --></help>
+    <label><!-- Third-Party/BAM --></label>
+    <name>Third_Party_BAM__c</name>
+</CustomFieldTranslation>

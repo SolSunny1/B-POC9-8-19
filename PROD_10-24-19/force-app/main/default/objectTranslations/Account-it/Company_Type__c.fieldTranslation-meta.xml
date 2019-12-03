@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Company Type --></label>
+    <name>Company_Type__c</name>
+    <picklistValues>
+        <masterLabel>Asset Manager / Sponsor / IM / PE</masterLabel>
+        <translation><!-- Asset Manager / Sponsor / IM / PE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endowment / Foundation</masterLabel>
+        <translation><!-- Endowment / Foundation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Office / High Net Worth</masterLabel>
+        <translation><!-- Family Office / High Net Worth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial Advisor / Consultant</masterLabel>
+        <translation><!-- Financial Advisor / Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hedgefund</masterLabel>
+        <translation><!-- Hedgefund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation><!-- Insurance Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pension Fund</masterLabel>
+        <translation><!-- Pension Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Corporation</masterLabel>
+        <translation><!-- Private Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Publicly-Listed Corporation</masterLabel>
+        <translation><!-- Publicly-Listed Corporation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REIT</masterLabel>
+        <translation><!-- REIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REOC</masterLabel>
+        <translation><!-- REOC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sovereign Wealth</masterLabel>
+        <translation><!-- Sovereign Wealth --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

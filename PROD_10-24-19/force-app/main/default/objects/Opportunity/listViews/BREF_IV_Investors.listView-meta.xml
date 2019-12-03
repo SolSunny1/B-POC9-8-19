@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BREF_IV_Investors</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Classification__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Anticipated_Close_Tracker__c</columns>
+    <columns>Anticipated_Close_Date_Tracker__c</columns>
+    <columns>Estimated_Close__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>Consultant__c</columns>
+    <columns>Consultant_CRM__c</columns>
+    <columns>IC_Meeting__c</columns>
+    <columns>Data_Room_Access_Provided__c</columns>
+    <columns>OPPORTUNITY.WON</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BREF iV</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>BREF IV Investors</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BREF_V_CRM_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Classification__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>Consultant_CRM__c</columns>
+    <columns>IC_Meeting__c</columns>
+    <columns>Data_Room_Access_Provided__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>OPPORTUNITY.WON</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BREF V</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <label>BREF V CRM Opportunities</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

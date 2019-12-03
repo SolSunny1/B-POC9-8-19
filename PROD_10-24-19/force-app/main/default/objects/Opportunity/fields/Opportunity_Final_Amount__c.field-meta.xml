@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Final_Amount__c</fullName>
+    <description>Combines the Investment Vehicle Name and the Amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Combines the Investment Vehicle Name and the Amount</inlineHelpText>
+    <label>Opportunity Final Amount</label>
+    <length>150</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

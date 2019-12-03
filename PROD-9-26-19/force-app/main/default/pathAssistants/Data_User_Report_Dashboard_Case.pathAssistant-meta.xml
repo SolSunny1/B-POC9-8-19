@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Data User Report Dashboard Case</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <info>&lt;p&gt;Close&lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>data_user_report_dashboard</recordTypeName>
+</PathAssistant>

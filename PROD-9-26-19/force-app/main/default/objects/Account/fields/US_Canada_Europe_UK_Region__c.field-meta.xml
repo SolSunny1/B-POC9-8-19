@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Canada_Europe_UK_Region__c</fullName>
+    <description>US/Canada/Europe,UK Region</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(BillingCountry), &quot;None&quot;, 
+if(isblank(BillingState),&quot;None&quot;,
+
+if(and( 
+BillingCountry =&quot;United States&quot;, 
+Contains(&quot;Iowa:Illinois:Indiana:Kansas:Michigan:Minnesota:Missouri:North Dakota:Nebraska:Ohio:Oklahoma:South Dakota:Wisconsin&quot;,BillingState)),&quot;US-Central&quot;,
+ 
+if(and( 
+BillingCountry =&quot;United States&quot;, 
+Contains(&quot;District of Columbia:Delaware:Maryland:New Jersey:Pennsylvania:Virginia:West Virginia&quot;,BillingState)),&quot;US-Mid-Atlantic&quot;,
+ 
+if(and( 
+BillingCountry =&quot;United States&quot;, 
+Contains(&quot;Connecticut:Massachusetts:Maine:New Hampshire:New York:Rhode Island:Vermont&quot;,BillingState)),&quot;US-Northeast&quot;,
+ 
+if(and( 
+BillingCountry =&quot;United States&quot;, 
+Contains(&quot;Alabama:Arkansas:Florida:Georgia:Kentucky:Louisiana:Mississippi:North Carolina:South Carolina:Tennessee:Texas&quot;,BillingState)),&quot;US-South&quot;,
+ 
+if(and( 
+BillingCountry =&quot;United States&quot;, 
+Contains(&quot;Alaska:Arizona:California:Colorado:Hawaii:Idaho:Montana:New Mexico:Nevada:Oregon:Utah:Washington:Wyoming&quot;,BillingState)),&quot;US-West&quot;,
+ 
+
+if(and( 
+BillingCountry =&quot;Canada&quot;, 
+Contains(&quot;British Columbia:Alberta:Saskatchewan:Manitoba&quot;,BillingState)),&quot;Western Canada&quot;,
+ if(and( 
+BillingCountry =&quot;Canada&quot;, 
+Contains(&quot;Ontario:Quebec&quot;,BillingState)),&quot;Central Canada&quot;, 
+if(and( 
+BillingCountry =&quot;Canada&quot;, 
+Contains(&quot;New Brunswick:Prince Edward Island:Nova Scotia:Newfoundland&quot;,BillingState)),&quot;Atlantic Canada&quot;,
+ if(and( 
+BillingCountry =&quot;Canada&quot;, 
+Contains(&quot;Yukon:Northwest Territories:Nunavut&quot;,BillingState)),&quot;Northern Canada&quot;,
+ 
+if( 
+Contains(&quot;Iceland:Norway:Sweden:Denmark:Finland&quot;,BillingCountry), &quot;Northern Europe&quot;,
+ 
+if( 
+Contains(&quot;Germany:Netherlands:Belgium:Luxembourg:Austria:Switzerland:France&quot;,BillingCountry), &quot;Western Europe&quot;,
+ 
+if( 
+Contains(&quot;Estonia:Latvia:Lithuania:Belarus:Poland:Ukraine:Czech Republic:Slovakia:Moldova:Romania:Hungary:Slovenia:Croatia:Bosnia:Serbia:Bulgaria:Montenegro:Kosovo:Macedonia:Albania&quot;,BillingCountry), &quot;Eastern Europe&quot;,
+ 
+if( 
+Contains(&quot;Portugal:Spain:Italy:Malta:Greece:Cyprus&quot;,BillingCountry), &quot;Southern Europe&quot;,
+ 
+if( 
+Contains(&quot;United Kingdom:Scotland:Wales:Ireland&quot;, BillingCountry), &quot;United Kingdom&quot;,
+ 
+&quot;&quot;))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula field pulls geographical regions for US, Canada, Europe and UK</inlineHelpText>
+    <label>Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

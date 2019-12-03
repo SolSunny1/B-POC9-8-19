@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Promotion_Details__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Developer notes, list of items to mode with change sets vs manual, dial in conference line....</inlineHelpText>
+    <label>Promotion Details</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

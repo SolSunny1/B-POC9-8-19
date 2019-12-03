@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Deal_Lead__c</fullName>
+    <externalId>false</externalId>
+    <label>BFIN Deal Lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alisia Fabry</fullName>
+                <default>false</default>
+                <label>Alisia Fabry</label>
+            </value>
+            <value>
+                <fullName>Anand Patel</fullName>
+                <default>false</default>
+                <label>Anand Patel</label>
+            </value>
+            <value>
+                <fullName>Andreas Schettler</fullName>
+                <default>false</default>
+                <label>Andreas Schettler</label>
+            </value>
+            <value>
+                <fullName>Andy Herg</fullName>
+                <default>false</default>
+                <label>Andy Herg</label>
+            </value>
+            <value>
+                <fullName>Angelo Lamanna</fullName>
+                <default>false</default>
+                <label>Angelo Lamanna</label>
+            </value>
+            <value>
+                <fullName>Bjorn Martin</fullName>
+                <default>false</default>
+                <label>Bjorn Martin</label>
+            </value>
+            <value>
+                <fullName>Brim Lee</fullName>
+                <default>false</default>
+                <label>Brim Lee</label>
+            </value>
+            <value>
+                <fullName>Brydon Cruise</fullName>
+                <default>false</default>
+                <label>Brydon Cruise</label>
+            </value>
+            <value>
+                <fullName>Caimi Reis</fullName>
+                <default>false</default>
+                <label>Caimi Reis</label>
+            </value>
+            <value>
+                <fullName>Christian Koechle</fullName>
+                <default>false</default>
+                <label>Christian Koechle</label>
+            </value>
+            <value>
+                <fullName>Christian Schreiber</fullName>
+                <default>false</default>
+                <label>Christian Schreiber</label>
+            </value>
+            <value>
+                <fullName>Christian Wolf</fullName>
+                <default>false</default>
+                <label>Christian Wolf</label>
+            </value>
+            <value>
+                <fullName>David Marr</fullName>
+                <default>false</default>
+                <label>David Marr</label>
+            </value>
+            <value>
+                <fullName>Felipe Arantes</fullName>
+                <default>false</default>
+                <label>Felipe Arantes</label>
+            </value>
+            <value>
+                <fullName>Frederick Wong</fullName>
+                <default>false</default>
+                <label>Frederick Wong</label>
+            </value>
+            <value>
+                <fullName>Giovanni Larcher</fullName>
+                <default>false</default>
+                <label>Giovanni Larcher</label>
+            </value>
+            <value>
+                <fullName>Grace Kim</fullName>
+                <default>false</default>
+                <label>Grace Kim</label>
+            </value>
+            <value>
+                <fullName>Haig Bezain</fullName>
+                <default>false</default>
+                <label>Haig Bezian</label>
+            </value>
+            <value>
+                <fullName>Harmeet Bedi</fullName>
+                <default>false</default>
+                <label>Harmeet Bedi</label>
+            </value>
+            <value>
+                <fullName>Heinrich Hauss</fullName>
+                <default>false</default>
+                <label>Heinrich Hauss</label>
+            </value>
+            <value>
+                <fullName>Johannes Lindner</fullName>
+                <default>false</default>
+                <label>Johannes Lindner</label>
+            </value>
+            <value>
+                <fullName>John Stinson</fullName>
+                <default>false</default>
+                <label>John Stinson</label>
+            </value>
+            <value>
+                <fullName>Josephine Shum</fullName>
+                <default>false</default>
+                <label>Josephine Shum</label>
+            </value>
+            <value>
+                <fullName>Julia Verboonen</fullName>
+                <default>false</default>
+                <label>Julia Verboonen</label>
+            </value>
+            <value>
+                <fullName>Julius Wolf</fullName>
+                <default>false</default>
+                <label>Julius Wolf</label>
+            </value>
+            <value>
+                <fullName>Kartik Sodha</fullName>
+                <default>false</default>
+                <label>Kartik Sodha</label>
+            </value>
+            <value>
+                <fullName>Kirk Robinson</fullName>
+                <default>false</default>
+                <label>Kirk Robinson</label>
+            </value>
+            <value>
+                <fullName>Margarida Fraga</fullName>
+                <default>false</default>
+                <label>Margarida Fraga</label>
+            </value>
+            <value>
+                <fullName>Markus Reule</fullName>
+                <default>false</default>
+                <label>Markus Reule</label>
+            </value>
+            <value>
+                <fullName>Martin Brümmer</fullName>
+                <default>false</default>
+                <label>Martin Brümmer</label>
+            </value>
+            <value>
+                <fullName>Michal Kuzmicki</fullName>
+                <default>false</default>
+                <label>Michal Kuzmicki</label>
+            </value>
+            <value>
+                <fullName>Minh-Tuong Dao</fullName>
+                <default>false</default>
+                <label>Minh-Tuong Dao</label>
+            </value>
+            <value>
+                <fullName>Paul Leong</fullName>
+                <default>false</default>
+                <label>Paul Leong</label>
+            </value>
+            <value>
+                <fullName>Philipp Krokowski</fullName>
+                <default>false</default>
+                <label>Philipp Krokowski</label>
+            </value>
+            <value>
+                <fullName>Pierre Bergevin</fullName>
+                <default>false</default>
+                <label>Pierre Bergevin</label>
+            </value>
+            <value>
+                <fullName>Rob Lester</fullName>
+                <default>false</default>
+                <label>Rob Lester</label>
+            </value>
+            <value>
+                <fullName>Samir Chande</fullName>
+                <default>false</default>
+                <label>Samir Chande</label>
+            </value>
+            <value>
+                <fullName>Scott Ellis</fullName>
+                <default>false</default>
+                <label>Scott Ellis</label>
+            </value>
+            <value>
+                <fullName>Scott Mason</fullName>
+                <default>false</default>
+                <label>Scott Mason</label>
+            </value>
+            <value>
+                <fullName>Thomas Niemann</fullName>
+                <default>false</default>
+                <label>Thomas Niemann</label>
+            </value>
+            <value>
+                <fullName>Thomas Silbernagl</fullName>
+                <default>false</default>
+                <label>Thomas Silbernagl</label>
+            </value>
+            <value>
+                <fullName>Tony Sandhu</fullName>
+                <default>false</default>
+                <label>Tony Sandhu</label>
+            </value>
+            <value>
+                <fullName>Wendell Osborne</fullName>
+                <default>false</default>
+                <label>Wendell Osborne</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

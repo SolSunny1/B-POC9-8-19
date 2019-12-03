@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Clean_Up</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>BIM_Key_Contact__c</columns>
+    <columns>BIM_Marketing_Lead__c</columns>
+    <columns>PFG_CRM_Lead__c</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE_CODE</columns>
+    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Harel Insurance &amp; Finance</value>
+    </filters>
+    <label>PFG Contact Clean Up</label>
+    <sharedTo>
+        <group>PFG_Support_Group</group>
+    </sharedTo>
+</ListView>

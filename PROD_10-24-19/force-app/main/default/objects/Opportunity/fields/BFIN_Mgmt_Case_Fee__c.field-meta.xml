@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Mgmt_Case_Fee__c</fullName>
+    <description>BFIN</description>
+    <externalId>false</externalId>
+    <formula>BFIN_Estimated_Fee__c * BFIN_Mgmt_Case__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>BFIN_Estimated_Fee__c * BFIN Mgmt Case (%)</inlineHelpText>
+    <label>BFIN Mgmt Case Fee</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

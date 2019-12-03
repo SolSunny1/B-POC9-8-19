@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Data as of Date --></label>
+    <name>Data_as_of_Date__c</name>
+    <picklistValues>
+        <masterLabel>Most recent available</masterLabel>
+        <translation><!-- Most recent available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Most recent month</masterLabel>
+        <translation><!-- Most recent month --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Most recent quarter</masterLabel>
+        <translation><!-- Most recent quarter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

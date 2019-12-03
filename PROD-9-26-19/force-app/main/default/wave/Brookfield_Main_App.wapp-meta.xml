@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/16.png</assetIcon>
+    <description>This App Includes all main Datasets, important reports and sources that are shared across Org. Making any change will impact other connected datasets, receipts and dashboard. 
+Please do not make any changes. None of deleted item will be recovered.
+ 
+It is highly recommended to DO NOT make any changes without system admin/business superusers approval.</description>
+    <folder>Brookfield_Main_App</folder>
+    <masterLabel>Brookfield All Datasets &quot;Report Types&quot;</masterLabel>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>AllInternalUsers</sharedTo>
+        <sharedToType>Organization</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>palwasha.salehy@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>BRP_Key_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BRP_Key_Contact__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>BRP Contacts</label>
+    <sharedTo>
+        <roleAndSubordinates>BRP</roleAndSubordinates>
+        <roleAndSubordinates>BRP_Commercial_Dev</roleAndSubordinates>
+        <roleAndSubordinates>BRP_Exec</roleAndSubordinates>
+        <roleAndSubordinates>BRP_Gov_Relations</roleAndSubordinates>
+        <roleAndSubordinates>BRP_Reg_Affairs</roleAndSubordinates>
+    </sharedTo>
+</ListView>

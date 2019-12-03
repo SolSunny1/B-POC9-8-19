@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_to_receive_PPM__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>SS: 8/16/2018: created new field added for PSG legal team to review Full name and email of contact who is receiving PPM.</description>
+    <externalId>false</externalId>
+    <label>Contact to receive PPM</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Compliance (Contact to receive PPM)</relationshipLabel>
+    <relationshipName>Compliance</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

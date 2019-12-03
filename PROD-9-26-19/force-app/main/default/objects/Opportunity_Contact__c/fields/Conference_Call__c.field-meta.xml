@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conference_Call__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Invite this contact to Fund Quarterly Performance Conference Calls?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Invite this contact to Fund Quarterly Performance Conference Calls?</inlineHelpText>
+    <label>Conference Call</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

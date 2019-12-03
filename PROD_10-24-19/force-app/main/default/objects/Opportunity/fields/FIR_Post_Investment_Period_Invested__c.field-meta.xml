@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIR_Post_Investment_Period_Invested__c</fullName>
+    <description>FIR - Post Investment Period - Invested - Offered</description>
+    <externalId>false</externalId>
+    <inlineHelpText>FIR - Post Investment Period - Invested - Offered</inlineHelpText>
+    <label>FIR - Post Investment Period - Invested</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>11</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Task_Changes_Caroline</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_11_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>1100</locationX>
+        <locationY>200</locationY>
+        <actionName>Task.Task_Changes_Caroline</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Task_Changes</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Send email to Support</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>Task.Task_Changes</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision2</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Task_Changes_Scott</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_3_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>300</locationX>
+        <locationY>200</locationY>
+        <actionName>Task.Task_Changes_Scott</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Task_Changes_Caroline</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_5_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>500</locationX>
+        <locationY>200</locationY>
+        <actionName>Task.Task_Changes_Caroline</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Task_Changes</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_7_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>700</locationX>
+        <locationY>200</locationY>
+        <actionName>Task.Task_Changes</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision8</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Task_Changes_Scott</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_9_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>900</locationX>
+        <locationY>200</locationY>
+        <actionName>Task.Task_Changes_Scott</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Task is Created - Theo</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision10</name>
+        <label>myDecision10</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_11</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_11</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>Task is Edited - Caroline</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision2</name>
+        <label>myDecision2</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>Task is Created - Scott</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision4</name>
+        <label>myDecision4</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_5</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>Task is Created - Caroline</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision6</name>
+        <label>myDecision6</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision8</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>Task is Edited - Theo</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>4.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision8</name>
+        <label>myDecision8</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_9</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_9</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_9_A1</targetReference>
+            </connector>
+            <label>Task is Edited - Scott</label>
+        </rules>
+    </decisions>
+    <description>Suresh - 9/27 - Cleaned up Logic: Sends an email to support team when CRM adds or changes a task.</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; ([Task].Owner:User.Full_name__c =&quot;Robert White&quot; || [Task].Owner:User.Full_name__c =&quot;Dan Fanelli&quot;) &amp;&amp; [Task].CreatedBy.Full_name__c  &lt;&gt;&quot;Theodore Buchsbaum&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; ({!myVariable_current.Owner:User.Full_name__c} =&quot;Robert White&quot; || {!myVariable_current.Owner:User.Full_name__c} =&quot;Dan Fanelli&quot;) &amp;&amp; {!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Theodore Buchsbaum&quot;</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+[Task].LastModifiedBy.Full_name__c &lt;&gt; &quot;Caroline FitzPatrick&quot;,
+
+OR(
+ISCHANGED([Task].ActivityDate),
+ISCHANGED([Task].Description ),
+ISCHANGED([Task].status )
+),
+
+OR(
+[Task].Owner:User.Full_name__c = &quot;Kate Bizga&quot;,
+[Task].Owner:User.Full_name__c = &quot;Chase Fitzsimmons&quot;,
+[Task].Owner:User.Full_name__c = &quot;Glenn Ezard&quot;,
+[Task].Owner:User.Full_name__c = &quot;Jarrod Rapalje&quot;,
+[Task].Owner:User.Full_name__c = &quot;Jeff Clarke&quot;
+)
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_11</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Caroline FitzPatrick&quot;,
+
+OR(
+ISCHANGED({!myVariable_current.ActivityDate}),
+ISCHANGED({!myVariable_current.Description} ),
+ISCHANGED({!myVariable_current.Status} )
+),
+
+OR(
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Kate Bizga&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Chase Fitzsimmons&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Glenn Ezard&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Jarrod Rapalje&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Jeff Clarke&quot;
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; ([Task].Owner:User.Full_name__c =&quot;David Mullane&quot; || 
+[Task].Owner:User.Full_name__c =&quot;Jeff Roberts&quot; || 
+[Task].Owner:User.Full_name__c =&quot;Chris Harris&quot; ||
+[Task].Owner:User.Full_name__c =&quot;Dan Heffernan&quot;) &amp;&amp; 
+[Task].CreatedBy.Full_name__c  &lt;&gt;&quot;Scott Meller&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; ({!myVariable_current.Owner:User.Full_name__c} =&quot;David Mullane&quot; || 
+{!myVariable_current.Owner:User.Full_name__c} =&quot;Jeff Roberts&quot; || 
+{!myVariable_current.Owner:User.Full_name__c} =&quot;Chris Harris&quot; ||
+{!myVariable_current.Owner:User.Full_name__c} =&quot;Dan Heffernan&quot;) &amp;&amp; 
+{!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Scott Meller&quot;</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; ([Task].Owner:User.Full_name__c =&quot;Kate Bizga&quot; || [Task].Owner:User.Full_name__c =&quot;Chase Fitzsimmons&quot; || 
+[Task].Owner:User.Full_name__c =&quot;Glenn Ezard&quot; ||
+[Task].Owner:User.Full_name__c =&quot;Jarrod Rapalje&quot; ||
+[Task].Owner:User.Full_name__c =&quot;Jeff Clarke&quot;) &amp;&amp; 
+[Task].CreatedBy.Full_name__c  &lt;&gt;&quot;Caroline FitzPatrick&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_5</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; ({!myVariable_current.Owner:User.Full_name__c} =&quot;Kate Bizga&quot; || {!myVariable_current.Owner:User.Full_name__c} =&quot;Chase Fitzsimmons&quot; || 
+{!myVariable_current.Owner:User.Full_name__c} =&quot;Glenn Ezard&quot; ||
+{!myVariable_current.Owner:User.Full_name__c} =&quot;Jarrod Rapalje&quot; ||
+{!myVariable_current.Owner:User.Full_name__c} =&quot;Jeff Clarke&quot;) &amp;&amp; 
+{!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Caroline FitzPatrick&quot;</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+[Task].LastModifiedBy.Full_name__c &lt;&gt; &quot;Theodore Buchsbaum&quot;,
+
+OR(
+ISCHANGED([Task].ActivityDate),
+ISCHANGED([Task].Description ),
+ISCHANGED([Task].status )
+),
+
+OR(
+[Task].Owner:User.Full_name__c = &quot;Robert White&quot;,
+[Task].Owner:User.Full_name__c = &quot;Dan Fanelli&quot;
+)
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Theodore Buchsbaum&quot;,
+
+OR(
+ISCHANGED({!myVariable_current.ActivityDate}),
+ISCHANGED({!myVariable_current.Description} ),
+ISCHANGED({!myVariable_current.Status} )
+),
+
+OR(
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Robert White&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Dan Fanelli&quot;
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+[Task].LastModifiedBy.Full_name__c &lt;&gt; &quot;Scott Meller&quot;,
+
+OR(
+ISCHANGED([Task].ActivityDate),
+ISCHANGED([Task].Description ),
+ISCHANGED([Task].status )
+),
+
+OR(
+[Task].Owner:User.Full_name__c = &quot;David Mullane&quot;,
+[Task].Owner:User.Full_name__c = &quot;Chris Harris&quot;,
+[Task].Owner:User.Full_name__c = &quot;Dan Heffernan&quot;,
+[Task].Owner:User.Full_name__c = &quot;Jeff Roberts&quot;
+)
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_9</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Scott Meller&quot;,
+
+OR(
+ISCHANGED({!myVariable_current.ActivityDate}),
+ISCHANGED({!myVariable_current.Description} ),
+ISCHANGED({!myVariable_current.Status} )
+),
+
+OR(
+{!myVariable_current.Owner:User.Full_name__c} = &quot;David Mullane&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Chris Harris&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Dan Heffernan&quot;,
+{!myVariable_current.Owner:User.Full_name__c} = &quot;Jeff Roberts&quot;
+)
+)</expression>
+    </formulas>
+    <interviewLabel>PFG_Tasks_Created_Updated-12_InterviewLabel</interviewLabel>
+    <label>PFG Task Changes</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Task</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myDecision</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Task</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Task</objectType>
+    </variables>
+</Flow>

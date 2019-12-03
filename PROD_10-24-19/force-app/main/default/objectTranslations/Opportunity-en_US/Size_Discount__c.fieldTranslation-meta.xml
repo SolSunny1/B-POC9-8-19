@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Discount given due to the size of the commitment --></help>
+    <label><!-- Size Discount --></label>
+    <name>Size_Discount__c</name>
+</CustomFieldTranslation>

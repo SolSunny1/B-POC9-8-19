@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seniors_Buyers_List_All_Combined</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6) AND 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>Contact_Status__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>Marketing_List__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.EMAIL_OPT_OUT</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Seniors Buyers List Canada Excl. QC</value>
+    </filters>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Seniors Buyers List Quebec</value>
+    </filters>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Seniors Buyers List US</value>
+    </filters>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Seniors Buyers List Industry Advisors</value>
+    </filters>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Seniors Buyers List Europe</value>
+    </filters>
+    <filters>
+        <field>Marketing_List__c</field>
+        <operation>includes</operation>
+        <value>Seniors Buyers List Non Seniors Housing</value>
+    </filters>
+    <filters>
+        <field>Contact_Status__c</field>
+        <operation>notEqual</operation>
+        <value>To Be Deleted,No Longer w/ Company,Retired / Inactive</value>
+    </filters>
+    <label>BFIN Seniors Buyers List (All Combined)</label>
+    <sharedTo>
+        <group>BFIN_Brokerage</group>
+    </sharedTo>
+</ListView>

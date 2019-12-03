@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Platform --></label>
+    <name>Platform__c</name>
+    <picklistValues>
+        <masterLabel>Agriculture</masterLabel>
+        <translation><!-- Agriculture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Credit</masterLabel>
+        <translation><!-- Corporate Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate High Yield</masterLabel>
+        <translation><!-- Corporate High Yield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit</masterLabel>
+        <translation><!-- Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit Opportunities</masterLabel>
+        <translation><!-- Credit Opportunities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy Infrastructure</masterLabel>
+        <translation><!-- Energy Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equity Opportunities</masterLabel>
+        <translation><!-- Equity Opportunities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investments</masterLabel>
+        <translation><!-- Investments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunistic MBS</masterLabel>
+        <translation><!-- Opportunistic MBS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power</masterLabel>
+        <translation><!-- Power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Equity</masterLabel>
+        <translation><!-- Private Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Property</masterLabel>
+        <translation><!-- Property --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Asset Debt</masterLabel>
+        <translation><!-- Real Asset Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Asset Solutions</masterLabel>
+        <translation><!-- Real Asset Solutions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate</masterLabel>
+        <translation><!-- Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Securitized Credit</masterLabel>
+        <translation><!-- Securitized Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specialty Funds</masterLabel>
+        <translation><!-- Specialty Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategic Income</masterLabel>
+        <translation><!-- Strategic Income --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timberland</masterLabel>
+        <translation><!-- Timberland --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_National_Account_Opty</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share National Account Opty</label>
+        <sharedTo>
+            <group>NA_WMG_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>National Accounts Opportunity</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Standard_Opty_to_All</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SS: created to share WMG opty to all internal users.</description>
+        <label>Share Standard Opty to All</label>
+        <sharedTo>
+            <allInternalUsers/>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sales Opportunity</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

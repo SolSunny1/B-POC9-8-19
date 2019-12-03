@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Office_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Real_Estate_Lead__c</fields>
+    <fields>Private_Equity_Lead__c</fields>
+    <fields>Real_Asset_Infra_Lead__c</fields>
+    <fields>PSG_Primary_Marketing_Rep__c</fields>
+    <fields>Total_PSG_Amount__c</fields>
+    <label>Office Layout</label>
+</CompactLayout>

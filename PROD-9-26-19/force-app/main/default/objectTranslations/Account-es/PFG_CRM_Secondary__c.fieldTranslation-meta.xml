@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Secondary CRM when it comes to a Co-coverage model --></help>
+    <label><!-- Private Equity Lead --></label>
+    <name>PFG_CRM_Secondary__c</name>
+    <relationshipLabel><!-- Accounts (Private Equity Lead) --></relationshipLabel>
+</CustomFieldTranslation>

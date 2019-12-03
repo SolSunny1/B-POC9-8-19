@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Filter_Has_Opportunities__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set to true do default the has opportunities filter [BF-5]</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set to true do default the has opportunities filter</inlineHelpText>
+    <label>Default Filter Has Opportunities</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

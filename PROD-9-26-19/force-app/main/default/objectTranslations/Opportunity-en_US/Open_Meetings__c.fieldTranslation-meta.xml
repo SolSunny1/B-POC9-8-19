@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up to track if their are meeting notes that need to be entered --></help>
+    <label><!-- Open Meetings --></label>
+    <name>Open_Meetings__c</name>
+</CustomFieldTranslation>

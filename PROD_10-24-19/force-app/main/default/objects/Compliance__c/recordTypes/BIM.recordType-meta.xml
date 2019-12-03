@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIM</fullName>
+    <active>true</active>
+    <label>PSG</label>
+    <picklistValues>
+        <picklist>AUM__c</picklist>
+        <values>
+            <fullName>%240 to Over %2450 Million</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over %24100%2C000%2C000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over %2450%2C000%2C000</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investment_Exp_with_Private_Securities__c</picklist>
+        <values>
+            <fullName>Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highly Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Novice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some Experience</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investment_Exp_with_Public_Securities__c</picklist>
+        <values>
+            <fullName>Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highly Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Novice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some Experience</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investment_Experience_Type__c</picklist>
+        <values>
+            <fullName>Private Securities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public %26 Private Securities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public securities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Legal_Structure_of_Offeree__c</picklist>
+        <values>
+            <fullName>Endowment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Entity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Coporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taft Hartley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manager_Experience__c</picklist>
+        <values>
+            <fullName>Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highly Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Novice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Some Experience</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pre_Existing_Contact__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pre_Qualified__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_in_person_meeting_with_Offeree__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Public_Private__c</picklist>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>30 day cooling off period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%26C Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%26C Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%26C Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subscriber_Type__c</picklist>
+        <values>
+            <fullName>Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Liability Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pension Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Suitable_for_investment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unsolicited_request__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_meeting_initiated_on_this_investment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

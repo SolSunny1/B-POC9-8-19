@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_Meetings_CVENT_TEXT__c</fullName>
+    <description>IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;AF I&quot;), &quot;AF I; &quot;, NULL) + has been removed temp due to restriction
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCOF&quot;), &quot;BCOF; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP II&quot;), &quot;BCP II; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP II LPAC&quot;), &quot;BCP II LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BREF II&quot;), &quot;BREF II; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BREF III&quot;), &quot;BREF III; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BREF III LPAC&quot;), &quot;BREF III LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BREF IV&quot;), &quot;BREF IV; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund___c, &quot;BREF IV LPAC&quot;), &quot;BREF IV LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_c, &quot;Thayer IV&quot;), &quot;Thayer IV; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_c, &quot;VAMF I&quot;), &quot;VAMF I; &quot; , NULL) +</description>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BREF V LPAC&quot;), &quot;BREF V LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;AF II&quot;), &quot;AF II; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP III&quot;), &quot;BCP III; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP III LPAC&quot;), &quot;BCP III LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP IV&quot;), &quot;BCP IV; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP IV LPAC&quot;), &quot;BCP IV LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BCP V LPAC&quot;), &quot;BCP V LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BID (EURO)&quot;), &quot;BID (EURO); &quot;, NULL) +  
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BID (USD)&quot;), &quot;BID (USD); &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BID (USD) LPAC&quot;), &quot;BID (USD) LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF I&quot;), &quot;BIF I; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF II&quot;), &quot;BIF II; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF III&quot;), &quot;BIF III; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF IV&quot;), &quot;BIF IV; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF IV LPAC&quot;), &quot;BIF IV LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF III LPAC&quot;), &quot;BIF III LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF II LPAC&quot;), &quot;BIF II LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BIF I LPAC&quot;), &quot;BIF I LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BPREP&quot;), &quot;BPREP; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BPREP LPAC&quot;), &quot;BPREP LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BPREP Au&quot;), &quot;BPREP Au; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BREF V&quot;), &quot;BREF V; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREF&quot;), &quot;BSREF; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREF LPAC&quot;), &quot;BSREF LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREP I&quot;), &quot;BSREP I; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREP II&quot;), &quot;BSREP II; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREP II LPAC&quot;), &quot;BSREP II LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREP III&quot;), &quot;BSREP III; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSIP LPAC&quot;), &quot;BSIP LPAC; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREP III LPAC&quot;), &quot;BSREP III LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSREP I LPAC&quot;), &quot;BSREP I LPAC; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSIP I&quot;), &quot;BSIP I; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;BSIP&quot;), &quot;BSIP; &quot;, NULL) +
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;DTLA&quot;), &quot;DTLA; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;GGP&quot;), &quot;GGP; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;Thayer V&quot;), &quot;Thayer V; &quot;, NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;Thayer VI&quot;), &quot;Thayer VI; &quot;, NULL)+
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;VAMF II&quot;), &quot;VAMF II; &quot; , NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;VAMF II LPAC&quot;), &quot;VAMF II LPAC; &quot; , NULL) + 
+IF(INCLUDES( Private_Investor_Day_Fund_Meetings__c, &quot;VAMF III&quot;), &quot;VAMF III; &quot;, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Fund Meetings CVENT TEXT - Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

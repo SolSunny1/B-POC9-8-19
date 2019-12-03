@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Peak_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Peak Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>5x16</fullName>
+                <default>false</default>
+                <label>5x16</label>
+            </value>
+            <value>
+                <fullName>2x16</fullName>
+                <default>false</default>
+                <label>2x16</label>
+            </value>
+            <value>
+                <fullName>7x8</fullName>
+                <default>false</default>
+                <label>7x8</label>
+            </value>
+            <value>
+                <fullName>7x24</fullName>
+                <default>false</default>
+                <label>7x24</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profile_Ids__c</fullName>
+    <description>List of profile ids, separated by commas which specify the profile id&#39;s used to identify a CRM end user [BF-5]</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of profile ids, separated by commas which specify the profile id&#39;s used to identify a CRM end user</inlineHelpText>
+    <label>Profile Ids</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

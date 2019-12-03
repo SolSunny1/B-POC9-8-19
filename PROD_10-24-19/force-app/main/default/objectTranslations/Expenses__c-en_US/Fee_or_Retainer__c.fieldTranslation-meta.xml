@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fee or Retainer --></label>
+    <name>Fee_or_Retainer__c</name>
+    <picklistValues>
+        <masterLabel>Fee</masterLabel>
+        <translation><!-- Fee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retainer</masterLabel>
+        <translation><!-- Retainer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

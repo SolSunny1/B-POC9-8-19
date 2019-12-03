@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>InvestorPositionName</fullName>
+        <description>Populate Investor Position Name</description>
+        <field>Name</field>
+        <formula>if(not(isblank( Legal_Name__c)), LEFT(Investment_Vehicle__r.Name &amp;&quot; - &quot;&amp; Legal_Name__c , 80),LEFT(Investment_Vehicle__r.Name &amp;&quot; - &quot;&amp;	Investor_Position_Account__r.Name , 80))</formula>
+        <name>InvestorPositionName</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mandate_Family_Series</fullName>
+        <description>Mandate family series copied from the formula field</description>
+        <field>Mandate_Series_Family_Text__c</field>
+        <name>Mandate Family Series</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NAV_Update</fullName>
+        <description>Update IP NAV</description>
+        <field>NAV__c</field>
+        <formula>Opportunity_Name__r.NAV__c</formula>
+        <name>NAV Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_FIR_Inv_Period_Invested</fullName>
+        <description>populate fee rate from opportunity</description>
+        <field>FIR_Investment_Period_Invested__c</field>
+        <formula>Opportunity_Name__r.FIR_Investment_Period_Invested__c</formula>
+        <name>PFG - Update FIR Inv. Period Invested</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_FIR_Inv_Period_Uninvested</fullName>
+        <description>populate fee rate from opportunity</description>
+        <field>FIR_Investment_Period_Uninvested__c</field>
+        <formula>Opportunity_Name__r.FIR_Investment_Period_Uninvested__c</formula>
+        <name>PFG - Update FIR Inv. Period Uninvested</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_FIR_Inv_period_Committed</fullName>
+        <description>populate fee rate from opportunity</description>
+        <field>Fund_Investor_Rate_Investment_Period__c</field>
+        <formula>Opportunity_Name__r.FIR_Investment_Period_Committed__c</formula>
+        <name>PFG Update - FIR Inv period Committed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_FIR_Other</fullName>
+        <description>populate fee rate from opportunity</description>
+        <field>FIR_Other_Rate__c</field>
+        <formula>Opportunity_Name__r.FIR_Other_Rate__c</formula>
+        <name>PFG - Update FIR Other</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_FIR_P_Inv_Period_Invested</fullName>
+        <field>FIR_Post_Investment_Period_Invested__c</field>
+        <formula>Opportunity_Name__r.FIR_Post_Investment_Period_Invested__c</formula>
+        <name>PFG - Update FIR P/Inv. Period Invested</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_FIR_P_Inv_Period_uninvest</fullName>
+        <description>populate fee rate from opportunity</description>
+        <field>FIR_Post_Investment_Period_Univested__c</field>
+        <formula>Opportunity_Name__r.FIR_Post_Investment_Period_Univested__c</formula>
+        <name>PFG - Update FIR P/Inv. Period uninvest</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Update_Fees</fullName>
+        <field>Fund_Investor_Rate_Investment_Period__c</field>
+        <formula>Opportunity_Name__r.FIR_Investment_Period_Committed__c</formula>
+        <name>PFG Update Fees</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Platform_Text_Update</fullName>
+        <field>PFG_Platform_Text__c</field>
+        <formula>Platform__c</formula>
+        <name>Platform Text Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateAsOfLastQuaterText</fullName>
+        <field>As_of_Last_quater_text__c</field>
+        <formula>If(AND( 
+CEILING( MONTH( As_of__c ) / 3 ) = CASE(CEILING( MONTH( TODAY() ) / 3), 1,4,2,1,3,2,4,1,0) , 
+Today() - As_of__c &lt; 184, 
+Today() - As_of__c &gt; 0 
+), &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <name>UpdateAsOfLastQuaterText</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_AUM_Number</fullName>
+        <field>AUM_Number__c</field>
+        <formula>Investment_Vehicle__r.Fund_AUM__c * Ownership_of_each_fund__c</formula>
+        <name>Update AUM Number</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Raised_Capital</fullName>
+        <field>Final_Amount_invested_in__c</field>
+        <formula>(Investment_Vehicle__r.Name) +  &quot; - $&quot; + text(Historical_Commitment_US__c/100000)</formula>
+        <name>Update Raised Capital</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>legal_name</fullName>
+        <description>Update the legal name from the Opportunity</description>
+        <field>Legal_Name__c</field>
+        <name>legal name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>InvestorPositionName</fullName>
+        <actions>
+            <name>InvestorPositionName</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>change Investor Position Name for auto created possitions</description>
+        <formula>NOT(CONTAINS(Name , Investment_Vehicle__r.Name))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mandate Series Family Text</fullName>
+        <actions>
+            <name>Mandate_Family_Series</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Investor_Position__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fund Internal</value>
+        </criteriaItems>
+        <description>Mandate Family Series is populated from the formula field</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Populate Platform</fullName>
+        <actions>
+            <name>Platform_Text_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Investor_Position__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fund Internal</value>
+        </criteriaItems>
+        <description>PFG Populate Platform Text field so it can be searchable</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Update Fees %26 NAV</fullName>
+        <actions>
+            <name>NAV_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PFG_Update_FIR_Inv_Period_Invested</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PFG_Update_FIR_Inv_Period_Uninvested</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PFG_Update_FIR_Inv_period_Committed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PFG_Update_FIR_Other</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PFG_Update_FIR_P_Inv_Period_Invested</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PFG_Update_FIR_P_Inv_Period_uninvest</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>legal_name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Investor_Position__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fund Internal</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Upate Final Investment</fullName>
+        <actions>
+            <name>Update_Raised_Capital</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Investor_Position__c.Is_Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Investor_Position__c.zzWorkflowActivate__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>to help with account roll up. Combines the Investment Vehicle Name and the Amount</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update AUM Number</fullName>
+        <actions>
+            <name>Update_AUM_Number</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Investor_Position__c.Ownership_of_each_fund__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Investment_Vehicle__c.Fund_AUM__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>UpdateAsOfLastQuaterText</fullName>
+        <actions>
+            <name>UpdateAsOfLastQuaterText</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Investor_Position__c.As_of__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

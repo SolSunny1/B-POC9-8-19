@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>PFG Opportunity Changes</name>
+    <style>freeForm</style>
+    <subject>New/Changed Opportunity</subject>
+    <textOnly>The Opportunity {!Opportunity.Name} has been changed or added to Salesforce.
+
+Details
+
+Account Name: {!Opportunity.Account}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Fund: {!Opportunity.Investment_Vehicle__c}
+City: {!Account.BillingCity}
+State: {!Account.BillingState}
+Close Date: {!Opportunity.CloseDate}
+Size: {!Opportunity.Amount}
+Stage: {!Opportunity.StageName}
+
+Opportunity Link: {!Opportunity.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_David_Mullane_Contacts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>PFG_CRM_Lead__c</columns>
+    <columns>PFG_Asset_Mix_Coverage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PFG_CRM_Lead__c</field>
+        <operation>contains</operation>
+        <value>Mullane</value>
+    </filters>
+    <label>PFG - David Mullane Contacts</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

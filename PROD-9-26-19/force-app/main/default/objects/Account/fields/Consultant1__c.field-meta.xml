@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultant1__c</fullName>
+    <externalId>false</externalId>
+    <label>Consultant</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mercer</fullName>
+                <default>false</default>
+                <label>Mercer</label>
+            </value>
+            <value>
+                <fullName>Willis Towers Watson</fullName>
+                <default>false</default>
+                <label>Willis Towers Watson</label>
+            </value>
+            <value>
+                <fullName>Aon Hewitt</fullName>
+                <default>false</default>
+                <label>Aon Hewitt</label>
+            </value>
+            <value>
+                <fullName>Morneau Shepell</fullName>
+                <default>false</default>
+                <label>Morneau Shepell</label>
+            </value>
+            <value>
+                <fullName>Eckler Ltd</fullName>
+                <default>false</default>
+                <label>Eckler Ltd</label>
+            </value>
+            <value>
+                <fullName>Buck Consultants Limited</fullName>
+                <default>false</default>
+                <label>Buck Consultants Limited</label>
+            </value>
+            <value>
+                <fullName>Coughlin &amp; Associates</fullName>
+                <default>false</default>
+                <label>Coughlin &amp; Associates</label>
+            </value>
+            <value>
+                <fullName>Robertson Eadie &amp; Associates</fullName>
+                <default>false</default>
+                <label>Robertson Eadie &amp; Associates</label>
+            </value>
+            <value>
+                <fullName>The Segal Group</fullName>
+                <default>false</default>
+                <label>The Segal Group</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

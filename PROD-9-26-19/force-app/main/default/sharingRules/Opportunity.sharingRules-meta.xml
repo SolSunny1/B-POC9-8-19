@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>BAC_Opportunity_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BAC Opportunity Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>BAC</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BAC Overview</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BFIN_Europe_Executives</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>BFIN Europe Executives</label>
+        <sharedTo>
+            <group>BFIN_Europe_Executive_Oppty_Viewing</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Office_Country__c</field>
+            <operation>equals</operation>
+            <value>Germany,United Kingdom</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN Infrastructure,BFIN General</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BFIN_Opportunity_Admin_Asia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BFIN Opportunity Admin_Asia</label>
+        <sharedTo>
+            <group>BFIN_Opportunity_Admin_Asia</group>
+        </sharedTo>
+        <booleanFilter>(1 or 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Office_Country__c</field>
+            <operation>equals</operation>
+            <value>Asia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN General,BFIN Infrastructure</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Deal_Team__c</field>
+            <operation>contains</operation>
+            <value>WS,RB,FW</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BFIN_Opportunity_Admin_EU</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BFIN Opportunity Admin_EU</label>
+        <sharedTo>
+            <group>BFIN_Opportunity_Admin_EU</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Office_Country__c</field>
+            <operation>equals</operation>
+            <value>United Kingdom,Germany</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN General,BFIN Infrastructure</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BFIN_Opportunity_Admin_NYC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BFIN Opportunity Admin_NYC</label>
+        <sharedTo>
+            <group>BFIN_Opportunity_Admin_NYC</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Office_Country__c</field>
+            <operation>equals</operation>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN General,BFIN Infrastructure</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BFIN_PublicRead_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BFIN PublicRead Access</label>
+        <sharedTo>
+            <roleAndSubordinates>BFIN</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Private__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN Infrastructure,BFIN General</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BRP_BEMI_renewables</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BRP BEMI renewables</label>
+        <sharedTo>
+            <group>BRP</group>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BRP Comm Dev</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PSG_Opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>To allow the PSG team to see their Opportunities</description>
+        <label>PSG Opportunities</label>
+        <sharedTo>
+            <group>BIM_Opportunity</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG,PSG Credit Opportunities</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PSG_Oppty_for_PFG_view</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PSG Oppty for PFG view</label>
+        <sharedTo>
+            <group>PFG_Support_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG Credit Opportunities</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_IRDP_with_PSG</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share IRDP with PSG</label>
+        <sharedTo>
+            <roleAndSubordinates>BIM</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1 or 2</booleanFilter>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>IRDP</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG Research Opportunity</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_PSG_RW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with PSG RW</label>
+        <sharedTo>
+            <group>PSG_Research_Opportunity</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG Research Opportunity</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>BAM_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BAM Finance</label>
+        <sharedTo>
+            <role>BAM_Finance</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>BAM_Finance</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BFIN_Opportunity_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BFIN Opportunity Admin</label>
+        <sharedTo>
+            <group>BFIN_Opportunity_Administration</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>BFIN</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PFG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PFG</label>
+        <sharedTo>
+            <roleAndSubordinates>PFG</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>PFG</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Platforms</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Platforms</label>
+        <sharedTo>
+            <roleAndSubordinates>PFG_Platforms</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>PFG</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>View_All_Opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>View All Opportunities</label>
+        <sharedTo>
+            <group>PMT_Overview_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>BAM</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

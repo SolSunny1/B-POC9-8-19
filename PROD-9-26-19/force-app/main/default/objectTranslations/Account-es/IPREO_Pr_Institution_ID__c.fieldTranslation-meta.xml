@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- IPERO Account identifier --></help>
+    <label><!-- IPREO_Pr Institution ID --></label>
+    <name>IPREO_Pr_Institution_ID__c</name>
+</CustomFieldTranslation>

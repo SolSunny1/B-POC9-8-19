@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Active: Investor is currently looking to deploy capital within a given asset class in the next 18 months.
+
+Not Active: Investor is not currently looking to deploy capital within a given asset class in the next 18 months. --></help>
+    <label><!-- Investing Status --></label>
+    <name>Investing_Status__c</name>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation><!-- Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Active</masterLabel>
+        <translation><!-- Not Active --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

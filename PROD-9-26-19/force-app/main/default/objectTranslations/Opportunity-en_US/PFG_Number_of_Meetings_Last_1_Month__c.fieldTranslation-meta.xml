@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- roll up to count the number of PFG meetings if the Last 1 Month box is ticked --></help>
+    <label><!-- PFG Number of Meetings - Last 1 Month --></label>
+    <name>PFG_Number_of_Meetings_Last_1_Month__c</name>
+</CustomFieldTranslation>

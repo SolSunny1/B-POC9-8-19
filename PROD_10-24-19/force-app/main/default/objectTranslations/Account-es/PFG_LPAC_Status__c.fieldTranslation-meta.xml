@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The funds where the Account has an LPAC status.  Right now it&apos;s a manual field, but could use Roll up helper to pull the field from the won Opportunity records. --></help>
+    <label><!-- LPAC Status --></label>
+    <name>PFG_LPAC_Status__c</name>
+</CustomFieldTranslation>

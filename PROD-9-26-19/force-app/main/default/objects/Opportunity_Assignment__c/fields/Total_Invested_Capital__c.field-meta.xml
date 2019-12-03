@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Invested_Capital__c</fullName>
+    <description>This field field is populated with the amount &quot;Size&quot; field from the Opportunity record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the FULL amount of the Deal Size from the Opportunity record</inlineHelpText>
+    <label>Total Invested Capital</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

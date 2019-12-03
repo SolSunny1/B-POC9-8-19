@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>This object is used to list the allocation of all opportunties.  If only one CRM is responsibile for the opportunity an assignment is still opened but will be assigned strictly to the lead PFG at 100%.  If a secondary CRM is listed, the assignment will show a split between both.</description>
+    <motif>Custom83: Pencil</motif>
+</CustomTab>

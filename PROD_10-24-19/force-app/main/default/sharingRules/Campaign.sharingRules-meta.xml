@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Alternative_funds</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Alternative funds</label>
+        <sharedTo>
+            <roleAndSubordinates>PSG_ALTS</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Alternative Funds</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CampaignAccess</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CampaignAccess</label>
+        <sharedTo>
+            <roleAndSubordinates>BFIN</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Private__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>BFIN</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>BAM_BIM_PFG</fullName>
+        <accessLevel>All</accessLevel>
+        <label>BAM BIM PFG</label>
+        <sharedTo>
+            <roleAndSubordinates>BAM</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>BAM</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>BFIN_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BFIN Admin</label>
+        <sharedTo>
+            <group>BFIN_Opportunity_Administration</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>BFIN</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

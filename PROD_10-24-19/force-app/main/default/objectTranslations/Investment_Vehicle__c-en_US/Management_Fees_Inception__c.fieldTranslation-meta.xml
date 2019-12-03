@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up from most recent Investor Position records totalling the Management Fee since Inception. --></help>
+    <label><!-- Management Fee - Inception --></label>
+    <name>Management_Fees_Inception__c</name>
+</CustomFieldTranslation>

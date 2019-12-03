@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Cases_Open_and_Closed</fullName>
+    <booleanFilter>1</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notContain</operation>
+        <value>BLP</value>
+    </filters>
+    <label>All Cases - Open and Closed</label>
+    <sharedTo>
+        <role>BAM_TSG_Data_Archive</role>
+        <role>PFG_Salesforce_Support</role>
+        <role>PFG_Salesforce_Support_Team</role>
+    </sharedTo>
+</ListView>

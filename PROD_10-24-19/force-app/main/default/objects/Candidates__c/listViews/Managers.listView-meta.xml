@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Managers</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>Email__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Strategy__c</columns>
+    <columns>Sub_Strategy__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Candidates__c.Manager</value>
+    </filters>
+    <label>Managers</label>
+    <sharedTo>
+        <role>PSG_ALTS</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Number_of_Active_Opportunities__c</fullName>
+    <description>Rolls up active opportunity from Opportunities</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rolls up active opportunity from Opportunities</inlineHelpText>
+    <label>PFG # of Active Opportunities</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

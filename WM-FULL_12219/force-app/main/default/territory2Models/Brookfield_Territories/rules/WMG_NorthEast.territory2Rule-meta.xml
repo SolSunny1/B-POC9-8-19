@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>WMG NorthEast</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.SalesConnect__Category_1_Description__c</field>
+        <operation>equals</operation>
+        <value>Wealth Management</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.SalesConnect__Territory_Description_1__c</field>
+        <operation>equals</operation>
+        <value>Northeast</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>SalesConnect Office</value>
+    </ruleItems>
+</Territory2Rule>

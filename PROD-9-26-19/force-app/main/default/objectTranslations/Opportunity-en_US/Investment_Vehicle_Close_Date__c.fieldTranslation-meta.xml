@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select a fund close date by searching by Fund Short Name --></help>
+    <label><!-- Fund Close Type and Date --></label>
+    <name>Investment_Vehicle_Close_Date__c</name>
+    <relationshipLabel><!-- Opportunities --></relationshipLabel>
+</CustomFieldTranslation>

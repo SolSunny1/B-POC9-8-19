@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>PFG_New_Investment_Vehicle_created</fullName>
+        <ccEmails>dlbamteam_pfgsf@brookfield.com,DLBAMTeam_FinOpsStaff@brookfield.com</ccEmails>
+        <description>PFG - New Investment Vehicle created</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PFG_New_Investment_Vehicle_created</template>
+    </alerts>
+    <rules>
+        <fullName>PFG - New Investment Vehicle created</fullName>
+        <actions>
+            <name>PFG_New_Investment_Vehicle_created</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Investment_Vehicle__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fund Internal</value>
+        </criteriaItems>
+        <description>Email notification when a new investment vehicle is created in Salesforce</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

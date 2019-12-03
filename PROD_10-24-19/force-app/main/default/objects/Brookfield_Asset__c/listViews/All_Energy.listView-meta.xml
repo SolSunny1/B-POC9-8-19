@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Energy</fullName>
+    <columns>NAME</columns>
+    <columns>Asset_Region__c</columns>
+    <columns>Asset_Capacity_MW__c</columns>
+    <columns>Country__c</columns>
+    <columns>Sector__c</columns>
+    <columns>State_Prov__c</columns>
+    <columns>Status__c</columns>
+    <columns>Lookup__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Brookfield_Asset__c.Energy</value>
+    </filters>
+    <label>All Energy</label>
+</ListView>

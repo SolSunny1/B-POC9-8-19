@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Room_Access_Provided_auto__c</fullName>
+    <description>formula to tick box if there is data in either of the two data room fields</description>
+    <externalId>false</externalId>
+    <formula>OR(
+    NOT(ISBLANK(Data_Room_Access_Provided__c)),
+    NOT(ISBLANK(Data_Room_Last_Accessed__c))
+)</formula>
+    <inlineHelpText>formula to tick box if there is data in either of the two data room fields</inlineHelpText>
+    <label>Data Room Access Provided Auto</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

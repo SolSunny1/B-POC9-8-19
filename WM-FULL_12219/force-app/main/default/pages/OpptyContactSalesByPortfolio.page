@@ -1,0 +1,38 @@
+<apex:page standardController="Opportunity" extensions="OpptyContactSalesByPortfolioController" id="pg"> 
+
+<apex:includeScript value="{!$Resource.JQueryFile}"/>
+    <apex:sectionHeader title="{!Opportunity.Name}"/>
+    <apex:form id="fm">
+        <apex:pageBlock title="Contact Sales By Portfolio" id="pb">
+            <apex:pageMessages ></apex:pageMessages>
+            <apex:pageBlockSection columns="1" id="pbs"> 
+                <apex:pageBlockTable id="pbt" value="{!lstContactSalesPortfolio}" var="contactSalesPortfolio" style="width:100%">
+                    <apex:column headerValue="Select" >
+                        <input type="radio" name="ContactSalesTableGroup" id="{!contactSalesPortfolio.Id}" />
+                    </apex:column>
+                    <apex:repeat value="{!$ObjectType.SalesConnect__Contact_Portfolio_Breakdown__c.FieldSets.Contact_Sales_By_Portfolio_Table_mapping}"  var="f">
+                        <apex:column value="{!contactSalesPortfolio[f.fieldPath]}" headerValue="{!f.label}" />
+                    </apex:repeat>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Submit" onclick="return getSelectedContact();"/>
+                <apex:actionStatus id="submitAction">
+                    <apex:facet name="start"><img src="/img/loading.gif" alt="Loading graphic" />&nbsp;Please wait</apex:facet>
+                    <apex:facet name="stop"></apex:facet>
+                </apex:actionStatus>
+                <apex:commandButton value="Cancel" action="{!cancel}" status="submitAction"/>
+            </apex:pageBlockButtons>
+            <apex:actionFunction name="submit" action="{!submit}" rerender="fm" status="submitAction">
+                <apex:param name="selected" value="" />
+            </apex:actionFunction>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        function getSelectedContact(){
+            var $radio = $('input[name=ContactSalesTableGroup]:checked');
+            submit($radio.attr('id'));
+            return false;
+        }
+    </script>
+</apex:page>

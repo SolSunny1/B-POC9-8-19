@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OccupiedSpaceForTenantCustomers</fullName>
+    <active>true</active>
+    <description>This validation rule will prevent users from saving Property Relation records with a value in Occupied Space when Sub Type is not set as &quot;Tenant&quot;.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(Occupied_Space__c)), NOT(ISPICKVAL(SubType__c,&quot;Tenant&quot;)))</errorConditionFormula>
+    <errorDisplayField>Occupied_Space__c</errorDisplayField>
+    <errorMessage>Only Property Relations of Type &quot;Customer&quot; and SubType &quot;Tenant&quot; accepts values for Occupied Space.</errorMessage>
+</ValidationRule>

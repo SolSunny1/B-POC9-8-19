@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- for workflow to update if materials fields have changed --></help>
+    <label><!-- Materials Required fields updated --></label>
+    <name>Materials_Required_fields_updated__c</name>
+</CustomFieldTranslation>

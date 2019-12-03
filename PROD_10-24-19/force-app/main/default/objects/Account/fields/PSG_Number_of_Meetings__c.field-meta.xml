@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG_Number_of_Meetings__c</fullName>
+    <description>roll up of PSG Meetings of all time - sum of the number of Meetings on a BIM Opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>roll up of PSG Meetings of all time - sum of the number of Meetings on a BIM Opportunity</inlineHelpText>
+    <label>PSG Number of Meetings</label>
+    <summarizedField>Opportunity.Number_of_PSG_Events__c</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.PSG_Meeting_Held_Auto__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

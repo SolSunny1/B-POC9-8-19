@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Lead_Reason</fullName>
+    <active>true</active>
+    <description>If idea is not qualified, Track status and reason (Ex: revisit in 6months, didn’t like, unsuccessful is not promoted)</description>
+    <errorConditionFormula>if(AND(OR(ISPICKVAL(Status  , &#39;Unqualified&#39;),ISPICKVAL(Status, &#39;Abandoned&#39;)),ISBLANK(Reason__c)),true,false)</errorConditionFormula>
+    <errorDisplayField>Reason__c</errorDisplayField>
+    <errorMessage>If Lead Status is Unqualified or Abandoned, please enter a Reason.</errorMessage>
+</ValidationRule>

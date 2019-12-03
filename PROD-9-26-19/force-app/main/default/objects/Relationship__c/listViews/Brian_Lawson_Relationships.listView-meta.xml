@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brian_Lawson_Relationships</fullName>
+    <columns>Account__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Depth__c</columns>
+    <columns>Description__c</columns>
+    <columns>Importance__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Relationship__c.Brookfield</value>
+    </filters>
+    <filters>
+        <field>Related_To_Contact__c</field>
+        <operation>contains</operation>
+        <value>Brian Lawson</value>
+    </filters>
+    <label>Brian Lawson Relationships</label>
+    <sharedTo>
+        <role>BAM</role>
+    </sharedTo>
+</ListView>

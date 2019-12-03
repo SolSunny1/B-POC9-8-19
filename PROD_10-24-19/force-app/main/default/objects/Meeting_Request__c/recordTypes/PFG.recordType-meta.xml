@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG</fullName>
+    <active>true</active>
+    <label>PFG</label>
+    <picklistValues>
+        <picklist>Book_Format__c</picklist>
+        <values>
+            <fullName>Electronic Copy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard Copy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Communication_of_details_to_Client__c</picklist>
+        <values>
+            <fullName>Administrative team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Service Rep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Manager</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Data_as_of_Date__c</picklist>
+        <values>
+            <fullName>Most recent available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Most recent month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Most recent quarter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Food_or_Refreshments__c</picklist>
+        <values>
+            <fullName>Breakfast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee%2FTea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drinks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snacks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Conference Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offsite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite%3A Boston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite%3A Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite%3A New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite%3A Toronto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Materials_Required__c</picklist>
+        <values>
+            <fullName>Client Update Book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Pitch Book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operational Due Diligence Pitch Book</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Pitch Book</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Type__c</picklist>
+        <values>
+            <fullName>Materials Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting %2B Materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting Only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject__c</picklist>
+        <values>
+            <fullName>Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Pitch</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

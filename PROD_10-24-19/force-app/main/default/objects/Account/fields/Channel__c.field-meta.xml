@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <description>Added for the RIA Institutional account data load - shows coverage channel</description>
+    <externalId>false</externalId>
+    <label>Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WMG</fullName>
+                <default>false</default>
+                <label>WMG</label>
+            </value>
+            <value>
+                <fullName>Channel Marketing</fullName>
+                <default>false</default>
+                <label>Channel Marketing</label>
+            </value>
+            <value>
+                <fullName>Institutional</fullName>
+                <default>false</default>
+                <label>Institutional</label>
+            </value>
+            <value>
+                <fullName>Shared</fullName>
+                <default>false</default>
+                <label>Shared</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

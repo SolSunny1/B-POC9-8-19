@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Investor__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( ISPICKVAL(StageName, &quot;8 - Closed/Confirmed&quot;),Account.PFG_Number_of_Original_Commitments__c &lt;2,Account.PFG_Number_of_Original_Commitments__c =0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>New Investor</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

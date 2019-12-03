@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>BLP_Profile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BLP Profile</shortDescription>
+        <value>BLP_EU,BLP_NA,BLP_Admin,BLP_Support</value>
+    </labels>
+    <labels>
+        <fullName>Campaign_Member_detail_Error_on_Creation</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Member detail Error on Creation</shortDescription>
+        <value>campaign members there could not been created a task. The reason might be that the owner is inactive or a queue. For the whole list ...</value>
+    </labels>
+    <labels>
+        <fullName>Campaign_Title_Error</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Task Creation Title Error</shortDescription>
+        <value>Task creation procceeded with errors</value>
+    </labels>
+    <labels>
+        <fullName>Campaign_member_Detail_info_no_campaign_member</fullName>
+        <categories>Info messsage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign member Detail info no campaign member</shortDescription>
+        <value>This campaign has no campaign members or the query result of your filter selection is empty</value>
+    </labels>
+    <labels>
+        <fullName>Investment_Close_Date_Delete_Validation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Investment Close Date Delete Validation</shortDescription>
+        <value>This investment vehicle close date is linked to an opportunity, point any opportunities related to this date to another date and then this date can be deleted.</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Creating_Duplicate_Oppty</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass_Opp_Creating_Duplicate_Oppty</shortDescription>
+        <value>This will create a duplicate of a closed opportunity on this account</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Has_Active_PSG_Campaigns</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Has Active PSG Campaigns?</shortDescription>
+        <value>Has Active PSG Campaigns?</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Has_Opportunities</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass_Opp_Has_Opportunities</shortDescription>
+        <value>Has Opportunities?</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Hide_Opportunities_Created</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass_Opp_Hide_Opportunities_Created</shortDescription>
+        <value>Hide Opportunities Already Created?</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Investment_Vehicle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Investment Vehicle</shortDescription>
+        <value>Fund</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_More_than_1000_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp More than 1000 Results</shortDescription>
+        <value>More than 1000 results, please refine your search criteria</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_New_Size</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp New Size</shortDescription>
+        <value>New Size</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_No_Contacts_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp No Contacts Found</shortDescription>
+        <value>No Contacts Found</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Owner</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass_Opp_Opp_Owner</shortDescription>
+        <value>Opportunity Owner</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_PSG_Active_Campaigns</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp PSG Active Campaigns</shortDescription>
+        <value>Active Campaigns</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_PSG_Primary_Lead</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp PSG Primary Lead</shortDescription>
+        <value>PSG Marketing Rep</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Populate_Create_Fields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Populate Create Fields</shortDescription>
+        <value>Please ensure all fields are populated for the opportunities you wish to create</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Previous_Size</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Previous Size</shortDescription>
+        <value>Previous Size</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Probability_Range</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Probability Range</shortDescription>
+        <value>The probably from value must be less than the probability to value</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass_Opp_Record_Type</shortDescription>
+        <value>Record Type</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Search_Contacts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Search Contacts</shortDescription>
+        <value>Please search for contacts prior to creating opportunities</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Select_Contacts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Select Contacts</shortDescription>
+        <value>Please select at least one contact prior to creating opportunities</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Select_Investment_Vehicle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Select Investment Vehicle</shortDescription>
+        <value>Please select an Investment Vehicle</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Opp_Specify_Opp_Stage_or</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Opp Specify Opp Stage or %</shortDescription>
+        <value>Please specify an Opportunity Stage OR Probability Range</value>
+    </labels>
+    <labels>
+        <fullName>Mass_Task_Creation_for_Contacts</fullName>
+        <categories>Confirm Mesage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Mass Task Creation for Contacts</shortDescription>
+        <value>You have successfully created a follow up task for the selected contacts.  Create another task for additional contacts or click “Back to Campaign” to go back to Campaign Details</value>
+    </labels>
+    <labels>
+        <fullName>NewLine</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewLine</shortDescription>
+        <value>-
+-</value>
+    </labels>
+    <labels>
+        <fullName>No_Campaign_Members_found</fullName>
+        <categories>Info messsage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Campaign Members found</shortDescription>
+        <value>No Campaign Members found with given filter.</value>
+    </labels>
+    <labels>
+        <fullName>No_Campaign_Selected</fullName>
+        <categories>Warning Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Campaign Selected</shortDescription>
+        <value>No Campaign Member selected!</value>
+    </labels>
+    <labels>
+        <fullName>No_record_Selected</fullName>
+        <categories>Info messsage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No record Selected</shortDescription>
+        <value>No record selected to update the fields</value>
+    </labels>
+    <labels>
+        <fullName>PSG_Compliance_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PSG Compliance Record Type</shortDescription>
+        <value>01233000000MIBDAA4</value>
+    </labels>
+    <labels>
+        <fullName>Please_Select_a_Role</fullName>
+        <categories>Warning Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please Select a Role</shortDescription>
+        <value>Please Select a Role</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_Task_Details</fullName>
+        <categories>Info messsage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesforce Task Details</shortDescription>
+        <value>Salesforce Task Details</value>
+    </labels>
+    <labels>
+        <fullName>Select_User_for_Email</fullName>
+        <categories>Warning Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select User for Email</shortDescription>
+        <value>Please select a user to send email</value>
+    </labels>
+    <labels>
+        <fullName>Too_many_campaign_members</fullName>
+        <categories>Info messsage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Too many campaign members</shortDescription>
+        <value>Too many campaign members</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Filter_Stage__c</fullName>
+    <defaultValue>&#39;8 - Closed/Confirmed (PSG)&#39;</defaultValue>
+    <description>Default Stage Name for opportunity filters [BF-5]</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default Stage Name for opportunity filters</inlineHelpText>
+    <label>Default Filter Stage</label>
+    <length>40</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

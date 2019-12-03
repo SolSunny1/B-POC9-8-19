@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_My_Key_Contact_Infra</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>PFG_Asset_Mix_Coverage__c</columns>
+    <columns>PFG_CRM_Lead__c</columns>
+    <columns>PFG_Key_Contact__c</columns>
+    <columns>Public_Investor_Day_Invitee_Type__c</columns>
+    <columns>Private_Investor_Day_Fund_Meetings__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PFG_My_Contact__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PFG_Key_Contact__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PFG_Asset_Mix_Coverage__c</field>
+        <operation>includes</operation>
+        <value>Infrastructure</value>
+    </filters>
+    <label>PFG My Key Contact - Infra</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

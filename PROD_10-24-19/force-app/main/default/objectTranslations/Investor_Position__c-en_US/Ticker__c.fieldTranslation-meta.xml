@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Ticker --></label>
+    <name>Ticker__c</name>
+    <picklistValues>
+        <masterLabel>BAM</masterLabel>
+        <translation><!-- BAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BEP</masterLabel>
+        <translation><!-- BEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIP</masterLabel>
+        <translation><!-- BIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BOX</masterLabel>
+        <translation><!-- BOX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPO</masterLabel>
+        <translation><!-- BPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPY</masterLabel>
+        <translation><!-- BPY --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

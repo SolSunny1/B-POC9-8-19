@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Final Amount invested in (auto) --></label>
+    <name>Final_Amount_invested_in_auto__c</name>
+</CustomFieldTranslation>

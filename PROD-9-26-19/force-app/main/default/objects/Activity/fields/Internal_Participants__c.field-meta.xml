@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Participants__c</fullName>
+    <description>To list the Brookfield team members that attended the meeting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To list the Brookfield team members that attended the meeting.  Please populate their FULL NAME as report filters will be used on this field.</inlineHelpText>
+    <label>Internal Participants</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

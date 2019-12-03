@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Opportunities_Won</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Consultant_CRM__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Closed_by_CRM__c</columns>
+    <columns>Closed_by_Consultant__c</columns>
+    <columns>Closed_by_Consultant_CRM__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>Platform_Consultant_CRM__c</columns>
+    <columns>Legal_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.AMOUNT</field>
+        <operation>notEqual</operation>
+        <value>USD 0</value>
+    </filters>
+    <label>All Opportunities - Won</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

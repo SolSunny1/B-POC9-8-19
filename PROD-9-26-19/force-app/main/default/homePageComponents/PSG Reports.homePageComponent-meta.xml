@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>PSG_Custom_Reports</links>
+    <links>PSG_Dashboards</links>
+    <links>PSG_Opportunity_reports</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

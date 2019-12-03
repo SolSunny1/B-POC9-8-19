@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Stage__c</fullName>
+    <description>Pulled from the Opportunity.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Investor_Opportunity__r.StageName)</formula>
+    <inlineHelpText>Pulled from the Opportunity.</inlineHelpText>
+    <label>Opportunity Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

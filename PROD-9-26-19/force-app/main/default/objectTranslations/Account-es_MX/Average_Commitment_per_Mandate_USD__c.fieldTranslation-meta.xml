@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Average Commitment per Mandate (USD) --></label>
+    <name>Average_Commitment_per_Mandate_USD__c</name>
+    <picklistValues>
+        <masterLabel>100M+</masterLabel>
+        <translation><!-- 100M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10M+</masterLabel>
+        <translation><!-- 10M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>150M+</masterLabel>
+        <translation><!-- 150M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1M+</masterLabel>
+        <translation><!-- 1M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>200M+</masterLabel>
+        <translation><!-- 200M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20M+</masterLabel>
+        <translation><!-- 20M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>250M+</masterLabel>
+        <translation><!-- 250M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>300M+</masterLabel>
+        <translation><!-- 300M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30M+</masterLabel>
+        <translation><!-- 30M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>350M+</masterLabel>
+        <translation><!-- 350M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>400M+</masterLabel>
+        <translation><!-- 400M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40M+</masterLabel>
+        <translation><!-- 40M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>450M+</masterLabel>
+        <translation><!-- 450M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>500M+</masterLabel>
+        <translation><!-- 500M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50M+</masterLabel>
+        <translation><!-- 50M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>60M+</masterLabel>
+        <translation><!-- 60M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>70M+</masterLabel>
+        <translation><!-- 70M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>80M+</masterLabel>
+        <translation><!-- 80M+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>90M+</masterLabel>
+        <translation><!-- 90M+ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

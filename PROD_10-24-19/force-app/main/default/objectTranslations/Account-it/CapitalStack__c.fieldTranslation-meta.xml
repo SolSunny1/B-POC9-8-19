@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Capital Stack --></label>
+    <name>CapitalStack__c</name>
+    <picklistValues>
+        <masterLabel>Construction Debt</masterLabel>
+        <translation><!-- Construction Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equity</masterLabel>
+        <translation><!-- Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mezz Debt</masterLabel>
+        <translation><!-- Mezz Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preferred Equity</masterLabel>
+        <translation><!-- Preferred Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Debt</masterLabel>
+        <translation><!-- Senior Debt --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

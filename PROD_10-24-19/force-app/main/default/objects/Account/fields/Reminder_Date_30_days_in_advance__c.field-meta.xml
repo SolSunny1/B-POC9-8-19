@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reminder_Date_30_days_in_advance__c</fullName>
+    <description>This field calculate 30 days from Account last Activity date - 30 days; used in 30 days advance email notification.</description>
+    <externalId>false</externalId>
+    <formula>Last_Activity_Date__c -30</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reminder Date 30 days in advance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_Historical_Commitment_byInvestor__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(Number_of_Historical_Investors__c &gt; 0 ,Historical_Commitment_US__c /  Number_of_Historical_Investors__c, Historical_Commitment_US__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculated automatically based on the Number of Historical/Original Investors and the total Raised Captial - USD.</inlineHelpText>
+    <label>Avg Raised Commitment by Investor</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Type__c</fullName>
+    <description>Inventory Type field has been referred on following places:
+Opportunity: 
+Field Name: Reporting_Investor_Type__c, Investor_Type__c, Account_Type__c
+-----
+Investor Position: 
+Field Name: Investor_Type__c
+                       Reporting_Investor_Type__c
+-----
+Compliance: 
+Field Name: Investor_Type__c
+---
+Object: Investor Position
+Field: Classification 
+Action: Optimized formula which was fixed by Pal yesterday. 
+https://na57.salesforce.com/00N33000002QBXu?setupid=CustomObjects</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of investor of the Account</inlineHelpText>
+    <label>Investor Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accountants</fullName>
+                <default>false</default>
+                <label>Accountants</label>
+            </value>
+            <value>
+                <fullName>Advisory</fullName>
+                <default>false</default>
+                <label>Advisory</label>
+            </value>
+            <value>
+                <fullName>Asset Manager</fullName>
+                <default>false</default>
+                <label>Asset Manager</label>
+            </value>
+            <value>
+                <fullName>Bank / Financial Institution</fullName>
+                <default>false</default>
+                <label>Bank / Financial Institution</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Endowment / Foundation</fullName>
+                <default>false</default>
+                <label>Endowment / Foundation</label>
+            </value>
+            <value>
+                <fullName>Government / Sovereign Wealth</fullName>
+                <default>false</default>
+                <label>Government / Sovereign Wealth</label>
+            </value>
+            <value>
+                <fullName>Hospitals / Health Care</fullName>
+                <default>false</default>
+                <label>Hospitals / Health Care</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Labor Organization</fullName>
+                <default>false</default>
+                <label>Labor Organization</label>
+            </value>
+            <value>
+                <fullName>Lawyers</fullName>
+                <default>false</default>
+                <label>Lawyers</label>
+            </value>
+            <value>
+                <fullName>Multi Family Office</fullName>
+                <default>false</default>
+                <label>Multi Family Office</label>
+            </value>
+            <value>
+                <fullName>Non-Investor</fullName>
+                <default>false</default>
+                <label>Non-Investor</label>
+            </value>
+            <value>
+                <fullName>OCIO</fullName>
+                <default>false</default>
+                <label>OCIO</label>
+            </value>
+            <value>
+                <fullName>Private Bank / Wirehouse</fullName>
+                <default>false</default>
+                <label>Private Bank / Wirehouse</label>
+            </value>
+            <value>
+                <fullName>Private Pension</fullName>
+                <default>false</default>
+                <label>Private Pension</label>
+            </value>
+            <value>
+                <fullName>Public Pension</fullName>
+                <default>false</default>
+                <label>Public Pension</label>
+            </value>
+            <value>
+                <fullName>RIA / Wealth Manager</fullName>
+                <default>false</default>
+                <label>RIA / Wealth Manager</label>
+            </value>
+            <value>
+                <fullName>Single Family Office</fullName>
+                <default>false</default>
+                <label>Single Family Office</label>
+            </value>
+            <value>
+                <fullName>UHNW</fullName>
+                <default>false</default>
+                <label>UHNW</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

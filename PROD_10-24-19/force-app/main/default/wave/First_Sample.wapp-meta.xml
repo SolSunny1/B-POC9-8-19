@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This App is used to save all test and draft items and share with related users. Please label the items with your name on.</description>
+    <folder>First_Sample</folder>
+    <masterLabel>PFG Test and Draft App</masterLabel>
+    <shares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>joe.cavicchia@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>joshy.john@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

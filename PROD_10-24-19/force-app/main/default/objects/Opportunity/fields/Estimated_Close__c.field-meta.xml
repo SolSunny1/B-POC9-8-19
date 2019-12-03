@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Close__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Probability of execution</inlineHelpText>
+    <label>Estimated Closing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First</fullName>
+                <default>false</default>
+                <label>First</label>
+            </value>
+            <value>
+                <fullName>Subsequent</fullName>
+                <default>false</default>
+                <label>Subsequent</label>
+            </value>
+            <value>
+                <fullName>Final</fullName>
+                <default>false</default>
+                <label>Final</label>
+            </value>
+            <value>
+                <fullName>Post-Close</fullName>
+                <default>false</default>
+                <label>Post-Close</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

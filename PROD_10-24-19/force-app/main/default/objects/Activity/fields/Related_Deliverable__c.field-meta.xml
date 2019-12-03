@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Deliverable__c</fullName>
+    <externalId>false</externalId>
+    <label>Related Deliverable</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canada Office Investors</fullName>
+                <default>false</default>
+                <label>Canada Office Investors</label>
+            </value>
+            <value>
+                <fullName>CA</fullName>
+                <default>false</default>
+                <label>CA</label>
+            </value>
+            <value>
+                <fullName>CIM</fullName>
+                <default>false</default>
+                <label>CIM</label>
+            </value>
+            <value>
+                <fullName>Data Room</fullName>
+                <default>false</default>
+                <label>Data Room</label>
+            </value>
+            <value>
+                <fullName>Due Diligence</fullName>
+                <default>false</default>
+                <label>Due Diligence</label>
+            </value>
+            <value>
+                <fullName>Flyer</fullName>
+                <default>false</default>
+                <label>Flyer</label>
+            </value>
+            <value>
+                <fullName>LOI</fullName>
+                <default>false</default>
+                <label>LOI</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Pitch</fullName>
+                <default>false</default>
+                <label>Pitch</label>
+            </value>
+            <value>
+                <fullName>PSA</fullName>
+                <default>false</default>
+                <label>PSA</label>
+            </value>
+            <value>
+                <fullName>Smart Email</fullName>
+                <default>false</default>
+                <label>Smart Email</label>
+            </value>
+            <value>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+                <label>Underwriting</label>
+            </value>
+            <value>
+                <fullName>MM Job Board</fullName>
+                <default>false</default>
+                <label>MM Job Board</label>
+            </value>
+            <value>
+                <fullName>Left Voice Mail</fullName>
+                <default>false</default>
+                <label>Left Voice Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

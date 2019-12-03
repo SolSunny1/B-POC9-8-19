@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- System will calculating value base on  “Date of Last Activity” field --></help>
+    <label><!-- Date of Last contact is within 12 months --></label>
+    <name>Date_of_Last_contact_is_within_12_months__c</name>
+</CustomFieldTranslation>

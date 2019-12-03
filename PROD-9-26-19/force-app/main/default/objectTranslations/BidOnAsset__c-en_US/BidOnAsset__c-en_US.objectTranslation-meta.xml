@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bid On Asset</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bids On Asset</value>
+    </caseValues>
+    <layouts>
+        <layout>Bid On Asset Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_All_Assets_to_Bid --></label>
+        <name>Add_All_Assets_to_Bid</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Asset --></label>
+        <name>Select_Asset</name>
+    </webLinks>
+</CustomObjectTranslation>

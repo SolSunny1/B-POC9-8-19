@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultant_Opportunities_Active</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Consultant__c</columns>
+    <columns>Consultant_CRM__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>PPM_Last_Sent__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <columns>Topup__c</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BID (USD),VAMF III,BREF V,BPREP (BCORE)</value>
+    </filters>
+    <filters>
+        <field>Consultant__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Consultant Opportunities - Active</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

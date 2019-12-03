@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Leases</fullName>
+    <columns>NAME</columns>
+    <columns>Property__c</columns>
+    <columns>Account__c</columns>
+    <columns>IDIG_Region__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Occupied_Space__c</columns>
+    <columns>Lease_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IDIG_Region__c</field>
+        <operation>notContain</operation>
+        <value>EU -</value>
+    </filters>
+    <filters>
+        <field>Lease_State__c</field>
+        <operation>notEqual</operation>
+        <value>Past</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Property_Relation__c.Account_Relation</value>
+    </filters>
+    <label>Active Leases</label>
+</ListView>

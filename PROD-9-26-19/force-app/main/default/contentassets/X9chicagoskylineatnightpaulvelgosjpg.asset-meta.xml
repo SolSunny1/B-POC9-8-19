@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>X9chicagoskylineatnightpaulvelgosjpg</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>9-chicago-skyline-at-night-paul-velgos.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

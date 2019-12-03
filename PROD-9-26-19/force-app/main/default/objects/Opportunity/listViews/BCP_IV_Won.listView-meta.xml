@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCP_IV_Won</fullName>
+    <columns>Country__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Legal_Name__c</columns>
+    <columns>Sleeve__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Closed_by_CRM__c</columns>
+    <columns>Parent_Opportunity__c</columns>
+    <columns>Sub_Investor_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BCP IV</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <label>BCP IV Won</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Exec</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Platforms</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support_Team</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Team</roleAndSubordinates>
+    </sharedTo>
+</ListView>

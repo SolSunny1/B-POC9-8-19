@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_modified_by_Joe</fullName>
+    <columns>NAME</columns>
+    <columns>Active__c</columns>
+    <columns>Geneva_Code__c</columns>
+    <columns>AUM__c</columns>
+    <columns>As_of__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>UPDATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>JOE</value>
+    </filters>
+    <filters>
+        <field>Is_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investor_Position__c.Public_Securities</value>
+    </filters>
+    <label>Last modified by Joe</label>
+</ListView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Contacts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE_CODE</columns>
+    <columns>CONTACT.ADDRESS2_COUNTRY_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Strategic_Contact__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Strategic Contacts</label>
+    <sharedTo>
+        <group>Brookfield_Executive</group>
+    </sharedTo>
+</ListView>

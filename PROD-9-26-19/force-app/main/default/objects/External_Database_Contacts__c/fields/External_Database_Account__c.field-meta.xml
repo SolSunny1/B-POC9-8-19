@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Database_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>from Preqin</description>
+    <externalId>false</externalId>
+    <label>External Database Account</label>
+    <referenceTo>External_Database_Account__c</referenceTo>
+    <relationshipLabel>External Database Contacts</relationshipLabel>
+    <relationshipName>External_Database_Contacts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

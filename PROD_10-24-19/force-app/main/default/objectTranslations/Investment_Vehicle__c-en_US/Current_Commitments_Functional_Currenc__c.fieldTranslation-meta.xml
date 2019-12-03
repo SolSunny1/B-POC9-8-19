@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up from most recent Investor Position records totalling the total Current Commitments in the Fund in Functional Currency.
+
+Current commitment is how much has been currently invested + available for drawndown left. --></help>
+    <label><!-- Current Commitment - Func. Currency --></label>
+    <name>Current_Commitments_Functional_Currenc__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Created for KYC Phase 2 project Case # 2808</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+                <label>Pending Approval</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>In-Complete</fullName>
+                <default>false</default>
+                <label>In-Complete</label>
+            </value>
+            <value>
+                <fullName>L&amp;C Approved</fullName>
+                <default>false</default>
+                <label>L&amp;C Approved</label>
+            </value>
+            <value>
+                <fullName>L&amp;C Rejected</fullName>
+                <default>false</default>
+                <label>L&amp;C Rejected</label>
+            </value>
+            <value>
+                <fullName>30 day cooling off period</fullName>
+                <default>false</default>
+                <label>30 day cooling off period</label>
+            </value>
+            <value>
+                <fullName>L&amp;C Expired</fullName>
+                <default>false</default>
+                <label>L&amp;C Expired</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

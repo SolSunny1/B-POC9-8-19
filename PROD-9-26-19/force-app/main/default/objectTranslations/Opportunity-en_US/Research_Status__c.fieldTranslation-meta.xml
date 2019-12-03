@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Not Approached: Outreach has not been made
+In Progress: Consultant is reviewing the fund
+Not Rated: Consultant has been approached, not actively reviewing this fund.
+Approved: Consultant has approved this fund
+Approved with Client/Discretionary Invest --></help>
+    <label><!-- Research Status --></label>
+    <name>Research_Status__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved with Client/Discretionary Investment</masterLabel>
+        <translation><!-- Approved with Client/Discretionary Investment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broad Approval</masterLabel>
+        <translation><!-- Broad Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client-Specific Approval</masterLabel>
+        <translation><!-- Client-Specific Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined</masterLabel>
+        <translation><!-- Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finalizing recommendation</masterLabel>
+        <translation><!-- Finalizing recommendation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Neutral Rating</masterLabel>
+        <translation><!-- Neutral Rating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Approached</masterLabel>
+        <translation><!-- Not Approached --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Rated</masterLabel>
+        <translation><!-- Not Rated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Relevant</masterLabel>
+        <translation><!-- Not Relevant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rated</masterLabel>
+        <translation><!-- Rated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supportive - Advisory Clients</masterLabel>
+        <translation><!-- Supportive - Advisory Clients --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supportive - no client demand</masterLabel>
+        <translation><!-- Supportive - no client demand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresponsive</masterLabel>
+        <translation><!-- Unresponsive --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

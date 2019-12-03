@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Alternative funds</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BFIN Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Data room --></label>
+            <section>Data room</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Status History --></label>
+            <section>Status History</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BIM Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BLP Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Data room --></label>
+            <section>Data room</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Status History --></label>
+            <section>Status History</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Annual Conf Campaign Member Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Required Information --></label>
+            <section>Required Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Alternative Fund record type --></description>
+        <label><!-- Alternative Fund --></label>
+        <name>Alternative_Fund</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BFIN --></label>
+        <name>BFIN</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BLP --></label>
+        <name>BLP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PFG --></label>
+        <name>PFG</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Brookfield Private Funds Annual Investor Conference (BPFAIC) --></description>
+        <label><!-- PFG Annual Conference --></label>
+        <name>PFG_Annual_Conference</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PSG Campaigns --></description>
+        <label><!-- PSG --></label>
+        <name>PSG</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Only Admins can make changes to this field. Please, contact PFG.Events@brookfield.com for assistance --></errorMessage>
+        <name>Fund_Meetings_Private_Investor_Day</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose which Fund Meeting(s) to Invite this Investor to --></errorMessage>
+        <name>Member_Status_for_Investor</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Follow_Up_Task --></label>
+        <name>Create_Follow_Up_Task</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update --></label>
+        <name>Mass_Update</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Update_Mrkt --></label>
+        <name>Mass_Update_Mrkt</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_BIM_Opportunity --></label>
+        <name>New_BIM_Opportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Bid --></label>
+        <name>New_Bid</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Event --></label>
+        <name>New_Event</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Task --></label>
+        <name>New_Task</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Prospect_Activities --></label>
+        <name>Prospect_Activities</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>Send_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

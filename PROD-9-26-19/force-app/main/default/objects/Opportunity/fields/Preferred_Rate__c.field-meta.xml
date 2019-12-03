@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Rate__c</fullName>
+    <description>The preferred return, or &quot;hurdle rate&quot;, is basically a minimum annual return that the limited partners are entitled to before the general partners may begin receiving carried interest. If there is a hurdle, the rate is typically around 8%.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The preferred return, or &quot;hurdle rate&quot;, is basically a minimum annual return that the limited partners are entitled to before the general partners may begin receiving carried interest. If there is a hurdle, the rate is typically around 8%.</inlineHelpText>
+    <label>Preferred Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

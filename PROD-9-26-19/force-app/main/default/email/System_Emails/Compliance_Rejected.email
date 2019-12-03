@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial"><span style="font-size: 12pt;">The Compliance {!Compliance__c.Link} for account {!Compliance__c.Prospect_Name__c}, has been Rejected.</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b>Reason:&nbsp;</b>{!ApprovalRequest.Comments}<br><div><br></div><div><b>Compliance Link:</b>&nbsp;<span style="font-size: 12pt;">{!Compliance__c.Link}</span></div></div><div style=""><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><b>CRM:&nbsp;</b></span><font face="arial">{!Compliance__c.CRM_Primary__c}</font></div>]]></td>
+</tr>
+</table>

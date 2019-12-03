@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PFG Date of First Commitment --></label>
+    <name>PFG_Date_of_first_Commitment__c</name>
+</CustomFieldTranslation>

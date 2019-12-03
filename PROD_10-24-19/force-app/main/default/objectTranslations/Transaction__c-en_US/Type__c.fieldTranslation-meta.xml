@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Follow-on</masterLabel>
+        <translation><!-- Follow-on --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Original</masterLabel>
+        <translation><!-- Original --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pledge(Nothing)</masterLabel>
+        <translation><!-- Pledge(Nothing) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Redemption</masterLabel>
+        <translation><!-- Redemption --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transfer In</masterLabel>
+        <translation><!-- Transfer In --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transfer out</masterLabel>
+        <translation><!-- Transfer out --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

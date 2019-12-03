@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Type of Intralinks access. --></help>
+    <label><!-- Intralinks --></label>
+    <name>Intralinks__c</name>
+    <picklistValues>
+        <masterLabel>Access and Alerts</masterLabel>
+        <translation><!-- Access and Alerts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Access only, no Alerts</masterLabel>
+        <translation><!-- Access only, no Alerts --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

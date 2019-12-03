@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/5.png</assetIcon>
+    <description>This App is used to store other datasets from Salesforce trending reports, outside sources..etc
+Please don&#39;t make any changes since these datasets are used and connected to other data-sets in EA. Many dashboards run from a few field.</description>
+    <folder>Other_Data_Sources_Plz_Don_t_touch_any</folder>
+    <masterLabel>Other Data Sources (Plz Don&#39;t touch any)</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>palwasha.salehy@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

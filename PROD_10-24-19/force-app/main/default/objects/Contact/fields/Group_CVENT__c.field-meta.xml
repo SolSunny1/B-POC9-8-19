@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_CVENT__c</fullName>
+    <description>for those invited to investor day, it populates the field based on:
+^Sent From (C)
+^BIM Marketing Lead</description>
+    <externalId>false</externalId>
+    <formula>if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;),ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Investor&quot;)),&quot;PFG Investor/BIM&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName  &amp;&quot; and &quot;&amp;   BIM_Marketing_Lead__r.Full_name__c ,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;),ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Prospect&quot;)),&quot;PFG Investor/BIM&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName  &amp;&quot; and &quot;&amp;   BIM_Marketing_Lead__r.Full_name__c ,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;),ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Investor&quot;)),&quot;PFG Prospect/BIM&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName  &amp;&quot; and &quot;&amp;   BIM_Marketing_Lead__r.Full_name__c ,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;),ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Prospect&quot;)),&quot;PFG Prospect/BIM&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName  &amp;&quot; and &quot;&amp;   BIM_Marketing_Lead__r.Full_name__c ,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;),or(not(ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Prospect&quot;))),not(ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Investor&quot;))),&quot;PFG Prospect&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;),or(not(ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Prospect&quot;))),not(ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Investor&quot;))),&quot;PFG Investor&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName,
+
+if(
+   and(
+       ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Prospect&quot;),or(not(ispickval(Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;))),not(ispickval(Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;))),&quot;BIM&quot;&amp;&quot; - &quot; &amp;BIM_Marketing_Lead__r.Full_name__c,
+
+if(
+   and(
+       ispickval(Invitee_Type_BIM_Investor_Day__c,&quot;Investor&quot;),or(not(ispickval(Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;))),not(ispickval(Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;))),&quot;BIM&quot;&amp;&quot; - &quot; &amp;BIM_Marketing_Lead__r.Full_name__c,
+
+if(
+   ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Internal&quot;),&quot;Internal&quot;&amp;&quot; - &quot; &amp;Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName,
+
+
+
+&quot;&quot;)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>for those invited to investor day, it populates the field based on:
+^Sent From (C)
+^BIM Marketing Lead</inlineHelpText>
+    <label>Group - CVENT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Name_Auto__c</fullName>
+    <description>Copy from Opportunity record</description>
+    <externalId>false</externalId>
+    <formula>Investor_Opportunity__r.Legal_Name__c</formula>
+    <inlineHelpText>Copy from Opportunity record</inlineHelpText>
+    <label>Legal Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

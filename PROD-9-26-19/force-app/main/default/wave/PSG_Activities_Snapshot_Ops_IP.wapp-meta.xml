@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/15.png</assetIcon>
+    <folder>PSG_Activities_Snapshot_Ops_IP</folder>
+    <masterLabel>PSG Activities Snapshot Ops &amp; IP</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>palwasha.salehy@brookfield.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__SnapshotApp</templateOrigin>
+    <templateVersion>1.0</templateVersion>
+</WaveApplication>

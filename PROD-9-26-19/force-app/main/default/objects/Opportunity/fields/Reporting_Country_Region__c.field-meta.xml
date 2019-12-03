@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Country_Region__c</fullName>
+    <description>Country/Region for Investor Profile reporting</description>
+    <externalId>false</externalId>
+    <formula>CASE(Account.BillingCountry,&quot;Denmark&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Italy&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Malta&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Spain&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;France&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Sweden&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Ireland&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Germany&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Luxembourg&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Netherlands&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;United Kingdom&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Belgium&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Virgin Islands, British&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Finland&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Switzerland&quot;,&quot;Europe&quot;,
+CASE(Account.BillingCountry,&quot;Brunei Darussalam&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;China&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;India&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;Japan&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;Korea&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;Singapore&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;Australia&quot;,&quot;Australia&quot;,
+CASE(Account.BillingCountry,&quot;Bermuda&quot;,&quot;Bermuda&quot;,
+CASE(Account.BillingCountry,&quot;Bahamas&quot;,&quot;Bahamas&quot;,
+CASE(Account.BillingCountry,&quot;Canada&quot;,&quot;Canada&quot;,
+CASE(Account.BillingCountry,&quot;Israel&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Kuwait&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Oman&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Qatar&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Azerbaijan&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Saudi Arabia&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;United Arab Emirates&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Bahrain&quot;,&quot;Middle East&quot;,
+CASE(Account.BillingCountry,&quot;Colombia&quot;,&quot;South America&quot;,
+CASE(Account.BillingCountry,&quot;Mexico&quot;,&quot;South America&quot;,
+CASE(Account.BillingCountry,&quot;Peru&quot;,&quot;South America&quot;,
+CASE(Account.BillingCountry,&quot;Argentina&quot;,&quot;South America&quot;,
+CASE(Account.BillingCountry,&quot;Brazil&quot;,&quot;South America&quot;,
+CASE(Account.BillingCountry,&quot;Venezuela, Bolivarian Republic of&quot;,&quot;South America&quot;,
+CASE(Account.BillingCountry,&quot;United States&quot;,&quot;United States&quot;,
+CASE(Account.BillingCountry,&quot;Malaysia&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;Taiwan&quot;,&quot;Asia&quot;,
+CASE(Account.BillingCountry,&quot;Russia&quot;,&quot;Russia&quot;,
+&quot;&quot;)))))))))))))))))))))))))))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Country/Region for Investor Profile reporting</inlineHelpText>
+    <label>Reporting Country/Region - Old</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

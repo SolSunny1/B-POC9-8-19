@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preqin_Top_Lists__c</fullName>
+    <description>Per Preqin, the top 100 lists by sector/geography</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Per Preqin, the top 100 lists by sector/geography.  The data in this field should be refreshed frequently.</inlineHelpText>
+    <label>Preqin Top Lists</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US Investors</fullName>
+                <default>false</default>
+                <label>US Investors</label>
+            </value>
+            <value>
+                <fullName>US Pensions</fullName>
+                <default>false</default>
+                <label>US Pensions</label>
+            </value>
+            <value>
+                <fullName>US DC</fullName>
+                <default>false</default>
+                <label>US DC</label>
+            </value>
+            <value>
+                <fullName>State Pensions</fullName>
+                <default>false</default>
+                <label>State Pensions</label>
+            </value>
+            <value>
+                <fullName>Top Foundations</fullName>
+                <default>false</default>
+                <label>Top Foundations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Company</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Companies</value>
+    </caseValues>
+    <layouts>
+        <layout>DST Firm Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DST Assets &amp; Sales --></label>
+            <section>DST Assets &amp; Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Firm Information --></label>
+            <section>Firm Information</section>
+        </sections>
+        <sections>
+            <label><!-- Highlights --></label>
+            <section>Highlights</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DST Office Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DST Assets &amp; Sales --></label>
+            <section>DST Assets &amp; Sales</section>
+        </sections>
+        <sections>
+            <label><!-- DST Information --></label>
+            <section>DST Information</section>
+        </sections>
+        <sections>
+            <label><!-- Highlights --></label>
+            <section>Highlights</section>
+        </sections>
+        <sections>
+            <label><!-- Office Information --></label>
+            <section>Office Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Super Parent Firm Page</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

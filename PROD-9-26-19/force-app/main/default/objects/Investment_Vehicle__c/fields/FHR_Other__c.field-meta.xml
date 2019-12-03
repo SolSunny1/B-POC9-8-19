@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FHR_Other__c</fullName>
+    <description>Fee Headline Rate for non standard non standard timing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fee Headline Rate for non standard non standard timing</inlineHelpText>
+    <label>FHR - Other</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>11</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

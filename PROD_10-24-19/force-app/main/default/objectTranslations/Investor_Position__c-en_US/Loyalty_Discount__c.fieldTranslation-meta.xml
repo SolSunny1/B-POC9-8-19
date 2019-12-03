@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Discount based on Loyalty Program. --></help>
+    <label><!-- Loyalty Discount --></label>
+    <name>Loyalty_Discount__c</name>
+</CustomFieldTranslation>

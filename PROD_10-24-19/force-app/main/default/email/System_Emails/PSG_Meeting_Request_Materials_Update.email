@@ -1,0 +1,21 @@
+This is an automated notification from Salesforce.  To view the original record, visit {!Meeting_Request__c.Link}.
+
+A meeting request has been created {!Meeting_Request__c.CreatedDate} for {!Meeting_Request__c.Client_Name__c}.
+
+Requested Dates: 
+{!Meeting_Request__c.Requested_Date_and_Times__c}
+Time Zone: {!Meeting_Request__c.Time_Zone__c}
+Materials Required: 
+{!Meeting_Request__c.Materials_Required__c}
+Book format: {!Meeting_Request__c.Book_Format__c}
+Other Materials: {!Meeting_Request__c.Other_Materials_Needed__c}
+
+Communication of Details to Client: {!Meeting_Request__c.Communication_of_details_to_Client__c}
+
+Regarding: {!Meeting_Request__c.Opportunity__c}
+Other Strategies to discuss: {!Meeting_Request__c.00N330000030FfD}
+Subject: {!Meeting_Request__c.Subject__c}
+Client contacts in attendance: {!Meeting_Request__c.Client_Attendees__c}
+Meeting Summary:  {!Meeting_Request__c.Meeting_Summary__c}
+
+Final Date Selected: {!Meeting_Request__c.Final_Date_and_Time_of_Meeting__c}

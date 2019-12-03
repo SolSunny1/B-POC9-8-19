@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- CIM Delivered Via --></label>
+    <name>CIM_Delivered_Via__c</name>
+    <picklistValues>
+        <masterLabel>Courier</masterLabel>
+        <translation><!-- Courier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation><!-- Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Person</masterLabel>
+        <translation><!-- In Person --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VDR</masterLabel>
+        <translation><!-- VDR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

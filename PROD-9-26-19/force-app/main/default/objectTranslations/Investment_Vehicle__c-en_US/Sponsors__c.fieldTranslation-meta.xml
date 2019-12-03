@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The entity that is Sponsoring the Fund --></help>
+    <label><!-- Sponsors --></label>
+    <name>Sponsors__c</name>
+</CustomFieldTranslation>

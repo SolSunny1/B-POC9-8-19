@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Account_Activity_Report_for_RFIs</fullName>
+    <availability>online</availability>
+    <description>Use this report to pull a printable version of all activities that have been tracked for an Account.  These are usually used for RFI requests.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>PFG - Account Activity Report for RFIs</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00O33000004LMVX?pv0={!Account.Name}</url>
+</WebLink>

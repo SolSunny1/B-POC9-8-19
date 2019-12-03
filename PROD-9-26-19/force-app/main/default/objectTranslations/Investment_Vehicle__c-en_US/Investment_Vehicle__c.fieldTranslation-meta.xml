@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Related Fund to this co-investment --></help>
+    <label><!-- Related Fund --></label>
+    <name>Investment_Vehicle__c</name>
+    <relationshipLabel><!-- Co-Investments --></relationshipLabel>
+</CustomFieldTranslation>

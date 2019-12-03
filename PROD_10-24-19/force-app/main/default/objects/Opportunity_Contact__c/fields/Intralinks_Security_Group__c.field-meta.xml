@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intralinks_Security_Group__c</fullName>
+    <description>Security group name for Intralinks - finalized after import into Intralinks</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Security group name for Intralinks.  After it has been created in Intralinks, import the file back into this field. Will help with Intralinks integration. 39 Characters is the Max Length for Intralinks Security Groups.</inlineHelpText>
+    <label>zzIntralinks Security Group - Final</label>
+    <length>40</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Names of the PSG Attendees requested to be at the meeting.  To be mapped to the event after date has been finalized. --></help>
+    <label><!-- Brookfield Attendees --></label>
+    <name>PSG_Attendees__c</name>
+</CustomFieldTranslation>

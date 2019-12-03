@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Milken Dinner Confirmation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Milken Invite Confirmation</name>
+    <style>none</style>
+    <subject>You are Confirmed for Dinner Tonight: Brookfield Private Dinner - Milken Institute Global Conference 2017</subject>
+    <textOnly>To view this email as a web page, go  here.
+
+
+As we begin 2017, we wanted to reflect on the past year and share some perspectives for the year ahead.
+
+
+
+We ended 2016 with good momentum, deploying approximately $20 billion of capital in a wide variety of transactions. These included a number of large-scale acquisitions that were only possible because of our three competitive advantages: our access to large-scale capital, our global presence and our operating expertise. Of our flagship funds, Brookfield Strategic Real Estate Partners II (BSREP II) is now moving towards 70% committed, our Brookfield Infrastructure Fund III (BIF III) is more than 30% committed, and Brookfield Capital Partners IV (BCP IV) is closing in on 50%. We also launched our inaugural open-end fund, Brookfield Premier Real Estate Partners  (BPREP), which invests in core/core-plus properties, and have had a number of interim closes for our fifth Brookfield Real Estate Finance Fund (BREF V). Looking to 2017, our credit funds will become a big focus; we have developed a number of new products that we believe will meet the needs of our investors.
+
+
+
+A few 2016 investment highlights include the acquisitions of Isagen, one of the largest power-generating companies in Colombia; Patrick Terminals, a high-quality ports company in Australia; International Finance Center (IFC) in Seoul, South Korea, a premier mixed-use office, retail and hotel complex; Simply Self-Storage, a self-storage business in the U.S.; Ambiental, Brazil’s largest private water distribution, collection and treatment company; and 4.2 million square feet of premier office and retail space in Mumbai. These are just some of the acquisitions we made on behalf of our investors and as always, we also successfully exited a number of investments across various geographies.
+
+
+
+Global investing environment
+
+We continue to see strong demand for investments in real assets in many major markets around the world. In Europe, while BREXIT has led to some uncertainty and volatility, we believe that the UK will continue to thrive and that London will continue to be one of the world’s leading financial centers. We also expect some attractive investment opportunities to present themselves as a result of the volatility. We are seeing value in the Eurozone as a result of deleveraging and low borrowing costs.
+
+
+
+We believe the U.S. will continue to present select opportunities for investment in the coming years, particularly with the uncertainty of the election now behind us. Even as interest rates slowly move upward in the U.S., we believe real assets will continue to perform well and be highly sought after by yield-oriented investors.
+
+
+
+In Latin America, we have made significant investments in Peru and Colombiacountries that, in our view, have a respect for capital and a sound rule of law. In Brazil, we are starting to detect signs of recovery, and have been able to acquire a number of important assets that would not have been available in normal times. Our long history and strong presence in the country means that we function as a local business, which is always a significant advantage in both sourcing deals and operating the companies.
+
+
+
+In India, we continue to see strong opportunities for investments. We believe that favorable long-term demographics will support domestic demand growth and that this, along with a reduction in inflation and the first interest rate decrease this cycle, can provide attractive assets. We have had a presence in India since 2009 and today are one of the largest foreign-owned real estate and infrastructure investors in the country.
+
+
+
+Looking ahead
+
+As we look ahead to the coming year, we will continue to apply the focused and repeatable strategy that has supported our growth to date: utilizing our global reach to identify and acquire high-quality real assets, financing them on a long-term, low-risk basis, and applying our deep operating expertise to seek to enhance value and deliver strong returns to our investors.
+
+
+
+The macroeconomic environment continues to be favorable for real asset investment, our pipeline is strong, and our competitive advantages continue to serve us well. With all this in place, we are excited about 2017 and about continuing to invest the capital entrusted to us.
+
+
+
+On behalf of all of us at Brookfield, thank you for your ongoing interest and support.
+
+
+
+
+
+
+
+Sincerely,
+
+
+
+
+
+
+
+
+Bruce Flatt
+
+Chief Executive Officer
+
+
+
+This email was sent by: Brookfield Private Funds - Corporate Head Office
+
+181 Bay Street, Suite 300
+Toronto, ON, M5J 2T3, Canada
+
+Privacy Policy | Unsubscribe | Update Profile
+
+{!User.Name}
+{!User.Title}
+
+{!User.CompanyName}
+{!User.Department}
+{!User.Phone}
+{!User.Email}
+
+brookfield.com/privatefunds
+
+The undersigned is an associated person of a registered investment adviser. View important disclosures and information about our e-mail here.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

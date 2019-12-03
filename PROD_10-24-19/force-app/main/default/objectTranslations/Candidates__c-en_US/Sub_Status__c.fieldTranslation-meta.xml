@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Status --></label>
+    <name>Sub_Status__c</name>
+    <picklistValues>
+        <masterLabel>0 – Email</masterLabel>
+        <translation><!-- 0 – Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1 – Coffee/Intro Call</masterLabel>
+        <translation><!-- 1 – Coffee/Intro Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 – Who</masterLabel>
+        <translation><!-- 2 – Who --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 – Assessments</masterLabel>
+        <translation><!-- 3 – Assessments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 – Process</masterLabel>
+        <translation><!-- 4 – Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 – Sample</masterLabel>
+        <translation><!-- 5 – Sample --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6 – Behavioral</masterLabel>
+        <translation><!-- 6 – Behavioral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>7 – Reference Check</masterLabel>
+        <translation><!-- 7 – Reference Check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>8 – Negotiations</masterLabel>
+        <translation><!-- 8 – Negotiations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BH Stopped Process</masterLabel>
+        <translation><!-- BH Stopped Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Candidate Stopped Process</masterLabel>
+        <translation><!-- Candidate Stopped Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Process</masterLabel>
+        <translation><!-- No Process --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

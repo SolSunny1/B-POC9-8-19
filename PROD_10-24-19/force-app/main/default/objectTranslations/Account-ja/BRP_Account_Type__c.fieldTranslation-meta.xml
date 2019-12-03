@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Selection details:
+Aggregation (non-public power) = Community Choice Aggregations
+MUSH = Municipalities (building load), universities, schools, hospitals
+Public Power for Government, Municipal Utilities, Co-ops
+Trading and Marketing= FI,IPPs,Wholesale --></help>
+    <label><!-- BRP Account Type --></label>
+    <name>BRP_Account_Type__c</name>
+    <picklistValues>
+        <masterLabel>Advisor/Broker/Consultant</masterLabel>
+        <translation><!-- Advisor/Broker/Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aggregation (non-public power)</masterLabel>
+        <translation><!-- Aggregation (non-public power) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C&amp;I Buyer</masterLabel>
+        <translation><!-- C&amp;I Buyer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MUSH</masterLabel>
+        <translation><!-- MUSH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Power</masterLabel>
+        <translation><!-- Public Power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewable Energy Supplier / Owner</masterLabel>
+        <translation><!-- Renewable Energy Supplier / Owner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail Supplier</masterLabel>
+        <translation><!-- Retail Supplier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trading and Marketing</masterLabel>
+        <translation><!-- Trading and Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utility: Regulated</masterLabel>
+        <translation><!-- Utility: Regulated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utility: Unregulated</masterLabel>
+        <translation><!-- Utility: Unregulated --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Type_CVENT__c</fullName>
+    <description>5.	Registration Type cannot be more than 50 characters.  for the registration page
+a.	Needs to include General Sessions?
+i.	“PFG” -&gt; if PFG Invitee = Investor or Prospect and BIM does not = Investor or prospect
+ii.	“BIM” -&gt; if BIM Invitee = Investor or Prospect and PFG does not = Investor or prospect
+iii.	PFG; Fund meetings (list specific funds) i.e. “PFG; BREF III; BSREP II” -&gt; if PFG Invitee = Investor or Prospect and BIM does not = Investor or prospect
+iv.	BIM; PFG; Fund meetings (list specific funds) “BIM; PFG; BREF III; BSREP II”
+v.	“BIM; PFG; All meetings” (no need to list funds, all will show if the number of characters of Fund meetings is longer than 40)
+vi.	“PFG; All meetings” (no need to list funds, all will show if the number of characters of Fund meetings is longer than 40)</description>
+    <externalId>false</externalId>
+    <formula>if(
+   and(
+       len( 
+           Participant_Type__c)&gt;4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG; All Meetings&quot;,
+if(
+   and(
+       len( 
+           Participant_Type__c)&gt;4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG; All Meetings&quot;,
+if(
+   and(
+       len( 
+           Participant_Type__c)&gt;4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG; All Meetings&quot;,
+if(
+   and(
+       len( 
+           Participant_Type__c)&gt;4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG; All Meetings&quot;,
+
+
+
+
+
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG;&quot;&amp;Participant_Type__c,
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG;&quot;&amp;Participant_Type__c,
+
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG;&quot;&amp;Participant_Type__c,
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Investor&quot;)),&quot;PFG;&quot;&amp;Participant_Type__c,
+
+
+
+
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)),&quot;PFG&quot;,
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)),&quot;PFG&quot;,
+
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)),&quot;PFG&quot;,
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)),&quot;PFG&quot;,
+
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,or(not(ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)),not(ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)))),&quot;&quot;,
+
+if(
+   and(
+       len( 
+           Participant_Type__c)&lt;=4000,or(not(ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)),not(ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Prospect&quot;)))),&quot;&quot;,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Internal&quot;)),&quot;PFG; All Meetings&quot;,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;Internal&quot;)),&quot;PFG; All Meetings&quot;,
+
+if(
+   and(
+       ispickval( Private_Investor_Day_Invitee_Type__c,&quot;&quot;)),&quot;&quot;,
+&quot;&quot;)))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Registration Type - CVENT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

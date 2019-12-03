@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_BIM_Opportunity</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New PSG Opportunity</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/006/e?lookupcmpgn=1&amp;retURL=%2F{!CampaignMember.Id}&amp;campid={!CampaignMember.CampaignId}&amp;conid={!CampaignMember.ContactId}&amp;RecordType=01240000000MHII&amp;ent=Opportunity&amp;opp3={!CampaignMember.Campaign}%20%2D%20{!CampaignMember.CompanyOrAccount}</url>
+</WebLink>

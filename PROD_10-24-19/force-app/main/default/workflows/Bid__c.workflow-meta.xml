@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>AccountUniqueBid</fullName>
+        <field>Company_Bid__c</field>
+        <formula>Campaign__r.Id &amp; &quot;_&quot; &amp;  Account__r.Id &amp; &quot;_&quot; &amp; TEXT(BID_Round__c)</formula>
+        <name>AccountUniqueBid</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BFIN AccountUniqueBid</fullName>
+        <actions>
+            <name>AccountUniqueBid</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Bid__c.BID_Round__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

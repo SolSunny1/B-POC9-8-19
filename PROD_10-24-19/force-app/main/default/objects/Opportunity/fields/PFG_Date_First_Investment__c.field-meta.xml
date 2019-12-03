@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Date_First_Investment__c</fullName>
+    <description>Date of the first investment made with PFG</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatic field of the Date of the first investment made with PFG</inlineHelpText>
+    <label>PFG Date First Investment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

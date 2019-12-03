@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the Marketing Lists that this contact should be a member of. --></help>
+    <label><!-- Marketing List --></label>
+    <name>Marketing_List__c</name>
+    <picklistValues>
+        <masterLabel>AB Retail Buyers List</masterLabel>
+        <translation><!-- AB Retail Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asia Buyers List</masterLabel>
+        <translation><!-- Asia Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BC Retail Buyers List</masterLabel>
+        <translation><!-- BC Retail Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA Existing Properties</masterLabel>
+        <translation><!-- BRA Existing Properties --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA Greenfield Assets</masterLabel>
+        <translation><!-- BRA Greenfield Assets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA Hotel Operators</masterLabel>
+        <translation><!-- BRA Hotel Operators --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA MCMV</masterLabel>
+        <translation><!-- BRA MCMV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA Porto Maravilha</masterLabel>
+        <translation><!-- BRA Porto Maravilha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA RJ Prime Regions</masterLabel>
+        <translation><!-- BRA RJ Prime Regions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA SP Prime Regions</masterLabel>
+        <translation><!-- BRA SP Prime Regions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRA Shopping Center Managers</masterLabel>
+        <translation><!-- BRA Shopping Center Managers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CASL Consent</masterLabel>
+        <translation><!-- CASL Consent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Calgary List</masterLabel>
+        <translation><!-- Calgary List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada Office Investors List</masterLabel>
+        <translation><!-- Canada Office Investors List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DO NOT USE – Montreal Buyers List</masterLabel>
+        <translation><!-- DO NOT USE – Montreal Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>India Client Reception</masterLabel>
+        <translation><!-- India Client Reception --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrial Buyers List Toronto</masterLabel>
+        <translation><!-- Industrial Buyers List Toronto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maritime Retail Buyers List</masterLabel>
+        <translation><!-- Maritime Retail Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Office</masterLabel>
+        <translation><!-- Medical Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal Buyers List</masterLabel>
+        <translation><!-- Montreal Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal Client Reception Invite EN</masterLabel>
+        <translation><!-- Montreal Client Reception Invite EN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal Client Reception Invite FR</masterLabel>
+        <translation><!-- Montreal Client Reception Invite FR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NYC Client Event</masterLabel>
+        <translation><!-- NYC Client Event --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NYC Offering</masterLabel>
+        <translation><!-- NYC Offering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Buyers List Toronto</masterLabel>
+        <translation><!-- Office Buyers List Toronto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ontario Retail Buyers List</masterLabel>
+        <translation><!-- Ontario Retail Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Residential Developers List</masterLabel>
+        <translation><!-- Residential Developers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seniors Buyers List Canada Excl. QC</masterLabel>
+        <translation><!-- Seniors Buyers List Canada Excl. QC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seniors Buyers List Europe</masterLabel>
+        <translation><!-- Seniors Buyers List Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seniors Buyers List Industry Advisors</masterLabel>
+        <translation><!-- Seniors Buyers List Industry Advisors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seniors Buyers List Non Seniors Housing</masterLabel>
+        <translation><!-- Seniors Buyers List Non Seniors Housing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seniors Buyers List Quebec</masterLabel>
+        <translation><!-- Seniors Buyers List Quebec --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seniors Buyers List US</masterLabel>
+        <translation><!-- Seniors Buyers List US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seoul Office Market</masterLabel>
+        <translation><!-- Seoul Office Market --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto Client Reception</masterLabel>
+        <translation><!-- Toronto Client Reception --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US Core Office Buyers List</masterLabel>
+        <translation><!-- US Core Office Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urban Retail Buyers List</masterLabel>
+        <translation><!-- Urban Retail Buyers List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wine List (Outside Toronto)</masterLabel>
+        <translation><!-- Wine List (Outside Toronto) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wine List Calgary</masterLabel>
+        <translation><!-- Wine List Calgary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wine List Montreal</masterLabel>
+        <translation><!-- Wine List Montreal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wine List Toronto</masterLabel>
+        <translation><!-- Wine List Toronto --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

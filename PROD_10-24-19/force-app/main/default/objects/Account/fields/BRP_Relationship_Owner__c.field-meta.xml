@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_Relationship_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The name of the person responsible for cultivating a relationship</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the person responsible for cultivating a relationship</inlineHelpText>
+    <label>BRP Relationship Owner</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.Profile.Name</field>
+            <operation>contains</operation>
+            <value>BRP</value>
+        </filterItems>
+        <infoMessage>Enter in the BRP Owner name</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>BRPAccountUser</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Platform Customer - Customer of 2 or more Brookfield property groups
+Existing Customer - Current BLP customer
+Legacy Customer - Former customer of IDI/Gazeley/Verde
+Prospect - Potential customer (engaged)
+Occupier - Potential customer (not engaged) --></help>
+    <label><!-- BLP Account Status --></label>
+    <name>BLP__c</name>
+    <picklistValues>
+        <masterLabel>1 - Occupier</masterLabel>
+        <translation><!-- 1 - Occupier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 - Prospect</masterLabel>
+        <translation><!-- 2 - Prospect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 - Legacy Customer</masterLabel>
+        <translation><!-- 3 - Legacy Customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 - Existing Customer</masterLabel>
+        <translation><!-- 4 - Existing Customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 - Platform Customer</masterLabel>
+        <translation><!-- 5 - Platform Customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

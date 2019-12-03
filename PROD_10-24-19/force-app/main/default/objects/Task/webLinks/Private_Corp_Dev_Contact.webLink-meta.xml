@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Corp_Dev_Contact</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Private Corp Dev.</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/00T/e?title=Call&amp;what_id=a023300000XSh1j&amp;who_id={!Contact.Id}&amp;followup=1&amp;tsk5=Call&amp;retURL=%2F{!Contact.Id}</url>
+</WebLink>

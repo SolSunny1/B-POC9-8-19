@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MH_Co_Investment</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Priority__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Min_Amount__c</columns>
+    <columns>Max_Amount__c</columns>
+    <columns>Close_Details_Tracker__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Co-Invest (MH)</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <label>MH Co-Investment</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_APAC_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_CanAm_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_CRM</roleAndSubordinates>
+        <roleAndSubordinates>PFG_EMEA_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Exec</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Platforms</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Salesforce_Support_Team</roleAndSubordinates>
+        <roleAndSubordinates>PFG_Team</roleAndSubordinates>
+    </sharedTo>
+</ListView>

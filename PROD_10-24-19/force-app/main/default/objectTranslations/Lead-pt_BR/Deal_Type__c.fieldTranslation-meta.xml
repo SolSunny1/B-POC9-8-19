@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Deal Type --></label>
+    <name>Deal_Type__c</name>
+    <picklistValues>
+        <masterLabel>Advisory</masterLabel>
+        <translation><!-- Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brokerage</masterLabel>
+        <translation><!-- Brokerage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Markets</masterLabel>
+        <translation><!-- Capital Markets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;A</masterLabel>
+        <translation><!-- M&amp;A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power</masterLabel>
+        <translation><!-- Power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structured Finance</masterLabel>
+        <translation><!-- Structured Finance --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

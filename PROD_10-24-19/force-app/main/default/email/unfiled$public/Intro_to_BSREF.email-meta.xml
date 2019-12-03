@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sending the Intro to BSREF - if changes are required, don&#39;t forget to update ExactTarget template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Intro to BSREF</name>
+    <style>none</style>
+    <subject>Brookfield Senior Real Estate Finance Fund Overview</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+I am pleased to announce that in early 2017, we will launch Brookfield Senior Real Estate Finance Fund (“BSREF” or the “Fund”) as our primary U.S. open-end senior mezzanine real estate debt vehicle. The Fund is targeting a net IRR of 6% with returns to come predominantly from interest income.1,2
+
+We believe that the Fund will capitalize on favorable market conditions to invest in (i) real estate finance transactions senior to traditional equity and junior mezzanine debt and (ii) subordinate to senior debt.
+
+Please refer to the link for more information– and when we launch, I will also send you the offering materials.  In the interim, please feel free to contact me with any questions.
+
+
+Thank you.
+
+{!User.Name}
+{!User.Title}
+
+{!User.CompanyName}
+{!User.Department}
+{!User.Email}
+
+brookfield.com/privatefunds
+
+The undersigned is an associated person of a registered investment adviser. View important disclosures and information about our e-mail here.
+
+
+1The target returns set forth herein are for illustrative and informational purposes only and have been presented based on various assumptions made by Brookfield Asset Management Private Institutional Capital Adviser US, LLC (the &quot;Manager&quot;) in relation to the investment strategy being pursued by BSREF, any of which may prove to be incorrect. The target returns are based on historical performance for similar investment strategies within the sector. Target gross returns do not reflect fund expenses, management fees and  carried  interest, which would reduce and investor&#39;s returns. Target net returns take into account these items. Due to various risks, uncertainties and changes (including changes in economic, operational, political or other circumstances) beyond the control of the Manager, the actual performance of the Fund could differ materially from the target returns set forth herein. In addition, industry experts may disagree with the assumptions used in presenting the target returns. No assurance, representation or warranty is made by any person that the target returns will be achieved and undue reliance should not be put on them. Additional information about the assumptions used in determining the target returns and the factors that could cause actual results to differ materially from the target returns are available upon request. The information provided herein (which is subject to change) is presented as a summary of certain key terms of the Fund only and is qualified in its entirety by reference to the Fund&#39;s private placement memorandum and governing documents. Please refer to, and review carefully, such documents prior to making an investment in the Fund.
+
+2There can be no guarantee of launch of the Fund.
+
+
+
+
+Notice to Recipients
+
+This information has been provided to you on a confidential basis solely to provide you with the opportunity to determine your preliminary interest regarding an investment in Brookfield Senior Real Estate Finance Fund and may not be used or reproduced for any other purpose. This email does not constitute an offer to sell or a solicitation of an offer to buy securities and the information set forth herein does not purport to be complete. Any such offer will be made only by means of the Fund&#39;s offering materials (the &quot;Offering Materials&quot;), which contain risk disclosures that are important to any investment decision regarding the Fund. and is subject to the terms and conditions contained therein. The Offering Materials which should be read completely before you consider making an investment in the Fund. Nothing contained herein should be deemed to be a prediction or projection of future performance of any Brookfield fund.
+
+
+
+Brookfield Private Advisors LLC, a wholly owned subsidiary of BAM, is a registered broker dealer with the SEC and a FINRA Member. Certain employees of Brookfield&#39;s Private Funds Group may be registered with Brookfield Private Advisors LLC. None of Brookfield, its officers, employees, agents or affiliates makes any express or implied representation, warranty or undertaking with respect to this document. This document has been prepared for institutional investors only. It has not been filed with FINRA and may not be reproduced, shown, quoted to, or used with members of the public.
+
+
+This email was sent by: Brookfield Private Funds - Corporate Head Office
+
+181 Bay Street, Suite 300
+Toronto, ON, M5J 2T3, Canada
+
+Privacy Policy | Unsubscribe | Update Profile</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

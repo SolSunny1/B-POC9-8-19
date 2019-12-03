@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RIA_Tracker</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>ACCOUNT.LAST_ACTIVITY</columns>
+    <columns>PFG_Number_of_Meetings__c</columns>
+    <columns>PFG_Number_of_Opportunities__c</columns>
+    <columns>PFG_Number_of_Data_Room_Visits_YTD__c</columns>
+    <columns>PFG_Number_of_Meetings_Last_3_mos__c</columns>
+    <columns>PFG_of_Meetings_YTD__c</columns>
+    <columns>PFG_of_Calls_Emails_Last_3_mos__c</columns>
+    <columns>PFG_of_Calls_Emails_YTD__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RIA__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>RIA Tracker</label>
+    <sharedTo>
+        <group>RIA_Channel</group>
+    </sharedTo>
+</ListView>

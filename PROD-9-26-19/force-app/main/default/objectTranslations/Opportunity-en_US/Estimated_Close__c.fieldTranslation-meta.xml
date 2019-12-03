@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Probability of execution --></help>
+    <label><!-- Estimated Closing --></label>
+    <name>Estimated_Close__c</name>
+    <picklistValues>
+        <masterLabel>Final</masterLabel>
+        <translation><!-- Final --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First</masterLabel>
+        <translation><!-- First --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High</masterLabel>
+        <translation><!-- High --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low</masterLabel>
+        <translation><!-- Low --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medium</masterLabel>
+        <translation><!-- Medium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post-Close</masterLabel>
+        <translation><!-- Post-Close --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subsequent</masterLabel>
+        <translation><!-- Subsequent --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG_Last_Task__c</fullName>
+    <description>SS: 7/2618: Created to capture PSG related Task at account level.</description>
+    <externalId>false</externalId>
+    <label>PSG Last Task</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

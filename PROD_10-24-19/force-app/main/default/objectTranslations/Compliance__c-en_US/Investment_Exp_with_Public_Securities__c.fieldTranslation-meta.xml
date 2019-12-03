@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investment Exp with Public Securities --></label>
+    <name>Investment_Exp_with_Public_Securities__c</name>
+    <picklistValues>
+        <masterLabel>Experienced</masterLabel>
+        <translation><!-- Experienced --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Highly Experienced</masterLabel>
+        <translation><!-- Highly Experienced --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Novice</masterLabel>
+        <translation><!-- Novice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Some Experience</masterLabel>
+        <translation><!-- Some Experience --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

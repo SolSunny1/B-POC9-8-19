@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Platform --></label>
+    <name>Platform__c</name>
+    <picklistValues>
+        <masterLabel>Brazil</masterLabel>
+        <translation><!-- Brazil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada</masterLabel>
+        <translation><!-- Canada --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Columbia</masterLabel>
+        <translation><!-- Columbia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Europe</masterLabel>
+        <translation><!-- Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROW</masterLabel>
+        <translation><!-- ROW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USA</masterLabel>
+        <translation><!-- USA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

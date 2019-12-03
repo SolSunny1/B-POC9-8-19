@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Latest_or_Upcoming_Activity_Date__c</fullName>
+    <description>PFG last email/call date roll up field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>PFG last email/call date roll up field</inlineHelpText>
+    <label>PFG Latest or Upcoming Activity Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

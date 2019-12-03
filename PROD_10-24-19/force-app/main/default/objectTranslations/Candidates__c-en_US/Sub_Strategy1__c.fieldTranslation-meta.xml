@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Strategy1 --></label>
+    <name>Sub_Strategy1__c</name>
+    <picklistValues>
+        <masterLabel>*No sub-strategy</masterLabel>
+        <translation><!-- *No sub-strategy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Activist</masterLabel>
+        <translation><!-- Activist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asia</masterLabel>
+        <translation><!-- Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Asset Backed</masterLabel>
+        <translation><!-- Asset Backed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CTA</masterLabel>
+        <translation><!-- CTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Structure</masterLabel>
+        <translation><!-- Capital Structure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chemical</masterLabel>
+        <translation><!-- Chemical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commodities</masterLabel>
+        <translation><!-- Commodities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer</masterLabel>
+        <translation><!-- Consumer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convertible</masterLabel>
+        <translation><!-- Convertible --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate</masterLabel>
+        <translation><!-- Corporate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Currencies</masterLabel>
+        <translation><!-- Currencies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developed Europe</masterLabel>
+        <translation><!-- Developed Europe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discretionary</masterLabel>
+        <translation><!-- Discretionary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distressed</masterLabel>
+        <translation><!-- Distressed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emerging Markets</masterLabel>
+        <translation><!-- Emerging Markets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy</masterLabel>
+        <translation><!-- Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financials</masterLabel>
+        <translation><!-- Financials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed Income</masterLabel>
+        <translation><!-- Fixed Income --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generalist</masterLabel>
+        <translation><!-- Generalist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global</masterLabel>
+        <translation><!-- Global --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HealthCare</masterLabel>
+        <translation><!-- HealthCare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Index</masterLabel>
+        <translation><!-- Index --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industrials</masterLabel>
+        <translation><!-- Industrials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information Technology</masterLabel>
+        <translation><!-- Information Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Materials</masterLabel>
+        <translation><!-- Materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merger Arbitrage</masterLabel>
+        <translation><!-- Merger Arbitrage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi Strategy</masterLabel>
+        <translation><!-- Multi Strategy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North America</masterLabel>
+        <translation><!-- North America --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate</masterLabel>
+        <translation><!-- Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sovereign</masterLabel>
+        <translation><!-- Sovereign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special Situations</masterLabel>
+        <translation><!-- Special Situations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Statistical</masterLabel>
+        <translation><!-- Statistical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Systematic</masterLabel>
+        <translation><!-- Systematic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TMT</masterLabel>
+        <translation><!-- TMT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Utilities</masterLabel>
+        <translation><!-- Utilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volatility</masterLabel>
+        <translation><!-- Volatility --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

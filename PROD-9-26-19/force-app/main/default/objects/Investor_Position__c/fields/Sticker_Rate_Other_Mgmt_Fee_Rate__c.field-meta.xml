@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sticker_Rate_Other_Mgmt_Fee_Rate__c</fullName>
+    <externalId>false</externalId>
+    <label>Sticker Rate-Other Mgmt Fee Rate</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

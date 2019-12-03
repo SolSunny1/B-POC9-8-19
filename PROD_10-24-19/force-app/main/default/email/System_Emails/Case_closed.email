@@ -1,0 +1,7 @@
+Hi {!Case.Contact},
+
+Your case has been {!Case.Status}.
+
+Thank you, 
+{!Case.OwnerFullName}
+Brookfield Asset Management

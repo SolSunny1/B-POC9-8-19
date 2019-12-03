@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Relationship Tier --></label>
+    <name>Relationship_Tier__c</name>
+    <picklistValues>
+        <masterLabel>1 - Core Lender</masterLabel>
+        <translation><!-- 1 - Core Lender --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 - Regional Lender</masterLabel>
+        <translation><!-- 2 - Regional Lender --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 - Transactional</masterLabel>
+        <translation><!-- 3 - Transactional --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

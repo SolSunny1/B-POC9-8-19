@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Trigger to send email request --></help>
+    <label><!-- Submit to Support Team --></label>
+    <name>Submit_to_Support_Team__c</name>
+</CustomFieldTranslation>

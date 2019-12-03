@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>If there is an additional Opportunity to discuss, please list it</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If there is an additional Opportunity to discuss, please list it</inlineHelpText>
+    <label>Opportunity 2</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Meeting Requests (Opportunity 2)</relationshipLabel>
+    <relationshipName>Meeting_Requests1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

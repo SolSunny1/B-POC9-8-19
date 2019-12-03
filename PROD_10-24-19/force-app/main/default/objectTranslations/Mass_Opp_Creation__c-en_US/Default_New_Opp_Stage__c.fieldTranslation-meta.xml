@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Default new Opportunity Stage --></help>
+    <label><!-- Default New Opp Stage --></label>
+    <name>Default_New_Opp_Stage__c</name>
+</CustomFieldTranslation>

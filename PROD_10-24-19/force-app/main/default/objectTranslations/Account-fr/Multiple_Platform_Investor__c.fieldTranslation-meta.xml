@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Multiple platform counts based each platform roll up fields (hidden from layout) --></help>
+    <label><!-- Multiple Platform Investor --></label>
+    <name>Multiple_Platform_Investor__c</name>
+</CustomFieldTranslation>

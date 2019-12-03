@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Company Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Manager / Sponsor / IM / PE</fullName>
+                <default>false</default>
+                <label>Asset Manager / Sponsor / IM / PE</label>
+            </value>
+            <value>
+                <fullName>Endowment / Foundation</fullName>
+                <default>false</default>
+                <label>Endowment / Foundation</label>
+            </value>
+            <value>
+                <fullName>Family Office / High Net Worth</fullName>
+                <default>false</default>
+                <label>Family Office / High Net Worth</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor / Consultant</fullName>
+                <default>false</default>
+                <label>Financial Advisor / Consultant</label>
+            </value>
+            <value>
+                <fullName>Hedgefund</fullName>
+                <default>false</default>
+                <label>Hedgefund</label>
+            </value>
+            <value>
+                <fullName>Insurance Company</fullName>
+                <default>false</default>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>Pension Fund</fullName>
+                <default>false</default>
+                <label>Pension Fund</label>
+            </value>
+            <value>
+                <fullName>Private Corporation</fullName>
+                <default>false</default>
+                <label>Private Corporation</label>
+            </value>
+            <value>
+                <fullName>Publicly-Listed Corporation</fullName>
+                <default>false</default>
+                <label>Publicly-Listed Corporation</label>
+            </value>
+            <value>
+                <fullName>REIT</fullName>
+                <default>false</default>
+                <label>REIT</label>
+            </value>
+            <value>
+                <fullName>REOC</fullName>
+                <default>false</default>
+                <label>REOC</label>
+            </value>
+            <value>
+                <fullName>Sovereign Wealth</fullName>
+                <default>false</default>
+                <label>Sovereign Wealth</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

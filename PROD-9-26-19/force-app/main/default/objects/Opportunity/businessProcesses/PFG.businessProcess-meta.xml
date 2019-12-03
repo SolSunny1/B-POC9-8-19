@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG</fullName>
+    <description>Private Funds Group Sales Process</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>1%3A Prospect identified</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2%3A Contact initiated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3%3A Meetings%2Fcalls held with Inv Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4%3A Fund due diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5%3A IC approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%3A Legal review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7%3A Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8%3A Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Firm Decline</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Soft Decline</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

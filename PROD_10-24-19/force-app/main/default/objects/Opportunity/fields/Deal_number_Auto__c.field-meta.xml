@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_number_Auto__c</fullName>
+    <description>Auto number Part of the deal number. Used in a formula field to display full deal number</description>
+    <displayFormat>{0000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Auto number Part of the deal number. Used in a formula field to display full deal number</inlineHelpText>
+    <label>Deal number Auto</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

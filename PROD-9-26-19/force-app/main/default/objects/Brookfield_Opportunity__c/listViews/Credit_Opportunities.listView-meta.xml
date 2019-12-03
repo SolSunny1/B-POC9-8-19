@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Opportunities</fullName>
+    <columns>Account__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Brookfield_Owner__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Probability__c</columns>
+    <columns>Last_Opportunity_Update__c</columns>
+    <columns>Last_Activity__c</columns>
+    <columns>Won__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Business_Unit__c</field>
+        <operation>contains</operation>
+        <value>Credit</value>
+    </filters>
+    <label>Credit Opportunities</label>
+</ListView>

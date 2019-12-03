@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_Meetings_Private_Investor_Day__c</fullName>
+    <externalId>false</externalId>
+    <label>Fund Meetings-Private Investor Day</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Meetings</fullName>
+                <default>false</default>
+                <label>No Meetings</label>
+            </value>
+            <value>
+                <fullName>AF II</fullName>
+                <default>false</default>
+                <label>AF II</label>
+            </value>
+            <value>
+                <fullName>BCP III</fullName>
+                <default>false</default>
+                <label>BCP III</label>
+            </value>
+            <value>
+                <fullName>BCP III LPAC</fullName>
+                <default>false</default>
+                <label>BCP III LPAC</label>
+            </value>
+            <value>
+                <fullName>BCP IV</fullName>
+                <default>false</default>
+                <label>BCP IV</label>
+            </value>
+            <value>
+                <fullName>BCP IV LPAC</fullName>
+                <default>false</default>
+                <label>BCP IV LPAC</label>
+            </value>
+            <value>
+                <fullName>BCP V</fullName>
+                <default>false</default>
+                <label>BCP V</label>
+            </value>
+            <value>
+                <fullName>BCP V LPAC</fullName>
+                <default>false</default>
+                <label>BCP V LPAC</label>
+            </value>
+            <value>
+                <fullName>BID (EURO)</fullName>
+                <default>false</default>
+                <label>BID (EURO)</label>
+            </value>
+            <value>
+                <fullName>BID (EURO) LPAC</fullName>
+                <default>false</default>
+                <label>BID (EURO) LPAC</label>
+            </value>
+            <value>
+                <fullName>BID (USD)</fullName>
+                <default>false</default>
+                <label>BID (USD)</label>
+            </value>
+            <value>
+                <fullName>BID (USD) LPAC</fullName>
+                <default>false</default>
+                <label>BID (USD) LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF I</fullName>
+                <default>false</default>
+                <label>BIF I</label>
+            </value>
+            <value>
+                <fullName>BIF II</fullName>
+                <default>false</default>
+                <label>BIF II</label>
+            </value>
+            <value>
+                <fullName>BIF III</fullName>
+                <default>false</default>
+                <label>BIF III</label>
+            </value>
+            <value>
+                <fullName>BIF III LPAC</fullName>
+                <default>false</default>
+                <label>BIF III LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF II LPAC</fullName>
+                <default>false</default>
+                <label>BIF II LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF I LPAC</fullName>
+                <default>false</default>
+                <label>BIF I LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF IV</fullName>
+                <default>false</default>
+                <label>BIF IV</label>
+            </value>
+            <value>
+                <fullName>BPREP</fullName>
+                <default>false</default>
+                <label>BPREP</label>
+            </value>
+            <value>
+                <fullName>BPREP Au</fullName>
+                <default>false</default>
+                <label>BPREP Au</label>
+            </value>
+            <value>
+                <fullName>BPREP AU LPAC</fullName>
+                <default>false</default>
+                <label>BPREP AU LPAC</label>
+            </value>
+            <value>
+                <fullName>BPREP LPAC</fullName>
+                <default>false</default>
+                <label>BPREP LPAC</label>
+            </value>
+            <value>
+                <fullName>BREF V</fullName>
+                <default>false</default>
+                <label>BREF V</label>
+            </value>
+            <value>
+                <fullName>BREF V LPAC</fullName>
+                <default>false</default>
+                <label>BREF V LPAC</label>
+            </value>
+            <value>
+                <fullName>BSIP</fullName>
+                <default>false</default>
+                <label>BSIP</label>
+            </value>
+            <value>
+                <fullName>BSIP LPAC</fullName>
+                <default>false</default>
+                <label>BSIP LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREF</fullName>
+                <default>false</default>
+                <label>BSREF</label>
+            </value>
+            <value>
+                <fullName>BSREF LPAC</fullName>
+                <default>false</default>
+                <label>BSREF LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP I</fullName>
+                <default>false</default>
+                <label>BSREP I</label>
+            </value>
+            <value>
+                <fullName>BSREP II</fullName>
+                <default>false</default>
+                <label>BSREP II</label>
+            </value>
+            <value>
+                <fullName>BSREP III</fullName>
+                <default>false</default>
+                <label>BSREP III</label>
+            </value>
+            <value>
+                <fullName>BSREP III LPAC</fullName>
+                <default>false</default>
+                <label>BSREP III LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP II LPAC</fullName>
+                <default>false</default>
+                <label>BSREP II LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP I LPAC</fullName>
+                <default>false</default>
+                <label>BSREP I LPAC</label>
+            </value>
+            <value>
+                <fullName>Thayer V</fullName>
+                <default>false</default>
+                <label>Thayer V</label>
+            </value>
+            <value>
+                <fullName>Thayer VI</fullName>
+                <default>false</default>
+                <label>Thayer VI</label>
+            </value>
+            <value>
+                <fullName>VAMF II</fullName>
+                <default>false</default>
+                <label>VAMF II</label>
+            </value>
+            <value>
+                <fullName>VAMF III</fullName>
+                <default>false</default>
+                <label>VAMF III</label>
+            </value>
+            <value>
+                <fullName>VAMF III LPAC</fullName>
+                <default>false</default>
+                <label>VAMF III LPAC</label>
+            </value>
+            <value>
+                <fullName>VAMF II LPAC</fullName>
+                <default>false</default>
+                <label>VAMF II LPAC</label>
+            </value>
+            <value>
+                <fullName>AF III</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>AF III</label>
+            </value>
+            <value>
+                <fullName>BCOF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCOF</label>
+            </value>
+            <value>
+                <fullName>BCP II</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BCP II</label>
+            </value>
+            <value>
+                <fullName>BIF II LPAC LPAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BIF II LPAC LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF III, BIF IV, BSREP III</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BIF III, BIF IV, BSREP III</label>
+            </value>
+            <value>
+                <fullName>BIF IV LPAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BIF IV LPAC</label>
+            </value>
+            <value>
+                <fullName>BIF IV, BIF IV LPAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BIF IV, BIF IV LPAC</label>
+            </value>
+            <value>
+                <fullName>BREF I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BREF I</label>
+            </value>
+            <value>
+                <fullName>BREF III</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BREF III</label>
+            </value>
+            <value>
+                <fullName>BREF IV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BREF IV</label>
+            </value>
+            <value>
+                <fullName>BREF IV LPAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BREF IV LPAC</label>
+            </value>
+            <value>
+                <fullName>BREF V, BPREP, BSREP III, BIF IV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BREF V, BPREP, BSREP III, BIF IV</label>
+            </value>
+            <value>
+                <fullName>BSREP I LPAC LPAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BSREP I LPAC LPAC</label>
+            </value>
+            <value>
+                <fullName>BSREP III, BIF IV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BSREP III, BIF IV</label>
+            </value>
+            <value>
+                <fullName>BSREP IIII</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BSREP IIII</label>
+            </value>
+            <value>
+                <fullName>DTLA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DTLA</label>
+            </value>
+            <value>
+                <fullName>GGP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GGP</label>
+            </value>
+            <value>
+                <fullName>Thayer IV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Thayer IV</label>
+            </value>
+            <value>
+                <fullName>VAMF I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VAMF I</label>
+            </value>
+            <value>
+                <fullName>VAMF IIII</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VAMF IIII</label>
+            </value>
+            <value>
+                <fullName>VAMF IIIII LPAC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VAMF IIIII LPAC</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>No Meetings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>AF II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BCP III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BCP III LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BCP IV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BCP IV LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BCP V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BCP V LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BID (EURO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BID (USD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BID (USD) LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF III LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF II LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF I LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BIF IV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BPREP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BPREP Au</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BPREP AU LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BPREP LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BREF V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BREF V LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSIP LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREF LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREP I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREP II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREP III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREP III LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREP II LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>BSREP I LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Thayer V</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>Thayer VI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>VAMF II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>VAMF III</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>VAMF III LPAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investor</controllingFieldValue>
+            <valueName>VAMF II LPAC</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

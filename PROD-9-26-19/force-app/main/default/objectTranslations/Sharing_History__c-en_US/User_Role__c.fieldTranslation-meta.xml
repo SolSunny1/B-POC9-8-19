@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- User Role --></label>
+    <name>User_Role__c</name>
+    <picklistValues>
+        <masterLabel>Account Manager</masterLabel>
+        <translation><!-- Account Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Channel Manager</masterLabel>
+        <translation><!-- Channel Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Executive Sponsor</masterLabel>
+        <translation><!-- Executive Sponsor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lead Qualifier</masterLabel>
+        <translation><!-- Lead Qualifier --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Sales Consultant</masterLabel>
+        <translation><!-- Pre-Sales Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager</masterLabel>
+        <translation><!-- Sales Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Rep</masterLabel>
+        <translation><!-- Sales Rep --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

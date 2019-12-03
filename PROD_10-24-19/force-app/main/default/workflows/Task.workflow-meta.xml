@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>PMT_Infrastructure_Cases_from_Tasks</fullName>
+        <description>PMT Infrastructure Cases from Tasks</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PMT_Infrastructure</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>dan.richards@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/New_PMT_Infrastructure_Cases</template>
+    </alerts>
+    <alerts>
+        <fullName>PMT_Private_Equity_Cases_from_Tasks</fullName>
+        <description>PMT Private Equity Cases from Tasks</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PMT_Private_Equity</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>dan.richards@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/New_PMT_Private_Equity_Cases</template>
+    </alerts>
+    <alerts>
+        <fullName>PMT_Real_Estate_Cases_from_Tasks</fullName>
+        <description>PMT Real Estate Cases from Tasks</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>PMT_Real_Estate</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>dan.richards@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/New_PMT_Real_Estate_Cases</template>
+    </alerts>
+    <alerts>
+        <fullName>Soft_Decline_Task_Reminder</fullName>
+        <description>Soft Decline Task Reminder</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PFG_Archive/Soft_Decline_Re_Engagement_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Task_Changes</fullName>
+        <description>Task Changes - Theo</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>theodore.buchsbaum@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PMT_Task_Notifications</template>
+    </alerts>
+    <alerts>
+        <fullName>Task_Changes_Caroline</fullName>
+        <description>Task Changes - Caroline</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>caroline.fitzpatrick@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PMT_Task_Notifications</template>
+    </alerts>
+    <alerts>
+        <fullName>Task_Changes_Scott</fullName>
+        <description>Task Changes - Scott</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>scott.meller@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/PMT_Task_Notifications</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Pardot_record_type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Pardot</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Pardot record type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

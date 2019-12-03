@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_event</fullName>
+    <active>true</active>
+    <label>Event</label>
+    <picklistValues>
+        <picklist>Action_Items__c</picklist>
+        <values>
+            <fullName>Ad-hoc request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow-up Meeting with Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal %2F Tax %2F Fee Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFI %2F DDQ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>First_Follow_on__c</picklist>
+        <values>
+            <fullName>First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow-on</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interaction_Type__c</picklist>
+        <values>
+            <fullName>Call with Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call without Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting with Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting without Investment Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Meeting_Notes_Updated__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Deliverable__c</picklist>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pitch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underwriting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Relationship__c</picklist>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Interactive_Type__c</picklist>
+        <values>
+            <fullName>Final presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite due diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site tour</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter%2FQuote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

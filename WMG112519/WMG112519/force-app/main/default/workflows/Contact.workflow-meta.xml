@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>DST_Contact_CRD</fullName>
+        <description>Update the custom contact CRD field with the DST CRD</description>
+        <field>CRD_Number__c</field>
+        <formula>SalesConnect__CRD_Number__c</formula>
+        <name>DST Contact CRD</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Email</fullName>
+        <description>Update the native contact email field with the DST email</description>
+        <field>Email</field>
+        <formula>SalesConnect__E_mail_Address__c</formula>
+        <name>DST Contact Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Mailing_City</fullName>
+        <field>MailingCity</field>
+        <formula>SalesConnect__City__c</formula>
+        <name>DST Contact Mailing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Mailing_Country</fullName>
+        <field>MailingCountry</field>
+        <formula>SalesConnect__Country__c</formula>
+        <name>DST Contact Mailing Country</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Mailing_State</fullName>
+        <field>MailingState</field>
+        <formula>SalesConnect__State__c</formula>
+        <name>DST Contact Mailing State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Mailing_Street</fullName>
+        <field>MailingStreet</field>
+        <formula>SalesConnect__Address_Line_1__c &amp; BR() &amp; SalesConnect__Address_Line_2__c</formula>
+        <name>DST Contact Mailing Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Mailing_Zip</fullName>
+        <field>MailingPostalCode</field>
+        <formula>SalesConnect__Zip__c</formula>
+        <name>DST Contact Mailing Zip</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DST_Contact_Phone</fullName>
+        <description>Update the native contact phone field with the DST business phone</description>
+        <field>Phone</field>
+        <formula>SalesConnect__Business_Phone__c</formula>
+        <name>DST Contact Phone</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Relationship_Status_Updated</fullName>
+        <field>Relationship_Status_Updated__c</field>
+        <formula>TODAY ()</formula>
+        <name>Relationship Status Updated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_In_Person_Meetings_Year</fullName>
+        <field>In_Person_Meetings_Year__c</field>
+        <formula>Case( Text( Tier__c), 
+&#39;A&#39;, $Setup.Service_Level_Defaults__c.Tier_A_In_Person_Meetings_Year__c , 
+&#39;B&#39;, $Setup.Service_Level_Defaults__c.Tier_B_In_Person_Meetings_Year__c , 
+&#39;C&#39;, $Setup.Service_Level_Defaults__c.Tier_C_In_Person_Meetings_Year__c , 
+&#39;D&#39;, $Setup.Service_Level_Defaults__c.Tier_D_In_Person_Meetings_Year__c , 
+&#39;E&#39;, $Setup.Service_Level_Defaults__c.Tier_E_In_Person_Meetings_Year__c , 
+$Setup.Service_Level_Defaults__c.Tier_E_In_Person_Meetings_Year__c)</formula>
+        <name>Set In-Person Meetings/Year</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Relationship_Calls_per_Year</fullName>
+        <field>Relationship_Calls_Year__c</field>
+        <formula>Case( Text( Tier__c), 
+&#39;A&#39;, $Setup.Service_Level_Defaults__c.Tier_A_Relationship_Calls_Year__c , 
+&#39;B&#39;, $Setup.Service_Level_Defaults__c.Tier_B_Relationship_Calls_Year__c , 
+&#39;C&#39;, $Setup.Service_Level_Defaults__c.Tier_C_Relationship_Calls_Year__c , 
+&#39;D&#39;, $Setup.Service_Level_Defaults__c.Tier_D_Relationship_Calls_Year__c , 
+&#39;E&#39;, $Setup.Service_Level_Defaults__c.Tier_E_Relationship_Calls_Year__c , 
+$Setup.Service_Level_Defaults__c.Tier_E_Relationship_Calls_Year__c)</formula>
+        <name>Set Relationship Calls per Year</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_mailing_address</fullName>
+        <field>MailingStreet</field>
+        <formula>SalesConnect__OfficeAccountLinked__r.BillingStreet</formula>
+        <name>update mailing address</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_mailing_city</fullName>
+        <field>MailingCity</field>
+        <formula>SalesConnect__OfficeAccountLinked__r.BillingCity</formula>
+        <name>update mailing city</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_mailing_country</fullName>
+        <field>MailingCountry</field>
+        <formula>SalesConnect__OfficeAccountLinked__r.BillingCountry</formula>
+        <name>update mailing country</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_mailing_state</fullName>
+        <field>MailingState</field>
+        <formula>SalesConnect__OfficeAccountLinked__r.BillingState</formula>
+        <name>update mailing state</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_mailing_zip</fullName>
+        <field>MailingPostalCode</field>
+        <formula>SalesConnect__OfficeAccountLinked__r.BillingPostalCode</formula>
+        <name>update mailing zip</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>ContactAddress</fullName>
+        <actions>
+            <name>update_mailing_address</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>update_mailing_city</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>update_mailing_country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>update_mailing_state</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>update_mailing_zip</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.SalesConnect__Contact_ID__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.SalesConnect__Firm_Internal_ID__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.SalesConnect__Office_Internal_ID__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Update contact address with office link when contact is NOT created by DST</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DST Overlay - Address</fullName>
+        <actions>
+            <name>DST_Contact_Mailing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_Country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_Zip</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR(  AND(  ISNEW(), ISBLANK(SalesConnect__CRD_Number__c) = False),   AND(  OR(ISCHANGED(SalesConnect__Address_Line_1__c),  ISCHANGED(SalesConnect__Address_Line_2__c),  ISCHANGED(SalesConnect__City__c),  ISCHANGED(SalesConnect__State__c),  ISCHANGED(SalesConnect__Zip__c),  ISCHANGED(SalesConnect__Country__c)  ),   AND(ISBLANK(SalesConnect__Address_Line_1__c) = FALSE,  ISBLANK(SalesConnect__City__c) = FALSE,  ISBLANK(SalesConnect__State__c) = FALSE,  ISBLANK(SalesConnect__Zip__c) = FALSE,  ISBLANK(SalesConnect__Country__c) = FALSE)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DST Overlay - CRD</fullName>
+        <actions>
+            <name>DST_Contact_CRD</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR(  AND (ISNEW(), ISBLANK(SalesConnect__CRD_Number__c) = FALSE), AND(  ISCHANGED(SalesConnect__CRD_Number__c), ISBLANK( SalesConnect__CRD_Number__c ) = FALSE)  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DST Overlay - Email</fullName>
+        <actions>
+            <name>DST_Contact_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR(AND(ISNEW(), ISBLANK(SalesConnect__CRD_Number__c) = FALSE), AND( ISCHANGED( SalesConnect__E_mail_Address__c ) ,  ISBLANK( SalesConnect__E_mail_Address__c ) = FALSE) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DST Overlay - Phone</fullName>
+        <actions>
+            <name>DST_Contact_Phone</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update SFDC fields with DST data</description>
+        <formula>OR( AND(ISNEW(),ISBLANK(SalesConnect__CRD_Number__c) = False), AND( ISCHANGED( SalesConnect__Business_Phone__c ) ,  ISBLANK( SalesConnect__Business_Phone__c ) = FALSE) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Data Migration of Contacts</fullName>
+        <active>false</active>
+        <description>One time data update of contact records</description>
+        <formula>1=1</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update the Communication Tempo When Tier Is Changed</fullName>
+        <actions>
+            <name>Set_In_Person_Meetings_Year</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Relationship_Calls_per_Year</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(Tier__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update when the Relationship Status is Changed</fullName>
+        <actions>
+            <name>Relationship_Status_Updated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Time stamps the &quot;Relationship Status Updated&quot; field with the current time any time the Relationship Status field is changed</description>
+        <formula>ISCHANGED( Relationship_Status__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>update mailing address DST</fullName>
+        <actions>
+            <name>DST_Contact_Mailing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_Country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>DST_Contact_Mailing_Zip</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.MailingCity</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.SalesConnect__Address_Line_1__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.SalesConnect__City__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.SalesConnect__State__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>update DST contact mailing address info with DST address data</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

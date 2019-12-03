@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- formula to tick box if there is data in either of the two data room fields --></help>
+    <label><!-- Data Room Access Provided Auto --></label>
+    <name>Data_Room_Access_Provided_auto__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investment Size --></label>
+    <name>InvestmentSize__c</name>
+    <picklistValues>
+        <masterLabel>$250MM - $500MM</masterLabel>
+        <translation><!-- $250MM - $500MM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>$500MM+</masterLabel>
+        <translation><!-- $500MM+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>$50MM - $250MM</masterLabel>
+        <translation><!-- $50MM - $250MM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&lt;= $50MM</masterLabel>
+        <translation><!-- &lt;= $50MM --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

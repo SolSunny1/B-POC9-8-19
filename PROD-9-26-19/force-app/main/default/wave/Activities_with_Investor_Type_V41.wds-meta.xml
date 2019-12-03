@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Archive</application>
+    <description>Created from the Activities with Investor Type V4 recipe.</description>
+    <masterLabel>old to delete Activities with Investor Type V4</masterLabel>
+</WaveDataset>

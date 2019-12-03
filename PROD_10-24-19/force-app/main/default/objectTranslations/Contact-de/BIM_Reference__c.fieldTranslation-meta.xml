@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select this field if this contact can be used as a BIM Reference. --></help>
+    <label><!-- PSG Reference --></label>
+    <name>BIM_Reference__c</name>
+</CustomFieldTranslation>

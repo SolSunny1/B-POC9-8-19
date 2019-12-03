@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_Current_Comitment_by_investor__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(Number_of_Current_Investors__c &gt; 0, Current_Commitments_USD__c /  Number_of_Current_Investors__c, Current_Commitments_USD__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculated automatically based on the Number of Current Investors and the total Current Commitments - USD.</inlineHelpText>
+    <label>Avg Current Commitment by Investor</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

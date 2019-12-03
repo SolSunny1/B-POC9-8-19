@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- To pull the consultant name into a text field for roll up helper on client (Related To) account --></help>
+    <label><!-- Related to Text --></label>
+    <name>Related_to_Text__c</name>
+</CustomFieldTranslation>

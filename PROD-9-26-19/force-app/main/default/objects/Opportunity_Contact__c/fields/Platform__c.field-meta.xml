@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Agriland&quot;),&quot;Agriland&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Property&quot;),&quot;Property&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Infrastructure&quot;),&quot;Infrastructure&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Investments&quot;),&quot;Investments&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Power&quot;),&quot;Power&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Private Equity&quot;),&quot;Private Equity&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Specialty Funds&quot;),&quot;Specialty Funds&quot;,
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Timberland&quot;),&quot;Timberland&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Corporate High Yield&quot;),&quot;Corporate High Yield&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Credit Opportunities&quot;),&quot;Credit Opportunities&quot;,
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Equity Opportunities&quot;),&quot;Equity Opportunities&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Real Asset&quot;),&quot;Real Asset&quot;, 
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;REITS&quot;),&quot;REITS&quot;,
+if( 
+ispickval(Investor_Opportunity__r.Investment_Vehicle__r.Platform__c,&quot;Securitized Credit&quot;),&quot;Securitized Credit&quot;,
+&quot;&quot; 
+))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Platform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

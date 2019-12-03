@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_RE_Product_Specialist__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>To identify the product specialist covering the account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To identify the product specialist covering the account</inlineHelpText>
+    <label>PFG RE Product Specialist</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Search is defaulted to display active users.  You can search all if you need to see an inactive user.</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>AccountsUser7</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

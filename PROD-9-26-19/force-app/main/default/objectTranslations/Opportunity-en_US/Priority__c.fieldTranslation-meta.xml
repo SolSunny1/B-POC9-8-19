@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use this pick list to help prioritize the LP&apos;s that are more likely to close.  Tier 1&apos;s should always be used for those that are Soft Circled. Tier 4 is for Tier 1,2,3 subsequently declined --></help>
+    <label><!-- Priority (Tracker) --></label>
+    <name>Priority__c</name>
+    <picklistValues>
+        <masterLabel>Tier 1</masterLabel>
+        <translation><!-- Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 2</masterLabel>
+        <translation><!-- Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 3</masterLabel>
+        <translation><!-- Tier 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 4</masterLabel>
+        <translation><!-- Tier 4 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

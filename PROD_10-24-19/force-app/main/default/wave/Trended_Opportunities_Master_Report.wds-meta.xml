@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Archive</application>
+    <description>PLEASE DO NOT Touch this Report at any point this report is used in Einstein Analytics for Converted USD field.</description>
+    <masterLabel>Trended Opportunities Master Report</masterLabel>
+</WaveDataset>

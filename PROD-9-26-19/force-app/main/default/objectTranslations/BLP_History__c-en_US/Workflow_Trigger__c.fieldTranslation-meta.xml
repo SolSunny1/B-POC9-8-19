@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Just used to trigger workflows to update initially. Will be deleted eventually. --></help>
+    <label><!-- Workflow Trigger --></label>
+    <name>Workflow_Trigger__c</name>
+</CustomFieldTranslation>

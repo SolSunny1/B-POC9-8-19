@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Interactive_Type__c</fullName>
+    <description>Breakdown Interaction Type for reporting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Breakdown Interaction Type for reporting</inlineHelpText>
+    <label>Sub Interaction Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Interaction_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Introductory</fullName>
+                <default>false</default>
+                <label>Introductory</label>
+            </value>
+            <value>
+                <fullName>Onsite due diligence</fullName>
+                <default>false</default>
+                <label>Onsite due diligence</label>
+            </value>
+            <value>
+                <fullName>Investment committee</fullName>
+                <default>false</default>
+                <label>Investment committee</label>
+            </value>
+            <value>
+                <fullName>Site tour</fullName>
+                <default>false</default>
+                <label>Site tour</label>
+            </value>
+            <value>
+                <fullName>Final presentation</fullName>
+                <default>false</default>
+                <label>Final presentation</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Call with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Call without Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting without Investment Team</controllingFieldValue>
+            <valueName>Introductory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Call with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Call without Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting without Investment Team</controllingFieldValue>
+            <valueName>Investment committee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting without Investment Team</controllingFieldValue>
+            <valueName>Onsite due diligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting without Investment Team</controllingFieldValue>
+            <valueName>Site tour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meeting with Investment Team</controllingFieldValue>
+            <controllingFieldValue>Meeting without Investment Team</controllingFieldValue>
+            <valueName>Final presentation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

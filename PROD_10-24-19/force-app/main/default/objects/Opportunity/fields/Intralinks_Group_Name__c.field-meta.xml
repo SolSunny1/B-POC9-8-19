@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intralinks_Group_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(  Investment_Vehicle__r.Name =&quot;BIF III&quot;, BIF_III_Investor_Number__c +&quot;-&quot;+text(Sleeve__c)+&quot;-&quot;+Legal_Name__c,if(text(Sleeve__c)=&quot;US&quot;,&quot;Inv&quot;+&quot;-&quot;+Legal_Name__c,&quot;Inv&quot;+text(Sleeve__c)+&quot;-&quot;+Legal_Name__c))</formula>
+    <label>Intralinks Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

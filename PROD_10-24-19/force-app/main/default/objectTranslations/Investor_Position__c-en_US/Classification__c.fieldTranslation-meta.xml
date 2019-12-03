@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copy from Opportunity of the investment classification First, Re-Up Series, Re-Up Platform, Crossover, Top-up, Co-Invest, or Direct. --></help>
+    <label><!-- Classification --></label>
+    <name>Classification__c</name>
+</CustomFieldTranslation>

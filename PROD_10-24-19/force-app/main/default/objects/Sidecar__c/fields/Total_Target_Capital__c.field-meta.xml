@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Target_Capital__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ISPICKVAL(Status__c, &quot;Closed Lost&quot;), Parent_Opportunity__r.Amount, Parent_Opportunity__r.Amount + Sidecar_Size__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>To edit Total Target Capital, please go to the parent opportunity to make changes</inlineHelpText>
+    <label>Total Target Capital</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

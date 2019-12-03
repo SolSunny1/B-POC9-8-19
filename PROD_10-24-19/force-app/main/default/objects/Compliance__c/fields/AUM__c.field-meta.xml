@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUM__c</fullName>
+    <externalId>false</externalId>
+    <label>AUM</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>$0 to Over $50 Million</fullName>
+                <default>false</default>
+                <label>$0 to Over $50 Million</label>
+            </value>
+            <value>
+                <fullName>Over $100,000,000</fullName>
+                <default>false</default>
+                <label>Over $100,000,000</label>
+            </value>
+            <value>
+                <fullName>Over $50,000,000</fullName>
+                <default>false</default>
+                <label>Over $50,000,000</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

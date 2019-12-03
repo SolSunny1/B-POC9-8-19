@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Fund Headline Rate for the duration of the fund on the amount actually invested post-investment period.
+
+Fund Headline Rate is the actual advertised rate for the particular fund before discounts and incentives. --></help>
+    <label><!-- FHR- Post Inv Period - Invested --></label>
+    <name>FHR_Post_Investment_Period_Invested__c</name>
+</CustomFieldTranslation>

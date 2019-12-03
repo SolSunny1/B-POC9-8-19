@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- to sort by last modified date to get a sense of which Opportunities are active --></help>
+    <label><!-- Last Opportunity Update --></label>
+    <name>Last_Opportunity_Update__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NH_Investors</fullName>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Legal_Name__c</columns>
+    <columns>Sleeve__c</columns>
+    <columns>Proposed_LPAC_Status__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Country__c</columns>
+    <columns>New_Investor__c</columns>
+    <columns>Topup__c</columns>
+    <columns>OPPORTUNITY.FISCAL_PERIOD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>New Hampshire</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>7,8</value>
+    </filters>
+    <label>NH Investors</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

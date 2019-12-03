@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interaction_Type__c</fullName>
+    <description>Classify the type of interaction for easier reporting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Classify the type of interaction for easier reporting</inlineHelpText>
+    <label>Interaction Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fund Introduction</fullName>
+                <default>false</default>
+                <label>Fund Introduction</label>
+            </value>
+            <value>
+                <fullName>Fund Update</fullName>
+                <default>false</default>
+                <label>Fund Update</label>
+            </value>
+            <value>
+                <fullName>Investment Team</fullName>
+                <default>false</default>
+                <label>Initial Investment Team</label>
+            </value>
+            <value>
+                <fullName>Investment Committee</fullName>
+                <default>false</default>
+                <label>Investment Committee</label>
+            </value>
+            <value>
+                <fullName>Due Diligence</fullName>
+                <default>false</default>
+                <label>Subsequent Investment Team/DD</label>
+            </value>
+            <value>
+                <fullName>Final Presentation</fullName>
+                <default>false</default>
+                <label>Final Presentation</label>
+            </value>
+            <value>
+                <fullName>Site Tour</fullName>
+                <default>false</default>
+                <label>Site Tour</label>
+            </value>
+            <value>
+                <fullName>Call with Investment Team</fullName>
+                <default>false</default>
+                <label>Call with Investment Team</label>
+            </value>
+            <value>
+                <fullName>Call without Investment Team</fullName>
+                <default>false</default>
+                <label>Call without Investment Team</label>
+            </value>
+            <value>
+                <fullName>Meeting with Investment Team</fullName>
+                <default>false</default>
+                <label>Meeting with Investment Team</label>
+            </value>
+            <value>
+                <fullName>Meeting without Investment Team</fullName>
+                <default>false</default>
+                <label>Meeting without Investment Team</label>
+            </value>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Email (to send)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Email (to send)</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Meeting</label>
+            </value>
+            <value>
+                <fullName>Onsite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Onsite</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

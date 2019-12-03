@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Internal Group Role --></label>
+    <name>Internal_Group_Role__c</name>
+    <picklistValues>
+        <masterLabel>CRM</masterLabel>
+        <translation><!-- CRM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate</masterLabel>
+        <translation><!-- Corporate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fin Ops</masterLabel>
+        <translation><!-- Fin Ops --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fund Teams</masterLabel>
+        <translation><!-- Fund Teams --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal &amp; Compliance</masterLabel>
+        <translation><!-- Legal &amp; Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing &amp; Communication</masterLabel>
+        <translation><!-- Marketing &amp; Communication --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMT</masterLabel>
+        <translation><!-- PMT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SMP</masterLabel>
+        <translation><!-- SMP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

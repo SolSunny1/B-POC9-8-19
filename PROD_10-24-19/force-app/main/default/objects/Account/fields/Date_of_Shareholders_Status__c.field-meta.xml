@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Shareholders_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>When the shares were updated last</inlineHelpText>
+    <label>Date of Shareholders Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

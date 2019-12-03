@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Last_Meeting_with_Investment_Tea__c</fullName>
+    <description>Last meeting with the Investment Team</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Last meeting with the Investment Team</inlineHelpText>
+    <label>Date of Last Meeting with Inv. Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

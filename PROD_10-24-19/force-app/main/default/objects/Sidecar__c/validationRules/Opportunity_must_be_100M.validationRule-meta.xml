@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_must_be_100M</fullName>
+    <active>false</active>
+    <description>Parent Opportunity must be at least 100M to qualify for a side car.</description>
+    <errorConditionFormula>Parent_Opportunity__r.Amount &lt; 100000000</errorConditionFormula>
+    <errorMessage>Parent Opportunity must be at least $100M to qualify for a side car. Cancel Side Car creation and update the parent Opportunity.</errorMessage>
+</ValidationRule>

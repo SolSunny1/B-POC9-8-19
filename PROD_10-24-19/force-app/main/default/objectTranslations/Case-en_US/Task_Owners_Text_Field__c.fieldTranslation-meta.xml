@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide initials/acronyms of individuals who will be completing these projects --></help>
+    <label><!-- Task Owners - Text Field --></label>
+    <name>Task_Owners_Text_Field__c</name>
+</CustomFieldTranslation>

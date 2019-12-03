@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Co-Investment Account has indicated they are willing to commit --></help>
+    <label><!-- Bite Size --></label>
+    <name>Bite_Size__c</name>
+    <picklistValues>
+        <masterLabel>$25M-$150M</masterLabel>
+        <translation><!-- $25M-$150M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&lt;$25M</masterLabel>
+        <translation><!-- &lt;$25M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&gt;$150M</masterLabel>
+        <translation><!-- &gt;$150M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

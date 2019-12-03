@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Due_Date_Notification__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Created to track PSG Client Service users who would like to get 2 days prior due date notification.</description>
+    <externalId>false</externalId>
+    <label>Case Due Date Notification</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

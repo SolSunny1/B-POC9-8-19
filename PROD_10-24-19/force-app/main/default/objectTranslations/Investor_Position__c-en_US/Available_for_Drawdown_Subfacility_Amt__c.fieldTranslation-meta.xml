@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Imported field of the Subscription Facility Amount  (short term loan) used. --></help>
+    <label><!-- Available for Drawdown - Subfacility Amt --></label>
+    <name>Available_for_Drawdown_Subfacility_Amt__c</name>
+</CustomFieldTranslation>

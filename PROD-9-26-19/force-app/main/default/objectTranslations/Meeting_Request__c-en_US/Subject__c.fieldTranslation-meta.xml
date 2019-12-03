@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Nature of the meeting - will eventually be mapped to the Subject line of an Event record --></help>
+    <label><!-- Subject --></label>
+    <name>Subject__c</name>
+    <picklistValues>
+        <masterLabel>Due Diligence</masterLabel>
+        <translation><!-- Due Diligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance Update</masterLabel>
+        <translation><!-- Performance Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Pitch</masterLabel>
+        <translation><!-- Product Pitch --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

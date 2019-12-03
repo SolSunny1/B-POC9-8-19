@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- to populate if the Last meeting with investment team or number of PSG Events isn&apos;t blank --></help>
+    <label><!-- PSG Meeting Held Auto --></label>
+    <name>PSG_Meeting_Held_Auto__c</name>
+</CustomFieldTranslation>

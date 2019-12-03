@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- text field created to populate the account name of the contact in Eform --></help>
+    <label><!-- Contact Organization - Form --></label>
+    <name>Contact_Organization_Form__c</name>
+</CustomFieldTranslation>

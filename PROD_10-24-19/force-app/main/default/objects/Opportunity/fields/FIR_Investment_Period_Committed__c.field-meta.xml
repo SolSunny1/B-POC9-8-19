@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIR_Investment_Period_Committed__c</fullName>
+    <description>FIR - Investment Period - Committed - Offered</description>
+    <externalId>false</externalId>
+    <inlineHelpText>FIR - Investment Period - Committed - Offered</inlineHelpText>
+    <label>FIR - Investment Period - Committed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>11</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

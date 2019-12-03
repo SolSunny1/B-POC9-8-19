@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform__c</fullName>
+    <externalId>false</externalId>
+    <label>Platform</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Corporate Credit</fullName>
+                <default>false</default>
+                <label>Corporate Credit</label>
+            </value>
+            <value>
+                <fullName>Corporate High Yield</fullName>
+                <default>false</default>
+                <label>Corporate High Yield</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>Credit Opportunities</fullName>
+                <default>false</default>
+                <label>Credit Opportunities</label>
+            </value>
+            <value>
+                <fullName>Energy Infrastructure</fullName>
+                <default>false</default>
+                <label>Energy Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Equity Opportunities</fullName>
+                <default>false</default>
+                <label>Equity Opportunities</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Investments</fullName>
+                <default>false</default>
+                <label>Investments</label>
+            </value>
+            <value>
+                <fullName>Opportunistic MBS</fullName>
+                <default>false</default>
+                <label>Opportunistic MBS</label>
+            </value>
+            <value>
+                <fullName>Power</fullName>
+                <default>false</default>
+                <label>Power</label>
+            </value>
+            <value>
+                <fullName>Private Equity</fullName>
+                <default>false</default>
+                <label>Private Equity</label>
+            </value>
+            <value>
+                <fullName>Property</fullName>
+                <default>false</default>
+                <label>Property</label>
+            </value>
+            <value>
+                <fullName>Real Asset Debt</fullName>
+                <default>false</default>
+                <label>Real Asset Debt</label>
+            </value>
+            <value>
+                <fullName>Real Asset Solutions</fullName>
+                <default>false</default>
+                <label>Real Asset Solutions</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Securitized Credit</fullName>
+                <default>false</default>
+                <label>Securitized Credit</label>
+            </value>
+            <value>
+                <fullName>Specialty Funds</fullName>
+                <default>false</default>
+                <label>Specialty Funds</label>
+            </value>
+            <value>
+                <fullName>Strategic Income</fullName>
+                <default>false</default>
+                <label>Strategic Income</label>
+            </value>
+            <value>
+                <fullName>Timberland</fullName>
+                <default>false</default>
+                <label>Timberland</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

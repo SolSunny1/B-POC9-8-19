@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If &quot;To Be Deleted&quot; is selected, note that all activities, etc relating to the Contact will also be deleted.  Otherwise, if Contact is Retired/Inactive or should not be receiving emails for other reasons, update the &quot;Email Opt Out&quot; checkbox.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>true</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>To Be Merged</fullName>
+                <default>false</default>
+                <label>To Be Merged</label>
+            </value>
+            <value>
+                <fullName>To be discussed</fullName>
+                <default>false</default>
+                <label>To be discussed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

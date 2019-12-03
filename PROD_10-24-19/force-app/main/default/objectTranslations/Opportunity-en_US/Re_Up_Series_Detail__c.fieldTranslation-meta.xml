@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What other funds in the series are they invested in and how much --></help>
+    <label><!-- Re-Up Series Detail --></label>
+    <name>Re_Up_Series_Detail__c</name>
+</CustomFieldTranslation>

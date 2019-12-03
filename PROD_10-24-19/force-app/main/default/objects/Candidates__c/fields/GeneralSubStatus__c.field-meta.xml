@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeneralSubStatus__c</fullName>
+    <description>SS: 3-27-19 created to track sub-status for general candidates who&#39;s business process is different then other candidates.</description>
+    <externalId>false</externalId>
+    <label>General Sub-Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Candidate_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No process</fullName>
+                <default>false</default>
+                <label>No process</label>
+            </value>
+            <value>
+                <fullName>BH Stopped Process</fullName>
+                <default>false</default>
+                <label>BH Stopped Process</label>
+            </value>
+            <value>
+                <fullName>Candidate Stopped Process</fullName>
+                <default>false</default>
+                <label>Candidate Stopped Process</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Intro Call</fullName>
+                <default>false</default>
+                <label>Intro Call</label>
+            </value>
+            <value>
+                <fullName>Coffee/Intro Call</fullName>
+                <default>false</default>
+                <label>Coffee/Intro Call</label>
+            </value>
+            <value>
+                <fullName>Who</fullName>
+                <default>false</default>
+                <label>Who</label>
+            </value>
+            <value>
+                <fullName>Assessments</fullName>
+                <default>false</default>
+                <label>Assessments</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Risk Case Studies</fullName>
+                <default>false</default>
+                <label>Risk Case Studies</label>
+            </value>
+            <value>
+                <fullName>Sample</fullName>
+                <default>false</default>
+                <label>Sample</label>
+            </value>
+            <value>
+                <fullName>Behavioral</fullName>
+                <default>false</default>
+                <label>Behavioral</label>
+            </value>
+            <value>
+                <fullName>Reference Check</fullName>
+                <default>false</default>
+                <label>Reference Check</label>
+            </value>
+            <value>
+                <fullName>Negotiations</fullName>
+                <default>false</default>
+                <label>Negotiations</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>No process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>BH Stopped Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Candidate Stopped Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <valueName>Intro Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Who</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Assessments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <valueName>Risk Case Studies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Behavioral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Reference Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Risk</controllingFieldValue>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Negotiations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Coffee/Intro Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sourcer</controllingFieldValue>
+            <controllingFieldValue>Trader</controllingFieldValue>
+            <controllingFieldValue>Research</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <controllingFieldValue>Management</controllingFieldValue>
+            <valueName>Sample</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

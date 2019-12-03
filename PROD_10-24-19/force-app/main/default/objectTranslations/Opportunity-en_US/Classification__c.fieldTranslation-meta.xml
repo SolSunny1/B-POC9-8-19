@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The type of investment first, re-up series, re-up platform, crossover, direct, co-invest, top up --></help>
+    <label><!-- Opportunity Origin --></label>
+    <name>Classification__c</name>
+    <picklistValues>
+        <masterLabel>Co-Invest</masterLabel>
+        <translation><!-- Co-Invest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crossover</masterLabel>
+        <translation><!-- Crossover --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Overview</masterLabel>
+        <translation><!-- General Overview --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Joint Venture</masterLabel>
+        <translation><!-- Joint Venture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New</masterLabel>
+        <translation><!-- New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Re-Up</masterLabel>
+        <translation><!-- Re-Up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sale of Asset</masterLabel>
+        <translation><!-- Sale of Asset --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Separate Accounts</masterLabel>
+        <translation><!-- Separate Accounts --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

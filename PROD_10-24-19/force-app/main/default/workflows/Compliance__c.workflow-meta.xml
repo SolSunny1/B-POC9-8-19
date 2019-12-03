@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Compliance_Rejected</fullName>
+        <description>Compliance Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bhupinder.sethi@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>dan.richards@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Compliance_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_Rejected_by_Legal</fullName>
+        <description>Compliance Rejected by Legal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <recipient>adam.sachs@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>alexis.rieger@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jessica.kerr@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Compliance_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_to_compliance_owner_on_L_C_Approval</fullName>
+        <description>Send email to compliance owner on L&amp;C Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/L_C_Approved_Owner_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>X30_Days_Compliance_notification_to_record_owner</fullName>
+        <description>30 Days Compliance notification to record owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/X30_days_compliance_notification_to_Legal_and_Compliance_Approval</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Uncheck_Form_Complete</fullName>
+        <field>Form_Complete__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Form Complete</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ComplianceFormApproved_to_False</fullName>
+        <field>Compliance_Form_Approved__c</field>
+        <literalValue>0</literalValue>
+        <name>Update-ComplianceFormApproved to False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ComplianceFormApproved_to_True</fullName>
+        <description>SS: 9/19/19 created to track if form been approved by L&amp;C group.</description>
+        <field>Compliance_Form_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update-ComplianceFormApproved to True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Compliance_Status_to_L_C_Approved</fullName>
+        <field>Status__c</field>
+        <literalValue>L&amp;C Approved</literalValue>
+        <name>Update Compliance Status to L&amp;C Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Compliance_Status_to_L_C_Reject</fullName>
+        <field>Status__c</field>
+        <literalValue>L&amp;C Rejected</literalValue>
+        <name>Update Compliance Status to L&amp;C Reject</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Compliance_Status_to_New</fullName>
+        <field>Status__c</field>
+        <literalValue>New</literalValue>
+        <name>Update Compliance Status to New</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Compliance_Status_to_Pending_Appr</fullName>
+        <field>Status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Update Compliance Status to Pending Appr</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Signed_of_by_CRM</fullName>
+        <field>Signed_off_by_CRM__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Signed of by CRM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

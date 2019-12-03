@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Configurable roll up to count the number of meetings on the Opportunity --></help>
+    <label><!-- PFG Number of Meetings --></label>
+    <name>PFG_Number_of_Meetings__c</name>
+</CustomFieldTranslation>

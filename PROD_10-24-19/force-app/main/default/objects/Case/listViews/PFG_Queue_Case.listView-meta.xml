@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Queue_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.X2016</value>
+    </filters>
+    <label>Salesforce Support</label>
+    <queue>PFG_Queue</queue>
+    <sharedTo>
+        <role>BAM_TSG_Data_Archive</role>
+        <role>PFG_Salesforce_Support</role>
+        <role>PFG_Salesforce_Support_Team</role>
+    </sharedTo>
+</ListView>

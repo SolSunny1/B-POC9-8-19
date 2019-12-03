@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIF_I_Investor_Contacts</fullName>
+    <columns>Investor_Opportunity__c</columns>
+    <columns>Legal_Name_Auto__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Email_Address__c</columns>
+    <columns>Role__c</columns>
+    <columns>Capital_Calls__c</columns>
+    <columns>Distributions__c</columns>
+    <columns>Legal__c</columns>
+    <columns>LPAC__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>Fund_Sleeve_Auto__c</columns>
+    <columns>Main_Contact__c</columns>
+    <columns>Copy_on_Emails__c</columns>
+    <columns>Opportunity_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BIF I</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>BIF I Investor Contacts</label>
+</ListView>

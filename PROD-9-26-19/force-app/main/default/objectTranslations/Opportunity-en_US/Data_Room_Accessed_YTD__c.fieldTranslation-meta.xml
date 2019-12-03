@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- ticks if the last access has been this year --></help>
+    <label><!-- Data Room Accessed YTD --></label>
+    <name>Data_Room_Accessed_YTD__c</name>
+</CustomFieldTranslation>

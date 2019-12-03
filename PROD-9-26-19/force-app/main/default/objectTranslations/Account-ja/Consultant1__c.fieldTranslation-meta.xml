@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Consultant --></label>
+    <name>Consultant1__c</name>
+    <picklistValues>
+        <masterLabel>Aon Hewitt</masterLabel>
+        <translation><!-- Aon Hewitt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Buck Consultants Limited</masterLabel>
+        <translation><!-- Buck Consultants Limited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coughlin &amp; Associates</masterLabel>
+        <translation><!-- Coughlin &amp; Associates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eckler Ltd</masterLabel>
+        <translation><!-- Eckler Ltd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mercer</masterLabel>
+        <translation><!-- Mercer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morneau Shepell</masterLabel>
+        <translation><!-- Morneau Shepell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Robertson Eadie &amp; Associates</masterLabel>
+        <translation><!-- Robertson Eadie &amp; Associates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The Segal Group</masterLabel>
+        <translation><!-- The Segal Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Willis Towers Watson</masterLabel>
+        <translation><!-- Willis Towers Watson --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor_Opportunity__c</fullName>
+    <externalId>false</externalId>
+    <label>Investor Opportunity</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>7 - Approved, 8 - Closed/Confirmed</value>
+        </filterItems>
+        <filterItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </filterItems>
+        <infoMessage>You can expand the look up filter criteria.  By default it will only show those that are in the PFG Approved or Closed/Confirmed change</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Investor Contacts</relationshipLabel>
+    <relationshipName>OpportunityContacts</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

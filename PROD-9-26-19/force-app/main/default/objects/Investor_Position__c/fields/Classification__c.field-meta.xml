@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Classification__c</fullName>
+    <description>Copy from Opportunity of the investment classification First, Re-Up Series, Re-Up Platform, Crossover, Top-up, Co-Invest, or Direct.
+
+SS: 8/3/18: Mapped new values and optimized formula code</description>
+    <externalId>false</externalId>
+    <formula>CASE( Opportunity_Name__r.Classification__c , 
+      &quot;First&quot;,&quot;New&quot;, 
+      &quot;Re-Up Series&quot;,&quot;Re-Up&quot;, 
+      &quot;Crossover&quot;,&quot;Crossover&quot;, 
+      &quot;Co-Invest&quot;,&quot;Co-Invest&quot;,
+      &quot;Top-Up&quot;, &quot;Top-Up&quot;,
+      &quot;&quot; 
+)</formula>
+    <inlineHelpText>Copy from Opportunity of the investment classification First, Re-Up Series, Re-Up Platform, Crossover, Top-up, Co-Invest, or Direct.</inlineHelpText>
+    <label>Classification</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

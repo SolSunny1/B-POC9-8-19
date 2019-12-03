@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Group_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Internal Group Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Unit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CRM</fullName>
+                <default>false</default>
+                <label>CRM</label>
+            </value>
+            <value>
+                <fullName>PMT</fullName>
+                <default>false</default>
+                <label>PMT</label>
+            </value>
+            <value>
+                <fullName>Fund Teams</fullName>
+                <default>false</default>
+                <label>Fund Teams</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Fin Ops</fullName>
+                <default>false</default>
+                <label>Fin Ops</label>
+            </value>
+            <value>
+                <fullName>Legal &amp; Compliance</fullName>
+                <default>false</default>
+                <label>Legal &amp; Compliance</label>
+            </value>
+            <value>
+                <fullName>SMP</fullName>
+                <default>false</default>
+                <label>SMP</label>
+            </value>
+            <value>
+                <fullName>Marketing &amp; Communication</fullName>
+                <default>false</default>
+                <label>Marketing &amp; Communication</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>BFIN</controllingFieldValue>
+            <controllingFieldValue>BAM</controllingFieldValue>
+            <controllingFieldValue>BIM</controllingFieldValue>
+            <controllingFieldValue>BPY</controllingFieldValue>
+            <controllingFieldValue>BCO</controllingFieldValue>
+            <controllingFieldValue>BLP</controllingFieldValue>
+            <valueName>CRM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFIN</controllingFieldValue>
+            <controllingFieldValue>BAM</controllingFieldValue>
+            <controllingFieldValue>BIM</controllingFieldValue>
+            <controllingFieldValue>BPY</controllingFieldValue>
+            <controllingFieldValue>BCO</controllingFieldValue>
+            <controllingFieldValue>BLP</controllingFieldValue>
+            <valueName>PMT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFIN</controllingFieldValue>
+            <controllingFieldValue>BAM</controllingFieldValue>
+            <controllingFieldValue>BIM</controllingFieldValue>
+            <controllingFieldValue>BPY</controllingFieldValue>
+            <controllingFieldValue>BCO</controllingFieldValue>
+            <controllingFieldValue>BLP</controllingFieldValue>
+            <valueName>Fund Teams</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BFIN</controllingFieldValue>
+            <controllingFieldValue>BAM</controllingFieldValue>
+            <controllingFieldValue>BIM</controllingFieldValue>
+            <controllingFieldValue>BPY</controllingFieldValue>
+            <controllingFieldValue>BCO</controllingFieldValue>
+            <controllingFieldValue>BLP</controllingFieldValue>
+            <valueName>Corporate</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

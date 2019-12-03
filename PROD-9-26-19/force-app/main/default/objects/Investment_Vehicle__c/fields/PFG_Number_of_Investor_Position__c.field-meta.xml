@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Number_of_Investor_Position__c</fullName>
+    <externalId>false</externalId>
+    <label>PFG Number of Investor Position</label>
+    <summaryFilterItems>
+        <field>Investor_Position__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Fund Internal</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Investor_Position__c.Is_Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Investor_Position__c.Investment_Vehicle__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

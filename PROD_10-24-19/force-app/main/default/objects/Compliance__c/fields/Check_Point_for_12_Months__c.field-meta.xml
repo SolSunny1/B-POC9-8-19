@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Point_for_12_Months__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Created for KYC Phase 2 Case # 2808: used in PB: Auto Submit Compliance Form to Legal for approval , Account Status change along with Compliance Status</description>
+    <externalId>false</externalId>
+    <label>Check Point for 12 Months</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

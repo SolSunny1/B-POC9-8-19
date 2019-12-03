@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consultant__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Enter related/known consultant(s) relationships (if applicable) by using the lookup function</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter related/known consultant(s) relationships (if applicable) by using the lookup function</inlineHelpText>
+    <label>Consultant</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Advised Opportunities</relationshipLabel>
+    <relationshipName>Opportunities1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

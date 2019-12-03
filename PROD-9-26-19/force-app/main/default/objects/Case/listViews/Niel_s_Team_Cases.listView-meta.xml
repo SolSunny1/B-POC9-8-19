@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Niel_s_Team_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>Client__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Next_step__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Investor_Requests</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Ami,Gabbai,Yuko,Hyun,Clara,Jinseuk,Niel,Lina</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>APAC PFG Open Cases</label>
+    <sharedTo>
+        <group>APAC_CRM</group>
+        <role>PFG_Salesforce_Support</role>
+    </sharedTo>
+</ListView>

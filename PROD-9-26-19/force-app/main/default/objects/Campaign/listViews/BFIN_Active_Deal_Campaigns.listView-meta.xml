@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Active_Deal_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>Deal_Type__c</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.LAST_UPDATE</columns>
+    <columns>Deal_Team__c</columns>
+    <columns>CAMPAIGN.NUM_CONTACTS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CAMPAIGN.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>equals</operation>
+        <value>Marketing,Other</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Campaign.BFIN</value>
+    </filters>
+    <label>BFIN Active Deal Campaigns</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

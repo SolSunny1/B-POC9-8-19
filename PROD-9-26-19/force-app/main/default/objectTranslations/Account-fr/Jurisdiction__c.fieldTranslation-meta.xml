@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Jurisdiction --></label>
+    <name>Jurisdiction__c</name>
+    <picklistValues>
+        <masterLabel>Brazil</masterLabel>
+        <translation><!-- Brazil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada - BC</masterLabel>
+        <translation><!-- Canada - BC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada - Federal</masterLabel>
+        <translation><!-- Canada - Federal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada - ON</masterLabel>
+        <translation><!-- Canada - ON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Canada - QC</masterLabel>
+        <translation><!-- Canada - QC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japan</masterLabel>
+        <translation><!-- Japan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MISO/PJM/Louisianna/TVA</masterLabel>
+        <translation><!-- MISO/PJM/Louisianna/TVA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROW</masterLabel>
+        <translation><!-- ROW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Singapore</masterLabel>
+        <translation><!-- Singapore --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spain</masterLabel>
+        <translation><!-- Spain --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - California/Arizona</masterLabel>
+        <translation><!-- US - California/Arizona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - Connecticut</masterLabel>
+        <translation><!-- US - Connecticut --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - Federal</masterLabel>
+        <translation><!-- US - Federal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - Maine</masterLabel>
+        <translation><!-- US - Maine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - Massachusetts</masterLabel>
+        <translation><!-- US - Massachusetts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - New England</masterLabel>
+        <translation><!-- US - New England --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US - New York</masterLabel>
+        <translation><!-- US - New York --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

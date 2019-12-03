@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Relationship between Brookfield and the Account, includes Consultant, Investor, Prospect, and Former Client. --></help>
+    <label><!-- PFG Account Relationship --></label>
+    <name>PFG_Account_Relationship__c</name>
+</CustomFieldTranslation>

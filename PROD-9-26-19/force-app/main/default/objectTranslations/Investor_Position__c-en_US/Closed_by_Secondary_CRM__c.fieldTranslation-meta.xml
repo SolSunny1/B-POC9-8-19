@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copied from Opportunity and will never change. --></help>
+    <label><!-- Closed by Secondary CRM --></label>
+    <name>Closed_by_Secondary_CRM__c</name>
+    <relationshipLabel><!-- Investor Positions (Closed by Secondary CRM) --></relationshipLabel>
+</CustomFieldTranslation>

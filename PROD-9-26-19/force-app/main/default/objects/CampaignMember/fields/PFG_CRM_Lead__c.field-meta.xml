@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_CRM_Lead__c</fullName>
+    <externalId>false</externalId>
+    <formula>Contact.PFG_CRM_Lead__r.FirstName + &#39; &#39; + Contact.PFG_CRM_Lead__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PFG CRM Lead</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Is the Investor a Member of the Limited Partner Advisory Committee? --></help>
+    <label><!-- LPAC --></label>
+    <name>LPAC__c</name>
+    <picklistValues>
+        <masterLabel>Back up</masterLabel>
+        <translation><!-- Back up --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Member Primary</masterLabel>
+        <translation><!-- Member Primary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Member Secondary</masterLabel>
+        <translation><!-- Member Secondary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Observer Primary</masterLabel>
+        <translation><!-- Observer Primary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Observer Secondary</masterLabel>
+        <translation><!-- Observer Secondary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested</masterLabel>
+        <translation><!-- Requested --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

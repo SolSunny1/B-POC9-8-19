@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BFIN Office --></label>
+    <name>BFIN_Office__c</name>
+    <picklistValues>
+        <masterLabel>Australia (Sydney)</masterLabel>
+        <translation><!-- Australia (Sydney) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brazil (Rio de Janeiro)</masterLabel>
+        <translation><!-- Brazil (Rio de Janeiro) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brazil (San Paulo)</masterLabel>
+        <translation><!-- Brazil (San Paulo) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Calgary</masterLabel>
+        <translation><!-- Calgary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Germany</masterLabel>
+        <translation><!-- Germany --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hong Kong</masterLabel>
+        <translation><!-- Hong Kong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>India (Bangalore)</masterLabel>
+        <translation><!-- India (Bangalore) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>India (Mumbai)</masterLabel>
+        <translation><!-- India (Mumbai) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>London (UK)</masterLabel>
+        <translation><!-- London (UK) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montreal</masterLabel>
+        <translation><!-- Montreal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New York</masterLabel>
+        <translation><!-- New York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toronto</masterLabel>
+        <translation><!-- Toronto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vancouver</masterLabel>
+        <translation><!-- Vancouver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Washington</masterLabel>
+        <translation><!-- Washington --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

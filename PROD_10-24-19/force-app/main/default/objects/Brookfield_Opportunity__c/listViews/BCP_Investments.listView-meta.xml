@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCP_Investments</fullName>
+    <columns>Opportunity__c</columns>
+    <columns>Account__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Fund_Deal__c</columns>
+    <columns>Brookfield_Owner__c</columns>
+    <columns>Close_Date__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fund_Deal__c</field>
+        <operation>contains</operation>
+        <value>BCP</value>
+    </filters>
+    <filters>
+        <field>Won__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>USD 0</value>
+    </filters>
+    <filters>
+        <field>Fund_Deal__c</field>
+        <operation>notEqual</operation>
+        <value>BBCP</value>
+    </filters>
+    <label>BCP Investments</label>
+</ListView>

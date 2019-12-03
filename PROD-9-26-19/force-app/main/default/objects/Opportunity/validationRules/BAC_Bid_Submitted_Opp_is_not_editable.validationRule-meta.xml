@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAC_Bid_Submitted_Opp_is_not_editable</fullName>
+    <active>true</active>
+    <description>This Validation prevent users from changing any values on the Opportunity record except the Opportunity Stage when the Opportunity Stage is set to &quot;Final Bid Submitted&quot;.</description>
+    <errorConditionFormula>IF(
+	(NOT(ISNEW()) &amp;&amp; RecordType.Name == &#39;BAC Overview&#39; &amp;&amp; ISPICKVAL(StageName, &#39;Final Bid Submitted&#39;)),
+	IF(ISCHANGED(StageName),
+		FALSE,
+		TRUE
+	),
+	FALSE
+)</errorConditionFormula>
+    <errorMessage>No attributes can be modified in the Final Bid Submitted Stage.</errorMessage>
+</ValidationRule>

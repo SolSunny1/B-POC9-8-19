@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Add investment restrictions or additional color on preferences --></help>
+    <label><!-- Co-Investment Comments --></label>
+    <name>Co_Investment_Comments__c</name>
+</CustomFieldTranslation>

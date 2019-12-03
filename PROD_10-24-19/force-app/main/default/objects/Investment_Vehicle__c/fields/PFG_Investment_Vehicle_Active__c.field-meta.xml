@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Investment_Vehicle_Active__c</fullName>
+    <description>PFG Active Funds for Investor Profile</description>
+    <externalId>false</externalId>
+    <formula>or(text( Status__c )=&quot;Marketing&quot;,text( Status__c )=&quot;Discontinued&quot;, text( Status__c )=&quot;Closed&quot;, text( Status__c )=&quot;Fully Divested&quot;)&amp;&amp; or(text( Vehicle_Type__c )=&quot;Private Fund&quot;,text( Vehicle_Type__c )=&quot;Private Fund - Open Ended&quot;, text( Vehicle_Type__c )=&quot;Separate Accounts&quot;,text( Vehicle_Type__c )=&quot;Co-Invest&quot;,text( Vehicle_Type__c )=&quot;Joint Venture&quot;)&amp;&amp;  RecordType.Name =&quot;Fund Internal&quot; &amp;&amp;  Total_Raised_Capital__c &gt;0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>PFG Active Funds for Investor Profile</inlineHelpText>
+    <label>PFG Investment Vehicle Active</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

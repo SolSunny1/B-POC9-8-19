@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>*No sub-strategy</fullName>
+        <default>false</default>
+        <label>*No sub-strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>Activist</fullName>
+        <default>false</default>
+        <label>Activist</label>
+    </customValue>
+    <customValue>
+        <fullName>Asia</fullName>
+        <default>false</default>
+        <label>Asia</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset Backed</fullName>
+        <default>false</default>
+        <label>Asset Backed</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Structure</fullName>
+        <default>false</default>
+        <label>Capital Structure</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical</fullName>
+        <default>false</default>
+        <label>Chemical</label>
+    </customValue>
+    <customValue>
+        <fullName>Commodities</fullName>
+        <default>false</default>
+        <label>Commodities</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer</fullName>
+        <default>false</default>
+        <label>Consumer</label>
+    </customValue>
+    <customValue>
+        <fullName>Convertible</fullName>
+        <default>false</default>
+        <label>Convertible</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate</fullName>
+        <default>false</default>
+        <label>Corporate</label>
+    </customValue>
+    <customValue>
+        <fullName>CTA</fullName>
+        <default>false</default>
+        <label>CTA</label>
+    </customValue>
+    <customValue>
+        <fullName>Currencies</fullName>
+        <default>false</default>
+        <label>Currencies</label>
+    </customValue>
+    <customValue>
+        <fullName>Developed Europe</fullName>
+        <default>false</default>
+        <label>Developed Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>Discretionary</fullName>
+        <default>false</default>
+        <label>Discretionary</label>
+    </customValue>
+    <customValue>
+        <fullName>Distressed</fullName>
+        <default>false</default>
+        <label>Distressed</label>
+    </customValue>
+    <customValue>
+        <fullName>Emerging Markets</fullName>
+        <default>false</default>
+        <label>Emerging Markets</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy</fullName>
+        <default>false</default>
+        <label>Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>Financials</fullName>
+        <default>false</default>
+        <label>Financials</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixed Income</fullName>
+        <default>false</default>
+        <label>Fixed Income</label>
+    </customValue>
+    <customValue>
+        <fullName>Generalist</fullName>
+        <default>false</default>
+        <label>Generalist</label>
+    </customValue>
+    <customValue>
+        <fullName>Global</fullName>
+        <default>false</default>
+        <label>Global</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Index</fullName>
+        <default>false</default>
+        <label>Index</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrials</fullName>
+        <default>false</default>
+        <label>Industrials</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology</fullName>
+        <default>false</default>
+        <label>Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Materials</fullName>
+        <default>false</default>
+        <label>Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>Merger Arbitrage</fullName>
+        <default>false</default>
+        <label>Merger Arbitrage</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi Strategy</fullName>
+        <default>false</default>
+        <label>Multi Strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>North America</fullName>
+        <default>false</default>
+        <label>North America</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Sovereign</fullName>
+        <default>false</default>
+        <label>Sovereign</label>
+    </customValue>
+    <customValue>
+        <fullName>Special Situations</fullName>
+        <default>false</default>
+        <label>Special Situations</label>
+    </customValue>
+    <customValue>
+        <fullName>Statistical</fullName>
+        <default>false</default>
+        <label>Statistical</label>
+    </customValue>
+    <customValue>
+        <fullName>Systematic</fullName>
+        <default>false</default>
+        <label>Systematic</label>
+    </customValue>
+    <customValue>
+        <fullName>TMT</fullName>
+        <default>false</default>
+        <label>TMT</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities</fullName>
+        <default>false</default>
+        <label>Utilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Volatility</fullName>
+        <default>false</default>
+        <label>Volatility</label>
+    </customValue>
+    <customValue>
+        <fullName>ECM</fullName>
+        <default>false</default>
+        <label>ECM</label>
+    </customValue>
+    <customValue>
+        <fullName>Equity Regional Long/Short</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Equity Regional Long/Short</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Care</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Health Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Discretionary</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consumer Discretionary</label>
+    </customValue>
+    <masterLabel>Sub_Strategy</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

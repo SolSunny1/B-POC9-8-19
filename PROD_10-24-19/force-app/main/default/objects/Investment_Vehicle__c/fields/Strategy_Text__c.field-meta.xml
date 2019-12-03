@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategy_Text__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(
+Ispickval( BIM_Strategy__c,&quot;Global Listed Infrastructure - Long Only&quot;),&quot;Global Listed infrastructure - Long Only&quot;,
+(
+if(
+ispickval( BIM_Strategy__c,&quot;GIPON&quot;),&quot;GIPON&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;US REIT Value Income&quot;),&quot;US REIT Value Income&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;Global Alpha&quot;),&quot;Global Alpha&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;Wells Street&quot;),&quot;Wells Street&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;Opportunistic&quot;),&quot;Opportunistic&quot;,
+if(
+IsPICKVAL(BIM_Strategy__c,&quot;High Grade&quot;),&quot;High Grade&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;BSCF&quot;),&quot;BSCF&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;Diversified Real Assets&quot;),&quot;Diversified Real Assets&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;Real Asset Debt&quot;),&quot;Real Asset Debt&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;BCOF&quot;),&quot;BCOF&quot;,
+if(
+ISPICKVAL(BIM_Strategy__c,&quot;New Horizons&quot;),&quot;New Horizons&quot;,&quot;&quot;
+)))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Strategy Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

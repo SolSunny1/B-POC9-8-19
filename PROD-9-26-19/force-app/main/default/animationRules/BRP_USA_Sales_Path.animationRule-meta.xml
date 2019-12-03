@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>a</animationFrequency>
+    <developerName>BRP_USA_Sales_Path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>BRP USA Sales Path</masterLabel>
+    <recordTypeContext>c</recordTypeContext>
+    <recordTypeName>BRP_USA</recordTypeName>
+    <sobjectType>Opportunity</sobjectType>
+    <targetField>StageName</targetField>
+    <targetFieldChangeToValues>Closed Lost</targetFieldChangeToValues>
+</AnimationRule>

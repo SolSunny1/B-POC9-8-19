@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIM_Strategy__c</fullName>
+    <externalId>false</externalId>
+    <label>PSG Strategy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>Diversified Real Assets</fullName>
+                <default>false</default>
+                <label>Diversified Real Assets</label>
+            </value>
+            <value>
+                <fullName>Energy Infrastructure</fullName>
+                <default>false</default>
+                <label>Energy Infrastructure</label>
+            </value>
+            <value>
+                <fullName>General Overview</fullName>
+                <default>false</default>
+                <label>General Overview</label>
+            </value>
+            <value>
+                <fullName>Global Infrastructure</fullName>
+                <default>false</default>
+                <label>Global Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Infrastructure Long/Short</fullName>
+                <default>false</default>
+                <label>Global Infrastructure Long/Short</label>
+            </value>
+            <value>
+                <fullName>Global Real Estate</fullName>
+                <default>false</default>
+                <label>Global Real Estate</label>
+            </value>
+            <value>
+                <fullName>Global Renewables</fullName>
+                <default>false</default>
+                <label>Global Renewables</label>
+            </value>
+            <value>
+                <fullName>Real Asset Debt</fullName>
+                <default>false</default>
+                <label>Real Asset Debt</label>
+            </value>
+            <value>
+                <fullName>Real Assets Hybrid</fullName>
+                <default>false</default>
+                <label>Real Assets Hybrid</label>
+            </value>
+            <value>
+                <fullName>U.S. Real Estate</fullName>
+                <default>false</default>
+                <label>U.S. Real Estate</label>
+            </value>
+            <value>
+                <fullName>Wells Street</fullName>
+                <default>false</default>
+                <label>Wells Street</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

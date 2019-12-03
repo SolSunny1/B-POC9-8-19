@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Status__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>BAM_Finance__c</columns>
+    <columns>BFIN_Account__c</columns>
+    <columns>BRP_Priority__c</columns>
+    <columns>Investor_Type__c</columns>
+    <columns>PSG_Alts_Accounts__c</columns>
+    <columns>BIM_Relationship_Type_del__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>All Accounts</label>
+    <sharedTo>
+        <group>PFG_Support_Group</group>
+        <group>Sys_Admin_Support</group>
+    </sharedTo>
+</ListView>

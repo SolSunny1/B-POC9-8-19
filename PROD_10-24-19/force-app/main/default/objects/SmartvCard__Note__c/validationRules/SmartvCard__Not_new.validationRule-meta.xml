@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartvCard__Not_new</fullName>
+    <active>true</active>
+    <errorConditionFormula>SmartvCard__Validation_Record__c = True</errorConditionFormula>
+    <errorMessage>vCard Note record already exists. There can be only one vCard Note Record.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_USA_All_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>BRP_Owner__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>BRP_Key_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>mota,bakhteyar,root</value>
+    </filters>
+    <label>BRP USA  All Contacts</label>
+    <sharedTo>
+        <role>BRP_Business_Development</role>
+    </sharedTo>
+</ListView>

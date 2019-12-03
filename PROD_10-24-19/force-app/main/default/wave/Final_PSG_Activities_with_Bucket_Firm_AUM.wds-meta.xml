@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Archive</application>
+    <description>Created from the Final PSG Activities with Bucket Firm AUM recipe.</description>
+    <masterLabel>Not in Used- Final PSG Activities with Bucket Firm AUM</masterLabel>
+</WaveDataset>

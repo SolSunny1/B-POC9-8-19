@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BFIN Deal Lead --></label>
+    <name>BFIN_Deal_Lead__c</name>
+    <picklistValues>
+        <masterLabel>Alisia Fabry</masterLabel>
+        <translation><!-- Alisia Fabry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anand Patel</masterLabel>
+        <translation><!-- Anand Patel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andreas Schettler</masterLabel>
+        <translation><!-- Andreas Schettler --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Andy Herg</masterLabel>
+        <translation><!-- Andy Herg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Angelo Lamanna</masterLabel>
+        <translation><!-- Angelo Lamanna --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bjorn Martin</masterLabel>
+        <translation><!-- Bjorn Martin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brim Lee</masterLabel>
+        <translation><!-- Brim Lee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brydon Cruise</masterLabel>
+        <translation><!-- Brydon Cruise --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caimi Reis</masterLabel>
+        <translation><!-- Caimi Reis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christian Koechle</masterLabel>
+        <translation><!-- Christian Koechle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christian Schreiber</masterLabel>
+        <translation><!-- Christian Schreiber --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Christian Wolf</masterLabel>
+        <translation><!-- Christian Wolf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>David Marr</masterLabel>
+        <translation><!-- David Marr --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Felipe Arantes</masterLabel>
+        <translation><!-- Felipe Arantes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frederick Wong</masterLabel>
+        <translation><!-- Frederick Wong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Giovanni Larcher</masterLabel>
+        <translation><!-- Giovanni Larcher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grace Kim</masterLabel>
+        <translation><!-- Grace Kim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haig Bezian</masterLabel>
+        <translation><!-- Haig Bezian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harmeet Bedi</masterLabel>
+        <translation><!-- Harmeet Bedi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Heinrich Hauss</masterLabel>
+        <translation><!-- Heinrich Hauss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Johannes Lindner</masterLabel>
+        <translation><!-- Johannes Lindner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>John Stinson</masterLabel>
+        <translation><!-- John Stinson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Josephine Shum</masterLabel>
+        <translation><!-- Josephine Shum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Julia Verboonen</masterLabel>
+        <translation><!-- Julia Verboonen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Julius Wolf</masterLabel>
+        <translation><!-- Julius Wolf --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kartik Sodha</masterLabel>
+        <translation><!-- Kartik Sodha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kirk Robinson</masterLabel>
+        <translation><!-- Kirk Robinson --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Margarida Fraga</masterLabel>
+        <translation><!-- Margarida Fraga --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markus Reule</masterLabel>
+        <translation><!-- Markus Reule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Martin Brümmer</masterLabel>
+        <translation><!-- Martin Brümmer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Michal Kuzmicki</masterLabel>
+        <translation><!-- Michal Kuzmicki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minh-Tuong Dao</masterLabel>
+        <translation><!-- Minh-Tuong Dao --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paul Leong</masterLabel>
+        <translation><!-- Paul Leong --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Philipp Krokowski</masterLabel>
+        <translation><!-- Philipp Krokowski --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pierre Bergevin</masterLabel>
+        <translation><!-- Pierre Bergevin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rob Lester</masterLabel>
+        <translation><!-- Rob Lester --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Samir Chande</masterLabel>
+        <translation><!-- Samir Chande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scott Ellis</masterLabel>
+        <translation><!-- Scott Ellis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scott Mason</masterLabel>
+        <translation><!-- Scott Mason --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Niemann</masterLabel>
+        <translation><!-- Thomas Niemann --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Silbernagl</masterLabel>
+        <translation><!-- Thomas Silbernagl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tony Sandhu</masterLabel>
+        <translation><!-- Tony Sandhu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wendell Osborne</masterLabel>
+        <translation><!-- Wendell Osborne --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

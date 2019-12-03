@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analyst_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Status1__c</fields>
+    <fields>Strategy1__c</fields>
+    <fields>Sub_Strategy1__c</fields>
+    <fields>Email__c</fields>
+    <fields>Phone__c</fields>
+    <fields>PM_Name__c</fields>
+    <label>Analyst Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>from Preqin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>from Preqin</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Type</fullName>
+                <default>false</default>
+                <label>Type</label>
+            </value>
+            <value>
+                <fullName>Private Sector Pension Fund</fullName>
+                <default>false</default>
+                <label>Private Sector Pension Fund</label>
+            </value>
+            <value>
+                <fullName>Asset Manager</fullName>
+                <default>false</default>
+                <label>Asset Manager</label>
+            </value>
+            <value>
+                <fullName>Sovereign Wealth Fund</fullName>
+                <default>false</default>
+                <label>Sovereign Wealth Fund</label>
+            </value>
+            <value>
+                <fullName>Wealth Manager</fullName>
+                <default>false</default>
+                <label>Wealth Manager</label>
+            </value>
+            <value>
+                <fullName>Family Office - Multi</fullName>
+                <default>false</default>
+                <label>Family Office - Multi</label>
+            </value>
+            <value>
+                <fullName>Family Office - Single</fullName>
+                <default>false</default>
+                <label>Family Office - Single</label>
+            </value>
+            <value>
+                <fullName>Real Assets Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Real Assets Fund of Funds Manager</label>
+            </value>
+            <value>
+                <fullName>Real Estate Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Real Estate Fund of Funds Manager</label>
+            </value>
+            <value>
+                <fullName>Private Equity Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Private Equity Fund of Funds Manager</label>
+            </value>
+            <value>
+                <fullName>Corporate Investor</fullName>
+                <default>false</default>
+                <label>Corporate Investor</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Investment Company</fullName>
+                <default>false</default>
+                <label>Investment Company</label>
+            </value>
+            <value>
+                <fullName>Endowment Plan</fullName>
+                <default>false</default>
+                <label>Endowment Plan</label>
+            </value>
+            <value>
+                <fullName>Public Pension Fund</fullName>
+                <default>false</default>
+                <label>Public Pension Fund</label>
+            </value>
+            <value>
+                <fullName>Secondary Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Secondary Fund of Funds Manager</label>
+            </value>
+            <value>
+                <fullName>Investment Bank</fullName>
+                <default>false</default>
+                <label>Investment Bank</label>
+            </value>
+            <value>
+                <fullName>Insurance Company</fullName>
+                <default>false</default>
+                <label>Insurance Company</label>
+            </value>
+            <value>
+                <fullName>Superannuation Scheme</fullName>
+                <default>false</default>
+                <label>Superannuation Scheme</label>
+            </value>
+            <value>
+                <fullName>Real Estate Firm (Investor)</fullName>
+                <default>false</default>
+                <label>Real Estate Firm (Investor)</label>
+            </value>
+            <value>
+                <fullName>Government Agency</fullName>
+                <default>false</default>
+                <label>Government Agency</label>
+            </value>
+            <value>
+                <fullName>Bank</fullName>
+                <default>false</default>
+                <label>Bank</label>
+            </value>
+            <value>
+                <fullName>Investment Trust</fullName>
+                <default>false</default>
+                <label>Investment Trust</label>
+            </value>
+            <value>
+                <fullName>Secondary Real Estate</fullName>
+                <default>false</default>
+                <label>Secondary Real Estate</label>
+            </value>
+            <value>
+                <fullName>Private Equity Firm (Investor)</fullName>
+                <default>false</default>
+                <label>Private Equity Firm (Investor)</label>
+            </value>
+            <value>
+                <fullName>Hybrid Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Hybrid Fund of Funds Manager</label>
+            </value>
+            <value>
+                <fullName>Infrastructure Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Infrastructure Fund of Funds Manager</label>
+            </value>
+            <value>
+                <fullName>Listed Fund of Funds Manager</fullName>
+                <default>false</default>
+                <label>Listed Fund of Funds Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

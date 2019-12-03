@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Number of Tasks in the Last 3 mos for users --></help>
+    <label><!-- PFG # of Calls/Emails Last 3 mos --></label>
+    <name>PFG_of_Calls_Emails_Last_3_mos__c</name>
+</CustomFieldTranslation>

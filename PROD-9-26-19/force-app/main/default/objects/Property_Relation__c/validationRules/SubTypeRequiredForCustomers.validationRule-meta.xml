@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubTypeRequiredForCustomers</fullName>
+    <active>true</active>
+    <description>&quot;Sub Type&quot; field is required when &quot;Type&quot; = &quot;Customer&quot;</description>
+    <errorConditionFormula>AND(ISPICKVAL(Type__c,&quot;Customer&quot;), ISPICKVAL(SubType__c,&quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>SubType__c</errorDisplayField>
+    <errorMessage>&quot;Sub Type&quot; field is required when &quot;Type&quot; = &quot;Customer&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>My_Backup_App_Palwasha</application>
+    <masterLabel>Final PSG Ops V2 _7 Dataset with USD Conversion Dataset only.json</masterLabel>
+</WaveDataset>

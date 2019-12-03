@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Derivative Lines --></label>
+    <name>Derivative_Lines__c</name>
+    <picklistValues>
+        <masterLabel>BAM</masterLabel>
+        <translation><!-- BAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BBU</masterLabel>
+        <translation><!-- BBU --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP 2</masterLabel>
+        <translation><!-- BCP 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP 3</masterLabel>
+        <translation><!-- BCP 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCP 4</masterLabel>
+        <translation><!-- BCP 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BEP</masterLabel>
+        <translation><!-- BEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF 1</masterLabel>
+        <translation><!-- BIF 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF 2</masterLabel>
+        <translation><!-- BIF 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIF 3</masterLabel>
+        <translation><!-- BIF 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIP</masterLabel>
+        <translation><!-- BIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BOP</masterLabel>
+        <translation><!-- BOP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPY</masterLabel>
+        <translation><!-- BPY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRE5</masterLabel>
+        <translation><!-- BRE5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BREF 4</masterLabel>
+        <translation><!-- BREF 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP 1</masterLabel>
+        <translation><!-- BSREP 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP 2</masterLabel>
+        <translation><!-- BSREP 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BSREP 3</masterLabel>
+        <translation><!-- BSREP 3 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

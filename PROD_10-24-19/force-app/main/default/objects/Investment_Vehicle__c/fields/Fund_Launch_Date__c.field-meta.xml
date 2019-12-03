@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_Launch_Date__c</fullName>
+    <description>The official start date the Fundraising efforts</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The official start date the Fundraising efforts</inlineHelpText>
+    <label>Fund Launch Date</label>
+    <length>9</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

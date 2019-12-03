@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LPAC_Members</fullName>
+    <columns>Account_Name__c</columns>
+    <columns>Investor_Opportunity__c</columns>
+    <columns>NAME</columns>
+    <columns>Role__c</columns>
+    <columns>Main_Contact__c</columns>
+    <columns>Tax_Forms__c</columns>
+    <columns>LPAC__c</columns>
+    <columns>Notes__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Legal_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LPAC__c</field>
+        <operation>equals</operation>
+        <value>Member Primary,Member Secondary,Observer,Back up</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>LPAC Members</label>
+</ListView>

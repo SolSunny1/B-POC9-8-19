@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>APAC update for prospective investors</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>BID APAC Update_Prospective Investors</name>
+    <style>none</style>
+    <subject>Brookfield Infrastructure Debt Fund Update</subject>
+    <textOnly>To view this email as a web page, go  here.
+
+
+
+Dear Kerry,
+
+
+
+We would like to extend our gratitude for your continued support of Brookfield Infrastructure Debt Fund (“BID US”) and Brookfield Infrastructure Debt Fund (Europe) (“BID Euro”, and together with BID US, the “BID Funds”) and reaffirm our commitment to our infrastructure debt business. We continue to see a growing market opportunity for mezzanine debt investments in high quality, core infrastructure assets and remain confident in our investment team’s ability to deploy capital in this space on behalf of Brookfield and our investors.
+
+
+
+To date, Brookfield has made a $200 million investment in Prumo Par,i $50 million of which has been placed into BID US and is currently performing above our target expectations.ii Additionally, we have recently committed to a €45 million debt investment related to the acquisition of Autovia del Camino (a toll road in northern Spain), which we expect to place into BID Euro.iii The global pipeline of investment opportunities for the BID Funds remains strong and the team has reviewed over 170 potential transactions since inception.iv Furthermore, we are actively negotiating term sheets on several prospective deals.v
+
+
+
+As an update on the team, John Stinebaugh, Managing Partner, retains primary responsibility for overseeing investment activity and operations through his role as Head of Brookfield’s infrastructure debt business. John brings over 19 years of infrastructure and debt investment experience and leadership to the business, including 12 years of experience with Brookfield. As with other senior executives at Brookfield, John also has other corporate responsibilities within the infrastructure group.
+
+
+
+Hadley Peer Marshall and Ian Simes lead global sourcing and execution activities for North America and Europe respectively devoting substantially all of their time and attention to that responsibility. They are supported by several investment professionals including Sean Robertson (Manager, Toronto), Andrew Ehrlickman (Associate, New York) and Mickael Deligny (Analyst, London). We are actively seeking to add additional team resources in the near term, commensurate with the growth of the business.
+
+
+
+To further support these efforts, David Levenson (Managing Partner) has joined the Investment Oversight committees for BID US and BID Euro. David Levenson was previously Managing Partner and sector Chief Investment Officer (CIO) of Transportation within the infrastructure business before he was moved to the private equity group to assume responsibility of Brookfield’s credit hedge fund.
+
+
+
+Consistent with our investment approach, we remain disciplined and patient in seeking well-structured investments with attractive risk adjusted returns for both of the BID Funds.  We look forward to updating you on a number of these investment prospects as they progress.
+
+
+
+
+Sincerely,
+
+
+Sam Pollock, Senior Managing Partner
+
+Chief Executive Officer of Brookfield Infrastructure Group
+
+
+
+
+
+Sachin Shah, Senior Managing Partner
+
+Chief Executive Officer of Brookfield Renewable Group
+
+
+
+
+ENDNOTES
+
+i  This transaction is illustrative of the types of investments that may be entered into by BID US and reflects an investment made by BID US. For greater certainty, it is not intended that BID Euro invest in this transaction. It should not be assumed that any investment made by BID US or BID Euro will be profitable or will equal the performance (or share the characteristics) of the investment listed herein. Prior performance is not indicative of future results, and there can be no guarantee that BID US or BID Euro will achieve comparable results or be able to avoid losses.
+
+ii  Investment-specific performance targets are based on various assumptions made by Brookfield Asset Management Private Institutional Capital Adviser (Canada), L.P. (the &quot;Manager&quot;) in relation to the investment strategy being pursued by BID US, any of which may prove to be incorrect. Performance targets are based on historical market performance for similar investment strategies within the sector. Due to various risks, uncertainties and changes (including changes in economic, operational, political or other circumstances) beyond the control of the Manager, the actual performance of the BID US could differ materially from its target returns. In addition, industry experts may disagree with the assumptions used in presenting the target returns. No assurance, representation or warranty is made by any person that the target returns for BID US will be achieved and undue reliance should not be put on them. Additional information about the assumptions used in determining the target returns and the factors that could cause actual results to differ materially from the performance targets are available upon request. Prior performance is not indicative of future results and there can be no guarantee that BID US will achieve its target returns or be able to avoid losses.
+
+iii  This transaction is illustrative of the types of investments that may be entered into by BID Euro. For greater certainty, it is not intended that BID US invest in this transaction. This deal has signed but not yet closed and there can be no assurance that BID Euro will successfully complete this transaction. It should not be assumed that any investment made by the BID US or BID Euro will be profitable or will equal the performance (or share the characteristics) of the investment listed herein. Prior performance is not indicative of future results, and there can be no guarantee that BID US or BID Euro will achieve comparable results or be able to avoid losses.
+
+iv The investment pipeline summary presented herein is intended to be illustrative of the types of deals that BID US and BID Euro are considering.  There is no guarantee that BID US and/or BID Euro will be able to successfully execute on all or any of such deals.  For greater certainty, investors of BID US will not participate in investments made by BID Euro, and investors of BID Euro will not participate in investments made by BID US.
+
+v  The actual number and size of transactions executed may vary materially and is dependent upon various factors, including competitive landscape, economic conditions and availability of investment opportunities.
+
+
+
+NOTICE TO RECIPIENTS
+
+This document is confidential and is intended solely for the information of the person to whom it has been delivered. It may not be reproduced or transmitted, in whole or in part, to third parties except as agreed in writing by Brookfield Asset  Management Inc. (&quot;BAM&quot; and together with its affiliates, &quot;Brookfield&quot;). This communication does not constitute an offer to sell or a solicitation of an offer to buy securities. Any such offer will be made only by means of the BID Funds&#39; offering materials (collectively, the &quot;Offering Materials&quot;) and is subject to the terms and conditions contained therein. The information set forth herein does not purport to be complete, and the document does not purport and is not required to contain all of the information required to be included in a prospectus or product disclosure statement. The Offering Materials contain additional information about the terms and conditions of an investment in the BID Funds and risk disclosures that are important to any investment decision regarding the BID Funds. This document is qualified in its entirety by the Offering Materials which should be read completely before you consider making an investment in the BID Funds.  This document is intended to be communicated only to such persons as Brookfield Asset Management Inc. (&quot;BAM&quot;)  is legally able to send it to and who are legally able to receive it in their jurisdiction of residence.  If you are not such a person, please return it to BAM immediately.  Nothing contained herein should be deemed to be a prediction or projection of future performance of any Brookfield fund.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
