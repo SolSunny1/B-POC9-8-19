@@ -11,7 +11,7 @@ Functionality:
 
 History: 
 */
-trigger Contact_OwnerAssignment on Contact (after insert, after update) {
+trigger Contact_OwnerAssignment_copy on Contact (after insert, after update) {
     set<String> setStates = new set<String>();
      set<String> setZips = new set<String>();
     if(Trigger.isInsert){
