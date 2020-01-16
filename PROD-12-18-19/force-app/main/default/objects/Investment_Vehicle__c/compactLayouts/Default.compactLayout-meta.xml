@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Default</fullName>
+    <fields>Name</fields>
+    <fields>In_Marketing__c</fields>
+    <fields>Status__c</fields>
+    <fields>BIM_Strategy__c</fields>
+    <fields>Platform__c</fields>
+    <fields>Flagship__c</fields>
+    <label>Default</label>
+</CompactLayout>

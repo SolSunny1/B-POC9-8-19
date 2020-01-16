@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Decline__c</fullName>
+    <description>Reason the Opportunity was lost</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reason the Opportunity was lost</inlineHelpText>
+    <label>Reason for Decline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Capital/Allocation</fullName>
+                <default>false</default>
+                <label>No Capital/Allocation</label>
+            </value>
+            <value>
+                <fullName>Strategy - Asset mix/Geo/Cap Target</fullName>
+                <default>false</default>
+                <label>Strategy - Asset mix/Geo/Cap Target</label>
+            </value>
+            <value>
+                <fullName>Strategy - Target Returns</fullName>
+                <default>false</default>
+                <label>Strategy - Target Returns</label>
+            </value>
+            <value>
+                <fullName>Strategy - Investment Method</fullName>
+                <default>false</default>
+                <label>Strategy - Investment Method</label>
+            </value>
+            <value>
+                <fullName>Strategy - Tax</fullName>
+                <default>false</default>
+                <label>Strategy - Tax</label>
+            </value>
+            <value>
+                <fullName>Fees</fullName>
+                <default>false</default>
+                <label>Fees</label>
+            </value>
+            <value>
+                <fullName>Brookfield - Legal</fullName>
+                <default>false</default>
+                <label>Brookfield - Legal</label>
+            </value>
+            <value>
+                <fullName>Brookfield - Management Team</fullName>
+                <default>false</default>
+                <label>Brookfield - Management Team</label>
+            </value>
+            <value>
+                <fullName>Brookfield - Track Record/Returns</fullName>
+                <default>false</default>
+                <label>Brookfield - Track Record/Returns</label>
+            </value>
+            <value>
+                <fullName>Brookfield - Structure</fullName>
+                <default>false</default>
+                <label>Brookfield - Structure</label>
+            </value>
+            <value>
+                <fullName>Re-Invest with existing Fund Mgrs</fullName>
+                <default>false</default>
+                <label>Re-Invest with existing Fund Mgrs</label>
+            </value>
+            <value>
+                <fullName>Invested with Competitor</fullName>
+                <default>false</default>
+                <label>Invested with Competitor</label>
+            </value>
+            <value>
+                <fullName>No Interest</fullName>
+                <default>false</default>
+                <label>No Interest</label>
+            </value>
+            <value>
+                <fullName>Timing</fullName>
+                <default>false</default>
+                <label>Timing</label>
+            </value>
+            <value>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+                <label>Deferred</label>
+            </value>
+            <value>
+                <fullName>Volatility</fullName>
+                <default>false</default>
+                <label>Volatility</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Did not proceed</fullName>
+                <default>false</default>
+                <label>Did not proceed</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Credit Quality</fullName>
+                <default>false</default>
+                <label>Credit Quality</label>
+            </value>
+            <value>
+                <fullName>Operational Expertise</fullName>
+                <default>false</default>
+                <label>Operational Expertise</label>
+            </value>
+            <value>
+                <fullName>Did not Bid</fullName>
+                <default>false</default>
+                <label>Did not Bid</label>
+            </value>
+            <value>
+                <fullName>Sector</fullName>
+                <default>false</default>
+                <label>Sector</label>
+            </value>
+            <value>
+                <fullName>Brookfield Allocation Limit</fullName>
+                <default>false</default>
+                <label>Brookfield Allocation Limit</label>
+            </value>
+            <value>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+                <label>Strategy</label>
+            </value>
+            <value>
+                <fullName>Tax Issues</fullName>
+                <default>false</default>
+                <label>Tax Issues</label>
+            </value>
+            <value>
+                <fullName>Issue with Manager</fullName>
+                <default>false</default>
+                <label>Issue with Manager</label>
+            </value>
+            <value>
+                <fullName>Fund Size</fullName>
+                <default>false</default>
+                <label>Fund Size</label>
+            </value>
+            <value>
+                <fullName>Track Record</fullName>
+                <default>false</default>
+                <label>Track Record</label>
+            </value>
+            <value>
+                <fullName>Uncompetitive Price</fullName>
+                <default>false</default>
+                <label>Uncompetitive Price</label>
+            </value>
+            <value>
+                <fullName>Product structure</fullName>
+                <default>false</default>
+                <label>Product structure</label>
+            </value>
+            <value>
+                <fullName>Terms and Conditions</fullName>
+                <default>false</default>
+                <label>Terms and Conditions</label>
+            </value>
+            <value>
+                <fullName>Counterparty Not Interested</fullName>
+                <default>false</default>
+                <label>Counterparty Not Interested</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>No Capital/Allocation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Strategy - Asset mix/Geo/Cap Target</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Strategy - Target Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Strategy - Investment Method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Strategy - Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Brookfield - Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Brookfield - Management Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Brookfield - Track Record/Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Brookfield - Structure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Re-Invest with existing Fund Mgrs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Invested with Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>No Interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Timing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Deferred</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Volatility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Did not proceed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Credit Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Operational Expertise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>9 - Declined (PSG)</controllingFieldValue>
+            <controllingFieldValue>0 - Contract Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Split</controllingFieldValue>
+            <controllingFieldValue>Closed - Lost Pitch</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Completed</controllingFieldValue>
+            <controllingFieldValue>Closed - Mandate Expired</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>8 - Closed/Confirmed</controllingFieldValue>
+            <controllingFieldValue>9 - Declined</controllingFieldValue>
+            <controllingFieldValue>08 - BIM Declined</controllingFieldValue>
+            <controllingFieldValue>10 - Soft Decline</controllingFieldValue>
+            <valueName>Did not Bid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Uncompetitive Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Product structure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Terms and Conditions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Counterparty Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <valueName>Sector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <valueName>Brookfield Allocation Limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <valueName>Strategy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <valueName>Tax Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <valueName>Issue with Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <valueName>Fund Size</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Firm Decline</controllingFieldValue>
+            <controllingFieldValue>9: Declined (PFG)</controllingFieldValue>
+            <valueName>Track Record</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

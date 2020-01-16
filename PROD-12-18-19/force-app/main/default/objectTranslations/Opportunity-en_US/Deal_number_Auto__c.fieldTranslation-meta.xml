@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Auto number Part of the deal number. Used in a formula field to display full deal number --></help>
+    <label><!-- Deal number Auto --></label>
+    <name>Deal_number_Auto__c</name>
+</CustomFieldTranslation>

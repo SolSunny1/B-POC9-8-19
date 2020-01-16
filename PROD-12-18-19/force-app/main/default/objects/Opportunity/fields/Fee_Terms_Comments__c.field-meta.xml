@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_Terms_Comments__c</fullName>
+    <description>Placeholder for comments as it relates to investor side letter information and other special circumstances.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Placeholder for comments as it relates to investor side letter information and other special circumstances.</inlineHelpText>
+    <label>Fee Terms Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

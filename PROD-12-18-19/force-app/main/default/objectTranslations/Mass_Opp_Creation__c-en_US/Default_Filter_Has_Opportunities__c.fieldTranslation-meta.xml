@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Set to true do default the has opportunities filter --></help>
+    <label><!-- Default Filter Has Opportunities --></label>
+    <name>Default_Filter_Has_Opportunities__c</name>
+</CustomFieldTranslation>

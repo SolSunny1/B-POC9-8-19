@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Default number of In-Person Meetings/Year for a Tier C client --></help>
+    <label><!-- Tier C - In-Person Meetings/Year --></label>
+    <name>Tier_C_In_Person_Meetings_Year__c</name>
+</CustomFieldTranslation>

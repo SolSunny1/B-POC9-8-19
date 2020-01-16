@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- System is calculating base of “Date of Initial Contact” field --></help>
+    <label><!-- Date of first contact has past 30 days --></label>
+    <name>Date_of_first_contact_has_past_30_days__c</name>
+</CustomFieldTranslation>

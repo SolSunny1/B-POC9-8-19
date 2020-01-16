@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compliance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compliance</value>
+    </caseValues>
+    <layouts>
+        <layout>PFG KYC Form Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Experience --></label>
+            <section>Investment Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Information --></label>
+            <section>Investor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other details --></label>
+            <section>Other details</section>
+        </sections>
+        <sections>
+            <label><!-- Substantive Pre-Existing Relationship --></label>
+            <section>Substantive Pre-Existing Relationship</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG KYC Form Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Experience --></label>
+            <section>Investment Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Information --></label>
+            <section>Investor Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other details --></label>
+            <section>Other details</section>
+        </sections>
+        <sections>
+            <label><!-- Substantive Pre-Existing Relationship --></label>
+            <section>Substantive Pre-Existing Relationship</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- PSG --></label>
+        <name>BIM</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PFG --></label>
+        <name>PFG</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Enter Value for Other --></errorMessage>
+        <name>Enter_Other_Value</name>
+    </validationRules>
+</CustomObjectTranslation>

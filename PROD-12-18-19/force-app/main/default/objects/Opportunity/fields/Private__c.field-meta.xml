@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Mark the Opportunity as Private making it visible to only the Opportunity Owner and Opportunity Team Members</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to make it private to all users except the Opportunity Owner and the Opportunity Team Members</inlineHelpText>
+    <label>Private</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

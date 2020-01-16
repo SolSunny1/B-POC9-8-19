@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Active Products --></label>
+    <name>Active_Products__c</name>
+    <picklistValues>
+        <masterLabel>DCM</masterLabel>
+        <translation><!-- DCM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Derivatives</masterLabel>
+        <translation><!-- Derivatives --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECM</masterLabel>
+        <translation><!-- ECM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lev Fin</masterLabel>
+        <translation><!-- Lev Fin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;A</masterLabel>
+        <translation><!-- M&amp;A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate</masterLabel>
+        <translation><!-- Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewables</masterLabel>
+        <translation><!-- Renewables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USPP Arranger</masterLabel>
+        <translation><!-- USPP Arranger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USPP Investor</masterLabel>
+        <translation><!-- USPP Investor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

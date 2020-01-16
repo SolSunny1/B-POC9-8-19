@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zisf__ZoomInfo_Trigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When this value is set to &quot;True&quot;, an incoming Lead with blank fields will be automatically appended with available data by ZoomInfo.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When this value is set to &quot;True&quot;, an incoming Lead with blank fields will be automatically appended with available data by ZoomInfo.</inlineHelpText>
+    <label>ZoomInfo Trigger</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

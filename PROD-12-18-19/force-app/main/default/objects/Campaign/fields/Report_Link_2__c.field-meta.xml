@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Link_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK( 
+IF($User.UIThemeDisplayed=&quot;Theme4d&quot;, 
+&quot;#/sObject/00O0b000004Rqu7/view?fv0=&quot;, 
+&quot;/00O0b000004Rqu7?pv0=&quot;) 
+&amp;Name, 
+&quot;All Campaign Members Export&quot;, 
+&quot;_self&quot; 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Report Link-2</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

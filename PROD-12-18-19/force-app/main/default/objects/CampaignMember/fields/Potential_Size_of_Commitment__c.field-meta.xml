@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Potential_Size_of_Commitment__c</fullName>
+    <externalId>false</externalId>
+    <label>Potential Commitment Size</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&lt;= $50MM</fullName>
+                <default>false</default>
+                <label>&lt;= $50MM</label>
+            </value>
+            <value>
+                <fullName>$50MM - $250MM</fullName>
+                <default>false</default>
+                <label>$50MM - $250MM</label>
+            </value>
+            <value>
+                <fullName>$250MM - $500MM</fullName>
+                <default>false</default>
+                <label>$250MM - $500MM</label>
+            </value>
+            <value>
+                <fullName>$500MM - $1,000MM</fullName>
+                <default>false</default>
+                <label>$500MM - $1,000MM</label>
+            </value>
+            <value>
+                <fullName>&gt;= $1,000MM</fullName>
+                <default>false</default>
+                <label>&gt;= $1,000MM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

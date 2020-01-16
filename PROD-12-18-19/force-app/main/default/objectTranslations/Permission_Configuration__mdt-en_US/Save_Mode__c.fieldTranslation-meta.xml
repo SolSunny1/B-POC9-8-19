@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Save Mode --></label>
+    <name>Save_Mode__c</name>
+    <picklistValues>
+        <masterLabel>Active Only</masterLabel>
+        <translation><!-- Active Only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

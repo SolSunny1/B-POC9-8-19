@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intralinks_Group_Name_Auto__c</fullName>
+    <description>Old formula:
+if( Investor_Opportunity__r.Investment_Vehicle__r.Name =&quot;BIF III&quot;, Investor_Opportunity__r.BIF_III_Investor_Number__c +&quot;-&quot;+text( Investor_Opportunity__r.Sleeve__c )+&quot;-&quot;+ Investor_Opportunity__r.Intralinks_Group_Name_Final__c ,if(text(Investor_Opportunity__r.Sleeve__c )=&quot;US&quot;,&quot;Inv&quot;+&quot;-&quot;+ Legal_Name_Auto__c ,&quot;Inv&quot;+text(Investor_Opportunity__r.Sleeve__c )+&quot;-&quot;+ Legal_Name_Auto__c ))</description>
+    <externalId>false</externalId>
+    <formula>Investor_Opportunity__r.Intralinks_Group_Name_Final__c</formula>
+    <inlineHelpText>helps draft the Intralinks name, requires cleansing outside of Salesforce and once it&#39;s finalized, it can be imported back in to the Intralinks Final field.</inlineHelpText>
+    <label>Intralinks Group Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

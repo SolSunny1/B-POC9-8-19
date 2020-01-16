@@ -1,0 +1,7 @@
+New Investment Vehicle {!Investment_Vehicle__c.Name} has been created by {!User.Name}
+
+Vehicle Type : {!Investment_Vehicle__c.Vehicle_Type__c}.
+Long Name :{!Investment_Vehicle__c.Long_Name__c} .
+Status : {!Investment_Vehicle__c.Status__c}.
+Platform : {!Investment_Vehicle__c.Platform__c}.
+In Marketing: {!Investment_Vehicle__c.In_Marketing__c}

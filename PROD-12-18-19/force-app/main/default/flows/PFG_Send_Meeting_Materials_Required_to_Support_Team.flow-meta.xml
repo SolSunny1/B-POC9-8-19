@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_BSREP_III</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_11_A1</name>
+        <label>Send Email to BSREP III Team</label>
+        <locationX>1100</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_BSREP_III</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision12</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_BSIP</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_13_A1</name>
+        <label>Send Email to BSIP Team</label>
+        <locationX>1300</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_BSIP</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_PFG_BID</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_15_A1</name>
+        <label>Send Meeting Request to BID Team</label>
+        <locationX>1500</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_PFG_BID</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision16</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_PFG_BREF_V</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_17_A1</name>
+        <label>Send Meeting Request to BREF V Team</label>
+        <locationX>1700</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_PFG_BREF_V</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision18</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_PFG_VAMF_III</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_19_A1</name>
+        <label>Send Meeting Request to VAMF III Team</label>
+        <locationX>1900</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_PFG_VAMF_III</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision20</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_BID_1_USD</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Send email to BID Team</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_BID_1_USD</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision2</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_PFG_BPREP</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_21_A1</name>
+        <label>Send Meeting Request to BPREP Team?</label>
+        <locationX>2100</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_PFG_BPREP</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision22</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_PFG_BSREF</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_23_A1</name>
+        <label>Send Meeting to BSREF Team</label>
+        <locationX>2300</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_PFG_BSREF</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision24</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_PFG_BSREP_III</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_25_A1</name>
+        <label>Send Meeting Request to BSREP III</label>
+        <locationX>2500</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_PFG_BSREP_III</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Email_Template_to_BSIP</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_27_A1</name>
+        <label>Send Meeting Request to BSIP</label>
+        <locationX>2700</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_Email_Template_to_BSIP</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_BREF_V</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_3_A1</name>
+        <label>Send email to BREF V Team</label>
+        <locationX>300</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_BREF_V</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision4</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_VAMP_III</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_5_A1</name>
+        <label>Send Email to VAMF III Team</label>
+        <locationX>500</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_VAMP_III</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision6</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_BPREP</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_7_A1</name>
+        <label>Send Email to BPREP Team</label>
+        <locationX>700</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_BPREP</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision8</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_PFG_Meeting_Materials_Required_Email_BSREF</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_9_A1</name>
+        <label>Send Email to BSREF Team</label>
+        <locationX>900</locationX>
+        <locationY>200</locationY>
+        <actionName>Meeting_Request__c.Send_PFG_Meeting_Materials_Required_Email_BSREF</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision10</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <assignments>
+        <name>myVariable_waitStartTimeAssignment</name>
+        <label>myVariable_waitStartTimeAssignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>myVariable_waitStartTimeVariable</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>myDecision</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Send BID Materials?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision10</name>
+        <label>myDecision10</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision12</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_11</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_11</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>Send BSREP III Materials?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>6.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision12</name>
+        <label>myDecision12</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision14</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_13</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_13</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_13_A1</targetReference>
+            </connector>
+            <label>Send BSIP Materials</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>7.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision14</name>
+        <label>myDecision14</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision16</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_15</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_15</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_15_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to BID Team?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>8.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision16</name>
+        <label>myDecision16</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision18</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_17</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_17</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_17_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to BREF V Team?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>9.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision18</name>
+        <label>myDecision18</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision20</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_19</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_19</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_19_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to VAMF III Team?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision2</name>
+        <label>myDecision2</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>Send BREF V Materials?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>10.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision20</name>
+        <label>myDecision20</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision22</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_21</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_21</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_21_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to BPREP</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>11.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision22</name>
+        <label>myDecision22</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision24</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_23</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_23</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_23_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to BSREF Team?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>12.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision24</name>
+        <label>myDecision24</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision26</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_25</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_25</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_25_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to BSREP III Team?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>13.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision26</name>
+        <label>myDecision26</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_27</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_27</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_27_A1</targetReference>
+            </connector>
+            <label>Send Meeting Request to BSIP</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision4</name>
+        <label>myDecision4</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_5</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>Send VAMF III Materials?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision6</name>
+        <label>myDecision6</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision8</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>Send BPREP Materials?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>4.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision8</name>
+        <label>myDecision8</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_9</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_9</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_9_A1</targetReference>
+            </connector>
+            <label>Send BSREF Materials?</label>
+        </rules>
+    </decisions>
+    <description>PFG Send Meeting Materials Required to Support Team</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BID&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_11</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BSIP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BSRIP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BSRIP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BSIP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_13</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BSIP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BSRIP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BSRIP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BSIP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BID&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BID&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BID&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BID&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_15</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BID&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BID&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BID&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BID&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BREF V&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BREF V&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BREF V&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BREF V&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_17</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BREF V&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BREF V&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BREF V&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BREF V&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;VAMF III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;VAMF III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;VAMF III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;VAMF III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_19</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BPREP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BPREP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BPREP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BPREP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_21</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BPREP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BPREP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BPREP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BPREP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BSREF&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BSREF&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BSREF&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BSREF&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_23</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BSREF&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BSREF&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BSREF&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BSREF&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BSREP III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BSREP III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BSREP III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BSREP III&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_25</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BSREP III&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BSIP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BSIP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BSIP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BSIP&quot;)) &amp;&amp;[Meeting_Request__c].Submit_to_Support_Team__c == True &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ))</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_27</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BSIP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BSIP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BSIP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BSIP&quot;)) &amp;&amp;{!myVariable_current.Submit_to_Support_Team__c} == True &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ))</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BREF V&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_5</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;VAMF III&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BPREP&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity__c  )), BEGINS([Meeting_Request__c].Opportunity__c.Name, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_2__c  )), BEGINS([Meeting_Request__c].Opportunity_2__c.Name, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_3__c  )), BEGINS([Meeting_Request__c].Opportunity_3__c.Name, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+||
+(AND (NOT(ISBLANK( [Meeting_Request__c].Opportunity_4__c  )), BEGINS([Meeting_Request__c].Opportunity_4__c.Name, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED([Meeting_Request__c].Book_Format__c ) ||
+ISCHANGED([Meeting_Request__c].Materials_Required__c  ) ||
+ISCHANGED([Meeting_Request__c].Number_of_copies__c  ) ||
+ISCHANGED([Meeting_Request__c].Communication_of_details_to_Client__c  )) &amp;&amp;
+(ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting Only&quot;) || 
+ISPICKVAL([Meeting_Request__c].Request_Type__c , &quot;Meeting + Materials&quot;)) &amp;&amp;
+[Meeting_Request__c].RecordType.Name = &quot;PFG&quot; &amp;&amp;
+ISNULL([Meeting_Request__c].Final_Date_and_Time_of_Meeting__c ) &amp;&amp;
+[Meeting_Request__c].Submit_to_Support_Team__c == True)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_9</name>
+        <dataType>Boolean</dataType>
+        <expression>(AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c}  )), BEGINS({!myVariable_current.Opportunity__c.Name}, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_2__c}  )), BEGINS({!myVariable_current.Opportunity_2__c.Name}, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_3__c}  )), BEGINS({!myVariable_current.Opportunity_3__c.Name}, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)
+||
+(AND (NOT(ISBLANK( {!myVariable_current.Opportunity_4__c}  )), BEGINS({!myVariable_current.Opportunity_4__c.Name}, &quot;BSREF&quot;)) &amp;&amp;
+(ISCHANGED({!myVariable_current.Book_Format__c} ) ||
+ISCHANGED({!myVariable_current.Materials_Required__c}  ) ||
+ISCHANGED({!myVariable_current.Number_of_copies__c}  ) ||
+ISCHANGED({!myVariable_current.Communication_of_details_to_Client__c}  )) &amp;&amp;
+(ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting Only&quot;) || 
+ISPICKVAL({!myVariable_current.Request_Type__c} , &quot;Meeting + Materials&quot;)) &amp;&amp;
+{!myVariable_current.RecordType.Name} = &quot;PFG&quot; &amp;&amp;
+ISNULL({!myVariable_current.Final_Date_and_Time_of_Meeting__c} ) &amp;&amp;
+{!myVariable_current.Submit_to_Support_Team__c} == True)</expression>
+    </formulas>
+    <interviewLabel>PFG_Send_Meeting_Materials_Required_to_Support_Team-2_InterviewLabel</interviewLabel>
+    <label>PFG Send Meeting Materials Required to Support Team</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Meeting_Request__c</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Meeting_Request__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Meeting_Request__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_waitStartTimeVariable</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDateTime</elementReference>
+        </value>
+    </variables>
+</Flow>

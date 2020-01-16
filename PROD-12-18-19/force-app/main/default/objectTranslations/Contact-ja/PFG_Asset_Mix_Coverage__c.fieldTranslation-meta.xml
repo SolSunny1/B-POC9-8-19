@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Investment verticals the Contact has interest --></help>
+    <label><!-- Investing Interest --></label>
+    <name>PFG_Asset_Mix_Coverage__c</name>
+    <picklistValues>
+        <masterLabel>Co-Investments</masterLabel>
+        <translation><!-- Co-Investments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit / Hedge  Funds</masterLabel>
+        <translation><!-- Credit / Hedge  Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Equity</masterLabel>
+        <translation><!-- Private Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate - Core</masterLabel>
+        <translation><!-- Real Estate - Core --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate - Non-Core</masterLabel>
+        <translation><!-- Real Estate - Non-Core --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timb/Ag/Power</masterLabel>
+        <translation><!-- Timb/Ag/Power --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

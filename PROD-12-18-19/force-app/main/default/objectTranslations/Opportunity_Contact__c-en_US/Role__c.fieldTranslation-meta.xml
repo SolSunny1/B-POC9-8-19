@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identify the role this Contact plays for this Investment. --></help>
+    <label><!-- Relationship to Investor --></label>
+    <name>Role__c</name>
+    <picklistValues>
+        <masterLabel>Client Relationship Manager</masterLabel>
+        <translation><!-- Client Relationship Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consultant</masterLabel>
+        <translation><!-- Consultant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custodian</masterLabel>
+        <translation><!-- Custodian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finance</masterLabel>
+        <translation><!-- Finance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fund Administrator</masterLabel>
+        <translation><!-- Fund Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Committee</masterLabel>
+        <translation><!-- Investment Committee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investor Contact</masterLabel>
+        <translation><!-- Investor Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lawyer</masterLabel>
+        <translation><!-- Lawyer --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

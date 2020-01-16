@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select your Business Unit to view the appropriate Marketing List options --></help>
+    <label><!-- Business Unit --></label>
+    <name>Business_Unit__c</name>
+    <picklistValues>
+        <masterLabel>BAC</masterLabel>
+        <translation><!-- BAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAM</masterLabel>
+        <translation><!-- BAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAM Compliance</masterLabel>
+        <translation><!-- BAM Compliance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BAM Finance</masterLabel>
+        <translation><!-- BAM Finance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BCO</masterLabel>
+        <translation><!-- BCO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN</masterLabel>
+        <translation><!-- BFIN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIG</masterLabel>
+        <translation><!-- BIG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BLP</masterLabel>
+        <translation><!-- BLP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPEG</masterLabel>
+        <translation><!-- BPEG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPFG</masterLabel>
+        <translation><!-- BPFG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPG</masterLabel>
+        <translation><!-- BPG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BPY</masterLabel>
+        <translation><!-- BPY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BRP</masterLabel>
+        <translation><!-- BRP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFG</masterLabel>
+        <translation><!-- PFG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PSG &quot;BIM&quot;</masterLabel>
+        <translation><!-- PSG &quot;BIM&quot; --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

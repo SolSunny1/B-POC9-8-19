@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSREP_II_Opportunity_Contact_Clean_Up</fullName>
+    <columns>NAME</columns>
+    <columns>Investor_Opportunity__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Email_Address__c</columns>
+    <columns>Main_Contact__c</columns>
+    <columns>Conference_Call__c</columns>
+    <columns>Copy_on_Emails__c</columns>
+    <columns>Intralinks__c</columns>
+    <columns>Capital_Calls__c</columns>
+    <columns>Distributions__c</columns>
+    <columns>Reports_Capital_Accounts__c</columns>
+    <columns>Fund_Updates__c</columns>
+    <columns>Tax_Forms__c</columns>
+    <columns>Legal__c</columns>
+    <columns>Intralinks_Folder_Name_Auto__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BSREP II</value>
+    </filters>
+    <filters>
+        <field>Investor_Opportunity__c</field>
+        <operation>contains</operation>
+        <value>Korea Investment Corporation</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>BSREP II Opportunity Contact Clean Up</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

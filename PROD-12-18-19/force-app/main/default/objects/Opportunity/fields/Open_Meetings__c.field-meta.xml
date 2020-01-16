@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Meetings__c</fullName>
+    <description>Roll up to track if their are meeting notes that need to be entered</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up to track if their are meeting notes that need to be entered</inlineHelpText>
+    <label>Open Meetings</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

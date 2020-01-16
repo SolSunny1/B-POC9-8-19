@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BRK 17 - MLP Vs C-Corp --></label>
+    <name>BRK_17_MLP_Vs_C_Corp__c</name>
+</CustomFieldTranslation>

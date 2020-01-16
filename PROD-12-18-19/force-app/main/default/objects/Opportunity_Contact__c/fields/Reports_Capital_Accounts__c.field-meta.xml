@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reports_Capital_Accounts__c</fullName>
+    <description>How the investor wants to receive Reports.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How the investor wants to receive Reports.</inlineHelpText>
+    <label>Reports &amp; Capital Accounts</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alert</fullName>
+                <default>false</default>
+                <label>Alert</label>
+            </value>
+            <value>
+                <fullName>Email and Alert</fullName>
+                <default>false</default>
+                <label>Email and Alert</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

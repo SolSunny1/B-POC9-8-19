@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Zip_code</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK(Zip__c)), 
+     NOT(REGEX(Zip__c, &quot;\\d{5}(-\\d{4})?&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Zip__c</errorDisplayField>
+    <errorMessage>Please enter a valid zip code</errorMessage>
+</ValidationRule>

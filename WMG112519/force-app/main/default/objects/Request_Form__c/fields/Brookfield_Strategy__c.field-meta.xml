@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brookfield_Strategy__c</fullName>
+    <externalId>false</externalId>
+    <label>Brookfield Strategy</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Center Coast Brookfield MLP Focus Fund</fullName>
+                <default>false</default>
+                <label>Center Coast Brookfield MLP Focus Fund</label>
+            </value>
+            <value>
+                <fullName>Center Coast Brookfield MLP SMA</fullName>
+                <default>false</default>
+                <label>Center Coast Brookfield MLP SMA</label>
+            </value>
+            <value>
+                <fullName>CEN</fullName>
+                <default>false</default>
+                <label>CEN</label>
+            </value>
+            <value>
+                <fullName>Brookfield Global Listed Infrastructure Fund</fullName>
+                <default>false</default>
+                <label>Brookfield Global Listed Infrastructure Fund</label>
+            </value>
+            <value>
+                <fullName>Brookfield Global Listed Real Estate Fund</fullName>
+                <default>false</default>
+                <label>Brookfield Global Listed Real Estate Fund</label>
+            </value>
+            <value>
+                <fullName>Brookfield Real Assets Securities Fund</fullName>
+                <default>false</default>
+                <label>Brookfield Real Assets Securities Fund</label>
+            </value>
+            <value>
+                <fullName>Brookfield U.S. Listed Real Estate Fund</fullName>
+                <default>false</default>
+                <label>Brookfield U.S. Listed Real Estate Fund</label>
+            </value>
+            <value>
+                <fullName>RA</fullName>
+                <default>false</default>
+                <label>RA</label>
+            </value>
+            <value>
+                <fullName>INF</fullName>
+                <default>false</default>
+                <label>INF</label>
+            </value>
+            <value>
+                <fullName>Home Office</fullName>
+                <default>false</default>
+                <label>Home Office</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

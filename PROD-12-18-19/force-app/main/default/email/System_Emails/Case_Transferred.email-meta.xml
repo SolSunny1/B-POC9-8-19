@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Case Transferred</name>
+    <style>freeForm</style>
+    <subject>Case {!Case.CaseNumber} has been Transferred to You</subject>
+    <textOnly>Hi {!Case.OwnerFullName},
+
+A case has been assigned to you with the following details.
+
+Link: {!Case.Link}
+Subject: {!Case.Subject}
+Contact Name: {!Case.Contact}
+Status: {!Case.Status}
+Date/Time Opened: {!Case.CreatedDate}
+Type: {!Case.Type}
+Priority: {!Case.Priority}
+Description: {!Case.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_PS_Assets__c</fullName>
+    <description>Mapped from MMD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mapped from MMD</inlineHelpText>
+    <label>Total PS Assets</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

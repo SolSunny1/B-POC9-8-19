@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>use this to copy and paste into new emails</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PFG CRM Email Signature Mail Merge</name>
+    <style>none</style>
+    <subject>Email Signature</subject>
+    <textOnly>{!User.Name}
+{!User.Title}
+
+{!User.CompanyName}
+{!User.Department}
+{!User.Phone}
+{!User.Email}
+
+brookfield.com/privatefunds
+
+The undersigned is an associated person of a registered investment adviser. View important disclosures and information about our e-mail here.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Active Lookup to account to create filtered related list --></help>
+    <label><!-- Active Account --></label>
+    <name>Active__c</name>
+    <relationshipLabel><!-- PFG BAM Investor Positions (Active) --></relationshipLabel>
+</CustomFieldTranslation>

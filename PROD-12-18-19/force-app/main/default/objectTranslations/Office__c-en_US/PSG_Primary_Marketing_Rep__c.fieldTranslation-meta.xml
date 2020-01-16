@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PSG Primary Marketing Rep --></label>
+    <name>PSG_Primary_Marketing_Rep__c</name>
+    <relationshipLabel><!-- Offices (PSG Primary Marketing Rep) --></relationshipLabel>
+</CustomFieldTranslation>

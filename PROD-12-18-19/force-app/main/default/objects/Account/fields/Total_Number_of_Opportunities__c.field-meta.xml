@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Number_of_Opportunities__c</fullName>
+    <description>Created for KYC Phase 2 Case # 2808. used in process builder : Auto Submit Compliance Form to Legal for approval</description>
+    <externalId>false</externalId>
+    <label>Total Number of Opportunities</label>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value_OLD__c</fullName>
+    <externalId>false</externalId>
+    <formula>Value_Text__c &amp; TEXT( Value_Date__c )&amp; TEXT(Value_Number__c) &amp; TEXT( Value_Currency__c )</formula>
+    <inlineHelpText>Shows a text representation of the value entered (across all types) - there may be some slight differences in format compared to the actual value.</inlineHelpText>
+    <label>Value_OLD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

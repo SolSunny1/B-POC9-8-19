@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Does this Investor wish to receive Fund update emails? --></help>
+    <label><!-- Fund Updates --></label>
+    <name>Fund_Updates__c</name>
+</CustomFieldTranslation>

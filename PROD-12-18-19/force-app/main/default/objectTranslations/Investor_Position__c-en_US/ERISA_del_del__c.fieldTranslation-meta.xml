@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is populated from the Account record.  To update this field, update the Account record.  Note that all other related Opportunities and Investor Position records will updated as well. --></help>
+    <label><!-- ERISA --></label>
+    <name>ERISA_del_del__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Health_Care_Senior_Housing_Deals</fullName>
+    <columns>Updated__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Deal_Nature__c</columns>
+    <columns>Deal_Type__c</columns>
+    <columns>Deal_Sheet_Comments__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>BFIN_Estimated_Fee__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Deal_Team__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Real_Estate__c</columns>
+    <columns>OPPORTUNITY.PRIVATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Real_Estate__c</field>
+        <operation>includes</operation>
+        <value>Health Care,Senior Housing</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.BFIN_General,Opportunity.BFIN_Infrastructure</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed - Mandate Completed,Closed - Lost Pitch,Closed - Mandate Expired</value>
+    </filters>
+    <label>BFIN Health Care/Senior Housing Deals</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

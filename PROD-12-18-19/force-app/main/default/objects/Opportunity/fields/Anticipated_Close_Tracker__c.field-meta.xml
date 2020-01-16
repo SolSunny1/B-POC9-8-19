@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anticipated_Close_Tracker__c</fullName>
+    <externalId>false</externalId>
+    <label>Anticipated Close (Tracker)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First</fullName>
+                <default>false</default>
+                <label>First</label>
+            </value>
+            <value>
+                <fullName>Subsequent</fullName>
+                <default>false</default>
+                <label>Subsequent</label>
+            </value>
+            <value>
+                <fullName>Final</fullName>
+                <default>false</default>
+                <label>Final</label>
+            </value>
+            <value>
+                <fullName>Post-Close</fullName>
+                <default>false</default>
+                <label>Post-Close</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

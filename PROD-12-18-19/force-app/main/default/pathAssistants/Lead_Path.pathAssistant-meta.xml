@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>RecordTypeId</fieldNames>
+        <fieldNames>Reason__c</fieldNames>
+        <fieldNames>LastModifiedById</fieldNames>
+        <picklistValueName>Abandoned</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Company</fieldNames>
+        <fieldNames>Industry</fieldNames>
+        <fieldNames>Rating</fieldNames>
+        <picklistValueName>Deal Lead</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>OwnerId</fieldNames>
+        <fieldNames>RecordTypeId</fieldNames>
+        <fieldNames>LeadSource</fieldNames>
+        <fieldNames>CreatedById</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Company</fieldNames>
+        <fieldNames>LastModifiedById</fieldNames>
+        <fieldNames>OwnerId</fieldNames>
+        <fieldNames>RecordTypeId</fieldNames>
+        <fieldNames>Next_Step__c</fieldNames>
+        <picklistValueName>On Hold</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>BRP_Europe</recordTypeName>
+</PathAssistant>

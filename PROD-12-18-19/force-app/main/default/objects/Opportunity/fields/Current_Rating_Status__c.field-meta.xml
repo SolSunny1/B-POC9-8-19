@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Rating_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Rating Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Good Standing</fullName>
+                <default>false</default>
+                <label>Good Standing</label>
+            </value>
+            <value>
+                <fullName>At Risk</fullName>
+                <default>false</default>
+                <label>At Risk</label>
+            </value>
+            <value>
+                <fullName>Under Review</fullName>
+                <default>false</default>
+                <label>Under Review</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>4 - Buy Rated‐ Short List (PSG)</controllingFieldValue>
+            <controllingFieldValue>5 - Buy Rated‐ Long List (PSG)</controllingFieldValue>
+            <valueName>Good Standing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4 - Buy Rated‐ Short List (PSG)</controllingFieldValue>
+            <controllingFieldValue>5 - Buy Rated‐ Long List (PSG)</controllingFieldValue>
+            <valueName>At Risk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4 - Buy Rated‐ Short List (PSG)</controllingFieldValue>
+            <controllingFieldValue>5 - Buy Rated‐ Long List (PSG)</controllingFieldValue>
+            <valueName>Under Review</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

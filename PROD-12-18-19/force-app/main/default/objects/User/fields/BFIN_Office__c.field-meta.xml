@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Office__c</fullName>
+    <externalId>false</externalId>
+    <label>BFIN Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australia (Sydney)</fullName>
+                <default>false</default>
+                <label>Australia (Sydney)</label>
+            </value>
+            <value>
+                <fullName>Brazil (Rio de Janeiro)</fullName>
+                <default>false</default>
+                <label>Brazil (Rio de Janeiro)</label>
+            </value>
+            <value>
+                <fullName>Brazil (San Paulo)</fullName>
+                <default>false</default>
+                <label>Brazil (San Paulo)</label>
+            </value>
+            <value>
+                <fullName>Calgary</fullName>
+                <default>false</default>
+                <label>Calgary</label>
+            </value>
+            <value>
+                <fullName>Germany</fullName>
+                <default>false</default>
+                <label>Germany</label>
+            </value>
+            <value>
+                <fullName>Hong Kong</fullName>
+                <default>false</default>
+                <label>Hong Kong</label>
+            </value>
+            <value>
+                <fullName>India (Bangalore)</fullName>
+                <default>false</default>
+                <label>India (Bangalore)</label>
+            </value>
+            <value>
+                <fullName>India (Mumbai)</fullName>
+                <default>false</default>
+                <label>India (Mumbai)</label>
+            </value>
+            <value>
+                <fullName>London (UK)</fullName>
+                <default>false</default>
+                <label>London (UK)</label>
+            </value>
+            <value>
+                <fullName>Montreal</fullName>
+                <default>false</default>
+                <label>Montreal</label>
+            </value>
+            <value>
+                <fullName>New York</fullName>
+                <default>false</default>
+                <label>New York</label>
+            </value>
+            <value>
+                <fullName>Toronto</fullName>
+                <default>false</default>
+                <label>Toronto</label>
+            </value>
+            <value>
+                <fullName>Vancouver</fullName>
+                <default>false</default>
+                <label>Vancouver</label>
+            </value>
+            <value>
+                <fullName>Washington</fullName>
+                <default>false</default>
+                <label>Washington</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

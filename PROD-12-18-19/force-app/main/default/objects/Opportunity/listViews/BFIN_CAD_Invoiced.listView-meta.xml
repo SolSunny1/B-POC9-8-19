@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_CAD_Invoiced</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 and 5</booleanFilter>
+    <columns>Updated__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Deal_Nature__c</columns>
+    <columns>Deal_Type__c</columns>
+    <columns>Deal_Sheet_Comments__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>BFIN_Estimated_Fee__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Deal_Team__c</columns>
+    <columns>Mandate_Expiry__c</columns>
+    <columns>Invoice_Paid__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Office_Country__c</field>
+        <operation>equals</operation>
+        <value>Canada</value>
+    </filters>
+    <filters>
+        <field>Exclude_from_Deal_Sheet__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Invoiced</value>
+    </filters>
+    <filters>
+        <field>Recognition_Period_Year__c</field>
+        <operation>notEqual</operation>
+        <value>2014</value>
+    </filters>
+    <filters>
+        <field>Deal_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Infrastructure,Power,PPP</value>
+    </filters>
+    <label>BFIN CAD - 7.Invoiced</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Infrastructure</fullName>
+        <default>false</default>
+        <label>Infrastructure</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Equity</fullName>
+        <default>false</default>
+        <label>Private Equity</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Credit</fullName>
+        <default>false</default>
+        <label>Corporate Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate High Yield</fullName>
+        <default>false</default>
+        <label>Corporate High Yield</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit</fullName>
+        <default>false</default>
+        <label>Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Opportunities</fullName>
+        <default>false</default>
+        <label>Credit Opportunities</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy Infrastructure</fullName>
+        <default>false</default>
+        <label>Energy Infrastructure</label>
+    </customValue>
+    <customValue>
+        <fullName>Equity Opportunities</fullName>
+        <default>false</default>
+        <label>Equity Opportunities</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>Investments</fullName>
+        <default>false</default>
+        <label>Investments</label>
+    </customValue>
+    <customValue>
+        <fullName>Opportunistic MBS</fullName>
+        <default>false</default>
+        <label>Opportunistic MBS</label>
+    </customValue>
+    <customValue>
+        <fullName>Power</fullName>
+        <default>false</default>
+        <label>Power</label>
+    </customValue>
+    <customValue>
+        <fullName>Property</fullName>
+        <default>false</default>
+        <label>Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Asset Debt</fullName>
+        <default>false</default>
+        <label>Real Asset Debt</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Asset Solutions</fullName>
+        <default>false</default>
+        <label>Real Asset Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Securitized Credit</fullName>
+        <default>false</default>
+        <label>Securitized Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Specialty Funds</fullName>
+        <default>false</default>
+        <label>Specialty Funds</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategic Income</fullName>
+        <default>false</default>
+        <label>Strategic Income</label>
+    </customValue>
+    <customValue>
+        <fullName>Timberland</fullName>
+        <default>false</default>
+        <label>Timberland</label>
+    </customValue>
+    <masterLabel>Business Group</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

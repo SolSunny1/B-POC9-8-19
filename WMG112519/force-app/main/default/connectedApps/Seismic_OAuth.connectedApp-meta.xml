@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>Sunny.Solanki@brookfield.com</contactEmail>
+    <contactPhone>312-579-3543</contactPhone>
+    <label>Seismic OAuth</label>
+    <oauthConfig>
+        <callbackUrl>https://brookfield.seismic.com/Integration/SalesforceOauth.aspx</callbackUrl>
+        <consumerKey>3MVG9g9rbsTkKnAVrEYLJDy_BhM_GtY.XkHRBzAqrI9qeN.arcgfwXyJyQIb_dsthUu6gepqn91eqzL45l9BF</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

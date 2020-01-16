@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSREP_I_Investors</fullName>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>Priority_Co_investor_Text__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>Consultant_CRM__c</columns>
+    <columns>Topup__c</columns>
+    <columns>Re_up_Series__c</columns>
+    <columns>LPAC_Status_Notes__c</columns>
+    <columns>Country__c</columns>
+    <columns>Legal_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BSREP</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>8 - Closed/Confirmed</value>
+    </filters>
+    <label>BSREP I-Investors</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

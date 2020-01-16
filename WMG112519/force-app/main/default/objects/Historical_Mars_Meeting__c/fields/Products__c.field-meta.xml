@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <externalId>false</externalId>
+    <label>Products</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atlantis China Fund MF</fullName>
+                <default>false</default>
+                <label>Atlantis China Fund MF</label>
+            </value>
+            <value>
+                <fullName>Atlantis China Fund SMA</fullName>
+                <default>false</default>
+                <label>Atlantis China Fund SMA</label>
+            </value>
+            <value>
+                <fullName>Atlantis China Healthcare Fund MF</fullName>
+                <default>false</default>
+                <label>Atlantis China Healthcare Fund MF</label>
+            </value>
+            <value>
+                <fullName>Atlantis China Healthcare Fund SMA</fullName>
+                <default>false</default>
+                <label>Atlantis China Healthcare Fund SMA</label>
+            </value>
+            <value>
+                <fullName>Capital Innovations Glbl Agri, Timber, A</fullName>
+                <default>false</default>
+                <label>Capital Innovations Glbl Agri, Timber, A</label>
+            </value>
+            <value>
+                <fullName>Capital Innovations Glbl Agri, Timber, C</fullName>
+                <default>false</default>
+                <label>Capital Innovations Glbl Agri, Timber, C</label>
+            </value>
+            <value>
+                <fullName>Capital Innovations Glbl Agri, Timber, I</fullName>
+                <default>false</default>
+                <label>Capital Innovations Glbl Agri, Timber, I</label>
+            </value>
+            <value>
+                <fullName>Center Coast Capital MLP SMA</fullName>
+                <default>false</default>
+                <label>Center Coast Capital MLP SMA</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP &amp; Infrastructure Fund</fullName>
+                <default>false</default>
+                <label>Center Coast MLP &amp; Infrastructure Fund</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Collective Fund</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Collective Fund</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Focus Fund A</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Focus Fund A</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Focus Fund C</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Focus Fund C</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Focus Fund I</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Focus Fund I</label>
+            </value>
+            <value>
+                <fullName>Chilton Realty Income Growth Fund A</fullName>
+                <default>false</default>
+                <label>Chilton Realty Income Growth Fund A</label>
+            </value>
+            <value>
+                <fullName>Chilton Realty Income Growth Fund C</fullName>
+                <default>false</default>
+                <label>Chilton Realty Income Growth Fund C</label>
+            </value>
+            <value>
+                <fullName>Chilton Realty Income Growth Fund I</fullName>
+                <default>false</default>
+                <label>Chilton Realty Income Growth Fund I</label>
+            </value>
+            <value>
+                <fullName>Gottex Endowment Strategy Fund A</fullName>
+                <default>false</default>
+                <label>Gottex Endowment Strategy Fund A</label>
+            </value>
+            <value>
+                <fullName>Gottex Endowment Strategy Fund I</fullName>
+                <default>false</default>
+                <label>Gottex Endowment Strategy Fund I</label>
+            </value>
+            <value>
+                <fullName>Gottex Multi Asset Endowment Fund</fullName>
+                <default>false</default>
+                <label>Gottex Multi Asset Endowment Fund</label>
+            </value>
+            <value>
+                <fullName>Horizon Core Value SMA</fullName>
+                <default>false</default>
+                <label>Horizon Core Value SMA</label>
+            </value>
+            <value>
+                <fullName>Horizon High Yield Opportunity SMA</fullName>
+                <default>false</default>
+                <label>Horizon High Yield Opportunity SMA</label>
+            </value>
+            <value>
+                <fullName>Horizon Research SMA</fullName>
+                <default>false</default>
+                <label>Horizon Research SMA</label>
+            </value>
+            <value>
+                <fullName>Horizon Spinoff Fund A</fullName>
+                <default>false</default>
+                <label>Horizon Spinoff Fund A</label>
+            </value>
+            <value>
+                <fullName>Horizon Spinoff Fund C</fullName>
+                <default>false</default>
+                <label>Horizon Spinoff Fund C</label>
+            </value>
+            <value>
+                <fullName>Horizon Spinoff Fund I</fullName>
+                <default>false</default>
+                <label>Horizon Spinoff Fund I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund A</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund C</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund I</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund NL</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund NL</label>
+            </value>
+            <value>
+                <fullName>Kinetics Global Fund C</fullName>
+                <default>false</default>
+                <label>Kinetics Global Fund C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Market Opportunities Fund A</fullName>
+                <default>false</default>
+                <label>Kinetics Market Opportunities Fund A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Medical Fund A</fullName>
+                <default>false</default>
+                <label>Kinetics Medical Fund A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund A</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund C</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund I</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund No Load</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund No Load</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund A</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund C</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund I</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund No Load</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund No Load</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opportunites Fund A</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opportunites Fund A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opportunities F-NL</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opportunities F-NL</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opportunities Fund C</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opportunities Fund C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opportunities Fund I</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opportunities Fund I</label>
+            </value>
+            <value>
+                <fullName>Kotak India Focus Fund</fullName>
+                <default>false</default>
+                <label>Kotak India Focus Fund</label>
+            </value>
+            <value>
+                <fullName>Kotak India Fund of Funds MF</fullName>
+                <default>false</default>
+                <label>Kotak India Fund of Funds MF</label>
+            </value>
+            <value>
+                <fullName>Kotak India Mid Cap Fund MF</fullName>
+                <default>false</default>
+                <label>Kotak India Mid Cap Fund MF</label>
+            </value>
+            <value>
+                <fullName>Kotak K-30 Fund MF</fullName>
+                <default>false</default>
+                <label>Kotak K-30 Fund MF</label>
+            </value>
+            <value>
+                <fullName>Oberweis China Opportunities Fund</fullName>
+                <default>false</default>
+                <label>Oberweis China Opportunities Fund</label>
+            </value>
+            <value>
+                <fullName>Ramius Dynamic Replication A</fullName>
+                <default>false</default>
+                <label>Ramius Dynamic Replication A</label>
+            </value>
+            <value>
+                <fullName>Ramius Dynamic Replication I</fullName>
+                <default>false</default>
+                <label>Ramius Dynamic Replication I</label>
+            </value>
+            <value>
+                <fullName>Ramius Trading Strategies Managed F-A</fullName>
+                <default>false</default>
+                <label>Ramius Trading Strategies Managed F-A</label>
+            </value>
+            <value>
+                <fullName>Ramius Trading Strategies Managed F-I</fullName>
+                <default>false</default>
+                <label>Ramius Trading Strategies Managed F-I</label>
+            </value>
+            <value>
+                <fullName>Scout Core Bond Fund - Class I</fullName>
+                <default>false</default>
+                <label>Scout Core Bond Fund - Class I</label>
+            </value>
+            <value>
+                <fullName>Scout Core Bond Fund - Class Y</fullName>
+                <default>false</default>
+                <label>Scout Core Bond Fund - Class Y</label>
+            </value>
+            <value>
+                <fullName>Scout Core Plus Bond Fund - Class I</fullName>
+                <default>false</default>
+                <label>Scout Core Plus Bond Fund - Class I</label>
+            </value>
+            <value>
+                <fullName>Scout Core Plus Bond Fund - Class Y</fullName>
+                <default>false</default>
+                <label>Scout Core Plus Bond Fund - Class Y</label>
+            </value>
+            <value>
+                <fullName>Scout Global Equity Fund</fullName>
+                <default>false</default>
+                <label>Scout Global Equity Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Int&#39;l ADR SMA</fullName>
+                <default>false</default>
+                <label>Scout Int&#39;l ADR SMA</label>
+            </value>
+            <value>
+                <fullName>Scout Int&#39;l Discovery ADR SMA</fullName>
+                <default>false</default>
+                <label>Scout Int&#39;l Discovery ADR SMA</label>
+            </value>
+            <value>
+                <fullName>Scout International Discovery Fund</fullName>
+                <default>false</default>
+                <label>Scout International Discovery Fund</label>
+            </value>
+            <value>
+                <fullName>Scout International Fund</fullName>
+                <default>false</default>
+                <label>Scout International Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Mid Cap Fund</fullName>
+                <default>false</default>
+                <label>Scout Mid Cap Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Small Cap Fund</fullName>
+                <default>false</default>
+                <label>Scout Small Cap Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Unconstrained Bond Fund</fullName>
+                <default>false</default>
+                <label>Scout Unconstrained Bond Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Unconstrained Bond Fund - Class Y</fullName>
+                <default>false</default>
+                <label>Scout Unconstrained Bond Fund - Class Y</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

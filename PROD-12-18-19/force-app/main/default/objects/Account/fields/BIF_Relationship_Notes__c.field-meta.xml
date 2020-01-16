@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIF_Relationship_Notes__c</fullName>
+    <description>A synopsis of the nature of the relationship with the BIF Investment team.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A synopsis of the nature of the relationship with the BIF Investment team.</inlineHelpText>
+    <label>BIF Relationship Notes</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

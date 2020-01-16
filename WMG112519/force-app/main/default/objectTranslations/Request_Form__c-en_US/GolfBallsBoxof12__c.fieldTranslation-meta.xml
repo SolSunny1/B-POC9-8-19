@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cost: $47.10/box --></help>
+    <label><!-- Golf Balls – Box of 12 --></label>
+    <name>GolfBallsBoxof12__c</name>
+</CustomFieldTranslation>

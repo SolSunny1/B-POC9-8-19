@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Other Brookfield Opportunity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Other Brookfield Opportunities</value>
+    </caseValues>
+    <layouts>
+        <layout>Brookfield Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Hold --></label>
+        <name>Hold</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PFG --></label>
+        <name>PFG</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PSG --></label>
+        <name>PSG</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_Opportunity --></label>
+        <name>New_Opportunity</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Opportunity_list --></label>
+        <name>New_Opportunity_list</name>
+    </webLinks>
+</CustomObjectTranslation>

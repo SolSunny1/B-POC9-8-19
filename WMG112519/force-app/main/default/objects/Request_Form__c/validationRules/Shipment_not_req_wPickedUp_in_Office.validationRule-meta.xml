@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shipment_not_req_wPickedUp_in_Office</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &quot;Giveaway_Requests&quot;,
+     Pickedupinoffice__c = FALSE,
+     OR(
+        ISBLANK( Contact__c ),
+        ISBLANK( Contact_Name__c )
+     ), 
+     OR (
+        ISBLANK(  Address__c ),
+        ISBLANK(  Company_or_Name__c ),
+        ISBLANK(  City__c ),
+        ISBLANK(TEXT(  State__c )),
+        ISBLANK(  Zip__c ),
+        ISBLANK(  Required_Delivery_Date__c )
+      )
+)</errorConditionFormula>
+    <errorMessage>Shipping details required when picked up in office is not checked.</errorMessage>
+</ValidationRule>

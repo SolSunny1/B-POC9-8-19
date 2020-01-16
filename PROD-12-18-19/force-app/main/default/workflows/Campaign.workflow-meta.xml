@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CampaignActive</fullName>
+        <field>IsActive</field>
+        <literalValue>1</literalValue>
+        <name>CampaignActive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CampaignInActive</fullName>
+        <field>IsActive</field>
+        <literalValue>0</literalValue>
+        <name>CampaignInActive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Active_to_True</fullName>
+        <field>IsActive</field>
+        <literalValue>1</literalValue>
+        <name>Set Active to True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Campaign_to_Inactive</fullName>
+        <field>IsActive</field>
+        <literalValue>0</literalValue>
+        <name>Set Campaign to Inactive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Stage_Conditions_Waived</fullName>
+        <field>Status</field>
+        <literalValue>Conditions Waived</literalValue>
+        <name>Update Campaign Stage Conditions Waived</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Stage_to_Closed</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Update Campaign Stage to Closed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Stage_to_LOI_Signed</fullName>
+        <description>Update Campaign Stage to LOI Signed when Opportunity Stage equals Conditional.</description>
+        <field>Status</field>
+        <literalValue>LOI Signed</literalValue>
+        <name>Update Campaign Stage to LOI Signed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Stage_to_Not_Pursued</fullName>
+        <field>Status</field>
+        <literalValue>Not Pursued</literalValue>
+        <name>Update Campaign Stage to Not Pursued</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Campaign_Stage_to_On_Hold</fullName>
+        <description>Update Campaign Stage to On Hold when Opportunity Stage is On Hold</description>
+        <field>Status</field>
+        <literalValue>On Hold</literalValue>
+        <name>Update Campaign Stage to On Hold</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Name_for_BDP</fullName>
+        <field>Name</field>
+        <formula>BPC_Name__c</formula>
+        <name>Update Name for BDP</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BFIN - Update Campaign Status_Closed</fullName>
+        <actions>
+            <name>Update_Campaign_Stage_to_Closed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Campaign Status based on Opportunity Stage = Closed</description>
+        <formula>CONTAINS(TEXT( Original_Deal_Opportunity__r.StageName) , &quot;Closed&quot;)  &amp;&amp; CONTAINS( RecordType.DeveloperName, &quot;BFIN&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Campaign Status_Conditions Waived</fullName>
+        <actions>
+            <name>Update_Campaign_Stage_Conditions_Waived</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Campaign Status based on Opportunity Stage = Firm</description>
+        <formula>ISPICKVAL(Original_Deal_Opportunity__r.StageName, &quot;Firm&quot;) &amp;&amp;  CONTAINS(RecordType.DeveloperName, &quot;BFIN&quot;)&amp;&amp;(OR(ISPICKVAL( Status , &quot;LOI Signed&quot;), (ISPICKVAL( Status , &quot;PSA Signed&quot;))))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Campaign Status_LOI Signed</fullName>
+        <actions>
+            <name>Update_Campaign_Stage_to_LOI_Signed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Campaign Status based on Opportunity Stage = Conditional</description>
+        <formula>ISPICKVAL(Original_Deal_Opportunity__r.StageName, &quot;Conditional&quot;) &amp;&amp;  CONTAINS(RecordType.DeveloperName, &quot;BFIN&quot;) &amp;&amp; ISPICKVAL( Status , &quot;Marketing&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Campaign Status_Not Pursued</fullName>
+        <actions>
+            <name>Update_Campaign_Stage_to_Not_Pursued</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Campaign Status based on Opportunity Stage = Not Pursued</description>
+        <formula>CONTAINS(TEXT( Original_Deal_Opportunity__r.StageName) , &quot;Not Pursued&quot;)  &amp;&amp; CONTAINS( RecordType.DeveloperName, &quot;BFIN&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Campaign Status_On Hold</fullName>
+        <actions>
+            <name>Update_Campaign_Stage_to_On_Hold</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Campaign Status based on Opportunity Stage = On Hold</description>
+        <formula>CONTAINS(TEXT( Original_Deal_Opportunity__r.StageName) , &quot;On Hold&quot;)  &amp;&amp; CONTAINS( RecordType.DeveloperName, &quot;BFIN&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN CampaignActive</fullName>
+        <actions>
+            <name>CampaignActive</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>(ISNEW() &amp;&amp; TEXT(Status)  &lt;&gt;  &#39;Inactive&#39;) ||  
+(NOT(ISNEW()) &amp;&amp; TEXT(PRIORVALUE(Status)) &lt;&gt; TEXT(Status) &amp;&amp; TEXT(Status)  &lt;&gt;  &#39;Inactive&#39;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN CampaignInActive</fullName>
+        <actions>
+            <name>CampaignInActive</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>(NOT(ISNEW()) &amp;&amp; TEXT(PRIORVALUE(Status)) &lt;&gt; TEXT(Status) &amp;&amp; ((TEXT(Status)=&#39;Not Pursued&#39;) || (TEXT(Status)=&#39;Closed&#39;) || (TEXT(Status)=&#39;Inactive&#39;)))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Brookfield Diligence Portal Campaign Name</fullName>
+        <actions>
+            <name>Update_Name_for_BDP</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Brookfield Diligence Portal</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DX Fundraising%3A Active Flag</fullName>
+        <actions>
+            <name>Set_Active_to_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.Status</field>
+            <operation>equals</operation>
+            <value>Active,Planned</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fundraising Rooms</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DX Fundraising%3A InActive Flag</fullName>
+        <actions>
+            <name>Set_Campaign_to_Inactive</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.Status</field>
+            <operation>equals</operation>
+            <value>Deactivated</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fundraising Rooms</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

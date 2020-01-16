@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General</fullName>
+    <description>This is Used for BRP USA  and general groups who doesn&#39;t have sales process set up</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>0 - Contract Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>01 - BIM Inactive</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>02 - BIM General Interest</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>03 - BIM Active</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>04 - BIM Short Listed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>05 - BIM Pending Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>06 - BIM Awarded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>07 - BIM Funded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>08 - BIM Declined</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>1 - Identified as Prospect</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>1 - Identified as Prospect %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>1 - Initiated Contact with Research %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>1 - Prospect</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>1%3A Prospect identified</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>10 %E2%80%93 Inactive%2FOn Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>10 - Inactive%2FOn Hold %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>10 - Soft Decline</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2 - Education</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2 - Initiated General Contact</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2 - Initiated General Contact %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2 - Ongoing Research %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2%3A Contact initiated</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2-Contacted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 - Fund Meeting%2FDiscussions Held</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 - Fund Meeting%2FDiscussions Held %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 - Qualified Prospect</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 - Rating in Progress %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 - Submission</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3%3A Meetings%2Fcalls held with Inv Team</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - Buy Rated%E2%80%90 Short List %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - In Commercial Due Diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - In Due Diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - In Due Diligence %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - Negotiation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 - Offer Submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4%3A Fund due diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 %E2%80%93 Short Listed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 - Buy Rated%E2%80%90 Long List %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 - Contract Negotiation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 - Regulatory Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 - Seeking IC Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 - Short Listed %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5%3A IC approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - Contract Awarded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - In Legal Due Diligence</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - On Hold %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - Regulatory Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - Seeking IC Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 - Seeking IC Approval %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6%3A Legal review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 - Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 - Approved %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 - Contract Declined</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 - Contract Signed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 - Not Rated %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7%3A Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8 - Closed%2FConfirmed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8 - Closed%2FFunded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8 - Closed%2FFunded %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8 - Contract Renewal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8 - Contract Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8%3A Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>8-Soft Declined</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>9 - Declined</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>9 - Declined %28PSG%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>9 - Educating</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Active Dialogue</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Buy Side Mandate Signed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Lost Pitch</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Mandate Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Mandate Expired</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Split</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed%2FConfirmed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Conditional</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Construction</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Negotiation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Signed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Credit Approved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Deal Died</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Declined</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Educating</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Endorsed %26 Unsigned</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Final Bid Submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Finance Mandate Signed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Firm</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Firm Decline</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Funded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Identified as Priority</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Illustrative Quote</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initial Bid Submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initial Contact Made</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Initiated Contact</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Invoiced</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Leads</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Mandate Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Meeting Held</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Missed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Not Pursued</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>OIM%2FAsset Management</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pitch</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Position Recieved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Preferred Bidder</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Preliminary</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>RFP Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Request for Information %28RFI%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Request for Proposal %28RFP%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Request for Qualification %28RFQ%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Sell Side Mandate Signed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Shortlist</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Soft Decline</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Syndication %E2%80%93 Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Syndication %E2%80%93 Missed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Syndication - Active</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Teaming</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Tier 8 - Inactive</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Tracking</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Verbal Agreement</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

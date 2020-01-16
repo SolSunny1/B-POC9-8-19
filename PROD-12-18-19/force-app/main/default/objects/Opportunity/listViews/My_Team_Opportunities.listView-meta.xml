@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Team_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Deal_Sheet_Comments__c</columns>
+    <columns>Deal_Nature__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>BFIN_Estimated_Fee__c</columns>
+    <columns>Mandate_Expiry__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Deal_Team__c</columns>
+    <columns>Deal_Type__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Team</filterScope>
+    <label>My Team Opportunities</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,7 @@
+PFG Investor Account name for {!Account.Name} has been changed by {!User.Username}.
+
+Modified Date:{!Account.LastModifiedDate}.
+Alias: {!Account.Alias__c}.
+Country : {!Account.BillingCountry}.
+Investor Type : {!Account.Investor_Type__c}.
+Private Funds Invested in : {!Account.QI_Status_Notes__c}.

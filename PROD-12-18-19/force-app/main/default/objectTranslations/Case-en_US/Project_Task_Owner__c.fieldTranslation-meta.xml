@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the name of the person and or team(s) that have been assigned to this project task to complete --></help>
+    <label><!-- Project Task Owner --></label>
+    <name>Project_Task_Owner__c</name>
+</CustomFieldTranslation>

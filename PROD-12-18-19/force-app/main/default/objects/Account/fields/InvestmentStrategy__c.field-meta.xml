@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvestmentStrategy__c</fullName>
+    <externalId>false</externalId>
+    <label>Investment Strategy</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Core</fullName>
+                <default>false</default>
+                <label>Core</label>
+            </value>
+            <value>
+                <fullName>Core+</fullName>
+                <default>false</default>
+                <label>Core+</label>
+            </value>
+            <value>
+                <fullName>Opportunistic</fullName>
+                <default>false</default>
+                <label>Opportunistic</label>
+            </value>
+            <value>
+                <fullName>Secondaries</fullName>
+                <default>false</default>
+                <label>Secondaries</label>
+            </value>
+            <value>
+                <fullName>Single Tenant/Net Lease</fullName>
+                <default>false</default>
+                <label>Single Tenant/Net Lease</label>
+            </value>
+            <value>
+                <fullName>Value-Add</fullName>
+                <default>false</default>
+                <label>Value-Add</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

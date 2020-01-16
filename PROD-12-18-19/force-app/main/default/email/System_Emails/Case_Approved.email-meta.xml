@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Case Approved</name>
+    <style>freeForm</style>
+    <subject>Case Promotion has been Approved</subject>
+    <textOnly>Your case {!Case.CaseNumber} - {!Case.Subject}, has been approved for promotion.
+
+Notes: {!ApprovalRequest.Comments}
+
+Case Link: {!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

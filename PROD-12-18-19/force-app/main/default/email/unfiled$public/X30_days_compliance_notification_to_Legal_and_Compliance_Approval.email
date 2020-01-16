@@ -1,0 +1,44 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal">Hi {!Compliance__c.CreatedBy}, <o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal">The 30 day cooling off period for {!Compliance__c.Prospect_Name__c} has
+been completed.<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b style="mso-bidi-font-weight:normal">Created Date:&nbsp;&nbsp;</b>{!Compliance__c.CreatedDate} <o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b style="mso-bidi-font-weight:normal">Compliance Name:&nbsp;&nbsp;</b>{!Compliance__c.Name}<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b style="mso-bidi-font-weight:normal">Compliance Link:&nbsp;&nbsp;</b>{!Compliance__c.Link}<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b style="mso-bidi-font-weight:normal">Compliance State:&nbsp;&nbsp;</b>{!Compliance__c.Status__c}<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal">Regards, <o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal">CRM Support Team.<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></p><br>]]></td>
+</tr>
+</table>

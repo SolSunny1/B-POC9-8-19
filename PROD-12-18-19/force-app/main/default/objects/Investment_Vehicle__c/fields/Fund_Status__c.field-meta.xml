@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Fund_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Fund Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Development</fullName>
+                <default>false</default>
+                <label>Product Development</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Marketing Closed</fullName>
+                <default>false</default>
+                <label>Marketing Closed</label>
+            </value>
+            <value>
+                <fullName>Fully Divested</fullName>
+                <default>false</default>
+                <label>Fully Divested</label>
+            </value>
+            <value>
+                <fullName>Discontinued</fullName>
+                <default>false</default>
+                <label>Discontinued</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

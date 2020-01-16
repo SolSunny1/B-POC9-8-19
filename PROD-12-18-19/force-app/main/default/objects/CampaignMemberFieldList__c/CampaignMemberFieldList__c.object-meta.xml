@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Campaign Member Field List to track history</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Campaign Member Field List</label>
+    <visibility>Public</visibility>
+</CustomObject>

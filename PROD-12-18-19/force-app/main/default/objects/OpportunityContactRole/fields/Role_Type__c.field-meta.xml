@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_Type__c</fullName>
+    <description>This is used in PE&#39;s page layout to instead of Role&#39;s standard field value. Standard Role field value&#39;s can&#39;t be restricted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identity contact role for this deal.</inlineHelpText>
+    <label>Role Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting Firm</fullName>
+                <default>false</default>
+                <label>Accounting Firm</label>
+            </value>
+            <value>
+                <fullName>Advisory Firm</fullName>
+                <default>false</default>
+                <label>Advisory Firm</label>
+            </value>
+            <value>
+                <fullName>Bank/Financial Institution</fullName>
+                <default>false</default>
+                <label>Bank/Financial Institution</label>
+            </value>
+            <value>
+                <fullName>Brookfield Affiliate</fullName>
+                <default>false</default>
+                <label>Brookfield Affiliate</label>
+            </value>
+            <value>
+                <fullName>Consulting Firm</fullName>
+                <default>false</default>
+                <label>Consulting Firm</label>
+            </value>
+            <value>
+                <fullName>Executive/ Professional</fullName>
+                <default>false</default>
+                <label>Executive/ Professional</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Law Firm</fullName>
+                <default>false</default>
+                <label>Law Firm</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Rating Agenc</fullName>
+                <default>false</default>
+                <label>Rating Agenc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

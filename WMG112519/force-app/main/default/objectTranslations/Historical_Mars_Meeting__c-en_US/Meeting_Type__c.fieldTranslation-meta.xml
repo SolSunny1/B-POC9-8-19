@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Meeting Type --></label>
+    <name>Meeting_Type__c</name>
+    <picklistValues>
+        <masterLabel>1-on-1 Meeting</masterLabel>
+        <translation><!-- 1-on-1 Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Branch Meeting</masterLabel>
+        <translation><!-- Branch Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client Seminar</masterLabel>
+        <translation><!-- Client Seminar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client and Rep Meeting</masterLabel>
+        <translation><!-- Client and Rep Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference Call</masterLabel>
+        <translation><!-- Conference Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Office Meeting</masterLabel>
+        <translation><!-- Home Office Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal Meeting</masterLabel>
+        <translation><!-- Internal Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PM Conference Call</masterLabel>
+        <translation><!-- PM Conference Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone Appointment</masterLabel>
+        <translation><!-- Phone Appointment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portfolio Manager Meeting</masterLabel>
+        <translation><!-- Portfolio Manager Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regional Meeting/Conference</masterLabel>
+        <translation><!-- Regional Meeting/Conference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stop By Meeting</masterLabel>
+        <translation><!-- Stop By Meeting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

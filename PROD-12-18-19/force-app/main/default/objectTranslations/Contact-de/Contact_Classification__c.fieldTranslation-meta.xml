@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Classification --></label>
+    <name>Contact_Classification__c</name>
+    <picklistValues>
+        <masterLabel>Key Executive Contact</masterLabel>
+        <translation><!-- Key Executive Contact --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

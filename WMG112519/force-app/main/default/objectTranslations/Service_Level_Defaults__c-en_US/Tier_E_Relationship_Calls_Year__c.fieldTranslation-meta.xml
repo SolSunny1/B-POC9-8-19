@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Default number of Relationship Calls/Year for a Tier E client --></help>
+    <label><!-- Tier E - Relationship Calls/Year --></label>
+    <name>Tier_E_Relationship_Calls_Year__c</name>
+</CustomFieldTranslation>

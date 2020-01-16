@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIP_Shareholder_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>if( BIP_Units_Shares__c &gt; 0,&quot;Current Shareholder&quot;,
+If(No_of_BIP_Shareholder__c &gt; 0 ,&quot;Past/Target Shareholder&quot;,&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Autopopulated Field.</inlineHelpText>
+    <label>BIP Shareholder Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

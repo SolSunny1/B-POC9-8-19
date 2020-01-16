@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Failed_promotion_reason_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(Status__c, &quot;Full fail&quot;),
+ISPICKVAL(Status__c, &quot;Partial Fail&quot;)),
+ISBLANK (Reason_for_failure__c))</errorConditionFormula>
+    <errorDisplayField>Reason_for_failure__c</errorDisplayField>
+    <errorMessage>Please enter a reason for failure or partial failure</errorMessage>
+</ValidationRule>

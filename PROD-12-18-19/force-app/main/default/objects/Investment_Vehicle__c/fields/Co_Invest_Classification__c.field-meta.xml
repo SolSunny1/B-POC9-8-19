@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Co_Invest_Classification__c</fullName>
+    <description>Use to further classify the type of Co-Investment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use to further classify the type of Co-Investment</inlineHelpText>
+    <label>Co-Invest Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Co-Invest - Fund</fullName>
+                <default>false</default>
+                <label>Co-Invest - Fund</label>
+            </value>
+            <value>
+                <fullName>Co-Invest - Listed Vehicle</fullName>
+                <default>false</default>
+                <label>Co-Invest - Listed Vehicle</label>
+            </value>
+            <value>
+                <fullName>Co-Invest - Other Vehicle</fullName>
+                <default>false</default>
+                <label>Co-Invest - Other Vehicle</label>
+            </value>
+            <value>
+                <fullName>Syndication</fullName>
+                <default>false</default>
+                <label>Syndication</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

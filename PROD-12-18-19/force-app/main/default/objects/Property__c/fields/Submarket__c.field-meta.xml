@@ -1,0 +1,2363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submarket__c</fullName>
+    <externalId>false</externalId>
+    <label>Submarket</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Market__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Airport/I-20W</fullName>
+                <default>false</default>
+                <label>Airport/I-20W</label>
+            </value>
+            <value>
+                <fullName>Atlanta</fullName>
+                <default>false</default>
+                <label>Atlanta</label>
+            </value>
+            <value>
+                <fullName>Atlanta - NE Submarket</fullName>
+                <default>false</default>
+                <label>Atlanta - NE Submarket</label>
+            </value>
+            <value>
+                <fullName>Atlanta - Northeast</fullName>
+                <default>false</default>
+                <label>Atlanta - Northeast</label>
+            </value>
+            <value>
+                <fullName>Columbia, SC</fullName>
+                <default>false</default>
+                <label>Columbia, SC</label>
+            </value>
+            <value>
+                <fullName>Columbus, GA</fullName>
+                <default>false</default>
+                <label>Columbus, GA</label>
+            </value>
+            <value>
+                <fullName>East Atlanta</fullName>
+                <default>false</default>
+                <label>East Atlanta</label>
+            </value>
+            <value>
+                <fullName>Forsyth County</fullName>
+                <default>false</default>
+                <label>Forsyth County</label>
+            </value>
+            <value>
+                <fullName>Hamilton Mill Business Center - NE Atlanta</fullName>
+                <default>false</default>
+                <label>Hamilton Mill Business Center - NE Atlanta</label>
+            </value>
+            <value>
+                <fullName>I-20 W</fullName>
+                <default>false</default>
+                <label>I-20 W</label>
+            </value>
+            <value>
+                <fullName>I-20 West</fullName>
+                <default>false</default>
+                <label>I-20 West</label>
+            </value>
+            <value>
+                <fullName>I-20W</fullName>
+                <default>false</default>
+                <label>I-20W</label>
+            </value>
+            <value>
+                <fullName>I-20W/Fulton</fullName>
+                <default>false</default>
+                <label>I-20W/Fulton</label>
+            </value>
+            <value>
+                <fullName>I-20W/NE Atlanta</fullName>
+                <default>false</default>
+                <label>I-20W/NE Atlanta</label>
+            </value>
+            <value>
+                <fullName>I-75 South</fullName>
+                <default>false</default>
+                <label>I-75 South</label>
+            </value>
+            <value>
+                <fullName>I-85</fullName>
+                <default>false</default>
+                <label>I-85</label>
+            </value>
+            <value>
+                <fullName>NE Atlanta</fullName>
+                <default>false</default>
+                <label>NE Atlanta</label>
+            </value>
+            <value>
+                <fullName>NE/North Central</fullName>
+                <default>false</default>
+                <label>NE/North Central</label>
+            </value>
+            <value>
+                <fullName>North Atlanta</fullName>
+                <default>false</default>
+                <label>North Atlanta</label>
+            </value>
+            <value>
+                <fullName>North East</fullName>
+                <default>false</default>
+                <label>North East</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Northeast Atlanta</fullName>
+                <default>false</default>
+                <label>Northeast Atlanta</label>
+            </value>
+            <value>
+                <fullName>Northeast Submarket</fullName>
+                <default>false</default>
+                <label>Northeast Submarket</label>
+            </value>
+            <value>
+                <fullName>Northeast/I-85</fullName>
+                <default>false</default>
+                <label>Northeast/I-85</label>
+            </value>
+            <value>
+                <fullName>Northwest &amp; I-20 West</fullName>
+                <default>false</default>
+                <label>Northwest &amp; I-20 West</label>
+            </value>
+            <value>
+                <fullName>NW Atlanta</fullName>
+                <default>false</default>
+                <label>NW Atlanta</label>
+            </value>
+            <value>
+                <fullName>Savannah</fullName>
+                <default>false</default>
+                <label>Savannah</label>
+            </value>
+            <value>
+                <fullName>South</fullName>
+                <default>false</default>
+                <label>South</label>
+            </value>
+            <value>
+                <fullName>South &amp; NE Atlanta</fullName>
+                <default>false</default>
+                <label>South &amp; NE Atlanta</label>
+            </value>
+            <value>
+                <fullName>South Atlanta</fullName>
+                <default>false</default>
+                <label>South Atlanta</label>
+            </value>
+            <value>
+                <fullName>South Carolina</fullName>
+                <default>false</default>
+                <label>South Carolina</label>
+            </value>
+            <value>
+                <fullName>SouthEast</fullName>
+                <default>false</default>
+                <label>SouthEast</label>
+            </value>
+            <value>
+                <fullName>West Atlanta</fullName>
+                <default>false</default>
+                <label>West Atlanta</label>
+            </value>
+            <value>
+                <fullName>West Atlanta and Nashville</fullName>
+                <default>false</default>
+                <label>West Atlanta and Nashville</label>
+            </value>
+            <value>
+                <fullName>Baltimore</fullName>
+                <default>false</default>
+                <label>Baltimore</label>
+            </value>
+            <value>
+                <fullName>Baltimore East</fullName>
+                <default>false</default>
+                <label>Baltimore East</label>
+            </value>
+            <value>
+                <fullName>Baltimore/ Washington</fullName>
+                <default>false</default>
+                <label>Baltimore/ Washington</label>
+            </value>
+            <value>
+                <fullName>Baltimore/Washington</fullName>
+                <default>false</default>
+                <label>Baltimore/Washington</label>
+            </value>
+            <value>
+                <fullName>BWI/Marley Neck</fullName>
+                <default>false</default>
+                <label>BWI/Marley Neck</label>
+            </value>
+            <value>
+                <fullName>Central Maryland and Northern Virginia</fullName>
+                <default>false</default>
+                <label>Central Maryland and Northern Virginia</label>
+            </value>
+            <value>
+                <fullName>Elkridge</fullName>
+                <default>false</default>
+                <label>Elkridge</label>
+            </value>
+            <value>
+                <fullName>Harford County</fullName>
+                <default>false</default>
+                <label>Harford County</label>
+            </value>
+            <value>
+                <fullName>Route 1 Corridor</fullName>
+                <default>false</default>
+                <label>Route 1 Corridor</label>
+            </value>
+            <value>
+                <fullName>Route 1/BWI</fullName>
+                <default>false</default>
+                <label>Route 1/BWI</label>
+            </value>
+            <value>
+                <fullName>Route 1/BWI Area</fullName>
+                <default>false</default>
+                <label>Route 1/BWI Area</label>
+            </value>
+            <value>
+                <fullName>Washington</fullName>
+                <default>false</default>
+                <label>Washington</label>
+            </value>
+            <value>
+                <fullName>La Bisbal del Penedes &amp; Alovera</fullName>
+                <default>false</default>
+                <label>La Bisbal del Penedes &amp; Alovera</label>
+            </value>
+            <value>
+                <fullName>Route 128 North</fullName>
+                <default>false</default>
+                <label>Route 128 North</label>
+            </value>
+            <value>
+                <fullName>Springfield</fullName>
+                <default>false</default>
+                <label>Springfield</label>
+            </value>
+            <value>
+                <fullName>Bremen, Bremerhaven</fullName>
+                <default>false</default>
+                <label>Bremen, Bremerhaven</label>
+            </value>
+            <value>
+                <fullName>East Hillsborough</fullName>
+                <default>false</default>
+                <label>East Hillsborough</label>
+            </value>
+            <value>
+                <fullName>East Tampa</fullName>
+                <default>false</default>
+                <label>East Tampa</label>
+            </value>
+            <value>
+                <fullName>Groveland</fullName>
+                <default>false</default>
+                <label>Groveland</label>
+            </value>
+            <value>
+                <fullName>NW Orange</fullName>
+                <default>false</default>
+                <label>NW Orange</label>
+            </value>
+            <value>
+                <fullName>Polk County</fullName>
+                <default>false</default>
+                <label>Polk County</label>
+            </value>
+            <value>
+                <fullName>SE Orange County</fullName>
+                <default>false</default>
+                <label>SE Orange County</label>
+            </value>
+            <value>
+                <fullName>Tampa</fullName>
+                <default>false</default>
+                <label>Tampa</label>
+            </value>
+            <value>
+                <fullName>San Francisco &amp; Oakland</fullName>
+                <default>false</default>
+                <label>San Francisco &amp; Oakland</label>
+            </value>
+            <value>
+                <fullName>Charlotte</fullName>
+                <default>false</default>
+                <label>Charlotte</label>
+            </value>
+            <value>
+                <fullName>Duncan South Carolina</fullName>
+                <default>false</default>
+                <label>Duncan South Carolina</label>
+            </value>
+            <value>
+                <fullName>Durham</fullName>
+                <default>false</default>
+                <label>Durham</label>
+            </value>
+            <value>
+                <fullName>Monroe</fullName>
+                <default>false</default>
+                <label>Monroe</label>
+            </value>
+            <value>
+                <fullName>North Charlotte</fullName>
+                <default>false</default>
+                <label>North Charlotte</label>
+            </value>
+            <value>
+                <fullName>South Charlotte</fullName>
+                <default>false</default>
+                <label>South Charlotte</label>
+            </value>
+            <value>
+                <fullName>SW Charlotte</fullName>
+                <default>false</default>
+                <label>SW Charlotte</label>
+            </value>
+            <value>
+                <fullName>Central DuPage</fullName>
+                <default>false</default>
+                <label>Central DuPage</label>
+            </value>
+            <value>
+                <fullName>Chicago</fullName>
+                <default>false</default>
+                <label>Chicago</label>
+            </value>
+            <value>
+                <fullName>Dupage County</fullName>
+                <default>false</default>
+                <label>Dupage County</label>
+            </value>
+            <value>
+                <fullName>I-55</fullName>
+                <default>false</default>
+                <label>I-55</label>
+            </value>
+            <value>
+                <fullName>I-80</fullName>
+                <default>false</default>
+                <label>I-80</label>
+            </value>
+            <value>
+                <fullName>I-88</fullName>
+                <default>false</default>
+                <label>I-88</label>
+            </value>
+            <value>
+                <fullName>I-90 Corridor</fullName>
+                <default>false</default>
+                <label>I-90 Corridor</label>
+            </value>
+            <value>
+                <fullName>Kane</fullName>
+                <default>false</default>
+                <label>Kane</label>
+            </value>
+            <value>
+                <fullName>Lake County</fullName>
+                <default>false</default>
+                <label>Lake County</label>
+            </value>
+            <value>
+                <fullName>Metro Chicago</fullName>
+                <default>false</default>
+                <label>Metro Chicago</label>
+            </value>
+            <value>
+                <fullName>North Chicago</fullName>
+                <default>false</default>
+                <label>North Chicago</label>
+            </value>
+            <value>
+                <fullName>O&#39;Hare</fullName>
+                <default>false</default>
+                <label>O&#39;Hare</label>
+            </value>
+            <value>
+                <fullName>Salt Lake City, Utah</fullName>
+                <default>false</default>
+                <label>Salt Lake City, Utah</label>
+            </value>
+            <value>
+                <fullName>South Chicago</fullName>
+                <default>false</default>
+                <label>South Chicago</label>
+            </value>
+            <value>
+                <fullName>Southeast WI</fullName>
+                <default>false</default>
+                <label>Southeast WI</label>
+            </value>
+            <value>
+                <fullName>SW Chicago</fullName>
+                <default>false</default>
+                <label>SW Chicago</label>
+            </value>
+            <value>
+                <fullName>West Chicago</fullName>
+                <default>false</default>
+                <label>West Chicago</label>
+            </value>
+            <value>
+                <fullName>Wisconsin</fullName>
+                <default>false</default>
+                <label>Wisconsin</label>
+            </value>
+            <value>
+                <fullName>Baodi</fullName>
+                <default>false</default>
+                <label>Baodi</label>
+            </value>
+            <value>
+                <fullName>Chengdu</fullName>
+                <default>false</default>
+                <label>Chengdu</label>
+            </value>
+            <value>
+                <fullName>Guangzhou</fullName>
+                <default>false</default>
+                <label>Guangzhou</label>
+            </value>
+            <value>
+                <fullName>Shanghai</fullName>
+                <default>false</default>
+                <label>Shanghai</label>
+            </value>
+            <value>
+                <fullName>Suzhou</fullName>
+                <default>false</default>
+                <label>Suzhou</label>
+            </value>
+            <value>
+                <fullName>Tianjin</fullName>
+                <default>false</default>
+                <label>Tianjin</label>
+            </value>
+            <value>
+                <fullName>Wuhan</fullName>
+                <default>false</default>
+                <label>Wuhan</label>
+            </value>
+            <value>
+                <fullName>Yangtze River Delta</fullName>
+                <default>false</default>
+                <label>Yangtze River Delta</label>
+            </value>
+            <value>
+                <fullName>Beavercreek</fullName>
+                <default>false</default>
+                <label>Beavercreek</label>
+            </value>
+            <value>
+                <fullName>Cincinnati</fullName>
+                <default>false</default>
+                <label>Cincinnati</label>
+            </value>
+            <value>
+                <fullName>Cincinnati - Park South at Richwood</fullName>
+                <default>false</default>
+                <label>Cincinnati - Park South at Richwood</label>
+            </value>
+            <value>
+                <fullName>Cincinnati (Monroe)</fullName>
+                <default>false</default>
+                <label>Cincinnati (Monroe)</label>
+            </value>
+            <value>
+                <fullName>Cincinnati (N. Kentucy)</fullName>
+                <default>false</default>
+                <label>Cincinnati (N. Kentucy)</label>
+            </value>
+            <value>
+                <fullName>Indianapolis</fullName>
+                <default>false</default>
+                <label>Indianapolis</label>
+            </value>
+            <value>
+                <fullName>Indianapolis - South submarket</fullName>
+                <default>false</default>
+                <label>Indianapolis - South submarket</label>
+            </value>
+            <value>
+                <fullName>Indianapolis (20 Miles West)</fullName>
+                <default>false</default>
+                <label>Indianapolis (20 Miles West)</label>
+            </value>
+            <value>
+                <fullName>Indianapolis (Plainfield)</fullName>
+                <default>false</default>
+                <label>Indianapolis (Plainfield)</label>
+            </value>
+            <value>
+                <fullName>Indianapolis Southwest / Plainfield</fullName>
+                <default>false</default>
+                <label>Indianapolis Southwest / Plainfield</label>
+            </value>
+            <value>
+                <fullName>Lebanon Ind /NW Indy</fullName>
+                <default>false</default>
+                <label>Lebanon Ind /NW Indy</label>
+            </value>
+            <value>
+                <fullName>Lexington, KY</fullName>
+                <default>false</default>
+                <label>Lexington, KY</label>
+            </value>
+            <value>
+                <fullName>Livonia, MI</fullName>
+                <default>false</default>
+                <label>Livonia, MI</label>
+            </value>
+            <value>
+                <fullName>Louisville</fullName>
+                <default>false</default>
+                <label>Louisville</label>
+            </value>
+            <value>
+                <fullName>North I-75</fullName>
+                <default>false</default>
+                <label>North I-75</label>
+            </value>
+            <value>
+                <fullName>Northern Cincinnati</fullName>
+                <default>false</default>
+                <label>Northern Cincinnati</label>
+            </value>
+            <value>
+                <fullName>Northern Kentucky</fullName>
+                <default>false</default>
+                <label>Northern Kentucky</label>
+            </value>
+            <value>
+                <fullName>Park West</fullName>
+                <default>false</default>
+                <label>Park West</label>
+            </value>
+            <value>
+                <fullName>Plainfield West</fullName>
+                <default>false</default>
+                <label>Plainfield West</label>
+            </value>
+            <value>
+                <fullName>Richwood</fullName>
+                <default>false</default>
+                <label>Richwood</label>
+            </value>
+            <value>
+                <fullName>St Louis/Missouri</fullName>
+                <default>false</default>
+                <label>St Louis/Missouri</label>
+            </value>
+            <value>
+                <fullName>St. Louis</fullName>
+                <default>false</default>
+                <label>St. Louis</label>
+            </value>
+            <value>
+                <fullName>West Chester / Tri County</fullName>
+                <default>false</default>
+                <label>West Chester / Tri County</label>
+            </value>
+            <value>
+                <fullName>Whitestown (Indianapolis)</fullName>
+                <default>false</default>
+                <label>Whitestown (Indianapolis)</label>
+            </value>
+            <value>
+                <fullName>Cleveland</fullName>
+                <default>false</default>
+                <label>Cleveland</label>
+            </value>
+            <value>
+                <fullName>Columbus</fullName>
+                <default>false</default>
+                <label>Columbus</label>
+            </value>
+            <value>
+                <fullName>Columbus, OH and Dallas</fullName>
+                <default>false</default>
+                <label>Columbus, OH and Dallas</label>
+            </value>
+            <value>
+                <fullName>Columbus, Ohio &amp; Fort Worth, TX</fullName>
+                <default>false</default>
+                <label>Columbus, Ohio &amp; Fort Worth, TX</label>
+            </value>
+            <value>
+                <fullName>NE Columbus</fullName>
+                <default>false</default>
+                <label>NE Columbus</label>
+            </value>
+            <value>
+                <fullName>SE Columbus</fullName>
+                <default>false</default>
+                <label>SE Columbus</label>
+            </value>
+            <value>
+                <fullName>Arlington</fullName>
+                <default>false</default>
+                <label>Arlington</label>
+            </value>
+            <value>
+                <fullName>Dallas</fullName>
+                <default>false</default>
+                <label>Dallas</label>
+            </value>
+            <value>
+                <fullName>Dallas Tx</fullName>
+                <default>false</default>
+                <label>Dallas Tx</label>
+            </value>
+            <value>
+                <fullName>Dallas, Tx</fullName>
+                <default>false</default>
+                <label>Dallas, Tx</label>
+            </value>
+            <value>
+                <fullName>DFW &amp; GSW</fullName>
+                <default>false</default>
+                <label>DFW &amp; GSW</label>
+            </value>
+            <value>
+                <fullName>Great Southwest</fullName>
+                <default>false</default>
+                <label>Great Southwest</label>
+            </value>
+            <value>
+                <fullName>Juarez</fullName>
+                <default>false</default>
+                <label>Juarez</label>
+            </value>
+            <value>
+                <fullName>NE Dallas</fullName>
+                <default>false</default>
+                <label>NE Dallas</label>
+            </value>
+            <value>
+                <fullName>NE Dallas/Ft. Worth</fullName>
+                <default>false</default>
+                <label>NE Dallas/Ft. Worth</label>
+            </value>
+            <value>
+                <fullName>North Dallas</fullName>
+                <default>false</default>
+                <label>North Dallas</label>
+            </value>
+            <value>
+                <fullName>San Antonio</fullName>
+                <default>false</default>
+                <label>San Antonio</label>
+            </value>
+            <value>
+                <fullName>San Antonio, TX</fullName>
+                <default>false</default>
+                <label>San Antonio, TX</label>
+            </value>
+            <value>
+                <fullName>South Dallas</fullName>
+                <default>false</default>
+                <label>South Dallas</label>
+            </value>
+            <value>
+                <fullName>DFW</fullName>
+                <default>false</default>
+                <label>DFW</label>
+            </value>
+            <value>
+                <fullName>DFW/GSW/South Stemmons</fullName>
+                <default>false</default>
+                <label>DFW/GSW/South Stemmons</label>
+            </value>
+            <value>
+                <fullName>Johnson County</fullName>
+                <default>false</default>
+                <label>Johnson County</label>
+            </value>
+            <value>
+                <fullName>Noth Stemmons / Valwood</fullName>
+                <default>false</default>
+                <label>Noth Stemmons / Valwood</label>
+            </value>
+            <value>
+                <fullName>South Fort Worth Industrial Market</fullName>
+                <default>false</default>
+                <label>South Fort Worth Industrial Market</label>
+            </value>
+            <value>
+                <fullName>South Stemmons</fullName>
+                <default>false</default>
+                <label>South Stemmons</label>
+            </value>
+            <value>
+                <fullName>Aurora</fullName>
+                <default>false</default>
+                <label>Aurora</label>
+            </value>
+            <value>
+                <fullName>Central Denver</fullName>
+                <default>false</default>
+                <label>Central Denver</label>
+            </value>
+            <value>
+                <fullName>Denver</fullName>
+                <default>false</default>
+                <label>Denver</label>
+            </value>
+            <value>
+                <fullName>SE Denver</fullName>
+                <default>false</default>
+                <label>SE Denver</label>
+            </value>
+            <value>
+                <fullName>Ann Arbor</fullName>
+                <default>false</default>
+                <label>Ann Arbor</label>
+            </value>
+            <value>
+                <fullName>Middleville</fullName>
+                <default>false</default>
+                <label>Middleville</label>
+            </value>
+            <value>
+                <fullName>Novi</fullName>
+                <default>false</default>
+                <label>Novi</label>
+            </value>
+            <value>
+                <fullName>Shelby Township</fullName>
+                <default>false</default>
+                <label>Shelby Township</label>
+            </value>
+            <value>
+                <fullName>Troy</fullName>
+                <default>false</default>
+                <label>Troy</label>
+            </value>
+            <value>
+                <fullName>Bordeaux</fullName>
+                <default>false</default>
+                <label>Bordeaux</label>
+            </value>
+            <value>
+                <fullName>Lille</fullName>
+                <default>false</default>
+                <label>Lille</label>
+            </value>
+            <value>
+                <fullName>Lyon</fullName>
+                <default>false</default>
+                <label>Lyon</label>
+            </value>
+            <value>
+                <fullName>Marseille</fullName>
+                <default>false</default>
+                <label>Marseille</label>
+            </value>
+            <value>
+                <fullName>Paris</fullName>
+                <default>false</default>
+                <label>Paris</label>
+            </value>
+            <value>
+                <fullName>Strasbourg</fullName>
+                <default>false</default>
+                <label>Strasbourg</label>
+            </value>
+            <value>
+                <fullName>Toulouse</fullName>
+                <default>false</default>
+                <label>Toulouse</label>
+            </value>
+            <value>
+                <fullName>Broward</fullName>
+                <default>false</default>
+                <label>Broward</label>
+            </value>
+            <value>
+                <fullName>Central Florida - Ft Pierce</fullName>
+                <default>false</default>
+                <label>Central Florida - Ft Pierce</label>
+            </value>
+            <value>
+                <fullName>Doral Market</fullName>
+                <default>false</default>
+                <label>Doral Market</label>
+            </value>
+            <value>
+                <fullName>Fort Lauderdale</fullName>
+                <default>false</default>
+                <label>Fort Lauderdale</label>
+            </value>
+            <value>
+                <fullName>South Broward</fullName>
+                <default>false</default>
+                <label>South Broward</label>
+            </value>
+            <value>
+                <fullName>South Florida</fullName>
+                <default>false</default>
+                <label>South Florida</label>
+            </value>
+            <value>
+                <fullName>Berlin</fullName>
+                <default>false</default>
+                <label>Berlin</label>
+            </value>
+            <value>
+                <fullName>Leipzig Area</fullName>
+                <default>false</default>
+                <label>Leipzig Area</label>
+            </value>
+            <value>
+                <fullName>Duesseldorf</fullName>
+                <default>false</default>
+                <label>Duesseldorf</label>
+            </value>
+            <value>
+                <fullName>Frankfurt</fullName>
+                <default>false</default>
+                <label>Frankfurt</label>
+            </value>
+            <value>
+                <fullName>Hamburg</fullName>
+                <default>false</default>
+                <label>Hamburg</label>
+            </value>
+            <value>
+                <fullName>Northern Hesse</fullName>
+                <default>false</default>
+                <label>Northern Hesse</label>
+            </value>
+            <value>
+                <fullName>Munich - Augsburg</fullName>
+                <default>false</default>
+                <label>Munich - Augsburg</label>
+            </value>
+            <value>
+                <fullName>North-Rhine-Westphalia</fullName>
+                <default>false</default>
+                <label>North-Rhine-Westphalia</label>
+            </value>
+            <value>
+                <fullName>Bavaria</fullName>
+                <default>false</default>
+                <label>Bavaria</label>
+            </value>
+            <value>
+                <fullName>Rhine Main</fullName>
+                <default>false</default>
+                <label>Rhine Main</label>
+            </value>
+            <value>
+                <fullName>South-West</fullName>
+                <default>false</default>
+                <label>South-West</label>
+            </value>
+            <value>
+                <fullName>Allentown</fullName>
+                <default>false</default>
+                <label>Allentown</label>
+            </value>
+            <value>
+                <fullName>Cumberland County</fullName>
+                <default>false</default>
+                <label>Cumberland County</label>
+            </value>
+            <value>
+                <fullName>Harrisburg</fullName>
+                <default>false</default>
+                <label>Harrisburg</label>
+            </value>
+            <value>
+                <fullName>Philadelphia</fullName>
+                <default>false</default>
+                <label>Philadelphia</label>
+            </value>
+            <value>
+                <fullName>Bayport</fullName>
+                <default>false</default>
+                <label>Bayport</label>
+            </value>
+            <value>
+                <fullName>Houston</fullName>
+                <default>false</default>
+                <label>Houston</label>
+            </value>
+            <value>
+                <fullName>NE Houston</fullName>
+                <default>false</default>
+                <label>NE Houston</label>
+            </value>
+            <value>
+                <fullName>North</fullName>
+                <default>false</default>
+                <label>North</label>
+            </value>
+            <value>
+                <fullName>North Houston</fullName>
+                <default>false</default>
+                <label>North Houston</label>
+            </value>
+            <value>
+                <fullName>Northwest</fullName>
+                <default>false</default>
+                <label>Northwest</label>
+            </value>
+            <value>
+                <fullName>NW Houston</fullName>
+                <default>false</default>
+                <label>NW Houston</label>
+            </value>
+            <value>
+                <fullName>Schertz</fullName>
+                <default>false</default>
+                <label>Schertz</label>
+            </value>
+            <value>
+                <fullName>Southeast Houston</fullName>
+                <default>false</default>
+                <label>Southeast Houston</label>
+            </value>
+            <value>
+                <fullName>Southeast/Port</fullName>
+                <default>false</default>
+                <label>Southeast/Port</label>
+            </value>
+            <value>
+                <fullName>Airport</fullName>
+                <default>false</default>
+                <label>Airport</label>
+            </value>
+            <value>
+                <fullName>East Indianapolis</fullName>
+                <default>false</default>
+                <label>East Indianapolis</label>
+            </value>
+            <value>
+                <fullName>Plainfield</fullName>
+                <default>false</default>
+                <label>Plainfield</label>
+            </value>
+            <value>
+                <fullName>South Indy</fullName>
+                <default>false</default>
+                <label>South Indy</label>
+            </value>
+            <value>
+                <fullName>Corona</fullName>
+                <default>false</default>
+                <label>Corona</label>
+            </value>
+            <value>
+                <fullName>IE East</fullName>
+                <default>false</default>
+                <label>IE East</label>
+            </value>
+            <value>
+                <fullName>IE West</fullName>
+                <default>false</default>
+                <label>IE West</label>
+            </value>
+            <value>
+                <fullName>IEW, West OC</fullName>
+                <default>false</default>
+                <label>IEW, West OC</label>
+            </value>
+            <value>
+                <fullName>Inland Empire</fullName>
+                <default>false</default>
+                <label>Inland Empire</label>
+            </value>
+            <value>
+                <fullName>Inland Empire East</fullName>
+                <default>false</default>
+                <label>Inland Empire East</label>
+            </value>
+            <value>
+                <fullName>Inland Empire West</fullName>
+                <default>false</default>
+                <label>Inland Empire West</label>
+            </value>
+            <value>
+                <fullName>Inland Empire West Market</fullName>
+                <default>false</default>
+                <label>Inland Empire West Market</label>
+            </value>
+            <value>
+                <fullName>Irvine</fullName>
+                <default>false</default>
+                <label>Irvine</label>
+            </value>
+            <value>
+                <fullName>South Bay/IE West</fullName>
+                <default>false</default>
+                <label>South Bay/IE West</label>
+            </value>
+            <value>
+                <fullName>Milan</fullName>
+                <default>false</default>
+                <label>Milan</label>
+            </value>
+            <value>
+                <fullName>North West</fullName>
+                <default>false</default>
+                <label>North West</label>
+            </value>
+            <value>
+                <fullName>Parma</fullName>
+                <default>false</default>
+                <label>Parma</label>
+            </value>
+            <value>
+                <fullName>Piacenza</fullName>
+                <default>false</default>
+                <label>Piacenza</label>
+            </value>
+            <value>
+                <fullName>Venezia</fullName>
+                <default>false</default>
+                <label>Venezia</label>
+            </value>
+            <value>
+                <fullName>Verona</fullName>
+                <default>false</default>
+                <label>Verona</label>
+            </value>
+            <value>
+                <fullName>Jacksonville</fullName>
+                <default>false</default>
+                <label>Jacksonville</label>
+            </value>
+            <value>
+                <fullName>North Jacksonville</fullName>
+                <default>false</default>
+                <label>North Jacksonville</label>
+            </value>
+            <value>
+                <fullName>Ocean Way</fullName>
+                <default>false</default>
+                <label>Ocean Way</label>
+            </value>
+            <value>
+                <fullName>Las Vegas</fullName>
+                <default>false</default>
+                <label>Las Vegas</label>
+            </value>
+            <value>
+                <fullName>North Las Vegas</fullName>
+                <default>false</default>
+                <label>North Las Vegas</label>
+            </value>
+            <value>
+                <fullName>Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Central Mexico</fullName>
+                <default>false</default>
+                <label>Central Mexico</label>
+            </value>
+            <value>
+                <fullName>East Los Angeles</fullName>
+                <default>false</default>
+                <label>East Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Hawthorne</fullName>
+                <default>false</default>
+                <label>Hawthorne</label>
+            </value>
+            <value>
+                <fullName>Houma, LA</fullName>
+                <default>false</default>
+                <label>Houma, LA</label>
+            </value>
+            <value>
+                <fullName>Mid-Counties</fullName>
+                <default>false</default>
+                <label>Mid-Counties</label>
+            </value>
+            <value>
+                <fullName>NW Los Angeles</fullName>
+                <default>false</default>
+                <label>NW Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Oahu, Hawaii</fullName>
+                <default>false</default>
+                <label>Oahu, Hawaii</label>
+            </value>
+            <value>
+                <fullName>Orange County</fullName>
+                <default>false</default>
+                <label>Orange County</label>
+            </value>
+            <value>
+                <fullName>San Fernando Valley</fullName>
+                <default>false</default>
+                <label>San Fernando Valley</label>
+            </value>
+            <value>
+                <fullName>San Francisco</fullName>
+                <default>false</default>
+                <label>San Francisco</label>
+            </value>
+            <value>
+                <fullName>San Gabriel Valley</fullName>
+                <default>false</default>
+                <label>San Gabriel Valley</label>
+            </value>
+            <value>
+                <fullName>South Bay</fullName>
+                <default>false</default>
+                <label>South Bay</label>
+            </value>
+            <value>
+                <fullName>South Orange County</fullName>
+                <default>false</default>
+                <label>South Orange County</label>
+            </value>
+            <value>
+                <fullName>Southern California</fullName>
+                <default>false</default>
+                <label>Southern California</label>
+            </value>
+            <value>
+                <fullName>Stratford Ranch-Perris</fullName>
+                <default>false</default>
+                <label>Stratford Ranch-Perris</label>
+            </value>
+            <value>
+                <fullName>SW Los Angeles</fullName>
+                <default>false</default>
+                <label>SW Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Thoroughbred Jurupa Valley</fullName>
+                <default>false</default>
+                <label>Thoroughbred Jurupa Valley</label>
+            </value>
+            <value>
+                <fullName>Ventura County</fullName>
+                <default>false</default>
+                <label>Ventura County</label>
+            </value>
+            <value>
+                <fullName>West Los Angeles</fullName>
+                <default>false</default>
+                <label>West Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Bowling Green and Ontario, Canada</fullName>
+                <default>false</default>
+                <label>Bowling Green and Ontario, Canada</label>
+            </value>
+            <value>
+                <fullName>Lousiville</fullName>
+                <default>false</default>
+                <label>Lousiville</label>
+            </value>
+            <value>
+                <fullName>Southeast Louisville</fullName>
+                <default>false</default>
+                <label>Southeast Louisville</label>
+            </value>
+            <value>
+                <fullName>Southern Indiana</fullName>
+                <default>false</default>
+                <label>Southern Indiana</label>
+            </value>
+            <value>
+                <fullName>Covington, Tennessee</fullName>
+                <default>false</default>
+                <label>Covington, Tennessee</label>
+            </value>
+            <value>
+                <fullName>Memphis</fullName>
+                <default>false</default>
+                <label>Memphis</label>
+            </value>
+            <value>
+                <fullName>Memphis (Nashville)</fullName>
+                <default>false</default>
+                <label>Memphis (Nashville)</label>
+            </value>
+            <value>
+                <fullName>Nashville</fullName>
+                <default>false</default>
+                <label>Nashville</label>
+            </value>
+            <value>
+                <fullName>Northern KY, Monroe</fullName>
+                <default>false</default>
+                <label>Northern KY, Monroe</label>
+            </value>
+            <value>
+                <fullName>Wilson Commerce Center</fullName>
+                <default>false</default>
+                <label>Wilson Commerce Center</label>
+            </value>
+            <value>
+                <fullName>Airport West &amp; Meadowlands</fullName>
+                <default>false</default>
+                <label>Airport West &amp; Meadowlands</label>
+            </value>
+            <value>
+                <fullName>Hialeah</fullName>
+                <default>false</default>
+                <label>Hialeah</label>
+            </value>
+            <value>
+                <fullName>Medley</fullName>
+                <default>false</default>
+                <label>Medley</label>
+            </value>
+            <value>
+                <fullName>West Palm Beach</fullName>
+                <default>false</default>
+                <label>West Palm Beach</label>
+            </value>
+            <value>
+                <fullName>Cassano</fullName>
+                <default>false</default>
+                <label>Cassano</label>
+            </value>
+            <value>
+                <fullName>Brooklyn park</fullName>
+                <default>false</default>
+                <label>Brooklyn park</label>
+            </value>
+            <value>
+                <fullName>Brooklyn Park, MN</fullName>
+                <default>false</default>
+                <label>Brooklyn Park, MN</label>
+            </value>
+            <value>
+                <fullName>Edina</fullName>
+                <default>false</default>
+                <label>Edina</label>
+            </value>
+            <value>
+                <fullName>Minneapolis/St. Paul</fullName>
+                <default>false</default>
+                <label>Minneapolis/St. Paul</label>
+            </value>
+            <value>
+                <fullName>NW Minneapolis</fullName>
+                <default>false</default>
+                <label>NW Minneapolis</label>
+            </value>
+            <value>
+                <fullName>NW Twin Cities</fullName>
+                <default>false</default>
+                <label>NW Twin Cities</label>
+            </value>
+            <value>
+                <fullName>SW Minneapolis/St. Paul</fullName>
+                <default>false</default>
+                <label>SW Minneapolis/St. Paul</label>
+            </value>
+            <value>
+                <fullName>SW Twin Cities</fullName>
+                <default>false</default>
+                <label>SW Twin Cities</label>
+            </value>
+            <value>
+                <fullName>Twin Cities</fullName>
+                <default>false</default>
+                <label>Twin Cities</label>
+            </value>
+            <value>
+                <fullName>Interchange City</fullName>
+                <default>false</default>
+                <label>Interchange City</label>
+            </value>
+            <value>
+                <fullName>Warren County</fullName>
+                <default>false</default>
+                <label>Warren County</label>
+            </value>
+            <value>
+                <fullName>Wilson</fullName>
+                <default>false</default>
+                <label>Wilson</label>
+            </value>
+            <value>
+                <fullName>Northern New Jersey</fullName>
+                <default>false</default>
+                <label>Northern New Jersey</label>
+            </value>
+            <value>
+                <fullName>Bridgeport</fullName>
+                <default>false</default>
+                <label>Bridgeport</label>
+            </value>
+            <value>
+                <fullName>Exit 8A</fullName>
+                <default>false</default>
+                <label>Exit 8A</label>
+            </value>
+            <value>
+                <fullName>Meadowlands Submarket</fullName>
+                <default>false</default>
+                <label>Meadowlands Submarket</label>
+            </value>
+            <value>
+                <fullName>New Jersey</fullName>
+                <default>false</default>
+                <label>New Jersey</label>
+            </value>
+            <value>
+                <fullName>NJ Turnpike</fullName>
+                <default>false</default>
+                <label>NJ Turnpike</label>
+            </value>
+            <value>
+                <fullName>Port</fullName>
+                <default>false</default>
+                <label>Port</label>
+            </value>
+            <value>
+                <fullName>Central Valley</fullName>
+                <default>false</default>
+                <label>Central Valley</label>
+            </value>
+            <value>
+                <fullName>Vista</fullName>
+                <default>false</default>
+                <label>Vista</label>
+            </value>
+            <value>
+                <fullName>Brunswicks</fullName>
+                <default>false</default>
+                <label>Brunswicks</label>
+            </value>
+            <value>
+                <fullName>Meadowlands</fullName>
+                <default>false</default>
+                <label>Meadowlands</label>
+            </value>
+            <value>
+                <fullName>Northeast New Jersey</fullName>
+                <default>false</default>
+                <label>Northeast New Jersey</label>
+            </value>
+            <value>
+                <fullName>Baltimore (Cecil County)</fullName>
+                <default>false</default>
+                <label>Baltimore (Cecil County)</label>
+            </value>
+            <value>
+                <fullName>Bucks County</fullName>
+                <default>false</default>
+                <label>Bucks County</label>
+            </value>
+            <value>
+                <fullName>Carlisle, PA</fullName>
+                <default>false</default>
+                <label>Carlisle, PA</label>
+            </value>
+            <value>
+                <fullName>Cenral PA</fullName>
+                <default>false</default>
+                <label>Cenral PA</label>
+            </value>
+            <value>
+                <fullName>Central New Jersey</fullName>
+                <default>false</default>
+                <label>Central New Jersey</label>
+            </value>
+            <value>
+                <fullName>Central NJ</fullName>
+                <default>false</default>
+                <label>Central NJ</label>
+            </value>
+            <value>
+                <fullName>Central PA</fullName>
+                <default>false</default>
+                <label>Central PA</label>
+            </value>
+            <value>
+                <fullName>Dunkirk, NY</fullName>
+                <default>false</default>
+                <label>Dunkirk, NY</label>
+            </value>
+            <value>
+                <fullName>Eastern PA</fullName>
+                <default>false</default>
+                <label>Eastern PA</label>
+            </value>
+            <value>
+                <fullName>Eastern Pennsylvania</fullName>
+                <default>false</default>
+                <label>Eastern Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>Kearny, New Jersey</fullName>
+                <default>false</default>
+                <label>Kearny, New Jersey</label>
+            </value>
+            <value>
+                <fullName>Lehigh Valley</fullName>
+                <default>false</default>
+                <label>Lehigh Valley</label>
+            </value>
+            <value>
+                <fullName>Maryland/Virginia/West Virginia</fullName>
+                <default>false</default>
+                <label>Maryland/Virginia/West Virginia</label>
+            </value>
+            <value>
+                <fullName>Montgomery County</fullName>
+                <default>false</default>
+                <label>Montgomery County</label>
+            </value>
+            <value>
+                <fullName>Oaks</fullName>
+                <default>false</default>
+                <label>Oaks</label>
+            </value>
+            <value>
+                <fullName>Pennsylvania</fullName>
+                <default>false</default>
+                <label>Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>Southern NJ</fullName>
+                <default>false</default>
+                <label>Southern NJ</label>
+            </value>
+            <value>
+                <fullName>Upper Marlboro</fullName>
+                <default>false</default>
+                <label>Upper Marlboro</label>
+            </value>
+            <value>
+                <fullName>Worcester Township</fullName>
+                <default>false</default>
+                <label>Worcester Township</label>
+            </value>
+            <value>
+                <fullName>East Valley</fullName>
+                <default>false</default>
+                <label>East Valley</label>
+            </value>
+            <value>
+                <fullName>Mesa</fullName>
+                <default>false</default>
+                <label>Mesa</label>
+            </value>
+            <value>
+                <fullName>Peoria</fullName>
+                <default>false</default>
+                <label>Peoria</label>
+            </value>
+            <value>
+                <fullName>Phoenix</fullName>
+                <default>false</default>
+                <label>Phoenix</label>
+            </value>
+            <value>
+                <fullName>SW Phoenix</fullName>
+                <default>false</default>
+                <label>SW Phoenix</label>
+            </value>
+            <value>
+                <fullName>Tempe</fullName>
+                <default>false</default>
+                <label>Tempe</label>
+            </value>
+            <value>
+                <fullName>Airport Way</fullName>
+                <default>false</default>
+                <label>Airport Way</label>
+            </value>
+            <value>
+                <fullName>Milwaukie</fullName>
+                <default>false</default>
+                <label>Milwaukie</label>
+            </value>
+            <value>
+                <fullName>Portland and Tualatin</fullName>
+                <default>false</default>
+                <label>Portland and Tualatin</label>
+            </value>
+            <value>
+                <fullName>West Valley</fullName>
+                <default>false</default>
+                <label>West Valley</label>
+            </value>
+            <value>
+                <fullName>Imperial County</fullName>
+                <default>false</default>
+                <label>Imperial County</label>
+            </value>
+            <value>
+                <fullName>North County San Diego</fullName>
+                <default>false</default>
+                <label>North County San Diego</label>
+            </value>
+            <value>
+                <fullName>North San Diego</fullName>
+                <default>false</default>
+                <label>North San Diego</label>
+            </value>
+            <value>
+                <fullName>San Diego</fullName>
+                <default>false</default>
+                <label>San Diego</label>
+            </value>
+            <value>
+                <fullName>Kent Valley</fullName>
+                <default>false</default>
+                <label>Kent Valley</label>
+            </value>
+            <value>
+                <fullName>King County</fullName>
+                <default>false</default>
+                <label>King County</label>
+            </value>
+            <value>
+                <fullName>Redmond /Marymoor</fullName>
+                <default>false</default>
+                <label>Redmond /Marymoor</label>
+            </value>
+            <value>
+                <fullName>Seattle</fullName>
+                <default>false</default>
+                <label>Seattle</label>
+            </value>
+            <value>
+                <fullName>Sumner</fullName>
+                <default>false</default>
+                <label>Sumner</label>
+            </value>
+            <value>
+                <fullName>Tacoma</fullName>
+                <default>false</default>
+                <label>Tacoma</label>
+            </value>
+            <value>
+                <fullName>Airport West</fullName>
+                <default>false</default>
+                <label>Airport West</label>
+            </value>
+            <value>
+                <fullName>North Miami Beach</fullName>
+                <default>false</default>
+                <label>North Miami Beach</label>
+            </value>
+            <value>
+                <fullName>Mannheim</fullName>
+                <default>false</default>
+                <label>Mannheim</label>
+            </value>
+            <value>
+                <fullName>Wendlingen</fullName>
+                <default>false</default>
+                <label>Wendlingen</label>
+            </value>
+            <value>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+                <label>Barcelona</label>
+            </value>
+            <value>
+                <fullName>Gijon</fullName>
+                <default>false</default>
+                <label>Gijon</label>
+            </value>
+            <value>
+                <fullName>Madrid</fullName>
+                <default>false</default>
+                <label>Madrid</label>
+            </value>
+            <value>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+                <label>Zaragoza</label>
+            </value>
+            <value>
+                <fullName>Metro East</fullName>
+                <default>false</default>
+                <label>Metro East</label>
+            </value>
+            <value>
+                <fullName>St Charles County</fullName>
+                <default>false</default>
+                <label>St Charles County</label>
+            </value>
+            <value>
+                <fullName>St. Charles County</fullName>
+                <default>false</default>
+                <label>St. Charles County</label>
+            </value>
+            <value>
+                <fullName>Birmingham</fullName>
+                <default>false</default>
+                <label>Birmingham</label>
+            </value>
+            <value>
+                <fullName>Dublin</fullName>
+                <default>false</default>
+                <label>Dublin</label>
+            </value>
+            <value>
+                <fullName>Kent</fullName>
+                <default>false</default>
+                <label>Kent</label>
+            </value>
+            <value>
+                <fullName>London</fullName>
+                <default>false</default>
+                <label>London</label>
+            </value>
+            <value>
+                <fullName>Lutterworth</fullName>
+                <default>false</default>
+                <label>Lutterworth</label>
+            </value>
+            <value>
+                <fullName>Midlands</fullName>
+                <default>false</default>
+                <label>Midlands</label>
+            </value>
+            <value>
+                <fullName>Milton Keynes</fullName>
+                <default>false</default>
+                <label>Milton Keynes</label>
+            </value>
+            <value>
+                <fullName>Northampton</fullName>
+                <default>false</default>
+                <label>Northampton</label>
+            </value>
+            <value>
+                <fullName>North-East</fullName>
+                <default>false</default>
+                <label>North-East</label>
+            </value>
+            <value>
+                <fullName>South East</fullName>
+                <default>false</default>
+                <label>South East</label>
+            </value>
+            <value>
+                <fullName>South-East</fullName>
+                <default>false</default>
+                <label>South-East</label>
+            </value>
+            <value>
+                <fullName>Stoke-on-Trent</fullName>
+                <default>false</default>
+                <label>Stoke-on-Trent</label>
+            </value>
+            <value>
+                <fullName>Dulles Corridor</fullName>
+                <default>false</default>
+                <label>Dulles Corridor</label>
+            </value>
+            <value>
+                <fullName>Landover</fullName>
+                <default>false</default>
+                <label>Landover</label>
+            </value>
+            <value>
+                <fullName>Northern Virginia</fullName>
+                <default>false</default>
+                <label>Northern Virginia</label>
+            </value>
+            <value>
+                <fullName>Richmond</fullName>
+                <default>false</default>
+                <label>Richmond</label>
+            </value>
+            <value>
+                <fullName>Washington DC</fullName>
+                <default>false</default>
+                <label>Washington DC</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Baodi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Chengdu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Guangzhou</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Shanghai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Suzhou</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Tianjin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Wuhan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Yangtze River Delta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Beavercreek</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Cincinnati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Cincinnati - Park South at Richwood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Cincinnati (Monroe)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Cincinnati (N. Kentucy)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Indianapolis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Indianapolis - South submarket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Indianapolis (20 Miles West)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Indianapolis (Plainfield)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Indianapolis Southwest / Plainfield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Lebanon Ind /NW Indy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Lexington, KY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Livonia, MI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Louisville</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>North I-75</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Northern Cincinnati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Northern Kentucky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Park West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Plainfield West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Richwood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>St Louis/Missouri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>St. Louis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>West Chester / Tri County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cincinnati</controllingFieldValue>
+            <valueName>Whitestown (Indianapolis)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cleveland</controllingFieldValue>
+            <valueName>Cleveland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Columbus OH</controllingFieldValue>
+            <valueName>Columbus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Columbus OH</controllingFieldValue>
+            <valueName>Columbus, OH and Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Columbus OH</controllingFieldValue>
+            <valueName>Columbus, Ohio &amp; Fort Worth, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Columbus OH</controllingFieldValue>
+            <valueName>NE Columbus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Columbus OH</controllingFieldValue>
+            <valueName>SE Columbus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>Arlington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>Dallas Tx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>Dallas, Tx</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>DFW &amp; GSW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>Great Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>Juarez</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>NE Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>NE Dallas/Ft. Worth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>North Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>San Antonio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>San Antonio, TX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas</controllingFieldValue>
+            <valueName>South Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas / Fort Worth</controllingFieldValue>
+            <valueName>DFW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas / Fort Worth</controllingFieldValue>
+            <valueName>DFW/GSW/South Stemmons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas / Fort Worth</controllingFieldValue>
+            <valueName>Johnson County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas / Fort Worth</controllingFieldValue>
+            <valueName>Noth Stemmons / Valwood</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas / Fort Worth</controllingFieldValue>
+            <valueName>South Fort Worth Industrial Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dallas / Fort Worth</controllingFieldValue>
+            <valueName>South Stemmons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denver</controllingFieldValue>
+            <valueName>Aurora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denver</controllingFieldValue>
+            <valueName>Central Denver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denver</controllingFieldValue>
+            <valueName>Denver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denver</controllingFieldValue>
+            <valueName>SE Denver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Detroit</controllingFieldValue>
+            <valueName>Ann Arbor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Detroit</controllingFieldValue>
+            <valueName>Middleville</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Detroit</controllingFieldValue>
+            <valueName>Novi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Detroit</controllingFieldValue>
+            <valueName>Shelby Township</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Detroit</controllingFieldValue>
+            <valueName>Troy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Bordeaux</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Lille</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Lyon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Marseille</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Paris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Strasbourg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Toulouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft. Lauderdale</controllingFieldValue>
+            <valueName>Broward</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft. Lauderdale</controllingFieldValue>
+            <valueName>Central Florida - Ft Pierce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft. Lauderdale</controllingFieldValue>
+            <valueName>Doral Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft. Lauderdale</controllingFieldValue>
+            <valueName>Fort Lauderdale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft. Lauderdale</controllingFieldValue>
+            <valueName>South Broward</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft. Lauderdale</controllingFieldValue>
+            <valueName>South Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Airport/I-20W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Atlanta - NE Submarket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Atlanta - Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Columbia, SC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Columbus, GA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>East Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Forsyth County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Hamilton Mill Business Center - NE Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-20 W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-20 West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-20W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-20W/Fulton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-20W/NE Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-75 South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>I-85</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>NE Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>NE/North Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>North Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>North East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Northeast Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Northeast Submarket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Northeast/I-85</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Northwest &amp; I-20 West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>NW Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>Savannah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>South &amp; NE Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>South Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>South Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>SouthEast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>West Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>West Atlanta and Nashville</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Baltimore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Baltimore East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Baltimore/ Washington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Baltimore/Washington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>BWI/Marley Neck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Central Maryland and Northern Virginia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Elkridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Harford County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Route 1 Corridor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Route 1/BWI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Route 1/BWI Area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baltimore</controllingFieldValue>
+            <valueName>Washington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Barcelona</controllingFieldValue>
+            <valueName>La Bisbal del Penedes &amp; Alovera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boston</controllingFieldValue>
+            <valueName>Route 128 North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boston</controllingFieldValue>
+            <valueName>Springfield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Bremen, Bremerhaven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>East Hillsborough</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>East Tampa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>Groveland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>NW Orange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>Polk County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>SE Orange County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Florida</controllingFieldValue>
+            <valueName>Tampa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Valley</controllingFieldValue>
+            <valueName>San Francisco &amp; Oakland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Valley</controllingFieldValue>
+            <valueName>San Francisco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>Charlotte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>Duncan South Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>Durham</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>Monroe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>North Charlotte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>South Charlotte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charlotte</controllingFieldValue>
+            <valueName>SW Charlotte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Central DuPage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Dupage County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>I-55</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>I-80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>I-88</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>I-90 Corridor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Kane</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Lake County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Metro Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>North Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>O&#39;Hare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Salt Lake City, Utah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>South Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Southeast WI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>SW Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>West Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>Wisconsin</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

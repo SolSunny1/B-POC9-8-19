@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Compliance Rejected</name>
+    <style>freeForm</style>
+    <subject>Compliance has been Rejected</subject>
+    <textOnly>The Compliance {!Compliance__c.Link} for account {!Compliance__c.Prospect_Name__c}, has been Rejected.
+
+Reason: {!ApprovalRequest.Comments}
+
+Compliance Link: {!Compliance__c.Link}
+CRM: {!Compliance__c.CRM_Primary__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

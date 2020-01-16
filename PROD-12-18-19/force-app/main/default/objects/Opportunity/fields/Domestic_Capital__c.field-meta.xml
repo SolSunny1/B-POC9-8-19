@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domestic_Capital__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Yes = Capital that will be a Domestic investment . 
+No = capital that will be a Foreign investment. 
+To be Determined can be selected if answer is unknown. This will also be the default selection.</inlineHelpText>
+    <label>Domestic Capital</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>To be Determined</fullName>
+                <default>false</default>
+                <label>To be Determined</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

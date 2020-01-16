@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Currently allocated to the space? If so, to whom? --></help>
+    <label><!-- Currently allocated to whom? --></label>
+    <name>Currently_allocated_to_whom__c</name>
+</CustomFieldTranslation>

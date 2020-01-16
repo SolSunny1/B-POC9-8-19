@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MMD</fullName>
+    <active>true</active>
+    <description>MMD Source Data</description>
+    <label>MMD</label>
+    <picklistValues>
+        <picklist>Currently_Investing_in_Infra__c</picklist>
+        <values>
+            <fullName>Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Longer Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Currently_Investing_in_PD__c</picklist>
+        <values>
+            <fullName>Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Longer Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Currently_Investing_in_PE__c</picklist>
+        <values>
+            <fullName>Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Longer Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Currently_Investing_in_RE__c</picklist>
+        <values>
+            <fullName>Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Longer Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

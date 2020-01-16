@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Ownership based on Current Commitment USD. --></help>
+    <label><!-- Ownership % (based on Current) --></label>
+    <name>Ownership_of_each_fund__c</name>
+</CustomFieldTranslation>

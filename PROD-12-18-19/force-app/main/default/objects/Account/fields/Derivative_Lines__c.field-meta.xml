@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Derivative_Lines__c</fullName>
+    <description>BAM Finance</description>
+    <externalId>false</externalId>
+    <label>Derivative Lines</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BAM</fullName>
+                <default>false</default>
+                <label>BAM</label>
+            </value>
+            <value>
+                <fullName>BPY</fullName>
+                <default>false</default>
+                <label>BPY</label>
+            </value>
+            <value>
+                <fullName>BOP</fullName>
+                <default>false</default>
+                <label>BOP</label>
+            </value>
+            <value>
+                <fullName>BSREP 1</fullName>
+                <default>false</default>
+                <label>BSREP 1</label>
+            </value>
+            <value>
+                <fullName>BSREP 2</fullName>
+                <default>false</default>
+                <label>BSREP 2</label>
+            </value>
+            <value>
+                <fullName>BSREP 3</fullName>
+                <default>false</default>
+                <label>BSREP 3</label>
+            </value>
+            <value>
+                <fullName>BREF 4</fullName>
+                <default>false</default>
+                <label>BREF 4</label>
+            </value>
+            <value>
+                <fullName>BRE5</fullName>
+                <default>false</default>
+                <label>BRE5</label>
+            </value>
+            <value>
+                <fullName>BIP</fullName>
+                <default>false</default>
+                <label>BIP</label>
+            </value>
+            <value>
+                <fullName>BIF 1</fullName>
+                <default>false</default>
+                <label>BIF 1</label>
+            </value>
+            <value>
+                <fullName>BIF 2</fullName>
+                <default>false</default>
+                <label>BIF 2</label>
+            </value>
+            <value>
+                <fullName>BIF 3</fullName>
+                <default>false</default>
+                <label>BIF 3</label>
+            </value>
+            <value>
+                <fullName>BEP</fullName>
+                <default>false</default>
+                <label>BEP</label>
+            </value>
+            <value>
+                <fullName>BBU</fullName>
+                <default>false</default>
+                <label>BBU</label>
+            </value>
+            <value>
+                <fullName>BCP 2</fullName>
+                <default>false</default>
+                <label>BCP 2</label>
+            </value>
+            <value>
+                <fullName>BCP 3</fullName>
+                <default>false</default>
+                <label>BCP 3</label>
+            </value>
+            <value>
+                <fullName>BCP 4</fullName>
+                <default>false</default>
+                <label>BCP 4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

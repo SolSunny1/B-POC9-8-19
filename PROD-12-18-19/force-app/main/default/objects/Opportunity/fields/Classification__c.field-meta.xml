@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Classification__c</fullName>
+    <description>The type of investment first, re-up series, re-up platform, crossover, direct, co-invest, top up</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of investment first, re-up series, re-up platform, crossover, direct, co-invest, top up</inlineHelpText>
+    <label>Opportunity Origin</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>First</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Re-Up Series</fullName>
+                <default>false</default>
+                <label>Re-Up</label>
+            </value>
+            <value>
+                <fullName>Crossover</fullName>
+                <default>false</default>
+                <label>Crossover</label>
+            </value>
+            <value>
+                <fullName>Co-Invest</fullName>
+                <default>false</default>
+                <label>Co-Invest</label>
+            </value>
+            <value>
+                <fullName>Joint Venture</fullName>
+                <default>false</default>
+                <label>Joint Venture</label>
+            </value>
+            <value>
+                <fullName>Separate Accounts</fullName>
+                <default>false</default>
+                <label>Separate Accounts</label>
+            </value>
+            <value>
+                <fullName>Sale of Asset</fullName>
+                <default>false</default>
+                <label>Sale of Asset</label>
+            </value>
+            <value>
+                <fullName>General Overview</fullName>
+                <default>false</default>
+                <label>General Overview</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Re-Up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Re-Up</label>
+            </value>
+            <value>
+                <fullName>Re-Up Platform</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Re-Up Platform</label>
+            </value>
+            <value>
+                <fullName>Top up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top up</label>
+            </value>
+            <value>
+                <fullName>Top-up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Top-up</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

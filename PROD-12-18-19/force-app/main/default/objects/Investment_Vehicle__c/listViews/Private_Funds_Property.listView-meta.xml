@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Private_Funds_Property</fullName>
+    <columns>NAME</columns>
+    <columns>Long_Name__c</columns>
+    <columns>Vehicle_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Platform__c</columns>
+    <columns>Vintage_Year__c</columns>
+    <columns>Historical_Commitment_US__c</columns>
+    <columns>Current_Commitments_USD__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>In_Marketing__c</columns>
+    <columns>Sponsors__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Platform__c</field>
+        <operation>equals</operation>
+        <value>Property</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investment_Vehicle__c.Fund_Internal</value>
+    </filters>
+    <label>Private Funds - Property</label>
+</ListView>

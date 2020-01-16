@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Add_Commitment_Opportunity_Classic</fullName>
+    <availability>online</availability>
+    <description>BF-27: Custom New PFG Opportunity button to default the record type and close date</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Add Commitment Opportunity</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/006/e?RecordType=01240000000MHID&amp;opp9=1/1/2099&amp;CF00N33000003Bsap={!Investment_Vehicle__c.Name}&amp;CF00N33000003Bsap_lkid={!Investment_Vehicle__c.Id}&amp;opp3=Will+Auto+Populate+On+Save</url>
+</WebLink>

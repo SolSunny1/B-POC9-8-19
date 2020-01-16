@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Mailers the Contact will receive --></help>
+    <label><!-- Marketing List --></label>
+    <name>PFG_Marketing_List__c</name>
+    <picklistValues>
+        <masterLabel>Agriculture</masterLabel>
+        <translation><!-- Agriculture --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit</masterLabel>
+        <translation><!-- Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debt</masterLabel>
+        <translation><!-- Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General</masterLabel>
+        <translation><!-- General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holiday Card</masterLabel>
+        <translation><!-- Holiday Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Equity</masterLabel>
+        <translation><!-- Private Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate</masterLabel>
+        <translation><!-- Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewable Energy</masterLabel>
+        <translation><!-- Renewable Energy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timber</masterLabel>
+        <translation><!-- Timber --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

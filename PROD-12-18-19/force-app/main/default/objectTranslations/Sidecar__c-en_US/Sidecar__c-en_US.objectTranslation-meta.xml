@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sidecar</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sidecars</value>
+    </caseValues>
+    <layouts>
+        <layout>Side Car Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Side Car cannot be larger than 25% of the total commitment. --></errorMessage>
+        <name>Cannot_exceed_25_Percent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Parent Opportunity must be at least $100M to qualify for a side car. Cancel Side Car creation and update the parent Opportunity. --></errorMessage>
+        <name>Opportunity_must_be_100M</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Side Car value must be less than Parent Opportunity. --></errorMessage>
+        <name>Side_Car_Cannot_Exceed_Parent_Opp</name>
+    </validationRules>
+</CustomObjectTranslation>

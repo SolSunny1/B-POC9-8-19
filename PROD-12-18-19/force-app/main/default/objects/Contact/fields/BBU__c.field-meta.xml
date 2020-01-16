@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BBU__c</fullName>
+    <description>Brookfield Business Partners</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Brookfield Business Partners</inlineHelpText>
+    <label>BBU</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Buy Side</fullName>
+                <default>false</default>
+                <label>Buy Side</label>
+            </value>
+            <value>
+                <fullName>Sell Side</fullName>
+                <default>false</default>
+                <label>Sell Side</label>
+            </value>
+            <value>
+                <fullName>Rating Agency</fullName>
+                <default>false</default>
+                <label>Rating Agency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check box to identify whether the Opportunity is a top-up investor</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check box to identify whether the Opportunity is a top-up investor</inlineHelpText>
+    <label>Top-up</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

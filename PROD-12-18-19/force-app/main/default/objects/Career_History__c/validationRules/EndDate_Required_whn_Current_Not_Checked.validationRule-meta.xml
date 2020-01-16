@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EndDate_Required_whn_Current_Not_Checked</fullName>
+    <active>true</active>
+    <description>When Current field is not checked end date is required.</description>
+    <errorConditionFormula>AND(  Current__c = False , ISNULL(EndDate__c)
+)</errorConditionFormula>
+    <errorDisplayField>EndDate__c</errorDisplayField>
+    <errorMessage>End Date is required when Current field is not checked.</errorMessage>
+</ValidationRule>

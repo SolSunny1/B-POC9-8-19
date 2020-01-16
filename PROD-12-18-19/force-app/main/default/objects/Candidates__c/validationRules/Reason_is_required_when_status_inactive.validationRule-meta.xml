@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_is_required_when_status_inactive</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+     Status__c = &quot;Not Active&quot;, 
+     ISBLANK( InactiveReason__c ), 
+    OR( 
+       RecordType.DeveloperName  &lt;&gt;  &#39;Manager&#39;, 
+       RecordType.DeveloperName  &lt;&gt;  &#39;Analyst&#39;
+    )
+)</errorConditionFormula>
+    <errorDisplayField>InactiveReason__c</errorDisplayField>
+    <errorMessage>Inactive Reason is required when candidate is not active.</errorMessage>
+</ValidationRule>

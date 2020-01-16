@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Note</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Private Note</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/002/e?parent_id={!Account.Id}&amp;retURL=%2F{!Account.Id}&amp;IsPrivate=1</url>
+</WebLink>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the quality of the relationship</inlineHelpText>
+    <label>Quality</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Excellent</fullName>
+                <default>false</default>
+                <label>Excellent</label>
+            </value>
+            <value>
+                <fullName>Adequate</fullName>
+                <default>false</default>
+                <label>Adequate</label>
+            </value>
+            <value>
+                <fullName>Needs Improvement</fullName>
+                <default>false</default>
+                <label>Needs Improvement</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

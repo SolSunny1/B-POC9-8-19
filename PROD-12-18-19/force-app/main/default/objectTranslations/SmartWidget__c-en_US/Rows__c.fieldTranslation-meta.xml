@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The number of rows to display on a text area type widget. Must be a whole number between 1 and 999. This value has no impact on other types of widgets. --></help>
+    <label><!-- Rows --></label>
+    <name>Rows__c</name>
+</CustomFieldTranslation>

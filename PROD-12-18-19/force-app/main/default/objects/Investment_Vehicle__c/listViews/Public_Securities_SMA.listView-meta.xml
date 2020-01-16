@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Public_Securities_SMA</fullName>
+    <columns>NAME</columns>
+    <columns>Vehicle_Type__c</columns>
+    <columns>BIM_Strategy__c</columns>
+    <columns>Platform__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investment_Vehicle__c.Public_Securities</value>
+    </filters>
+    <filters>
+        <field>Vehicle_Type__c</field>
+        <operation>equals</operation>
+        <value>Separately Managed Account</value>
+    </filters>
+    <label>Public Securities - SMA</label>
+</ListView>

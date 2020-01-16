@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>New_Campaign</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Campaign</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/701/e?cpn1={!Investment_Vehicle__c.Name}&amp;cpn16=1&amp;CF00Ne0000001GYx8={!Investment_Vehicle__c.Name}&amp;CF00Ne0000001GYx8_lkid={!Investment_Vehicle__c.Id}</url>
+</WebLink>

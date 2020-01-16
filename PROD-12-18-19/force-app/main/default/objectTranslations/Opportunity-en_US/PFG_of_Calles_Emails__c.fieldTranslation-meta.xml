@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Configurable roll up to count the number of calls/emails on the Opportunity --></help>
+    <label><!-- PFG # of Calls/Emails All time --></label>
+    <name>PFG_of_Calles_Emails__c</name>
+</CustomFieldTranslation>

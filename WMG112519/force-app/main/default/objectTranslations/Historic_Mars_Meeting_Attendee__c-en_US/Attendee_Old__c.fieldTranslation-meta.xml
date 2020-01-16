@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- AttendeeOld --></label>
+    <name>Attendee_Old__c</name>
+    <relationshipLabel><!-- Historic Mars Meeting Attendees --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Sleeve</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL(Room_Type__c ,&quot;Sleeve&quot;),ISBLANK ( Sleeve__c  ))</errorConditionFormula>
+    <errorDisplayField>Sleeve__c</errorDisplayField>
+    <errorMessage>You must choose a specific Sleeve to create a Sleeve Specific room.</errorMessage>
+</ValidationRule>

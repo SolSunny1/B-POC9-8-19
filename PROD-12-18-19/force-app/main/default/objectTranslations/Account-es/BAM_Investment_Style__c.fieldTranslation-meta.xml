@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BAM Investment Style --></label>
+    <name>BAM_Investment_Style__c</name>
+    <picklistValues>
+        <masterLabel>Growth</masterLabel>
+        <translation><!-- Growth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hedge</masterLabel>
+        <translation><!-- Hedge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Income Yield</masterLabel>
+        <translation><!-- Income Yield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Momentum</masterLabel>
+        <translation><!-- Momentum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value</masterLabel>
+        <translation><!-- Value --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yield</masterLabel>
+        <translation><!-- Yield --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

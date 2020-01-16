@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- PFG last email/call date roll up field --></help>
+    <label><!-- PFG Latest or Upcoming Activity Date --></label>
+    <name>PFG_Latest_or_Upcoming_Activity_Date__c</name>
+</CustomFieldTranslation>

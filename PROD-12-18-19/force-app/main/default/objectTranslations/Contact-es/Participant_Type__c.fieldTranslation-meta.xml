@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use this field for integration with CVENT.
+Will help update the Registration Type CVENT (formula field) before importing into CVENT --></help>
+    <label><!-- Fund Meetings CVENT TEXT --></label>
+    <name>Participant_Type__c</name>
+</CustomFieldTranslation>

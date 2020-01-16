@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_Account_Type__c</fullName>
+    <description>The relationship type of for BRP</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Selection details:
+Aggregation (non-public power) = Community Choice Aggregations
+MUSH = Municipalities (building load), universities, schools, hospitals
+Public Power for Government, Municipal Utilities, Co-ops
+Trading and Marketing= FI,IPPs,Wholesale</inlineHelpText>
+    <label>BRP Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advisor/Consultant</fullName>
+                <default>false</default>
+                <label>Advisor/Broker/Consultant</label>
+            </value>
+            <value>
+                <fullName>Aggregation (non-public power)</fullName>
+                <default>false</default>
+                <label>Aggregation (non-public power)</label>
+            </value>
+            <value>
+                <fullName>Corporate Buyer</fullName>
+                <default>false</default>
+                <label>C&amp;I Buyer</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>Financials and Insurance</fullName>
+                <default>false</default>
+                <label>Financials and Insurance</label>
+            </value>
+            <value>
+                <fullName>MUSH</fullName>
+                <default>false</default>
+                <label>MUSH</label>
+            </value>
+            <value>
+                <fullName>Public Power</fullName>
+                <default>false</default>
+                <label>Public Power</label>
+            </value>
+            <value>
+                <fullName>Renewable Energy Supplier / Owner</fullName>
+                <default>false</default>
+                <label>Renewable Energy Supplier / Owner</label>
+            </value>
+            <value>
+                <fullName>RetailService Provider</fullName>
+                <default>false</default>
+                <label>Retail Supplier</label>
+            </value>
+            <value>
+                <fullName>Trading and Marketing</fullName>
+                <default>false</default>
+                <label>Trading and Marketing</label>
+            </value>
+            <value>
+                <fullName>Utility: Regulated</fullName>
+                <default>false</default>
+                <label>Utility: Regulated</label>
+            </value>
+            <value>
+                <fullName>Utility: Unregulated</fullName>
+                <default>false</default>
+                <label>Utility: Unregulated</label>
+            </value>
+            <value>
+                <fullName>Aggregator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aggregator</label>
+            </value>
+            <value>
+                <fullName>Broker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Broker</label>
+            </value>
+            <value>
+                <fullName>Business Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Business Development</label>
+            </value>
+            <value>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Buyer</label>
+            </value>
+            <value>
+                <fullName>Conference Organizer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Conference Organizer</label>
+            </value>
+            <value>
+                <fullName>Generation Management Partner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Generation Management Partner</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Higher Education</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Higher Education</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Intermediary/Broker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Intermediary/Broker</label>
+            </value>
+            <value>
+                <fullName>Lobbyist/Energy Policy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lobbyist/Energy Policy</label>
+            </value>
+            <value>
+                <fullName>Market Maker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Market Maker</label>
+            </value>
+            <value>
+                <fullName>Municipality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Municipality</label>
+            </value>
+            <value>
+                <fullName>Regional Transmission Organization (RTO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regional Transmission Organization (RTO)</label>
+            </value>
+            <value>
+                <fullName>Regulator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regulator</label>
+            </value>
+            <value>
+                <fullName>Stakeholder</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stakeholder</label>
+            </value>
+            <value>
+                <fullName>Utility</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Utility</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

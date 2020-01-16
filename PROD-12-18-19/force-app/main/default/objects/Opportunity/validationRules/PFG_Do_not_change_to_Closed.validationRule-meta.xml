@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Do_not_change_to_Closed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+(ISCHANGED( StageName )|| ISNEW()), 
+ISPICKVAL(StageName, &quot;8: Closed&quot;), 
+NOT($Profile.Name = &#39;System Administrator&#39;), 
+NOT($Profile.Name = &#39;System Administrator_PFG&#39;), 
+NOT($Profile.Name = &#39;System Administrator PFG Lead&#39;))</errorConditionFormula>
+    <errorMessage>Please move to 7 - Approved stage; only the PFG Salesforce team can close Opportunities.</errorMessage>
+</ValidationRule>

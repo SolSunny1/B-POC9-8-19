@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Co_Invest_Status__c</fullName>
+    <description>Roll up for Priority Co-Investor Status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up for Priority Co-Investor Status</inlineHelpText>
+    <label>PFG Co-Invest Status</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Edit_in_Excel</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Edit Tracker in Excel</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Apttus_XApps__EditInExcelLaunch?parentRecordId={!Investment_Vehicle__c.Id}&amp;&quot;&amp;appName=PMT Tracker to Edit&quot;</url>
+</WebLink>

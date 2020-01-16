@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Details if nvestor rates, fees, timing etc are different from the standard ones --></help>
+    <label><!-- Fee - Comments (Investor Position) --></label>
+    <name>Fee_Comments_Investor_Position__c</name>
+</CustomFieldTranslation>

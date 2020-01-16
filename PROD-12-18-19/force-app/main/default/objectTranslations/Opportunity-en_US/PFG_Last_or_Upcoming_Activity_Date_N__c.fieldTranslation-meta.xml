@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- PFG last or upcoming meeting/call/email date --></help>
+    <label><!-- PFG Last or Upcoming Activity Date N --></label>
+    <name>PFG_Last_or_Upcoming_Activity_Date_N__c</name>
+</CustomFieldTranslation>

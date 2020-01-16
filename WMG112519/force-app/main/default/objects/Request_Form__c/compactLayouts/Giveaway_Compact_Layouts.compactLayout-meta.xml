@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Giveaway_Compact_Layouts</fullName>
+    <fields>Name</fields>
+    <fields>Required_Delivery_Date__c</fields>
+    <fields>Company_or_Name__c</fields>
+    <fields>Contact__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Giveaway_Total_Cost__c</fields>
+    <label>Giveaway Compact Layouts</label>
+</CompactLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIF_Relationship_Importance__c</fullName>
+    <description>Managing the relationships with investors based on Tiers by relationship needs (need to create a field for this in SF):
+Tier 1 – strategic – will do co-invests or over $100M – focus on visiting them frequently
+Goal: 1 meeting and 1-2 interaction and/or 1 interaction with assigned key Investment Professional – per year
+Tier 2 – high – geography based, either in the same city as a Tier 1 or if it makes sense for a roadshow (ie clustered investors in a group)
+Goal: 1 interaction per 18 months
+Tier 3 – Low – doesn’t need to have a relationship with the investment professionals.  IR team can be the key relationship holders</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For the BIF Team to help prioritize their investors:
+1 – Strategic: will do co-invests or over $100M 
+2 – High: geography based, either in the same city as a Tier 1 or if it makes sense for a roadshow
+3 – Low: IR team can manage the relationship</inlineHelpText>
+    <label>BIF Relationship Importance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

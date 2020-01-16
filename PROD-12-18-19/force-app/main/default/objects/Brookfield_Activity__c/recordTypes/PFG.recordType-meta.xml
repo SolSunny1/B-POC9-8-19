@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG</fullName>
+    <active>true</active>
+    <description>Created by PFG, visible to PSG</description>
+    <label>PFG</label>
+    <picklistValues>
+        <picklist>Interaction_Type__c</picklist>
+        <values>
+            <fullName>Call with Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call without Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund Introduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting with Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting without Investment Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Tour</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

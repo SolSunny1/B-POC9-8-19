@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Share_Class</fullName>
+    <active>true</active>
+    <label>Share Class</label>
+    <picklistValues>
+        <picklist>Share_Class__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Z</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Short_Name__c</picklist>
+        <values>
+            <fullName>Cap Inn Glob Agri%2C Timber%2C Infra Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cap Inn Glob Agri%2C Timber%2C Infra Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cap Inn Glob Agri%2C Timber%2C Infra Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Center Coast MLP Focus Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Center Coast MLP Focus Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Center Coast MLP Focus Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chilton Realty Income %26 Growth Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chilton Realty Income %26 Growth Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gottex Endowment Strategy Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gottex Endowment Strategy Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horizon Spin Off %26 Corp Rest Fnd Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horizon Spin Off %26 Corp Rest Fnd Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Horizon Spin Off %26 Corp Restruc Fnd INST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Alt Income Fund No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Alternative Income Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Alternative Income Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Alternative Income Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Internet Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Internet Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Internet Fund No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Market Opp Fund No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Medical Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Medical Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Medical Fund No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Mrkt Opportunities Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Mrkt Opportunities Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Mrkt Opportunities Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Multi-Disc Fund No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Multi-Disciplinary Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Multi-Disciplinary Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Multi-Disciplinary Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Paradigm Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Paradigm Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Paradigm Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Paradigm No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Small Cap Opp Fnd No Load Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Small Cap Opp%2E Fund Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Small Cap Opp%2E Fund Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetics Small Cap Opp%2E Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oberweis China Opportunities Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Core Bond Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Core Bond Fund Class Y</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Core Plus Bond Fund - Class Y</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Core Plus Bond Fund - Inst Class</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout International Fund ADR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Mid Cap Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Small Cap Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Unconstrained Bond Fund Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scout Unconstrained Bond Fund Class Y</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOROSO Newfound Tactical Alloc%2E Class A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOROSO Newfound Tactical Alloc%2E Class C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOROSO Newfound Tactical Alloc%2E Class I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Loop Realty Income %26 Growth Fund</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

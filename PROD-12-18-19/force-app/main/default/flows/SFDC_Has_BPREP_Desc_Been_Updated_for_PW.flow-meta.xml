@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Meeting_Notes_Update_to_PFG_BPREP_PWM</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Send_Meeting_Notes_Update_to_PFG_BPREP_PWM</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Send_Meeting_Notes_Update_to_PFG_BPREP_PWM</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Meeting_Notes_Update_to_PFG_BCP_V_PWM</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_3_A1</name>
+        <label>Send Meeting notes to BCP V PWM</label>
+        <locationX>300</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Send_Meeting_Notes_Update_to_PFG_BCP_V_PWM</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Meeting_Notes_Update_to_PFG_BSIP_PWM</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_5_A1</name>
+        <label>Send Email Notes to BSIP PWM</label>
+        <locationX>500</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Send_Meeting_Notes_Update_to_PFG_BSIP_PWM</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Meeting_Notes_Update_to_BIF_IV_wealth</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_7_A1</name>
+        <label>Send Email alert to PWM PMT</label>
+        <locationX>700</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Send_Meeting_Notes_Update_to_BIF_IV_wealth</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Send_Meeting_Notes_Update_to_PFG_PWM_BOZ</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_9_A1</name>
+        <label>Send Meeting Notes to PFG PWM BOZ</label>
+        <locationX>900</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Send_Meeting_Notes_Update_to_PFG_PWM_BOZ</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Has BPREP Desc Been Updated for PW?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision2</name>
+        <label>myDecision2</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>Has BCP V Desc been updated for PW?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision4</name>
+        <label>myDecision4</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_5</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>Has BSIP Desc been updated for PW?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision6</name>
+        <label>myDecision6</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision8</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>Has BIF IV Desc been Updated for PW?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>4.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision8</name>
+        <label>myDecision8</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_9</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_9</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_9_A1</targetReference>
+            </connector>
+            <label>Has BOZ Desc been updated for PWM?</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND (
+NOT(ISBLANK( [Event].Opportunity__c )),
+ISNEW(),
+[Event].EndDateTime &lt; Now(),
+[Event].Opportunity__c.Investment_Vehicle__c.Name = &quot;BPREP&quot;,
+OR(
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Multi Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;UHNW&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Single Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;RIA / Wealth Manager&quot;)
+)
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>AND (
+NOT(ISBLANK( {!myVariable_current.Opportunity__c} )),
+ISNEW(),
+{!myVariable_current.EndDateTime} &lt; Now(),
+{!myVariable_current.Opportunity__r.Investment_Vehicle__r.Name} = &quot;BPREP&quot;,
+OR(
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Multi Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;UHNW&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Single Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;RIA / Wealth Manager&quot;)
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND (NOT(ISBLANK( [Event].Opportunity__c )),
+ISNEW(),
+[Event].EndDateTime &lt; Now(),
+[Event].Opportunity__c.Investment_Vehicle__c.Name = &quot;BCP V&quot;,
+OR(
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Multi Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;UHNW&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Single Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;RIA / Wealth Manager&quot;)
+)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c} )),
+ISNEW(),
+{!myVariable_current.EndDateTime} &lt; Now(),
+{!myVariable_current.Opportunity__r.Investment_Vehicle__r.Name} = &quot;BCP V&quot;,
+OR(
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Multi Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;UHNW&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Single Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;RIA / Wealth Manager&quot;)
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND (NOT(ISBLANK( [Event].Opportunity__c )),
+ISNEW(),
+[Event].EndDateTime &lt; Now(),
+[Event].Opportunity__c.Investment_Vehicle__c.Name = &quot;BSIP&quot;,
+OR(
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Multi Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;UHNW&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Single Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;RIA / Wealth Manager&quot;)
+)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_5</name>
+        <dataType>Boolean</dataType>
+        <expression>AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c} )),
+ISNEW(),
+{!myVariable_current.EndDateTime} &lt; Now(),
+{!myVariable_current.Opportunity__r.Investment_Vehicle__r.Name} = &quot;BSIP&quot;,
+OR(
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Multi Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;UHNW&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Single Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;RIA / Wealth Manager&quot;)
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND (NOT(ISBLANK( [Event].Opportunity__c )),
+ISNEW(),
+[Event].EndDateTime &lt; Now(),
+[Event].Opportunity__c.Investment_Vehicle__c.Name = &quot;BIF IV&quot;,
+OR(
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Multi Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;UHNW&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Single Family Office&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL([Event].Opportunity__c.Account.Investor_Type__c , &quot;RIA / Wealth Manager&quot;)
+)
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7</name>
+        <dataType>Boolean</dataType>
+        <expression>AND (NOT(ISBLANK( {!myVariable_current.Opportunity__c} )),
+ISNEW(),
+{!myVariable_current.EndDateTime} &lt; Now(),
+{!myVariable_current.Opportunity__r.Investment_Vehicle__r.Name} = &quot;BIF IV&quot;,
+OR(
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Multi Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;UHNW&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Single Family Office&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;Private Bank / Wirehouse&quot;),
+ISPICKVAL({!myVariable_current.Opportunity__r.Account.Investor_Type__c} , &quot;RIA / Wealth Manager&quot;)
+)
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>AND(
+NOT(ISBLANK( [Event].Opportunity__c   )),
+
+ISNEW(), 
+
+[Event].EndDateTime &lt; Now() ,
+
+[Event].Opportunity__c.Investment_Vehicle__c.Name = &quot;BOZ&quot;)
+
+
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_9</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+NOT(ISBLANK( {!myVariable_current.Opportunity__c}   )),
+
+ISNEW(), 
+
+{!myVariable_current.EndDateTime} &lt; Now() ,
+
+{!myVariable_current.Opportunity__r.Investment_Vehicle__r.Name} = &quot;BOZ&quot;)</expression>
+    </formulas>
+    <interviewLabel>SFDC_Has_BPREP_Desc_Been_Updated_for_PW-4_InterviewLabel</interviewLabel>
+    <label>SFDC Has BPREP Desc Been Updated for PW?</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Event</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myDecision</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Event</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Event</objectType>
+    </variables>
+</Flow>

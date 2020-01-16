@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- New Salesforce Licence assignment date --></help>
+    <label><!-- User Assignment Date --></label>
+    <name>User_Assignment_Date__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Shows a text representation of the value entered (across all types) - there may be some slight differences in format compared to the actual value. --></help>
+    <label><!-- Value_OLD --></label>
+    <name>Value_OLD__c</name>
+</CustomFieldTranslation>

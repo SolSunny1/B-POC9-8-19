@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Products --></label>
+    <name>Products__c</name>
+    <picklistValues>
+        <masterLabel>Atlantis China Fund MF</masterLabel>
+        <translation><!-- Atlantis China Fund MF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlantis China Fund SMA</masterLabel>
+        <translation><!-- Atlantis China Fund SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlantis China Healthcare Fund MF</masterLabel>
+        <translation><!-- Atlantis China Healthcare Fund MF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Atlantis China Healthcare Fund SMA</masterLabel>
+        <translation><!-- Atlantis China Healthcare Fund SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Innovations Glbl Agri, Timber, A</masterLabel>
+        <translation><!-- Capital Innovations Glbl Agri, Timber, A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Innovations Glbl Agri, Timber, C</masterLabel>
+        <translation><!-- Capital Innovations Glbl Agri, Timber, C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Innovations Glbl Agri, Timber, I</masterLabel>
+        <translation><!-- Capital Innovations Glbl Agri, Timber, I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast Capital MLP SMA</masterLabel>
+        <translation><!-- Center Coast Capital MLP SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP &amp; Infrastructure Fund</masterLabel>
+        <translation><!-- Center Coast MLP &amp; Infrastructure Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Collective Fund</masterLabel>
+        <translation><!-- Center Coast MLP Collective Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Focus Fund A</masterLabel>
+        <translation><!-- Center Coast MLP Focus Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Focus Fund C</masterLabel>
+        <translation><!-- Center Coast MLP Focus Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Focus Fund I</masterLabel>
+        <translation><!-- Center Coast MLP Focus Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chilton Realty Income Growth Fund A</masterLabel>
+        <translation><!-- Chilton Realty Income Growth Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chilton Realty Income Growth Fund C</masterLabel>
+        <translation><!-- Chilton Realty Income Growth Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chilton Realty Income Growth Fund I</masterLabel>
+        <translation><!-- Chilton Realty Income Growth Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gottex Endowment Strategy Fund A</masterLabel>
+        <translation><!-- Gottex Endowment Strategy Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gottex Endowment Strategy Fund I</masterLabel>
+        <translation><!-- Gottex Endowment Strategy Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gottex Multi Asset Endowment Fund</masterLabel>
+        <translation><!-- Gottex Multi Asset Endowment Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Core Value SMA</masterLabel>
+        <translation><!-- Horizon Core Value SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon High Yield Opportunity SMA</masterLabel>
+        <translation><!-- Horizon High Yield Opportunity SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Research SMA</masterLabel>
+        <translation><!-- Horizon Research SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Spinoff Fund A</masterLabel>
+        <translation><!-- Horizon Spinoff Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Spinoff Fund C</masterLabel>
+        <translation><!-- Horizon Spinoff Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Spinoff Fund I</masterLabel>
+        <translation><!-- Horizon Spinoff Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund A</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund C</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund I</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund NL</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund NL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Global Fund C</masterLabel>
+        <translation><!-- Kinetics Global Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Market Opportunities Fund A</masterLabel>
+        <translation><!-- Kinetics Market Opportunities Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Medical Fund A</masterLabel>
+        <translation><!-- Kinetics Medical Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund A</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund C</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund I</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund No Load</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund No Load --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund A</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund C</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund I</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund No Load</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund No Load --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opportunites Fund A</masterLabel>
+        <translation><!-- Kinetics Small Cap Opportunites Fund A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opportunities F-NL</masterLabel>
+        <translation><!-- Kinetics Small Cap Opportunities F-NL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opportunities Fund C</masterLabel>
+        <translation><!-- Kinetics Small Cap Opportunities Fund C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opportunities Fund I</masterLabel>
+        <translation><!-- Kinetics Small Cap Opportunities Fund I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kotak India Focus Fund</masterLabel>
+        <translation><!-- Kotak India Focus Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kotak India Fund of Funds MF</masterLabel>
+        <translation><!-- Kotak India Fund of Funds MF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kotak India Mid Cap Fund MF</masterLabel>
+        <translation><!-- Kotak India Mid Cap Fund MF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kotak K-30 Fund MF</masterLabel>
+        <translation><!-- Kotak K-30 Fund MF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oberweis China Opportunities Fund</masterLabel>
+        <translation><!-- Oberweis China Opportunities Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ramius Dynamic Replication A</masterLabel>
+        <translation><!-- Ramius Dynamic Replication A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ramius Dynamic Replication I</masterLabel>
+        <translation><!-- Ramius Dynamic Replication I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ramius Trading Strategies Managed F-A</masterLabel>
+        <translation><!-- Ramius Trading Strategies Managed F-A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ramius Trading Strategies Managed F-I</masterLabel>
+        <translation><!-- Ramius Trading Strategies Managed F-I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Bond Fund - Class I</masterLabel>
+        <translation><!-- Scout Core Bond Fund - Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Bond Fund - Class Y</masterLabel>
+        <translation><!-- Scout Core Bond Fund - Class Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Plus Bond Fund - Class I</masterLabel>
+        <translation><!-- Scout Core Plus Bond Fund - Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Plus Bond Fund - Class Y</masterLabel>
+        <translation><!-- Scout Core Plus Bond Fund - Class Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Global Equity Fund</masterLabel>
+        <translation><!-- Scout Global Equity Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Int&#39;l ADR SMA</masterLabel>
+        <translation><!-- Scout Int&apos;l ADR SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Int&#39;l Discovery ADR SMA</masterLabel>
+        <translation><!-- Scout Int&apos;l Discovery ADR SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout International Discovery Fund</masterLabel>
+        <translation><!-- Scout International Discovery Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout International Fund</masterLabel>
+        <translation><!-- Scout International Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Mid Cap Fund</masterLabel>
+        <translation><!-- Scout Mid Cap Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Small Cap Fund</masterLabel>
+        <translation><!-- Scout Small Cap Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Unconstrained Bond Fund</masterLabel>
+        <translation><!-- Scout Unconstrained Bond Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Unconstrained Bond Fund - Class Y</masterLabel>
+        <translation><!-- Scout Unconstrained Bond Fund - Class Y --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

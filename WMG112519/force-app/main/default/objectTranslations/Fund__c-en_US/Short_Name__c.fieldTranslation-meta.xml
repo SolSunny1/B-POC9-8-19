@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Short Name --></label>
+    <name>Short_Name__c</name>
+    <picklistValues>
+        <masterLabel>Cap Inn Glob Agri, Timber, Infra Class A</masterLabel>
+        <translation><!-- Cap Inn Glob Agri, Timber, Infra Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap Inn Glob Agri, Timber, Infra Class C</masterLabel>
+        <translation><!-- Cap Inn Glob Agri, Timber, Infra Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap Inn Glob Agri, Timber, Infra Class I</masterLabel>
+        <translation><!-- Cap Inn Glob Agri, Timber, Infra Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap Inn Global Agri Timber Infra</masterLabel>
+        <translation><!-- Cap Inn Global Agri Timber Infra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Focus Fund</masterLabel>
+        <translation><!-- Center Coast MLP Focus Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Focus Fund Class C</masterLabel>
+        <translation><!-- Center Coast MLP Focus Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast MLP Focus Fund Class I</masterLabel>
+        <translation><!-- Center Coast MLP Focus Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chilton Realty Income &amp; Growth Class A</masterLabel>
+        <translation><!-- Chilton Realty Income &amp; Growth Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chilton Realty Income &amp; Growth Class C</masterLabel>
+        <translation><!-- Chilton Realty Income &amp; Growth Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gottex Endowment Strategy Class A</masterLabel>
+        <translation><!-- Gottex Endowment Strategy Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gottex Endowment Strategy Class I</masterLabel>
+        <translation><!-- Gottex Endowment Strategy Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Spin Off &amp; Corp Rest Fnd Class A</masterLabel>
+        <translation><!-- Horizon Spin Off &amp; Corp Rest Fnd Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Spin Off &amp; Corp Rest Fnd Class C</masterLabel>
+        <translation><!-- Horizon Spin Off &amp; Corp Rest Fnd Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Horizon Spin Off &amp; Corp Restruc Fnd INST</masterLabel>
+        <translation><!-- Horizon Spin Off &amp; Corp Restruc Fnd INST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alt Income Fund No Load Class</masterLabel>
+        <translation><!-- Kinetics Alt Income Fund No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund Class A</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund Class C</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Alternative Income Fund Class I</masterLabel>
+        <translation><!-- Kinetics Alternative Income Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Internet Fund Class A</masterLabel>
+        <translation><!-- Kinetics Internet Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Internet Fund Class C</masterLabel>
+        <translation><!-- Kinetics Internet Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Internet Fund No Load Class</masterLabel>
+        <translation><!-- Kinetics Internet Fund No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Market Opp Fund No Load Class</masterLabel>
+        <translation><!-- Kinetics Market Opp Fund No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Medical Fund Class A</masterLabel>
+        <translation><!-- Kinetics Medical Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Medical Fund Class C</masterLabel>
+        <translation><!-- Kinetics Medical Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Medical Fund No Load Class</masterLabel>
+        <translation><!-- Kinetics Medical Fund No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Mrkt Opportunities Fund Class A</masterLabel>
+        <translation><!-- Kinetics Mrkt Opportunities Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Mrkt Opportunities Fund Class C</masterLabel>
+        <translation><!-- Kinetics Mrkt Opportunities Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Mrkt Opportunities Fund Class I</masterLabel>
+        <translation><!-- Kinetics Mrkt Opportunities Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disc Fund No Load Class</masterLabel>
+        <translation><!-- Kinetics Multi-Disc Fund No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund Class A</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund Class C</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Multi-Disciplinary Fund Class I</masterLabel>
+        <translation><!-- Kinetics Multi-Disciplinary Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund Class A</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund Class C</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm Fund Class I</masterLabel>
+        <translation><!-- Kinetics Paradigm Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Paradigm No Load Class</masterLabel>
+        <translation><!-- Kinetics Paradigm No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opp Fnd No Load Class</masterLabel>
+        <translation><!-- Kinetics Small Cap Opp Fnd No Load Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opp. Fund Class A</masterLabel>
+        <translation><!-- Kinetics Small Cap Opp. Fund Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opp. Fund Class C</masterLabel>
+        <translation><!-- Kinetics Small Cap Opp. Fund Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinetics Small Cap Opp. Fund Class I</masterLabel>
+        <translation><!-- Kinetics Small Cap Opp. Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oberweis China Opportunities Fund</masterLabel>
+        <translation><!-- Oberweis China Opportunities Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Bond Fund Class I</masterLabel>
+        <translation><!-- Scout Core Bond Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Bond Fund Class Y</masterLabel>
+        <translation><!-- Scout Core Bond Fund Class Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Plus Bond Fund - Class Y</masterLabel>
+        <translation><!-- Scout Core Plus Bond Fund - Class Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Core Plus Bond Fund - Inst Class</masterLabel>
+        <translation><!-- Scout Core Plus Bond Fund - Inst Class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout International Fund ADR</masterLabel>
+        <translation><!-- Scout International Fund ADR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Mid Cap Fund</masterLabel>
+        <translation><!-- Scout Mid Cap Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Small Cap Fund</masterLabel>
+        <translation><!-- Scout Small Cap Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Unconstrained Bond Fund Class I</masterLabel>
+        <translation><!-- Scout Unconstrained Bond Fund Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scout Unconstrained Bond Fund Class Y</masterLabel>
+        <translation><!-- Scout Unconstrained Bond Fund Class Y --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOROSO Newfound Tactical Alloc. Class A</masterLabel>
+        <translation><!-- TOROSO Newfound Tactical Alloc. Class A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOROSO Newfound Tactical Alloc. Class C</masterLabel>
+        <translation><!-- TOROSO Newfound Tactical Alloc. Class C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TOROSO Newfound Tactical Alloc. Class I</masterLabel>
+        <translation><!-- TOROSO Newfound Tactical Alloc. Class I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Loop Realty Income &amp; Growth Fund</masterLabel>
+        <translation><!-- West Loop Realty Income &amp; Growth Fund --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

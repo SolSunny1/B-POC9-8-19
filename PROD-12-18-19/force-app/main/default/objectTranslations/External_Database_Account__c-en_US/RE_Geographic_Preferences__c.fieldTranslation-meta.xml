@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- from Preqin --></help>
+    <label><!-- RE Geographic Preferences --></label>
+    <name>RE_Geographic_Preferences__c</name>
+</CustomFieldTranslation>

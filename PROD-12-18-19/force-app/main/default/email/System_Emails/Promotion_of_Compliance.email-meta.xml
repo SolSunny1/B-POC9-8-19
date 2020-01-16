@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Promotion of Compliance</name>
+    <style>freeForm</style>
+    <subject>Compliance form for Sign Off</subject>
+    <textOnly>There is a Compliance record that has been added to the queue that is ready for Sign Off.
+
+Prospect: {!Compliance__c.Prospect_Name__c}
+PFG Relationship Type:{!Compliance__c.PFG_Relationship_Type__c}
+Private Funds invested in: {!Compliance__c.Private_Funds_invested_in__c}
+Other Brookfield Accounts: {!Compliance__c.Other_Brookfield_accounts__c}
+Date of Initial Contact: {!Compliance__c.Date_of_Initial_Contact__c}
+Company Background: {!Compliance__c.Company_Background__c}
+Subscriber Type: {!Compliance__c.Subscriber_Type__c}
+Investor Type: {!Compliance__c.Investor_Type__c}
+Other Subscriber Type: {!Compliance__c.Other_Subscriber_Type__c}
+Public/Private: {!Compliance__c.Public_Private__c}
+Tax Exempt: {!Compliance__c.Tax_Exempt__c}
+Officers: {!Compliance__c.Officers__c}
+Mailing Address: {!Compliance__c.Mailing_Address__c}
+Main Phone: {!Compliance__c.Main_Phone__c}
+Website: {!Compliance__c.Website__c}
+Jurisdiction: {!Compliance__c.Jurisdiction__c}
+Year of Incorporation: {!Compliance__c.Year_of_Incorporation__c}
+Investment Experience Type: {!Compliance__c.Investment_Experience_Type__c}
+Investment Exp with Public Securities: {!Compliance__c.Investment_Exp_with_Public_Securities__c}
+Investment Exp with Private Securities: {!Compliance__c.Investment_Exp_with_Private_Securities__c}
+Managers for Assets/Investments: {!Compliance__c.Managers_for_assets_investments__c}
+Manager(s): {!Compliance__c.Manager_s1__c}
+Manager Experience: {!Compliance__c.Manager_Experience__c}
+AUM Allocation for Public Securities: {!Compliance__c.AUM_Allocation_for_Public_Securities__c}
+AUM Allocation for Private Securities: {!Compliance__c.AUM_Allocation_for_Private_Securities__c}
+Risk Tolerant: {!Compliance__c.Risk_Tolerant__c}
+PFG Investment Candidate: {!Compliance__c.PFG_Investment_Candidate__c}
+AUM: {!Compliance__c.AUM__c}
+
+Compliance Link: {!Compliance__c.Link}
+Approval Submission Notes: {!ApprovalRequest.Comments}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

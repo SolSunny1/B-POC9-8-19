@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubType__c</fullName>
+    <externalId>false</externalId>
+    <label>SubType</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Architect</fullName>
+                <default>false</default>
+                <label>Architect</label>
+            </value>
+            <value>
+                <fullName>Contractor</fullName>
+                <default>false</default>
+                <label>Contractor</label>
+            </value>
+            <value>
+                <fullName>Development Agency</fullName>
+                <default>false</default>
+                <label>Development Agency</label>
+            </value>
+            <value>
+                <fullName>Engineering Company</fullName>
+                <default>false</default>
+                <label>Engineering Company</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Local authority</fullName>
+                <default>false</default>
+                <label>Local authority</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Press &amp; PR</fullName>
+                <default>false</default>
+                <label>Press &amp; PR</label>
+            </value>
+            <value>
+                <fullName>Broker/Agent</fullName>
+                <default>false</default>
+                <label>Broker/Agent</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Bank</fullName>
+                <default>false</default>
+                <label>Bank</label>
+            </value>
+            <value>
+                <fullName>Investor/Fund</fullName>
+                <default>false</default>
+                <label>Investor/Fund</label>
+            </value>
+            <value>
+                <fullName>Solicitor/Lawyer/Notary practice</fullName>
+                <default>false</default>
+                <label>Solicitor/Lawyer/Notary practice</label>
+            </value>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Logistics</fullName>
+                <default>false</default>
+                <label>Logistics</label>
+            </value>
+            <value>
+                <fullName>Technical</fullName>
+                <default>false</default>
+                <label>Technical</label>
+            </value>
+            <value>
+                <fullName>Admin Support</fullName>
+                <default>false</default>
+                <label>Admin Support</label>
+            </value>
+            <value>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+                <label>Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Tenant</fullName>
+                <default>false</default>
+                <label>Tenant</label>
+            </value>
+            <value>
+                <fullName>Seller</fullName>
+                <default>false</default>
+                <label>Seller</label>
+            </value>
+            <value>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+                <label>Buyer</label>
+            </value>
+            <value>
+                <fullName>Account Manager</fullName>
+                <default>false</default>
+                <label>Account Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Person</fullName>
+                <default>false</default>
+                <label>Sales Person</label>
+            </value>
+            <value>
+                <fullName>Assistant</fullName>
+                <default>false</default>
+                <label>Assistant</label>
+            </value>
+            <value>
+                <fullName>Main point of contact</fullName>
+                <default>false</default>
+                <label>Main point of contact</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Tenant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Seller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Buyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Account Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Sales Person</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Assistant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Main point of contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Architect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Development Agency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Engineering Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Local authority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Press &amp; PR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Broker/Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Consultant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Investor/Fund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Solicitor/Lawyer/Notary practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Technical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Admin Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Decision Maker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

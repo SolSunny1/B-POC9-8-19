@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Canada_Ideas</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Idea_Name__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Deal_Nature__c</columns>
+    <columns>Idea_Comments__c</columns>
+    <columns>Deal_Type__c</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Office_Country__c</field>
+        <operation>equals</operation>
+        <value>Canada</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Idea</value>
+    </filters>
+    <filters>
+        <field>Deal_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Infrastructure,Power</value>
+    </filters>
+    <label>BFIN Canada Ideas</label>
+    <sharedTo>
+        <roleAndSubordinates>BFIN</roleAndSubordinates>
+    </sharedTo>
+</ListView>

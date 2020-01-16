@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- FIR - Investment Period - Committed - Offered --></help>
+    <label><!-- FIR - Investment Period - Committed --></label>
+    <name>FIR_Investment_Period_Committed__c</name>
+</CustomFieldTranslation>

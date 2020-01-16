@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>closed_lost_Opportunity_is_not_editable</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(PRIORVALUE( IsClosed ) = True, 
+            ISPICKVAL (PRIORVALUE(StageName), &quot;Closed Lost&quot;),
+            NOT(CONTAINS(RecordType.DeveloperName, &quot;BRP&quot; ))) , True, False)</errorConditionFormula>
+    <errorMessage>closed lost Opportunity is not editable</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- helps draft the Intralinks name, requires cleansing outside of Salesforce and once it&apos;s finalized, it can be imported back in to the Intralinks Final field. --></help>
+    <label><!-- Intralinks Folder Name --></label>
+    <name>Intralinks_Folder_Name_Auto__c</name>
+</CustomFieldTranslation>

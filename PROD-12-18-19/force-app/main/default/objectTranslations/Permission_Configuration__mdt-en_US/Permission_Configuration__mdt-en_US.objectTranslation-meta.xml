@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Permission Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Permission Configurations</value>
+    </caseValues>
+    <layouts>
+        <layout>Permission Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Security --></label>
+            <section>Security</section>
+        </sections>
+        <sections>
+            <label><!-- Table Controls --></label>
+            <section>Table Controls</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

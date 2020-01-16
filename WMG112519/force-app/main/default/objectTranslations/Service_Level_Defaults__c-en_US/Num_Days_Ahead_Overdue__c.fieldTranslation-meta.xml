@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Number of days ahead for a call to be &quot;red&quot; or &quot;overdue&quot;. For consistency with the other fields, this is stored as number of days ahead, even though it may be set as days *after*. In this case, set as a negative number. --></help>
+    <label><!-- Num Days Ahead - Overdue --></label>
+    <name>Num_Days_Ahead_Overdue__c</name>
+</CustomFieldTranslation>

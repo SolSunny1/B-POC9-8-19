@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>closed_lost_Opportunity_not_change_Statu</fullName>
+    <active>true</active>
+    <description>if( AND(ISPICKVAL (PRIORVALUE(StageName), &quot;Closed Lost&quot;),  IsClosed= TRUE),true,false)</description>
+    <errorConditionFormula>if(ISPICKVAL (PRIORVALUE(StageName), &quot;Closed Lost&quot;),true,false)</errorConditionFormula>
+    <errorMessage>You can not change status of  record that is closed lost</errorMessage>
+</ValidationRule>

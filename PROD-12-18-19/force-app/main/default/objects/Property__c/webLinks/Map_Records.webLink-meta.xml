@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Map_Records</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Map Records</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>// Get data array
+idArray = {!GETRECORDIDS($ObjectType.Property__c)};
+// Submit URL
+f=document.createElement(&#39;form&#39;);
+f.target = &#39;_blank&#39;;f.action=&#39;/apex/geopointe__Map&#39;;
+f.method = &#39;get&#39;;
+i= document.createElement(&#39;input&#39;);
+i.id = &#39;idArray&#39;;
+i.name = &#39;idArray&#39;;
+i.type = &#39;hidden&#39;;
+i.value = idArray;
+f.appendChild(i);document.body.appendChild(f);f.submit();</url>
+</WebLink>

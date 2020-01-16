@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Fund_Investors1</fullName>
+    <columns>Active__c</columns>
+    <columns>NAME</columns>
+    <columns>Source_of_Capital__c</columns>
+    <columns>Investment_Vehicle__c</columns>
+    <columns>Historical_Commitment_Functional__c</columns>
+    <columns>Current_Commitments_Functional__c</columns>
+    <columns>Close_Date__c</columns>
+    <columns>Historical_Commitment_US__c</columns>
+    <columns>Owner__c</columns>
+    <columns>As_of__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investor_Position__c.Fund_Internal</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>As_of__c</field>
+        <operation>lessThan</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <label>Private Fund Investors - clean up</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Event</fullName>
+    <availability>online</availability>
+    <description>Creates Event related to campaign and contact for campaign member. Also displays on account related to contact</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Event</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00U/e?what_id={!CampaignMember.CampaignId}&amp;who_id={!CampaignMember.ContactId}&amp;retURL=%2F{!CampaignMember.Id}&amp;cancelURL={!CampaignMember.Id}&amp;ent=Event&amp;evt5=&quot;Prospect event to do&quot;</url>
+</WebLink>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_first_contact_has_past_30_days__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( (TODAY()) -   Prospect_Name__r.Date_of_Initial_Contact__c &gt;= 30 , True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>System is calculating base of “Date of Initial Contact” field</inlineHelpText>
+    <label>Date of first contact has past 30 days</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

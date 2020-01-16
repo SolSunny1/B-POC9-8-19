@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LPAC_Members</fullName>
+    <columns>Investment_Vehicle__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Proposed_LPAC_Status__c</columns>
+    <columns>LPAC_Status_Notes__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Proposed_LPAC_Status__c</field>
+        <operation>equals</operation>
+        <value>Member,Observer</value>
+    </filters>
+    <label>LPAC Members</label>
+    <sharedTo>
+        <role>PFG</role>
+        <role>PFG_CRM</role>
+        <role>PFG_Exec</role>
+    </sharedTo>
+</ListView>

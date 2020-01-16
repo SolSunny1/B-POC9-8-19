@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Share_Classes</fullName>
+    <columns>NAME</columns>
+    <columns>Portfolio__c</columns>
+    <columns>Cusip__c</columns>
+    <columns>Fund_Number__c</columns>
+    <columns>Share_Class__c</columns>
+    <columns>Symbol__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Fund__c.Share_Class</value>
+    </filters>
+    <label>Share Classes</label>
+    <language>en_US</language>
+</ListView>

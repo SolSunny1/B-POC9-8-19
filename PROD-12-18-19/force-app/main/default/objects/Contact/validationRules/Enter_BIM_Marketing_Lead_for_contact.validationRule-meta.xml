@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_BIM_Marketing_Lead_for_contact</fullName>
+    <active>true</active>
+    <description>This validation rule is used to enforce the PFG user to Enter a mandatory value for BIM Marketing Lead field.</description>
+    <errorConditionFormula>if( 
+AND( 
+CONTAINS($Profile.Name, &quot;BIM&quot;), ISBLANK(BIM_Marketing_Lead__c )),True,False)</errorConditionFormula>
+    <errorDisplayField>BIM_Marketing_Lead__c</errorDisplayField>
+    <errorMessage>Please enter BIM Marketing Lead</errorMessage>
+</ValidationRule>

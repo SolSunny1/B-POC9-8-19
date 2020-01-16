@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ZoomInfo Clean Status --></label>
+    <name>zisf__Zoom_Clean_Status__c</name>
+    <picklistValues>
+        <masterLabel>Clean</masterLabel>
+        <translation><!-- Clean --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Different</masterLabel>
+        <translation><!-- Different --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error</masterLabel>
+        <translation><!-- Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Sync</masterLabel>
+        <translation><!-- In Sync --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Compared</masterLabel>
+        <translation><!-- Not Compared --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Found</masterLabel>
+        <translation><!-- Not Found --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

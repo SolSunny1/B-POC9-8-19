@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notifications_to_be_received_Form__c</fullName>
+    <externalId>false</externalId>
+    <label>Notifications to be received - Form</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Capital Calls via Intralinks</fullName>
+                <default>false</default>
+                <label>Capital Calls via Intralinks</label>
+            </value>
+            <value>
+                <fullName>Distributions via Intralinks</fullName>
+                <default>false</default>
+                <label>Distributions via Intralinks</label>
+            </value>
+            <value>
+                <fullName>Reports &amp; Capital Accounts via Intralinks</fullName>
+                <default>false</default>
+                <label>Reports &amp; Capital Accounts via Intralinks</label>
+            </value>
+            <value>
+                <fullName>Tax Reporting via Intralinks</fullName>
+                <default>false</default>
+                <label>Tax Reporting via Intralinks</label>
+            </value>
+            <value>
+                <fullName>Legal Documents &amp; Compliance Matters via Intralinks</fullName>
+                <default>false</default>
+                <label>Legal Documents &amp; Compliance Matters via Intralinks</label>
+            </value>
+            <value>
+                <fullName>Welcome Letter</fullName>
+                <default>false</default>
+                <label>Welcome Letter</label>
+            </value>
+            <value>
+                <fullName>General Communications and Fund Updates</fullName>
+                <default>false</default>
+                <label>General Communications and Fund Updates</label>
+            </value>
+            <value>
+                <fullName>Annual Meeting Notice</fullName>
+                <default>false</default>
+                <label>Annual Meeting Notice</label>
+            </value>
+            <value>
+                <fullName>Conference Calls</fullName>
+                <default>false</default>
+                <label>Conference Calls</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invite_Sent_From_Private_Invest_Day_C__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>New look up fieled for Invite Sent From-Private Investor Day (looks up at contacts)
+Feeds the GROUP CVENT formula field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>New look up fieled for Invite Sent From-Private Investor Day (looks up at contacts)
+Feeds the GROUP CVENT formula field</inlineHelpText>
+    <label>Invite Sent From-Private Invest Day (C)</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

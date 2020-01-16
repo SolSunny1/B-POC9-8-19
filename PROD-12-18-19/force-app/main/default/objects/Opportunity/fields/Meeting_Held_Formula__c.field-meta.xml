@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Held_Formula__c</fullName>
+    <description>A formula that evaluates all meeting related fields and stages and is ticked if anyn of these conditions are met</description>
+    <externalId>false</externalId>
+    <formula>or(
+Not(isblank(Date_of_Last_Meeting_with_Investment_Tea__c)),
+Not(isblank(text(Meeting_Held__c ))),
+Not(isblank(IC_Meeting__c)),
+Not (isblank(Data_Room_Access_Provided__c)),
+Not(isblank(Data_Room_Last_Accessed__c)),
+(PFG_Number_of_Meetings__c)&gt;0,
+Contains(&quot;3:4:5:6:7&quot;,Stage_Prior_Value__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PFG Meeting Held - Formula</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

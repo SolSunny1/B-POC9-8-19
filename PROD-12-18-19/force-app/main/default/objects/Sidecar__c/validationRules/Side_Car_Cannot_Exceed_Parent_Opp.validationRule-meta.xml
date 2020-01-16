@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Side_Car_Cannot_Exceed_Parent_Opp</fullName>
+    <active>false</active>
+    <description>Side Car value must be less than Parent Opportunity.</description>
+    <errorConditionFormula>Sidecar_Size__c &gt; Parent_Opportunity__r.Amount</errorConditionFormula>
+    <errorMessage>Side Car value must be less than Parent Opportunity.</errorMessage>
+</ValidationRule>

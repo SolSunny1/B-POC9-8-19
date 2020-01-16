@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Extension_Date__c</fullName>
+    <description>Fund&#39;s additional extended date from its original term</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fund&#39;s additional extended date from its original term</inlineHelpText>
+    <label>Extension Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

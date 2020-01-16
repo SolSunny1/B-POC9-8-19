@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG_Primary_Marketing_Rep__c</fullName>
+    <description>Pulled from the Account</description>
+    <externalId>false</externalId>
+    <formula>Opportunity__r.Owner.Full_name__c</formula>
+    <inlineHelpText>Pulled from the Account</inlineHelpText>
+    <label>Primary Marketing Rep</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

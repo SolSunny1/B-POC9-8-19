@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Active Sub-Products --></label>
+    <name>Active_Sub_Products__c</name>
+    <picklistValues>
+        <masterLabel>Greenfield Devt</masterLabel>
+        <translation><!-- Greenfield Devt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long term fixed rate</masterLabel>
+        <translation><!-- Long term fixed rate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long term swaps</masterLabel>
+        <translation><!-- Long term swaps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multifamily</masterLabel>
+        <translation><!-- Multifamily --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RE Development</masterLabel>
+        <translation><!-- RE Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sub-IG</masterLabel>
+        <translation><!-- Sub-IG --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

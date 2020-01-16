@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source --></label>
+    <name>Source__c</name>
+    <picklistValues>
+        <masterLabel>BH</masterLabel>
+        <translation><!-- BH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield</masterLabel>
+        <translation><!-- Brookfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Candidate</masterLabel>
+        <translation><!-- Other Candidate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prime Broker</masterLabel>
+        <translation><!-- Prime Broker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recruiter</masterLabel>
+        <translation><!-- Recruiter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sell Side</masterLabel>
+        <translation><!-- Sell Side --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

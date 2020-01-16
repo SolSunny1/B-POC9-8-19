@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BRK 6 - CCB MLP Focus Fund --></label>
+    <name>BRK_6_CCB_MLP_Focus_Fund__c</name>
+</CustomFieldTranslation>

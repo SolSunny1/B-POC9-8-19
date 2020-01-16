@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Greater_Than_Data_Room_Access_Provided__c</fullName>
+    <externalId>false</externalId>
+    <formula>Data_Room_Access_Provided__c   &gt;=  Investment_Vehicle__r.Final_Closing_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Greater Than Data Room Access Provided</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

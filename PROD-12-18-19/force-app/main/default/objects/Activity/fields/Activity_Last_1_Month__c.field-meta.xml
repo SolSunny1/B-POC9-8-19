@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Last_1_Month__c</fullName>
+    <description>ticks if the activity date is with in the last 30 days</description>
+    <externalId>false</externalId>
+    <formula>IF( ActivityDate &gt; TODAY() - 31, 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>ticks if the activity date is with in the last 30 days</inlineHelpText>
+    <label>Activity Last 1 Month</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

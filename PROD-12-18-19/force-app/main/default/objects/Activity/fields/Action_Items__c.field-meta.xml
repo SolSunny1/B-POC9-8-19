@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Items__c</fullName>
+    <externalId>false</externalId>
+    <label>Action Items</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ad-hoc request</fullName>
+                <default>false</default>
+                <label>Ad-hoc Request</label>
+            </value>
+            <value>
+                <fullName>Follow Up Meeting</fullName>
+                <default>false</default>
+                <label>Arrange Follow-up Meeting/Call</label>
+            </value>
+            <value>
+                <fullName>Follow-up Meeting with Investment Team</fullName>
+                <default>false</default>
+                <label>Follow-up Meeting with Investment Team</label>
+            </value>
+            <value>
+                <fullName>FundSpecificInquiries</fullName>
+                <default>false</default>
+                <label>Fund Specific Inquiries</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Generic Inquiries</label>
+            </value>
+            <value>
+                <fullName>Legal / Tax / Fee Query</fullName>
+                <default>false</default>
+                <label>Legal / Tax / Fee Query</label>
+            </value>
+            <value>
+                <fullName>Data Room</fullName>
+                <default>false</default>
+                <label>Provide Data Room Access/Notification</label>
+            </value>
+            <value>
+                <fullName>Marketing Materials</fullName>
+                <default>false</default>
+                <label>Provide Marketing Materials/Due Diligence</label>
+            </value>
+            <value>
+                <fullName>RFI/DDQ</fullName>
+                <default>false</default>
+                <label>Respond to RFI/RFP/DDQ</label>
+            </value>
+            <value>
+                <fullName>RFI / DDQ</fullName>
+                <default>false</default>
+                <label>RFI / DDQ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

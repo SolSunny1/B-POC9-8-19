@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Set the maximum number of permissions to be shown on each page. --></help>
+    <label><!-- Limit: Pagination --></label>
+    <name>Limit_Pagination__c</name>
+</CustomFieldTranslation>

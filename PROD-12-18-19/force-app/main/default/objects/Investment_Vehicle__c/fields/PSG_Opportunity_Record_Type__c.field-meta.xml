@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>PSG_Opportunity_Record_Type__c</fullName>
+    <description>PSG Record Type formula, determine the record type based on the investment vehicle record type</description>
+    <externalId>false</externalId>
+    <formula>CASE(
+ RecordType.DeveloperName,
+ &#39;Credit_Opportunities&#39;, &#39;01233000000QNoy&#39;,
+ &#39;01240000000MHII&#39;
+)
+/*
+If credit, map to credit opp record type,
+otherwise default to the psg record type
+*/</formula>
+    <label>PSG Opportunity Record Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

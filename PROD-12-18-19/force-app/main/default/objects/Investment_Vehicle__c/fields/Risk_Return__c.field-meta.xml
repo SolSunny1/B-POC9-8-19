@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Risk_Return__c</fullName>
+    <externalId>false</externalId>
+    <label>Risk-Return</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Value Add</fullName>
+                <default>false</default>
+                <label>Value Add</label>
+            </value>
+            <value>
+                <fullName>Opportunistic</fullName>
+                <default>false</default>
+                <label>Opportunistic</label>
+            </value>
+            <value>
+                <fullName>Core Plus</fullName>
+                <default>false</default>
+                <label>Core Plus</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Pulled from Contact field --></help>
+    <label><!-- Unsubscribe Comments --></label>
+    <name>Unsubscribe_Comments__c</name>
+</CustomFieldTranslation>

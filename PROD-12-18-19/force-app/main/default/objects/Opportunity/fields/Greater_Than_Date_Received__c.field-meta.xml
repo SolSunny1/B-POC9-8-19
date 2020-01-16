@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Greater_Than_Date_Received__c</fullName>
+    <externalId>false</externalId>
+    <formula>RFI_Request__c   &gt;=  Investment_Vehicle__r.Final_Closing_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Greater Than Date Received</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

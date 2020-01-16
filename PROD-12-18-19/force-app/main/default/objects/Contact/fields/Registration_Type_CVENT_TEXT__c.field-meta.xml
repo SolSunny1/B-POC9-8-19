@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Type_CVENT_TEXT__c</fullName>
+    <description>Used to reflect Registration/Contact types in Text, for CVENT integration</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Copy registration type into this field via import, for integration through cvent</inlineHelpText>
+    <label>Registration Type - CVENT TEXT</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

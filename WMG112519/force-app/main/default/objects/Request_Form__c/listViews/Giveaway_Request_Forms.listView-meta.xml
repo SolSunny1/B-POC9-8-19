@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Giveaway_Request_Forms</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Contact_Name__c</columns>
+    <columns>Contact__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Required_Delivery_Date__c</columns>
+    <columns>Fulfilled__c</columns>
+    <columns>Pickedupinoffice__c</columns>
+    <columns>Giveaway_Total_Cost__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Request_Form__c.Giveaway_Requests</value>
+    </filters>
+    <filters>
+        <field>Contact_Name__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Giveaway Request Forms</label>
+</ListView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Joshy_John_Onboarding</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Estimated_Close__c</columns>
+    <columns>Classification__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>FIR_Other_Rate__c</columns>
+    <columns>Fee_Terms_Comments__c</columns>
+    <columns>FIR_Investment_Period_Invested__c</columns>
+    <columns>FIR_Investment_Period_Committed__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Probability_Picklist__c</columns>
+    <columns>Sub_Investor_Amount__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Firm Decline</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BIF IV</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>8/12/2019</value>
+    </filters>
+    <label>Joshy John Onboarding</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG_Salesforce_Support</roleAndSubordinates>
+    </sharedTo>
+</ListView>

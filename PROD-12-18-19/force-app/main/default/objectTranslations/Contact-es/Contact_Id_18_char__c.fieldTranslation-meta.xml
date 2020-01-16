@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact Id 18 char --></label>
+    <name>Contact_Id_18_char__c</name>
+</CustomFieldTranslation>

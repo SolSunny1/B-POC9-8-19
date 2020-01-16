@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Secure field only visible to BEMI --></help>
+    <label><!-- Public Account Summary --></label>
+    <name>Public_Account_Summary__c</name>
+</CustomFieldTranslation>

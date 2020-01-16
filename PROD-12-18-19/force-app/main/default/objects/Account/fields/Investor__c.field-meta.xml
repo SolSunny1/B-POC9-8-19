@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investor__c</fullName>
+    <description>This field was created originally for the Spotlight summary, to ensure it is kept in SF for future use.  This will also be used for PMRs as needed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for Splotlight and PMRs.  Please ensure when entering text, that it is short and concise.</inlineHelpText>
+    <label>Investor Summary</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

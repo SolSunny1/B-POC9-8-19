@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Meeting Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-on-1 Meeting</fullName>
+                <default>false</default>
+                <label>1-on-1 Meeting</label>
+            </value>
+            <value>
+                <fullName>Branch Meeting</fullName>
+                <default>false</default>
+                <label>Branch Meeting</label>
+            </value>
+            <value>
+                <fullName>Client and Rep Meeting</fullName>
+                <default>false</default>
+                <label>Client and Rep Meeting</label>
+            </value>
+            <value>
+                <fullName>Client Seminar</fullName>
+                <default>false</default>
+                <label>Client Seminar</label>
+            </value>
+            <value>
+                <fullName>Conference Call</fullName>
+                <default>false</default>
+                <label>Conference Call</label>
+            </value>
+            <value>
+                <fullName>Home Office Meeting</fullName>
+                <default>false</default>
+                <label>Home Office Meeting</label>
+            </value>
+            <value>
+                <fullName>Internal Meeting</fullName>
+                <default>false</default>
+                <label>Internal Meeting</label>
+            </value>
+            <value>
+                <fullName>Phone Appointment</fullName>
+                <default>false</default>
+                <label>Phone Appointment</label>
+            </value>
+            <value>
+                <fullName>PM Conference Call</fullName>
+                <default>false</default>
+                <label>PM Conference Call</label>
+            </value>
+            <value>
+                <fullName>Portfolio Manager Meeting</fullName>
+                <default>false</default>
+                <label>Portfolio Manager Meeting</label>
+            </value>
+            <value>
+                <fullName>Regional Meeting/Conference</fullName>
+                <default>false</default>
+                <label>Regional Meeting/Conference</label>
+            </value>
+            <value>
+                <fullName>Stop By Meeting</fullName>
+                <default>false</default>
+                <label>Stop By Meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

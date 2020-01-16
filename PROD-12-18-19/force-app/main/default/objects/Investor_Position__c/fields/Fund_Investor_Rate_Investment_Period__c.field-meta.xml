@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_Investor_Rate_Investment_Period__c</fullName>
+    <description>FIR - Investment Period - Committed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fund Investor Rate based on amount committed
+
+Fund Investment Rate is the rate given to investors based on discounts, etc. Different than Fund Headline Rate</inlineHelpText>
+    <label>FIR - Investment Period - Committed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

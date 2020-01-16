@@ -1,0 +1,652 @@
+<apex:page docType="html-5.0" showHeader="false" applyHtmlTag="false"
+           applyBodyTag="false" sidebar="true" controller="CSL_VFC_Mass_Opp_Creator">
+
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+    
+        <head>
+            <apex:slds />
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>Mass Opportunity Creator</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+            <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+            <script src="https://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+            
+            <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"/>
+
+            <!-- JQUERY CODE HERE TO SELECT ALL CHECKBOXES -->
+            <script type="text/javascript">
+                jQuery( document ).ready(function() {
+                    
+                    jQuery("#selectAllCheckbox").change(function() {
+                        var checkboxes = jQuery(document).find('.rowSelectCheckbox');
+                        if(jQuery(this).is(':checked')) {
+                            checkboxes.prop('checked', true);
+                        } else {
+                            checkboxes.prop('checked', false);
+                        }
+                    });
+                    
+                });
+            </script>
+
+            <script>
+                jQuery(document).ready(function() {
+                    // Datepicker Popups calender to Choose date.
+                    jQuery("input[id$='Date']").datepicker({
+                        dateFormat:'mm/dd/yy'
+                    }).val();
+                });
+            </script>
+            
+            <style>
+                .filterTable {
+                    table-layout: fixed;
+                    width: 200px;
+                }
+
+                .filterTable tr, td {
+                    width: auto;
+                }
+
+                <!-- BF-21: Fixed Footer -->
+                .footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                }
+
+                <!-- BF-21: Duplicate Tooltip -->
+                .tooltip {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .tooltip .tooltiptext {
+                    visibility: hidden;
+                    width: 425px;
+                    background-color: red;
+                    color: #fff;
+                    text-align: center;
+                    padding: 5px 0;
+                    border-radius: 6px;
+                
+                    /* Position the tooltip text*/
+                    position: absolute;
+                    z-index: 1;
+                    top: -5px;
+                    left: 105%;
+                }
+
+                .tooltip:hover .tooltiptext {
+                    visibility: visible;
+                }
+            </style>
+
+            <!-- Use Lightning Styles for Page Messages -->
+            <style>
+                .msgIcon {
+                    display: none!important
+                }
+                .customMessage * {
+                    color: #fff!important
+                }
+                .customMessage {
+                    margin: 5px 0!important;
+                    max-width: 1280px;
+                    opacity: 1!important;
+                    width: 100%;
+                    font-size: 12px;
+                    border: 0px;
+                    padding-left: 10px;
+                }
+                .message {
+                    opacity: .1
+                }
+
+            </style>
+
+            <script>
+                function overridePageMessages() {   
+                    var textureEffect = '';
+                    //Uncomment below line for texture effect on page messages
+                    //textureEffect = 'slds-theme--alert-texture';
+                              
+                    $('.warningM3').addClass('slds-notify slds-notify--toast slds-theme--warning customMessage '+textureEffect);         
+                    $('.confirmM3').addClass('slds-notify slds-notify--alert slds-theme--success  customMessage '+textureEffect);   
+                    $('.errorM3').addClass('slds-notify slds-notify--alert slds-theme--error customMessage '+textureEffect);                 
+                    $('.infoM3').addClass('slds-notify slds-notify--toast customMessage '+textureEffect);   
+                                  
+                    $('.errorM3').removeClass('errorM3');
+                    $('.confirmM3').removeClass('confirmM3');
+                    $('.infoM3').removeClass('infoM3');  
+                    $('.warningM3').removeClass('warningM3'); 
+                }
+
+                function hideShowOppFields(hasOppsObj) {
+                    if(hasOppsObj.checked) {
+                        document.getElementById('oppFilters').style.display = 'block';
+                    }   else {
+                        document.getElementById('oppFilters').style.display = 'none';
+                    }
+                }
+
+                function displayOppFilterFields() {
+                    if({!hasOpportunities}) {
+                        document.getElementById('oppFilters').style.display = 'block';
+                    }   else {
+                        document.getElementById('oppFilters').style.display = 'none';
+                    }
+                }
+
+                function displayCreateOppFields() {
+                    //alert('{!contactWrapperList.size}');
+                    if({!(contactWrapperList != null && contactWrapperList.size >= 1 && numberResults < 1000)}) {
+                        document.getElementById('createOpptys').style.display = 'block';
+                    }   else {
+                        document.getElementById('createOpptys').style.display = 'none';
+                    }
+                }
+
+                function displaySelectContactSection() {
+                    if({!contactWrapperList != null}) {
+                        document.getElementById('selectContacts').style.display = 'block';
+                        if({!(contactWrapperList != null && contactWrapperList.size >= 1)}) {
+                            document.getElementById('contactNoResultsFound').style.display = 'none';
+                        }   else {
+                            document.getElementById('contactResults').style.display = 'none';
+                        }
+                    }   else {
+                        document.getElementById('selectContacts').style.display = 'none';
+                    }
+                }
+
+                function disableEnableProbability() {
+                  var stageObj = document.getElementById('{!$Component.inputForm.filterStage}');
+                  var probabilityFromObj = document.getElementById('{!$Component.inputForm.filterProbabilityFrom}');
+                  var probabilityToObj = document.getElementById('{!$Component.inputForm.filterProbabilityTo}');
+                  // If stage is selected disable probability
+                  if(stageObj != null && stageObj.value != '') {
+                    probabilityFromObj.value = '';
+                    probabilityToObj.value = '';
+                    probabilityFromObj.disabled = true;
+                    probabilityToObj.disabled = true;
+                  } else if(stageObj != null && stageObj.value == '') {
+                    probabilityFromObj.disabled = false;
+                    probabilityToObj.disabled = false;
+                  }
+                }
+
+                function disableEnableStage() {
+                  var stageObj = document.getElementById('{!$Component.inputForm.filterStage}');
+                  var probabilityFromObj = document.getElementById('{!$Component.inputForm.filterProbabilityFrom}');
+                  var probabilityToObj = document.getElementById('{!$Component.inputForm.filterProbabilityTo}');
+                  // If stage is selected disable probability
+                  if((probabilityFromObj != null && probabilityFromObj.value != '') || 
+                     (probabilityToObj != null && probabilityToObj.value != '')) {
+                    stageObj.value = '';
+                    stageObj.disabled = true;
+                  } else if((probabilityFromObj != null && probabilityFromObj.value == '') && 
+                            (probabilityToObj != null && probabilityToObj.value == '')) {
+                    stageObj.disabled = false;
+                  }
+                }
+
+                function submitStageProbability() {
+                    var stageObj = document.getElementById('{!$Component.inputForm.filterStage}');
+                    var probabilityFromObj = document.getElementById('{!$Component.inputForm.filterProbabilityFrom}');
+                    var probabilityToObj = document.getElementById('{!$Component.inputForm.filterProbabilityTo}');
+                    stageObj.disabled = false;
+                    probabilityFromObj.disabled = false;
+                    probabilityToObj.disabled = false;
+                }
+
+                function cancelButton() {
+                    window.location = '{!URLFOR('/',null)}';
+                }
+
+                window.onload=function() {        
+                    displayCreateOppFields();
+                    displaySelectContactSection();
+                    displayOppFilterFields();
+                    disableEnableProbability();
+                    disableEnableStage();
+                };
+
+                $(document).ready(function() {
+                    overridePageMessages();   
+                });
+            </script>
+            
+        </head>
+        <body> 
+            
+            <div class="slds-scope">
+            <apex:form id="inputForm">
+
+                <apex:pageMessages />
+
+                <!-- Selection Filters -->
+
+                <!-- Accounts Filters (PFG Importance, Has Opps, PFG Users) -->
+                <h3 class="slds-section-title--divider slds-text-heading--small slds-m-bottom--small">
+                    Step 1: Filter Accounts
+                </h3>
+
+                <div class="slds-col">
+                                                                                
+                    <!-- Account Filters -->
+                    <div class="slds-panel__section">
+                        
+                        <fieldset class="slds-form--compound">
+                            <div class="slds-form-element__group">
+                              
+                                <!-- Account/Contact Filters Row 1 -->
+                                <div class="slds-form-element__row">
+                                
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                        <span class="slds-required">*</span>
+                                            <apex:outputLabel value="{!$ObjectType.Account.fields.PFG_CRM_Primary_Lead__c.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputAccount.PFG_CRM_Primary_Lead__c}" required="true"/>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="{!$Label.Mass_Opp_Has_Opportunities}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputCheckbox value="{!hasOpportunities}" onChange="hideShowOppFields(this)" id="hasOppsField" />
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="{!$ObjectType.Contact.fields.PFG_Key_Contact__c.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputContact.PFG_Key_Contact__c}" />
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        &nbsp;
+                                    </div>
+
+                                </div>
+                              
+                                <!-- Account/Contact Filters Row 2 -->
+                                <div class="slds-form-element__row">
+                                
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="{!$ObjectType.Account.fields.PFG_Relationship_Importance__c.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputAccount.PFG_Relationship_Importance__c}" />
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="{!$ObjectType.Account.fields.PFG_General_Investing_Interest__c.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:selectList value="{!selectedInvestmentInterests}" multiselect="false" size="1">
+                                                <apex:selectOptions value="{!investingInterests}"/>
+                                            </apex:selectList>
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        &nbsp;
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        &nbsp;
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </fieldset>
+                        
+                    </div>
+                </div>
+
+                <!-- Opportunity Filters -->
+                <div id="oppFilters">
+                    <h3 class="slds-section-title--divider slds-text-heading--small slds-m-bottom--small">
+                        Step 1A: Filter Opportunities
+                    </h3>
+
+                    <!-- Opp Filters -->
+                    <div class="slds-col">
+                                                                                    
+                        <!-- Opp Filters -->
+                        <div class="slds-panel__section">
+                            
+                            <fieldset class="slds-form--compound">
+                                <div class="slds-form-element__group">
+                                  
+                                  <!-- Opp Create Fileds -->
+                                  <div class="slds-form-element__row">
+                                    
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                        <span class="slds-required">*</span>
+                                            <apex:outputLabel value="{!$ObjectType.Opportunity.fields.Investment_Vehicle__c.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputOpportunity.Investment_Vehicle__c}" />
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="{!$ObjectType.Opportunity.fields.StageName.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputOpportunity.StageName}" required="false" id="filterStage" onchange="disableEnableProbability();"/>
+                                      </div>
+                                    </div>
+
+                                  <!-- BF-10 Added Range Option -->
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="Probability Range" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:input value="{!probabilityFrom}" styleClass="slds-input slds-input--small slds-size_1-of-5" type="number" html-min="0" html-max="100" id="filterProbabilityFrom" onchange="disableEnableStage();"/>
+                                        &nbsp;to&nbsp;
+                                        <apex:input value="{!probabilityTo}" styleClass="slds-input slds-input--small slds-size_1-of-5" type="number" html-min="0" html-max="100" id="filterProbabilityTo" onchange="disableEnableStage();"/>
+                                        </div>
+                                    </div>
+
+                                  <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="{!$Label.Mass_Opp_Owner}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputOpportunity.OwnerId}" required="false" />
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                  
+                                </div>
+                            </fieldset>
+
+                            <br/>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-col">  
+                    <h3 class="slds-section-title--divider slds-text-heading--small slds-m-bottom--small">
+                        Search Contacts
+                    </h3>
+
+                    <!-- Search Contacts -->
+                    <div class="slds-panel__section">
+
+                      <fieldset class="slds-form--compound">
+                      <div class="slds-form-element__group">
+                        
+                        <!-- Search w/New Investment Vehicle -->
+                        <div class="slds-form-element__row">
+
+                            <div class="slds-form-element slds-size--1-of-4">
+                                <label class="slds-form-element__label slds-text-color_default">
+                                    <span class="slds-required">*</span>
+                                    <apex:outputLabel value="New Investment Vehicle" />
+                                </label>
+                                <div class="slds-form-element__control">
+                                    <apex:inputField value="{!inputCreateOpportunity.Investment_Vehicle__c}" required="true" />
+                                </div>
+                            </div>
+
+                            <div class="slds-form-element slds-size--1-of-4">
+                                <label class="slds-form-element__label slds-text-color_default">
+                                    <apex:outputLabel value="{!$Label.Mass_Opp_Hide_Opportunities_Created}" />
+                                </label>
+                                <div class="slds-form-element__control">
+                                    <apex:inputCheckbox value="{!hideOpportunitiesCreated}" id="hideOppsField" />
+                                </div>
+                            </div>
+
+                            <div class="slds-form-element slds-size--1-of-4">
+                                &nbsp;
+                            </div>
+
+                            <div class="slds-form-element slds-size--1-of-4">
+                                &nbsp;
+                            </div>
+                        </div>
+
+                        <div class="slds-form-element__row">
+                            <apex:commandButton styleClass="slds-button slds-button--brand" value="Search Contacts" action="{!search}" onclick="submitStageProbability();"/>&nbsp;&nbsp;
+                            <apex:commandButton styleClass="slds-button slds-button--brand" value="Cancel" action="{!cancel}" immediate="true" onclick="cancelButton();return false;" />
+                        </div>
+                        
+                      </div>
+                      </fieldset>
+                    </div>
+
+                </div>
+
+                <!-- Opportunity Filters -->
+                <div id="selectContacts">
+                    <h3 class="slds-section-title--divider slds-text-heading--small slds-m-bottom--small slds-text-color_default">
+                        Step 2: Select Contacts&nbsp;-&nbsp;{!numberResults} Results Found
+                    </h3>
+
+                    <!-- Search Results -->
+                    <div class="slds-panel__section slds-text-color_default" id="contactNoResultsFound">
+                        {!$Label.Mass_Opp_No_Contacts_Found}
+                    </div>
+
+                    <div html-class="slds-panel__section" id="contactResults">
+                    <apex:outputPanel id="toomanyrows" rendered="{!(numberResults >= 1000)}">
+                    <div class="slds-panel__section slds-text-color_default" id="contactNoResultsFound">
+                      {!$Label.Mass_Opp_More_than_1000_Results}
+                    </div>
+                      
+                    </apex:outputPanel>
+
+                      <apex:outputPanel id="rowoutput" rendered="{!(numberResults < 1000)}">
+                        <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--striped">
+                            <thead>
+                                <tr class="slds-text-heading--label slds-text-color_default">
+                                    <th scope="col">
+                                        <input id="selectAllCheckbox" type="checkbox" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel value="{!$ObjectType.Account.fields.Name.Label}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel value="{!$ObjectType.Contact.fields.Name.Label}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel value="{!$ObjectType.Contact.fields.PFG_Key_Contact__c.Label}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel rendered="{!hasOpportunities}" value="{!$Label.Mass_Opp_Investment_Vehicle}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel rendered="{!hasOpportunities}" value="{!$ObjectType.Opportunity.fields.StageName.Label}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel rendered="{!hasOpportunities}" value="{!$Label.Mass_Opp_Previous_Size}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel value="{!$Label.Mass_Opp_New_Size}" />
+                                    </th>
+                                    <th scope="col">
+                                        <apex:outputLabel value="{!$ObjectType.Opportunity.fields.Description.Label}" />
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <apex:repeat value="{!contactWrapperList}" var="thisContact">
+                                <tr>
+                                    <td scope="row">
+                                        <div class="tooltip">
+                                            <apex:inputCheckbox styleClass="rowSelectCheckbox" value="{!thisContact.isSelected}" rendered="{!(thisContact.newOpptyExists == null || !thisContact.newOpptyExistContactRole)}"/>
+                                            <apex:outputPanel id="tooltiptext" styleClass="tooltiptext" rendered="{!(thisContact.existingClosedOppty && (thisContact.newOpptyExists == null))}">
+                                                {!$Label.Mass_Opp_Creating_Duplicate_Oppty}
+                                            </apex:outputPanel>
+                                        </div>
+                                    </td>
+                                    <td>
+                                      <apex:outputLink value="{!'/' + thisContact.contactSelected.AccountId}" target="_blank">
+                                        <apex:outputLabel rendered="true" value="{!thisContact.contactSelected.Account.Name}" />
+                                      </apex:outputLink>
+                                        
+                                    </td>
+                                    <td>
+                                      <apex:outputLink value="{!'/' + thisContact.contactSelected.Id}" target="_blank">
+                                        <apex:outputLabel rendered="true" value="{!thisContact.contactSelected.Name}" />
+                                      </apex:outputLink>
+                                    </td>
+                                    <td align="center">
+                                        <apex:inputCheckbox rendered="true" disabled="true" value="{!thisContact.contactSelected.PFG_Key_Contact__c}" />
+                                    </td>
+                                    <td align="center">
+                                        <apex:outputLink rendered="{!hasOpportunities}" value="{!'/' + thisContact.existingOppty.Id}" target="_blank">
+                                            <apex:outputLabel value="{!thisContact.existingOppty.Investment_Vehicle__r.Name}" />
+                                        </apex:outputLink>
+                                    </td>
+                                    <td align="center">
+                                        <apex:outputLabel value="{!thisContact.existingOppty.StageName}" />
+                                    </td>
+                                    <td align="center">
+                                        <apex:outputText rendered="{!hasOpportunities}" value="${0, number, ###,##0.00}">
+                                        <apex:param value="{!thisContact.previousOppSize}" /> 
+                                      </apex:outputText>
+                                    </td>
+                                    <td align="center">
+                                        <apex:input rendered="{!(thisContact.newOpptyExists == null)}" value="{!thisContact.oppSize}" type="number" size="10"/>
+                                      
+                                        <apex:outputLink rendered="{!(thisContact.newOpptyExists != null)}" value="{!'/' + thisContact.newOpptyExists.Id}">
+                                            <apex:outputText value="${0, number, ###,##0.00}">
+                                            <apex:param value="{!thisContact.newOpptyExists.Amount}" /> 
+                                            </apex:outputText>
+                                        </apex:outputLink>
+                                    </td>
+                                    <!-- BF-21: Added Description Field -->
+                                    <td align="center">
+                                        <apex:input rendered="{!(thisContact.newOpptyExists == null)}" value="{!thisContact.oppDescription}" type="text" size="25"/>
+
+                                        <apex:outputText rendered="{!(thisContact.newOpptyExists != null)}">
+                                            <apex:outputText value="{!thisContact.oppDescription}" />
+                                        </apex:outputText>
+                                    </td>
+                                </tr>
+                            </apex:repeat>
+                            </tbody>
+                        </table>
+                        
+                        <div class="slds-form-element slds-hint-parent slds-has-divider--bottom">
+                        </div>
+                    </apex:outputPanel>
+                    </div>
+                </div>
+            
+                <!-- Create Opportunities -->
+                <!--div id="createOpptys" class="footer"-->
+                <div id="createOpptys">
+                    <h3 class="slds-section-title--divider slds-text-heading--small slds-m-bottom--small">
+                        Step 3: Select New Opportunity Values
+                    </h3>
+
+                    <!-- Opp Creation Parameters  -->
+                    <div class="slds-col">
+                                                                                    
+                        <!-- Account Filters -->
+                        <div class="slds-panel__section">
+                            
+                            <fieldset class="slds-form--compound">
+                                <div class="slds-form-element__group">
+                                  
+                                  <!-- Account/Contact Filters -->
+                                  <div class="slds-form-element__row">
+                                    
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                            <apex:outputLabel value="New Investment Vehicle" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:outputLabel value="{!selectedInvestmentVehicle.Name}" />
+                                        </div>
+                                    </div>
+
+                                    <!--div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label">
+                                            <apex:outputLabel value="{!$ObjectType.Opportunity.fields.StageName.Label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputCreateOpportunity.StageName}" html-disabled="true"/>
+                                        </div>
+                                    </div-->
+
+                                    <!--div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label">
+                                            <apex:outputLabel value="{!$Label.Mass_Opp_Record_Type}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputCreateOpportunity.RecordTypeId}"/>
+                                        </div>
+                                    </div-->
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                        <span class="slds-required">*</span>
+                                            <apex:outputLabel value="{!$Label.Mass_Opp_Owner}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputCreateOpportunity.OwnerId}" required="false"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="slds-form-element slds-size--1-of-4">
+                                        <label class="slds-form-element__label slds-text-color_default">
+                                        <span class="slds-required">*</span>
+                                            <apex:outputLabel value="{!$ObjectType.Opportunity.fields.CloseDate.label}" />
+                                        </label>
+                                        <div class="slds-form-element__control">
+                                            <apex:inputField value="{!inputCreateOpportunity.CloseDate}" required="false"/>
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                  
+                                </div>
+                            </fieldset>
+
+                            <br/>
+                            <apex:commandButton styleClass="slds-button slds-button--brand" value="Create Opportunities / Add Contact Roles" action="{!createOpportunities}"/>&nbsp;&nbsp;
+                          <apex:commandButton styleClass="slds-button slds-button--brand" value="Cancel" action="{!cancel}" immediate="true" onclick="cancelButton();return false;"/>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </apex:form>
+            </div>
+
+        </body>
+    </html>
+</apex:page>

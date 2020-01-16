@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Number_of_Meetings_YTD__c</fullName>
+    <description>roll up to count the number of PFG meetings if the YTD box is ticked</description>
+    <externalId>false</externalId>
+    <inlineHelpText>roll up to count the number of PFG meetings if the YTD box is ticked</inlineHelpText>
+    <label>PFG Number of Meetings - YTD</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

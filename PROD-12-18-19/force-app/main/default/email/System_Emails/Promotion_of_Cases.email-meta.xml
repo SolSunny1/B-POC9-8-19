@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Promotion of Cases</name>
+    <style>freeForm</style>
+    <subject>Case for Promotion</subject>
+    <textOnly>There is a Case that has been added to the queue that is ready for testing.
+
+Case Subject: {!Case.Subject}
+Case Number: {!Case.CaseNumber}
+Case Owner: {!Case.OwnerFullName}
+Case Description: {!Case.Description}
+Case Link: {!Case.Link}
+
+Approval Submission Notes: {!ApprovalRequest.Comments}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

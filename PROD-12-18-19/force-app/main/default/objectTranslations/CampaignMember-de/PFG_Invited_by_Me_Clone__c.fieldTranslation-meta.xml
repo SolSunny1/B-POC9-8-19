@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copied from the Contact to create customized reports by CRM to see only the contacts they invited to Investor Day --></help>
+    <label><!-- PFG Invited by Me Clone --></label>
+    <name>PFG_Invited_by_Me_Clone__c</name>
+</CustomFieldTranslation>

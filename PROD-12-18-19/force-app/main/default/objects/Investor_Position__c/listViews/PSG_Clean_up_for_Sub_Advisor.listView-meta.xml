@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG_Clean_up_for_Sub_Advisor</fullName>
+    <columns>NAME</columns>
+    <columns>Investor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investor_Position__c.Public_Securities</value>
+    </filters>
+    <label>PSG Clean up for Sub-Advisor</label>
+    <sharedTo>
+        <group>PSG_Meeting_Request</group>
+    </sharedTo>
+</ListView>

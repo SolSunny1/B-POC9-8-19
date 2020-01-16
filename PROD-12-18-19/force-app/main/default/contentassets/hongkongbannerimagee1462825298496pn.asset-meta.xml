@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>hongkongbannerimagee1462825298496pn</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>hongkongbannerimage-e1462825298496.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

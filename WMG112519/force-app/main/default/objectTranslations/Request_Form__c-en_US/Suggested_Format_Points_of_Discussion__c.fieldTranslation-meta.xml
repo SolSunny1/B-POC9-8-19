@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Update, Q+A, specific question? --></help>
+    <label><!-- Suggested Format/Points of Discussion --></label>
+    <name>Suggested_Format_Points_of_Discussion__c</name>
+</CustomFieldTranslation>

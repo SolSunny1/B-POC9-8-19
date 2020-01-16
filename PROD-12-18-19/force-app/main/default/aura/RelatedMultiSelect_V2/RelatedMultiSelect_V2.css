@@ -1,0 +1,26 @@
+.THIS .slds-dropdown{
+    box-shadow: none;
+    border: none;
+}
+
+.THIS .boundingBox {
+    border: 1px solid rgb(221, 219, 218);
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.THIS .select-all-boundingBox {
+    border: 1px solid rgb(221, 219, 218);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom: 0;
+}
+
+.THIS .select-all-button {
+    cursor:pointer;
+}
+
+.THIS .select-all-button:hover {
+    color: rgb(21, 137, 238);
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Mktg_Rep__c</fullName>
+    <externalId>false</externalId>
+    <formula>Investor_Position_Account__r.BIM_Primary_Mktg_Rep__r.FirstName &amp; &quot; &quot; &amp; Investor_Position_Account__r.BIM_Primary_Mktg_Rep__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Primary Mktg Rep</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

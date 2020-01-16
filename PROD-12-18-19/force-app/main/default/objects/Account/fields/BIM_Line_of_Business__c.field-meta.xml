@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIM_Line_of_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>PSG Line of Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Listed Infrastructure</fullName>
+                <default>false</default>
+                <label>Listed Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Real Estate Securities</fullName>
+                <default>false</default>
+                <label>Real Estate Securities</label>
+            </value>
+            <value>
+                <fullName>Diversified Real Assets</fullName>
+                <default>false</default>
+                <label>Diversified Real Assets</label>
+            </value>
+            <value>
+                <fullName>Securitized Credit</fullName>
+                <default>false</default>
+                <label>Securitized Credit</label>
+            </value>
+            <value>
+                <fullName>Real Asset Debt</fullName>
+                <default>false</default>
+                <label>Real Asset Debt</label>
+            </value>
+            <value>
+                <fullName>Credit Opportunities</fullName>
+                <default>false</default>
+                <label>Credit Opportunities</label>
+            </value>
+            <value>
+                <fullName>Equity Opportunities</fullName>
+                <default>false</default>
+                <label>Equity Opportunities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_Request_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Required_Delivery_Date__c</fields>
+    <fields>Company_or_Name__c</fields>
+    <fields>Contact__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Grand_Total_Cost__c</fields>
+    <label>Material Request Compact Layout</label>
+</CompactLayout>

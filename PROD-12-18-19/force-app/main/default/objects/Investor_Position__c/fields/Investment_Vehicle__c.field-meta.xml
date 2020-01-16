@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Vehicle__c</fullName>
+    <externalId>false</externalId>
+    <label>Investment Vehicle</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Investment_Vehicle__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Inactive, Discontinued, Closed</value>
+        </filterItems>
+        <filterItems>
+            <field>Investment_Vehicle__c.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Archived and Deactivated Investment Vehicle</value>
+        </filterItems>
+        <infoMessage>Filtered by Funds in the Market. Click SHOW ALL to expand the list. Please DO NOT Create Investor Position for Inactive, Discontinued, Closed Vehicles</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Investment_Vehicle__c</referenceTo>
+    <relationshipLabel>Investor Positions</relationshipLabel>
+    <relationshipName>Investor_Positions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Analyst_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>Advisor_Point_of_Contact__c</columns>
+    <columns>Client_or_Prospect__c</columns>
+    <columns>Contact_s_City__c</columns>
+    <columns>Contact_s_Company__c</columns>
+    <columns>Contact_s_State__c</columns>
+    <columns>Brookfield_Strategy__c</columns>
+    <columns>AUM__c</columns>
+    <columns>About_their_Business__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Request_Form__c.PM_Analyst_Request</value>
+    </filters>
+    <label>PM/Analyst Requests</label>
+</ListView>

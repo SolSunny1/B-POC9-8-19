@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Key Institution</fullName>
+                <default>false</default>
+                <label>Key Institution</label>
+            </value>
+            <value>
+                <fullName>BFIN CC Tier 1</fullName>
+                <default>false</default>
+                <label>BFIN CC Tier 1</label>
+            </value>
+            <value>
+                <fullName>BFIN CC Tier 2</fullName>
+                <default>false</default>
+                <label>BFIN CC Tier 2</label>
+            </value>
+            <value>
+                <fullName>BFIN CC Tier 3</fullName>
+                <default>false</default>
+                <label>BFIN CC Tier 3</label>
+            </value>
+            <value>
+                <fullName>BFIN EU Tier 1</fullName>
+                <default>false</default>
+                <label>BFIN EU Tier 1</label>
+            </value>
+            <value>
+                <fullName>BFIN EU Tier 2</fullName>
+                <default>false</default>
+                <label>BFIN EU Tier 2</label>
+            </value>
+            <value>
+                <fullName>BFIN EU Tier 3</fullName>
+                <default>false</default>
+                <label>BFIN EU Tier 3</label>
+            </value>
+            <value>
+                <fullName>BFIN Asia Tier 1</fullName>
+                <default>false</default>
+                <label>BFIN Asia Tier 1</label>
+            </value>
+            <value>
+                <fullName>BFIN Asia Tier 2</fullName>
+                <default>false</default>
+                <label>BFIN Asia Tier 2</label>
+            </value>
+            <value>
+                <fullName>BFIN Asia Tier 3</fullName>
+                <default>false</default>
+                <label>BFIN Asia Tier 3</label>
+            </value>
+            <value>
+                <fullName>BFIN US Tier 1</fullName>
+                <default>false</default>
+                <label>BFIN US Tier 1</label>
+            </value>
+            <value>
+                <fullName>BFIN US Tier 2</fullName>
+                <default>false</default>
+                <label>BFIN US Tier 2</label>
+            </value>
+            <value>
+                <fullName>BFIN US Tier 3</fullName>
+                <default>false</default>
+                <label>BFIN US Tier 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

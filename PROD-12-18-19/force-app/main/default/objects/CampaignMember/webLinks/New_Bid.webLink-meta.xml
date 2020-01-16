@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Bid</fullName>
+    <availability>online</availability>
+    <description>Create new bid from campaign member</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Bid</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/a01/e?CF00N40000002pKiO={!CampaignMember.Campaign}&amp;CF00N40000002pKiW={!CampaignMember.Contact}&amp;CF00N40000002pKiW_lkid={!CampaignMember.ContactId}&amp;CF00N40000002pKiP={!CampaignMember.CompanyOrAccount}&amp;CF00N40000002pLHO={! CampaignMember.Opportunity_Name__c}&amp;cancelURL={!CampaignMember.Id}&amp;CF00N40000002pLHO_lkid={!Opportunity.Id}</url>
+</WebLink>

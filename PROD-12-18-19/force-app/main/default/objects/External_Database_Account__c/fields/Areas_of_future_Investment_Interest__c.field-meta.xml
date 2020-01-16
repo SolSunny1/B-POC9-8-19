@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Areas_of_future_Investment_Interest__c</fullName>
+    <description>Mapped from MMD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mapped from MMD</inlineHelpText>
+    <label>Areas of future Investment Interest</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

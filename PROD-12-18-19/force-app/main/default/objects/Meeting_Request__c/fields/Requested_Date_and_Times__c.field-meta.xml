@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requested_Date_and_Times__c</fullName>
+    <description>a list of requested date and times for the meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>a list of requested date and times for the meeting</inlineHelpText>
+    <label>Requested Date and Times</label>
+    <length>500</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Anticipated Close (Tracker) --></label>
+    <name>Anticipated_Close_Tracker__c</name>
+    <picklistValues>
+        <masterLabel>Final</masterLabel>
+        <translation><!-- Final --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First</masterLabel>
+        <translation><!-- First --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Post-Close</masterLabel>
+        <translation><!-- Post-Close --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subsequent</masterLabel>
+        <translation><!-- Subsequent --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

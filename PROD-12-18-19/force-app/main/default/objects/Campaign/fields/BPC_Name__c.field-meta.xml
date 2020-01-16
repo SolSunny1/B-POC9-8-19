@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPC_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Room_Type__c,&quot;Prospect Specific&quot;),Account__r.Name&amp;&quot;-Account Campaign&quot;,
+IF(ISPICKVAL(Room_Type__c,&quot;Sleeve&quot;),Sleeve__r.Name&amp;&quot;-Sleeve Campaign&quot;,
+IF(ISPICKVAL(Room_Type__c,&quot;Fund&quot;),Investment_Vehicle__r.Name&amp;&quot;-Fund Campaign&quot;,&quot; &quot;)))</formula>
+    <label>BPC Name</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

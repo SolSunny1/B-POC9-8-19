@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Fund_Close_Date</fullName>
+    <active>true</active>
+    <description>Fund Close Date must be active and associated with the investment vehicle if changed or set</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(Investment_Vehicle__c)),
+NOT(ISBLANK( Investment_Vehicle_Close_Date__c )),
+Investment_Vehicle__c &lt;&gt; Investment_Vehicle_Close_Date__r.Investment_Vehicle__c,
+Investment_Vehicle_Close_Date__r.Active__c,
+OR(
+ISCHANGED( Investment_Vehicle_Close_Date__c ),
+ISNEW()
+)
+)</errorConditionFormula>
+    <errorDisplayField>Investment_Vehicle_Close_Date__c</errorDisplayField>
+    <errorMessage>The fund close date must be active and associated to the investment vehicle related to the opportunity.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<apex:page standardController="CampaignMember" showHeader="false" sidebar="false">
+<apex:pageBlock >
+<apex:pageBlockSection columns="2">
+  
+  <apex:outputField value="{!CampaignMember.Campaign.Original_Deal_Opportunity__r.Account.Company_Type__c}"/>
+  </apex:pageBlockSection>
+  </apex:pageBlock>
+</apex:page>

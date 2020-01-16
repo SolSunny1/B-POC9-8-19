@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Fund_Close_Dates_Types__c</fullName>
+    <description>BF-35: List of Fund Close Dates &amp; Types to be displayed on corresponding opportunities</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of Fund Close Dates &amp; Types to be displayed on corresponding opportunities</inlineHelpText>
+    <label>Active Fund Close Dates &amp; Types</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

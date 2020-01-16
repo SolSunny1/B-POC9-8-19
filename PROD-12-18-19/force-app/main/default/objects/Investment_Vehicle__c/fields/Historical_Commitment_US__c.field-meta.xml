@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Historical_Commitment_US__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up most recent Investor Position records totalling the Historical/Original Commitments Raised for the Fund in USD.</inlineHelpText>
+    <label>Raised Capital - USD</label>
+    <summarizedField>Investor_Position__c.Historical_Commitment_US__c</summarizedField>
+    <summaryFilterItems>
+        <field>Investor_Position__c.Is_Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Investor_Position__c.Investment_Vehicle__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

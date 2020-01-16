@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sleeve__c</fullName>
+    <description>To help distinguish which investment group the account will place their capital.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identify the investment sleeve the investor will be in.  If a specific Fund sleeve is not available, please contact your system admin.</inlineHelpText>
+    <label>Sleeve</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US</fullName>
+                <default>false</default>
+                <label>US</label>
+            </value>
+            <value>
+                <fullName>CR</fullName>
+                <default>false</default>
+                <label>CR</label>
+            </value>
+            <value>
+                <fullName>EU</fullName>
+                <default>false</default>
+                <label>EU</label>
+            </value>
+            <value>
+                <fullName>A</fullName>
+                <default>false</default>
+                <label>A</label>
+            </value>
+            <value>
+                <fullName>A(CR)</fullName>
+                <default>false</default>
+                <label>A(CR)</label>
+            </value>
+            <value>
+                <fullName>B</fullName>
+                <default>false</default>
+                <label>B</label>
+            </value>
+            <value>
+                <fullName>C</fullName>
+                <default>false</default>
+                <label>C</label>
+            </value>
+            <value>
+                <fullName>D</fullName>
+                <default>false</default>
+                <label>D</label>
+            </value>
+            <value>
+                <fullName>D(CR)</fullName>
+                <default>false</default>
+                <label>D(CR)</label>
+            </value>
+            <value>
+                <fullName>A(ER)</fullName>
+                <default>false</default>
+                <label>A(ER)</label>
+            </value>
+            <value>
+                <fullName>C(ER)</fullName>
+                <default>false</default>
+                <label>C(ER)</label>
+            </value>
+            <value>
+                <fullName>Main</fullName>
+                <default>false</default>
+                <label>Main</label>
+            </value>
+            <value>
+                <fullName>Parallel</fullName>
+                <default>false</default>
+                <label>Parallel</label>
+            </value>
+            <value>
+                <fullName>1 (Europe)</fullName>
+                <default>false</default>
+                <label>1 (Europe)</label>
+            </value>
+            <value>
+                <fullName>1-A (Europe)</fullName>
+                <default>false</default>
+                <label>1-A (Europe)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

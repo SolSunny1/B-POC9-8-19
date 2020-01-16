@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Task_Owner__c</fullName>
+    <description>The person or team who has been assigned to complete this project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the name of the person and or team(s) that have been assigned to this project task to complete</inlineHelpText>
+    <label>Project Task Owner</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

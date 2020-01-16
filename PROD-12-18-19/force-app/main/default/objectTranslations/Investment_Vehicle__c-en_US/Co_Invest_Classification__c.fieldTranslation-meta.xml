@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use to further classify the type of Co-Investment --></help>
+    <label><!-- Co-Invest Classification --></label>
+    <name>Co_Invest_Classification__c</name>
+    <picklistValues>
+        <masterLabel>Co-Invest - Fund</masterLabel>
+        <translation><!-- Co-Invest - Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co-Invest - Listed Vehicle</masterLabel>
+        <translation><!-- Co-Invest - Listed Vehicle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Co-Invest - Other Vehicle</masterLabel>
+        <translation><!-- Co-Invest - Other Vehicle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syndication</masterLabel>
+        <translation><!-- Syndication --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- To identify if there was at least one meeting held with Inv. team --></help>
+    <label><!-- PFG Prospect Met with Inv. team --></label>
+    <name>Prospect_Met_with_Inv_team__c</name>
+</CustomFieldTranslation>

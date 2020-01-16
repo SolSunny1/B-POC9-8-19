@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Current_Investors_Operating_Engineer</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Alias__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE_CODE</columns>
+    <columns>Investor_Type__c</columns>
+    <columns>Private_Funds_Invested_in__c</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>PFG_CRM_Primary_Lead__c</columns>
+    <columns>PFG_General_Investing_Interest__c</columns>
+    <columns>PFG_CRM_Secondary_Lead__c</columns>
+    <columns>PFG_CRM_Real_Asset_Lead__c</columns>
+    <columns>PFG_Relationship_Importance__c</columns>
+    <columns>PFG_Relationship_notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Operating Engineers</value>
+    </filters>
+    <filters>
+        <field>PSG_Alts_Accounts__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>PFG Current Investors-Operating Engineer</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

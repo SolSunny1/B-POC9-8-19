@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Equity</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>PE_Priority__c</fields>
+    <fields>Deal_TeamStrategic__c</fields>
+    <fields>Equity_Check__c</fields>
+    <label>Private Equity</label>
+</CompactLayout>

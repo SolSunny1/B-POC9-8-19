@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The contact status values that will be excluded from results --></help>
+    <label><!-- Exclude Contact Status --></label>
+    <name>Exclude_Contact_Status__c</name>
+</CustomFieldTranslation>

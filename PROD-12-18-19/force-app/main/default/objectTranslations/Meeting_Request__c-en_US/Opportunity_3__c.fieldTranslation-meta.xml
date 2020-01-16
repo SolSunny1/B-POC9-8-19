@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If there is an additional Opportunity to discuss, please list it --></help>
+    <label><!-- Opportunity 3 --></label>
+    <name>Opportunity_3__c</name>
+    <relationshipLabel><!-- Meeting Requests (Opportunity 3) --></relationshipLabel>
+</CustomFieldTranslation>

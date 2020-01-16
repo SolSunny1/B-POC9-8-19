@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A field on the Contact of the current user, that allows the system to determine if the user has permission to make updates to a permission record. --></help>
+    <label><!-- Contact Security Field --></label>
+    <name>Contact_Security_Field__c</name>
+</CustomFieldTranslation>

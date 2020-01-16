@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_Key_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tick this box if the contact should be listed as a BRP Contact</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this box if this is the primary contact at the organization</inlineHelpText>
+    <label>BRP Key Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

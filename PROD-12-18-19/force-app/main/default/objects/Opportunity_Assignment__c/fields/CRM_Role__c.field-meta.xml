@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM_Role__c</fullName>
+    <description>This field is used to identify the CRMs who participate in this opportunity.  The PFG Lead which maps to the opportunity owner  is the &quot;owner&quot;  of the assignment.  The &quot;Secondary&quot; would be the &quot;Secondary CRM&quot;.  The Consultant CRM would be the &quot;Consultant Specialist&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the appropriate CRM for this Assignment.</inlineHelpText>
+    <label>CRM Role</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <label>Owner</label>
+            </value>
+            <value>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+                <label>Secondary</label>
+            </value>
+            <value>
+                <fullName>Secondary CRM (2)</fullName>
+                <default>false</default>
+                <label>Secondary CRM (2)</label>
+            </value>
+            <value>
+                <fullName>Consultant CRM</fullName>
+                <default>false</default>
+                <label>Consultant CRM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

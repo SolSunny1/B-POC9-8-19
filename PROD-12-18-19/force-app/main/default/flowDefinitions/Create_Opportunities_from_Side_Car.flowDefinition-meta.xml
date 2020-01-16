@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>3</activeVersionNumber>
+    <description>When a Sidecar Exists on an Opportunity an Opportunity can be created either as an Open Opportunity or Closed Opportunity.</description>
+    <masterLabel>Create Opportunities from Side Car</masterLabel>
+</FlowDefinition>

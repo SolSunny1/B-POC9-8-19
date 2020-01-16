@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PE_Allocation</fullName>
+    <columns>NAME</columns>
+    <columns>Salesforce_Account__c</columns>
+    <columns>Firm_Name__c</columns>
+    <columns>Current_Allocation_to_PE__c</columns>
+    <columns>Current_Allocation_to_PE_mn_USD__c</columns>
+    <columns>Fund_Preferences__c</columns>
+    <columns>Private_Equity_Consultants__c</columns>
+    <columns>Target_Allocation_to_PE__c</columns>
+    <columns>Target_Allocation_to_PE_mn_USD__c</columns>
+    <columns>Total_DB_Assets__c</columns>
+    <columns>Total_E_F_Assets__c</columns>
+    <columns>Total_PS_Assets__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Target_Allocation_to_PE__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>PE Allocation</label>
+</ListView>

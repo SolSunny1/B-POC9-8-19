@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCP_V_Prospects</fullName>
+    <columns>Opportunity__c</columns>
+    <columns>Account__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Probability__c</columns>
+    <columns>Brookfield_Owner__c</columns>
+    <columns>Close_Date__c</columns>
+    <columns>Fund_Deal__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fund_Deal__c</field>
+        <operation>equals</operation>
+        <value>BCP V</value>
+    </filters>
+    <label>BCP V Prospects</label>
+</ListView>

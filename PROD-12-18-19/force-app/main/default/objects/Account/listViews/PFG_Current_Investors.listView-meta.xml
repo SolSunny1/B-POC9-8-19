@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Current_Investors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Alias__c</columns>
+    <columns>Investor_Type__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>RIA__c</columns>
+    <columns>Private_Funds_Invested_in__c</columns>
+    <columns>Priority_Co_Investor__c</columns>
+    <columns>PFG_CRM_Primary_Lead__c</columns>
+    <columns>PFG_General_Investing_Interest__c</columns>
+    <columns>PFG_CRM_Secondary_Lead__c</columns>
+    <columns>PFG_CRM_Real_Asset_Lead__c</columns>
+    <columns>PFG_Relationship_Importance__c</columns>
+    <columns>PFG_Relationship_notes__c</columns>
+    <columns>BIM_Relationship_Type_del__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>DH</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>11/3/2016 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>PSG_Alts_Accounts__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>PFG Current Investors</label>
+    <sharedTo>
+        <roleAndSubordinates>PFG</roleAndSubordinates>
+    </sharedTo>
+</ListView>

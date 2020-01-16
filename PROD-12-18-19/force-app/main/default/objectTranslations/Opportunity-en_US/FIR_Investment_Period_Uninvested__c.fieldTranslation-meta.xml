@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- FIR- Investment Period - Uninvested - Offered --></help>
+    <label><!-- FIR- Investment Period - Uninvested --></label>
+    <name>FIR_Investment_Period_Uninvested__c</name>
+</CustomFieldTranslation>

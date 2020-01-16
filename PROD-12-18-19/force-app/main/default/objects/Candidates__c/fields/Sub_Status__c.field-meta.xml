@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Process</fullName>
+                <default>false</default>
+                <label>No Process</label>
+            </value>
+            <value>
+                <fullName>BH Stopped Process</fullName>
+                <default>false</default>
+                <label>BH Stopped Process</label>
+            </value>
+            <value>
+                <fullName>Candidate Stopped Process</fullName>
+                <default>false</default>
+                <label>Candidate Stopped Process</label>
+            </value>
+            <value>
+                <fullName>0 – Email</fullName>
+                <default>false</default>
+                <label>0 – Email</label>
+            </value>
+            <value>
+                <fullName>1 – Coffee/Intro Call</fullName>
+                <default>false</default>
+                <label>1 – Coffee/Intro Call</label>
+            </value>
+            <value>
+                <fullName>2 – Who</fullName>
+                <default>false</default>
+                <label>2 – Who</label>
+            </value>
+            <value>
+                <fullName>3 – Assessments</fullName>
+                <default>false</default>
+                <label>3 – Assessments</label>
+            </value>
+            <value>
+                <fullName>4 – Process</fullName>
+                <default>false</default>
+                <label>4 – Process</label>
+            </value>
+            <value>
+                <fullName>5 – Sample</fullName>
+                <default>false</default>
+                <label>5 – Sample</label>
+            </value>
+            <value>
+                <fullName>6 – Behavioral</fullName>
+                <default>false</default>
+                <label>6 – Behavioral</label>
+            </value>
+            <value>
+                <fullName>7 – Reference Check</fullName>
+                <default>false</default>
+                <label>7 – Reference Check</label>
+            </value>
+            <value>
+                <fullName>8 – Negotiations</fullName>
+                <default>false</default>
+                <label>8 – Negotiations</label>
+            </value>
+            <value>
+                <fullName>3 – Process</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3 – Process</label>
+            </value>
+            <value>
+                <fullName>4 – Sample</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4 – Sample</label>
+            </value>
+            <value>
+                <fullName>5 – Assessments</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5 – Assessments</label>
+            </value>
+            <value>
+                <fullName>7 – Scoring Behavioral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>7 – Scoring Behavioral</label>
+            </value>
+            <value>
+                <fullName>8 – Reference Check</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>8 – Reference Check</label>
+            </value>
+            <value>
+                <fullName>9 – Considerations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>9 – Considerations</label>
+            </value>
+            <value>
+                <fullName>Brookfield Stopped Process</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Brookfield Stopped Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

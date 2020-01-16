@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- roll up of PFG Meetings of all time - sum of the number of Meetings on a PFG Opportunity --></help>
+    <label><!-- PFG Number of Meetings --></label>
+    <name>PFG_Number_of_Meetings__c</name>
+</CustomFieldTranslation>

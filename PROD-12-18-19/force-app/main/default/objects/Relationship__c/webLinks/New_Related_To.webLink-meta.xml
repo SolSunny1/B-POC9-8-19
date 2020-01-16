@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Related_To</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Related To</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/a05/e?CF00N40000002pULu={!Contact.Name}&amp;CF00N40000002pULu_lkid={!Contact.Id}&amp;CF00N40000002pULG={!Account.Name}&amp;CF00N40000002pULG_lkid={!Account.Id}&amp;retURL={!Contact.Id}&amp;saveURL={!Contact.Id}</url>
+</WebLink>

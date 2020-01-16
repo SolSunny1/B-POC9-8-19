@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Investor Name that is consolidated from legal entities or alias --></help>
+    <label><!-- Reporting Name --></label>
+    <name>Reporting_Name__c</name>
+</CustomFieldTranslation>

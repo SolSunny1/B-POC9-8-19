@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PSG__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(RecordType.DeveloperName = &quot;Child PSG Investor Positions&quot;,RecordType.DeveloperName=&quot;Parent Public Securities&quot;)</formula>
+    <label>PSG</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

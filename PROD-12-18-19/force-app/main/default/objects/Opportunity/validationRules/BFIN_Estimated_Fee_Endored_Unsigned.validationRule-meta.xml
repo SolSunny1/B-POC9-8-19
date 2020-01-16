@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BFIN_Estimated_Fee_Endored_Unsigned</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(ISPICKVAL(StageName , &#39;Endorsed &amp; Unsigned&#39;), ISNULL(BFIN_Estimated_Fee__c ) ),true,false)</errorConditionFormula>
+    <errorDisplayField>BFIN_Estimated_Fee__c</errorDisplayField>
+    <errorMessage>If Stage is &#39;Endorsed &amp; Unsigned&#39; , the BFIN Estimated Fee is required</errorMessage>
+</ValidationRule>

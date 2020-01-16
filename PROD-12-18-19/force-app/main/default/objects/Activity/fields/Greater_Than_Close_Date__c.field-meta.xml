@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Greater_Than_Close_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>ActivityDate &gt;=  Opportunity__r.Investment_Vehicle__r.Final_Closing_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Greater Than Close Date</label>
+    <type>Checkbox</type>
+</CustomField>

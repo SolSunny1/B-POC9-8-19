@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Strategy1 --></label>
+    <name>Strategy1__c</name>
+    <picklistValues>
+        <masterLabel>Arbitrage</masterLabel>
+        <translation><!-- Arbitrage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit</masterLabel>
+        <translation><!-- Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equity Regional Long/Short</masterLabel>
+        <translation><!-- Equity Regional Long/Short --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equity Sector Long/Short</masterLabel>
+        <translation><!-- Equity Sector Long/Short --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Event Driven</masterLabel>
+        <translation><!-- Event Driven --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Macro</masterLabel>
+        <translation><!-- Macro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantitative</masterLabel>
+        <translation><!-- Quantitative --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

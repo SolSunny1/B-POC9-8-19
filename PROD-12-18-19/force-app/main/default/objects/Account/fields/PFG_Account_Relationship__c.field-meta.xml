@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Account_Relationship__c</fullName>
+    <description>Relationship between Brookfield and the Account, includes Consultant, Investor, Prospect, and Former Client.</description>
+    <externalId>false</externalId>
+    <formula>IF ( ISPICKVAL(Investor_Type__c , &quot;Consultant&quot;), &quot;Consultant&quot;, 
+IF ( ISPICKVAL(Investor_Type__c , &quot;Advisory&quot;), &quot;Advisory&quot;,
+     IF ( PFG_Total_Raised_Capital__c &gt; 0 , &quot;Investor&quot;, 
+         IF ( AND( ISBLANK(PFG_Total_Raised_Capital__c), NOT(ISPICKVAL(Investor_Type__c , &quot;Consultant&quot;))), &quot;Prospect&quot;, 
+               IF ( AND(PFG_Total_Raised_Capital__c = 0), &quot;Former Client&quot;, 
+                &quot;&quot; 
+         ) 
+       ) 
+   ) 
+)
+)</formula>
+    <inlineHelpText>Relationship between Brookfield and the Account, includes Consultant, Investor, Prospect, and Former Client.</inlineHelpText>
+    <label>PFG Account Relationship</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

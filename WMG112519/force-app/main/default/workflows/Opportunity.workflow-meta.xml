@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_std_Probability</fullName>
+        <field>Probability</field>
+        <formula>Probability__c</formula>
+        <name>Update std Probability</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update Opportunity std Probability</fullName>
+        <actions>
+            <name>Update_std_Probability</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( NOT( ISBLANK(Probability__c )), 
+OR ( ISNEW(), ISCHANGED( Probability__c )) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

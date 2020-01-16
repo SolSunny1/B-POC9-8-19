@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this checkbox is checked, all PFG Activity records related to this Opportunity will be shared with Platform Users. --></help>
+    <label><!-- Share with PFG Platform Users --></label>
+    <name>Share_with_PFG_Platform__c</name>
+</CustomFieldTranslation>

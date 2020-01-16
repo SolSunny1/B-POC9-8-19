@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How the Investor wishes to receive Legal Documents. --></help>
+    <label><!-- Legal Documents --></label>
+    <name>Legal__c</name>
+    <picklistValues>
+        <masterLabel>Alert</masterLabel>
+        <translation><!-- Alert --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email and Alert</masterLabel>
+        <translation><!-- Email and Alert --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

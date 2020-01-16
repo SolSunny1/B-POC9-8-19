@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>PFG Sales Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-family: Arial, sans-serif; font-size: 9pt;&quot;&gt;Definition: &lt;/b&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 9pt;&quot;&gt;Prospect identified (CRM has identified prospect as a potential candidate for fund but has made no outreach)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial, sans-serif; font-size: 9pt;&quot;&gt;Stage Objectives:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial, sans-serif; font-size: 9pt;&quot;&gt;Best Practices:&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>1: Prospect identified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Definition: &lt;/b&gt;&lt;span style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Contact initiated (CRM has established contact via email, phone call or meeting with prospect)&lt;/span&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 9pt;&quot;&gt;Investment Team and CRM Interactions&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Stage Objectives:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Best Practices:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>2: Contact initiated</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <picklistValueName>3: Meetings/calls held with Inv Team</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Definition: &lt;/b&gt;&lt;span style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Fund due diligence (e.g., RFI, onsite visit, site tour)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 9pt;&quot;&gt;Seeking Approval&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Stage Objectives:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Best Practices:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>4: Fund due diligence</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Definition: &lt;/b&gt;&lt;span style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;IC has approved and Legal due diligence pending execution&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Stage Objectives:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Best Practices:&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>5: IC approved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Definition: &lt;/b&gt;&lt;span style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Legal review pending (e.g., subscription/KYC documentation)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Stage Objectives:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 9pt; font-family: Arial, sans-serif;&quot;&gt;Best Practices:&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>6: Legal review</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability_Picklist__c</fieldNames>
+        <fieldNames>Opportunity_Highlights__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <picklistValueName>Soft Decline</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>PFG</recordTypeName>
+</PathAssistant>

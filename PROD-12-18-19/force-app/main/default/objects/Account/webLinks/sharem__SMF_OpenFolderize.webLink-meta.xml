@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sharem__SMF_OpenFolderize</fullName>
+    <availability>online</availability>
+    <description>This opens Folderize object-record mode. Use in conjunction with one of the &quot;object-record view&quot; permission sets.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Open Folderize</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR(&#39;/apex/sharem__Folderize&#39;, null, [linkedRecordId=Account.Id])}</url>
+</WebLink>

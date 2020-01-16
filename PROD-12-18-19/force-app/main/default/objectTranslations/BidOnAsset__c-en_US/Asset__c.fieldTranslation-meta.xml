@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the Asset to be included in the bid --></help>
+    <label><!-- Asset --></label>
+    <name>Asset__c</name>
+    <relationshipLabel><!-- Bids On Asset --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Prospect_Reached_Out__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(and ( RecordType.Name =&quot;PFG&quot;,
+   or(
+      
+(PFG_Number_of_Meetings__c)&gt;0,
+( PFG_of_Calles_Emails__c)&gt;0,
+
+      Contains(text(StageName),&quot;2&quot;),
+      Contains(text(StageName),&quot;3&quot;),
+      Contains(text(StageName),&quot;4&quot;),
+      Contains(text(StageName),&quot;5&quot;),
+      Contains(text(StageName),&quot;6&quot;),
+      Contains(text(StageName),&quot;7&quot;),
+      Contains(text(StageName),&quot;8&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;2&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;3&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;4&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;5&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;6&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;7&quot;))),1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PFG Prospect Reached Out</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

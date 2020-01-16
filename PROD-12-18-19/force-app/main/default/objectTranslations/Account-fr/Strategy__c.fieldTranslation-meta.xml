@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Strategies the Account is interested in Co-investing with --></help>
+    <label><!-- Strategy --></label>
+    <name>Strategy__c</name>
+    <picklistValues>
+        <masterLabel>Core</masterLabel>
+        <translation><!-- Core --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Core-Plus</masterLabel>
+        <translation><!-- Core-Plus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debt</masterLabel>
+        <translation><!-- Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distressed</masterLabel>
+        <translation><!-- Distressed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunistic</masterLabel>
+        <translation><!-- Opportunistic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value-Add</masterLabel>
+        <translation><!-- Value-Add --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

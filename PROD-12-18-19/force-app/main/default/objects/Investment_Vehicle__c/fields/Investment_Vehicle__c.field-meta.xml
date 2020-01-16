@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Investment_Vehicle__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Related Fund to this co-investment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Related Fund to this co-investment</inlineHelpText>
+    <label>Related Fund</label>
+    <referenceTo>Investment_Vehicle__c</referenceTo>
+    <relationshipLabel>Co-Investments</relationshipLabel>
+    <relationshipName>Investment_Vehicles</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

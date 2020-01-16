@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Related_Fund_Restricted</fullName>
+    <active>true</active>
+    <description>The related fund can only be specified if the investment vehicle is a co-invest</description>
+    <errorConditionFormula>AND(
+ NOT(ISPICKVAL(Vehicle_Type__c,&#39;Co-Invest&#39;)),
+ NOT(ISBLANK( Investment_Vehicle__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Investment_Vehicle__c</errorDisplayField>
+    <errorMessage>The related fund can only be specified for Co-Invest Vehicle Types</errorMessage>
+</ValidationRule>

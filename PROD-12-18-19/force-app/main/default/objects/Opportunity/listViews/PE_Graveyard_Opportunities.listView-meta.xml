@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PE_Graveyard_Opportunities</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>PE_Priority__c</columns>
+    <columns>Deal_TeamStrategic__c</columns>
+    <columns>Industry__c</columns>
+    <columns>Sub_Industry__c</columns>
+    <columns>Engaged_Mgmt__c</columns>
+    <columns>Pipeline_Slide__c</columns>
+    <columns>Equity_Check__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Private_Equity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <label>PE Graveyard Opportunities</label>
+    <sharedTo>
+        <role>Private_Equity</role>
+    </sharedTo>
+</ListView>

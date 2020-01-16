@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Materials_Required__c</fullName>
+    <description>Please select the Materials you will need for the meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the Materials you will need for the meeting</inlineHelpText>
+    <label>Materials Required</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Update Book</fullName>
+                <default>false</default>
+                <label>Client Update Book</label>
+            </value>
+            <value>
+                <fullName>Standard Pitch Book</fullName>
+                <default>false</default>
+                <label>Standard Pitch Book</label>
+            </value>
+            <value>
+                <fullName>Custom Pitch Book</fullName>
+                <default>false</default>
+                <label>Custom Pitch Book</label>
+            </value>
+            <value>
+                <fullName>Operational Due Diligence Pitch Book</fullName>
+                <default>false</default>
+                <label>Operational Due Diligence Pitch Book</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

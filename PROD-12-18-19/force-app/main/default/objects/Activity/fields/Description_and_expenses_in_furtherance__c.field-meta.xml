@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description_and_expenses_in_furtherance__c</fullName>
+    <description>Description and expenses in furtherance of lobbying
+(for example: 30-minute discussion with consultant Jim O&#39;Brien from The Connecticut Group LLC to prepare for meeting with public official)&quot;</description>
+    <externalId>false</externalId>
+    <label>Report Summary</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

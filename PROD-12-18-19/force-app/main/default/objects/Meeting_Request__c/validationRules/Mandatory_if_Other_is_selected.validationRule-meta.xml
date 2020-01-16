@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_if_Other_is_selected</fullName>
+    <active>true</active>
+    <errorConditionFormula>INCLUDES( Materials_Required__c , &quot;Other&quot;)&amp;&amp;
+ ISBLANK( Other_Materials_Needed__c )</errorConditionFormula>
+    <errorDisplayField>Other_Materials_Needed__c</errorDisplayField>
+    <errorMessage>Please provided details of the other materials you require.</errorMessage>
+</ValidationRule>

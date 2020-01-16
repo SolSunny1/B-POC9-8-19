@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Who will communicate the logistical details of the meeting with the client --></help>
+    <label><!-- Communication of details to Client --></label>
+    <name>Communication_of_details_to_Client__c</name>
+    <picklistValues>
+        <masterLabel>Administrative team</masterLabel>
+        <translation><!-- Administrative team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client Service Rep</masterLabel>
+        <translation><!-- Client Service Rep --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relationship Manager</masterLabel>
+        <translation><!-- Relationship Manager --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

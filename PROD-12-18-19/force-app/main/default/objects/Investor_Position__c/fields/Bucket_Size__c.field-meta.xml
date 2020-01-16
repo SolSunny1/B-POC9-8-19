@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bucket_Size__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Historical_Commitment_US__c &gt;= 200000000,&quot;Large $200MM+&quot;,
+IF(Historical_Commitment_US__c &gt;= 50000000,&quot;Medium $50-199MM&quot;,
+IF(Historical_Commitment_US__c &lt; 50000000,&quot;Average &lt;$50MM&quot;,&quot; &quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculated to determine the Bucket Size based on Raised Capital:
+Large = &gt;$200MM
+Medium = $50 - 199MM
+Average = &lt;$50MM</inlineHelpText>
+    <label>Bucket Size</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- for roll up helper field --></help>
+    <label><!-- Final Amount invested in --></label>
+    <name>Final_Amount_invested_in__c</name>
+</CustomFieldTranslation>

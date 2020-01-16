@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PFG Available for Drawdown - After Sub --></label>
+    <name>PFG_Avail_for_Drdown_After_Sub__c</name>
+</CustomFieldTranslation>

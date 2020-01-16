@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up total of External Raised (Historical/Original) Capital (LPs and Operating Partners) --></help>
+    <label><!-- External Raised Capital --></label>
+    <name>External_Raised_Capital__c</name>
+</CustomFieldTranslation>

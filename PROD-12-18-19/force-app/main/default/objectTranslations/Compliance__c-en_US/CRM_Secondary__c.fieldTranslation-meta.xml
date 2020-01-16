@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Field (CRM Secondary) is auto-populated from corresponding Account field: &quot;Secondary&quot; --></help>
+    <label><!-- Secondary --></label>
+    <name>CRM_Secondary__c</name>
+    <relationshipLabel><!-- Compliance (Secondary) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signed_off_by_CRM__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To indicate that the CRM has reviewed the data in the KYC form and certifies that the information is correct to the best of their knowledge.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To indicate that the CRM has reviewed the data in the KYC form and certifies that the information is correct to the best of their knowledge.</inlineHelpText>
+    <label>Signed off by CRM</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

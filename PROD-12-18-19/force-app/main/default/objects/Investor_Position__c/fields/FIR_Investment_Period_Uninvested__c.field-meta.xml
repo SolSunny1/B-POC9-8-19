@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIR_Investment_Period_Uninvested__c</fullName>
+    <description>FIR- Investment Period - Uninvested</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fund Investor Rate based on amount committed but not invested.
+
+Fund Investment Rate is the rate given to investors based on discounts, etc. Different than Fund Headline Rate</inlineHelpText>
+    <label>FIR- Investment Period - Uninvested</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

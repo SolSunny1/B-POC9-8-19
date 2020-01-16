@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_of_Work__c</fullName>
+    <description>Expert witness or consultant, Grass-roots (i.e., direct mail or phone solicitation), Media (print or electronic advertising), Polling, Lobbying, Other</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Expert witness or consultant, Grass-roots (i.e., direct mail or phone solicitation), Media (print or electronic advertising), Polling, Lobbying, Other</inlineHelpText>
+    <label>Category of Work</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

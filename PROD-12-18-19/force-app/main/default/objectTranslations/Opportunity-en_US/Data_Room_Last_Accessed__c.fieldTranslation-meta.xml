@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Last day the Data Room was accessed --></help>
+    <label><!-- Data Room Last Accessed --></label>
+    <name>Data_Room_Last_Accessed__c</name>
+</CustomFieldTranslation>

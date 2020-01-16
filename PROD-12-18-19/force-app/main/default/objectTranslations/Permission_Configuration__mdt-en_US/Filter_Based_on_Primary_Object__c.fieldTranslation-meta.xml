@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Filter Based on Primary Object --></label>
+    <name>Filter_Based_on_Primary_Object__c</name>
+</CustomFieldTranslation>

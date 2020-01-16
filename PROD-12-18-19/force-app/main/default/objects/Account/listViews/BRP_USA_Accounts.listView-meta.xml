@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRP_USA_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>BRP_Region__c</columns>
+    <columns>BRP_Account_Type__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.BRP</value>
+    </filters>
+    <filters>
+        <field>BRP_Region__c</field>
+        <operation>equals</operation>
+        <value>BRP_USA</value>
+    </filters>
+    <label>BRP USA  All Accounts</label>
+    <sharedTo>
+        <role>BRP_Business_Development</role>
+        <role>BRP_Commercial_Dev</role>
+    </sharedTo>
+</ListView>

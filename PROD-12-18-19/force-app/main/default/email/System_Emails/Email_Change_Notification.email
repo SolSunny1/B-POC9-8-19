@@ -1,0 +1,5 @@
+An email address in Salesforce has been updated to: {!Contact.Email}
+Contact Name: {!Contact.Name}
+Contact ID: {!Contact.Id}
+
+Funds invested in: {!Account.Private_Funds_Invested_in__c}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Other Brookfield Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brookfield Activities</value>
+    </caseValues>
+    <layouts>
+        <layout>Brookfield Activity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Created by PFG, visible to PSG --></description>
+        <label><!-- PFG --></label>
+        <name>PFG</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Created by PSG, visible to PFG --></description>
+        <label><!-- PSG --></label>
+        <name>PSG</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

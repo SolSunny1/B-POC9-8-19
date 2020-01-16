@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Capacity_MW__c</fullName>
+    <description>Potential available capacity from pipeline</description>
+    <externalId>false</externalId>
+    <formula>Asset_Capacity_MW__c - Forecasted_MW__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Potential available capacity from pipeline</inlineHelpText>
+    <label>Available Capacity (MW)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

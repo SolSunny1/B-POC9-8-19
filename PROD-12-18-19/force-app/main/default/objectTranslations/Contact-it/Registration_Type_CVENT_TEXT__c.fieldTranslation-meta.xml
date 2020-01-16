@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copy registration type into this field via import, for integration through cvent --></help>
+    <label><!-- Registration Type - CVENT TEXT --></label>
+    <name>Registration_Type_CVENT_TEXT__c</name>
+</CustomFieldTranslation>

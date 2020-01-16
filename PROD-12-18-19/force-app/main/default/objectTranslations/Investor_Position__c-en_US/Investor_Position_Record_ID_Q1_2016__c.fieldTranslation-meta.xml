@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Investor Position Record ID for Q1 2018 for future refernce --></help>
+    <label><!-- Investor Position Record ID Q1 2018 --></label>
+    <name>Investor_Position_Record_ID_Q1_2016__c</name>
+</CustomFieldTranslation>

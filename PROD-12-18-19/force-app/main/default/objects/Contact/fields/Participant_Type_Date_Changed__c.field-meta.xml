@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Participant_Type_Date_Changed__c</fullName>
+    <description>If the participant type has changed, populate the date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the participant type has changed, populate the date</inlineHelpText>
+    <label>Participant Type - Date Changed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

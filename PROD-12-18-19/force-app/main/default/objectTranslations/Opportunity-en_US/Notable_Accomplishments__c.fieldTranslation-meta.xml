@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Notable Accomplishments --></label>
+    <name>Notable_Accomplishments__c</name>
+    <picklistValues>
+        <masterLabel>Blank</masterLabel>
+        <translation><!-- Blank --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selected as Finalist</masterLabel>
+        <translation><!-- Selected as Finalist --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

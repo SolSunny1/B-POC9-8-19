@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brookfield_Opportunity_Compact</fullName>
+    <fields>Opportunity__c</fields>
+    <fields>Stage__c</fields>
+    <fields>Brookfield_Owner__c</fields>
+    <fields>Amount__c</fields>
+    <fields>Last_Activity__c</fields>
+    <label>Brookfield Opportunity Compact</label>
+</CompactLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAM_Finance_Lightning_Page_Layouts</fullName>
+    <fields>Name</fields>
+    <fields>Status__c</fields>
+    <fields>Size__c</fields>
+    <fields>Closing_Date__c</fields>
+    <fields>Type__c</fields>
+    <fields>CreatedById</fields>
+    <fields>LastModifiedById</fields>
+    <fields>Capital_Pool__c</fields>
+    <label>BAM Finance Lightning Page Layouts</label>
+</CompactLayout>

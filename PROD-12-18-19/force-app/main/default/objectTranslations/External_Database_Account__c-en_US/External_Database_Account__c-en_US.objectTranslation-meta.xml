@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>External Database Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>External Database Accounts</value>
+    </caseValues>
+    <layouts>
+        <layout>External Database Account Layout</layout>
+        <sections>
+            <label><!-- Advisor Info --></label>
+            <section>Advisor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Asset Breakdown --></label>
+            <section>Asset Breakdown</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Linked Salesforce Account --></label>
+            <section>Linked Salesforce Account</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Preqin</layout>
+        <sections>
+            <label><!-- Advisor Info --></label>
+            <section>Advisor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Asset Breakdown --></label>
+            <section>Asset Breakdown</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Linked Salesforce Account --></label>
+            <section>Linked Salesforce Account</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- MMD Source Data --></description>
+        <label><!-- MMD --></label>
+        <name>MMD</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Preqin data --></description>
+        <label><!-- Preqin --></label>
+        <name>Preqin</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Create_Salesforce_Account --></label>
+        <name>Create_Salesforce_Account</name>
+    </webLinks>
+</CustomObjectTranslation>

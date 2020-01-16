@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Department --></label>
+    <name>Department_Finance__c</name>
+    <picklistValues>
+        <masterLabel>Corporate/Banking</masterLabel>
+        <translation><!-- Corporate/Banking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DCM</masterLabel>
+        <translation><!-- DCM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Derivative Advisory</masterLabel>
+        <translation><!-- Derivative Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECM</masterLabel>
+        <translation><!-- ECM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FX</masterLabel>
+        <translation><!-- FX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure</masterLabel>
+        <translation><!-- Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest Rates</masterLabel>
+        <translation><!-- Interest Rates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lev Fin</masterLabel>
+        <translation><!-- Lev Fin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M&amp;A/Advisory</masterLabel>
+        <translation><!-- M&amp;A/Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate</masterLabel>
+        <translation><!-- Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewables</masterLabel>
+        <translation><!-- Renewables --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USPP</masterLabel>
+        <translation><!-- USPP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

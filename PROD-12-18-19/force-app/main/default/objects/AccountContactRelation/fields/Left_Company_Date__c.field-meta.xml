@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Left_Company_Date__c</fullName>
+    <description>Date Contact Left the Firm</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Contact Left the Firm</inlineHelpText>
+    <label>Left Company Date</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

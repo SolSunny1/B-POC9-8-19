@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Created for KYC Phase 2 - Case#2808</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Test_Letterhead_without_border</letterhead>
+    <name>Auto Legal and Compliance Approval</name>
+    <style>freeForm</style>
+    <subject>{!Compliance__c.CreatedBy} created a new Compliance form for {!Compliance__c.Prospect_Name__c}</subject>
+    <textOnly>Hi Legal/Compliance Team,
+
+
+{!Compliance__c.CreatedBy} created a new Compliance form for account: {!Compliance__c.Prospect_Name__c}. Please review.
+
+
+Compliance Name: {!Compliance__c.Name}
+
+
+Compliance Link: {!Compliance__c.Link}
+
+Approval Submission Notes: {!ApprovalRequest.Comments}
+
+
+
+Regards,
+
+CRM Support Team.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

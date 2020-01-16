@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Arbitrage</fullName>
+        <default>false</default>
+        <label>Arbitrage</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit</fullName>
+        <default>false</default>
+        <label>Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Equity Sector Long/Short</fullName>
+        <default>false</default>
+        <label>Equity Sector Long/Short</label>
+    </customValue>
+    <customValue>
+        <fullName>Event Driven</fullName>
+        <default>false</default>
+        <label>Event Driven</label>
+    </customValue>
+    <customValue>
+        <fullName>Macro</fullName>
+        <default>false</default>
+        <label>Macro</label>
+    </customValue>
+    <customValue>
+        <fullName>Quantitative</fullName>
+        <default>false</default>
+        <label>Quantitative</label>
+    </customValue>
+    <customValue>
+        <fullName>Equity Regional Long/Short</fullName>
+        <default>false</default>
+        <label>Equity Regional Long/Short</label>
+    </customValue>
+    <customValue>
+        <fullName>ECM</fullName>
+        <default>false</default>
+        <label>ECM</label>
+    </customValue>
+    <masterLabel>Strategy</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

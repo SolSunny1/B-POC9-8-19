@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Listed_Issuers_BAM</fullName>
+    <columns>NAME</columns>
+    <columns>Units_Shares__c</columns>
+    <columns>As_of__c</columns>
+    <columns>Value_US_MM__c</columns>
+    <columns>Ticker__c</columns>
+    <columns>Investment_Vehicle__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Investor_Position__c.Listed_Issuers</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>contains</operation>
+        <value>BAM</value>
+    </filters>
+    <label>Listed Issuers - BAM</label>
+</ListView>

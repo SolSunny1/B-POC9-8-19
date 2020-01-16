@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Date_and_Time_of_Meeting__c</fullName>
+    <description>Select the final date and time of meeting</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the final date and time of meeting</inlineHelpText>
+    <label>Final Date and Time of Meeting</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Case Quick Change</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Status</fieldNames>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Subject</fieldNames>
+        <fieldNames>Status</fieldNames>
+        <fieldNames>On_The_Roadmap__c</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Quick_Change</recordTypeName>
+</PathAssistant>

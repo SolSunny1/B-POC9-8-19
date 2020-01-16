@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BPREP_Investors</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Legal_Name__c</columns>
+    <columns>Consultant__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Sub_Investor_Amount__c</columns>
+    <columns>Min_Amount__c</columns>
+    <columns>Max_Amount__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Parent_Opportunity__c</columns>
+    <columns>Consultant_CRM__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Close_Details__c</columns>
+    <columns>Estimated_Close__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.WON</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BPREP</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>Sub_Investor_Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>USD 0</value>
+    </filters>
+    <label>BPREP Investors</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

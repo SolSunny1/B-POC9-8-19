@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+    AND( ISBLANK(TEXT(Sub_Status__c)),ISBLANK(TEXT(GeneralSubStatus__c)) ),  &quot;New&quot;,
+    IF ( 
+        OR ( ISPICKVAL(Sub_Status__c, &quot;No Process&quot;),
+             ISPICKVAL(Sub_Status__c, &quot;Candidate Stopped Process&quot;),
+             ISPICKVAL(Sub_Status__c, &quot;BH Stopped Process&quot;),
+             ISPICKVAL(GeneralSubStatus__c, &quot;No Process&quot;),
+             ISPICKVAL(GeneralSubStatus__c, &quot;Candidate Stopped Process&quot;),
+             ISPICKVAL(GeneralSubStatus__c, &quot;BH Stopped Process&quot;)
+            ), &quot;Not Active&quot;, 
+      &quot;Active&quot;
+    ) 
+)
+   
+
+/*
+No Process
+BH Stopped Process
+Candidate Stopped Process
+
+
+New
+Not Active
+Active
+*/</formula>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

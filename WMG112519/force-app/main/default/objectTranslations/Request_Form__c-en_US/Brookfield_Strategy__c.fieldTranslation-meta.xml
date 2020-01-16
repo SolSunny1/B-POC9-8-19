@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Brookfield Strategy --></label>
+    <name>Brookfield_Strategy__c</name>
+    <picklistValues>
+        <masterLabel>Brookfield Global Listed Infrastructure Fund</masterLabel>
+        <translation><!-- Brookfield Global Listed Infrastructure Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield Global Listed Real Estate Fund</masterLabel>
+        <translation><!-- Brookfield Global Listed Real Estate Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield Real Assets Securities Fund</masterLabel>
+        <translation><!-- Brookfield Real Assets Securities Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brookfield U.S. Listed Real Estate Fund</masterLabel>
+        <translation><!-- Brookfield U.S. Listed Real Estate Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CEN</masterLabel>
+        <translation><!-- CEN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast Brookfield MLP Focus Fund</masterLabel>
+        <translation><!-- Center Coast Brookfield MLP Focus Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Center Coast Brookfield MLP SMA</masterLabel>
+        <translation><!-- Center Coast Brookfield MLP SMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Office</masterLabel>
+        <translation><!-- Home Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INF</masterLabel>
+        <translation><!-- INF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RA</masterLabel>
+        <translation><!-- RA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

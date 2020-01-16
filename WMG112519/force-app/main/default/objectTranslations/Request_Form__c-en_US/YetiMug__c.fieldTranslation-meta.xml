@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cost: $23.74/each --></help>
+    <label><!-- Yeti Mug --></label>
+    <name>YetiMug__c</name>
+</CustomFieldTranslation>

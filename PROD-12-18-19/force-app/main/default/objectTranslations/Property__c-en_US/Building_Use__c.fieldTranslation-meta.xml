@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Building Use --></label>
+    <name>Building_Use__c</name>
+    <picklistValues>
+        <masterLabel>Automotive/Tires</masterLabel>
+        <translation><!-- Automotive/Tires --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk</masterLabel>
+        <translation><!-- Bulk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distribution</masterLabel>
+        <translation><!-- Distribution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-commerce</masterLabel>
+        <translation><!-- E-commerce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freezer</masterLabel>
+        <translation><!-- Freezer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Light Industrial</masterLabel>
+        <translation><!-- Light Industrial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation><!-- Manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multi Temp</masterLabel>
+        <translation><!-- Multi Temp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parcel Hub</masterLabel>
+        <translation><!-- Parcel Hub --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R&amp;D/Flex</masterLabel>
+        <translation><!-- R&amp;D/Flex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refrigerated</masterLabel>
+        <translation><!-- Refrigerated --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

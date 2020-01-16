@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Account Level Relationship Importance --></help>
+    <label><!-- Relationship Importance --></label>
+    <name>Relationship_Importance__c</name>
+    <picklistValues>
+        <masterLabel>Do Not Call</masterLabel>
+        <translation><!-- Do Not Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High (1)</masterLabel>
+        <translation><!-- High (1) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Low (3)</masterLabel>
+        <translation><!-- Low (3) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medium (2)</masterLabel>
+        <translation><!-- Medium (2) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Interested in Private Funds</masterLabel>
+        <translation><!-- Not Interested in Private Funds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research Required</masterLabel>
+        <translation><!-- Research Required --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

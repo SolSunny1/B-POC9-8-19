@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Bid</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Bid</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/a01/e?CF00N40000002pKiO={!Campaign.Name}&amp;CF00N40000002pKiO={!Campaign.Id}&amp;CF00N40000002pLHO={!Campaign.Original_Deal_Opportunity__c}&amp;saveURL={!Campaign.Id}&amp;cancelURL={!Campaign.Id}</url>
+</WebLink>

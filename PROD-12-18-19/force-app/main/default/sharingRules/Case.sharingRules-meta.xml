@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Case_Request_record_type_sharing_rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request record type sharing rule</label>
+        <sharedTo>
+            <group>Sys_Admin_Support</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Quick Change,Support,Enhancement request,Data User Report Dashboard</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PSG_Inquiry</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>SS: Created to share PSG Inquiries cases with PSG group</description>
+        <label>PSG Inquiry</label>
+        <sharedTo>
+            <roleAndSubordinates>BIM_Exec</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG Inquiries</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>APAC_CRM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>APAC CRM</label>
+        <sharedTo>
+            <group>APAC_CRM</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>APAC_CRM</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Infrastructure</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PMT Infrastructure</label>
+        <sharedTo>
+            <group>PMT_Infrastructure</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Infrastructure</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Infrastructure_Sharing_PE</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PMT Infrastructure Sharing PE</label>
+        <sharedTo>
+            <group>PMT_Private_Equity</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Infrastructure</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Infrastructure_Sharing_RE</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PMT Infrastructure Sharing RE</label>
+        <sharedTo>
+            <group>PMT_Real_Estate</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Infrastructure</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Private_Equity</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PMT Private Equity</label>
+        <sharedTo>
+            <group>PMT_Private_Equity</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Private_Equity</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Private_Equity_Sharing_Infra</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PMT Private Equity Sharing Infra</label>
+        <sharedTo>
+            <group>PMT_Infrastructure</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Private_Equity</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Private_Equity_Sharing_RE</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PMT Private Equity Sharing RE</label>
+        <sharedTo>
+            <group>PMT_Real_Estate</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Private_Equity</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Real_Estate</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PMT Real Estate</label>
+        <sharedTo>
+            <group>PMT_Real_Estate</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Real_Estate</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Real_Estate_Sharing_Infra</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PMT Real Estate Sharing Infra</label>
+        <sharedTo>
+            <group>PMT_Infrastructure</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Real_Estate</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PMT_Real_Estate_Sharing_PE</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PMT Real Estate Sharing PE</label>
+        <sharedTo>
+            <group>PMT_Private_Equity</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>PMT_Real_Estate</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

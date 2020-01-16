@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Opportunity__c</fullName>
+    <description>Check to see if the Opportunity is active.  If the Investment vehicle is In marketing and the Probability is &gt;=30% and is not Won.</description>
+    <externalId>false</externalId>
+    <formula>IF( Investment_Vehicle_In_Marketing__c = True &amp;&amp;  IsWon = False &amp;&amp; NOT(ISPICKVAL(StageName, &quot;Firm Decline&quot;)), TRUE, FALSE)</formula>
+    <inlineHelpText>Check to see if the Opportunity is active.  If the Investment vehicle is In marketing and the Probability is &gt;=30% and is not Won.</inlineHelpText>
+    <label>Active Opportunity</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

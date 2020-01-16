@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAM_Finance_Pipeline_Report__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This  Field is currently used for BAM Finance Deals</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check the box to include this deal in the Deals pipeline report.</inlineHelpText>
+    <label>BAM Finance Pipeline Report</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

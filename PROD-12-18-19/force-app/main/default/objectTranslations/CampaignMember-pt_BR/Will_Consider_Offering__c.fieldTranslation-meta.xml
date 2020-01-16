@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For reporting checks if the Bid_Probability = High --></help>
+    <label><!-- Will Consider Offering --></label>
+    <name>Will_Consider_Offering__c</name>
+</CustomFieldTranslation>

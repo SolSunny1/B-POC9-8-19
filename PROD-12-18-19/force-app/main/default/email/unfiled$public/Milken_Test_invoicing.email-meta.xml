@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Milken Invite Test</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Milken Invite w Invoicing</name>
+    <style>none</style>
+    <subject>You Are Invited: Brookfield Private Dinner - Milken Institute Global Conference 2017</subject>
+    <textOnly>Brookfield | You are Invited
+
+Milken Institute Global Conference 2017
+
+Thank you for joining us for our Private Dinner hosted by Bruce Flatt, CEO, and Barry Blattman, Vice Chairman. We had a great time!! 
+
+Look forward to seeing you soon!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter additional comments if required for records marked for Deletion/Merge. 
+If Merged, specify the Contact to merge under. --></help>
+    <label><!-- Merge/Delete Note --></label>
+    <name>Merge_Delete_Note__c</name>
+</CustomFieldTranslation>

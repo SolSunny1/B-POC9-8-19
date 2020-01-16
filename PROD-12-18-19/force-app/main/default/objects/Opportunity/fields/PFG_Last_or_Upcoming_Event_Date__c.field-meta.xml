@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Last_or_Upcoming_Event_Date__c</fullName>
+    <description>PFG Last meeting date roll up</description>
+    <externalId>false</externalId>
+    <inlineHelpText>PFG Last meeting date roll up</inlineHelpText>
+    <label>PFG Last or Upcoming Event Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

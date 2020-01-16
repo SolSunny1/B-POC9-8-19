@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investment Strategy --></label>
+    <name>InvestmentStrategy__c</name>
+    <picklistValues>
+        <masterLabel>Core</masterLabel>
+        <translation><!-- Core --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Core+</masterLabel>
+        <translation><!-- Core+ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunistic</masterLabel>
+        <translation><!-- Opportunistic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secondaries</masterLabel>
+        <translation><!-- Secondaries --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Tenant/Net Lease</masterLabel>
+        <translation><!-- Single Tenant/Net Lease --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value-Add</masterLabel>
+        <translation><!-- Value-Add --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

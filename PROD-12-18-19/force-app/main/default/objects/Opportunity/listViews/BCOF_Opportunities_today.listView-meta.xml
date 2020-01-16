@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BCOF_Opportunities_today</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <columns>Priority__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Date_of_Last_Meeting_with_Investment_Tea__c</columns>
+    <columns>Weighted_Probablity_AUM__c</columns>
+    <columns>Reason_for_Decline__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Date_of_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>BCOF</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>BCOF Opportunities-today</label>
+    <sharedTo>
+        <group>BIM_Opportunity</group>
+    </sharedTo>
+</ListView>

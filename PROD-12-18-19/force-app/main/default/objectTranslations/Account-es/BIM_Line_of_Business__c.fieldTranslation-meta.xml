@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PSG Line of Business --></label>
+    <name>BIM_Line_of_Business__c</name>
+    <picklistValues>
+        <masterLabel>Credit Opportunities</masterLabel>
+        <translation><!-- Credit Opportunities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diversified Real Assets</masterLabel>
+        <translation><!-- Diversified Real Assets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Equity Opportunities</masterLabel>
+        <translation><!-- Equity Opportunities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Listed Infrastructure</masterLabel>
+        <translation><!-- Listed Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Asset Debt</masterLabel>
+        <translation><!-- Real Asset Debt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate Securities</masterLabel>
+        <translation><!-- Real Estate Securities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Securitized Credit</masterLabel>
+        <translation><!-- Securitized Credit --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

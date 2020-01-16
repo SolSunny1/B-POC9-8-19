@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Functional_Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Functional Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PMT - Infrastructure</fullName>
+                <default>false</default>
+                <label>PMT - Infrastructure</label>
+            </value>
+            <value>
+                <fullName>PMT - Private Equity</fullName>
+                <default>false</default>
+                <label>PMT - Private Equity</label>
+            </value>
+            <value>
+                <fullName>PMT - Real Estate</fullName>
+                <default>false</default>
+                <label>PMT - Real Estate</label>
+            </value>
+            <value>
+                <fullName>TSG</fullName>
+                <default>false</default>
+                <label>TSG</label>
+            </value>
+            <value>
+                <fullName>PFG - SF</fullName>
+                <default>false</default>
+                <label>PFG - SF</label>
+            </value>
+            <value>
+                <fullName>PFG - FinOps</fullName>
+                <default>false</default>
+                <label>PFG - FinOps</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

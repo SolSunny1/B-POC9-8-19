@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRK_4_U_S_ListedRealEstateFund_Cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>BRK_4_U_S_Listed_Real_Estate_Fund__c * 0.75</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BRK 4 -U.S.ListedRealEstateFund Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

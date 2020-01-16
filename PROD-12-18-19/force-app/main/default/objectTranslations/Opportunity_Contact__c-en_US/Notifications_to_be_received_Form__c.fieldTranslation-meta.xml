@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Notifications to be received - Form --></label>
+    <name>Notifications_to_be_received_Form__c</name>
+    <picklistValues>
+        <masterLabel>Annual Meeting Notice</masterLabel>
+        <translation><!-- Annual Meeting Notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Calls via Intralinks</masterLabel>
+        <translation><!-- Capital Calls via Intralinks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference Calls</masterLabel>
+        <translation><!-- Conference Calls --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distributions via Intralinks</masterLabel>
+        <translation><!-- Distributions via Intralinks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Communications and Fund Updates</masterLabel>
+        <translation><!-- General Communications and Fund Updates --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal Documents &amp; Compliance Matters via Intralinks</masterLabel>
+        <translation><!-- Legal Documents &amp; Compliance Matters via Intralinks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reports &amp; Capital Accounts via Intralinks</masterLabel>
+        <translation><!-- Reports &amp; Capital Accounts via Intralinks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tax Reporting via Intralinks</masterLabel>
+        <translation><!-- Tax Reporting via Intralinks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welcome Letter</masterLabel>
+        <translation><!-- Welcome Letter --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Vehicle_ID__c</fullName>
+    <description>Investment Vehicle ID used by Mass Opportunity Creation [BF-6]</description>
+    <externalId>false</externalId>
+    <formula>Investor_Opportunity__r.Investment_Vehicle__c</formula>
+    <inlineHelpText>Investment Vehicle ID used by Mass Opportunity Creation</inlineHelpText>
+    <label>Investment Vehicle ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

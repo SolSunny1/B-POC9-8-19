@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investment_Vehicle__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Investment vehicle (e.g., the fund or co-investment) name by using the lookup function</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Investment vehicle (e.g., the fund or co-investment) name by using the lookup function</inlineHelpText>
+    <label>Investment Vehicle</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Investment_Vehicle__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Inactive, Discontinued, Closed</value>
+        </filterItems>
+        <filterItems>
+            <field>Investment_Vehicle__c.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Archived and Deactivated Investment Vehicle, Inactive Record Type</value>
+        </filterItems>
+        <filterItems>
+            <field>$UserRole.Id</field>
+            <operation>equals</operation>
+            <valueField>$User.UserRoleId</valueField>
+        </filterItems>
+        <infoMessage>Filtered by Funds in the Market. Click SHOW ALL to expand the list. Please don&#39;t create Opportunities for inactive or closed Vehicles.</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Investment_Vehicle__c</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

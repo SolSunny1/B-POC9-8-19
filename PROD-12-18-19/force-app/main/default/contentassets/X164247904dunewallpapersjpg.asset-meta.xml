@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>X164247904dunewallpapersjpg</masterLabel>
+    <relationships>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Dashboard_Templates</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>PSG</name>
+        </insightsApplication>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>164247904-dune-wallpapers.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

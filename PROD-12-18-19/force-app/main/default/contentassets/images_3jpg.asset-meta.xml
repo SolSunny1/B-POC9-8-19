@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>images_3jpg</masterLabel>
+    <relationships>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Dashboard_Templates</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>PSG_Shared_App</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>PSG</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Test_and_Draft_App</name>
+        </insightsApplication>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>images (3).jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

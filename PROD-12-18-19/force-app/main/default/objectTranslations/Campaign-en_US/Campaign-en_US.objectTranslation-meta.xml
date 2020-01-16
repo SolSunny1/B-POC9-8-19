@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>BRP Lobby</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Alternative funds group --></description>
+        <label><!-- Alternative Funds --></label>
+        <name>Alternative_Funds</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- BFIN Campaigns used for Deal Listings and Marketing --></description>
+        <label><!-- BFIN --></label>
+        <name>BFIN</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Campaigns used in the traditional format, with potential Opportunities originating from Campaign --></description>
+        <label><!-- BFIN_Traditional --></label>
+        <name>BFIN_Traditional</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BLP --></label>
+        <name>BLP</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- To track the lobbying effort for BRP --></description>
+        <label><!-- BRP Lobbying Initiatives --></label>
+        <name>BRP_Lobbying_Initiatives</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Brookfield Diligence Portal --></label>
+        <name>Brookfield_Diligence_Portal</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PFG &amp; BIM Default Campaign Record Type --></description>
+        <label><!-- PFG --></label>
+        <name>PFG</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For Brookfield Private Funds Investor Annual Conference (BPFAIC) --></description>
+        <label><!-- PFG Annual Investor Conference (BPFAIC) --></label>
+        <name>PFG_Annual_Investor_Conference</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PSG --></label>
+        <name>PSG</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Can not change Room Type or Account or Type of a Campaign once created --></errorMessage>
+        <name>Restrict_Fields_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must choose a specific Investor to create an Prospect Specific room. --></errorMessage>
+        <name>Validation_on_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must choose a specific Sleeve to create a Sleeve Specific room. --></errorMessage>
+        <name>Validation_on_Sleeve</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_to_Pardot_Listx --></label>
+        <name>Add_to_Pardot_Listx</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- All_Campaign_Members_Export --></label>
+        <name>All_Campaign_Members_Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- All_Campaign_Members_Export_Lightning --></label>
+        <name>All_Campaign_Members_Export_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Bid_Summary_Report --></label>
+        <name>Bid_Summary_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buyer_Status_Highlights_All_Statuses --></label>
+        <name>Buyer_Status_Highlights_All_Statuses</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buyer_Status_Highlights_All_Statuses_w_Tiers --></label>
+        <name>Buyer_Status_Highlights_All_Statuses_w_Tiers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buyer_Status_Highlights_All_Statuses_w_Tiers_and_Acct_Description --></label>
+        <name>Buyer_Status_Highlights_All_Statuses_w_Tiers_and_Acct_Description</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buyer_Status_Highlights_Excluding_Prospect --></label>
+        <name>Buyer_Status_Highlights_Excluding_Prospect</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buyers_List_Primary_Contacts_No_Response --></label>
+        <name>Buyers_List_Primary_Contacts_No_Response</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Campaign_Activity_Report --></label>
+        <name>Campaign_Activity_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Campaign_Member_List --></label>
+        <name>Campaign_Member_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Campaign_Member_List_Company_Count --></label>
+        <name>Campaign_Member_List_Company_Count</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Date_CA_Signed_Overview --></label>
+        <name>Date_CA_Signed_Overview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Event_Registration_Status --></label>
+        <name>Event_Registration_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Event_Registration_Status_Lightning --></label>
+        <name>Event_Registration_Status_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PFG_Investor_Day_RSVP_Report_by_CRM --></label>
+        <name>PFG_Investor_Day_RSVP_Report_by_CRM</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PSG_All_Campaign_Members_Export --></label>
+        <name>PSG_All_Campaign_Members_Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Marketing_Cloud_Email --></label>
+        <name>Send_Marketing_Cloud_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Smart_Email_Click_Results --></label>
+        <name>Smart_Email_Click_Results</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Sfdc_Link --></label>
+        <name>Test_Sfdc_Link</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>et4ae5__ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

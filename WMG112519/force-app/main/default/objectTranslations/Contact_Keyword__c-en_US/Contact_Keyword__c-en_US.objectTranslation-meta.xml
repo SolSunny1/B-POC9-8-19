@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Keyword</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Keywords</value>
+    </caseValues>
+    <layouts>
+        <layout>Contact Keyword Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Store keywords with a currency value (e.g. Net Worth = $10,000,000) --></description>
+        <label><!-- Currency --></label>
+        <name>Currency</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Store keywords with a date value (e.g. Dog&apos;s Birthday = 8/4/2010) --></description>
+        <label><!-- Date --></label>
+        <name>Date</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Store keywords with a numeric value, but not a currency (e.g. Favorite Number = 42) --></description>
+        <label><!-- Number --></label>
+        <name>Number</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Store keywords with a text value (e.g. Hobbies = Golf) or no associated value (e.g. Receives Newsletter) --></description>
+        <label><!-- Text --></label>
+        <name>Text</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Manage_Keywords --></label>
+        <name>Manage_Keywords</name>
+    </webLinks>
+</CustomObjectTranslation>

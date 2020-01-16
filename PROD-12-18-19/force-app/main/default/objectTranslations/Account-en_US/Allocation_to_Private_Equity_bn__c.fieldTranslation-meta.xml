@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Information pulled from Preqin --></help>
+    <label><!-- Allocation to Private Equity ($bn) --></label>
+    <name>Allocation_to_Private_Equity_bn__c</name>
+</CustomFieldTranslation>

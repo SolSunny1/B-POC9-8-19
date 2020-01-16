@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Public_Investor_Day_Invitee_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Invitee Type-Public Investor Day</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Private Investor</fullName>
+                <default>false</default>
+                <label>Private Investor</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Buy Side Analyst</fullName>
+                <default>false</default>
+                <label>Buy Side Analyst</label>
+            </value>
+            <value>
+                <fullName>Sell Side Analyst</fullName>
+                <default>false</default>
+                <label>Sell Side Analyst</label>
+            </value>
+            <value>
+                <fullName>Investment Advisor</fullName>
+                <default>false</default>
+                <label>Investment Advisor</label>
+            </value>
+            <value>
+                <fullName>Investment Banker</fullName>
+                <default>false</default>
+                <label>Investment Banker</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Rating Agency</fullName>
+                <default>false</default>
+                <label>Rating Agency</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Removed</fullName>
+                <default>false</default>
+                <label>Removed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

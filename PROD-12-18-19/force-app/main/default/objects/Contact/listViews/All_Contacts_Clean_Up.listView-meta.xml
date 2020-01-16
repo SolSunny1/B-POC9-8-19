@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Contacts_Clean_Up</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>PFG_CRM_Lead__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Private_Investor_Day_Fund_Meetings__c</columns>
+    <columns>Invite_Sent_From_Private_Invest_Day_C__c</columns>
+    <columns>Private_Investor_Day_Invited_by__c</columns>
+    <columns>Private_Investor_Day_Invitee_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Providence Equity Partners</value>
+    </filters>
+    <filters>
+        <field>PFG_CRM_Lead__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>PFG All Contacts - Clean Up</label>
+    <sharedTo>
+        <group>PFG_Support_Group</group>
+    </sharedTo>
+</ListView>

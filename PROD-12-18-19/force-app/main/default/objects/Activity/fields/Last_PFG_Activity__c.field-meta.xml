@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_PFG_Activity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>to identify the last PFG Activity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>to identify the last PFG Activity</inlineHelpText>
+    <label>Last PFG Activity</label>
+    <type>Checkbox</type>
+</CustomField>

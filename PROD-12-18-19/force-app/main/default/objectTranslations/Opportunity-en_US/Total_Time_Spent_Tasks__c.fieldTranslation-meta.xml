@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Rolled up for Tasks --></help>
+    <label><!-- Total Time Spent - Tasks --></label>
+    <name>Total_Time_Spent_Tasks__c</name>
+</CustomFieldTranslation>

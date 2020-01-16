@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field will populate any opportunities you create for this Account --></help>
+    <label><!-- Preferred Method of Contact --></label>
+    <name>Preferred_Method_of_Contact__c</name>
+    <picklistValues>
+        <masterLabel>Contacted by Brookfield</masterLabel>
+        <translation><!-- Contacted by Brookfield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referred by Advisor - Discretionary</masterLabel>
+        <translation><!-- Referred by Advisor - Discretionary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referred by Advisor - Non-Discretionary</masterLabel>
+        <translation><!-- Referred by Advisor - Non-Discretionary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verbal Request - General</masterLabel>
+        <translation><!-- Verbal Request - General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Verbal Request - Specific Fund</masterLabel>
+        <translation><!-- Verbal Request - Specific Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Written Request - General</masterLabel>
+        <translation><!-- Written Request - General --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Written Request - Specific Fund</masterLabel>
+        <translation><!-- Written Request - Specific Fund --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

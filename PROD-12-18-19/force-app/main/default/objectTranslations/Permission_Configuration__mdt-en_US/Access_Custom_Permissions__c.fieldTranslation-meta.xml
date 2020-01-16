@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A semicolon separated list custom permissions granted access to the page. If blank all users have edit access as limited by other security fields. If populated, only users granted at least one of the custom permissions will be able to edit permissions. --></help>
+    <label><!-- Access Custom Permissions --></label>
+    <name>Access_Custom_Permissions__c</name>
+</CustomFieldTranslation>

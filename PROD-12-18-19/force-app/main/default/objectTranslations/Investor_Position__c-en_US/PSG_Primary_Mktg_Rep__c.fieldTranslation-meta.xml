@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- PSG Formula extracts from the Opportunity Owner --></help>
+    <label><!-- PSG Primary Mktg Rep --></label>
+    <name>PSG_Primary_Mktg_Rep__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Funds Asset Under Management.  Updated quarterly. --></help>
+    <label><!-- Fund AUM --></label>
+    <name>Fund_AUM__c</name>
+</CustomFieldTranslation>

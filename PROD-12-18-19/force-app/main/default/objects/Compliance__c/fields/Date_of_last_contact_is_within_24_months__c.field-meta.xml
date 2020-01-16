@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_last_contact_is_within_24_months__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( (TODAY()) - Date_of_Last_Activity__c &lt;= 730 , True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>System will calculating value base on  “Date of Last Activity” field</inlineHelpText>
+    <label>Date of last contact is within 24 months</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

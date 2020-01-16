@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sell_Side_Analysts_BAM</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Public_Investor_Day_Invitee_Type__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>BAM__c</columns>
+    <columns>BIP__c</columns>
+    <columns>BPY__c</columns>
+    <columns>BEP__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BAM__c</field>
+        <operation>equals</operation>
+        <value>Sell Side</value>
+    </filters>
+    <label>Sell Side Analysts - BAM</label>
+    <sharedTo>
+        <group>Sell_Side_Analysts_Brookfield</group>
+        <role>BAM</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Add Lightning Permission Sets {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Add Lightning Permission Sets</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Add_Lightning_Permission_Set</name>
+        <label>Add Lightning Permission Set</label>
+        <locationX>221</locationX>
+        <locationY>91</locationY>
+        <connector>
+            <targetReference>Create_Lightning_Report_Permission_Set</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AssigneeId</field>
+            <value>
+                <elementReference>UserID</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PermissionSetId</field>
+            <value>
+                <stringValue>0PS33000000XbyI</stringValue>
+            </value>
+        </inputAssignments>
+        <object>PermissionSetAssignment</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Lightning_Report_Permission_Set</name>
+        <label>Create Lightning Report Permission Set</label>
+        <locationX>220</locationX>
+        <locationY>205</locationY>
+        <inputAssignments>
+            <field>AssigneeId</field>
+            <value>
+                <elementReference>UserID</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PermissionSetId</field>
+            <value>
+                <stringValue>0PS0b000000L7d1</stringValue>
+            </value>
+        </inputAssignments>
+        <object>PermissionSetAssignment</object>
+    </recordCreates>
+    <startElementReference>Add_Lightning_Permission_Set</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>UserID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>0</stringValue>
+        </value>
+    </variables>
+</Flow>

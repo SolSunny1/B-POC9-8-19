@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Invitee Type-Public Investor Day --></label>
+    <name>Public_Investor_Day_Invitee_Type__c</name>
+    <picklistValues>
+        <masterLabel>Buy Side Analyst</masterLabel>
+        <translation><!-- Buy Side Analyst --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal</masterLabel>
+        <translation><!-- Internal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Advisor</masterLabel>
+        <translation><!-- Investment Advisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Banker</masterLabel>
+        <translation><!-- Investment Banker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Media</masterLabel>
+        <translation><!-- Media --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Investor</masterLabel>
+        <translation><!-- Private Investor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prospect</masterLabel>
+        <translation><!-- Prospect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rating Agency</masterLabel>
+        <translation><!-- Rating Agency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removed</masterLabel>
+        <translation><!-- Removed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sell Side Analyst</masterLabel>
+        <translation><!-- Sell Side Analyst --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

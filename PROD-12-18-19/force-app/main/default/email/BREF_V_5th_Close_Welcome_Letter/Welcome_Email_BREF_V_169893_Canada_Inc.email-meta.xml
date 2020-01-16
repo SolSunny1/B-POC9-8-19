@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sending the Welcome Letter for BREF V</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Welcome Email BREF V - 169893 Canada Inc.</name>
+    <style>none</style>
+    <subject>Welcome to Brookfield Real Estate Finance Fund V</subject>
+    <textOnly>Dear {!Opportunity.Legal_Name__c},
+
+On behalf of the BREF team, I would like to welcome you as an investor in Brookfield Real Estate Finance Fund V (“BREF V”). For your interest, we have attached a Welcome Package which includes general Fund administrative information including sample capital call and distribution notices and contact information.
+
+Fund information is generally provided to you through the BREF V Portal, hosted by Intralinks. As part of your subscription to the Fund, you have provided your contact information, including a list of individuals you would like to have access to the portal. We have attached this list, as entered into our system, and kindly ask that you review the contact details provided to confirm that it is complete and accurate, or make amendments as needed in the attached excel form (“Investor Contact List – Change Request Form”). This will ensure that the portal reflects your current contact information and that the appropriate members of your team are notified of Fund updates. We have also included a summary of the wire instructions provided in your subscription documents (“Wire Instructions Summary”) and ask you to confirm their accuracy and use the included template to provide any updates. Amended contact details and wire instructions should be returned to bref.accountingteam@brookfield.com.
+
+Unless otherwise instructed, we have provided Intralinks access to all those listed in the attached. We encourage you to activate your Intralinks accounts as soon as feasible to ensure all Fund communications are received, including the upcoming first capital call notice. Further information on Intralinks can be found in the Welcome Package.
+
+We look forward to working with you and strengthening our relationship in the coming years. Should you have any questions, please do not hesitate to contact any of our team members.
+
+Kind regards,
+Justin
+
+Justin Monge
+Senior Vice President
+
+Brookfield Real Estate Financial Partners LLC
+T (212)-417-7288</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

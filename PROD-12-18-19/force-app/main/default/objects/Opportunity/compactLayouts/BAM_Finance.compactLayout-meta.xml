@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAM_Finance</fullName>
+    <fields>Name</fields>
+    <fields>StageName</fields>
+    <fields>AccountId</fields>
+    <fields>OwnerId</fields>
+    <fields>Deals__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Type</fields>
+    <label>BAM Finance</label>
+</CompactLayout>

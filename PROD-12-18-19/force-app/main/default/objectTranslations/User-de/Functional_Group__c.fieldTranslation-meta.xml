@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Functional Group --></label>
+    <name>Functional_Group__c</name>
+    <picklistValues>
+        <masterLabel>PFG - FinOps</masterLabel>
+        <translation><!-- PFG - FinOps --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PFG - SF</masterLabel>
+        <translation><!-- PFG - SF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMT - Infrastructure</masterLabel>
+        <translation><!-- PMT - Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMT - Private Equity</masterLabel>
+        <translation><!-- PMT - Private Equity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMT - Real Estate</masterLabel>
+        <translation><!-- PMT - Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TSG</masterLabel>
+        <translation><!-- TSG --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

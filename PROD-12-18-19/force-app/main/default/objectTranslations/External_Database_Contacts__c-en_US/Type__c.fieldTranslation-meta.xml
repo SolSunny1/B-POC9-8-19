@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- from Preqin --></help>
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Asset Manager</masterLabel>
+        <translation><!-- Asset Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank</masterLabel>
+        <translation><!-- Bank --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate Investor</masterLabel>
+        <translation><!-- Corporate Investor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Endowment Plan</masterLabel>
+        <translation><!-- Endowment Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Office - Multi</masterLabel>
+        <translation><!-- Family Office - Multi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Office - Single</masterLabel>
+        <translation><!-- Family Office - Single --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foundation</masterLabel>
+        <translation><!-- Foundation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government Agency</masterLabel>
+        <translation><!-- Government Agency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid Fund of Funds Manager</masterLabel>
+        <translation><!-- Hybrid Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infrastructure Fund of Funds Manager</masterLabel>
+        <translation><!-- Infrastructure Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance Company</masterLabel>
+        <translation><!-- Insurance Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Bank</masterLabel>
+        <translation><!-- Investment Bank --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Company</masterLabel>
+        <translation><!-- Investment Company --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Trust</masterLabel>
+        <translation><!-- Investment Trust --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Listed Fund of Funds Manager</masterLabel>
+        <translation><!-- Listed Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Equity Firm (Investor)</masterLabel>
+        <translation><!-- Private Equity Firm (Investor) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Equity Fund of Funds Manager</masterLabel>
+        <translation><!-- Private Equity Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Private Sector Pension Fund</masterLabel>
+        <translation><!-- Private Sector Pension Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Pension Fund</masterLabel>
+        <translation><!-- Public Pension Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Assets Fund of Funds Manager</masterLabel>
+        <translation><!-- Real Assets Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate Firm (Investor)</masterLabel>
+        <translation><!-- Real Estate Firm (Investor) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Real Estate Fund of Funds Manager</masterLabel>
+        <translation><!-- Real Estate Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secondary Fund of Funds Manager</masterLabel>
+        <translation><!-- Secondary Fund of Funds Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secondary Real Estate</masterLabel>
+        <translation><!-- Secondary Real Estate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sovereign Wealth Fund</masterLabel>
+        <translation><!-- Sovereign Wealth Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Superannuation Scheme</masterLabel>
+        <translation><!-- Superannuation Scheme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type</masterLabel>
+        <translation><!-- Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wealth Manager</masterLabel>
+        <translation><!-- Wealth Manager --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

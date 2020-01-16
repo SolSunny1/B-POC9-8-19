@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of Fund Close Dates &amp; Types to be displayed on corresponding opportunities --></help>
+    <label><!-- Active Fund Close Dates &amp; Types --></label>
+    <name>Fund_Close_Dates_Types__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sidecar_Size__c</fullName>
+    <description>Amount of the sidecar, cannot exceed the amount of the parent opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Amount of the side car</inlineHelpText>
+    <label>Sidecar Size</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

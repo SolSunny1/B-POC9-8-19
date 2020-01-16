@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Conditional_Required_Fields</fullName>
+    <active>true</active>
+    <description>Alerts user to make certain fields required if criteria is met</description>
+    <errorConditionFormula>OR(AND(
+NOT(ISPICKVAL(CurrencyIsoCode , &quot;USD&quot;)),
+ISBLANK(Local_Currency_Amount__c)),
+IF(ISPICKVAL( Type__c , &quot;Original&quot;), ISBLANK( Opportunity__c ),
+IF(ISPICKVAL( Type__c , &quot;Follow-on&quot;), ISBLANK( Opportunity__c ),
+IF(ISPICKVAL( Type__c , &quot;Pledge&quot;), ISBLANK( Opportunity__c ),
+IF(ISPICKVAL( Type__c , &quot;Transfer In&quot;), ISBLANK( Transfer_From_Legal_Entity__c),
+IF(ISPICKVAL( Type__c , &quot;Transfer Out&quot;), ISBLANK( Transfer_To_Legal_Entity__c),false)))))
+)</errorConditionFormula>
+    <errorMessage>Please populate the opportunity field if Type = Original or Follow-on or Pledge
+Populate local currency field if the currency is not USD
+Populate the Transfer From LE field if Type  = Transfer In
+Populate the Transfer To LE field if Type = Transfer Out</errorMessage>
+</ValidationRule>

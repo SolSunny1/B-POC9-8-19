@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Similar to the opportunity custom Private checkbox. This will hidden from the users &amp; populated by a trigger. If a campaign is Private then the Bid and Campaign Members are also private.</description>
+    <externalId>false</externalId>
+    <label>Private</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

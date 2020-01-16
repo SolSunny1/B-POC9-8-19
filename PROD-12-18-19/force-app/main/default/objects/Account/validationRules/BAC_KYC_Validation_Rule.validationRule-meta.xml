@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAC_KYC_Validation_Rule</fullName>
+    <active>true</active>
+    <description>This Validation Rule ensures that KYC Checkbox and Sign-Off Dates are entered together.</description>
+    <errorConditionFormula>AND(
+ $User.ProfileId = &#39;00e33000001BhFk&#39;,
+ OR(
+   AND( 
+      KYC__c  = TRUE,
+      ISBLANK(KYC_Sign_Off_Date__c)),
+   AND (
+      KYC__c =  FALSE,
+      NOT(ISBLANK(KYC_Sign_Off_Date__c)))))</errorConditionFormula>
+    <errorDisplayField>KYC__c</errorDisplayField>
+    <errorMessage>Please check the KYC checkbox and enter the KYC Sign-Off Date to signify completion of KYC Process</errorMessage>
+</ValidationRule>

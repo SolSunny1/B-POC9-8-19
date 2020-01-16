@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Region_to_Approve__c</fullName>
+    <description>to help the regional heads view their approvals</description>
+    <externalId>false</externalId>
+    <formula>Regional_Head_CRM__c =   $User.Id</formula>
+    <inlineHelpText>to help the regional heads view their approvals</inlineHelpText>
+    <label>My Region to Approve</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

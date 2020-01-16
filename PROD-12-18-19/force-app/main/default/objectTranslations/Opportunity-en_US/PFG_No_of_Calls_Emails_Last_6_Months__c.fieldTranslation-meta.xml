@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- roll up to count the number of PFG tasks if the Last 6 Months box is ticked --></help>
+    <label><!-- PFG No. of Calls/Emails - Last 6 Months --></label>
+    <name>PFG_No_of_Calls_Emails_Last_6_Months__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSREP_II_Opportunities_Closing_Tracker2</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Sub_Investor_Amount__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Classification__c</columns>
+    <columns>Sleeve__c</columns>
+    <columns>FIR_Investment_Period_Uninvested__c</columns>
+    <columns>FIR_Other_Rate__c</columns>
+    <columns>FIR_Post_Investment_Period_Invested__c</columns>
+    <columns>FIR_Post_Investment_Period_Univested__c</columns>
+    <columns>First_Close_Discount__c</columns>
+    <columns>Loyalty_Fee_Discount__c</columns>
+    <columns>Residual_GP_Portion__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Investment_Vehicle__c</field>
+        <operation>equals</operation>
+        <value>BIF III</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.PFG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>4/15/2016</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>8 - Closed/Confirmed</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Regime de Rentes</value>
+    </filters>
+    <label>BSREP II Opportunities - Closing Track 2</label>
+    <sharedTo>
+        <role>PFG</role>
+    </sharedTo>
+</ListView>

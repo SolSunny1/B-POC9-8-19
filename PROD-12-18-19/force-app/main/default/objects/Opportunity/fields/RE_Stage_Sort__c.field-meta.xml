@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RE_Stage_Sort__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ISPICKVAL( StageName ,&quot;7: Closed&quot;),&quot;0:Closed&quot;,IF(
+ISPICKVAL( StageName ,&quot;Soft Decline&quot;),&quot;8:Soft Decline&quot;,
+IF(ISPICKVAL( StageName ,&quot;Firm Decline&quot;),&quot;9:Firm Decline&quot;,Text(StageName))))</formula>
+    <label>RE Stage Sort</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

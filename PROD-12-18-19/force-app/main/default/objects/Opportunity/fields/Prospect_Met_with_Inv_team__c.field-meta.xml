@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospect_Met_with_Inv_team__c</fullName>
+    <description>To identify if there was at least one meeting held with Inv. team</description>
+    <externalId>false</externalId>
+    <formula>if(and ( RecordType.Name =&quot;PFG&quot;,
+   or(
+      NOT(ISBLANK( Date_of_Last_Meeting_with_Investment_Tea__c )),
+(PFG_Number_of_Meetings__c)&gt;0,
+      Contains(text(StageName),&quot;3&quot;),
+      Contains(text(StageName),&quot;4&quot;),
+      Contains(text(StageName),&quot;5&quot;),
+      Contains(text(StageName),&quot;6&quot;),
+      Contains(text(StageName),&quot;7&quot;),
+      Contains(text(StageName),&quot;8&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;3&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;4&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;5&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;6&quot;),
+Contains(text( Previous_Stage_before_close__c),&quot;7&quot;))),1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>To identify if there was at least one meeting held with Inv. team</inlineHelpText>
+    <label>PFG Prospect Met with Inv. team</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

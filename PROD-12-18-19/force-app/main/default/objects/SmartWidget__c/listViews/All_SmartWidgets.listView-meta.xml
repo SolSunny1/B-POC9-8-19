@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_SmartWidgets</fullName>
+    <columns>NAME</columns>
+    <columns>Label__c</columns>
+    <columns>Type__c</columns>
+    <columns>Object__c</columns>
+    <columns>Field__c</columns>
+    <columns>Filter__c</columns>
+    <columns>Show_Operator__c</columns>
+    <columns>Default_Value__c</columns>
+    <columns>Controlling_Widget__c</columns>
+    <columns>AutoComplete_Search_Filter__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All SmartWidgets</label>
+</ListView>

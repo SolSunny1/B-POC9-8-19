@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BOX_Units_Shares_RU_Filter__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Is_Active__c = true, ISPICKVAL(Ticker__c, &#39;BOX&#39;),  RecordType.Name =&#39;Listed Issuers&#39;), Units_Shares__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BOX # Units / Shares</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

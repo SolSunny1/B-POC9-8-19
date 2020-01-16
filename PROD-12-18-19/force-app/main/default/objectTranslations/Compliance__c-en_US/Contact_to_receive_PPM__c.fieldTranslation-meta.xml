@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Contact to receive PPM --></label>
+    <name>Contact_to_receive_PPM__c</name>
+    <relationshipLabel><!-- Compliance (Contact to receive PPM) --></relationshipLabel>
+</CustomFieldTranslation>

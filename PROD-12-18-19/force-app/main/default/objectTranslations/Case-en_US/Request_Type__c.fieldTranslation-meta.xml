@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Request Type --></label>
+    <name>Request_Type__c</name>
+    <picklistValues>
+        <masterLabel>Ad-hoc/Follow-up Questions</masterLabel>
+        <translation><!-- Ad-hoc/Follow-up Questions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ESG</masterLabel>
+        <translation><!-- ESG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal/Compliance/Tax Questions</masterLabel>
+        <translation><!-- Legal/Compliance/Tax Questions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Materials</masterLabel>
+        <translation><!-- Marketing Materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operational DDQ/RFI/RFP</masterLabel>
+        <translation><!-- Operational DDQ/RFI/RFP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qualitative DDQ/RFI/RFP</masterLabel>
+        <translation><!-- Qualitative DDQ/RFI/RFP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantitative DDQ/RFI/RFP</masterLabel>
+        <translation><!-- Quantitative DDQ/RFI/RFP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarterly/Recurring Request</masterLabel>
+        <translation><!-- Quarterly/Recurring Request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule Meeting/Call</masterLabel>
+        <translation><!-- Schedule Meeting/Call --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,57 @@
+<aura:event type="APPLICATION" description="SmartEvent" access="global">
+    <!-- CORE ATTRIBUTES -->
+    <aura:attribute name="typeOfOperation" type="String" access="global"
+                    description="Identifier used by components to process the correct handler"/>
+    <aura:attribute name="eventName" type="String" access="global"
+                    description="Optional secondary identifier"/>
+    <aura:attribute name="sender" type="String" access="global"
+                    description="(From) Unique identifier of the component that fired the event"/>
+    <aura:attribute name="receiver" type="String" access="global"
+                    description="(To) Unique identifier of the component that should handle this event"/>
+    <aura:attribute name="paramMap" type="Map" access="global"
+                    description="String,Object key,value parameter pairs that carry component's specific data"/>
+    <aura:attribute name="value" type="Object" access="global"
+                    description="Hold some value that component wishes to pass"/>
+    
+    
+    <!-- TOO SPECIFIC, NEED TO REFACTOR -->
+<!--     <aura:attribute access="global" type="String" name="autoCompleteWidgetNeeded" default=""/>
+    <aura:attribute access="global" type="String" name="relatedField" default=""/>
+    <aura:attribute access="global" type="String" name="relatedFieldId" default=""/>
+    <aura:attribute access="global" type="String" name="autoCompleteTargetField" default=""/>
+    <aura:attribute access="global" type="String" name="componentOrigin" default=""/>
+    <aura:attribute access="global" type="String" name="relatedFieldIdAutoCompleteWidget" default=""/>
+    <aura:attribute access="global" type="String" name="removedObjectId" default=""/>
+    <aura:attribute access="global" type="String" name="referenceIdToAdd" default=""/>
+    <aura:attribute access="global" type="String" name="autoCompleteWidgetName" default=""/>
+    <aura:attribute access="global" type="String" name="newRecordsId"/>
+    <aura:attribute access="global" type="String" name="addedObjects"/>
+    <aura:attribute access="global" type="String" name="removedObjects"/>
+    <aura:attribute access="global" type="String" name="originParent"/>
+    <aura:attribute access="global" type="String" name="guidCalled"/>
+
+    <aura:attribute access="global" type="Object" name="widget"/>
+    <aura:attribute access="global" type="Object" name="recordByEvent" default="{}"/>
+    <aura:attribute access="global" type="Object" name="selectedRecord" default="{}"/>
+    <aura:attribute access="global" type="Object" name="autoCompleteOriginObject" default="{}"/>
+    <aura:attribute access="global" type="Object" name="removedObject" default="{}"/>
+
+    <aura:attribute access="global" type="Boolean" name="isSaveRequired" default="false"/>
+    <aura:attribute access="global" type="Boolean" name="saveCalled"/>
+    <aura:attribute access="global" type="Boolean" name="saveFooterCalled"/>
+    <aura:attribute access="global" type="Boolean" name="saveWidgetCalled"/>
+    <aura:attribute access="global" type="Boolean" name="saveSuccessful"/>
+    <aura:attribute access="global" type="Boolean" name="closeModal"/>
+    <aura:attribute access="global" type="Boolean" name="autocompleteSuccessful"/>
+    <aura:attribute access="global" type="Boolean" name="isOutlookClose"/>
+
+    <aura:attribute access="global" type="Boolean" name="hasErrors"/>
+    <aura:attribute access="global" type="Boolean" name="hasValidationErrors"/>
+    <aura:attribute access="global" type="Boolean" name="hasFieldErrors"/>
+    <aura:attribute access="global" type="String" name="fieldErrors"/>
+    <aura:attribute access="global" type="String" name="sourceOrigin"/>
+    <aura:attribute access="global" type="List" name="validationErrors"/>
+
+    <aura:attribute access="global" type="Boolean" name="widgetError"/>
+    <aura:attribute access="global" type="String" name="widgetLabel"/> -->
+</aura:event>

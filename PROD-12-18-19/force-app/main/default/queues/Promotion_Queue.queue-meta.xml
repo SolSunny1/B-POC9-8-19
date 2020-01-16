@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Promotion Queue</name>
+    <queueMembers>
+        <users>
+            <user>dan.richards@brookfield.com</user>
+            <user>joe.cavicchia@brookfield.com</user>
+            <user>palwasha.salehy@brookfield.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

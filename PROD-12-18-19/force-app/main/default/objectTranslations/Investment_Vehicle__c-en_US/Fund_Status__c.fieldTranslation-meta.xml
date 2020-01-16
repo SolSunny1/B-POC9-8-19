@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Fund Status --></label>
+    <name>Fund_Status__c</name>
+    <picklistValues>
+        <masterLabel>Discontinued</masterLabel>
+        <translation><!-- Discontinued --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fully Divested</masterLabel>
+        <translation><!-- Fully Divested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing Closed</masterLabel>
+        <translation><!-- Marketing Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Development</masterLabel>
+        <translation><!-- Product Development --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

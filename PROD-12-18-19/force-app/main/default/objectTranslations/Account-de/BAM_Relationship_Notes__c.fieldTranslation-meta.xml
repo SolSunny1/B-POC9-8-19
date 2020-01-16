@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- To capture the nature of the relationship with the Company --></help>
+    <label><!-- BAM Relationship Notes --></label>
+    <name>BAM_Relationship_Notes__c</name>
+</CustomFieldTranslation>

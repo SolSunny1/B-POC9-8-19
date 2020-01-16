@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_CRM_Real_Asset_Lead__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>In the case of split coverage, this would indicate Real Asset (except Real Estate) coverage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>In the case of split coverage, this would indicate Real Asset (except Real Estate) coverage.</inlineHelpText>
+    <label>Real Asset/Infra Lead</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>AccountsUser3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

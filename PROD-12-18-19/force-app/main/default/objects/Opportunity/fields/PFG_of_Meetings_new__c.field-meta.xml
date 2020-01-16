@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_of_Meetings_new__c</fullName>
+    <description>PFG total # of meetings for review</description>
+    <externalId>false</externalId>
+    <inlineHelpText>PFG total # of meetings for review</inlineHelpText>
+    <label>PFG # of Meetings All time new</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Internal_Raised_Capital__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up total of  Internal Raised (Historical/Original) Capital (Sponsors (Brookfield) and Principals (Fund Team Members)</inlineHelpText>
+    <label>Internal Raised Capital</label>
+    <summarizedField>Investor_Position__c.Historical_Commitment_US__c</summarizedField>
+    <summaryFilterItems>
+        <field>Investor_Position__c.Source_of_Capital__c</field>
+        <operation>equals</operation>
+        <value>Sponsors, Principals, BAM Employees</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Investor_Position__c.Is_Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Investor_Position__c.Investment_Vehicle__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

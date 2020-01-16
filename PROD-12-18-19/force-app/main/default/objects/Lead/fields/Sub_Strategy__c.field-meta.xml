@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Strategy__c</fullName>
+    <description>PSG Alts Lead Field depend list on Strategy Field</description>
+    <externalId>false</externalId>
+    <label>Sub-Strategy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Strategy__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>*No sub-strategy</fullName>
+                <default>false</default>
+                <label>*No sub-strategy</label>
+            </value>
+            <value>
+                <fullName>Activist</fullName>
+                <default>false</default>
+                <label>Activist</label>
+            </value>
+            <value>
+                <fullName>Asia</fullName>
+                <default>false</default>
+                <label>Asia</label>
+            </value>
+            <value>
+                <fullName>Asset Backed</fullName>
+                <default>false</default>
+                <label>Asset Backed</label>
+            </value>
+            <value>
+                <fullName>Capital Structure</fullName>
+                <default>false</default>
+                <label>Capital Structure</label>
+            </value>
+            <value>
+                <fullName>Commodities</fullName>
+                <default>false</default>
+                <label>Commodities</label>
+            </value>
+            <value>
+                <fullName>Consumer Discretionary</fullName>
+                <default>false</default>
+                <label>Consumer Discretionary</label>
+            </value>
+            <value>
+                <fullName>Consumer Staples</fullName>
+                <default>false</default>
+                <label>Consumer Staples</label>
+            </value>
+            <value>
+                <fullName>Convertible</fullName>
+                <default>false</default>
+                <label>Convertible</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>CTA</fullName>
+                <default>false</default>
+                <label>CTA</label>
+            </value>
+            <value>
+                <fullName>Currencies</fullName>
+                <default>false</default>
+                <label>Currencies</label>
+            </value>
+            <value>
+                <fullName>Developed Europe</fullName>
+                <default>false</default>
+                <label>Developed Europe</label>
+            </value>
+            <value>
+                <fullName>Discretionary</fullName>
+                <default>false</default>
+                <label>Discretionary</label>
+            </value>
+            <value>
+                <fullName>Distressed</fullName>
+                <default>false</default>
+                <label>Distressed</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets</fullName>
+                <default>false</default>
+                <label>Emerging Markets</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Financials</fullName>
+                <default>false</default>
+                <label>Financials</label>
+            </value>
+            <value>
+                <fullName>Fixed Income</fullName>
+                <default>false</default>
+                <label>Fixed Income</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Health Care</fullName>
+                <default>false</default>
+                <label>Health Care</label>
+            </value>
+            <value>
+                <fullName>Index</fullName>
+                <default>false</default>
+                <label>Index</label>
+            </value>
+            <value>
+                <fullName>Industrials</fullName>
+                <default>false</default>
+                <label>Industrials</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Merger Arbitrage</fullName>
+                <default>false</default>
+                <label>Merger Arbitrage</label>
+            </value>
+            <value>
+                <fullName>Multi Strategy</fullName>
+                <default>false</default>
+                <label>Multi Strategy</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Sovereign</fullName>
+                <default>false</default>
+                <label>Sovereign</label>
+            </value>
+            <value>
+                <fullName>Special Situations</fullName>
+                <default>false</default>
+                <label>Special Situations</label>
+            </value>
+            <value>
+                <fullName>Statistical</fullName>
+                <default>false</default>
+                <label>Statistical</label>
+            </value>
+            <value>
+                <fullName>Systematic</fullName>
+                <default>false</default>
+                <label>Systematic</label>
+            </value>
+            <value>
+                <fullName>Telecommunication</fullName>
+                <default>false</default>
+                <label>Telecommunication</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>Volatility</fullName>
+                <default>false</default>
+                <label>Volatility</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Capital Structure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Convertible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Fixed Income</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Index</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Statistical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arbitrage</controllingFieldValue>
+            <valueName>Volatility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Asset Backed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Multi Strategy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Sovereign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Developed Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Emerging Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Regional Long/Short</controllingFieldValue>
+            <valueName>North America</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Consumer Discretionary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Consumer Staples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Financials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Health Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Industrials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Information Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Telecommunication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equity Sector Long/Short</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Activist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Distressed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Merger Arbitrage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Event Driven</controllingFieldValue>
+            <valueName>Special Situations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Commodities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>CTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Currencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Discretionary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Macro</controllingFieldValue>
+            <valueName>Systematic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quantitative</controllingFieldValue>
+            <valueName>*No sub-strategy</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

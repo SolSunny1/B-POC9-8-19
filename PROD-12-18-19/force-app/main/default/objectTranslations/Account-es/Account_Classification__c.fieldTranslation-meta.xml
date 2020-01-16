@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Account Classification --></label>
+    <name>Account_Classification__c</name>
+    <picklistValues>
+        <masterLabel>BFIN Asia Tier 1</masterLabel>
+        <translation><!-- BFIN Asia Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN Asia Tier 2</masterLabel>
+        <translation><!-- BFIN Asia Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN Asia Tier 3</masterLabel>
+        <translation><!-- BFIN Asia Tier 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN CC Tier 1</masterLabel>
+        <translation><!-- BFIN CC Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN CC Tier 2</masterLabel>
+        <translation><!-- BFIN CC Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN CC Tier 3</masterLabel>
+        <translation><!-- BFIN CC Tier 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN EU Tier 1</masterLabel>
+        <translation><!-- BFIN EU Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN EU Tier 2</masterLabel>
+        <translation><!-- BFIN EU Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN EU Tier 3</masterLabel>
+        <translation><!-- BFIN EU Tier 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN US Tier 1</masterLabel>
+        <translation><!-- BFIN US Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN US Tier 2</masterLabel>
+        <translation><!-- BFIN US Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BFIN US Tier 3</masterLabel>
+        <translation><!-- BFIN US Tier 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Key Institution</masterLabel>
+        <translation><!-- Key Institution --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

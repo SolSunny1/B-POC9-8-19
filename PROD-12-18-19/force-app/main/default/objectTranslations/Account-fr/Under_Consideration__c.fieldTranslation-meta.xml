@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up for current funds that are under consideration --></help>
+    <label><!-- Funds Under Consideration --></label>
+    <name>Under_Consideration__c</name>
+</CustomFieldTranslation>

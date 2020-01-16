@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- To determine the top bids and winner --></help>
+    <label><!-- Bid Round Results --></label>
+    <name>Rating__c</name>
+    <picklistValues>
+        <masterLabel>Rejected Bid</masterLabel>
+        <translation><!-- Rejected Bid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selected Purchaser</masterLabel>
+        <translation><!-- Selected Purchaser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shortlisted Bid</masterLabel>
+        <translation><!-- Shortlisted Bid --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 1</masterLabel>
+        <translation><!-- Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 2</masterLabel>
+        <translation><!-- Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 3</masterLabel>
+        <translation><!-- Tier 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Top Buyers</masterLabel>
+        <translation><!-- Top Buyers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unknown</masterLabel>
+        <translation><!-- Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Will Not Bid</masterLabel>
+        <translation><!-- Will Not Bid --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

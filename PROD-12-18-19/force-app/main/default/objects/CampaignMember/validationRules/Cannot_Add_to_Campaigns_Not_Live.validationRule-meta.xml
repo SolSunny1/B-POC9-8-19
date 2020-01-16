@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Add_to_Campaigns_Not_Live</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Campaign.RecordType.Name = &quot;Brookfield Diligence Portal&quot; , Campaign.Not_Live__c = True , NOT( CONTAINS( $Profile.Name , &quot;System Administrator&quot; ) ) )</errorConditionFormula>
+    <errorMessage>Campaign Members cannot be added to Diligence Campaigns that are not live. Please reach out to Brookfield IT for assistance.</errorMessage>
+</ValidationRule>

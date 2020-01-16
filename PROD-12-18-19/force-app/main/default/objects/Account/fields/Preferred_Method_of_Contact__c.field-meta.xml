@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Method_of_Contact__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will populate any opportunities you create for this Account</inlineHelpText>
+    <label>Preferred Method of Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contacted by Brookfield</fullName>
+                <default>false</default>
+                <label>Contacted by Brookfield</label>
+            </value>
+            <value>
+                <fullName>Referred by Advisor - Discretionary</fullName>
+                <default>false</default>
+                <label>Referred by Advisor - Discretionary</label>
+            </value>
+            <value>
+                <fullName>Referred by Advisor - Non-Discretionary</fullName>
+                <default>false</default>
+                <label>Referred by Advisor - Non-Discretionary</label>
+            </value>
+            <value>
+                <fullName>Written Request - Specific Fund</fullName>
+                <default>false</default>
+                <label>Written Request - Specific Fund</label>
+            </value>
+            <value>
+                <fullName>Verbal Request - Specific Fund</fullName>
+                <default>false</default>
+                <label>Verbal Request - Specific Fund</label>
+            </value>
+            <value>
+                <fullName>Written Request - General</fullName>
+                <default>false</default>
+                <label>Written Request - General</label>
+            </value>
+            <value>
+                <fullName>Verbal Request - General</fullName>
+                <default>false</default>
+                <label>Verbal Request - General</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,132 @@
+/**
+ * Created by duytran on 2019-08-02.
+ */
+
+.THIS {
+    background-color: white;
+    border-radius: .25rem;
+}
+
+.THIS .permission-table {
+    background-color: white;
+    overflow-y: auto;
+    height: auto;
+    max-height: 100%;
+}
+
+.THIS .option-button {
+    cursor:pointer;
+    background-color: #b0adab;
+    border-radius:.25rem;
+}
+
+.THIS .option-button-left {
+    margin-right:.2rem;
+    border-radius:.4rem 0 0 .4rem;
+    height:1.25rem;
+}
+
+.THIS .option-button-right {
+    border-radius:0 .4rem .4rem 0;
+    height:1.25rem;
+}
+
+.THIS .option-button svg {
+    fill:white;
+    margin: .1rem .5rem .2rem .5rem;
+}
+
+.THIS .option-button-left svg {
+    margin: .1rem .5rem .2rem .5rem;
+}
+
+.THIS .option-button-right svg {
+    margin: .1rem .5rem .2rem .5rem;
+}
+
+.THIS .option-selected {
+    background-color: #4bca81;
+}
+
+.THIS .option-disabled {
+    cursor:auto!important;
+}
+
+.THIS .option-disabled svg {
+    fill: #B9B9B9 !important;
+}
+
+.THIS .option-selected.option-disabled svg {
+    fill: #78DCD1 !important;
+}
+
+.THIS .new-key-object {
+    animation: slide-in-from-left 1s ease-in;
+}
+
+@keyframes slide-in-from-left {
+    from{opacity:0;background-color:#faffbd;}
+    to{opacity:1;background-color: white;}
+}
+
+.THIS .key-object-bar {
+    background-color: #e3e5ed;
+}
+
+.THIS .row-object-bar:hover {
+    background-color: rgba(223, 222, 222, 0.5) !important;
+}
+
+.THIS .row-object-bar.changed {
+    background-color: lightyellow;
+}
+
+.THIS .permission-type-label {
+    float:left;
+}
+
+.THIS .headerCard.sticky {
+    position: fixed;
+    z-index: 5;
+    margin-top: calc(-1 * var(--lwc-templateGutters,0.75rem) - var(--lwc-spacingSmall,0.75rem));
+    width: calc(100vw - 4rem + 1px);
+}
+
+.THIS .tableHeader{
+    overflow-x:hidden;
+}
+
+.THIS .tableHeader.sticky {
+    position: fixed;
+    background: white;
+    overflow: hidden;
+    z-index: 3;
+    margin-top: calc(-1 * var(--lwc-templateGutters,0.75rem) - var(--lwc-spacingSmall,0.75rem));
+    width: calc(100vw - 4rem + 1px);
+    border:none;
+    border-bottom: 1px solid rgb(221, 219, 218) !important;
+}
+
+.THIS .processing-table {
+    position: relative;
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 55px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.THIS .processing-table-bg {
+    background: rgb(243, 242, 242);
+}
+
+.THIS .pagination-btn {
+    width:6rem;
+}
+
+.THIS .auto-width {
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}

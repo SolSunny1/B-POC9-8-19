@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_KYCs</fullName>
+    <columns>NAME</columns>
+    <columns>Prospect_Name__c</columns>
+    <columns>CRM_Primary__c</columns>
+    <columns>CRM_Secondary__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Form_Complete__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Compliance__c.PFG</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <label>Outstanding KYCs</label>
+</ListView>

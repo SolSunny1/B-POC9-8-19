@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Roll up from most recent 3rd Party Investor Position records totaling the original unique investors of the Fund. --></help>
+    <label><!-- Number of Historical Investors --></label>
+    <name>Number_of_Historical_Investors__c</name>
+</CustomFieldTranslation>

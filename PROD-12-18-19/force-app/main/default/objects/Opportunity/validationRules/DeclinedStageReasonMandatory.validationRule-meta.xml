@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeclinedStageReasonMandatory</fullName>
+    <active>true</active>
+    <description>When an opportunity stage is listed as &quot;declined&quot; the &quot;Reason for Decline&quot; should be mandatory.</description>
+    <errorConditionFormula>AND( 
+OR( 
+ISPICKVAL(StageName, &quot;Firm Decline&quot;)), 
+ISPICKVAL (Reason_for_Decline__c, &quot;&quot;) 
+)</errorConditionFormula>
+    <errorDisplayField>Reason_for_Decline__c</errorDisplayField>
+    <errorMessage>Please indicate why this opportunity was declined.</errorMessage>
+</ValidationRule>

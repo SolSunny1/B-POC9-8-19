@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- To pull the PSG Marketing Lead field to the Campaign Member --></help>
+    <label><!-- PSG Marketing Lead --></label>
+    <name>PSG_Marketing_Lead__c</name>
+</CustomFieldTranslation>

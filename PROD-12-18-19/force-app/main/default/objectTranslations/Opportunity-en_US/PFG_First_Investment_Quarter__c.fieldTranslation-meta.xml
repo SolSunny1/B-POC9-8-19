@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Formula filed pulling the quarter from Account --></help>
+    <label><!-- PFG First Investment - Quarter --></label>
+    <name>PFG_First_Investment_Quarter__c</name>
+</CustomFieldTranslation>

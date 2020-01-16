@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Short_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Short Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scout Mid Cap Fund</fullName>
+                <default>false</default>
+                <label>Scout Mid Cap Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Small Cap Fund</fullName>
+                <default>false</default>
+                <label>Scout Small Cap Fund</label>
+            </value>
+            <value>
+                <fullName>Scout Core Bond Fund Class I</fullName>
+                <default>false</default>
+                <label>Scout Core Bond Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Scout International Fund ADR</fullName>
+                <default>false</default>
+                <label>Scout International Fund ADR</label>
+            </value>
+            <value>
+                <fullName>Scout Core Bond Fund Class Y</fullName>
+                <default>false</default>
+                <label>Scout Core Bond Fund Class Y</label>
+            </value>
+            <value>
+                <fullName>Kinetics Medical Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Medical Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Internet Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Internet Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Medical Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Medical Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Internet Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Internet Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm Fund Class I</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Paradigm No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Paradigm No Load Class</label>
+            </value>
+            <value>
+                <fullName>Oberweis China Opportunities Fund</fullName>
+                <default>false</default>
+                <label>Oberweis China Opportunities Fund</label>
+            </value>
+            <value>
+                <fullName>Gottex Endowment Strategy Class A</fullName>
+                <default>false</default>
+                <label>Gottex Endowment Strategy Class A</label>
+            </value>
+            <value>
+                <fullName>Gottex Endowment Strategy Class I</fullName>
+                <default>false</default>
+                <label>Gottex Endowment Strategy Class I</label>
+            </value>
+            <value>
+                <fullName>Scout Core Plus Bond Fund - Class Y</fullName>
+                <default>false</default>
+                <label>Scout Core Plus Bond Fund - Class Y</label>
+            </value>
+            <value>
+                <fullName>Kinetics Medical Fund No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Medical Fund No Load Class</label>
+            </value>
+            <value>
+                <fullName>West Loop Realty Income &amp; Growth Fund</fullName>
+                <default>false</default>
+                <label>West Loop Realty Income &amp; Growth Fund</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Focus Fund</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Focus Fund</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Focus Fund Class C</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Focus Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Center Coast MLP Focus Fund Class I</fullName>
+                <default>false</default>
+                <label>Center Coast MLP Focus Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Internet Fund No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Internet Fund No Load Class</label>
+            </value>
+            <value>
+                <fullName>Scout Unconstrained Bond Fund Class I</fullName>
+                <default>false</default>
+                <label>Scout Unconstrained Bond Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Scout Unconstrained Bond Fund Class Y</fullName>
+                <default>false</default>
+                <label>Scout Unconstrained Bond Fund Class Y</label>
+            </value>
+            <value>
+                <fullName>Chilton Realty Income &amp; Growth Class A</fullName>
+                <default>false</default>
+                <label>Chilton Realty Income &amp; Growth Class A</label>
+            </value>
+            <value>
+                <fullName>Chilton Realty Income &amp; Growth Class C</fullName>
+                <default>false</default>
+                <label>Chilton Realty Income &amp; Growth Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alternative Income Fund Class I</fullName>
+                <default>false</default>
+                <label>Kinetics Alternative Income Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disciplinary Fund Class I</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disciplinary Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Horizon Spin Off &amp; Corp Restruc Fnd INST</fullName>
+                <default>false</default>
+                <label>Horizon Spin Off &amp; Corp Restruc Fnd INST</label>
+            </value>
+            <value>
+                <fullName>Kinetics Mrkt Opportunities Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Mrkt Opportunities Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Mrkt Opportunities Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Mrkt Opportunities Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Mrkt Opportunities Fund Class I</fullName>
+                <default>false</default>
+                <label>Kinetics Mrkt Opportunities Fund Class I</label>
+            </value>
+            <value>
+                <fullName>TOROSO Newfound Tactical Alloc. Class I</fullName>
+                <default>false</default>
+                <label>TOROSO Newfound Tactical Alloc. Class I</label>
+            </value>
+            <value>
+                <fullName>TOROSO Newfound Tactical Alloc. Class A</fullName>
+                <default>false</default>
+                <label>TOROSO Newfound Tactical Alloc. Class A</label>
+            </value>
+            <value>
+                <fullName>TOROSO Newfound Tactical Alloc. Class C</fullName>
+                <default>false</default>
+                <label>TOROSO Newfound Tactical Alloc. Class C</label>
+            </value>
+            <value>
+                <fullName>Horizon Spin Off &amp; Corp Rest Fnd Class A</fullName>
+                <default>false</default>
+                <label>Horizon Spin Off &amp; Corp Rest Fnd Class A</label>
+            </value>
+            <value>
+                <fullName>Horizon Spin Off &amp; Corp Rest Fnd Class C</fullName>
+                <default>false</default>
+                <label>Horizon Spin Off &amp; Corp Rest Fnd Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opp. Fund Class A</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opp. Fund Class A</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opp. Fund Class I</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opp. Fund Class I</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opp. Fund Class C</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opp. Fund Class C</label>
+            </value>
+            <value>
+                <fullName>Kinetics Alt Income Fund No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Alt Income Fund No Load Class</label>
+            </value>
+            <value>
+                <fullName>Kinetics Multi-Disc Fund No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Multi-Disc Fund No Load Class</label>
+            </value>
+            <value>
+                <fullName>Scout Core Plus Bond Fund - Inst Class</fullName>
+                <default>false</default>
+                <label>Scout Core Plus Bond Fund - Inst Class</label>
+            </value>
+            <value>
+                <fullName>Kinetics Market Opp Fund No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Market Opp Fund No Load Class</label>
+            </value>
+            <value>
+                <fullName>Kinetics Small Cap Opp Fnd No Load Class</fullName>
+                <default>false</default>
+                <label>Kinetics Small Cap Opp Fnd No Load Class</label>
+            </value>
+            <value>
+                <fullName>Cap Inn Glob Agri, Timber, Infra Class A</fullName>
+                <default>false</default>
+                <label>Cap Inn Glob Agri, Timber, Infra Class A</label>
+            </value>
+            <value>
+                <fullName>Cap Inn Glob Agri, Timber, Infra Class I</fullName>
+                <default>false</default>
+                <label>Cap Inn Glob Agri, Timber, Infra Class I</label>
+            </value>
+            <value>
+                <fullName>Cap Inn Glob Agri, Timber, Infra Class C</fullName>
+                <default>false</default>
+                <label>Cap Inn Glob Agri, Timber, Infra Class C</label>
+            </value>
+            <value>
+                <fullName>Cap Inn Global Agri Timber Infra</fullName>
+                <default>false</default>
+                <label>Cap Inn Global Agri Timber Infra</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

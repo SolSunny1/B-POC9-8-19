@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_My_Account__c</fullName>
+    <externalId>false</externalId>
+    <formula>PFG_CRM_Primary_Lead__r.Id  =  $User.Id ||  PFG_CRM_Secondary_Lead__r.Id =  $User.Id ||  PFG_CRM_Real_Asset_Lead__c  = $User.Id</formula>
+    <label>PFG My Account</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

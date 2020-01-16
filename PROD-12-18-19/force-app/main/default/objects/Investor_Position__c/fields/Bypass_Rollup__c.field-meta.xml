@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_Rollup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[Bits In Glass] : Field added to bypass rollup calculation in Apex Class &quot;ConfigurableRollup&quot;</description>
+    <externalId>false</externalId>
+    <label>Bypass Rollup</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

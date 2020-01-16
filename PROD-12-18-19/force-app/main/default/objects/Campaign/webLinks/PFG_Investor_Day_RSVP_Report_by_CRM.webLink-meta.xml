@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PFG_Investor_Day_RSVP_Report_by_CRM</fullName>
+    <availability>online</availability>
+    <description>report generates list of contacts invited by the logged in CRM.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>PFG Investor Day RSVP Report by CRM</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/00O33000004EoEc?pv0={!Campaign.Name}</url>
+</WebLink>

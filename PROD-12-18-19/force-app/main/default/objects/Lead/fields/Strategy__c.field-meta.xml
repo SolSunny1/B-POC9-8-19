@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategy__c</fullName>
+    <description>PSG Alts Lead field</description>
+    <externalId>false</externalId>
+    <label>Strategy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arbitrage</fullName>
+                <default>false</default>
+                <label>Arbitrage</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>Equity Regional Long/Short</fullName>
+                <default>false</default>
+                <label>Equity Regional Long/Short</label>
+            </value>
+            <value>
+                <fullName>Equity Sector Long/Short</fullName>
+                <default>false</default>
+                <label>Equity Sector Long/Short</label>
+            </value>
+            <value>
+                <fullName>Event Driven</fullName>
+                <default>false</default>
+                <label>Event Driven</label>
+            </value>
+            <value>
+                <fullName>Macro</fullName>
+                <default>false</default>
+                <label>Macro</label>
+            </value>
+            <value>
+                <fullName>Quantitative</fullName>
+                <default>false</default>
+                <label>Quantitative</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

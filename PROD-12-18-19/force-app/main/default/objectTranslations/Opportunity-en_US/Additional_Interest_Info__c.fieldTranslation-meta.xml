@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use this field to help identify the status of the Opportunity from the perspective of PMT. --></help>
+    <label><!-- Status (Tracker) --></label>
+    <name>Additional_Interest_Info__c</name>
+    <picklistValues>
+        <masterLabel>Closed</masterLabel>
+        <translation><!-- Closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial diligence</masterLabel>
+        <translation><!-- Commercial diligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Declined</masterLabel>
+        <translation><!-- Declined --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due Diligence</masterLabel>
+        <translation><!-- Due Diligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Executed NDA</masterLabel>
+        <translation><!-- Executed NDA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Held initial call/meeting</masterLabel>
+        <translation><!-- Held initial call/meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>High Priority Prospect</masterLabel>
+        <translation><!-- High Priority Prospect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IC Approved</masterLabel>
+        <translation><!-- IC Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal diligence</masterLabel>
+        <translation><!-- Legal diligence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Hold</masterLabel>
+        <translation><!-- On Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prospect</masterLabel>
+        <translation><!-- Prospect --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Proposal</masterLabel>
+        <translation><!-- Request for Proposal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soft Declines</masterLabel>
+        <translation><!-- Soft Declines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tracking</masterLabel>
+        <translation><!-- Tracking --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

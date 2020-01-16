@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_exceed_25_Percent</fullName>
+    <active>false</active>
+    <description>Side Car cannot be larger than 25% of the total commitment.</description>
+    <errorConditionFormula>Sidecar_Percentage__c &gt;0.25 || Sidecar_Size__c / Total_Target_Capital__c &gt;0.25</errorConditionFormula>
+    <errorMessage>Side Car cannot be larger than 25% of the total commitment.</errorMessage>
+</ValidationRule>
