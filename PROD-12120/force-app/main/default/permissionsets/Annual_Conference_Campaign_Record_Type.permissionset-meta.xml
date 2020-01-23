@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants access to the Annual Conference (BPFAIC) Record Type</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Annual Conference Campaign Record Type</label>
+    <license>Salesforce</license>
+    <recordTypeVisibilities>
+        <recordType>Campaign.PFG_Annual_Investor_Conference</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

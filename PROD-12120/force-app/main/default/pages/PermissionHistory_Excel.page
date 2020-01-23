@@ -1,0 +1,5 @@
+<apex:page controller="PermissionHistoryController" sidebar="false"  contenttype="text/plain/#SalesForcePermissionHistoryExport.csv" cache="true"> {!header}
+ <apex:repeat value="{!permissionHis}" var="a">
+{!a.Parent.Contact__r.Name},{!a.Parent.Contact__r.Email},{!a.Parent.Fund__r.name},{!SUBSTITUTE(a.Parent.Account_Vehicle__r.Legal_Entity_Legal_Name__c,","," ")},{!SUBSTITUTE(a.Parent.Account__r.Name,","," ")},{!a.CreatedBy.Name},{!a.Field},{!a.OldValue },{!a.NewValue}, {!a.CreatedDate },{!a.Parent.id},{!a.Parent.Name }
+</apex:repeat>
+</apex:page>

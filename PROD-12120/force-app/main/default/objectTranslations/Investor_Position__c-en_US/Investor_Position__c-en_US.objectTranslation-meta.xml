@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investor Position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investor Positions</value>
+    </caseValues>
+    <layouts>
+        <layout>BAM Investor Position Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG CRM Investor Position Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Name --></label>
+            <section>Name</section>
+        </sections>
+        <sections>
+            <label><!-- Position --></label>
+            <section>Position</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Investor Position Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Name --></label>
+            <section>Name</section>
+        </sections>
+        <sections>
+            <label><!-- Position --></label>
+            <section>Position</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Child Investor Position</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Investor Position Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Total AUM and Investment Status --></label>
+            <section>Total AUM and Investment Status</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

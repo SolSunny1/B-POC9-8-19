@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>PermissionManager_Contact_Alerts</label>
+    <protected>false</protected>
+    <values>
+        <field>API_Name__c</field>
+        <value xsi:type="xsd:string">PermissionManager_Contact_Alerts</value>
+    </values>
+    <values>
+        <field>Access_Custom_Permissions__c</field>
+        <value xsi:type="xsd:string">IR_Admin;IR_Support</value>
+    </values>
+    <values>
+        <field>Admin_Profiles__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Columns__c</field>
+        <value xsi:type="xsd:string">Contact__c;Account_Vehicle__r.Name;Fund__r.Name</value>
+    </values>
+    <values>
+        <field>Contact_Security_Field__c</field>
+        <value xsi:type="xsd:string">Permissions_Business_Unit__c</value>
+    </values>
+    <values>
+        <field>Data_Limit_Warning__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Display_Alert_Icons__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Filter_Based_on_Primary_Object__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Header_Angle__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Headers__c</field>
+        <value xsi:type="xsd:string">Contact;Investor;Fund</value>
+    </values>
+    <values>
+        <field>Limit_Pagination__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Limit_Query__c</field>
+        <value xsi:type="xsd:double">250.0</value>
+    </values>
+    <values>
+        <field>Parent_Field__c</field>
+        <value xsi:type="xsd:string">AccountId</value>
+    </values>
+    <values>
+        <field>Partial_Save_Message__c</field>
+        <value xsi:type="xsd:string">This contact has permissions across multiple asset classes. Only the permissions for the asset class you manage were cloned.   Please contact the Private Funds IR team if other asset class permissions should be added.</value>
+    </values>
+    <values>
+        <field>Permission_Filter__c</field>
+        <value xsi:type="xsd:string">Contact__c = &#39;childId&#39;</value>
+    </values>
+    <values>
+        <field>Permission_Security_Field__c</field>
+        <value xsi:type="xsd:string">;;Fund__r.Platform__c</value>
+    </values>
+    <values>
+        <field>Permission_Type_Filter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Primary_Junction_Object_Type__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>Related_Data_Field_Mapping__c</field>
+        <value xsi:type="xsd:string">Contact__c;Finaccount__r.Account_Vehicle__r.Name;Finaccount__r.Investment_Vehicle__r.Name</value>
+    </values>
+    <values>
+        <field>Related_Object_Widgets__c</field>
+        <value xsi:type="xsd:string">Permission_RelatedContacts_Contact;Permission_RelatedCommitment</value>
+    </values>
+    <values>
+        <field>Save_Mode__c</field>
+        <value xsi:type="xsd:string">Active Only</value>
+    </values>
+</CustomMetadata>

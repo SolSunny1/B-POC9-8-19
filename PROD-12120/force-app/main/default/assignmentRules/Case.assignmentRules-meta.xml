@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>PSG Inquires</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>clair.pong@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>clair.pong@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ali.herold@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Ali.Herold@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>tonya.myers@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>tonya.myers@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>jillian.boeni@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Jillian.Boeni@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>calexander@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Clara.Alexander@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>amanda@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Amanda.Weissler@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>tim.blaxton@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Tim.Blaxton@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>tim.pollard@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>tim.pollard@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>alice.olive@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Alice.Olive@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>clair.pong@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>(1 OR 2 OR 4 OR 5) AND 3</booleanFilter>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Jerome Combredet</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Nacho Font</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Jerome.Combredet@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>nacho.font@brookfield.com</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>chris.mcmanama@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>(1 OR 3 OR 4 ) AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Wendy Rockman</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Chris.McManama@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Wendy.Rockman@brookfield.com</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ali.herold@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>(1 OR 3 OR 4 OR 5)  AND 2</booleanFilter>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Angela Vidakovich</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Razan Prassas</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Angela.Vidakovich@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Razan.Prassas@brookfield.com</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>mitch.jones@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 AND ( 2 OR 3 OR 4 OR 5 OR 6 )</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>mitch.jones@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>Richard.Torykian@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>bernie.norton@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Bernie Norton</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Richard Torykian</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>christine.bilyk@brookfield.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>(1 OR 2 OR 4 OR 5 OR 6) AND 3</booleanFilter>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Jeremy Hall</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+                <value>Youngsoo Kim</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>christine.bilyk@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>jeremy.hall@brookfield.com</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.SuppliedEmail</field>
+                <operation>equals</operation>
+                <value>youngsoo.kim@brookfield.com</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>IRTeam</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+            <criteriaItems>
+                <field>Account.BIM_Primary_Mktg_Rep__c</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.ContactEmail</field>
+                <operation>equals</operation>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>PSG Inquiries</value>
+            </criteriaItems>
+            <template>System_Emails/NewPSGInquiriesCase</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

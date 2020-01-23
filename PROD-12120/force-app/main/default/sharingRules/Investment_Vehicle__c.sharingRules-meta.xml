@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Investment_Vehicle_Sharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This sharing rule is used to share investment Vehicle by record type.</description>
+        <label>Investment Vehicle Sharing Rule</label>
+        <sharedTo>
+            <roleAndSubordinates>BIM</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>PSG Old Inactive Vehicle (Do not Delete)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Fund Internal,Listed Issuers,Credit Opportunities,Public Securities,Fund External</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Public_Securities</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Public Securities</label>
+        <sharedTo>
+            <role>BIM_Portfolio_Manager</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Public Securities</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_only_Access_to_other_record_type_for_PSG_users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule will allow to PSG users to  create, edit  records for their assign Record type only</description>
+        <label>Read only Access to other record type for PSG users</label>
+        <sharedTo>
+            <roleAndSubordinates>BIM</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Public Securities,Credit Opportunities,Inactive Record Type</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Record_type_Credit_Opportunities</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Record type Credit Opportunities</label>
+        <sharedTo>
+            <roleAndSubordinates>Credit_Team</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Credit Opportunities</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Investment_Vehicle_All_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Investment Vehicle All Access</label>
+        <sharedTo>
+            <group>Investment_Vehicles_All_access</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SMP</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>PFG_Campaign_Member_Fund_Invitee_Changed</fullName>
+        <description>PFG: Campaign Member Fund Invitee Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>genevieve.spanarkel@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>suresh.sundar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/PFG_Campaign_Member_Fund_Invitee_Change</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>CAT_Status_updates</fullName>
+        <description>TEXT(NOW()) &amp;&quot; Status changed by&quot;&amp;  $User.Username &amp;&quot; from &quot;&amp;TEXT(PRIORVALUE(Status))&amp;&quot;, &quot;&amp;Status_Highlights__c</description>
+        <field>Status_Highlights__c</field>
+        <formula>TEXT(NOW()) &amp;&quot; Status changed by &quot;&amp; $User.FirstName &amp;&quot; &quot;&amp; $User.LastName &amp;&quot; from &quot;&amp;TEXT(PRIORVALUE( Status ))&amp;&quot;, &quot;&amp;Status_Highlights__c</formula>
+        <name>CAT Status updates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Campaign_Member_Status_Update</fullName>
+        <description>Update Campaign Member Status when Date CA Signed field is entered.</description>
+        <field>Status</field>
+        <literalValue>Signed CA</literalValue>
+        <name>Campaign Member Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Uncheck_Site_Tour_Completed_Checkbox</fullName>
+        <field>Site_Tour_Completed__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Site Tour Completed Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Site_Tour_Completed_Checkbox</fullName>
+        <field>Site_Tour_Completed__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Site Tour Completed Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>populate_email</fullName>
+        <field>Email_Text__c</field>
+        <formula>Email</formula>
+        <name>populate email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BFIN - Uncheck Site Tour Completed Checkbox</fullName>
+        <actions>
+            <name>Uncheck_Site_Tour_Completed_Checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the &quot;Site Tour Completed&quot; check box to FALSE if Site Tour (Date Field) is in the future.</description>
+        <formula>Site_Tour__c   &gt;   TODAY()</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Campaign Member Status</fullName>
+        <actions>
+            <name>Campaign_Member_Status_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>CampaignMember.Date_CA_Signed__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Update Campaign Member Status from Prospect to Preliminary Interest</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>BFIN - Update Site Tour Completed Checkbox</fullName>
+        <actions>
+            <name>Update_Site_Tour_Completed_Checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the &quot;Site Tour Completed&quot; check box to TRUE if Site Tour (Date Field) is in the past.</description>
+        <formula>Site_Tour__c  &lt;=  TODAY()</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Campaign Member Email populate</fullName>
+        <actions>
+            <name>populate_email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>CampaignMember.Email</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

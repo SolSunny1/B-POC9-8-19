@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Real_Estate_Bannerjpg</masterLabel>
+    <relationships>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Archive</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Katrina</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>PSG_Shared_App</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>Test_and_Draft_App</name>
+        </insightsApplication>
+        <insightsApplication>
+            <access>VIEWER</access>
+            <name>PSG</name>
+        </insightsApplication>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Real Estate Banner.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

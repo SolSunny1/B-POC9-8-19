@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investment Vehicle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investment Vehicles</value>
+    </caseValues>
+    <layouts>
+        <layout>Archived</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG CRM Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Fundraising Details --></label>
+            <section>Fundraising Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Fundraising Details --></label>
+            <section>Fundraising Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Report Links --></label>
+            <section>Report Links</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Investment Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- PSG Parent Investor Position Active --></label>
+            <section>PSG Parent Investor Position Active</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Read Only Investment Vehicle</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fundraising Details --></label>
+            <section>Fundraising Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Vehicle Status --></label>
+            <section>Investment Vehicle Status</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Profile --></label>
+            <section>Investor Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Commitment Opportunity --></label>
+        <name>New_PFG_Opportunity</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

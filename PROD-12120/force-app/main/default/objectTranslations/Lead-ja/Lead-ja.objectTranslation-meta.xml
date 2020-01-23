@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Alternative Funds with No Feed</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Candidate Details --></label>
+            <section>Candidate Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Source Details --></label>
+            <section>Lead Source Details</section>
+        </sections>
+        <sections>
+            <label><!-- Market Information --></label>
+            <section>Market Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Asset Class --></label>
+            <section>Asset Class</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

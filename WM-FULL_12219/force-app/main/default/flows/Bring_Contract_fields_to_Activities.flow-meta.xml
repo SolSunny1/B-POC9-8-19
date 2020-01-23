@@ -31,7 +31,13 @@
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
-    <startElementReference>Activity_and_Contact_IDs_Screen</startElementReference>
+    <start>
+        <locationX>46</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Activity_and_Contact_IDs_Screen</targetReference>
+        </connector>
+    </start>
     <status>Draft</status>
     <variables>
         <description>Stores the ID number of the NameID (WhoID) that triggered the flow from the Task/Event.</description>

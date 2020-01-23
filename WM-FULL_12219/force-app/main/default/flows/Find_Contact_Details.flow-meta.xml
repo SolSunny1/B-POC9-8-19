@@ -57,6 +57,7 @@
                 <elementReference>WhoID</elementReference>
             </value>
         </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Contact</object>
         <queriedFields>Id</queriedFields>
         <queriedFields>Channel_Covered_By__c</queriedFields>
@@ -64,6 +65,7 @@
         <queriedFields>AdvisorAUMTier__c</queriedFields>
         <queriedFields>Total_Assets_RIA_FIRM__c</queriedFields>
         <queriedFields>Firm_Type__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
         <name>Update_Event_Record_w_RIA_fields_from_Contact</name>
@@ -167,7 +169,13 @@
         </inputAssignments>
         <object>Task</object>
     </recordUpdates>
-    <startElementReference>GetContact</startElementReference>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>GetContact</targetReference>
+        </connector>
+    </start>
     <status>Active</status>
     <variables>
         <description>Stores the ID number of the NameID (WhoID) that triggered the flow from the Task/Event.</description>

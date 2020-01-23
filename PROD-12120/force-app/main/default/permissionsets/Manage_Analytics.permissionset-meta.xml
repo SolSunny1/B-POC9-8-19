@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For the API users in Pardot</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Analytics (Pardot)</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InsightsAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InsightsAppUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseTemplatedApp</name>
+    </userPermissions>
+</PermissionSet>

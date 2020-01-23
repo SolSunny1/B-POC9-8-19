@@ -1,0 +1,62 @@
+<apex:page controller="PermissionHistoryController" id="permissionHistory"  lightningStylesheets="{!$User.UIThemeDisplayed == 'Theme4d'}"  >   
+     <head>
+        <meta http-equiv="Content-Type" content="text/HTML;charset=UTF-8" />
+    </head>
+    <Apex:form >        
+    
+       <apex:pageblock title="Permission History Report">
+           <Apex:commandButton value="Export to Excel" action="{!SaveAsCSV}"  />
+           <apex:pageBlockTable value="{!permissionHis}" var="perm" id="theTable" width="50%" > 
+                
+               <apex:column >
+                    <apex:facet name="header">Contact</apex:facet>            
+                    <apex:outputText value="{!perm.Parent.Contact__r.Name}"/>
+                </apex:column>             
+               <apex:column >
+                    <apex:facet name="header">Email</apex:facet>            
+                    <apex:outputText value="{!perm.Parent.Contact__r.Email}"/>
+                </apex:column>
+               <apex:column >
+                    <apex:facet name="header">Fund</apex:facet>            
+                    <apex:outputText value="{!perm.Parent.Fund__r.name}"/>
+                </apex:column>
+               <apex:column >
+                    <apex:facet name="header">Legal Entity</apex:facet>            
+                    <apex:outputText value="{!perm.Parent.Account_Vehicle__r.Legal_Entity_Legal_Name__c}"/>
+                </apex:column>
+               <apex:column >
+                    <apex:facet name="header">Account</apex:facet>            
+                    <apex:outputText value="{!perm.Parent.Account__r.Name}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Changed By</apex:facet>           
+                    <apex:outputText value="{!perm.CreatedBy.Name}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Field</apex:facet>           
+                    <apex:outputText value="{!perm.Field}"/>
+                </apex:column>   
+                <apex:column >
+                    <apex:facet name="header">OldValue</apex:facet>            
+                    <apex:outputText value="{!perm.OldValue }"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">NewValue</apex:facet>            
+                    <apex:outputText value="{!perm.NewValue}"/>
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">CreatedDate</apex:facet>            
+                    <apex:outputText value="{!perm.CreatedDate }"/>                    
+                </apex:column>
+               <apex:column >
+                    <apex:facet name="header">Permission Link</apex:facet>            
+                   <apex:outputLink value="/{!perm.Parent.id}">{!perm.Parent.id}</apex:outputLink>                 
+                </apex:column>
+                <apex:column >
+                    <apex:facet name="header">Permission Number</apex:facet>            
+                    <apex:outputText value="{!perm.Parent.Name }"/>
+                </apex:column>
+            </apex:pageBlockTable>           
+       </apex:pageblock>
+    </apex:form>
+</apex:page>

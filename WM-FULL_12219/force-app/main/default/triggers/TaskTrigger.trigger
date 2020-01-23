@@ -57,7 +57,7 @@ trigger TaskTrigger on Task (after insert,after update) {
                         //objSobject.put('Last_Email_Date__c',system.today());
                     }
                     else if( !(isSubjectEmail) && mapContact.get(objTask.WhoId).Last_Relationship_Call__c == null || (mapContact.get(objTask.WhoId).Last_Relationship_Call__c != null && mapContact.get(objTask.WhoId).Last_Relationship_Call__c < objTask.ActivityDate)){
-                            objSobject.put('Last_Relationship_Call__c',objTask.ActivityDate);
+                            objSobject.put('Last_Relationship_Call__c',objTask.Account.LastActivityDate);
                             //objSobject.put('Last_Relationship_Call__c',system.today());
                     }
                     for(ObjectFieldMapping__c objObjectFieldMapping :  lstContactFieldUpdateInfo){

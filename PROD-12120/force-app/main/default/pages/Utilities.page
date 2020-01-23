@@ -1,0 +1,14 @@
+<apex:page controller="UtilitiesController" tabStyle="User">
+    <apex:form >
+        <apex:sectionHeader title="Run process" subtitle="Run batches/scripts"/>
+        <apex:pageBlock title="Batch process">
+        <apex:pageMessages />
+            <apex:pageBlockSection columns="1" collapsible="false" title="Rollup Investor Position Account on Account batch"> 
+                <apex:commandButton value="Run Now" action="{!runRollUpBatch}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="1" collapsible="false" title="Populate Investor Position Account batch"> 
+                <apex:commandButton value="Run Now" action="{!runPopulateInvestorPositionAccountBatch}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

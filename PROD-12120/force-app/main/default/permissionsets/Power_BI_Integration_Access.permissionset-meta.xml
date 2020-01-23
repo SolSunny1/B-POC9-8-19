@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To Allow users to Access SFDC Reports from Excel via the Power BI Connector</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Power BI Integration Access</label>
+    <license>Salesforce</license>
+</PermissionSet>

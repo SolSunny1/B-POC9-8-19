@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>PFG_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Allow PFG to see PSG</description>
+        <label>PFG Access</label>
+        <sharedTo>
+            <roleAndSubordinates>PFG_Salesforce_Support</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PSG</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PSG_Access1</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Allow PSG to see PFG</description>
+        <label>PSG Access</label>
+        <sharedTo>
+            <roleAndSubordinates>BIM_Exec</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PFG</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

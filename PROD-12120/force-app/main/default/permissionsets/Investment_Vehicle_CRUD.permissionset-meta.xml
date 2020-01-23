@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Remove access on PSG profiles and assign this permission set to specific users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Investment Vehicle CRUD</label>
+    <license>Salesforce</license>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Investment_Vehicle__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Investment_Vehicle__c.Fund_Internal</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

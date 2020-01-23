@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Unique_Region_Name</fullName>
+        <field>Unique_Region_Name__c</field>
+        <formula>Investment_Vehicle_Region__r.Name + &quot; - &quot; +TEXT( Region__c )+ &quot; - &quot; +TEXT( Year__c )</formula>
+        <name>Unique Region Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Unique Region Name</fullName>
+        <actions>
+            <name>Unique_Region_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Region__c.Unique_Region_Name__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Populate Unique Region Name</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Permission_Account_Change_Alert</fullName>
+        <description>Permission Account Change Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>marija.cekanovic@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>suresh.sundar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Admin/Permission_Account_Change_Alert</template>
+    </alerts>
+    <alerts>
+        <fullName>Permission_Change_Alert</fullName>
+        <description>Permissions: Send email whenever there is a change in Permissions</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>marija.cekanovic@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>suresh.sundar@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Admin/Permission_Alert</template>
+    </alerts>
+</Workflow>

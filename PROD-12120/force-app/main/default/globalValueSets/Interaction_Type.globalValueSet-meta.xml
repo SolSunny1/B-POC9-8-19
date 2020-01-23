@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Fund Introduction</fullName>
+        <default>false</default>
+        <label>Fund Introduction</label>
+    </customValue>
+    <customValue>
+        <fullName>Fund Update</fullName>
+        <default>false</default>
+        <label>Fund Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Investment Team</fullName>
+        <default>false</default>
+        <label>Initial Investment Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Investment Committee</fullName>
+        <default>false</default>
+        <label>Investment Committee</label>
+    </customValue>
+    <customValue>
+        <fullName>Due Diligence</fullName>
+        <default>false</default>
+        <label>Subsequent Investment Team/DD</label>
+    </customValue>
+    <customValue>
+        <fullName>Final Presentation</fullName>
+        <default>false</default>
+        <label>Final Presentation</label>
+    </customValue>
+    <customValue>
+        <fullName>Site Tour</fullName>
+        <default>false</default>
+        <label>Site Tour</label>
+    </customValue>
+    <customValue>
+        <fullName>Call with Investment Team</fullName>
+        <default>false</default>
+        <label>Call with Investment Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Call without Investment Team</fullName>
+        <default>false</default>
+        <label>Call without Investment Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting with Investment Team</fullName>
+        <default>false</default>
+        <label>Meeting with Investment Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting without Investment Team</fullName>
+        <default>false</default>
+        <label>Meeting without Investment Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>Email (to send)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Email (to send)</label>
+    </customValue>
+    <customValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Onsite</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Onsite</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Conference</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Email</label>
+    </customValue>
+    <masterLabel>Interaction Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

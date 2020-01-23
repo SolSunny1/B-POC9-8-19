@@ -1,0 +1,88 @@
+<aura:component controller="RelatedMultiSelect" implements="flexipage:availableForRecordHome,force:lightningQuickAction" access="global" >
+
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler name="change" value="{!v.pageReference}" action="{!c.doInit}" />
+    <aura:registerEvent type="c:SmartEvent" name="smartEvent"/>
+
+    <aura:attribute name="widget" type="SmartWidget__c" description="The SmartWidget__c custom setting" access="global" required="true" default="{'sobjectType':'SmartWidget__c', 'Name':'Contact'}"/>
+    <aura:attribute name="parentRecordId" type="String" description="Optional Id that overwrites parentId on SmartWidget filter" access="global"/>
+    <aura:attribute name="childRecordId" type="String" description="Optional Id that overwrites childId on SmartWidget filter" access="global"/>
+    <aura:attribute name="selectedRecords" type="List" description="List of Ids of selected records" access="global"/>
+    <aura:attribute name="securityEnabled" type="Boolean" description="Enable filtering" access="global" default="false"/>
+    <aura:attribute name="securityGroups" type="List" description="Contains the security groups the user has update access to "/>
+    <aura:attribute name="readOnly" type="boolean" description="Disables selection of additional records"/>
+    <aura:attribute name="showSpinner" type="Boolean" default="false" access="public"/>
+    <aura:attribute name="parentComponent" access="global" type="string" description="Parent Component, for events" required="true" default="default"/>
+    <aura:attribute name="options" type="List" description="Options for the list, widgets determine fields from the object" access="global"/>
+    <aura:attribute name="searchOptions" type="List" description="Filtered list of all records"/>
+    <aura:attribute name="showSearch" type="Boolean" default="false"/>
+
+    <aura:attribute name="searchTimer" type="object" access="private" />
+
+    <aura:attribute name="issearching"    type="Boolean" default="false"/>
+    <div class="slds-form-element">
+        <div class="slds-form-element__control">
+            <aura:if isTrue="{!v.options != null}">
+                <div onkeyup="">
+                    <lightning:input
+                            aura:id="enter-search"
+                            name="enter-search"
+                            placeholder="{!'Find ' + v.widget.Label__c + '...'}"
+                            isLoading="{! v.issearching }"
+                            type="search"
+                            variant="label-hidden"
+                            onchange="{! c.handleKeyUp }"
+                            disabled="{!v.readOnly}"
+                    />
+                </div>
+
+                <aura:if isTrue="{!!v.showSearch}">
+                    <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" style="display: block;position: static;width: 100%;max-width: 100%;z-index: inherit; ">
+                        <div class="slds-dropdown slds-dropdown_left slds-dropdown_small boundingBox" style="display: block; position: static;width: 100%;max-width: 100%;z-index: inherit; margin-top:0;">
+                            <aura:if isTrue="{! v.showSpinner }">
+                                <div class="slds-align_absolute-center slds-m-vertical_large">
+                                    <div class="processing-table">
+                                        <lightning:spinner alternativeText="Loading..."/>
+                                    </div>
+                                </div>
+
+                                <aura:set attribute="else">
+                                    <ul class="slds-dropdown__list slds-dropdown_length-5" role="menu" aria-label="Show More" style="min-height:200px;">
+                                        <aura:iteration items="{!v.options}" var="o">
+                                            <li class="slds-dropdown__item optionItem" role="presentation" onclick="{!if(!v.readOnly, c.selectRecord,'')}" id="{!o.id}">
+                                                <a >
+                                                    <span class="slds-truncate" title="{!o.label}">
+                                                        <lightning:icon iconName="utility:check" size="x-small" class="{!if(o.selected, '', 'slds-hidden')}"/>
+                                                        &nbsp;{!o.label}
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </aura:iteration>
+                                    </ul>
+                                </aura:set>
+                            </aura:if>
+                        </div>
+                    </div>
+                </aura:if>
+
+                <aura:if isTrue="{!v.showSearch}">
+                    <div class="slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" style="display: block;position: static;">
+                        <div class="slds-dropdown slds-dropdown_left slds-dropdown_small boundingBox" style="display: block; position: static;margin-top:0;max-width: none;float:none;">
+                            <ul class="slds-dropdown__list slds-dropdown_length-5" role="menu" aria-label="Show More">
+                                <aura:iteration items="{!v.searchOptions}" var="o">
+                                    <li class="slds-dropdown__item" role="presentation" onclick="{!c.selectSearchRecord}" id="{!o.id}">
+                                        <a >
+                                    <span class="slds-truncate" title="{!o.label}">
+                                        {!o.label}
+                                    </span>
+                                        </a>
+                                    </li>
+                                </aura:iteration>
+                            </ul>
+                        </div>
+                    </div>
+                </aura:if>
+            </aura:if>
+        </div>
+    </div>
+</aura:component>

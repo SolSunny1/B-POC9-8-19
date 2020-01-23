@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Application for Brookfiled Private Funds</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>PFG</label>
+    <logo>SharedDocuments/Brookfields_logo.png</logo>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Relationship__c</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Investment_Vehicle__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Investor_Position__c</tabs>
+    <tabs>Opportunity_Contact__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Property_Relation__c</tabs>
+    <tabs>Opportunity_Assignment__c</tabs>
+    <tabs>External_Database_Account__c</tabs>
+    <tabs>External_Database_Contacts__c</tabs>
+    <tabs>Activities</tabs>
+    <tabs>Brookfield_Opportunity__c</tabs>
+    <tabs>PFG_Seismic_Docs</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>Compliance__c</tabs>
+    <tabs>Mass_Opportunities</tabs>
+    <tabs>Brookfield_Activity__c</tabs>
+    <tabs>Permission_Type__c</tabs>
+    <tabs>Finaccount__c</tabs>
+    <tabs>Account_Vehicle__c</tabs>
+    <tabs>Transaction__c</tabs>
+</CustomApplication>

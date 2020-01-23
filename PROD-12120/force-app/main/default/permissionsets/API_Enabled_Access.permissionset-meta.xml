@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SS: 10/16/19 created to grant API Enable access to needed users (users with Read only - like- Ekta)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>API Enabled Access</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+</PermissionSet>

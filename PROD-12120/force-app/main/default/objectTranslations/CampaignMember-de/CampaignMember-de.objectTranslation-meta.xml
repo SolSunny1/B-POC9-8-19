@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Alternative funds</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BFIN Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Data room --></label>
+            <section>Data room</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Status History --></label>
+            <section>Status History</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BIM Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BLP Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Data room --></label>
+            <section>Data room</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Status History --></label>
+            <section>Status History</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield Diligence Portal Member</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Annual Conf Campaign Member Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Private Event Details --></label>
+            <section>Private Event Details</section>
+        </sections>
+        <sections>
+            <label><!-- Required Information --></label>
+            <section>Required Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Campaign Member Page Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relationship</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relationships</value>
+    </caseValues>
+    <layouts>
+        <layout>Board Member</layout>
+        <sections>
+            <label><!-- Board Member --></label>
+            <section>Board Member</section>
+        </sections>
+        <sections>
+            <label><!-- Board Member Contact details --></label>
+            <section>Board Member Contact details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Member of Company Board of Directors --></label>
+            <section>Member of Company Board of Directors</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- External Account And/Or Contact --></label>
+            <section>External Account And/Or Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Has a Relationship With Brookfield Employee --></label>
+            <section>Has a Relationship With Brookfield Employee</section>
+        </sections>
+        <sections>
+            <label><!-- Relationship Details of Brookfield Employees with Contacts --></label>
+            <section>Relationship Details of Brookfield Employees with Contacts</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consultant</layout>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Consultant Name --></label>
+            <section>Consultant Name</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

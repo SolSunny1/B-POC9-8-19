@@ -1,0 +1,463 @@
+<aura:component access="global" implements="lightning:isUrlAddressable" controller="PermissionEdit_Controller">
+    <!-- HANDLERS -->
+    <aura:handler event="c:SmartEvent" action="{! c.handleSmartEvent }"/>
+    <aura:handler name="change" value="{!v.pageReference}" action="{!c.resetPageState}" />
+
+    <!-- REQUIREMENTS -->
+    <ltng:require scripts="{!$Resource.jQuery}" afterScriptsLoaded="{! c.doInit }"/>
+    <lightning:unsavedChanges aura:id="unsaved" onsave="{! c.onclickSavePermission }"/>
+
+    <!-- COMPONENT -->
+    <aura:attribute name="componentId" type="String" access="global" default="PermissionEdit"/>
+    <aura:attribute name="componentOrigin" type="String" access="global" default="IamAnOrphan"/>
+    <aura:attribute name="packageNamespace" type="String" access="global" default=""/>
+    <aura:attribute name="recordId" type="String" access="global"/>
+    <aura:attribute name="parentId" type="String" description="The parent of the record Id. Used for loading related data."/>
+    <aura:attribute name="relatedWidgetsAreReady" type="Boolean" access="global" default="false"/>
+
+    <!-- CONFIG -->
+    <aura:attribute name="permissionConfigName" type="String" description="The name of the permission configuration to load for the page" access="global"/>
+    <aura:attribute name="permissionConfig" type="Object" description="Permission configuration"/>
+    <aura:attribute name="widgets" type="List" description="List of widgets to display."/>
+    <aura:attribute name="mode" type="String" description="The operating mode of the page. Either edit or clone."/>
+    <aura:attribute name="tableMode" type="String" access="global" default="button" description="acceptable values: checkbox, button"/>
+    <aura:attribute name="widgetWrappers" type="List" description="Data wrapper for data to pass to Related Multiselect"/>
+    <aura:attribute name="isSandbox" type="Boolean" default="false"/>
+
+    <!-- SECURITY -->
+    <aura:attribute name="securityEnabled" type="Boolean" description="Is security enabled on for this config" />
+    <aura:attribute name="securityGroups" type="List" access="global" default="[]" description="Contains the security groups the user has update access to "/>
+    <aura:attribute name="customPmsAPINames" type="String[]" access="private" default="[]"/>
+    <aura:attribute name="securityFields" type="List" access="global" default="[]"/>
+    <aura:attribute name="enableRowSecurity" type="Boolean" access="global" default="false"/>
+    <aura:attribute name="userIsAdmin" type="Boolean" access="global" default="false"/>
+    <aura:attribute name="readOnly" type="Boolean" default="false"/>
+    <aura:attribute name="pageHeaderOffset" type="Integer" access="global" default="0" />
+    <aura:attribute name="tableHeaderOffset" type="Integer" access="global" default="0" />
+
+    <!-- DATA -->
+    <aura:attribute name="existingPermissions" type="List" description="Existing permission records. Loaded by the system."/>
+
+    <!-- PERMISSION TABLE -->
+    <aura:attribute name="keyObjects" type="List" access="global" default="[]"/>
+    <aura:attribute name="sObjectNames" type="List" access="global" default="[]"/>
+    <aura:attribute name="sObjectLabels" type="List" access="global" default="[]"/>
+    <aura:attribute name="rowHeaders" type="List" access="global" default="[]"/>
+    <aura:attribute name="rowHeaderFields" type="List" access="global" default="[]" description="fields should come from Permission object"/>
+    <aura:attribute name="relatedDataFields" type="List" access="global" default="[]" description="fields should come from SmartWidget's Object"/>
+    <aura:attribute name="pmsFieldNames" type="List" access="global" default="[]"/>
+    <aura:attribute name="permissionTypes" type="List" access="global" default="[]"/>
+
+    <aura:attribute name="selectedObjectMap" type="Map" access="global" default="{}"/>
+    <aura:attribute name="selectedIdMap" type="Map" access="private" default="{}"/>
+    <aura:attribute name="preloadRowJSONMap" type="Map" access="private" default="{}"/>
+    <aura:attribute name="existingRowMap" type="Map" access="private" default="{}"/>
+
+    <aura:attribute name="keyObjectJSON" type="String" access="private" />
+    <aura:attribute name="rowObjectJSON" type="String" access="private" />
+    <aura:attribute name="permissionTypeWidth" type="String" access="private" />
+    <aura:attribute name="masterPmsList" type="List" access="private" />
+
+    <!-- SPECIAL EFFECT ATTRIBUTES -->
+    <aura:attribute name="colSizeLeft" type="String" access="private" default="slds-size_6-of-12"/>
+    <aura:attribute name="colSizeRight" type="String" access="private" default="slds-size_6-of-12"/>
+    <aura:attribute name="colSizeCounter" type="Integer" access="private" default="6"/>
+    <aura:attribute name="enableAlerts" type="Boolean" access="global" default="false" description="Toggle display of alert button"/>
+    <aura:attribute name="newKeyObjAdded" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="tableHeaderHeight" type="String" access="private" default=""/>
+    <aura:attribute name="pmsTypeLabelTranslate" type="String" access="public" default=""/>
+    <aura:attribute name="pmsTypeLabelWidth" type="String" access="public" default=""/>
+    <aura:attribute name="disableSaveButton" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="rowLabelWidth" type="String" access="private" default=""/>
+    <aura:attribute name="incompleteRelatedMultiSelect" type="Integer" access="private" default="2"/>
+
+    <!-- PAGINATION -->
+    <aura:attribute name="pageIndex" type="Integer" access="private" default="0"/>
+    <aura:attribute name="pageList" type="List" access="private" default="[]"/>
+    <aura:attribute name="relatedRecordDefaults" type="Map" access="public" default="{}"/>
+    <aura:attribute name="disablePreviousBtn" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="disableNextBtn" type="Boolean" access="private" default="false"/>
+
+    <!-- FILTERING -->
+    <aura:attribute name="callFilterHelper" type="Object" access="public"/>
+    <aura:attribute name="filteredOutKeyObjects" type="List" access="public" default="[]"/>
+
+    <!--INVOCATION INFORMATION-->
+    <aura:attribute name="recordName" type="String" access="global"/>
+    <aura:attribute name="defaultedPermissionTypes" access="global" type="String" description="Semicolon delimited list of permission types to default checked" default="''"/>
+    <aura:attribute name="iconName" access="global" type="string" description="Name of the icon for the header; e.x. standard:contact"/>
+    <aura:attribute name="permissionLabel" access="global" type="String" description="Label of the permission type object" />
+
+    <!--ERROR HANDLING-->
+
+    <aura:attribute name="showErrors" type="Boolean" access="global" default="false"
+                    description="Toggle error panel"/>
+    <!--TODO Implement for related list-->
+    <aura:attribute name="errorMessages" type="String[]" access="global"
+                    description="Contains a list of error messages for this component; populated by ERROR_HANDLING event in the handler"/>
+    <aura:attribute name="showSpinner" type="Boolean" access="global" default="false"/>
+
+    <div class="slds-theme--default slds-p-around_small">
+        <aura:if isTrue="{! !empty(v.permissionConfig) }">
+            <div id="headerBuffer" style="color: white; height: 0">&nbsp;</div>
+
+            <div id="header" class="headerCard">
+                <div class="slds-size_1-of-1 slds-m-bottom_small">
+                    <div class="slds-page-header" >
+                        <div class="slds-page-header__row">
+                            <lightning:icon size="large" iconName="{!v.iconName}" class="slds-icon--large"/>
+                            <div class="slds-page-header__col-title slds-p-left_medium">
+                                <div class="slds-page-header__name">
+                                    <div class="slds-page-header__name-title">
+                                        <h1>
+                                            <span class="slds-page-header__title"
+                                                  style="font-size:1.4rem!important;"
+                                                  title="{! v.recordName }">
+                                                <a href="{!'/'+v.recordId}" style="text-decoration: none;color: inherit;">{! v.recordName }</a>
+                                            </span>
+                                        </h1>
+                                    </div>
+                                </div>
+                                <p class="slds-page-header__name-meta">{!v.permissionLabel}</p>
+                            </div>
+                            <aura:if isTrue="{! v.disableSaveButton }">
+                                <div class="processing-table">
+                                    <lightning:spinner alternativeText="Processing table..."
+                                                       class="processing-table-bg"/>
+                                </div>
+                            </aura:if>
+                            <lightning:button class="slds-float_right" label="Save Permissions"
+                                              disabled="{! v.disableSaveButton }"
+                                              onclick="{! c.onclickSavePermission }" variant="brand"/>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aura:if>
+        <!-- SPINNER -->
+
+        <aura:if isTrue="{! v.showSpinner }">
+            <lightning:spinner variant="brand" alternativeText="Initializing existing permissions."/>
+        </aura:if>
+
+        <aura:if isTrue="{! v.relatedWidgetsAreReady }">
+            <div class="multiSelectPanel" style="background-color:white; padding: 0;">
+                <div class="slds-grid slds-p-bottom_x-small slds-size_1-of-1">
+                    <aura:iteration items="{! v.widgetWrappers }" var="ww">
+                        <div class="{! 'slds-p-horizontal_xx-small slds-size_1-of-' + v.widgetWrappers.length}">
+                            <c:RelatedMultiSelect_V2  aura:id="related-multi-select" loadMode="edit"
+                                                      componentId="{! ww.widget.Id }" componentOrigin="{! v.componentId }"
+                                                      widget="{! ww.widget }"
+                                                      selectedRecords="{! ww.defaults }"
+                                                      readOnly="{! v.readOnly }" disableSearch="true"/>
+                        </div>
+                    </aura:iteration>
+                </div>
+                <div class="slds-grid slds-size_1-of-1 slds-p-bottom_medium">
+                    <div class="slds-size_1-of-2">
+                    </div>
+                    <div class="slds-size_1-of-2 slds-p-right_xx-small">
+                        <lightning:button class="slds-float_right" variant="neutral"
+                                          onclick="{! c.onclickRelatedMultiSelectGo }">
+                            Load Permissions
+                        </lightning:button>
+                    </div>
+                </div>
+            </div>
+        </aura:if>
+
+        <!-- BEGIN PERMISSION TABLE -->
+        <div class="permission-table slds-border_top">
+            <div class="slds-grid slds-wrap" style="border-radius:0;">
+                <!-- PERMISSION TYPE LABELS -->
+                <div id="tableBuffer" style="color: white; height: 0">&nbsp;</div>
+                <div class="slds-grid slds-size_1-of-1 slds-p-vertical_small tableHeader" id="table"
+                     style="{! empty(v.tableHeaderHeight) ? '' : ('height:' + v.tableHeaderHeight + ';') }">
+                    <div class="{! v.colSizeLeft }"></div>
+                    <div class="{! 'slds-grid ' + v.colSizeRight }" style="margin:auto;">
+                        <aura:if isTrue="{! or(empty(v.permissionConfig.Header_Angle__c), v.permissionConfig.Header_Angle__c == 0) }">
+                            <aura:iteration items="{! v.permissionTypes }" var="pmsType">
+                                <div class="slds-align_absolute-center" style="{! 'width:'+v.permissionTypeWidth }">
+                                    <label class="slds-item_label" style="{!'color:'+pmsType.Label_Color__c}">
+                                        <b>{! pmsType.Name }</b>
+                                    </label>
+                                </div>
+                            </aura:iteration>
+
+                            <aura:set attribute="else">
+                                <aura:iteration items="{! v.permissionTypes }" var="pmsType">
+                                    <div style="{! v.pmsTypeLabelTranslate + 'width:'+v.permissionTypeWidth }">
+                                        <div class="slds-p-left_small permission-type-label"
+                                             style="{! 'transform-origin:left;transform:rotate(-'+v.permissionConfig.Header_Angle__c+'deg);width:' + v.pmsTypeLabelWidth + ';' }">
+                                            <label class="slds-item_label" style="{!'color:'+pmsType.Label_Color__c}">
+                                                <b>{! pmsType.Name }</b>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </aura:iteration>
+                            </aura:set>
+                        </aura:if>
+                        <div style="height:1rem;width:24px!important;">&nbsp;</div>
+                    </div>
+                </div>
+
+                <div class="slds-grid slds-size_1-of-1 slds-p-vertical_x-small slds-border_top"
+                     style="background-color:#f4f6fe;">
+                    <div class="{! v.colSizeLeft }">
+                        <div class="slds-grid slds-wrap slds-size_1-of-1">
+                            <div style="{! 'display:flex;' + (v.enableAlerts ? 'width:5.3rem;' : 'width:3.125rem;') }"></div>
+                            <div class="slds-grid slds-wrap" style="flex-grow:1;">
+                                <aura:iteration items="{! v.rowHeaders }" var="objLabel">
+                                    <label class="slds-item_label slds-p-horizontal_x-small"
+                                           style="{! 'color:#3e3e3c;width:' + v.rowLabelWidth }">
+                                        <b>{! objLabel }</b>
+                                    </label>
+                                </aura:iteration>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="{! 'slds-grid master-options ' + v.colSizeRight }" style="margin:auto;">
+                        <aura:if isTrue="{! v.enableAlerts }">
+                            <aura:iteration items="{! v.masterPmsList }" var="pms" indexVar="masterPmsIndex">
+                                <div class="slds-grid slds-wrap slds-align_absolute-center" style="{! 'width:'+pms.width }">
+                                    <div class="{! 'option-button-left option-button' + (pms.permission.Status__c == 'Active' ? ' option-selected' : '') + (pms.disableStatus? ' option-disabled':'')}"
+                                         data-option-key="Status__c" data-option-index="{! masterPmsIndex }"
+                                         onclick="{! if(!pms.disableStatus,c.onclickToggleOption,'') }">
+                                        <lightning:icon iconName="utility:page" size="xx-small"/>
+                                    </div>
+                                    <div class="{! 'option-button-right option-button' + (pms.permission.Alert_Status__c == 'Active' ? ' option-selected' : '') + (pms.disableAlert? ' option-disabled':'')}"
+                                         data-option-key="Alert_Status__c" data-option-index="{! masterPmsIndex }"
+                                         onclick="{! if(!pms.disableAlert,c.onclickToggleOption,'') }">
+                                        <lightning:icon iconName="utility:email" size="xx-small"/>
+                                    </div>
+                                </div>
+                            </aura:iteration>
+
+                            <aura:set attribute="else">
+                                <aura:iteration items="{! v.masterPmsList }" var="pms" indexVar="masterPmsIndex">
+                                    <div class="slds-align_absolute-center">
+                                        <div class="{! 'option-button' + (pms.permission.Status__c == 'Active' ? ' option-selected' : '') + (pms.disableStatus? ' option-disabled':'') }"
+                                             data-option-key="Status__c" data-option-index="{! masterPmsIndex }"
+                                             onclick="{! if(!pms.disableStatus,c.onclickToggleOption,'') }">
+                                            <lightning:icon iconName="utility:page" size="xx-small"/>
+                                        </div>
+                                    </div>
+                                </aura:iteration>
+                            </aura:set>
+                        </aura:if>
+                        
+                        <div class="slds-p-right_x-small clear-pms-btn"
+                             onclick="{! c.onclickClearPermissions }">
+                            <lightning:icon iconName="utility:clear" size="x-small"
+                                            alternativeText="Clear" title="Clear"/>
+                        </div>
+                    </div>
+                </div>
+
+                <aura:if isTrue="{! !v.showSpinner }">
+                    <aura:iteration items="{! v.keyObjects }" var="keyObj" indexVar="keyIndex">
+                        <aura:if isTrue="{! keyObj.display }">
+                            <div class="{! 'slds-size_1-of-1' + (and(keyIndex==0,v.newKeyObjAdded) ? ' new-key-object' : '') }">
+                                <!-- SECTION HEADER -->
+                                <div class="slds-grid slds-size_1-of-1 slds-border_top key-object-bar">
+                                    <div class="{! 'slds-grid ' + v.colSizeLeft }">
+                                        <div class="slds-p-left_x-small slds-p-right_small key-options" style="display:flex;margin:auto;">
+                                            <aura:if isTrue="{! v.enableAlerts }">
+                                                <div class="{! 'option-button-left option-button' + (keyObj.pmsRowCtrl.permission.Status__c  == 'Active' ? ' option-selected' : '') + (keyObj.pmsRowCtrl.disableStatus? ' option-disabled':'') }"
+                                                     data-option-key="Status__c"
+                                                     data-key-index="{! keyIndex }"
+                                                     onclick="{! if(!keyObj.pmsRowCtrl.disableStatus,c.onclickToggleOption,'') }">
+                                                    <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                </div>
+                                                <div class="{! 'option-button-right option-button' + (keyObj.pmsRowCtrl.permission.Alert_Status__c  == 'Active' ? ' option-selected' : '') + (keyObj.pmsRowCtrl.disableAlert? ' option-disabled':'') }"
+                                                     data-option-key="Alert_Status__c"
+                                                     data-key-index="{! keyIndex }"
+                                                     onclick="{! if(!keyObj.pmsRowCtrl.disableAlert,c.onclickToggleOption,'') }">
+                                                    <lightning:icon iconName="utility:email" size="xx-small"/>
+                                                </div>
+
+                                                <aura:set attribute="else">
+                                                    <div class="slds-align_absolute-center">
+                                                        <div class="{! 'option-button' + (keyObj.pmsRowCtrl.permission.Status__c == 'Active' ? ' option-selected' : '') + (keyObj.pmsRowCtrl.disableStatus? ' option-disabled':'') }"
+                                                             data-option-key="Status__c"
+                                                             data-key-index="{! keyIndex }"
+                                                             onclick="{! if(!keyObj.pmsRowCtrl.disableStatus,c.onclickToggleOption,'') }">
+                                                            <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                        </div>
+                                                    </div>
+                                                </aura:set>
+                                            </aura:if>
+                                        </div>
+                                        <div class="slds-truncate" style="flex-grow:1;">
+                                            <h3 class="slds-section__title slds-truncate" style="cursor:pointer;" data-index="{! keyIndex }"
+                                                onclick="{! c.toggleSectionDisplay }">
+                                                <lightning:icon class="slds-m-right_x-small"
+                                                                iconName="{! 'utility:chevron' + (keyObj.selected ? 'down' : 'right' ) }" size="x-small"/>
+                                                <span class="slds-truncate">{! keyObj.record.label }</span>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!-- keyObj permission list -->
+                                    <div class="{! 'slds-grid key-options ' + v.colSizeRight}" style="margin:auto;">
+                                        <aura:if isTrue="{! v.enableAlerts }">
+                                            <aura:iteration items="{! keyObj.pmsList }" var="keyOption" indexVar="keyOptionIndex">
+                                                <div class="slds-grid slds-wrap slds-align_absolute-center"
+                                                     style="{! 'width:' + keyOption.width }">
+                                                    <div class="{! 'option-button-left option-button' + (keyOption.permission.Status__c == 'Active' ? ' option-selected' : '') + (keyOption.disableStatus? ' option-disabled':'') }"
+                                                         data-option-key="Status__c"
+                                                         data-key-index="{! keyIndex }" data-option-index="{! keyOptionIndex }"
+                                                         onclick="{! if(!keyOption.disableStatus,c.onclickToggleOption,'') }">
+                                                        <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                    </div>
+                                                    <div class="{! 'option-button-right option-button' + (keyOption.permission.Alert_Status__c == 'Active' ? ' option-selected' : '') + (keyOption.disableAlert? ' option-disabled':'') }"
+                                                         data-option-key="Alert_Status__c"
+                                                         data-key-index="{! keyIndex }" data-option-index="{! keyOptionIndex }"
+                                                         onclick="{! if(!keyOption.disableAlert,c.onclickToggleOption,'') }">
+                                                        <lightning:icon iconName="utility:email" size="xx-small"/>
+                                                    </div>
+                                                </div>
+                                            </aura:iteration>
+
+                                            <aura:set attribute="else">
+                                                <aura:iteration items="{! keyObj.pmsList }" var="keyOption" indexVar="keyOptionIndex">
+                                                    <div class="slds-align_absolute-center">
+                                                        <div class="{! 'option-button' + (keyOption.permission.Status__c == 'Active' ? ' option-selected' : '') + (keyOption.disableStatus? ' option-disabled':'') }"
+                                                             data-option-key="Status__c"
+                                                             data-key-index="{! keyIndex }" data-option-index="{! keyOptionIndex }"
+                                                             onclick="{! if(!keyOption.disableStatus,c.onclickToggleOption,'') }">
+                                                            <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                        </div>
+                                                    </div>
+                                                </aura:iteration>
+                                            </aura:set>
+                                        </aura:if>
+                                        
+                                        <div class="slds-p-right_x-small clear-pms-btn"
+                                             data-key-index="{! keyIndex }"
+                                             onclick="{! c.onclickClearPermissions }">
+                                            <lightning:icon iconName="utility:clear" size="x-small"
+                                                            alternativeText="Clear" title="Clear"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- SECTION RECORDS -->
+                                <aura:if isTrue="{! and(keyObj.selected, not(empty(keyObj.rows))) }">
+                                    <!-- rowObj permission list -->
+                                    <aura:iteration items="{! keyObj.rows }" var="rowObj" indexVar="rowIndex">
+                                        <aura:if isTrue="{! rowObj.display }">
+                                            <div class="{!'slds-grid slds-wrap slds-size_1-of-1 slds-p-vertical_xx-small slds-border_top row-object-bar' + (rowObj.changed == true ? ' changed' : '') + (rowObj.saved == true ? ' saved' : '') + (rowObj.error == true ? ' error' : '')}" id="{! rowObj.rowId }">
+                                                <div class="{! 'slds-grid ' + v.colSizeLeft }">
+                                                    <div class="slds-p-left_x-small slds-p-right_small row-ctrl-options" style="display:flex;">
+                                                        <aura:if isTrue="{! v.enableAlerts }">
+                                                            <div class="{! 'option-button-left option-button' + (rowObj.pmsRowCtrl.permission.Status__c  == 'Active' ? ' option-selected' : '') + (rowObj.pmsRowCtrl.disableStatus? ' option-disabled':'')}"
+                                                                 data-option-key="Status__c"
+                                                                 data-key-index="{! keyIndex }" data-row-index="{! rowIndex }"
+                                                                 onclick="{! if(!rowObj.pmsRowCtrl.disableStatus,c.onclickToggleOption,'') }">
+                                                                <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                            </div>
+                                                            <div class="{! 'option-button-right option-button' + (rowObj.pmsRowCtrl.permission.Alert_Status__c  == 'Active' ? ' option-selected' : '') + (rowObj.pmsRowCtrl.disableAlert? ' option-disabled':'') }"
+                                                                 data-option-key="Alert_Status__c"
+                                                                 data-key-index="{! keyIndex }" data-row-index="{! rowIndex }"
+                                                                 onclick="{! if(!rowObj.pmsRowCtrl.disableAlert,c.onclickToggleOption,'') }">
+                                                                <lightning:icon iconName="utility:email" size="xx-small"/>
+                                                            </div>
+
+                                                            <aura:set attribute="else">
+                                                                <div class="slds-align_absolute-center">
+                                                                    <div class="{! 'option-button' + (rowObj.pmsRowCtrl.permission.Status__c == 'Active' ? ' option-selected' : '') + (rowObj.pmsRowCtrl.disableStatus? ' option-disabled':'') }"
+                                                                         data-option-key="Status__c"
+                                                                         data-key-index="{! keyIndex }" data-row-index="{! rowIndex }"
+                                                                         onclick="{! if(!rowObj.pmsRowCtrl.disableStatus,c.onclickToggleOption,'') }">
+                                                                        <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                                    </div>
+                                                                </div>
+                                                            </aura:set>
+                                                        </aura:if>
+                                                    </div>
+                                                    <div class="slds-grid" style="flex-grow:1;">
+                                                        <aura:iteration items="{! rowObj.subRecords }" var="subRecord" indexVar="subRecordIndex">
+                                                            <span class="slds-p-horizontal_x-small slds-truncate"
+                                                                  style="{! 'white-space:unset!important;width:' + keyObj.rowLabelWidth }">
+                                                                {! subRecord.label }
+                                                            </span>
+                                                        </aura:iteration>
+                                                    </div>
+                                                </div>
+                                                <div class="{! 'slds-grid ' + v.colSizeRight }">
+                                                    <aura:if isTrue="{! v.enableAlerts }">
+                                                        <aura:iteration items="{! rowObj.pmsList }" var="rowOption" indexVar="optionIndex">
+                                                            <div class="slds-grid slds-wrap slds-align_absolute-center"
+                                                                 style="{! 'width:' + rowOption.width }">
+                                                                <div class="{! 'option-button-left option-button' + (rowOption.permission.Status__c == 'Active' ? ' option-selected' : '') + (rowOption.disableStatus? ' option-disabled':'') }"
+                                                                     data-option-key="Status__c"
+                                                                     data-key-index="{! keyIndex }" data-row-index="{! rowIndex }" data-option-index="{! optionIndex }"
+                                                                     onclick="{!if(!rowOption.disableStatus,c.onclickToggleOption,'')}">
+                                                                    <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                                </div>
+                                                                <div class="{! 'option-button-right option-button' + (rowOption.permission.Alert_Status__c == 'Active' ? ' option-selected' : '')+ (rowOption.disableAlert? ' option-disabled':'') }"
+                                                                     data-option-key="Alert_Status__c"
+                                                                     data-key-index="{! keyIndex }" data-row-index="{! rowIndex }" data-option-index="{! optionIndex }"
+                                                                     onclick="{!if(!rowOption.disableAlert,c.onclickToggleOption,'')}">
+                                                                    <lightning:icon iconName="utility:email" size="xx-small"/>
+                                                                </div>
+                                                            </div>
+                                                        </aura:iteration>
+
+                                                        <aura:set attribute="else">
+                                                            <aura:iteration items="{! rowObj.pmsList }" var="rowOption" indexVar="optionIndex">
+                                                                <div class="slds-align_absolute-center">
+                                                                    <div class="{! 'option-button' + (rowOption.permission.Status__c == 'Active' ? ' option-selected' : '')+ (rowOption.disableStatus? ' option-disabled':'') }"
+                                                                         data-option-key="Status__c"
+                                                                         data-key-index="{! keyIndex }" data-row-index="{! rowIndex }" data-option-index="{! optionIndex }"
+                                                                         onclick="{!if(!rowOption.disableStatus,c.onclickToggleOption,'')}">
+                                                                        <lightning:icon iconName="utility:page" size="xx-small"/>
+                                                                    </div>
+                                                                </div>
+                                                            </aura:iteration>
+                                                        </aura:set>
+                                                    </aura:if>
+                                                    
+                                                    <aura:if isTrue="{! rowObj.disabled }">
+                                                        <div style="height:1rem;width:24px!important;">&nbsp;</div>
+                                                    	<aura:set attribute="else">
+                                                            <div class="slds-p-right_x-small clear-pms-btn"
+                                                                 data-key-index="{! keyIndex }" data-row-index="{! rowIndex }"
+                                                                 onclick="{! c.onclickClearPermissions }">
+                                                                <lightning:icon iconName="utility:clear" size="x-small"
+                                                                                alternativeText="Clear" title="Clear"/>
+                                                            </div>
+                                                        </aura:set>
+                                                    </aura:if>
+                                                </div>
+                                                <!--Error message spans columns-->
+                                                <aura:if isTrue="{! rowObj.errorMessage != '' }">
+                                                    <div class="slds-cell-wrap slds-wrap slds-size_1-of-1 slds-p-left_x-small" style="{!'color: #D8000C;'}">
+                                                        {! rowObj.errorMessage }
+                                                    </div>
+                                                </aura:if>
+                                            </div>
+                                        </aura:if>
+                                    </aura:iteration>
+                                </aura:if>
+                            </div>
+                        </aura:if>
+                    </aura:iteration>
+                </aura:if>
+            </div>
+        </div>
+        <!-- END PERMISSION TABLE-->
+
+        <!-- BEGIN PAGINATION -->
+        <div class="slds-size_1-of-1 slds-m-top_large slds-align_absolute-center">
+            <lightning:button class="slds-m-right_medium pagination-btn" label="Previous"
+                              disabled="{! v.disablePreviousBtn }"
+                              onclick="{! c.loadPreviousPermissions }"/>
+            <lightning:button class="pagination-btn" label="Next"
+                              disabled="{! v.disableNextBtn }"
+                              onclick="{! c.loadNextPermissions }"/>
+        </div>
+        <!-- END PAGINATION -->
+    </div>
+</aura:component>

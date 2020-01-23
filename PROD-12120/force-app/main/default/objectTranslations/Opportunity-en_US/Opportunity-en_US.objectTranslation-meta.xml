@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Alternative funds</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Consultant Information --></label>
+            <section>Consultant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Method --></label>
+            <section>Contact Method</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Key Interest Indicators --></label>
+            <section>Key Interest Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAC_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Plan Information --></label>
+            <section>Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM Finance</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- NDA Details --></label>
+            <section>NDA Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Stage details --></label>
+            <section>Stage details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BCOF</layout>
+        <sections>
+            <label><!-- Consultant Information --></label>
+            <section>Consultant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Key Interest Indicators --></label>
+            <section>Key Interest Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BFIN_Opportunity Layout Infra</layout>
+        <sections>
+            <label><!-- Asset Class --></label>
+            <section>Asset Class</section>
+        </sections>
+        <sections>
+            <label><!-- Mandate Information --></label>
+            <section>Mandate Information</section>
+        </sections>
+        <sections>
+            <label><!-- Revenue Management --></label>
+            <section>Revenue Management</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Timeline --></label>
+            <section>Transaction Timeline</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BFIN_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Asset Class --></label>
+            <section>Asset Class</section>
+        </sections>
+        <sections>
+            <label><!-- Deal Information --></label>
+            <section>Deal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Mandate Information --></label>
+            <section>Mandate Information</section>
+        </sections>
+        <sections>
+            <label><!-- Revenue Management --></label>
+            <section>Revenue Management</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Timeline --></label>
+            <section>Transaction Timeline</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BLP_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Asset Class --></label>
+            <section>Asset Class</section>
+        </sections>
+        <sections>
+            <label><!-- Closing --></label>
+            <section>Closing</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Business Development</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Overview --></label>
+            <section>Opportunity Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Other Product Details --></label>
+            <section>Other Product Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Details --></label>
+            <section>Product Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Comm Dev</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Lobby</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking --></label>
+            <section>Tracking</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copy of PSG_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Consultant Information --></label>
+            <section>Consultant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Method --></label>
+            <section>Contact Method</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Due Diligence --></label>
+            <section>Due Diligence</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Feeder Fund Retail</layout>
+        <sections>
+            <label><!-- Consultant Information (Only to be completed for Consultant Opportunities) --></label>
+            <section>Consultant Information (Only to be completed for Consultant Opportunities)</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Method --></label>
+            <section>Contact Method</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Key Interest Indicators --></label>
+            <section>Key Interest Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+        <sections>
+            <label><!-- PMT Closing Tracker --></label>
+            <section>PMT Closing Tracker</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Research Opportunity</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Summary Information --></label>
+            <section>Summary Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Users</layout>
+        <sections>
+            <label><!-- DDQ/RFI --></label>
+            <section>DDQ/RFI</section>
+        </sections>
+        <sections>
+            <label><!-- Data Room Information --></label>
+            <section>Data Room Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG_CRM_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Consultant Information (Only to be completed for Consultant Opportunities) --></label>
+            <section>Consultant Information (Only to be completed for Consultant Opportunities)</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Key Interest Indicators --></label>
+            <section>Key Interest Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Consultant Information (Only to be completed for Consultant Opportunities) --></label>
+            <section>Consultant Information (Only to be completed for Consultant Opportunities)</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Requests --></label>
+            <section>Investor Requests</section>
+        </sections>
+        <sections>
+            <label><!-- Key Interest Indicators --></label>
+            <section>Key Interest Indicators</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+        <sections>
+            <label><!-- PMT Closing Tracker --></label>
+            <section>PMT Closing Tracker</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG_Opportunity_PlatformLayout</layout>
+        <sections>
+            <label><!-- Activity History --></label>
+            <section>Activity History</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Information as of Opportunity Close Date --></label>
+            <section>Information as of Opportunity Close Date</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Open Activity --></label>
+            <section>Open Activity</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG_Sales_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Method --></label>
+            <section>Contact Method</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Due Diligence --></label>
+            <section>Due Diligence</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG_Research_OpportunityLayout</layout>
+        <sections>
+            <label><!-- Administration --></label>
+            <section>Administration</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Method --></label>
+            <section>Contact Method</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Due Diligence --></label>
+            <section>Due Diligence</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Details --></label>
+            <section>Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Private Equity</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Thesis --></label>
+            <section>Investment Thesis</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+        <sections>
+            <label><!-- Stage details/System Fields --></label>
+            <section>Stage details/System Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Meeting Request --></label>
+        <name>Create_Meeting_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Meeting Request --></label>
+        <name>New_Meeting_Request</name>
+    </quickActions>
+</CustomObjectTranslation>

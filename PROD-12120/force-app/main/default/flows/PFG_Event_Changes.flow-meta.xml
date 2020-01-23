@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes_Scott</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_11_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>1100</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes_Scott</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes_Genna</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_13_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>1300</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes_Genna</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes_Brittany</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_15_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>1500</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes_Brittany</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision2</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes_Scott</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_3_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>300</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes_Scott</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes_Genna</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_5_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>500</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes_Genna</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes_Brittany</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_7_A1</name>
+        <label>Send Email to Support</label>
+        <locationX>700</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes_Brittany</actionName>
+        <actionType>emailAlert</actionType>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Event_Changes</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_9_A1</name>
+        <label>Send Email to Alert</label>
+        <locationX>900</locationX>
+        <locationY>200</locationY>
+        <actionName>Event.Event_Changes</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision10</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Is New Event - Theo</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision10</name>
+        <label>myDecision10</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision12</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_11</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_11</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>Event is Edited - Scott</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>6.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision12</name>
+        <label>myDecision12</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision14</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_13</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_13</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_13_A1</targetReference>
+            </connector>
+            <label>Event is Edited - Genna</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>7.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision14</name>
+        <label>myDecision14</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_15</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_15</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_15_A1</targetReference>
+            </connector>
+            <label>Event is Edited - Brittany</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision2</name>
+        <label>myDecision2</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>Is New Event - Scott</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision4</name>
+        <label>myDecision4</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_5</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>Is New Event - Genna</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision6</name>
+        <label>myDecision6</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision8</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_7</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>Is New Event - Brittany</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>4.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision8</name>
+        <label>myDecision8</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_9</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_9</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_9_A1</targetReference>
+            </connector>
+            <label>Event is Edited - Theo</label>
+        </rules>
+    </decisions>
+    <description>SS: 8-28-19: Added clause to run only for PFG group.      Sends an email to the Support team when an Event is Created or edited.</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; 
+[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp;
+[Event].CreatedBy.Full_name__c  &lt;&gt;&quot;Theodore Buchsbaum&quot; &amp;&amp; 
+
+
+([Event].Opportunity__c.Owner.Full_name__c =&quot;Robert White&quot; || 
+  [Event].Opportunity__c.Owner.Full_name__c =&quot;Dan Fanelli&quot;
+) 
+
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; 
+{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp;
+{!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Theodore Buchsbaum&quot; &amp;&amp; 
+
+
+({!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Robert White&quot; || 
+  {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Dan Fanelli&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp; 
+[Event].LastModifiedBy.Full_name__c &lt;&gt; &quot;Scott Meller&quot; &amp;&amp; 
+
+(  ( ISCHANGED([Event].ActivityDate )  ||
+      ISCHANGED([Event].Description  )  ||
+      ISCHANGED([Event].ActivityDateTime  )  ||
+      ISCHANGED([Event].Location ) 
+     ) &amp;&amp;
+    ( [Event].Opportunity__c.Owner.Full_name__c = &quot;David Mullane&quot; || 
+       [Event].Opportunity__c.Owner.Full_name__c =&quot;Chris Harris&quot; ||
+       [Event].Opportunity__c.Owner.Full_name__c =&quot;Dan Heffernan&quot; ||
+       [Event].Opportunity__c.Owner.Full_name__c = &quot;Jeff Roberts&quot;
+     )
+)  </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_11</name>
+        <dataType>Boolean</dataType>
+        <expression>{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp; 
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Scott Meller&quot; &amp;&amp; 
+
+(  ( ISCHANGED({!myVariable_current.ActivityDate} )  ||
+      ISCHANGED({!myVariable_current.Description}  )  ||
+      ISCHANGED({!myVariable_current.ActivityDateTime}  )  ||
+      ISCHANGED({!myVariable_current.Location} ) 
+     ) &amp;&amp;
+    ( {!myVariable_current.Opportunity__r.Owner.Full_name__c} = &quot;David Mullane&quot; || 
+       {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Chris Harris&quot; ||
+       {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Dan Heffernan&quot; ||
+       {!myVariable_current.Opportunity__r.Owner.Full_name__c} = &quot;Jeff Roberts&quot;
+     )
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp; 
+[Event].LastModifiedBy.Full_name__c &lt;&gt; &quot;Genna Brounstein&quot; &amp;&amp; 
+
+
+( ( ISCHANGED([Event].ActivityDate )  ||
+     ISCHANGED([Event].Description  )  ||
+     ISCHANGED([Event].ActivityDateTime  )  ||
+     ISCHANGED([Event].Location ) 
+    ) &amp;&amp;
+   ( [Event].Opportunity__c.Owner.Full_name__c =&quot;Kate Bizga&quot; ||
+      [Event].Opportunity__c.Owner.Full_name__c =&quot;Jeff Clarke&quot; 
+    )
+) 
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_13</name>
+        <dataType>Boolean</dataType>
+        <expression>{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp; 
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Genna Brounstein&quot; &amp;&amp; 
+
+
+( ( ISCHANGED({!myVariable_current.ActivityDate} )  ||
+     ISCHANGED({!myVariable_current.Description}  )  ||
+     ISCHANGED({!myVariable_current.ActivityDateTime}  )  ||
+     ISCHANGED({!myVariable_current.Location} ) 
+    ) &amp;&amp;
+   ( {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Kate Bizga&quot; ||
+      {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Jeff Clarke&quot; 
+    )
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp; 
+[Event].LastModifiedBy.Full_name__c &lt;&gt; &quot;Salesforce Auto-updater&quot; &amp;&amp; 
+
+
+( ( ISCHANGED([Event].ActivityDate )  ||
+     ISCHANGED([Event].Description  )  ||
+     ISCHANGED([Event].ActivityDateTime  )  ||
+     ISCHANGED([Event].Location ) 
+    ) &amp;&amp;
+   ([Event].Opportunity__c.Owner.Full_name__c = &quot;Jeff Roberts&quot; ||
+     [Event].Opportunity__c.Owner.Full_name__c =&quot;Glenn Ezard&quot; ||
+     [Event].Opportunity__c.Owner.Full_name__c =&quot;Jarrod Rapalje&quot;
+    )
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_15</name>
+        <dataType>Boolean</dataType>
+        <expression>{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp; 
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Salesforce Auto-updater&quot; &amp;&amp; 
+
+
+( ( ISCHANGED({!myVariable_current.ActivityDate} )  ||
+     ISCHANGED({!myVariable_current.Description}  )  ||
+     ISCHANGED({!myVariable_current.ActivityDateTime}  )  ||
+     ISCHANGED({!myVariable_current.Location} ) 
+    ) &amp;&amp;
+   ({!myVariable_current.Opportunity__r.Owner.Full_name__c} = &quot;Jeff Roberts&quot; ||
+     {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Glenn Ezard&quot; ||
+     {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Jarrod Rapalje&quot;
+    )
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; 
+[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp;
+[Event].CreatedBy.Full_name__c  &lt;&gt;&quot;Scott Meller&quot;  &amp;&amp;
+
+
+( [Event].Opportunity__c.Owner.Full_name__c =&quot;David Mullane&quot; || 
+   [Event].Opportunity__c.Owner.Full_name__c =&quot;Jeff Roberts&quot; || 
+   [Event].Opportunity__c.Owner.Full_name__c =&quot;Chris Harris&quot; ||
+   [Event].Opportunity__c.Owner.Full_name__c =&quot;Dan Heffernan&quot;
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; 
+{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp;
+{!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Scott Meller&quot;  &amp;&amp;
+
+
+( {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;David Mullane&quot; || 
+   {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Jeff Roberts&quot; || 
+   {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Chris Harris&quot; ||
+   {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Dan Heffernan&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; 
+[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp; 
+[Event].CreatedBy.Full_name__c  &lt;&gt;&quot;Genna Brounstein&quot; &amp;&amp; 
+
+
+( 
+    [Event].Opportunity__c.Owner.Full_name__c =&quot;Kate Bizga&quot; || 
+    [Event].Opportunity__c.Owner.Full_name__c =&quot;Jeff Clarke&quot;
+
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_5</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; 
+{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp; 
+{!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Genna Brounstein&quot; &amp;&amp; 
+
+
+( 
+    {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Kate Bizga&quot; || 
+    {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Jeff Clarke&quot;
+
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>ISNEW() &amp;&amp; 
+[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp; 
+[Event].CreatedBy.Full_name__c  &lt;&gt;&quot;Salesforce Auto-updater&quot; &amp;&amp; 
+
+
+( 
+    [Event].Opportunity__c.Owner.Full_name__c =&quot;Jeff Roberts&quot; || 
+    [Event].Opportunity__c.Owner.Full_name__c =&quot;Glenn Ezard&quot; ||
+    [Event].Opportunity__c.Owner.Full_name__c =&quot;Jarrod Rapalje&quot; 
+
+) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_7</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; 
+{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp; 
+{!myVariable_current.CreatedBy.Full_name__c}  &lt;&gt;&quot;Salesforce Auto-updater&quot; &amp;&amp; 
+
+
+( 
+    {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Jeff Roberts&quot; || 
+    {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Glenn Ezard&quot; ||
+    {!myVariable_current.Opportunity__r.Owner.Full_name__c} =&quot;Jarrod Rapalje&quot; 
+
+)</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>[Event].RecordType.DeveloperName  =  &quot;PFG_event&quot; &amp;&amp; 
+[Event].LastModifiedBy.Full_name__c &lt;&gt; &quot;Theodore Buchsbaum&quot; &amp;&amp; 
+
+
+( (ISCHANGED([Event].ActivityDate )  ||
+    ISCHANGED([Event].Description  )  ||
+    ISCHANGED([Event].ActivityDateTime  )  ||
+    ISCHANGED([Event].Location ) 
+   ) &amp;&amp;
+   ([Event].Opportunity__c.Owner.Full_name__c = &quot;Robert White&quot;  || 
+     [Event].Opportunity__c.Owner.Full_name__c = &quot;Dan Fanelli&quot;
+    )
+)</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_9</name>
+        <dataType>Boolean</dataType>
+        <expression>{!myVariable_current.RecordType.DeveloperName}  =  &quot;PFG_event&quot; &amp;&amp; 
+{!myVariable_current.LastModifiedBy.Full_name__c} &lt;&gt; &quot;Theodore Buchsbaum&quot; &amp;&amp; 
+
+
+( (ISCHANGED({!myVariable_current.ActivityDate} )  ||
+    ISCHANGED({!myVariable_current.Description}  )  ||
+    ISCHANGED({!myVariable_current.ActivityDateTime}  )  ||
+    ISCHANGED({!myVariable_current.Location} ) 
+   ) &amp;&amp;
+   ({!myVariable_current.Opportunity__r.Owner.Full_name__c} = &quot;Robert White&quot;  || 
+     {!myVariable_current.Opportunity__r.Owner.Full_name__c} = &quot;Dan Fanelli&quot;
+    )
+)</expression>
+    </formulas>
+    <interviewLabel>PFG_Event_Changes-17_InterviewLabel</interviewLabel>
+    <label>PFG Event Changes</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Event</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myDecision</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Event</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Event</objectType>
+    </variables>
+</Flow>

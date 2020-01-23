@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Office_NAme</fullName>
+        <field>Name</field>
+        <formula>Account__r.Name &amp;&quot;(&quot;&amp; City__c &amp;&quot;,&quot;&amp; Country__c&amp;&quot;)&quot;</formula>
+        <name>Update Office NAme</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Office Name</fullName>
+        <actions>
+            <name>Update_Office_NAme</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>TRUE</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Alternative Funds</layout>
+        <sections>
+            <label><!-- Account Status Notes --></label>
+            <section>Account Status Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM Finance</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Account details --></label>
+            <section>Account details</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM_PSG_PFG_AccountLayout</layout>
+        <sections>
+            <label><!-- Account IDs --></label>
+            <section>Account IDs</section>
+        </sections>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Co-Investment Details --></label>
+            <section>Co-Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Pre-Qualification --></label>
+            <section>Compliance Pre-Qualification</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage Details --></label>
+            <section>Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investing Interest and Background --></label>
+            <section>Investing Interest and Background</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions/Date of Last Status Update --></label>
+            <section>Investor Positions/Date of Last Status Update</section>
+        </sections>
+        <sections>
+            <label><!-- Private Fund Investor Information --></label>
+            <section>Private Fund Investor Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BAM_PSG_PFG_Exec_AccountLayout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage --></label>
+            <section>Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BFIN_AccountLayout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Asset Class --></label>
+            <section>Asset Class</section>
+        </sections>
+        <sections>
+            <label><!-- Company Profile --></label>
+            <section>Company Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Profile --></label>
+            <section>Investment Profile</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Account Layout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- BRP Additional Information --></label>
+            <section>BRP Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Zoominfo --></label>
+            <section>Zoominfo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BRP Business Development</layout>
+        <sections>
+            <label><!-- Account Overview --></label>
+            <section>Account Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- ZoomInfo --></label>
+            <section>ZoomInfo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield</layout>
+        <sections>
+            <label><!-- Account Status Notes --></label>
+            <section>Account Status Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield_CorpDev_AccountLayout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brookfield_Exec_AccountLayout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Lending and Revenue Summary --></label>
+            <section>Lending and Revenue Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Notes and Updates --></label>
+            <section>Notes and Updates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Consultant Layout</layout>
+        <sections>
+            <label><!-- Coverage --></label>
+            <section>Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG Users</layout>
+        <sections>
+            <label><!-- Coverage --></label>
+            <section>Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DNC --></label>
+            <section>DNC</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Investment Interest --></label>
+            <section>Investment Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions/Date of Last Status Update --></label>
+            <section>Investor Positions/Date of Last Status Update</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PFG_Account_Platform_Layout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage Details --></label>
+            <section>Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- DNC --></label>
+            <section>DNC</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Consultant</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Investing Interest and Background --></label>
+            <section>Investing Interest and Background</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+        <sections>
+            <label><!-- PFG Coverage Details --></label>
+            <section>PFG Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- PSG Coverage Details --></label>
+            <section>PSG Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- Ratings --></label>
+            <section>Ratings</section>
+        </sections>
+        <sections>
+            <label><!-- Testing --></label>
+            <section>Testing</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PSG Support Account Layout New</layout>
+        <sections>
+            <label><!-- Account Status Notes --></label>
+            <section>Account Status Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Pre-Qualification --></label>
+            <section>Compliance Pre-Qualification</section>
+        </sections>
+        <sections>
+            <label><!-- Investing Interest and Background --></label>
+            <section>Investing Interest and Background</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+        <sections>
+            <label><!-- PFG Coverage Details --></label>
+            <section>PFG Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- PSG Coverage Details --></label>
+            <section>PSG Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- Testing --></label>
+            <section>Testing</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Private Equity</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Info --></label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Admin Account Layout</layout>
+        <sections>
+            <label><!-- Account IDs --></label>
+            <section>Account IDs</section>
+        </sections>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Pre-Qualification --></label>
+            <section>Compliance Pre-Qualification</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage Details --></label>
+            <section>Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- DNC --></label>
+            <section>DNC</section>
+        </sections>
+        <sections>
+            <label><!-- Investing Interest and Background --></label>
+            <section>Investing Interest and Background</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Temp</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission -PSG Account Layout Updated</layout>
+        <sections>
+            <label><!-- Account IDs --></label>
+            <section>Account IDs</section>
+        </sections>
+        <sections>
+            <label><!-- Account Status Notes --></label>
+            <section>Account Status Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Pre-Qualification --></label>
+            <section>Compliance Pre-Qualification</section>
+        </sections>
+        <sections>
+            <label><!-- Investing Interest and Background --></label>
+            <section>Investing Interest and Background</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+        <sections>
+            <label><!-- PFG Coverage Details --></label>
+            <section>PFG Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- PSG Coverage Detials --></label>
+            <section>PSG Coverage Detials</section>
+        </sections>
+        <sections>
+            <label><!-- Shareholder Details --></label>
+            <section>Shareholder Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission BAC Account Layout Admin</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Information --></label>
+            <section>Compliance Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission BAC AccountLayout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Information --></label>
+            <section>Compliance Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission BLP Account Layout</layout>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission PFG CRM AccountLayout</layout>
+        <sections>
+            <label><!-- Account IDs --></label>
+            <section>Account IDs</section>
+        </sections>
+        <sections>
+            <label><!-- Account Status --></label>
+            <section>Account Status</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Co-Investment Details --></label>
+            <section>Co-Investment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Pre-Qualification --></label>
+            <section>Compliance Pre-Qualification</section>
+        </sections>
+        <sections>
+            <label><!-- Coverage and Investing Interest --></label>
+            <section>Coverage and Investing Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Investing Interest --></label>
+            <section>Investing Interest</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZZ_Decomission PSG PM Account Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Investor Positions --></label>
+            <section>Investor Positions</section>
+        </sections>
+        <sections>
+            <label><!-- PFG Coverage Details --></label>
+            <section>PFG Coverage Details</section>
+        </sections>
+        <sections>
+            <label><!-- PSG Coverage Details --></label>
+            <section>PSG Coverage Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add Client --></label>
+        <name>Add_Client</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Client Relationship --></label>
+        <name>Add_Client_Relationship</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Commitment Opportunity --></label>
+        <name>Add_Commitment_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Consultant --></label>
+        <name>Add_Consultant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Coverage --></label>
+        <name>Add_Coverage</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Field Consultant Contact --></label>
+        <name>Add_Field_Consultant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Research Opp --></label>
+        <name>Add_Research_Opp</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Consultant Interest --></label>
+        <name>New_Consultant_Interest</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>Update_Account</name>
+    </quickActions>
+</CustomObjectTranslation>

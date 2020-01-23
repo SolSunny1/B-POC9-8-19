@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Related to SF-853 to grant edit access to Theo, Scott, and Caroline.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Preqin_Firm_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Account: Edit on Preqin Firm ID for CRM Associates</label>
+    <license>Salesforce</license>
+</PermissionSet>

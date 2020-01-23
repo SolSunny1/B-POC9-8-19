@@ -1,0 +1,143 @@
+<apex:page standardcontroller="Task" extensions="SendNote" tabstyle="Task" id="pge">  
+   <script type="text/javascript">
+        var userName = '';
+        /*
+        *    function to handle checkbox selection
+        */
+        function doCheckboxChange(cb,itemId){
+          
+            if(cb.checked==true){
+           
+                aSelectItem(itemId);
+                document.getElementById('usrName').innerHTML = userName;
+            }
+            else{
+                aDeselectItem(itemId);
+            }
+            
+        }
+       
+           function confirmDisbaled(value) {
+        for(var i = 0;document.getElementById('pge:frm:mpb:pgbsec2:idPtable:'+i+':idschkChild')!=null;i++)
+            document.getElementById('pge:frm:mpb:pgbsec2:idPtable:'+i+':idschkChild').checked = value; 
+            if(value)
+            aSelectItem(null,value);
+            else
+            {
+              aDeselectAllItem(value);
+            }
+      }
+        function replaceEnter(evt){
+          var e = evt || window.event;
+          if (e.keyCode == 13){
+            var allElements = document.getElementsByTagName('*');
+            for (var i = 0; i < allElements.length; i++){
+              if (allElements[i].id.indexOf("idGo") !=-1){
+                allElements[i].click();
+              }
+            }
+            return false;
+          }else{
+            return true;
+          }
+        }
+        document.onkeypress = replaceEnter;
+    </script>
+     <apex:outputpanel >
+        <apex:actionstatus id="actStatusId">
+            <apex:facet name="start">
+                <div class="waitingSearchDiv" id="el_loading" style="background-color: #DCD6D6;
+                       height: 100%;opacity:0.65;width:100%;"> 
+                    <div class="waitingHolder" style="top: 74.2px; width: 91px;">
+                        <img class="waitingImage" src="/img/loading.gif" title="Please Wait..." />
+                        <span class="waitingDescription">Please Wait...</span>
+                    </div>
+                </div>
+            </apex:facet>
+        </apex:actionstatus>
+    </apex:outputpanel>
+    
+     <apex:form id="frm">
+          <apex:sectionHeader title="Send Meeting Notes" subtitle="{!Task.Subject}"/>
+            <div class="ptBreadcrumb">&nbsp;&nbsp;&nbsp;<a href="/{!Task.Id}">Back to Task: {!Task.subject}</a></div><br></br>
+        <!-- handle selected item -->
+        <apex:actionFunction name="aDeselectAllItem" action="{!doDeselectAllItem}" rerender="pgbsec2" status="actStatusId" >
+            <apex:param name="allCheckboxes" value="" assignTo="{!allCheckboxes}"/>
+        </apex:actionFunction>
+        <apex:actionFunction name="aSelectItem" action="{!doSelectItem}" rerender="pgbsec2" status="actStatusId">
+            <apex:param name="contextItem" value="" assignTo="{!contextItem}"/>
+            <apex:param name="allCheckboxes" value="" assignTo="{!allCheckboxes}"/>
+        </apex:actionFunction>
+        
+        <!-- handle deselected item -->
+        <apex:actionFunction name="aDeselectItem" action="{!doDeselectItem}" rerender="pgbsec2" status="actStatusId">
+            <apex:param name="contextItem" value="" assignTo="{!contextItem}"/>
+        </apex:actionFunction>
+         
+        <apex:pageBlock id="mpb"> <!-- title="Send Notes to selected Users with Attachment"  -->
+         <apex:pageBlockSection columns="1" id="pgeBSection">
+             <apex:outputText style="font-weight: bold" value="Subject"/>
+             <apex:inputText value="{!strSubject}" style="margin: 2px; width: 600px;" />   
+             <apex:outputText style="font-weight: bold" value="Body"/>
+             <apex:inputTextArea value="{!emailBody}" style="margin: 2px; width: 600px; "  rows="10"  />          
+          </apex:pageBlockSection>
+          
+           <apex:pageMessages />              
+           <apex:pageBlockButtons location="bottom">        
+                <apex:commandButton action="{!doSendEmail}" value="Send Task details via Email" rerender="mpb"   />
+                <apex:commandButton action="{!Cancel}" value="Cancel"  />
+            </apex:pageBlockButtons>
+             <apex:pageBlockSection columns="2" title="Search Users with filters" >
+               <apex:outputText value="Search user(s), separate multiples by comma"/>
+              <apex:inputText value="{!strUseFullName}"/> 
+              
+                 <apex:outputText value="Search by User Role"/>
+                 <apex:selectlist value="{!roleId}" multiselect="false" size="1">
+                   <apex:selectOptions value="{!roles}"/>
+              </apex:selectlist>
+                  
+               <apex:outputText value="Show all Subordinate for selected Role"/>  
+               <apex:inputcheckbox value="{!IsAddSubordinate}"  />         
+                 <apex:commandButton id="idGo" action="{!searchUser}" tabindex="1" onclick="doSearch();" value="Go" rerender="mpb"  status="actStatusId" />
+                 <apex:actionFunction name="doSearch" action="{!searchUser}" rerender="mpb" />
+             </apex:pageBlockSection>
+            <!-- table of data -->
+            <apex:panelGrid columns="2">
+               <apex:inputcheckbox value="{!sendattachment}" tabindex="2" />
+               <apex:outputText value="Send Attachment"/>
+          </apex:panelGrid>
+                
+            <!-- count of selected items -->
+   
+           <apex:pageBlockSection title="Total records Count {!totalCount}, Page {!pageNumber} of {!totalPages}" columns="1" id="pgbsec2">
+          
+            <apex:outputText value="{!usersName}"/>
+             <!--  <apex:commandButton action="{!selectDeselectRows}" value="(De)Select All Users"  rerender="mpb"  />-->
+             <apex:pageBlockTable title="Page {!pageNumber} of {!totalPages} " value="{!listUsers}" var="c" id="idPtable">
+                 
+					<apex:column >
+                     <apex:facet name="header">
+                    <apex:inputCheckBox value="{!allCheckboxes}"  onchange="confirmDisbaled(this.checked)"  id="chkId">
+                    
+                  </apex:inputCheckBox>
+                </apex:facet>                    
+                <apex:inputCheckbox value="{!c.IsSelected}" onchange="doCheckboxChange(this,'{!c.objUser.Id}')" id="idschkChild"/>
+                </apex:column>
+                <apex:column value="{!c.objUser.Name}"/>
+                <apex:column value="{!c.objUser.Email}"/>
+            </apex:pageBlockTable>
+          </apex:pageBlockSection>
+            
+            
+            <!-- next, previous and page info -->
+             
+            <apex:commandbutton action="{!doPrevious}"  disabled="{!!hasPrevious}" value="Previous" rerender="mpb"  />
+              <apex:commandbutton action="{!doNext}" disabled="{!!hasNext}" value="Next" rerender="mpb"  />
+            
+        
+        </apex:pageBlock> 
+        
+    </apex:form>
+ 
+ 
+</apex:page>

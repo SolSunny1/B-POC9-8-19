@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Brookfield Renewable lightning Home page</description>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>dashboardName</name>
+                <value>MDDmgMNVXwAeuTxdLADhyEzdQTfAuH</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideOnError</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentName>desktopDashboards:embeddedDashboard</componentName>
+        </componentInstances>
+        <name>region1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region3</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>BRP Home</masterLabel>
+    <quickActionList>
+        <quickActionListItems>
+            <quickActionName>Log_a_Meeting</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>New_Contact_BRP</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>New_Account_BRP</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>NewTask</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>BRP_New_Opportunity</quickActionName>
+        </quickActionListItems>
+    </quickActionList>
+    <template>
+        <name>flexipage:appHomeTemplateHeaderTwoColumnsLeftSidebar</name>
+    </template>
+    <type>AppPage</type>
+</FlexiPage>

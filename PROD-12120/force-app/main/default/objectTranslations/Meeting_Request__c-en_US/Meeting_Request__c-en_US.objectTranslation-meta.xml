@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Meeting Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Meeting Requests</value>
+    </caseValues>
+    <layouts>
+        <layout>Meeting Request Layout</layout>
+        <sections>
+            <label><!-- Client Service Only --></label>
+            <section>Client Service Only</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Final Date and Time of Meeting --></label>
+            <section>Final Date and Time of Meeting</section>
+        </sections>
+        <sections>
+            <label><!-- Materials and Logistics --></label>
+            <section>Materials and Logistics</section>
+        </sections>
+        <sections>
+            <label><!-- Submit this Meeting Request to Team --></label>
+            <section>Submit this Meeting Request to Team</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

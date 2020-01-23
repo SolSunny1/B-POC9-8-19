@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Salesforce Support</name>
+    <queueMembers>
+        <users>
+            <user>ana.puric@brookfield.com</user>
+            <user>dan.richards@brookfield.com</user>
+            <user>pfportal@brookfield.com</user>
+            <user>joe.cavicchia@brookfield.com</user>
+            <user>joshy.john@brookfield.com</user>
+            <user>mohammad.quzmar@brookfield.com</user>
+            <user>suresh.sundar@brookfield.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

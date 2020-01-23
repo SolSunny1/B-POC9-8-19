@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contact_Merge_emails_to_groups</fullName>
+        <ccEmails>dlbamteam_pfgsf@brookfield.com</ccEmails>
+        <description>Contact Merge emails to groups</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jennifer.grzech@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joe.cavicchia@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>joshy.john@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>linda.northwood@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>palwasha.salehy@brookfield.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>System_Emails/Merge_question</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Account_Last_Changed_By</fullName>
+        <field>Account_Last_Updated_by__c</field>
+        <formula>LastModifiedBy.FirstName + &#39; &#39; +  LastModifiedBy.LastName</formula>
+        <name>Account Last Changed By</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BLP_Primary_contact_Populate_ID</fullName>
+        <field>BLP_Primary_Contact__c</field>
+        <formula>IF(BLP_Primary__c, AccountId, null)</formula>
+        <name>BLP Primary contact Populate ID</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Invited_By_2_if_removed</fullName>
+        <field>Private_Investor_Day_Invited_by__c</field>
+        <name>Clear Invited By 2 if removed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Invited_By_3_if_removed</fullName>
+        <field>Invited_By_Private_Funds__c</field>
+        <name>Clear Invited By 3 if removed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Invited_By_if_removed</fullName>
+        <field>Invited_By_Private_Funds__c</field>
+        <name>Clear Invited By if removed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Sent_from_2</fullName>
+        <field>Public_Investor_Day_Invite_Sent_From__c</field>
+        <name>Clear Sent from 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Sent_from_text_fields</fullName>
+        <field>Invite_Sent_From_Private_Investor_Day__c</field>
+        <name>Clear Sent from text fields</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_Participant_type_changed</fullName>
+        <field>Participant_Type_Date_Changed__c</field>
+        <formula>NOW()</formula>
+        <name>Date Participant type changed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_changed_by</fullName>
+        <field>Email_Last_updated_by__c</field>
+        <formula>LastModifiedBy.FirstName + &#39; &#39; +LastModifiedBy.LastName</formula>
+        <name>Email changed by</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_prior_value</fullName>
+        <field>Email_prior_value__c</field>
+        <formula>PRIORVALUE( Email )</formula>
+        <name>Email prior value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PFG_Invitee_Type_Private_Investor_Day</fullName>
+        <description>To change the invitee type to &quot;Removed&quot; when the contact status changed to &quot;To be deleted&quot;, &quot;No longer w/company&quot;, &quot;Retired/Inactive&quot;</description>
+        <field>Private_Investor_Day_Invitee_Type__c</field>
+        <literalValue>Removed</literalValue>
+        <name>PFG Invitee Type-Private Investor Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PopulateAccountName</fullName>
+        <field>AccountName__c</field>
+        <formula>Account.Name</formula>
+        <name>PopulateAccountName</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_text_of_Participant_Type</fullName>
+        <field>Participant_Type__c</field>
+        <formula>Registration_Type_CVENT__c</formula>
+        <name>Populate text of Participant Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Previous_value_of_Participant_type</fullName>
+        <field>Participant_Type_Prior_Value__c</field>
+        <formula>PRIORVALUE (Participant_Type__c )</formula>
+        <name>Previous value of Participant type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_DX_Username</fullName>
+        <field>DX_Email__c</field>
+        <formula>Email</formula>
+        <name>Set DX Username</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Account_Change</fullName>
+        <field>AccountName__c</field>
+        <formula>Account.Name</formula>
+        <name>Track Account Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Account_Change_Date</fullName>
+        <field>Account_Last_Updated_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Track Account Change Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Current_Account_Name</fullName>
+        <field>AccountName__c</field>
+        <formula>Account_Name__c</formula>
+        <name>Track Current Account Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Name_Change</fullName>
+        <field>Prior_Contact_Name__c</field>
+        <formula>PRIORVALUE( FirstName ) + &#39; &#39; + PRIORVALUE( LastName )</formula>
+        <name>Track Name Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Name_Change_Date</fullName>
+        <field>Contact_Last_Updated_date__c</field>
+        <formula>TODAY()</formula>
+        <name>Track Name Change Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Name_Changed_By</fullName>
+        <field>Contact_Last_Updated_by__c</field>
+        <formula>LastModifiedBy.FirstName + &#39; &#39; + LastModifiedBy.LastName</formula>
+        <name>Track Name Changed By</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Phone_Changed_date</fullName>
+        <field>Phone_Number_Last_Updated_date__c</field>
+        <formula>TODAY()</formula>
+        <name>Track Phone Changed date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Phone_Prior_value</fullName>
+        <field>Phone_Number_Prior_Value__c</field>
+        <formula>PRIORVALUE( Phone )</formula>
+        <name>Track  Phone Prior value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_Phone_changed_by</fullName>
+        <field>Phone_Number_Last_Updated_by__c</field>
+        <formula>LastModifiedBy.FirstName + &#39; &#39; + LastModifiedBy.LastName</formula>
+        <name>Track Phone changed by</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Track_prior_Account_Name</fullName>
+        <field>Prior_Account_Name__c</field>
+        <formula>PRIORVALUE(    AccountName__c    )</formula>
+        <name>Track prior Account Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Account_Name</fullName>
+        <field>AccountName__c</field>
+        <formula>Account.Name</formula>
+        <name>Update Account Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Contact_Status_Tracker</fullName>
+        <field>Contact_Status_Tracker__c</field>
+        <formula>IF( ISPICKVAL(Contact_Status__c, &#39;No Longer w/ Company&#39;), &#39;No Longer w/ Company&#39;, IF( ISPICKVAL(Contact_Status__c, &#39;Retired / Inactive&#39;), &#39;Retired / Inactive&#39;, &#39;&#39;))</formula>
+        <name>Update Contact Status Tracker</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Email_Change_Date_1</fullName>
+        <field>Email_Last_updated_date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Email Change Date_1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Email_change_Date</fullName>
+        <field>Email_Change_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Update Email change Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Invite_sent_from_field</fullName>
+        <description>Update the Sent from Field</description>
+        <field>Invite_Sent_From_Private_Investor_Day__c</field>
+        <formula>Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp;&quot; &quot;&amp; Invite_Sent_From_Private_Invest_Day_C__r.LastName</formula>
+        <name>Update Invite sent from field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Invited_By_field</fullName>
+        <description>For PFG Investor Day invite fields</description>
+        <field>Invited_By_Private_Funds__c</field>
+        <formula>Private_Investor_Day_Invited_by__r.Full_name__c</formula>
+        <name>Update Invited By field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Invited_By_new</fullName>
+        <field>Invited_By_Private_Funds__c</field>
+        <formula>Private_Investor_Day_Invited_by__r.Full_name__c</formula>
+        <name>Update Invited By</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Registration_Type_Previous_value</fullName>
+        <field>Participant_Type_Prior_Value__c</field>
+        <formula>PRIORVALUE(Participant_Type__c)</formula>
+        <name>Update Registration Type Previous value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Registration_Type_Text</fullName>
+        <field>Participant_Type__c</field>
+        <formula>Registration_Type_CVENT__c</formula>
+        <name>Update Registration Type Text</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Registration_Type_date_change</fullName>
+        <field>Participant_Type_Date_Changed__c</field>
+        <formula>NOW()</formula>
+        <name>Update Registration Type date change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sent_from_Field_4</fullName>
+        <field>Public_Investor_Day_Invite_Sent_From__c</field>
+        <name>Update Sent from Field 4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sent_from_Fields_new</fullName>
+        <field>Invite_Sent_From_Private_Investor_Day__c</field>
+        <formula>(Invite_Sent_From_Private_Invest_Day_C__r.FirstName &amp; &quot; &quot; &amp;  Public_Investor_Day_Invite_Sent_From__r.LastName)</formula>
+        <name>Update Sent from Fields</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Tracker_FIeld</fullName>
+        <field>Contact_Tracker_Field_Updated_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Tracker FIeld</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Tracker_FIeld3</fullName>
+        <field>Contact_Tracker_Field_Updated_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Tracker FIeld</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Tracker_FIeld4</fullName>
+        <field>Contact_Tracker_Field_Updated_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Tracker FIeld</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Tracker_Field2</fullName>
+        <field>Contact_Tracker_Field_Updated_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Tracker Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updated_Sent_from_4</fullName>
+        <field>Invite_Sent_From_Private_Investor_Day__c</field>
+        <name>Updated Sent from 4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>BLP Primary contact Populate ID</fullName>
+        <actions>
+            <name>BLP_Primary_contact_Populate_ID</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(BLP_Primary__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contact status for Merge</fullName>
+        <actions>
+            <name>Contact_Merge_emails_to_groups</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>To be discussed</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>DX%3A Set Username</fullName>
+        <actions>
+            <name>Set_DX_Username</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.DX_Email__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.of_Permissions__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Investor Day Registration Type Changed</fullName>
+        <actions>
+            <name>Update_Registration_Type_Previous_value</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Registration_Type_date_change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Registration_Type_CVENT__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Participant_Type__c</field>
+            <operation>equals</operation>
+            <value>ISCHANGED</value>
+        </criteriaItems>
+        <description>To help determine if a new participant type field needs to be created.</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Investor Day Registration Type Populate</fullName>
+        <actions>
+            <name>Update_Registration_Type_Text</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Contact.Private_Investor_Day_Invitee_Type__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Registration_Type_CVENT__c</field>
+            <operation>equals</operation>
+            <value>ISCHANGED</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Registration_Type_CVENT__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>To help determine if a new participant type field needs to be created.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Invitee Type-Private Investor Day</fullName>
+        <actions>
+            <name>PFG_Invitee_Type_Private_Investor_Day</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Inactive</value>
+        </criteriaItems>
+        <description>To change the invitee type to &quot;Removed&quot; when the contact status changed to &quot;Inactive&quot;</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Private Fund Investor Day Populate Fields</fullName>
+        <actions>
+            <name>Update_Invited_By_new</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Sent_from_Fields_new</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Private_Investor_Day_Invitee_Type__c</field>
+            <operation>equals</operation>
+            <value>Investor,Prospect,Internal</value>
+        </criteriaItems>
+        <description>This field Populates the Private Fund Investor Day text fields if they have been Added to the list.  This is for CVENT Integration</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PFG Private Fund Investor Day Removed from list clean up</fullName>
+        <actions>
+            <name>Clear_Invited_By_2_if_removed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Clear_Invited_By_3_if_removed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Clear_Sent_from_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Updated_Sent_from_4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Private_Investor_Day_Invitee_Type__c</field>
+            <operation>notEqual</operation>
+            <value>Investor,Prospect,Internal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Private_Investor_Day_Invitee_Type__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>This field clears the Private Fund Investor Day fields if they have been removed from the list</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>PopuLateAccountName</fullName>
+        <actions>
+            <name>PopulateAccountName</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK(Account.Id))</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Track Account Name change on Contact</fullName>
+        <actions>
+            <name>Account_Last_Changed_By</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_Account_Change_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_Current_Account_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_prior_Account_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Tracker_FIeld</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>ISCHANGED( AccountName__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Track Contact Phone Number Changes</fullName>
+        <actions>
+            <name>Track_Phone_Changed_date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_Phone_Prior_value</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_Phone_changed_by</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Tracker_Field2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Phone )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Track Contact Status Change</fullName>
+        <actions>
+            <name>Update_Contact_Status_Tracker</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Contact.Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>No Longer w/ Company</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.Contact_Status__c</field>
+            <operation>equals</operation>
+            <value>Retired / Inactive</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Track Email Changes</fullName>
+        <actions>
+            <name>Email_changed_by</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Email_prior_value</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Email_Change_Date_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Tracker_FIeld3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED(Email)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Track Name change on Contact</fullName>
+        <actions>
+            <name>Track_Name_Change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_Name_Change_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Track_Name_Changed_By</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Tracker_FIeld4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR(ISCHANGED( FirstName ),ISCHANGED(  LastName  ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Account Name Changes</fullName>
+        <actions>
+            <name>Update_Account_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>True</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>
