@@ -21,6 +21,8 @@ private class TaskTriggerTest {
         
         insert objLead;
         
+        Id TskRecType = Schema.SObjectType.Task.getRecordTypeInfosByDeveloperName().get('Default_Task_Record_Type').getRecordTypeId();
+
         Test.startTest();
         List<Task> tskList = new List<Task>();
       
@@ -30,6 +32,7 @@ private class TaskTriggerTest {
         tsk.WhoId = ct.Id;
         tsk.Type = 'Portfolio Review';
         tsk.Call_Note_Type__c = 'Note';
+        tsk.RecordTypeId = TskRecType;
         tskList.add(tsk);
         Task tsk1 = new Task();
         tsk1.Subject = 'Email: Test';
@@ -37,12 +40,14 @@ private class TaskTriggerTest {
         tsk1.WhoId = ct.Id;
         tsk1.Type = 'Portfolio Review';
         tsk1.Call_Note_Type__c = 'Task';
+        tsk.RecordTypeId = TskRecType;
         tskList.add(tsk1);
         Task tsk2 = new Task();
         tsk2.Subject = 'Email: Test';
         tsk2.WhoId = objLead.Id;
         tsk2.Type = 'Portfolio Review';
         tsk2.Call_Note_Type__c = 'Note';
+        tsk.RecordTypeId = TskRecType;
         tskList.add(tsk2);
         insert tskList;
         
