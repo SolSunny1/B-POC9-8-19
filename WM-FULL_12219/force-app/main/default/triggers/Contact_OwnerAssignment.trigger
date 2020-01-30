@@ -36,6 +36,8 @@ trigger Contact_OwnerAssignment on Contact (after insert, after update) {
             }
         }
     }
+
+    
     if(Trigger.isUpdate){
         for(contact new_c: Trigger.new){
             //if(new_c.Do_Not_Auto_Update_Owner__c == false ){  //SS: 6-27-19 moved this if statement before below old_c line. 
